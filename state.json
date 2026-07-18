@@ -1,7 +1,6 @@
 {
   "ready": [
     "ALLOUSDT",
-    "GUSDT",
     "KAITOUSDT",
     "PUMPUSDT",
     "SPELLUSDT",
@@ -9,5 +8,5 @@
     "TRXUSDT",
     "XECUSDT"
   ],
-  "at": "2026-07-18T11:00:43.611Z"
+  "at": "2026-07-18T11:15:30.485Z"
 }
