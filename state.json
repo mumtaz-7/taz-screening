@@ -1,6 +1,7 @@
 {
   "ready": [
     "BTCUSDT",
+    "DEXEUSDT",
     "ETHFIUSDT",
     "KAITOUSDT",
     "PUMPUSDT",
@@ -9,5 +10,5 @@
     "TRXUSDT",
     "ZECUSDT"
   ],
-  "at": "2026-07-18T12:45:30.855Z"
+  "at": "2026-07-18T13:00:43.249Z"
 }
