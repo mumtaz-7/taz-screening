@@ -1,10 +1,12 @@
 {
   "ready": [
     "ACEUSDT",
+    "ADAUSDT",
+    "ETHUSDT",
     "TRXUSDT",
     "XLMUSDT",
     "XRPUSDT",
     "ZBTUSDT"
   ],
-  "at": "2026-07-18T18:15:32.137Z"
+  "at": "2026-07-18T18:30:39.237Z"
 }
