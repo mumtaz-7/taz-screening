@@ -1,4 +1,8 @@
 {
-  "ready": [],
-  "at": null
+  "ready": [
+    "DEXEUSDT",
+    "DODOUSDT",
+    "ZECUSDT"
+  ],
+  "at": "2026-07-18T00:00:34.407Z"
 }
