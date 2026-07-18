@@ -1,11 +1,13 @@
 {
   "ready": [
     "ALLOUSDT",
+    "BTCUSDT",
     "KAITOUSDT",
     "PUMPUSDT",
     "SPELLUSDT",
     "TRUMPUSDT",
-    "TRXUSDT"
+    "TRXUSDT",
+    "ZECUSDT"
   ],
-  "at": "2026-07-18T11:45:32.885Z"
+  "at": "2026-07-18T12:00:43.399Z"
 }
