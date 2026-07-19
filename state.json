@@ -1,11 +1,9 @@
 {
   "ready": [
     "ACEUSDT",
-    "ALLOUSDT",
     "ARBUSDT",
     "BANKUSDT",
-    "KAITOUSDT",
-    "ZECUSDT"
+    "KAITOUSDT"
   ],
-  "at": "2026-07-19T11:15:33.366Z"
+  "at": "2026-07-19T11:30:38.340Z"
 }
