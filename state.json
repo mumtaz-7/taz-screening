@@ -1,10 +1,11 @@
 {
   "ready": [
     "ALLOUSDT",
+    "BANKUSDT",
     "OPNUSDT",
-    "PUMPUSDT",
     "TLMUSDT",
-    "TRUMPUSDT"
+    "TRUMPUSDT",
+    "XECUSDT"
   ],
-  "at": "2026-07-19T01:15:31.126Z"
+  "at": "2026-07-19T01:30:39.597Z"
 }
