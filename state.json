@@ -1,7 +1,9 @@
 {
   "ready": [
     "BANKUSDT",
-    "LTCUSDT"
+    "BTCUSDT",
+    "LTCUSDT",
+    "SOXLBUSDT"
   ],
-  "at": "2026-07-19T22:15:31.278Z"
+  "at": "2026-07-19T22:30:39.505Z"
 }
