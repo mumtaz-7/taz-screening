@@ -1,10 +1,11 @@
 {
   "ready": [
-    "ACEUSDT::ChoCh",
+    "ACEUSDT::BoS",
     "ALICEUSDT::ChoCh",
     "BANKUSDT::ChoCh",
     "ETHUSDT::ChoCh",
     "HEMIUSDT::ChoCh",
+    "LINKUSDT::ChoCh",
     "NEARUSDT::BoS",
     "PENGUUSDT::ChoCh",
     "SKHYBUSDT::BoS",
@@ -15,5 +16,5 @@
     "XECUSDT::ChoCh",
     "XRPUSDT::ChoCh"
   ],
-  "at": "2026-07-20T11:15:30.818Z"
+  "at": "2026-07-20T11:30:39.913Z"
 }
