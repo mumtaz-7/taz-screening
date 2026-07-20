@@ -3,7 +3,6 @@
     "ADAUSDT::BoS",
     "CRCLBUSDT::BoS",
     "HEMIUSDT::BoS",
-    "INJUSDT::BoS",
     "JTOUSDT::BoS",
     "KAITOUSDT::ChoCh",
     "LDOUSDT::BoS",
@@ -14,7 +13,8 @@
     "PUMPUSDT::BoS",
     "SOLUSDT::ChoCh",
     "SYNUSDT::BoS",
-    "TAOUSDT::BoS"
+    "TAOUSDT::BoS",
+    "WLDUSDT::BoS"
   ],
-  "at": "2026-07-20T23:15:33.419Z"
+  "at": "2026-07-20T23:30:40.545Z"
 }
