@@ -1,16 +1,19 @@
 {
   "ready": [
-    "ACEUSDT",
-    "ALICEUSDT",
-    "BANKUSDT",
-    "ETHUSDT",
-    "HEMIUSDT",
-    "PENGUUSDT",
-    "SNDKBUSDT",
-    "SYNUSDT",
-    "TOWNSUSDT",
-    "XECUSDT",
-    "XRPUSDT"
+    "ACEUSDT::ChoCh",
+    "ALICEUSDT::ChoCh",
+    "BANKUSDT::ChoCh",
+    "ETHUSDT::ChoCh",
+    "HEMIUSDT::ChoCh",
+    "NEARUSDT::BoS",
+    "PENGUUSDT::ChoCh",
+    "SKHYBUSDT::BoS",
+    "SNDKBUSDT::ChoCh",
+    "SOXLBUSDT::BoS",
+    "SYNUSDT::ChoCh",
+    "TOWNSUSDT::ChoCh",
+    "XECUSDT::ChoCh",
+    "XRPUSDT::ChoCh"
   ],
-  "at": "2026-07-20T10:45:31.403Z"
+  "at": "2026-07-20T10:47:39.371Z"
 }
