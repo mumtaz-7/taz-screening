@@ -5,6 +5,7 @@
     "BANKUSDT::ChoCh",
     "ETHUSDT::ChoCh",
     "HEMIUSDT::ChoCh",
+    "KAITOUSDT::ChoCh",
     "NEARUSDT::BoS",
     "PENGUUSDT::ChoCh",
     "SKHYBUSDT::BoS",
@@ -15,5 +16,5 @@
     "XECUSDT::ChoCh",
     "XRPUSDT::ChoCh"
   ],
-  "at": "2026-07-20T10:47:39.371Z"
+  "at": "2026-07-20T10:54:18.915Z"
 }
