@@ -1,11 +1,14 @@
 {
   "ready": [
+    "BANKUSDT::ChoCh",
+    "BNBUSDT::ChoCh",
     "CRCLBUSDT::BoS",
     "ENAUSDT::BoS",
-    "ETHUSDT::ChoCh",
+    "ETHUSDT::BoS",
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
     "KITEUSDT::ChoCh",
+    "LINKUSDT::ChoCh",
     "PARTIUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "PUMPUSDT::ChoCh",
@@ -19,5 +22,5 @@
     "YBUSDT::ChoCh",
     "ZAMAUSDT::BoS"
   ],
-  "at": "2026-07-20T15:45:33.540Z"
+  "at": "2026-07-20T16:00:48.274Z"
 }
