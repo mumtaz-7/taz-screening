@@ -6,7 +6,6 @@
     "BANKUSDT::ChoCh",
     "CRCLBUSDT::BoS",
     "ENAUSDT::BoS",
-    "ETHUSDT::BoS",
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
     "JTOUSDT::ChoCh",
@@ -21,9 +20,8 @@
     "TAOUSDT::BoS",
     "TOWNSUSDT::BoS",
     "UNIUSDT::BoS",
-    "VIRTUALUSDT::BoS",
     "XPLUSDT::BoS",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-20T19:00:43.499Z"
+  "at": "2026-07-20T19:15:33.405Z"
 }
