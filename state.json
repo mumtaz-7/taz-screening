@@ -5,9 +5,10 @@
     "ENAUSDT::BoS",
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
-    "JTOUSDT::ChoCh",
+    "JTOUSDT::BoS",
     "LDOUSDT::BoS",
     "LINKUSDT::BoS",
+    "METUSDT::BoS",
     "ONDOUSDT::BoS",
     "PENGUUSDT::BoS",
     "PUMPUSDT::BoS",
@@ -18,5 +19,5 @@
     "UNIUSDT::BoS",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-20T20:45:36.612Z"
+  "at": "2026-07-20T21:00:46.538Z"
 }
