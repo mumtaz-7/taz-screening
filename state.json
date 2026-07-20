@@ -1,6 +1,7 @@
 {
   "ready": [
     "ADAUSDT::BoS",
+    "CRCLBUSDT::BoS",
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
     "JTOUSDT::BoS",
@@ -8,11 +9,12 @@
     "LDOUSDT::BoS",
     "LINKUSDT::BoS",
     "METUSDT::BoS",
+    "MUBUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "PUMPUSDT::BoS",
     "SOLUSDT::ChoCh",
     "SYNUSDT::BoS",
     "TAOUSDT::BoS"
   ],
-  "at": "2026-07-20T23:00:42.534Z"
+  "at": "2026-07-20T23:15:33.419Z"
 }
