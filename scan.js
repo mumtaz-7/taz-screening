@@ -1,5 +1,5 @@
 /* =====================================================================
-   Crypto SMC Scanner → Telegram  (CHoCH READY, M15)
+   Crypto SMC Scanner → Telegram  (ChoCh READY, M15)
    Port dari LuxAlgo_ChoCh_Screener_v3.html (logika CHoCH persis sama).
    Jalan di GitHub Actions tiap ~15 menit. Kirim notif cuma buat READY BARU.
    Data: data-api.binance.vision (endpoint publik Binance, minim geo-block).
@@ -110,15 +110,16 @@ async function notify(fresh, ready){
   if(!TG_TOKEN || !TG_CHAT){ console.log('TELEGRAM_TOKEN / CHAT_ID kosong — skip kirim.'); return; }
   const cap = 25;
   const shown = fresh.slice(0, cap);
-  let msg = `🚀 ${fresh.length} CHoCH READY baru · M15\n\n`;
+  let msg = `▸ <b>${fresh.length} ChoCh Ready baru</b> · <b>M15</b>\n\n`;
   for(const s of shown){ const a = ready[s];
-    msg += `${s}\n  entry ${fmt(a.entry)} · SL ${fmt(a.strongLow)} (-${a.slPct.toFixed(1)}%) · TP ${fmt(a.weakHigh)} (+${a.gainPct.toFixed(1)}%) · R:R ${a.rr.toFixed(2)}\n  https://www.tradingview.com/chart/?symbol=BINANCE:${s}\n\n`;
+    msg += `<b>${s}</b>\n  entry ${fmt(a.entry)} · SL ${fmt(a.strongLow)} (-${a.slPct.toFixed(1)}%) · TP ${fmt(a.weakHigh)} (+${a.gainPct.toFixed(1)}%) · R:R ${a.rr.toFixed(2)}\n  https://www.tradingview.com/chart/?symbol=BINANCE:${s}\n\n`;
   }
   if(fresh.length > cap) msg += `…+${fresh.length - cap} lagi\n`;
-  msg += `\n⚠ Bukan sinyal buy. Verifikasi di chart (LuxAlgo swing=50, internal=5) dulu.`;
+  msg += `\n— Bukan sinyal buy. Verifikasi di chart (LuxAlgo swing=50, internal=5) dulu.`;
+  msg += `\nNot Financial Advice · Do Your Own Research.`;
   const r = await fetch(`https://api.telegram.org/bot${TG_TOKEN}/sendMessage`, {
     method:'POST', headers:{'Content-Type':'application/json'},
-    body: JSON.stringify({chat_id: TG_CHAT, text: msg, disable_web_page_preview: true})
+    body: JSON.stringify({chat_id: TG_CHAT, text: msg, parse_mode: 'HTML', disable_web_page_preview: true})
   });
   console.log('telegram sendMessage:', r.status);
 }
