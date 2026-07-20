@@ -4,7 +4,6 @@
     "ADAUSDT::BoS",
     "ALICEUSDT::ChoCh",
     "BANKUSDT::ChoCh",
-    "CRCLBUSDT::BoS",
     "ENAUSDT::BoS",
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
@@ -14,13 +13,11 @@
     "PENGUUSDT::BoS",
     "PUMPUSDT::BoS",
     "SAGAUSDT::BoS",
-    "SNDKBUSDT::BoS",
     "SOLUSDT::ChoCh",
     "SUIUSDT::BoS",
     "TAOUSDT::BoS",
-    "TOWNSUSDT::BoS",
     "UNIUSDT::BoS",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-20T19:45:33.071Z"
+  "at": "2026-07-20T20:00:46.168Z"
 }
