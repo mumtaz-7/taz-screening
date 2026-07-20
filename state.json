@@ -9,7 +9,7 @@
     "LINKUSDT::ChoCh",
     "NEARUSDT::BoS",
     "PAXGUSDT::ChoCh",
-    "PENGUUSDT::ChoCh",
+    "PENGUUSDT::BoS",
     "SNDKBUSDT::ChoCh",
     "SOLUSDT::ChoCh",
     "SOXLBUSDT::BoS",
@@ -17,7 +17,8 @@
     "SYNUSDT::ChoCh",
     "TAOUSDT::ChoCh",
     "TOWNSUSDT::ChoCh",
+    "XPLUSDT::BoS",
     "XRPUSDT::ChoCh"
   ],
-  "at": "2026-07-20T11:45:33.178Z"
+  "at": "2026-07-20T12:00:51.107Z"
 }
