@@ -3,19 +3,20 @@
     "ENAUSDT::ChoCh",
     "ETHUSDT::ChoCh",
     "HEMIUSDT::ChoCh",
-    "INJUSDT::ChoCh",
+    "INJUSDT::BoS",
     "LINKUSDT::ChoCh",
     "NEARUSDT::BoS",
     "PENGUUSDT::BoS",
-    "SNDKBUSDT::ChoCh",
+    "SNDKBUSDT::BoS",
     "SOLUSDT::ChoCh",
     "SOXLBUSDT::BoS",
     "SUIUSDT::ChoCh",
     "SYNUSDT::ChoCh",
     "TAOUSDT::ChoCh",
-    "TOWNSUSDT::ChoCh",
+    "TOWNSUSDT::BoS",
+    "VIRTUALUSDT::BoS",
     "XPLUSDT::BoS",
     "XRPUSDT::ChoCh"
   ],
-  "at": "2026-07-20T13:30:40.327Z"
+  "at": "2026-07-20T13:45:32.596Z"
 }
