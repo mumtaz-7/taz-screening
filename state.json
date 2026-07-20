@@ -3,8 +3,9 @@
     "CRCLBUSDT::BoS",
     "ENAUSDT::ChoCh",
     "ETHUSDT::ChoCh",
+    "HEMIUSDT::BoS",
     "INJUSDT::BoS",
-    "NEARUSDT::BoS",
+    "KITEUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "SNDKBUSDT::BoS",
     "SUIUSDT::ChoCh",
@@ -14,7 +15,8 @@
     "VIRTUALUSDT::BoS",
     "XPLUSDT::BoS",
     "XRPUSDT::ChoCh",
+    "YBUSDT::ChoCh",
     "ZAMAUSDT::BoS"
   ],
-  "at": "2026-07-20T14:15:34.169Z"
+  "at": "2026-07-20T14:30:42.524Z"
 }
