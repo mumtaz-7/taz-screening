@@ -2,12 +2,12 @@
   "ready": [
     "ACEUSDT::ChoCh",
     "ADAUSDT::BoS",
-    "ALICEUSDT::ChoCh",
     "BANKUSDT::ChoCh",
     "ENAUSDT::BoS",
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
     "JTOUSDT::ChoCh",
+    "LDOUSDT::ChoCh",
     "LINKUSDT::BoS",
     "ONDOUSDT::BoS",
     "PENGUUSDT::BoS",
@@ -19,5 +19,5 @@
     "UNIUSDT::BoS",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-20T20:15:31.834Z"
+  "at": "2026-07-20T20:19:11.280Z"
 }
