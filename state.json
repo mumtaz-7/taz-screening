@@ -1,7 +1,6 @@
 {
   "ready": [
     "ADAUSDT::BoS",
-    "BANKUSDT::ChoCh",
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
     "JTOUSDT::BoS",
@@ -9,7 +8,6 @@
     "LDOUSDT::BoS",
     "LINKUSDT::BoS",
     "METUSDT::BoS",
-    "ONDOUSDT::BoS",
     "PENGUUSDT::BoS",
     "PUMPUSDT::BoS",
     "SOLUSDT::ChoCh",
@@ -18,5 +16,5 @@
     "UNIUSDT::BoS",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-20T21:45:31.820Z"
+  "at": "2026-07-20T22:00:44.339Z"
 }
