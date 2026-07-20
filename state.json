@@ -1,11 +1,12 @@
 {
   "ready": [
     "CRCLBUSDT::BoS",
-    "ENAUSDT::ChoCh",
+    "ENAUSDT::BoS",
     "ETHUSDT::ChoCh",
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
     "KITEUSDT::ChoCh",
+    "PARTIUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "PUMPUSDT::ChoCh",
     "SNDKBUSDT::BoS",
@@ -18,5 +19,5 @@
     "YBUSDT::ChoCh",
     "ZAMAUSDT::BoS"
   ],
-  "at": "2026-07-20T15:21:08.656Z"
+  "at": "2026-07-20T15:30:40.995Z"
 }
