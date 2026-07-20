@@ -2,9 +2,14 @@
   "ready": [
     "BANKUSDT",
     "BTCUSDT",
+    "ETHUSDT",
     "KAITOUSDT",
+    "LINKUSDT",
     "SKHYBUSDT",
-    "SOXLBUSDT"
+    "SOLUSDT",
+    "SOXLBUSDT",
+    "SUIUSDT",
+    "TAOUSDT"
   ],
-  "at": "2026-07-20T01:00:48.864Z"
+  "at": "2026-07-20T01:14:24.826Z"
 }
