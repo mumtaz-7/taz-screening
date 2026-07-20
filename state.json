@@ -1,4 +1,9 @@
 {
-  "ready": [],
-  "at": null
+  "ready": [
+    "BANKUSDT",
+    "BTCUSDT",
+    "SNDKBUSDT",
+    "SOXLBUSDT"
+  ],
+  "at": "2026-07-20T00:09:45.900Z"
 }
