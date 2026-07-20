@@ -10,14 +10,14 @@
     "LINKUSDT::BoS",
     "METUSDT::BoS",
     "ONDOUSDT::BoS",
+    "PARTIUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "PUMPUSDT::BoS",
     "SAGAUSDT::BoS",
     "SOLUSDT::ChoCh",
-    "SUIUSDT::BoS",
     "TAOUSDT::BoS",
     "UNIUSDT::BoS",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-20T21:15:32.721Z"
+  "at": "2026-07-20T21:30:40.094Z"
 }
