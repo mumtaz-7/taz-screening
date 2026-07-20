@@ -6,6 +6,7 @@
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
     "JTOUSDT::BoS",
+    "KAITOUSDT::ChoCh",
     "LDOUSDT::BoS",
     "LINKUSDT::BoS",
     "METUSDT::BoS",
@@ -15,9 +16,10 @@
     "PUMPUSDT::BoS",
     "SAGAUSDT::BoS",
     "SOLUSDT::ChoCh",
+    "SYNUSDT::BoS",
     "TAOUSDT::BoS",
     "UNIUSDT::BoS",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-20T21:30:40.094Z"
+  "at": "2026-07-20T21:41:44.466Z"
 }
