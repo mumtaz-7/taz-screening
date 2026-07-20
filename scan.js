@@ -114,9 +114,9 @@ async function notify(fresh, ready){
   for(const s of shown){ const a = ready[s];
     msg += `<b>${s}</b>\n  entry ${fmt(a.entry)} · SL ${fmt(a.strongLow)} (-${a.slPct.toFixed(1)}%) · TP ${fmt(a.weakHigh)} (+${a.gainPct.toFixed(1)}%) · R:R ${a.rr.toFixed(2)}\n  https://www.tradingview.com/chart/?symbol=BINANCE:${s}\n\n`;
   }
-  if(fresh.length > cap) msg += `…+${fresh.length - cap} lagi\n`;
-  msg += `\n— Bukan sinyal buy. Verifikasi di chart (LuxAlgo swing=50, internal=5) dulu.`;
-  msg += `\nNot Financial Advice · Do Your Own Research.`;
+  if(fresh.length > cap) msg += `…+${fresh.length - cap} lagi\n\n`;
+  msg += `— Bukan sinyal buy. Verifikasi di chart (LuxAlgo swing=50, internal=5) dulu.\n`;
+  msg += `<i>Not Financial Advice · Do Your Own Research.</i>`;
   const r = await fetch(`https://api.telegram.org/bot${TG_TOKEN}/sendMessage`, {
     method:'POST', headers:{'Content-Type':'application/json'},
     body: JSON.stringify({chat_id: TG_CHAT, text: msg, parse_mode: 'HTML', disable_web_page_preview: true})
