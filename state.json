@@ -1,7 +1,6 @@
 {
   "ready": [
     "BANKUSDT::ChoCh",
-    "BNBUSDT::ChoCh",
     "CRCLBUSDT::BoS",
     "ENAUSDT::BoS",
     "ETHUSDT::BoS",
@@ -9,7 +8,6 @@
     "INJUSDT::BoS",
     "KITEUSDT::ChoCh",
     "LINKUSDT::ChoCh",
-    "PARTIUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "PUMPUSDT::ChoCh",
     "SNDKBUSDT::BoS",
@@ -20,8 +18,7 @@
     "VIRTUALUSDT::BoS",
     "XPLUSDT::BoS",
     "XRPUSDT::BoS",
-    "YBUSDT::ChoCh",
-    "ZAMAUSDT::BoS"
+    "YBUSDT::ChoCh"
   ],
-  "at": "2026-07-20T16:30:45.619Z"
+  "at": "2026-07-20T16:45:34.328Z"
 }
