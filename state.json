@@ -9,6 +9,7 @@
     "JTOUSDT::ChoCh",
     "KITEUSDT::ChoCh",
     "LINKUSDT::ChoCh",
+    "ONDOUSDT::ChoCh",
     "ORDIUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "PUMPUSDT::ChoCh",
@@ -23,5 +24,5 @@
     "XRPUSDT::BoS",
     "YBUSDT::ChoCh"
   ],
-  "at": "2026-07-20T16:54:42.833Z"
+  "at": "2026-07-20T17:00:44.308Z"
 }
