@@ -2,7 +2,6 @@
   "ready": [
     "ADAUSDT::BoS",
     "BANKUSDT::ChoCh",
-    "ENAUSDT::BoS",
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
     "JTOUSDT::BoS",
@@ -11,15 +10,13 @@
     "LINKUSDT::BoS",
     "METUSDT::BoS",
     "ONDOUSDT::BoS",
-    "PARTIUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "PUMPUSDT::BoS",
-    "SAGAUSDT::BoS",
     "SOLUSDT::ChoCh",
     "SYNUSDT::BoS",
     "TAOUSDT::BoS",
     "UNIUSDT::BoS",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-20T21:41:44.466Z"
+  "at": "2026-07-20T21:45:31.820Z"
 }
