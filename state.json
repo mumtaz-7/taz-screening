@@ -1,14 +1,12 @@
 {
   "ready": [
+    "CRCLBUSDT::BoS",
     "ENAUSDT::ChoCh",
     "ETHUSDT::ChoCh",
-    "HEMIUSDT::ChoCh",
     "INJUSDT::BoS",
-    "LINKUSDT::ChoCh",
     "NEARUSDT::BoS",
     "PENGUUSDT::BoS",
     "SNDKBUSDT::BoS",
-    "SOLUSDT::ChoCh",
     "SOXLBUSDT::BoS",
     "SUIUSDT::ChoCh",
     "SYNUSDT::ChoCh",
@@ -16,7 +14,8 @@
     "TOWNSUSDT::BoS",
     "VIRTUALUSDT::BoS",
     "XPLUSDT::BoS",
-    "XRPUSDT::ChoCh"
+    "XRPUSDT::ChoCh",
+    "ZAMAUSDT::BoS"
   ],
-  "at": "2026-07-20T13:45:32.596Z"
+  "at": "2026-07-20T14:00:49.880Z"
 }
