@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ALLOUSDT::ChoCh",
+    "ACEUSDT::ChoCh",
+    "ADAUSDT::BoS",
     "BANKUSDT::ChoCh",
     "CRCLBUSDT::BoS",
     "ENAUSDT::BoS",
@@ -8,18 +9,21 @@
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
     "JTOUSDT::ChoCh",
-    "LINKUSDT::ChoCh",
+    "LINKUSDT::BoS",
+    "ONDOUSDT::BoS",
     "PARTIUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "PUMPUSDT::ChoCh",
     "SAGAUSDT::BoS",
     "SNDKBUSDT::BoS",
+    "SOLUSDT::ChoCh",
     "SUIUSDT::BoS",
+    "TAOUSDT::BoS",
     "TOWNSUSDT::BoS",
     "UNIUSDT::BoS",
     "VIRTUALUSDT::BoS",
     "XPLUSDT::BoS",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-20T18:00:52.045Z"
+  "at": "2026-07-20T18:15:38.603Z"
 }
