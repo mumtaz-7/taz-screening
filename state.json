@@ -6,10 +6,13 @@
     "ETHUSDT::BoS",
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
+    "JTOUSDT::ChoCh",
     "KITEUSDT::ChoCh",
     "LINKUSDT::ChoCh",
+    "ORDIUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "PUMPUSDT::ChoCh",
+    "SAGAUSDT::BoS",
     "SNDKBUSDT::BoS",
     "SUIUSDT::BoS",
     "TAOUSDT::ChoCh",
@@ -20,5 +23,5 @@
     "XRPUSDT::BoS",
     "YBUSDT::ChoCh"
   ],
-  "at": "2026-07-20T16:45:34.328Z"
+  "at": "2026-07-20T16:54:42.833Z"
 }
