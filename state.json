@@ -7,7 +7,6 @@
     "NEARUSDT::BoS",
     "PENGUUSDT::BoS",
     "SNDKBUSDT::BoS",
-    "SOXLBUSDT::BoS",
     "SUIUSDT::ChoCh",
     "SYNUSDT::ChoCh",
     "TAOUSDT::ChoCh",
@@ -17,5 +16,5 @@
     "XRPUSDT::ChoCh",
     "ZAMAUSDT::BoS"
   ],
-  "at": "2026-07-20T14:00:49.880Z"
+  "at": "2026-07-20T14:15:34.169Z"
 }
