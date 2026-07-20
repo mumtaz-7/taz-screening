@@ -9,7 +9,7 @@
     "PENGUUSDT::BoS",
     "PUMPUSDT::ChoCh",
     "SNDKBUSDT::BoS",
-    "SUIUSDT::ChoCh",
+    "SUIUSDT::BoS",
     "TAOUSDT::ChoCh",
     "TOWNSUSDT::BoS",
     "VIRTUALUSDT::BoS",
@@ -18,5 +18,5 @@
     "YBUSDT::ChoCh",
     "ZAMAUSDT::BoS"
   ],
-  "at": "2026-07-20T15:00:48.142Z"
+  "at": "2026-07-20T15:15:33.122Z"
 }
