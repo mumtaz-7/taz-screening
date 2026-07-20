@@ -13,7 +13,7 @@
     "LINKUSDT::BoS",
     "ONDOUSDT::BoS",
     "PENGUUSDT::BoS",
-    "PUMPUSDT::ChoCh",
+    "PUMPUSDT::BoS",
     "SAGAUSDT::BoS",
     "SNDKBUSDT::BoS",
     "SOLUSDT::ChoCh",
@@ -25,5 +25,5 @@
     "XPLUSDT::BoS",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-20T18:30:41.056Z"
+  "at": "2026-07-20T18:45:34.224Z"
 }
