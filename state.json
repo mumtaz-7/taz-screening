@@ -2,7 +2,6 @@
   "ready": [
     "ACEUSDT::BoS",
     "BANKUSDT::ChoCh",
-    "ENAUSDT::ChoCh",
     "ETHUSDT::ChoCh",
     "HEMIUSDT::ChoCh",
     "INJUSDT::ChoCh",
@@ -19,5 +18,5 @@
     "XPLUSDT::BoS",
     "XRPUSDT::ChoCh"
   ],
-  "at": "2026-07-20T12:45:33.593Z"
+  "at": "2026-07-20T13:00:45.056Z"
 }
