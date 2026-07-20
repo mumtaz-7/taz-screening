@@ -7,9 +7,8 @@
     "HEMIUSDT::BoS",
     "INJUSDT::BoS",
     "JTOUSDT::ChoCh",
-    "KITEUSDT::ChoCh",
     "LINKUSDT::ChoCh",
-    "ONDOUSDT::ChoCh",
+    "PARTIUSDT::ChoCh",
     "PENGUUSDT::BoS",
     "PUMPUSDT::ChoCh",
     "SAGAUSDT::BoS",
@@ -23,5 +22,5 @@
     "XRPUSDT::BoS",
     "YBUSDT::ChoCh"
   ],
-  "at": "2026-07-20T17:15:32.264Z"
+  "at": "2026-07-20T17:30:40.588Z"
 }
