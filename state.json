@@ -5,16 +5,19 @@
     "BANKUSDT::ChoCh",
     "ETHUSDT::ChoCh",
     "HEMIUSDT::ChoCh",
+    "INJUSDT::ChoCh",
     "LINKUSDT::ChoCh",
     "NEARUSDT::BoS",
+    "PAXGUSDT::ChoCh",
     "PENGUUSDT::ChoCh",
-    "SKHYBUSDT::BoS",
     "SNDKBUSDT::ChoCh",
+    "SOLUSDT::ChoCh",
     "SOXLBUSDT::BoS",
+    "SUIUSDT::ChoCh",
     "SYNUSDT::ChoCh",
+    "TAOUSDT::ChoCh",
     "TOWNSUSDT::ChoCh",
-    "XECUSDT::ChoCh",
     "XRPUSDT::ChoCh"
   ],
-  "at": "2026-07-20T11:30:39.913Z"
+  "at": "2026-07-20T11:45:33.178Z"
 }
