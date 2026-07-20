@@ -1,6 +1,5 @@
 {
   "ready": [
-    "BANKUSDT",
     "BTCUSDT",
     "ETHUSDT",
     "KAITOUSDT",
@@ -11,5 +10,5 @@
     "SUIUSDT",
     "TAOUSDT"
   ],
-  "at": "2026-07-20T01:30:48.667Z"
+  "at": "2026-07-20T01:45:35.347Z"
 }
