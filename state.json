@@ -1,8 +1,7 @@
 {
   "ready": [
     "ADAUSDT::BoS",
-    "ALLOUSDT::ChoCh",
-    "AVAXUSDT::ChoCh",
+    "AVAXUSDT::BoS",
     "BCHUSDT::BoS",
     "BNBUSDT::BoS",
     "CRCLBUSDT::BoS",
@@ -21,7 +20,8 @@
     "UNIUSDT::BoS",
     "VIRTUALUSDT::ChoCh",
     "WLDUSDT::BoS",
+    "XLMUSDT::ChoCh",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T06:30:40.162Z"
+  "at": "2026-07-21T06:45:34.858Z"
 }
