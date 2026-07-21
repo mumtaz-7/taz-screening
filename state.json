@@ -14,12 +14,11 @@
     "ONDOUSDT::BoS",
     "ONEUSDT::BoS",
     "OPNUSDT::BoS",
-    "PAXGUSDT::ChoCh",
     "SKHYBUSDT::BoS",
     "SOLUSDT::BoS",
-    "SPCXBUSDT::ChoCh",
+    "VIRTUALUSDT::ChoCh",
     "XLMUSDT::BoS",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-07-21T14:30:42.992Z"
+  "at": "2026-07-21T14:45:33.211Z"
 }
