@@ -6,7 +6,6 @@
     "ENAUSDT::BoS",
     "FILUSDT::BoS",
     "HEMIUSDT::ChoCh",
-    "HMSTRUSDT::ChoCh",
     "JTOUSDT::BoS",
     "KITEUSDT::BoS",
     "LINKUSDT::ChoCh",
@@ -16,7 +15,8 @@
     "SNDKBUSDT::ChoCh",
     "SOXLBUSDT::ChoCh",
     "TLMUSDT::ChoCh",
-    "TRXUSDT::ChoCh"
+    "TRXUSDT::ChoCh",
+    "YGGUSDT::ChoCh"
   ],
-  "at": "2026-07-21T21:15:33.240Z"
+  "at": "2026-07-21T21:30:39.841Z"
 }
