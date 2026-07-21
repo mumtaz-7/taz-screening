@@ -1,7 +1,6 @@
 {
   "ready": [
     "ADAUSDT::ChoCh",
-    "BNBUSDT::ChoCh",
     "CRCLBUSDT::ChoCh",
     "DASHUSDT::BoS",
     "FILUSDT::BoS",
@@ -10,15 +9,12 @@
     "JTOUSDT::BoS",
     "KITEUSDT::BoS",
     "LINKUSDT::ChoCh",
-    "PAXGUSDT::ChoCh",
     "PUMPUSDT::ChoCh",
     "SKHYBUSDT::BoS",
     "SNDKBUSDT::ChoCh",
     "SOXLBUSDT::ChoCh",
     "TLMUSDT::ChoCh",
-    "TRXUSDT::ChoCh",
-    "XAUTUSDT::ChoCh",
-    "XRPUSDT::BoS"
+    "TRXUSDT::ChoCh"
   ],
-  "at": "2026-07-21T20:45:34.226Z"
+  "at": "2026-07-21T21:00:48.445Z"
 }
