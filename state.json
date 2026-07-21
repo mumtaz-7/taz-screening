@@ -13,15 +13,15 @@
     "MUBUSDT::BoS",
     "NEARUSDT::BoS",
     "ONDOUSDT::ChoCh",
+    "OPNUSDT::ChoCh",
     "OPUSDT::ChoCh",
     "SAGAUSDT::BoS",
     "SOLUSDT::BoS",
     "SOXLBUSDT::BoS",
-    "UNIUSDT::BoS",
     "VIRTUALUSDT::ChoCh",
     "WLDUSDT::BoS",
     "XLMUSDT::ChoCh",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T06:45:34.858Z"
+  "at": "2026-07-21T07:00:48.755Z"
 }
