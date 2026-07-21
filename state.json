@@ -7,20 +7,21 @@
     "DASHUSDT::ChoCh",
     "ENAUSDT::BoS",
     "EPICUSDT::BoS",
+    "ERAUSDT::BoS",
     "FILUSDT::BoS",
     "INJUSDT::ChoCh",
     "JTOUSDT::ChoCh",
     "KAITOUSDT::ChoCh",
+    "KITEUSDT::ChoCh",
     "LDOUSDT::ChoCh",
     "MUBUSDT::BoS",
     "ONDOUSDT::BoS",
     "OPNUSDT::BoS",
     "OPUSDT::ChoCh",
-    "SOLUSDT::BoS",
     "SOXLBUSDT::BoS",
     "VIRTUALUSDT::ChoCh",
     "XLMUSDT::ChoCh",
-    "ZAMAUSDT::BoS"
+    "XPLUSDT::ChoCh"
   ],
-  "at": "2026-07-21T11:00:49.057Z"
+  "at": "2026-07-21T11:15:34.109Z"
 }
