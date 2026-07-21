@@ -1,6 +1,5 @@
 {
   "ready": [
-    "ADAUSDT::BoS",
     "CRCLBUSDT::BoS",
     "DASHUSDT::BoS",
     "ENAUSDT::BoS",
@@ -8,15 +7,13 @@
     "ERAUSDT::BoS",
     "FILUSDT::BoS",
     "JTOUSDT::ChoCh",
-    "KAITOUSDT::ChoCh",
     "KITEUSDT::ChoCh",
     "LAUSDT::ChoCh",
-    "LDOUSDT::BoS",
     "MUBUSDT::BoS",
     "ONDOUSDT::BoS",
     "OPNUSDT::BoS",
     "XLMUSDT::BoS",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-07-21T13:30:46.353Z"
+  "at": "2026-07-21T13:45:33.675Z"
 }
