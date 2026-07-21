@@ -8,9 +8,10 @@
     "ENAUSDT::BoS",
     "EPICUSDT::BoS",
     "FETUSDT::BoS",
+    "FILUSDT::BoS",
+    "JTOUSDT::ChoCh",
     "KAITOUSDT::ChoCh",
     "LDOUSDT::ChoCh",
-    "LINKUSDT::BoS",
     "LTCUSDT::ChoCh",
     "MUBUSDT::BoS",
     "ONDOUSDT::BoS",
@@ -18,8 +19,9 @@
     "OPUSDT::ChoCh",
     "SOLUSDT::BoS",
     "SOXLBUSDT::BoS",
+    "VIRTUALUSDT::ChoCh",
     "XLMUSDT::ChoCh",
     "ZAMAUSDT::BoS"
   ],
-  "at": "2026-07-21T10:15:33.894Z"
+  "at": "2026-07-21T10:30:44.140Z"
 }
