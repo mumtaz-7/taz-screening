@@ -4,13 +4,11 @@
     "DASHUSDT::BoS",
     "ENAUSDT::BoS",
     "EPICUSDT::BoS",
-    "ERAUSDT::BoS",
     "FILUSDT::BoS",
     "JTOUSDT::ChoCh",
     "KITEUSDT::ChoCh",
     "LTCUSDT::ChoCh",
     "MUBUSDT::BoS",
-    "ONDOUSDT::BoS",
     "ONEUSDT::BoS",
     "OPNUSDT::BoS",
     "SKHYBUSDT::BoS",
@@ -18,5 +16,5 @@
     "VIRTUALUSDT::ChoCh",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-07-21T15:53:52.047Z"
+  "at": "2026-07-21T16:01:06.813Z"
 }
