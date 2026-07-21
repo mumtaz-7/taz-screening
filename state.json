@@ -7,15 +7,15 @@
     "HMSTRUSDT::ChoCh",
     "JTOUSDT::BoS",
     "KITEUSDT::BoS",
-    "MUBUSDT::BoS",
     "PAXGUSDT::ChoCh",
     "PUMPUSDT::ChoCh",
     "SKHYBUSDT::BoS",
+    "SNDKBUSDT::ChoCh",
     "SOXLBUSDT::ChoCh",
     "TLMUSDT::ChoCh",
     "TRXUSDT::ChoCh",
     "XAUTUSDT::ChoCh",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T19:45:38.814Z"
+  "at": "2026-07-21T20:00:48.875Z"
 }
