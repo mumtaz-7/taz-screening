@@ -11,12 +11,14 @@
     "LINKUSDT::ChoCh",
     "MUBUSDT::BoS",
     "PUMPUSDT::ChoCh",
+    "REUSDT::BoS",
     "SKHYBUSDT::BoS",
     "SNDKBUSDT::ChoCh",
     "SOXLBUSDT::ChoCh",
     "TLMUSDT::ChoCh",
     "TRXUSDT::ChoCh",
+    "UNIUSDT::ChoCh",
     "YGGUSDT::ChoCh"
   ],
-  "at": "2026-07-21T21:30:39.841Z"
+  "at": "2026-07-21T21:38:27.301Z"
 }
