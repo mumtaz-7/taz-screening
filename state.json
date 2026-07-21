@@ -9,15 +9,17 @@
     "FILUSDT::BoS",
     "JTOUSDT::ChoCh",
     "KITEUSDT::ChoCh",
-    "LAUSDT::ChoCh",
     "LTCUSDT::ChoCh",
     "MUBUSDT::BoS",
     "ONDOUSDT::BoS",
     "ONEUSDT::BoS",
     "OPNUSDT::BoS",
+    "PAXGUSDT::ChoCh",
+    "SKHYBUSDT::BoS",
     "SOLUSDT::BoS",
+    "SPCXBUSDT::ChoCh",
     "XLMUSDT::BoS",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-07-21T14:15:38.603Z"
+  "at": "2026-07-21T14:30:42.992Z"
 }
