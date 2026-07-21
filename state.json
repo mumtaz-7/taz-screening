@@ -4,6 +4,7 @@
     "CRCLBUSDT::ChoCh",
     "DASHUSDT::BoS",
     "FILUSDT::BoS",
+    "HEMIUSDT::ChoCh",
     "HMSTRUSDT::ChoCh",
     "JTOUSDT::BoS",
     "KITEUSDT::BoS",
@@ -17,5 +18,5 @@
     "XAUTUSDT::ChoCh",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T20:15:33.127Z"
+  "at": "2026-07-21T20:17:47.474Z"
 }
