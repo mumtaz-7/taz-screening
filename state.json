@@ -2,7 +2,6 @@
   "ready": [
     "CRCLBUSDT::BoS",
     "DASHUSDT::BoS",
-    "ENAUSDT::BoS",
     "EPICUSDT::BoS",
     "FILUSDT::BoS",
     "JTOUSDT::ChoCh",
@@ -17,5 +16,5 @@
     "VIRTUALUSDT::ChoCh",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-07-21T16:15:33.301Z"
+  "at": "2026-07-21T16:30:43.717Z"
 }
