@@ -4,6 +4,7 @@
     "FILUSDT::BoS",
     "HMSTRUSDT::ChoCh",
     "JTOUSDT::BoS",
+    "KITEUSDT::BoS",
     "LTCUSDT::ChoCh",
     "MUBUSDT::BoS",
     "ONEUSDT::BoS",
@@ -14,7 +15,8 @@
     "TLMUSDT::ChoCh",
     "TRXUSDT::ChoCh",
     "VIRTUALUSDT::ChoCh",
-    "XAUTUSDT::ChoCh"
+    "XAUTUSDT::ChoCh",
+    "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T19:15:32.361Z"
+  "at": "2026-07-21T19:30:41.399Z"
 }
