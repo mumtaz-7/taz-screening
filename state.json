@@ -1,6 +1,5 @@
 {
   "ready": [
-    "ARBUSDT::ChoCh",
     "BNBUSDT::BoS",
     "CRCLBUSDT::BoS",
     "DASHUSDT::ChoCh",
@@ -13,14 +12,13 @@
     "KAITOUSDT::ChoCh",
     "KITEUSDT::ChoCh",
     "LAUSDT::ChoCh",
-    "LDOUSDT::ChoCh",
+    "LDOUSDT::BoS",
     "MUBUSDT::BoS",
     "ONDOUSDT::BoS",
     "OPNUSDT::BoS",
     "SOLUSDT::BoS",
-    "SOXLBUSDT::BoS",
     "VIRTUALUSDT::ChoCh",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-07-21T12:15:35.843Z"
+  "at": "2026-07-21T12:30:44.626Z"
 }
