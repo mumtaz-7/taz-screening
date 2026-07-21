@@ -3,7 +3,6 @@
     "CRCLBUSDT::BoS",
     "DASHUSDT::BoS",
     "JTOUSDT::ChoCh",
-    "KITEUSDT::ChoCh",
     "LTCUSDT::ChoCh",
     "MUBUSDT::BoS",
     "ONEUSDT::BoS",
@@ -11,8 +10,7 @@
     "SKHYBUSDT::BoS",
     "SOXLBUSDT::ChoCh",
     "SPCXBUSDT::ChoCh",
-    "VIRTUALUSDT::ChoCh",
-    "XPLUSDT::BoS"
+    "VIRTUALUSDT::ChoCh"
   ],
-  "at": "2026-07-21T17:15:51.501Z"
+  "at": "2026-07-21T17:30:40.000Z"
 }
