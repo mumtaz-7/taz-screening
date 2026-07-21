@@ -10,14 +10,11 @@
     "DOTUSDT::BoS",
     "ETHUSDT::BoS",
     "KAITOUSDT::ChoCh",
-    "LDOUSDT::BoS",
     "LINKUSDT::BoS",
     "MUBUSDT::BoS",
     "NEARUSDT::BoS",
-    "ONDOUSDT::ChoCh",
     "OPNUSDT::BoS",
     "OPUSDT::ChoCh",
-    "SAGAUSDT::BoS",
     "SOLUSDT::BoS",
     "SOXLBUSDT::BoS",
     "VIRTUALUSDT::ChoCh",
@@ -25,5 +22,5 @@
     "XLMUSDT::ChoCh",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T07:19:56.363Z"
+  "at": "2026-07-21T07:30:37.986Z"
 }
