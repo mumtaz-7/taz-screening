@@ -1,6 +1,5 @@
 {
   "ready": [
-    "BNBUSDT::BoS",
     "DASHUSDT::BoS",
     "ENAUSDT::BoS",
     "EPICUSDT::BoS",
@@ -15,9 +14,7 @@
     "MUBUSDT::BoS",
     "ONDOUSDT::BoS",
     "OPNUSDT::BoS",
-    "SOLUSDT::BoS",
-    "VIRTUALUSDT::ChoCh",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-07-21T12:45:33.260Z"
+  "at": "2026-07-21T13:00:51.790Z"
 }
