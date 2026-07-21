@@ -7,10 +7,11 @@
     "MUBUSDT::BoS",
     "ONEUSDT::BoS",
     "OPNUSDT::BoS",
+    "PUMPUSDT::ChoCh",
     "SKHYBUSDT::BoS",
     "SOXLBUSDT::ChoCh",
     "SPCXBUSDT::ChoCh",
     "VIRTUALUSDT::ChoCh"
   ],
-  "at": "2026-07-21T17:30:40.000Z"
+  "at": "2026-07-21T17:45:33.206Z"
 }
