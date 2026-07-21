@@ -7,9 +7,11 @@
     "BCHUSDT::BoS",
     "BNBUSDT::BoS",
     "CRCLBUSDT::BoS",
+    "DASHUSDT::ChoCh",
     "DEXEUSDT::ChoCh",
     "DOTUSDT::BoS",
     "ETHUSDT::BoS",
+    "FETUSDT::BoS",
     "KAITOUSDT::ChoCh",
     "LINKUSDT::BoS",
     "MUBUSDT::BoS",
@@ -18,10 +20,10 @@
     "OPUSDT::ChoCh",
     "SOLUSDT::BoS",
     "SOXLBUSDT::BoS",
-    "VIRTUALUSDT::ChoCh",
+    "VIRTUALUSDT::BoS",
     "WLDUSDT::BoS",
     "XLMUSDT::ChoCh",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T07:45:33.388Z"
+  "at": "2026-07-21T08:00:45.349Z"
 }
