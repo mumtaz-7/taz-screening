@@ -13,6 +13,7 @@
     "FETUSDT::BoS",
     "KAITOUSDT::ChoCh",
     "LINKUSDT::BoS",
+    "LTCUSDT::ChoCh",
     "MUBUSDT::BoS",
     "NEARUSDT::BoS",
     "OPNUSDT::BoS",
@@ -23,5 +24,5 @@
     "XLMUSDT::ChoCh",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T08:30:42.256Z"
+  "at": "2026-07-21T08:45:34.921Z"
 }
