@@ -1,18 +1,25 @@
 {
   "ready": [
     "ADAUSDT::BoS",
+    "BNBUSDT::ChoCh",
     "CRCLBUSDT::BoS",
+    "DEXEUSDT::ChoCh",
+    "ETHUSDT::ChoCh",
     "HEMIUSDT::BoS",
     "JTOUSDT::BoS",
     "KAITOUSDT::ChoCh",
     "LDOUSDT::BoS",
+    "LINKUSDT::BoS",
     "METUSDT::BoS",
     "MUBUSDT::ChoCh",
     "NEARUSDT::BoS",
+    "PENGUUSDT::BoS",
     "PUMPUSDT::BoS",
+    "SOLUSDT::BoS",
     "SYNUSDT::BoS",
+    "UNIUSDT::BoS",
     "WLDUSDT::BoS",
     "ZAMAUSDT::ChoCh"
   ],
-  "at": "2026-07-21T00:30:40.687Z"
+  "at": "2026-07-21T00:45:32.223Z"
 }
