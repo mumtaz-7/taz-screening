@@ -1,23 +1,23 @@
 {
   "ready": [
     "ADAUSDT::BoS",
+    "AVAXUSDT::ChoCh",
     "BCHUSDT::BoS",
-    "BNBUSDT::ChoCh",
+    "BNBUSDT::BoS",
     "CRCLBUSDT::BoS",
     "ERAUSDT::ChoCh",
-    "ETHUSDT::ChoCh",
-    "JTOUSDT::BoS",
+    "ETHUSDT::BoS",
     "LDOUSDT::BoS",
     "LINKUSDT::BoS",
-    "MUBUSDT::ChoCh",
+    "MUBUSDT::BoS",
     "NEARUSDT::BoS",
     "ONDOUSDT::ChoCh",
     "SOLUSDT::BoS",
     "SYNUSDT::BoS",
     "UNIUSDT::BoS",
     "WLDUSDT::BoS",
-    "XRPUSDT::ChoCh",
+    "XRPUSDT::BoS",
     "ZAMAUSDT::ChoCh"
   ],
-  "at": "2026-07-21T03:00:42.867Z"
+  "at": "2026-07-21T03:15:31.407Z"
 }
