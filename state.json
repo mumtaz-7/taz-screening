@@ -14,11 +14,11 @@
     "ONDOUSDT::ChoCh",
     "SOLUSDT::BoS",
     "SOXLBUSDT::ChoCh",
-    "SYNUSDT::BoS",
     "UNIUSDT::BoS",
+    "VIRTUALUSDT::ChoCh",
     "WLDUSDT::BoS",
     "XRPUSDT::BoS",
     "ZAMAUSDT::ChoCh"
   ],
-  "at": "2026-07-21T03:45:32.284Z"
+  "at": "2026-07-21T04:00:44.000Z"
 }
