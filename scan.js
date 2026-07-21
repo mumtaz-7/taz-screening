@@ -1,6 +1,6 @@
 /* =====================================================================
    Crypto SMC Scanner → Telegram  (ChoCh + BoS READY, M15)
-   Port dari LuxAlgo_ChoCh_Screener_v4.html (price action murni: ChoCh + BoS).
+   Port dari LuxAlgo_ChoCh_Screener_v4.1.html (ChoCh + BoS; TP BoS = OB di atas Weak High).
    Jalan di GitHub Actions tiap ~15 menit. Kirim notif cuma buat READY BARU.
    Data: data-api.binance.vision (endpoint publik Binance, minim geo-block).
    ===================================================================== */
@@ -51,14 +51,23 @@ function computeLeg(c, t, size, prev){
   if(lAgo < minR) return 1;   // bullish leg
   return prev;
 }
+const ATR_LEN = 200;
 function luxStructure(c, swingLen, confluence){
   const n = c.length;
   const sH = {level:NaN,crossed:false}, sL = {level:NaN,crossed:false};
-  const iH = {level:NaN,crossed:false}, iL = {level:NaN,crossed:false};
+  const iH = {level:NaN,crossed:false,idx:-1}, iL = {level:NaN,crossed:false,idx:-1};
   let swingTrend = 0, internalTrend = 0, legS = 0, legI = 0;
   let trailTop = c[0].h, trailBot = c[0].l;
   const events = [];
+  const pHigh = new Array(n), pLow = new Array(n);   // parsed high/low (filter volatilitas LuxAlgo)
+  const obsBear = [];                                // bearish OB aktif = supply di atas (buat TP BoS)
+  let atr = 0, trSum = 0;
   for(let t = 0; t < n; t++){
+    const tr = t > 0 ? Math.max(c[t].h-c[t].l, Math.abs(c[t].h-c[t-1].c), Math.abs(c[t].l-c[t-1].c)) : (c[t].h-c[t].l);
+    if(t < ATR_LEN){ trSum += tr; atr = trSum/(t+1); } else { atr = (atr*(ATR_LEN-1)+tr)/ATR_LEN; }
+    const highVol = (c[t].h - c[t].l) >= 2*atr;
+    pHigh[t] = highVol ? c[t].l : c[t].h;
+    pLow[t]  = highVol ? c[t].h : c[t].l;
     if(c[t].h > trailTop) trailTop = c[t].h;
     if(c[t].l < trailBot) trailBot = c[t].l;
     const pS = legS; legS = computeLeg(c, t, swingLen, legS);
@@ -68,8 +77,8 @@ function luxStructure(c, swingLen, confluence){
     }
     const pI = legI; legI = computeLeg(c, t, INTERNAL_LEN, legI);
     if(legI !== pI && t >= INTERNAL_LEN){
-      if(legI === 1){ iL.level = c[t-INTERNAL_LEN].l; iL.crossed = false; }
-      else          { iH.level = c[t-INTERNAL_LEN].h; iH.crossed = false; }
+      if(legI === 1){ iL.level = c[t-INTERNAL_LEN].l; iL.crossed = false; iL.idx = t-INTERNAL_LEN; }
+      else          { iH.level = c[t-INTERNAL_LEN].h; iH.crossed = false; iH.idx = t-INTERNAL_LEN; }
     }
     if(t > 0){
       const cl = c[t].c, clp = c[t-1].c, o = c[t].o, h = c[t].h, l = c[t].l;
@@ -77,15 +86,27 @@ function luxStructure(c, swingLen, confluence){
       if(confluence){ const up = h - Math.max(cl,o), m = Math.min(cl, o - l); bull = up > m; bear = up < m; }
       if(!isNaN(iH.level) && clp <= iH.level && cl > iH.level && !iH.crossed && iH.level !== sH.level && bull){
         const tag = internalTrend === -1 ? 'CHoCH' : 'BOS'; internalTrend = 1; iH.crossed = true;
-        events.push({idx:t, dir:'bull', tag, level:iH.level, internalLow: isNaN(iL.level) ? null : iL.level});
+        // snapshot: dasar bearish OB terdekat yg aktif & ada DI ATAS Weak High (target lanjutan buat BoS)
+        let obTP = null;
+        for(const o of obsBear){ if(o.barLow > trailTop && (obTP === null || o.barLow < obTP)) obTP = o.barLow; }
+        events.push({idx:t, dir:'bull', tag, level:iH.level, weakHigh:trailTop,
+                     internalLow: isNaN(iL.level) ? null : iL.level, obTP});
       }
       if(!isNaN(iL.level) && clp >= iL.level && cl < iL.level && !iL.crossed && iL.level !== sL.level && bear){
         const tag = internalTrend === 1 ? 'CHoCH' : 'BOS'; internalTrend = -1; iL.crossed = true;
         events.push({idx:t, dir:'bear', tag, level:iL.level});
+        // simpan BEARISH OB: candle dgn parsedHigh terbesar di leg sebelum break (persis LuxAlgo)
+        if(iL.idx >= 0){ let maxH = -Infinity, mi = iL.idx;
+          for(let k = iL.idx; k < t; k++){ if(pHigh[k] > maxH){ maxH = pHigh[k]; mi = k; } }
+          obsBear.unshift({barHigh:pHigh[mi], barLow:pLow[mi], idx:mi});
+          if(obsBear.length > 100) obsBear.pop();
+        }
       }
       if(!isNaN(sH.level) && clp <= sH.level && cl > sH.level && !sH.crossed){ swingTrend = 1; sH.crossed = true; }
       if(!isNaN(sL.level) && clp >= sL.level && cl < sL.level && !sL.crossed){ swingTrend = -1; sL.crossed = true; }
     }
+    // mitigasi bearish OB (default HIGH/LOW): hapus kalau high > OB.barHigh
+    for(let i2 = obsBear.length-1; i2 >= 0; i2--){ if(c[t].h > obsBear[i2].barHigh) obsBear.splice(i2,1); }
   }
   return {swingTrend, internalTrend, trailBot, trailTop, events};
 }
@@ -101,18 +122,21 @@ function analyze(c){
     return st.internalTrend === 1 && !bearAfter && (n-1-ev.idx) <= MAX_BARS
         && ev.level > strongLow && weakHigh > ev.level;
   };
-  const build = (ev, setup, sl) => {
-    const entry = ev.level, slPct = (entry-sl)/entry*100, gainPct = (weakHigh-entry)/entry*100;
-    return {setup, entry, sl, weakHigh, slPct, gainPct, rr: gainPct/slPct, barsSince: n-1-ev.idx, evIdx: ev.idx};
+  const build = (ev, setup, sl, tp, tpSrc) => {
+    const entry = ev.level, slPct = (entry-sl)/entry*100, gainPct = (tp-entry)/entry*100;
+    return {setup, entry, sl, tp, tpSrc, weakHigh, slPct, gainPct, rr: gainPct/slPct, barsSince: n-1-ev.idx, evIdx: ev.idx};
   };
   let choch = null, bos = null;
   const chs = st.events.filter(e => e.dir === 'bull' && e.tag === 'CHoCH');
-  if(chs.length){ const ev = chs[chs.length-1]; if(ok(ev)) choch = build(ev, 'ChoCh', strongLow); }
+  if(chs.length){ const ev = chs[chs.length-1];
+    if(ok(ev)) choch = build(ev, 'ChoCh', strongLow, weakHigh, 'WH'); }   // ChoCh: TP tetap Weak High
   const bss = st.events.filter(e => e.dir === 'bull' && e.tag === 'BOS');
   if(bss.length){ const ev = bss[bss.length-1];
     if(ok(ev)){ const sl = (ev.internalLow != null && ev.internalLow < ev.level && ev.internalLow >= strongLow)
                          ? ev.internalLow : strongLow;
-      bos = build(ev, 'BoS', sl); } }
+      // TP BoS = dasar bearish OB terdekat DI ATAS Weak High; kalau nggak ada → Weak High
+      const useOB = (ev.obTP != null && ev.obTP > weakHigh);
+      bos = build(ev, 'BoS', sl, useOB ? ev.obTP : weakHigh, useOB ? 'OB' : 'WH'); } }
   if(!choch && !bos) return null;
   if(choch && bos) return bos.evIdx > choch.evIdx ? bos : choch;   // event terbaru menang
   return choch || bos;
@@ -126,7 +150,7 @@ async function notify(fresh, ready){
   const shown = fresh.slice(0, cap);
   let msg = `▸ <b>${fresh.length} Sinyal Ready baru</b> · <b>M15</b>\n\n`;
   for(const k of shown){ const s = k.split('::')[0], a = ready[s];
-    msg += `<b>${s}</b> · ${a.setup}\n  entry ${fmt(a.entry)} · SL ${fmt(a.sl)} (-${a.slPct.toFixed(1)}%) · TP ${fmt(a.weakHigh)} (+${a.gainPct.toFixed(1)}%) · R:R ${a.rr.toFixed(2)}\n  https://www.tradingview.com/chart/?symbol=BINANCE:${s}\n\n`;
+    msg += `<b>${s}</b> · ${a.setup}\n  entry ${fmt(a.entry)} · SL ${fmt(a.sl)} (-${a.slPct.toFixed(1)}%) · TP ${fmt(a.tp)}${a.tpSrc === 'OB' ? ' (OB)' : ''} (+${a.gainPct.toFixed(1)}%) · R:R ${a.rr.toFixed(2)}\n  https://www.tradingview.com/chart/?symbol=BINANCE:${s}\n\n`;
   }
   if(fresh.length > cap) msg += `…+${fresh.length - cap} lagi\n\n`;
   msg += `— Bukan sinyal buy. Verifikasi di chart (LuxAlgo swing=50, internal=5) dulu.\n`;
