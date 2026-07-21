@@ -3,6 +3,7 @@
     "ADAUSDT::BoS",
     "ARBUSDT::ChoCh",
     "AVAXUSDT::BoS",
+    "BANKUSDT::ChoCh",
     "BCHUSDT::BoS",
     "BNBUSDT::BoS",
     "CRCLBUSDT::BoS",
@@ -22,5 +23,5 @@
     "XLMUSDT::ChoCh",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T07:30:37.986Z"
+  "at": "2026-07-21T07:45:33.388Z"
 }
