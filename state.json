@@ -9,6 +9,7 @@
     "DEXEUSDT::ChoCh",
     "DOTUSDT::BoS",
     "ETHUSDT::BoS",
+    "KAITOUSDT::ChoCh",
     "LDOUSDT::BoS",
     "LINKUSDT::BoS",
     "MUBUSDT::BoS",
@@ -24,5 +25,5 @@
     "XLMUSDT::ChoCh",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T07:15:34.435Z"
+  "at": "2026-07-21T07:19:56.363Z"
 }
