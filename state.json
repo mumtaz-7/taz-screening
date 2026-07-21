@@ -1,22 +1,21 @@
 {
   "ready": [
+    "ADAUSDT::ChoCh",
+    "CRCLBUSDT::ChoCh",
     "DASHUSDT::BoS",
     "FILUSDT::BoS",
     "HMSTRUSDT::ChoCh",
     "JTOUSDT::BoS",
     "KITEUSDT::BoS",
-    "LTCUSDT::ChoCh",
     "MUBUSDT::BoS",
-    "ONEUSDT::BoS",
     "PAXGUSDT::ChoCh",
     "PUMPUSDT::ChoCh",
     "SKHYBUSDT::BoS",
     "SOXLBUSDT::ChoCh",
     "TLMUSDT::ChoCh",
     "TRXUSDT::ChoCh",
-    "VIRTUALUSDT::ChoCh",
     "XAUTUSDT::ChoCh",
     "XRPUSDT::BoS"
   ],
-  "at": "2026-07-21T19:30:41.399Z"
+  "at": "2026-07-21T19:45:38.814Z"
 }
