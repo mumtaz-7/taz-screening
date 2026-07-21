@@ -6,15 +6,13 @@
     "JTOUSDT::BoS",
     "KAITOUSDT::ChoCh",
     "LDOUSDT::BoS",
-    "LINKUSDT::BoS",
     "METUSDT::BoS",
     "MUBUSDT::ChoCh",
+    "NEARUSDT::BoS",
     "PUMPUSDT::BoS",
-    "SOLUSDT::ChoCh",
     "SYNUSDT::BoS",
-    "TAOUSDT::BoS",
     "WLDUSDT::BoS",
     "ZAMAUSDT::ChoCh"
   ],
-  "at": "2026-07-21T00:15:33.077Z"
+  "at": "2026-07-21T00:30:40.687Z"
 }
