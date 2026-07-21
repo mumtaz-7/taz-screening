@@ -13,6 +13,7 @@
     "MUBUSDT::BoS",
     "NEARUSDT::BoS",
     "ONDOUSDT::ChoCh",
+    "OPUSDT::ChoCh",
     "SAGAUSDT::BoS",
     "SOLUSDT::BoS",
     "SOXLBUSDT::ChoCh",
@@ -22,5 +23,5 @@
     "XRPUSDT::BoS",
     "ZAMAUSDT::ChoCh"
   ],
-  "at": "2026-07-21T05:30:39.475Z"
+  "at": "2026-07-21T05:45:33.009Z"
 }
