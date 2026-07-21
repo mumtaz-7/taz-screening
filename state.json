@@ -5,21 +5,16 @@
     "BNBUSDT::BoS",
     "CRCLBUSDT::BoS",
     "DASHUSDT::ChoCh",
-    "DOTUSDT::BoS",
-    "ETHUSDT::BoS",
     "FETUSDT::BoS",
     "KAITOUSDT::ChoCh",
     "LINKUSDT::BoS",
     "LTCUSDT::ChoCh",
     "MUBUSDT::BoS",
-    "NEARUSDT::BoS",
     "OPNUSDT::BoS",
     "OPUSDT::ChoCh",
     "SOLUSDT::BoS",
     "SOXLBUSDT::BoS",
-    "WLDUSDT::BoS",
-    "XLMUSDT::ChoCh",
-    "XRPUSDT::BoS"
+    "XLMUSDT::ChoCh"
   ],
-  "at": "2026-07-21T09:15:32.675Z"
+  "at": "2026-07-21T09:30:43.287Z"
 }
