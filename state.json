@@ -1,6 +1,7 @@
 {
   "ready": [
     "ADAUSDT::BoS",
+    "BCHUSDT::BoS",
     "BNBUSDT::ChoCh",
     "CRCLBUSDT::BoS",
     "ERAUSDT::ChoCh",
@@ -18,5 +19,5 @@
     "XRPUSDT::ChoCh",
     "ZAMAUSDT::ChoCh"
   ],
-  "at": "2026-07-21T02:45:31.732Z"
+  "at": "2026-07-21T03:00:42.867Z"
 }
