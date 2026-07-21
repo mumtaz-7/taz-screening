@@ -1,9 +1,9 @@
 {
   "ready": [
+    "BANKUSDT::ChoCh",
     "CRCLBUSDT::BoS",
     "DASHUSDT::BoS",
     "EPICUSDT::BoS",
-    "FILUSDT::BoS",
     "JTOUSDT::ChoCh",
     "KITEUSDT::ChoCh",
     "LTCUSDT::ChoCh",
@@ -14,7 +14,7 @@
     "SOXLBUSDT::ChoCh",
     "SPCXBUSDT::ChoCh",
     "VIRTUALUSDT::ChoCh",
-    "XPLUSDT::ChoCh"
+    "XPLUSDT::BoS"
   ],
-  "at": "2026-07-21T16:30:43.717Z"
+  "at": "2026-07-21T16:45:37.834Z"
 }
