@@ -4,6 +4,7 @@
     "BNBUSDT::ChoCh",
     "CRCLBUSDT::BoS",
     "DEXEUSDT::ChoCh",
+    "ERAUSDT::ChoCh",
     "ETHUSDT::ChoCh",
     "HEMIUSDT::BoS",
     "JTOUSDT::BoS",
@@ -19,7 +20,8 @@
     "SYNUSDT::BoS",
     "UNIUSDT::BoS",
     "WLDUSDT::BoS",
+    "XRPUSDT::ChoCh",
     "ZAMAUSDT::ChoCh"
   ],
-  "at": "2026-07-21T01:08:50.546Z"
+  "at": "2026-07-21T01:16:36.795Z"
 }
