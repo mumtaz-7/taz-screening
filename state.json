@@ -2,15 +2,19 @@
   "ready": [
     "CRCLBUSDT::BoS",
     "DASHUSDT::BoS",
-    "JTOUSDT::ChoCh",
+    "FILUSDT::BoS",
+    "HMSTRUSDT::ChoCh",
     "LTCUSDT::ChoCh",
     "MUBUSDT::BoS",
     "ONEUSDT::BoS",
-    "OPNUSDT::BoS",
+    "PAXGUSDT::ChoCh",
     "PUMPUSDT::ChoCh",
     "SKHYBUSDT::BoS",
     "SOXLBUSDT::ChoCh",
-    "SPCXBUSDT::ChoCh"
+    "SPCXBUSDT::ChoCh",
+    "TLMUSDT::ChoCh",
+    "VIRTUALUSDT::ChoCh",
+    "XAUTUSDT::ChoCh"
   ],
-  "at": "2026-07-21T18:00:44.833Z"
+  "at": "2026-07-21T18:30:42.345Z"
 }
