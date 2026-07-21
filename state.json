@@ -1,6 +1,5 @@
 {
   "ready": [
-    "ADAUSDT::BoS",
     "ARBUSDT::ChoCh",
     "BNBUSDT::BoS",
     "CRCLBUSDT::BoS",
@@ -10,7 +9,6 @@
     "ERAUSDT::BoS",
     "FILUSDT::BoS",
     "INJUSDT::ChoCh",
-    "JTOUSDT::ChoCh",
     "KAITOUSDT::ChoCh",
     "KITEUSDT::ChoCh",
     "LDOUSDT::ChoCh",
@@ -18,10 +16,10 @@
     "ONDOUSDT::BoS",
     "OPNUSDT::BoS",
     "OPUSDT::ChoCh",
+    "SOLUSDT::BoS",
     "SOXLBUSDT::BoS",
     "VIRTUALUSDT::ChoCh",
-    "XLMUSDT::ChoCh",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-07-21T11:15:34.109Z"
+  "at": "2026-07-21T11:30:48.912Z"
 }
