@@ -8,10 +8,8 @@
     "ETHUSDT::ChoCh",
     "HEMIUSDT::BoS",
     "JTOUSDT::BoS",
-    "KAITOUSDT::ChoCh",
     "LDOUSDT::BoS",
     "LINKUSDT::BoS",
-    "METUSDT::BoS",
     "MUBUSDT::ChoCh",
     "NEARUSDT::BoS",
     "ONDOUSDT::ChoCh",
@@ -23,5 +21,5 @@
     "XRPUSDT::ChoCh",
     "ZAMAUSDT::ChoCh"
   ],
-  "at": "2026-07-21T01:45:32.829Z"
+  "at": "2026-07-21T02:00:42.669Z"
 }
