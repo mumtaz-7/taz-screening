@@ -9,6 +9,7 @@
     "ERAUSDT::BoS",
     "FILUSDT::BoS",
     "INJUSDT::ChoCh",
+    "JTOUSDT::ChoCh",
     "KAITOUSDT::ChoCh",
     "KITEUSDT::ChoCh",
     "LAUSDT::ChoCh",
@@ -21,5 +22,5 @@
     "VIRTUALUSDT::ChoCh",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-07-21T12:00:54.251Z"
+  "at": "2026-07-21T12:15:35.843Z"
 }
