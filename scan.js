@@ -26,12 +26,20 @@ const STABLE_BASES = new Set(["USDC","FDUSD","TUSD","BUSD","DAI","USDP","UST","U
 const LEVERAGE_TAGS = ["UP","DOWN","BULL","BEAR"];
 // Filter halal (sama persis v4) — editable
 const HARAM_BASES = new Set([
+  // — Meme / nirutilitas: spekulasi murni (tabzir + maysir + garar), Fatwa syarat objek #2 —
   "DOGE","SHIB","PEPE","FLOKI","BONK","WIF","BOME","MEME","BABYDOGE","ELON","SAMO",
   "MEW","POPCAT","BRETT","MOG","TURBO","LADYS","WEN","MYRO","SLERF","NEIRO","PNUT",
   "ACT","CHILLGUY","CHEEMS","MOODENG","GOAT","FARTCOIN","DOGS","CAT","MUMU","SPX",
   "HIPPO","PEOPLE","AIDOGE","SUNDOG","BAN","TROLL","GIGA","DEGEN","SNEK","HARRY",
+  "TRUMP","MELANIA","NOT","HMSTR","CATI","ORDI","1000SATS","RATS","PEIPEI","PONKE",
+  "BILLY","GME","MOTHER","BROCCOLI","TUT","MUBARAK","VINE","USELESS",
+  // — Derivatif/perp/futures DEX: ekosistem jual-beli kontrak (bay' al-kali'), Fatwa mekanisme #1 —
   "DYDX","GMX","GNS","PERP","LEVER","MUX","VELA","APEX","HMX","KTX","INTX",
+  "AEVO","DRIFT","SNX","ORDER","HYPE",
+  // — Lending/yield ribawi: riba qard (bunga pinjaman), Fatwa mekanisme #5 —
   "AAVE","COMP","MKR","XVS","QI","RDNT","CREAM","JST","ALPHA","FORTH","TRU",
+  "ALPACA","SPELL","LQTY","MORPHO",
+  // — Judi/gambling: maysir, Fatwa syarat objek #1 —
   "ROLL","DICE","WINK","BET","FUN","ZKB"
 ]);
 
@@ -132,17 +140,26 @@ function analyze(c){
   };
   const build = (ev, setup, sl, tp, tpSrc) => {
     const entry = ev.level, slPct = (entry-sl)/entry*100, gainPct = (tp-entry)/entry*100;
-    return {setup, entry, sl, tp, tpSrc, weakHigh, slPct, gainPct, rr: gainPct/slPct, barsSince: n-1-ev.idx, evIdx: ev.idx};
+    return {setup, entry, sl, tp, tpSrc, weakHigh, internalLow: ev.internalLow, slPct, gainPct, rr: gainPct/slPct, barsSince: n-1-ev.idx, evIdx: ev.idx};
   };
   let choch = null, bos = null;
   const chs = st.events.filter(e => e.dir === 'bull' && e.tag === 'CHoCH');
   if(chs.length){ const ev = chs[chs.length-1];
     if(ok(ev)){
-      // ChoCh dalam (di bawah garis fib 0.618) → TP di equilibrium; selain itu → Weak High
+      // TP ChoCh: (1) ChoCh dalam (fib>0.618) → equilibrium; (2) selain itu → Weak High,
+      // tapi kalau Weak High kekecilan (<MIN_TP%) & ADA bearish OB di atasnya → naik ke OB
+      // (biar sinyal bottom bagus ga ke-buang filter MIN_TP; kalau ga ada OB → biarin di-skip filter = opsi A)
       const entry = ev.level, eq = (strongLow + weakHigh)/2;
       const cr = (weakHigh - strongLow) > 0 ? (weakHigh - entry)/(weakHigh - strongLow) : null;
       const useEQ = (cr != null && cr > 0.618 && eq > entry);
-      choch = build(ev, 'ChoCh', slOpt3(entry, ev.internalLow), useEQ ? eq : weakHigh, useEQ ? 'EQ' : 'WH');
+      let tpC, tpSrcC;
+      if(useEQ){ tpC = eq; tpSrcC = 'EQ'; }
+      else {
+        const whGain = (weakHigh - entry)/entry*100;
+        if(whGain < MIN_TP && ev.obTP != null && ev.obTP > weakHigh){ tpC = ev.obTP; tpSrcC = 'OB'; }
+        else { tpC = weakHigh; tpSrcC = 'WH'; }
+      }
+      choch = build(ev, 'ChoCh', slOpt3(entry, ev.internalLow), tpC, tpSrcC);
     } }
   const bss = st.events.filter(e => e.dir === 'bull' && e.tag === 'BOS');
   if(bss.length){ const ev = bss[bss.length-1];
@@ -163,7 +180,14 @@ async function notify(fresh, ready){
   const shown = fresh.slice(0, cap);
   let msg = `▸ <b>${fresh.length} Sinyal Ready baru</b> · <b>M15</b>\n\n`;
   for(const k of shown){ const s = k.split('::')[0], a = ready[s];
-    msg += `<b>${s}</b> · ${a.setup}\n  entry ${fmt(a.entry)} · SL ${fmt(a.sl)} (-${a.slPct.toFixed(1)}%) · TP ${fmt(a.tp)}${a.tpSrc === 'OB' ? ' (OB)' : a.tpSrc === 'EQ' ? ' (EQ)' : ''} (+${a.gainPct.toFixed(1)}%) · R:R ${a.rr.toFixed(2)}\n  https://www.tradingview.com/chart/?symbol=BINANCE:${s}\n\n`;
+    const src   = a.tpSrc === 'OB' ? ' · OB' : a.tpSrc === 'EQ' ? ' · EQ' : '';
+    const inval = a.internalLow != null ? ` · inval ${fmt(a.internalLow)}` : '';
+    msg += `<b>${s}</b> · ${a.setup}\n`;
+    msg += `• Entry : <code>${fmt(a.entry)}</code>\n`;
+    msg += `• TP +${a.gainPct.toFixed(1)}%${src} : <code>${fmt(a.tp)}</code>\n`;
+    msg += `• SL -${a.slPct.toFixed(1)}%${inval} : <code>${fmt(a.sl)}</code>\n`;
+    msg += `• R:R : ${a.rr.toFixed(2)}\n`;
+    msg += `• <a href="https://www.tradingview.com/chart/?symbol=BINANCE:${s}">Buka chart</a>\n\n`;
   }
   if(fresh.length > cap) msg += `…+${fresh.length - cap} lagi\n\n`;
   msg += `— Bukan sinyal buy. Verifikasi di chart (LuxAlgo swing=50, internal=5) dulu.\n`;
@@ -173,6 +197,38 @@ async function notify(fresh, ready){
     body: JSON.stringify({chat_id: TG_CHAT, text: msg, parse_mode: 'HTML', disable_web_page_preview: true})
   });
   console.log('telegram sendMessage:', r.status);
+}
+
+// Notif UPDATE STATUS posisi yg dilacak journal (entry kefill / TP / SL / void)
+async function notifyUpdates(updates){
+  if(!TG_TOKEN || !TG_CHAT){ console.log('TG kosong — skip update.'); return; }
+  let msg = `▸ <b>Update Posisi</b> · <b>M15</b>\n\n`;
+  for(const t of updates){
+    msg += `<b>${t.symbol}</b> · ${t.setup}\n`;
+    if(t.status === 'open'){
+      const src = t.tpSrc === 'OB' ? ' · OB' : t.tpSrc === 'EQ' ? ' · EQ' : '';
+      msg += `• Status : ● Entry kefill — posisi jalan\n`;
+      msg += `• Entry : <code>${fmt(t.entry)}</code>\n`;
+      msg += `• TP +${t.gainPct.toFixed(1)}%${src} : <code>${fmt(t.tp)}</code>\n`;
+      msg += `• SL -${t.slPct.toFixed(1)}% : <code>${fmt(t.sl)}</code>\n`;
+    } else if(t.status === 'win'){
+      msg += `• Status : ✓ TP kena · WIN +${t.R}R\n`;
+      msg += `• Entry <code>${fmt(t.entry)}</code> → TP <code>${fmt(t.tp)}</code>\n`;
+    } else if(t.status === 'loss'){
+      msg += `• Status : ✗ SL kena · LOSS -1R\n`;
+      msg += `• Entry <code>${fmt(t.entry)}</code> → SL <code>${fmt(t.sl)}</code>\n`;
+    } else if(t.status === 'void'){
+      const why = t.voidReason === 'tp-duluan' ? 'harga ke TP duluan sebelum entry' : 'harga nggak retest ke entry';
+      msg += `• Status : ○ Void — ${why}\n`;
+    }
+    msg += `\n`;
+  }
+  msg += `<i>Auto-tracking track record · bukan aba-aba entry/exit.</i>`;
+  const r = await fetch(`https://api.telegram.org/bot${TG_TOKEN}/sendMessage`, {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({chat_id: TG_CHAT, text: msg, parse_mode:'HTML', disable_web_page_preview:true})
+  });
+  console.log('telegram update:', r.status, `(${updates.length} posisi)`);
 }
 
 // ---------- TRACK RECORD ----------
@@ -188,14 +244,17 @@ function evalTrade(tr, candles){
   if(TERMINAL.includes(tr.status)) return tr;
   const ageDays = (Date.now() - tr.signalTime) / 86400000;
   const start = candles.findIndex(c => c.t > tr.signalTime);   // bar pertama SETELAH sinyal
-  if(start < 0) return ageDays > MAX_HOLD_DAYS ? {...tr, status:'void'} : tr;
-  // cari fill (harga retest turun ke entry) dalam jendela
+  if(start < 0) return ageDays > MAX_HOLD_DAYS ? {...tr, status:'void', voidReason:'ga-retest'} : tr;
+  // cari fill (harga retest turun ke entry) dalam jendela.
+  // Kalau harga nyentuh TP DULUAN sebelum retest ke entry → setup basi (nggak pernah kefill) → void.
+  // Cek fill dulu tiap bar: kalau 1 candle nyentuh entry & TP sekaligus, dianggap fill (dip dulu baru naik).
   let fill = -1;
   for(let i = start; i < candles.length && (i-start) < RETEST_WIN; i++){
     if(candles[i].l <= tr.entry){ fill = i; break; }
+    if(candles[i].h >= tr.tp){ return {...tr, status:'void', voidReason:'tp-duluan', resolvedTime:candles[i].t}; }
   }
   if(fill < 0){
-    if((candles.length - start) >= RETEST_WIN || ageDays > MAX_HOLD_DAYS) return {...tr, status:'void'};
+    if((candles.length - start) >= RETEST_WIN || ageDays > MAX_HOLD_DAYS) return {...tr, status:'void', voidReason:'ga-retest'};
     return {...tr, status:'pending'};
   }
   // resolusi dari bar fill: SL dicek dulu (same-bar = loss)
@@ -281,10 +340,17 @@ async function main(){
     try{ const raw = await apiGet('/api/v3/klines', {symbol:sym, interval:TF, limit:LIMIT});
       cache[sym] = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]})); }catch(e){ cache[sym] = null; } } }
   await Promise.all(Array.from({length: CONC}, trackWorker));
+  const updates = [];
   for(let j = 0; j < journal.length; j++){ const t = journal[j];
     if(TERMINAL.includes(t.status)) continue;
-    if(cache[t.symbol]) journal[j] = evalTrade(t, cache[t.symbol]);
+    if(!cache[t.symbol]) continue;
+    const before = t.status;
+    const after  = evalTrade(t, cache[t.symbol]);
+    journal[j] = after;
+    // notif kalau status pindah ke: open (entry kefill) / win / loss / void. Expired di-skip.
+    if(after.status !== before && ['open','win','loss','void'].includes(after.status)) updates.push(after);
   }
+  if(updates.length) await notifyUpdates(updates);
   // 3) hitung statistik + simpan
   const stats = computeStats(journal);
   fs.writeFileSync(JOURNAL_FILE, JSON.stringify(journal, null, 1));
