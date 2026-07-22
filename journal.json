@@ -13,5 +13,35 @@
   "signalTime": 1784724300000,
   "status": "pending",
   "createdAt": 1784724333350
+ },
+ {
+  "id": "BIOUSDT::ChoCh::1784727000000",
+  "symbol": "BIOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02686,
+  "sl": 0.026439999999999998,
+  "tp": 0.02877,
+  "tpSrc": "WH",
+  "slPct": 1.56,
+  "gainPct": 7.11,
+  "rr": 4.55,
+  "signalTime": 1784727000000,
+  "status": "pending",
+  "createdAt": 1784727042434
+ },
+ {
+  "id": "SKHYBUSDT::ChoCh::1784727000000",
+  "symbol": "SKHYBUSDT",
+  "setup": "ChoCh",
+  "entry": 162.93,
+  "sl": 156.885,
+  "tp": 175.78,
+  "tpSrc": "WH",
+  "slPct": 3.71,
+  "gainPct": 7.89,
+  "rr": 2.13,
+  "signalTime": 1784727000000,
+  "status": "pending",
+  "createdAt": 1784727042434
  }
 ]
