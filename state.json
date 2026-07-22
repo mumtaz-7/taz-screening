@@ -3,7 +3,8 @@
     "ACEUSDT::BoS",
     "EPICUSDT::ChoCh",
     "ERAUSDT::ChoCh",
-    "REUSDT::BoS"
+    "REUSDT::BoS",
+    "TLMUSDT::ChoCh"
   ],
-  "at": "2026-07-22T09:45:32.771Z"
+  "at": "2026-07-22T09:58:10.149Z"
 }
