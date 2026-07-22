@@ -7,16 +7,15 @@
     "BCHUSDT::ChoCh",
     "EIGENUSDT::ChoCh",
     "EPICUSDT::ChoCh",
+    "ERAUSDT::ChoCh",
     "ETHUSDT::ChoCh",
     "GRAMUSDT::BoS",
     "HBARUSDT::ChoCh",
     "INJUSDT::ChoCh",
     "KAITOUSDT::ChoCh",
     "LINKUSDT::BoS",
-    "MIRAUSDT::ChoCh",
-    "PUMPUSDT::BoS",
     "REUSDT::BoS",
     "TAOUSDT::ChoCh"
   ],
-  "at": "2026-07-22T04:33:44.244Z"
+  "at": "2026-07-22T04:45:31.085Z"
 }
