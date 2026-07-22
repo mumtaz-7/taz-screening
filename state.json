@@ -2,7 +2,6 @@
   "ready": [
     "ADAUSDT::ChoCh",
     "CRCLBUSDT::ChoCh",
-    "DASHUSDT::BoS",
     "ENAUSDT::BoS",
     "EPICUSDT::BoS",
     "ETHUSDT::ChoCh",
@@ -13,9 +12,9 @@
     "REUSDT::BoS",
     "SNDKBUSDT::BoS",
     "TAOUSDT::ChoCh",
-    "TLMUSDT::ChoCh",
     "UNIUSDT::ChoCh",
+    "XLMUSDT::ChoCh",
     "YGGUSDT::ChoCh"
   ],
-  "at": "2026-07-22T00:15:31.200Z"
+  "at": "2026-07-22T00:30:39.083Z"
 }
