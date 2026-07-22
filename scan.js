@@ -15,6 +15,7 @@ const INTERNAL_LEN= 5;
 const MAX_BARS    = 25;       // maks bar sejak break (fresh)
 const CONFLUENCE  = true;     // ON, sesuai chart
 const MIN_VOL     = 3e6;      // volume 24h minimal (USDT) = 3 juta
+const MIN_TP      = 5;        // notif cuma kalau potensi TP >= 5% (saring cuan receh). Naikin/turunin sesuka.
 const CONC        = 5;        // request paralel
 const STATE_FILE  = __dirname + '/state.json';
 const TG_TOKEN    = process.env.TELEGRAM_TOKEN;
@@ -181,7 +182,7 @@ async function main(){
       try{
         const raw = await apiGet('/api/v3/klines', {symbol: sym, interval: TF, limit: LIMIT});
         const c = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]}));
-        const a = analyze(c); if(a) ready[sym] = a;
+        const a = analyze(c); if(a && a.gainPct >= MIN_TP) ready[sym] = a;   // filter TP min
       }catch(e){}
     }
   }
@@ -198,4 +199,4 @@ async function main(){
 }
 
 if(require.main === module){ main().catch(e => { console.error(e); process.exit(1); }); }
-module.exports = { analyze, luxStructure, computeLeg };
+module.exports = { analyze, luxStructure, computeLeg, MIN_TP };
