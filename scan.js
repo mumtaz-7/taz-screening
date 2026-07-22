@@ -180,6 +180,12 @@ async function notify(fresh, ready){
   const shown = fresh.slice(0, cap);
   let msg = `▸ <b>${fresh.length} Sinyal Ready baru</b> · <b>M15</b>\n\n`;
   for(const k of shown){ const s = k.split('::')[0], a = ready[s];
+    if(a.price != null && a.price >= a.tp){   // harga udah lewat TP saat sinyal lahir → radar (Extended), bukan entry
+      msg += `<b>${s}</b> · ${a.setup} · <i>Extended</i>\n`;
+      msg += `<i>• Reversal terkonfirmasi — harga sudah lewat TP (${fmt(a.price)} > ${fmt(a.tp)}). Buat watchlist, bukan entry.</i>\n`;
+      msg += `• <a href="https://www.tradingview.com/chart/?symbol=BINANCE:${s}">Buka chart</a>\n\n`;
+      continue;
+    }
     const src   = a.tpSrc === 'OB' ? ' · OB' : a.tpSrc === 'EQ' ? ' · EQ' : '';
     const inval = a.internalLow != null ? ` · inval ${fmt(a.internalLow)}` : '';
     msg += `<b>${s}</b> · ${a.setup}\n`;
@@ -305,7 +311,7 @@ async function main(){
       try{
         const raw = await apiGet('/api/v3/klines', {symbol: sym, interval: TF, limit: LIMIT});
         const c = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]}));
-        const a = analyze(c); if(a && a.gainPct >= MIN_TP) ready[sym] = {...a, signalTime: c[c.length-1].t};   // filter TP min + anchor waktu
+        const a = analyze(c); if(a && a.gainPct >= MIN_TP) ready[sym] = {...a, signalTime: c[c.length-1].t, price: c[c.length-1].c};   // filter TP min + anchor waktu + harga skrg
       }catch(e){}
     }
   }
@@ -326,6 +332,7 @@ async function main(){
   // 1) catat sinyal BARU yang barusan dikirim (status pending, nunggu retest)
   const ids = new Set(journal.map(t => t.id));
   for(const k of fresh){ const sym = k.split('::')[0], a = ready[sym]; if(!a) continue;
+    if(a.price != null && a.price >= a.tp) continue;   // sinyal Extended (harga udah lewat TP) = radar, JANGAN di-track
     const id = `${sym}::${a.setup}::${a.signalTime}`;
     if(ids.has(id)) continue; ids.add(id);
     journal.push({ id, symbol:sym, setup:a.setup, entry:a.entry, sl:a.sl, tp:a.tp, tpSrc:a.tpSrc,
