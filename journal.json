@@ -43,5 +43,50 @@
   "signalTime": 1784727000000,
   "status": "pending",
   "createdAt": 1784727042434
+ },
+ {
+  "id": "REUSDT::BoS::1784727900000",
+  "symbol": "REUSDT",
+  "setup": "BoS",
+  "entry": 0.4901,
+  "sl": 0.4466,
+  "tp": 0.5148,
+  "tpSrc": "OB",
+  "slPct": 8.88,
+  "gainPct": 5.04,
+  "rr": 0.57,
+  "signalTime": 1784727900000,
+  "status": "pending",
+  "createdAt": 1784727937388
+ },
+ {
+  "id": "SOXLBUSDT::ChoCh::1784727900000",
+  "symbol": "SOXLBUSDT",
+  "setup": "ChoCh",
+  "entry": 150.52,
+  "sl": 144.7,
+  "tp": 161.64,
+  "tpSrc": "WH",
+  "slPct": 3.87,
+  "gainPct": 7.39,
+  "rr": 1.91,
+  "signalTime": 1784727900000,
+  "status": "pending",
+  "createdAt": 1784727937388
+ },
+ {
+  "id": "ZROUSDT::BoS::1784727900000",
+  "symbol": "ZROUSDT",
+  "setup": "BoS",
+  "entry": 0.82,
+  "sl": 0.8050000000000002,
+  "tp": 0.876,
+  "tpSrc": "OB",
+  "slPct": 1.83,
+  "gainPct": 6.83,
+  "rr": 3.73,
+  "signalTime": 1784727900000,
+  "status": "pending",
+  "createdAt": 1784727937388
  }
 ]
