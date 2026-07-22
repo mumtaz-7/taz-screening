@@ -137,8 +137,10 @@
   "gainPct": 19.5,
   "rr": 2.98,
   "signalTime": 1784736000000,
-  "status": "pending",
-  "createdAt": 1784736050446
+  "status": "void",
+  "createdAt": 1784736050446,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1784736900000
  },
  {
   "id": "VANAUSDT::BoS::1784736000000",
