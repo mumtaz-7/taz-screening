@@ -45,6 +45,14 @@ console.log("== evalTrade: void kalau TP nyentuh SEBELUM entry ==");
   const r=S.evalTrade({...base, status:'void'}, [C(0,102,103,99,100),C(1,100,111,100,110)]);
   ck("status terminal (void) tetap beku", r.status==='void'); }
 
+console.log("== fill ke-hit di candle sinyal sendiri (wick), jangan ke-skip ==");
+{ // candle TEPAT di signalTime wick ke entry (retest langsung), candle berikutnya udah lari ke TP
+  const cs=[{t:st,o:102,h:103,l:99,c:101},       // t==signalTime, low 99<=entry100 → harus FILL di sini
+            {t:st+M,o:101,h:111,l:101,c:110}];    // low 101>entry (ga fill di sini), high 111>=tp
+  const r=S.evalTrade({...base}, cs);
+  // dgn start>=signalTime: fill di candle0 → candle1 kena TP → win.  (dgn > lama: candle0 ke-skip → void tp-duluan)
+  ck("retest di candle sinyal → fill lalu win (bukan void)", r.status==='win'); }
+
 console.log("== computeStats: void ga masuk win/loss ==");
 { const j=[{status:'win',R:2,setup:'ChoCh'},{status:'loss',R:-1,setup:'ChoCh'},
            {status:'void',setup:'ChoCh'},{status:'void',setup:'BoS'},{status:'pending',setup:'BoS'}];

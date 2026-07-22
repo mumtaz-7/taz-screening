@@ -249,7 +249,7 @@ const round = x => x==null ? null : Math.round(x*100)/100;
 function evalTrade(tr, candles){
   if(TERMINAL.includes(tr.status)) return tr;
   const ageDays = (Date.now() - tr.signalTime) / 86400000;
-  const start = candles.findIndex(c => c.t > tr.signalTime);   // bar pertama SETELAH sinyal
+  const start = candles.findIndex(c => c.t >= tr.signalTime);   // bar SEJAK sinyal (termasuk candle sinyal, biar retest langsung ke-hit wick ga kelewat + sinkron sama backtest)
   if(start < 0) return ageDays > MAX_HOLD_DAYS ? {...tr, status:'void', voidReason:'ga-retest'} : tr;
   // cari fill (harga retest turun ke entry) dalam jendela.
   // Kalau harga nyentuh TP DULUAN sebelum retest ke entry → setup basi (nggak pernah kefill) → void.
