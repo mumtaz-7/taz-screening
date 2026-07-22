@@ -4,8 +4,6 @@
     "ALLOUSDT::ChoCh",
     "BANKUSDT::ChoCh",
     "EPICUSDT::ChoCh",
-    "ERAUSDT::ChoCh",
-    "GRAMUSDT::BoS",
     "HBARUSDT::ChoCh",
     "INJUSDT::ChoCh",
     "LDOUSDT::ChoCh",
@@ -13,5 +11,5 @@
     "REUSDT::BoS",
     "ZAMAUSDT::ChoCh"
   ],
-  "at": "2026-07-22T06:00:44.924Z"
+  "at": "2026-07-22T06:15:31.645Z"
 }
