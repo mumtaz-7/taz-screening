@@ -1,11 +1,9 @@
 {
   "ready": [
     "ACEUSDT::BoS",
-    "EPICUSDT::ChoCh",
     "ERAUSDT::ChoCh",
     "REUSDT::BoS",
-    "SOXLBUSDT::ChoCh",
-    "ZAMAUSDT::ChoCh"
+    "SOXLBUSDT::ChoCh"
   ],
-  "at": "2026-07-22T10:30:40.639Z"
+  "at": "2026-07-22T10:45:32.883Z"
 }
