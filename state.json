@@ -1,10 +1,11 @@
 {
   "ready": [
     "BIOUSDT::ChoCh",
+    "MITOUSDT::ChoCh",
     "REUSDT::BoS",
     "SKHYBUSDT::ChoCh",
     "SOXLBUSDT::ChoCh",
     "TLMUSDT::ChoCh"
   ],
-  "at": "2026-07-22T15:39:11.691Z"
+  "at": "2026-07-22T15:45:34.514Z"
 }
