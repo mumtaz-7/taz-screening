@@ -1,8 +1,10 @@
 {
   "ready": [
     "ADAUSDT::ChoCh",
+    "ALLOUSDT::ChoCh",
     "ENAUSDT::BoS",
     "ETHUSDT::ChoCh",
+    "INJUSDT::ChoCh",
     "KAITOUSDT::ChoCh",
     "KITEUSDT::BoS",
     "LINKUSDT::ChoCh",
@@ -12,5 +14,5 @@
     "TAOUSDT::ChoCh",
     "XLMUSDT::ChoCh"
   ],
-  "at": "2026-07-22T01:30:37.775Z"
+  "at": "2026-07-22T01:45:33.408Z"
 }
