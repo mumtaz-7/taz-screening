@@ -1,8 +1,7 @@
 {
   "ready": [
     "ACEUSDT::ChoCh",
-    "OPNUSDT::ChoCh",
-    "REUSDT::BoS"
+    "OPNUSDT::ChoCh"
   ],
-  "at": "2026-07-22T07:00:48.156Z"
+  "at": "2026-07-22T07:15:33.255Z"
 }
