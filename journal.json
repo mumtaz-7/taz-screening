@@ -56,8 +56,9 @@
   "gainPct": 5.04,
   "rr": 0.57,
   "signalTime": 1784727900000,
-  "status": "pending",
-  "createdAt": 1784727937388
+  "status": "open",
+  "createdAt": 1784727937388,
+  "fillTime": 1784728800000
  },
  {
   "id": "SOXLBUSDT::ChoCh::1784727900000",
