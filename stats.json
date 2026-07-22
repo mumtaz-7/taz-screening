@@ -1,0 +1,7 @@
+{
+  "updatedAt": null,
+  "all": { "n": 0, "win": null, "er": null },
+  "ChoCh": { "n": 0, "win": null, "er": null },
+  "BoS": { "n": 0, "win": null, "er": null },
+  "open": 0, "pending": 0, "void": 0, "expired": 0, "totalSignals": 0
+}

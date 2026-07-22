@@ -175,6 +175,58 @@ async function notify(fresh, ready){
   console.log('telegram sendMessage:', r.status);
 }
 
+// ---------- TRACK RECORD ----------
+const JOURNAL_FILE = __dirname + '/journal.json';
+const STATS_FILE   = __dirname + '/stats.json';
+const RETEST_WIN   = 25;          // jendela retest (bar) buat fill limit
+const MAX_HOLD_DAYS= 3;           // open > 3 hari & belum resolve → dianggap expired (nggak dihitung)
+const TERMINAL     = ['win','loss','void','expired'];
+const round = x => x==null ? null : Math.round(x*100)/100;
+
+// Evaluasi 1 trade pakai candle terbaru. Model: limit @ entry (retest), same-bar SL+TP = loss.
+function evalTrade(tr, candles){
+  if(TERMINAL.includes(tr.status)) return tr;
+  const ageDays = (Date.now() - tr.signalTime) / 86400000;
+  const start = candles.findIndex(c => c.t > tr.signalTime);   // bar pertama SETELAH sinyal
+  if(start < 0) return ageDays > MAX_HOLD_DAYS ? {...tr, status:'void'} : tr;
+  // cari fill (harga retest turun ke entry) dalam jendela
+  let fill = -1;
+  for(let i = start; i < candles.length && (i-start) < RETEST_WIN; i++){
+    if(candles[i].l <= tr.entry){ fill = i; break; }
+  }
+  if(fill < 0){
+    if((candles.length - start) >= RETEST_WIN || ageDays > MAX_HOLD_DAYS) return {...tr, status:'void'};
+    return {...tr, status:'pending'};
+  }
+  // resolusi dari bar fill: SL dicek dulu (same-bar = loss)
+  for(let i = fill; i < candles.length; i++){
+    if(candles[i].l <= tr.sl) return {...tr, status:'loss', R:-1, fillTime:candles[fill].t, resolvedTime:candles[i].t};
+    if(candles[i].h >= tr.tp){ const RR=(tr.tp-tr.entry)/(tr.entry-tr.sl);
+      return {...tr, status:'win', R:round(RR), fillTime:candles[fill].t, resolvedTime:candles[i].t}; }
+  }
+  if(ageDays > MAX_HOLD_DAYS) return {...tr, status:'expired', fillTime:candles[fill].t};
+  return {...tr, status:'open', fillTime:candles[fill].t};
+}
+
+function computeStats(journal){
+  const done = journal.filter(t => t.status==='win' || t.status==='loss');
+  const agg = list => { const n = list.length; if(!n) return {n:0, win:null, er:null, avgWin:null};
+    const wins = list.filter(t => t.status==='win');
+    const er = list.reduce((s,t) => s + t.R, 0) / n;
+    const avgWin = wins.length ? wins.reduce((s,t)=>s+t.R,0)/wins.length : null;
+    return {n, wins:wins.length, losses:n-wins.length, win:Math.round(wins.length/n*1000)/10,
+            er:round(er), avgWin:round(avgWin)}; };
+  return {
+    updatedAt: new Date().toISOString(),
+    all: agg(done), ChoCh: agg(done.filter(t=>t.setup==='ChoCh')), BoS: agg(done.filter(t=>t.setup==='BoS')),
+    open: journal.filter(t=>t.status==='open').length,
+    pending: journal.filter(t=>t.status==='pending').length,
+    void: journal.filter(t=>t.status==='void').length,
+    expired: journal.filter(t=>t.status==='expired').length,
+    totalSignals: journal.length
+  };
+}
+
 // ---------- MAIN ----------
 async function main(){
   const info = await apiGet('/api/v3/exchangeInfo');
@@ -194,7 +246,7 @@ async function main(){
       try{
         const raw = await apiGet('/api/v3/klines', {symbol: sym, interval: TF, limit: LIMIT});
         const c = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]}));
-        const a = analyze(c); if(a && a.gainPct >= MIN_TP) ready[sym] = a;   // filter TP min
+        const a = analyze(c); if(a && a.gainPct >= MIN_TP) ready[sym] = {...a, signalTime: c[c.length-1].t};   // filter TP min + anchor waktu
       }catch(e){}
     }
   }
@@ -208,7 +260,37 @@ async function main(){
   console.log(`scan: ${liquid.length} coin · ${curr.length} READY · ${fresh.length} baru → ${fresh.join(', ') || '-'}`);
   if(fresh.length) await notify(fresh, ready);
   fs.writeFileSync(STATE_FILE, JSON.stringify({ready: curr, at: new Date().toISOString()}, null, 2));
+
+  // ---------- TRACK RECORD OTOMATIS ----------
+  let journal = [];
+  try{ journal = JSON.parse(fs.readFileSync(JOURNAL_FILE, 'utf8')); }catch(e){}
+  // 1) catat sinyal BARU yang barusan dikirim (status pending, nunggu retest)
+  const ids = new Set(journal.map(t => t.id));
+  for(const k of fresh){ const sym = k.split('::')[0], a = ready[sym]; if(!a) continue;
+    const id = `${sym}::${a.setup}::${a.signalTime}`;
+    if(ids.has(id)) continue; ids.add(id);
+    journal.push({ id, symbol:sym, setup:a.setup, entry:a.entry, sl:a.sl, tp:a.tp, tpSrc:a.tpSrc,
+      slPct:round(a.slPct), gainPct:round(a.gainPct), rr:round(a.rr), signalTime:a.signalTime,
+      status:'pending', createdAt:Date.now() });
+  }
+  // 2) update trade yg belum kelar (fetch klines terbaru → cek fill/TP/SL)
+  const alive = journal.filter(t => !TERMINAL.includes(t.status));
+  const symsNeeded = [...new Set(alive.map(t => t.symbol))];
+  const cache = {}; let ti = 0;
+  async function trackWorker(){ while(ti < symsNeeded.length){ const sym = symsNeeded[ti++];
+    try{ const raw = await apiGet('/api/v3/klines', {symbol:sym, interval:TF, limit:LIMIT});
+      cache[sym] = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]})); }catch(e){ cache[sym] = null; } } }
+  await Promise.all(Array.from({length: CONC}, trackWorker));
+  for(let j = 0; j < journal.length; j++){ const t = journal[j];
+    if(TERMINAL.includes(t.status)) continue;
+    if(cache[t.symbol]) journal[j] = evalTrade(t, cache[t.symbol]);
+  }
+  // 3) hitung statistik + simpan
+  const stats = computeStats(journal);
+  fs.writeFileSync(JOURNAL_FILE, JSON.stringify(journal, null, 1));
+  fs.writeFileSync(STATS_FILE, JSON.stringify(stats, null, 2));
+  console.log(`journal: ${journal.length} sinyal · resolved ${stats.all.n} (win ${stats.all.win}%) · open ${stats.open} · pending ${stats.pending}`);
 }
 
 if(require.main === module){ main().catch(e => { console.error(e); process.exit(1); }); }
-module.exports = { analyze, luxStructure, computeLeg, MIN_TP };
+module.exports = { analyze, luxStructure, computeLeg, MIN_TP, evalTrade, computeStats };
