@@ -16,6 +16,7 @@ const MAX_BARS    = 25;       // maks bar sejak break (fresh)
 const CONFLUENCE  = true;     // ON, sesuai chart
 const MIN_VOL     = 3e6;      // volume 24h minimal (USDT) = 3 juta
 const MIN_TP      = 5;        // notif cuma kalau potensi TP >= 5% (saring cuan receh). Naikin/turunin sesuka.
+const SL_BUFFER   = 0.5;      // Opsi 3: SL = internal low − 0.5×(entry−internal low). 0.5 = 50%.
 const CONC        = 5;        // request paralel
 const STATE_FILE  = __dirname + '/state.json';
 const TG_TOKEN    = process.env.TELEGRAM_TOKEN;
@@ -123,6 +124,12 @@ function analyze(c){
     return st.internalTrend === 1 && !bearAfter && (n-1-ev.idx) <= MAX_BARS
         && ev.level > strongLow && weakHigh > ev.level;
   };
+  // SL Opsi 3: patokan = swing low internal terakhir (LL utk ChoCh, HL utk BoS) − buffer di bawahnya
+  const slOpt3 = (entry, internalLow) => {
+    const lo = (internalLow != null && internalLow < entry) ? internalLow : strongLow;
+    const sl = lo - SL_BUFFER*(entry - lo);
+    return (sl > 0 && sl < entry) ? sl : (strongLow > 0 && strongLow < entry ? strongLow : entry*0.5);
+  };
   const build = (ev, setup, sl, tp, tpSrc) => {
     const entry = ev.level, slPct = (entry-sl)/entry*100, gainPct = (tp-entry)/entry*100;
     return {setup, entry, sl, tp, tpSrc, weakHigh, slPct, gainPct, rr: gainPct/slPct, barsSince: n-1-ev.idx, evIdx: ev.idx};
@@ -130,14 +137,19 @@ function analyze(c){
   let choch = null, bos = null;
   const chs = st.events.filter(e => e.dir === 'bull' && e.tag === 'CHoCH');
   if(chs.length){ const ev = chs[chs.length-1];
-    if(ok(ev)) choch = build(ev, 'ChoCh', strongLow, weakHigh, 'WH'); }   // ChoCh: TP tetap Weak High
+    if(ok(ev)){
+      // ChoCh dalam (di bawah garis fib 0.618) → TP di equilibrium; selain itu → Weak High
+      const entry = ev.level, eq = (strongLow + weakHigh)/2;
+      const cr = (weakHigh - strongLow) > 0 ? (weakHigh - entry)/(weakHigh - strongLow) : null;
+      const useEQ = (cr != null && cr > 0.618 && eq > entry);
+      choch = build(ev, 'ChoCh', slOpt3(entry, ev.internalLow), useEQ ? eq : weakHigh, useEQ ? 'EQ' : 'WH');
+    } }
   const bss = st.events.filter(e => e.dir === 'bull' && e.tag === 'BOS');
   if(bss.length){ const ev = bss[bss.length-1];
-    if(ok(ev)){ const sl = (ev.internalLow != null && ev.internalLow < ev.level && ev.internalLow >= strongLow)
-                         ? ev.internalLow : strongLow;
+    if(ok(ev)){
       // TP BoS = dasar bearish OB terdekat DI ATAS Weak High; kalau nggak ada → Weak High
       const useOB = (ev.obTP != null && ev.obTP > weakHigh);
-      bos = build(ev, 'BoS', sl, useOB ? ev.obTP : weakHigh, useOB ? 'OB' : 'WH'); } }
+      bos = build(ev, 'BoS', slOpt3(ev.level, ev.internalLow), useOB ? ev.obTP : weakHigh, useOB ? 'OB' : 'WH'); } }
   if(!choch && !bos) return null;
   if(choch && bos) return bos.evIdx > choch.evIdx ? bos : choch;   // event terbaru menang
   return choch || bos;
@@ -151,7 +163,7 @@ async function notify(fresh, ready){
   const shown = fresh.slice(0, cap);
   let msg = `▸ <b>${fresh.length} Sinyal Ready baru</b> · <b>M15</b>\n\n`;
   for(const k of shown){ const s = k.split('::')[0], a = ready[s];
-    msg += `<b>${s}</b> · ${a.setup}\n  entry ${fmt(a.entry)} · SL ${fmt(a.sl)} (-${a.slPct.toFixed(1)}%) · TP ${fmt(a.tp)}${a.tpSrc === 'OB' ? ' (OB)' : ''} (+${a.gainPct.toFixed(1)}%) · R:R ${a.rr.toFixed(2)}\n  https://www.tradingview.com/chart/?symbol=BINANCE:${s}\n\n`;
+    msg += `<b>${s}</b> · ${a.setup}\n  entry ${fmt(a.entry)} · SL ${fmt(a.sl)} (-${a.slPct.toFixed(1)}%) · TP ${fmt(a.tp)}${a.tpSrc === 'OB' ? ' (OB)' : a.tpSrc === 'EQ' ? ' (EQ)' : ''} (+${a.gainPct.toFixed(1)}%) · R:R ${a.rr.toFixed(2)}\n  https://www.tradingview.com/chart/?symbol=BINANCE:${s}\n\n`;
   }
   if(fresh.length > cap) msg += `…+${fresh.length - cap} lagi\n\n`;
   msg += `— Bukan sinyal buy. Verifikasi di chart (LuxAlgo swing=50, internal=5) dulu.\n`;
