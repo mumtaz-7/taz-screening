@@ -3,7 +3,6 @@
     "ADAUSDT::ChoCh",
     "CRCLBUSDT::ChoCh",
     "ENAUSDT::BoS",
-    "EPICUSDT::BoS",
     "ETHUSDT::ChoCh",
     "KAITOUSDT::ChoCh",
     "KITEUSDT::BoS",
@@ -16,5 +15,5 @@
     "XLMUSDT::ChoCh",
     "YGGUSDT::ChoCh"
   ],
-  "at": "2026-07-22T00:30:39.083Z"
+  "at": "2026-07-22T00:45:32.540Z"
 }
