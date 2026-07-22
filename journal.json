@@ -30,5 +30,20 @@
   "signalTime": 1784751300000,
   "status": "pending",
   "createdAt": 1784751335065
+ },
+ {
+  "id": "VANAUSDT::BoS::1784754000000",
+  "symbol": "VANAUSDT",
+  "setup": "BoS",
+  "entry": 1.215,
+  "sl": 1.161,
+  "tp": 1.29,
+  "tpSrc": "OB",
+  "slPct": 4.44,
+  "gainPct": 6.17,
+  "rr": 1.39,
+  "signalTime": 1784754000000,
+  "status": "pending",
+  "createdAt": 1784754046333
  }
 ]
