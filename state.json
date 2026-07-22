@@ -1,11 +1,14 @@
 {
   "ready": [
     "BIOUSDT::ChoCh",
+    "LISTAUSDT::BoS",
+    "MIRAUSDT::ChoCh",
     "MITOUSDT::ChoCh",
     "REUSDT::BoS",
     "SKHYBUSDT::ChoCh",
     "SOXLBUSDT::ChoCh",
-    "TLMUSDT::ChoCh"
+    "TLMUSDT::ChoCh",
+    "VANAUSDT::BoS"
   ],
-  "at": "2026-07-22T15:45:34.514Z"
+  "at": "2026-07-22T16:00:50.445Z"
 }

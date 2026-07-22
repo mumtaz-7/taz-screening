@@ -109,5 +109,50 @@
   "signalTime": 1784735100000,
   "status": "pending",
   "createdAt": 1784735134514
+ },
+ {
+  "id": "LISTAUSDT::BoS::1784736000000",
+  "symbol": "LISTAUSDT",
+  "setup": "BoS",
+  "entry": 0.0485,
+  "sl": 0.047299999999999995,
+  "tp": 0.0637,
+  "tpSrc": "WH",
+  "slPct": 2.47,
+  "gainPct": 31.34,
+  "rr": 12.67,
+  "signalTime": 1784736000000,
+  "status": "pending",
+  "createdAt": 1784736050446
+ },
+ {
+  "id": "MIRAUSDT::ChoCh::1784736000000",
+  "symbol": "MIRAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0459,
+  "sl": 0.0429,
+  "tp": 0.05485,
+  "tpSrc": "EQ",
+  "slPct": 6.54,
+  "gainPct": 19.5,
+  "rr": 2.98,
+  "signalTime": 1784736000000,
+  "status": "pending",
+  "createdAt": 1784736050446
+ },
+ {
+  "id": "VANAUSDT::BoS::1784736000000",
+  "symbol": "VANAUSDT",
+  "setup": "BoS",
+  "entry": 1.215,
+  "sl": 1.161,
+  "tp": 1.29,
+  "tpSrc": "OB",
+  "slPct": 4.44,
+  "gainPct": 6.17,
+  "rr": 1.39,
+  "signalTime": 1784736000000,
+  "status": "pending",
+  "createdAt": 1784736050446
  }
 ]
