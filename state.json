@@ -10,7 +10,8 @@
     "INJUSDT::ChoCh",
     "LDOUSDT::ChoCh",
     "OPNUSDT::ChoCh",
-    "REUSDT::BoS"
+    "REUSDT::BoS",
+    "ZAMAUSDT::ChoCh"
   ],
-  "at": "2026-07-22T05:45:33.520Z"
+  "at": "2026-07-22T06:00:44.924Z"
 }
