@@ -1,7 +1,7 @@
 {
   "ready": [
-    "ERAUSDT::ChoCh",
-    "REUSDT::BoS"
+    "REUSDT::BoS",
+    "TLMUSDT::ChoCh"
   ],
-  "at": "2026-07-22T12:30:39.941Z"
+  "at": "2026-07-22T12:45:33.349Z"
 }

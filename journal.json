@@ -1,1 +1,17 @@
-[]
+[
+ {
+  "id": "TLMUSDT::ChoCh::1784724300000",
+  "symbol": "TLMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001835,
+  "sl": 0.0015004999999999999,
+  "tp": 0.001959,
+  "tpSrc": "WH",
+  "slPct": 18.23,
+  "gainPct": 6.76,
+  "rr": 0.37,
+  "signalTime": 1784724300000,
+  "status": "pending",
+  "createdAt": 1784724333350
+ }
+]
