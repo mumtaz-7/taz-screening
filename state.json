@@ -5,7 +5,6 @@
     "ALLOUSDT::ChoCh",
     "BANKUSDT::ChoCh",
     "BCHUSDT::ChoCh",
-    "EIGENUSDT::ChoCh",
     "EPICUSDT::ChoCh",
     "ERAUSDT::ChoCh",
     "ETHUSDT::ChoCh",
@@ -18,5 +17,5 @@
     "REUSDT::BoS",
     "TAOUSDT::ChoCh"
   ],
-  "at": "2026-07-22T05:00:45.060Z"
+  "at": "2026-07-22T05:15:32.631Z"
 }
