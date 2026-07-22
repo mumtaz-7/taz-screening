@@ -28,8 +28,9 @@
   "gainPct": 32.89,
   "rr": 9.43,
   "signalTime": 1784751300000,
-  "status": "pending",
-  "createdAt": 1784751335065
+  "status": "open",
+  "createdAt": 1784751335065,
+  "fillTime": 1784760300000
  },
  {
   "id": "VANAUSDT::BoS::1784754000000",
@@ -76,7 +77,8 @@
   "gainPct": 18.95,
   "rr": 2.77,
   "signalTime": 1784759400000,
-  "status": "pending",
-  "createdAt": 1784759438245
+  "status": "open",
+  "createdAt": 1784759438245,
+  "fillTime": 1784760300000
  }
 ]
