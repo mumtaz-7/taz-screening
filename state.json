@@ -4,18 +4,17 @@
     "CRCLBUSDT::ChoCh",
     "DASHUSDT::BoS",
     "ENAUSDT::BoS",
+    "ETHUSDT::ChoCh",
     "KAITOUSDT::ChoCh",
     "KITEUSDT::BoS",
     "LINKUSDT::ChoCh",
     "MUBUSDT::BoS",
-    "PUMPUSDT::ChoCh",
     "REUSDT::BoS",
-    "SKHYBUSDT::BoS",
     "SNDKBUSDT::ChoCh",
     "TAOUSDT::ChoCh",
     "TLMUSDT::ChoCh",
     "UNIUSDT::ChoCh",
     "YGGUSDT::ChoCh"
   ],
-  "at": "2026-07-21T23:45:31.252Z"
+  "at": "2026-07-22T00:00:47.453Z"
 }
