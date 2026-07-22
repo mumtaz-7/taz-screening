@@ -4,18 +4,16 @@
     "ADAUSDT::BoS",
     "ALLOUSDT::ChoCh",
     "BANKUSDT::ChoCh",
-    "BCHUSDT::ChoCh",
+    "EIGENUSDT::ChoCh",
     "EPICUSDT::ChoCh",
     "ERAUSDT::ChoCh",
-    "ETHUSDT::ChoCh",
     "GRAMUSDT::BoS",
     "HBARUSDT::ChoCh",
+    "HMSTRUSDT::BoS",
     "INJUSDT::ChoCh",
     "KAITOUSDT::ChoCh",
-    "LINKUSDT::BoS",
     "OPNUSDT::ChoCh",
-    "REUSDT::BoS",
-    "TAOUSDT::ChoCh"
+    "REUSDT::BoS"
   ],
-  "at": "2026-07-22T05:15:32.631Z"
+  "at": "2026-07-22T05:30:38.007Z"
 }
