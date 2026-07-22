@@ -1,8 +1,9 @@
 {
   "ready": [
+    "ACEUSDT::ChoCh",
     "BANKUSDT::ChoCh",
     "MIRAUSDT::ChoCh",
     "VANAUSDT::BoS"
   ],
-  "at": "2026-07-22T20:00:48.880Z"
+  "at": "2026-07-22T20:15:35.065Z"
 }

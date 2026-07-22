@@ -15,5 +15,20 @@
   "createdAt": 1784744134198,
   "voidReason": "tp-duluan",
   "resolvedTime": 1784747700000
+ },
+ {
+  "id": "ACEUSDT::ChoCh::1784751300000",
+  "symbol": "ACEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0903,
+  "sl": 0.08715,
+  "tp": 0.12,
+  "tpSrc": "EQ",
+  "slPct": 3.49,
+  "gainPct": 32.89,
+  "rr": 9.43,
+  "signalTime": 1784751300000,
+  "status": "pending",
+  "createdAt": 1784751335065
  }
 ]
