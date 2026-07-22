@@ -11,8 +11,10 @@
   "gainPct": 6.76,
   "rr": 0.37,
   "signalTime": 1784724300000,
-  "status": "pending",
-  "createdAt": 1784724333350
+  "status": "void",
+  "createdAt": 1784724333350,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1784725200000
  },
  {
   "id": "BIOUSDT::ChoCh::1784727000000",
@@ -87,7 +89,8 @@
   "gainPct": 6.83,
   "rr": 3.73,
   "signalTime": 1784727900000,
-  "status": "pending",
-  "createdAt": 1784727937388
+  "status": "open",
+  "createdAt": 1784727937388,
+  "fillTime": 1784730600000
  }
 ]
