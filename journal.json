@@ -98,5 +98,35 @@
   "createdAt": 1784787331461,
   "voidReason": "tp-duluan",
   "resolvedTime": 1784787300000
+ },
+ {
+  "id": "OPNUSDT::ChoCh::1784794500000",
+  "symbol": "OPNUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0712,
+  "sl": 0.06775,
+  "tp": 0.0759,
+  "tpSrc": "WH",
+  "slPct": 4.85,
+  "gainPct": 6.6,
+  "rr": 1.36,
+  "signalTime": 1784794500000,
+  "status": "pending",
+  "createdAt": 1784794533357
+ },
+ {
+  "id": "ZKCUSDT::ChoCh::1784794500000",
+  "symbol": "ZKCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0443,
+  "sl": 0.04265000000000001,
+  "tp": 0.04865,
+  "tpSrc": "EQ",
+  "slPct": 3.72,
+  "gainPct": 9.82,
+  "rr": 2.64,
+  "signalTime": 1784794500000,
+  "status": "pending",
+  "createdAt": 1784794533357
  }
 ]
