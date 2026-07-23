@@ -2,9 +2,9 @@
   "ready": [
     "BANKUSDT::BoS",
     "BARDUSDT::ChoCh",
+    "KAITOUSDT::ChoCh",
     "REUSDT::ChoCh",
-    "WLFIUSDT::ChoCh",
     "ZKCUSDT::ChoCh"
   ],
-  "at": "2026-07-23T11:51:08.245Z"
+  "at": "2026-07-23T12:00:50.929Z"
 }

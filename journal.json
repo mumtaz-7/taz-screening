@@ -146,5 +146,20 @@
   "status": "open",
   "createdAt": 1784801735238,
   "fillTime": 1784801700000
+ },
+ {
+  "id": "KAITOUSDT::ChoCh::1784808000000",
+  "symbol": "KAITOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.997,
+  "sl": 0.9763,
+  "tp": 1.085,
+  "tpSrc": "WH",
+  "slPct": 2.08,
+  "gainPct": 8.83,
+  "rr": 4.25,
+  "signalTime": 1784808000000,
+  "status": "pending",
+  "createdAt": 1784808050973
  }
 ]
