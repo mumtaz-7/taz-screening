@@ -167,5 +167,20 @@
   "createdAt": 1784808050973,
   "voidReason": "tp-duluan",
   "resolvedTime": 1784808000000
+ },
+ {
+  "id": "币安人生USDT::BoS::1784816100000",
+  "symbol": "币安人生USDT",
+  "setup": "BoS",
+  "entry": 0.6519,
+  "sl": 0.6309,
+  "tp": 0.6877,
+  "tpSrc": "WH",
+  "slPct": 3.22,
+  "gainPct": 5.49,
+  "rr": 1.7,
+  "signalTime": 1784816100000,
+  "status": "pending",
+  "createdAt": 1784816135133
  }
 ]
