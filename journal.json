@@ -11,8 +11,9 @@
   "gainPct": 26.14,
   "rr": 12.57,
   "signalTime": 1784770200000,
-  "status": "pending",
-  "createdAt": 1784770239828
+  "status": "open",
+  "createdAt": 1784770239828,
+  "fillTime": 1784776500000
  },
  {
   "id": "KITEUSDT::ChoCh::1784774700000",
@@ -30,5 +31,20 @@
   "createdAt": 1784774733064,
   "voidReason": "tp-duluan",
   "resolvedTime": 1784774700000
+ },
+ {
+  "id": "ERAUSDT::BoS::1784777400000",
+  "symbol": "ERAUSDT",
+  "setup": "BoS",
+  "entry": 0.1087,
+  "sl": 0.091,
+  "tp": 0.155,
+  "tpSrc": "WH",
+  "slPct": 16.28,
+  "gainPct": 42.59,
+  "rr": 2.62,
+  "signalTime": 1784777400000,
+  "status": "pending",
+  "createdAt": 1784777439642
  }
 ]
