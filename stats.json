@@ -1,23 +1,8 @@
 {
-  "updatedAt": "2026-07-23T01:04:23.253Z",
-  "all": {
-    "n": 0,
-    "win": null,
-    "er": null,
-    "avgWin": null
-  },
-  "ChoCh": {
-    "n": 0,
-    "win": null,
-    "er": null,
-    "avgWin": null
-  },
-  "BoS": {
-    "n": 0,
-    "win": null,
-    "er": null,
-    "avgWin": null
-  },
+  "updatedAt": null,
+  "all": { "n": 0, "win": null, "er": null, "avgWin": null },
+  "ChoCh": { "n": 0, "win": null, "er": null, "avgWin": null },
+  "BoS": { "n": 0, "win": null, "er": null, "avgWin": null },
   "open": 0,
   "pending": 0,
   "void": 0,
