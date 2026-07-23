@@ -75,9 +75,11 @@
   "gainPct": 8.13,
   "rr": 9.24,
   "signalTime": 1784786400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1784786449410,
-  "fillTime": 1784786400000
+  "fillTime": 1784786400000,
+  "R": -1,
+  "resolvedTime": 1784790000000
  },
  {
   "id": "WLFIUSDT::ChoCh::1784787300000",
