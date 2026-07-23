@@ -1,1 +1,17 @@
-[]
+[
+ {
+  "id": "LISTAUSDT::BoS::1784770200000",
+  "symbol": "LISTAUSDT",
+  "setup": "BoS",
+  "entry": 0.0505,
+  "sl": 0.049449999999999994,
+  "tp": 0.0637,
+  "tpSrc": "WH",
+  "slPct": 2.08,
+  "gainPct": 26.14,
+  "rr": 12.57,
+  "signalTime": 1784770200000,
+  "status": "pending",
+  "createdAt": 1784770239828
+ }
+]
