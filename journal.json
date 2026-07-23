@@ -62,9 +62,11 @@
   "gainPct": 12.46,
   "rr": 3.29,
   "signalTime": 1784781000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1784781037952,
-  "fillTime": 1784791800000
+  "fillTime": 1784791800000,
+  "R": -1,
+  "resolvedTime": 1784827800000
  },
  {
   "id": "VANAUSDT::ChoCh::1784786400000",
@@ -204,5 +206,20 @@
   "fillTime": 1784817900000,
   "R": 1.33,
   "resolvedTime": 1784821500000
+ },
+ {
+  "id": "LAUSDT::BoS::1784828700000",
+  "symbol": "LAUSDT",
+  "setup": "BoS",
+  "entry": 0.0634,
+  "sl": 0.0514,
+  "tp": 0.0686,
+  "tpSrc": "WH",
+  "slPct": 18.93,
+  "gainPct": 8.2,
+  "rr": 0.43,
+  "signalTime": 1784828700000,
+  "status": "pending",
+  "createdAt": 1784828734111
  }
 ]
