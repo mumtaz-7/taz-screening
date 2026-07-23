@@ -11,9 +11,11 @@
   "gainPct": 26.14,
   "rr": 12.57,
   "signalTime": 1784770200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1784770239828,
-  "fillTime": 1784776500000
+  "fillTime": 1784776500000,
+  "R": -1,
+  "resolvedTime": 1784814300000
  },
  {
   "id": "KITEUSDT::ChoCh::1784774700000",

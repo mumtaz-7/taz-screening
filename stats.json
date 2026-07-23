@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-23T13:45:34.205Z",
+  "updatedAt": "2026-07-23T13:51:26.983Z",
   "all": {
-    "n": 2,
+    "n": 3,
     "wins": 0,
-    "losses": 2,
+    "losses": 3,
     "win": 0,
     "er": -1,
     "avgWin": null
@@ -17,12 +17,14 @@
     "avgWin": null
   },
   "BoS": {
-    "n": 0,
-    "win": null,
-    "er": null,
+    "n": 1,
+    "wins": 0,
+    "losses": 1,
+    "win": 0,
+    "er": -1,
     "avgWin": null
   },
-  "open": 5,
+  "open": 4,
   "pending": 0,
   "void": 3,
   "expired": 0,
