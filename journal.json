@@ -303,9 +303,11 @@
   "gainPct": 5.35,
   "rr": 1.03,
   "signalTime": 1784838600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1784838641681,
-  "fillTime": 1784838600000
+  "fillTime": 1784838600000,
+  "R": -1,
+  "resolvedTime": 1784847600000
  },
  {
   "id": "ZKCUSDT::ChoCh::1784844000000",
