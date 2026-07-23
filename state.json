@@ -1,10 +1,9 @@
 {
   "ready": [
     "BANKUSDT::BoS",
-    "ERAUSDT::BoS",
     "OPNUSDT::ChoCh",
     "WLFIUSDT::ChoCh",
     "ZKCUSDT::ChoCh"
   ],
-  "at": "2026-07-23T08:45:32.980Z"
+  "at": "2026-07-23T09:00:49.187Z"
 }
