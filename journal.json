@@ -219,8 +219,9 @@
   "gainPct": 8.2,
   "rr": 0.43,
   "signalTime": 1784828700000,
-  "status": "pending",
-  "createdAt": 1784828734111
+  "status": "open",
+  "createdAt": 1784828734111,
+  "fillTime": 1784829600000
  },
  {
   "id": "ZAMAUSDT::ChoCh::1784829600000",
@@ -236,5 +237,20 @@
   "signalTime": 1784829600000,
   "status": "pending",
   "createdAt": 1784829648678
+ },
+ {
+  "id": "ZKCUSDT::ChoCh::1784830500000",
+  "symbol": "ZKCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0447,
+  "sl": 0.04245,
+  "tp": 0.04865,
+  "tpSrc": "EQ",
+  "slPct": 5.03,
+  "gainPct": 8.84,
+  "rr": 1.76,
+  "signalTime": 1784830500000,
+  "status": "pending",
+  "createdAt": 1784830538193
  }
 ]
