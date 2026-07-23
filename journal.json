@@ -46,7 +46,7 @@
   "signalTime": 1784754000000,
   "status": "open",
   "createdAt": 1784754046333,
-  "fillTime": 1784754900000
+  "fillTime": 1784754000000
  },
  {
   "id": "ZAMAUSDT::ChoCh::1784755800000",
@@ -79,6 +79,6 @@
   "signalTime": 1784759400000,
   "status": "open",
   "createdAt": 1784759438245,
-  "fillTime": 1784760300000
+  "fillTime": 1784759400000
  }
 ]
