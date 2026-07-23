@@ -97,8 +97,8 @@ function luxStructure(c, swingLen, confluence){
       if(!isNaN(iH.level) && clp <= iH.level && cl > iH.level && !iH.crossed && iH.level !== sH.level && bull){
         const tag = internalTrend === -1 ? 'CHoCH' : 'BOS'; internalTrend = 1; iH.crossed = true;
         // snapshot: dasar bearish OB terdekat yg aktif & ada DI ATAS Weak High (target lanjutan buat BoS)
-        let obTP = null;
-        for(const o of obsBear){ if(o.barLow > trailTop && (obTP === null || o.barLow < obTP)) obTP = o.barLow; }
+        let obTP = null;   // dasar zona OB = nilai TERENDAH (min barHigh/barLow) — LuxAlgo nuker high/low buat candle volatil, jadi ga bisa asal barLow
+        for(const o of obsBear){ const bot = Math.min(o.barHigh, o.barLow); if(bot > trailTop && (obTP === null || bot < obTP)) obTP = bot; }
         events.push({idx:t, dir:'bull', tag, level:iH.level, weakHigh:trailTop,
                      internalLow: isNaN(iL.level) ? null : iL.level, obTP});
       }
@@ -241,7 +241,8 @@ async function notifyUpdates(updates){
 const JOURNAL_FILE = __dirname + '/journal.json';
 const STATS_FILE   = __dirname + '/stats.json';
 const RETEST_WIN   = 25;          // jendela retest (bar) buat fill limit
-const MAX_HOLD_DAYS= 3;           // open > 3 hari & belum resolve → dianggap expired (nggak dihitung)
+const MAX_HOLD_DAYS= 9;           // open > 9 hari & belum resolve → expired (aman di dalam window data tracking ~10 hari)
+const TRACK_LIMIT  = 1000;        // candle khusus tracking (~10,4 hari M15, maks Binance). Dipisah dari LIMIT sinyal biar logika sinyal TIDAK berubah
 const TERMINAL     = ['win','loss','void','expired'];
 const round = x => x==null ? null : Math.round(x*100)/100;
 
@@ -331,25 +332,27 @@ async function main(){
   try{ journal = JSON.parse(fs.readFileSync(JOURNAL_FILE, 'utf8')); }catch(e){}
   // 1) catat sinyal BARU yang barusan dikirim (status pending, nunggu retest)
   const ids = new Set(journal.map(t => t.id));
+  const justCreated = new Set();   // sinyal yg LAHIR run ini → tunda evaluasi fill ke run berikutnya (kasih window entry ≥15m + hindari fill se-run + buang look-ahead)
   for(const k of fresh){ const sym = k.split('::')[0], a = ready[sym]; if(!a) continue;
     if(a.price != null && a.price >= a.tp) continue;   // sinyal Extended (harga udah lewat TP) = radar, JANGAN di-track
     const id = `${sym}::${a.setup}::${a.signalTime}`;
-    if(ids.has(id)) continue; ids.add(id);
+    if(ids.has(id)) continue; ids.add(id); justCreated.add(id);
     journal.push({ id, symbol:sym, setup:a.setup, entry:a.entry, sl:a.sl, tp:a.tp, tpSrc:a.tpSrc,
       slPct:round(a.slPct), gainPct:round(a.gainPct), rr:round(a.rr), signalTime:a.signalTime,
       status:'pending', createdAt:Date.now() });
   }
   // 2) update trade yg belum kelar (fetch klines terbaru → cek fill/TP/SL)
-  const alive = journal.filter(t => !TERMINAL.includes(t.status));
+  const alive = journal.filter(t => !TERMINAL.includes(t.status) && !justCreated.has(t.id));
   const symsNeeded = [...new Set(alive.map(t => t.symbol))];
   const cache = {}; let ti = 0;
   async function trackWorker(){ while(ti < symsNeeded.length){ const sym = symsNeeded[ti++];
-    try{ const raw = await apiGet('/api/v3/klines', {symbol:sym, interval:TF, limit:LIMIT});
+    try{ const raw = await apiGet('/api/v3/klines', {symbol:sym, interval:TF, limit:TRACK_LIMIT});
       cache[sym] = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]})); }catch(e){ cache[sym] = null; } } }
   await Promise.all(Array.from({length: CONC}, trackWorker));
   const updates = [];
   for(let j = 0; j < journal.length; j++){ const t = journal[j];
     if(TERMINAL.includes(t.status)) continue;
+    if(justCreated.has(t.id)) continue;   // baru lahir run ini → biarin pending, cek fill mulai run berikutnya (window entry + parity kejaga)
     if(!cache[t.symbol]) continue;
     const before = t.status;
     const after  = evalTrade(t, cache[t.symbol]);

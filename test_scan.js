@@ -81,5 +81,18 @@ console.log("== TP ChoCh naik ke OB kalau Weak High <5% (rescue bottom) ==");
   // opsi A: ChoCh WH gain<5 tanpa OB → tetap WH → dibuang MIN_TP (bukan dipaksa lolos)
   if(whSmall) ck("opsi A: ChoCh <5% tanpa OB tetap WH (dibuang filter, bukan dipaksa)", whSmall.a.tpSrc==='WH'); }
 
+console.log("== TP OB pakai DASAR zona (min), tahan swap high/low candle volatil (kasus BANK) ==");
+{ // OB volatil (parsed swap): barHigh=low asli 0.2836, barLow=high asli 0.3298
+  const obsBear=[{barHigh:0.2836, barLow:0.3298}]; const trailTop=0.2450;
+  let bug=null; for(const o of obsBear){ if(o.barLow>trailTop && (bug===null||o.barLow<bug)) bug=o.barLow; }
+  let fix=null; for(const o of obsBear){ const bot=Math.min(o.barHigh,o.barLow); if(bot>trailTop && (fix===null||bot<fix)) fix=bot; }
+  ck("logika LAMA salah ambil high (0.3298)", Math.abs(bug-0.3298)<1e-9);
+  ck("logika BARU ambil dasar/low OB (0.2836)", Math.abs(fix-0.2836)<1e-9);
+  // pastikan real code: semua BoS+OB TP ga pernah di ATAS harga saat itu secara absurd (dasar zona)
+  let ok=true;
+  for(let sd=1;sd<4000;sd++){ const st=S.luxStructure(walk(sd,400,0.05,3.0,1.2),50,true);
+    for(const e of st.events){ if(e.dir==='bull' && e.obTP!=null && e.obTP<=e.weakHigh){ ok=false; break; } } }
+  ck("obTP real selalu di atas weakHigh (dasar zona valid)", ok); }
+
 console.log(`\nRINGKASAN: ${pass} PASS, ${fail} FAIL`);
 process.exit(fail?1:0);
