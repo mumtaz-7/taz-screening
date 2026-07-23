@@ -1,11 +1,10 @@
 {
   "ready": [
-    "KAITOUSDT::ChoCh",
     "LAUSDT::BoS",
     "REUSDT::BoS",
     "SPCXBUSDT::ChoCh",
     "ZAMAUSDT::ChoCh",
     "ZKCUSDT::ChoCh"
   ],
-  "at": "2026-07-23T19:30:42.315Z"
+  "at": "2026-07-23T19:45:33.557Z"
 }
