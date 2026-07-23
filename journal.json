@@ -306,5 +306,20 @@
   "status": "open",
   "createdAt": 1784838641681,
   "fillTime": 1784838600000
+ },
+ {
+  "id": "ZKCUSDT::ChoCh::1784844000000",
+  "symbol": "ZKCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0447,
+  "sl": 0.043649999999999994,
+  "tp": 0.04865,
+  "tpSrc": "EQ",
+  "slPct": 2.35,
+  "gainPct": 8.84,
+  "rr": 3.76,
+  "signalTime": 1784844000000,
+  "status": "pending",
+  "createdAt": 1784844044356
  }
 ]
