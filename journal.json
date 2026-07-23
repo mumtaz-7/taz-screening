@@ -130,5 +130,20 @@
   "status": "open",
   "createdAt": 1784794533357,
   "fillTime": 1784796300000
+ },
+ {
+  "id": "REUSDT::ChoCh::1784801700000",
+  "symbol": "REUSDT",
+  "setup": "ChoCh",
+  "entry": 0.4795,
+  "sl": 0.4468,
+  "tp": 0.5148,
+  "tpSrc": "OB",
+  "slPct": 6.82,
+  "gainPct": 7.36,
+  "rr": 1.08,
+  "signalTime": 1784801700000,
+  "status": "pending",
+  "createdAt": 1784801735238
  }
 ]
