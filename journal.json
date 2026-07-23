@@ -355,5 +355,20 @@
   "status": "open",
   "createdAt": 1784849438855,
   "fillTime": 1784849400000
+ },
+ {
+  "id": "BARDUSDT::ChoCh::1784850300000",
+  "symbol": "BARDUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1308,
+  "sl": 0.12374999999999999,
+  "tp": 0.14,
+  "tpSrc": "EQ",
+  "slPct": 5.39,
+  "gainPct": 7.03,
+  "rr": 1.3,
+  "signalTime": 1784850300000,
+  "status": "pending",
+  "createdAt": 1784850331126
  }
 ]
