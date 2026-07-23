@@ -96,5 +96,21 @@
   "status": "open",
   "createdAt": 1784765731905,
   "fillTime": 1784765700000
+ },
+ {
+  "id": "BANKUSDT::BoS::1784767500000",
+  "symbol": "BANKUSDT",
+  "setup": "BoS",
+  "entry": 0.2359,
+  "sl": 0.19840000000000002,
+  "tp": 0.3298,
+  "tpSrc": "OB",
+  "slPct": 15.9,
+  "gainPct": 39.81,
+  "rr": 2.5,
+  "signalTime": 1784767500000,
+  "status": "open",
+  "createdAt": 1784767531869,
+  "fillTime": 1784767500000
  }
 ]
