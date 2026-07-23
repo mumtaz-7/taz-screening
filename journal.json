@@ -253,5 +253,20 @@
   "status": "open",
   "createdAt": 1784830538193,
   "fillTime": 1784830500000
+ },
+ {
+  "id": "SPCXBUSDT::ChoCh::1784832300000",
+  "symbol": "SPCXBUSDT",
+  "setup": "ChoCh",
+  "entry": 116.88,
+  "sl": 114.3,
+  "tp": 124.2,
+  "tpSrc": "OB",
+  "slPct": 2.21,
+  "gainPct": 6.26,
+  "rr": 2.84,
+  "signalTime": 1784832300000,
+  "status": "pending",
+  "createdAt": 1784832303966
  }
 ]

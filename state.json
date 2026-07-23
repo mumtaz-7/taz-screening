@@ -2,9 +2,10 @@
   "ready": [
     "LAUSDT::BoS",
     "REUSDT::BoS",
+    "SPCXBUSDT::ChoCh",
     "ZAMAUSDT::ChoCh",
     "ZKCUSDT::ChoCh",
     "币安人生USDT::BoS"
   ],
-  "at": "2026-07-23T18:30:51.862Z"
+  "at": "2026-07-23T18:45:03.965Z"
 }
