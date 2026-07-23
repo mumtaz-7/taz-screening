@@ -62,5 +62,20 @@
   "signalTime": 1784781000000,
   "status": "pending",
   "createdAt": 1784781037952
+ },
+ {
+  "id": "VANAUSDT::ChoCh::1784786400000",
+  "symbol": "VANAUSDT",
+  "setup": "ChoCh",
+  "entry": 1.193,
+  "sl": 1.1824999999999999,
+  "tp": 1.29,
+  "tpSrc": "OB",
+  "slPct": 0.88,
+  "gainPct": 8.13,
+  "rr": 9.24,
+  "signalTime": 1784786400000,
+  "status": "pending",
+  "createdAt": 1784786449410
  }
 ]
