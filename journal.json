@@ -147,9 +147,11 @@
   "gainPct": 7.36,
   "rr": 1.08,
   "signalTime": 1784801700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1784801735238,
-  "fillTime": 1784801700000
+  "fillTime": 1784801700000,
+  "R": 1.08,
+  "resolvedTime": 1784821500000
  },
  {
   "id": "KAITOUSDT::ChoCh::1784808000000",
@@ -197,8 +199,10 @@
   "gainPct": 6.1,
   "rr": 1.33,
   "signalTime": 1784817900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1784817934705,
-  "fillTime": 1784817900000
+  "fillTime": 1784817900000,
+  "R": 1.33,
+  "resolvedTime": 1784821500000
  }
 ]
