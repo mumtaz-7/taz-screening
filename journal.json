@@ -13,5 +13,20 @@
   "signalTime": 1784770200000,
   "status": "pending",
   "createdAt": 1784770239828
+ },
+ {
+  "id": "KITEUSDT::ChoCh::1784774700000",
+  "symbol": "KITEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1211,
+  "sl": 0.1181,
+  "tp": 0.1276,
+  "tpSrc": "WH",
+  "slPct": 2.48,
+  "gainPct": 5.37,
+  "rr": 2.17,
+  "signalTime": 1784774700000,
+  "status": "pending",
+  "createdAt": 1784774733064
  }
 ]
