@@ -2,9 +2,7 @@
   "ready": [
     "BANKUSDT::BoS",
     "ERAUSDT::BoS",
-    "LISTAUSDT::BoS",
-    "TLMUSDT::ChoCh",
     "WLFIUSDT::ChoCh"
   ],
-  "at": "2026-07-23T07:30:38.429Z"
+  "at": "2026-07-23T07:45:30.541Z"
 }

@@ -60,8 +60,9 @@
   "gainPct": 12.46,
   "rr": 3.29,
   "signalTime": 1784781000000,
-  "status": "pending",
-  "createdAt": 1784781037952
+  "status": "open",
+  "createdAt": 1784781037952,
+  "fillTime": 1784791800000
  },
  {
   "id": "VANAUSDT::ChoCh::1784786400000",
