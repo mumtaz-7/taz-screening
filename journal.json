@@ -324,5 +324,35 @@
   "status": "open",
   "createdAt": 1784844044356,
   "fillTime": 1784844900000
+ },
+ {
+  "id": "BANKUSDT::BoS::1784849400000",
+  "symbol": "BANKUSDT",
+  "setup": "BoS",
+  "entry": 0.263,
+  "sl": 0.2366,
+  "tp": 0.2836,
+  "tpSrc": "OB",
+  "slPct": 10.04,
+  "gainPct": 7.83,
+  "rr": 0.78,
+  "signalTime": 1784849400000,
+  "status": "pending",
+  "createdAt": 1784849438855
+ },
+ {
+  "id": "INJUSDT::BoS::1784849400000",
+  "symbol": "INJUSDT",
+  "setup": "BoS",
+  "entry": 5.191,
+  "sl": 5.041,
+  "tp": 5.49,
+  "tpSrc": "WH",
+  "slPct": 2.89,
+  "gainPct": 5.76,
+  "rr": 1.99,
+  "signalTime": 1784849400000,
+  "status": "pending",
+  "createdAt": 1784849438855
  }
 ]
