@@ -75,7 +75,23 @@
   "gainPct": 8.13,
   "rr": 9.24,
   "signalTime": 1784786400000,
+  "status": "open",
+  "createdAt": 1784786449410,
+  "fillTime": 1784786400000
+ },
+ {
+  "id": "WLFIUSDT::ChoCh::1784787300000",
+  "symbol": "WLFIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.057,
+  "sl": 0.04844999999999999,
+  "tp": 0.06,
+  "tpSrc": "WH",
+  "slPct": 15,
+  "gainPct": 5.26,
+  "rr": 0.35,
+  "signalTime": 1784787300000,
   "status": "pending",
-  "createdAt": 1784786449410
+  "createdAt": 1784787331461
  }
 ]
