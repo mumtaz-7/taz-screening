@@ -47,5 +47,20 @@
   "status": "open",
   "createdAt": 1784777439642,
   "fillTime": 1784777400000
+ },
+ {
+  "id": "TLMUSDT::ChoCh::1784781000000",
+  "symbol": "TLMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001822,
+  "sl": 0.001753,
+  "tp": 0.002049,
+  "tpSrc": "WH",
+  "slPct": 3.79,
+  "gainPct": 12.46,
+  "rr": 3.29,
+  "signalTime": 1784781000000,
+  "status": "pending",
+  "createdAt": 1784781037952
  }
 ]
