@@ -392,9 +392,11 @@
   "gainPct": 10.48,
   "rr": 1.98,
   "signalTime": 1784852100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1784852132092,
-  "fillTime": 1784852100000
+  "fillTime": 1784852100000,
+  "R": -1,
+  "resolvedTime": 1784858400000
  },
  {
   "id": "ERAUSDT::ChoCh::1784853900000",
@@ -444,5 +446,20 @@
   "createdAt": 1784856638217,
   "voidReason": "tp-duluan",
   "resolvedTime": 1784856600000
+ },
+ {
+  "id": "AEROUSDT::ChoCh::1784859300000",
+  "symbol": "AEROUSDT",
+  "setup": "ChoCh",
+  "entry": 0.4256,
+  "sl": 0.4193,
+  "tp": 0.4495,
+  "tpSrc": "OB",
+  "slPct": 1.48,
+  "gainPct": 5.62,
+  "rr": 3.79,
+  "signalTime": 1784859300000,
+  "status": "pending",
+  "createdAt": 1784859332402
  }
 ]
