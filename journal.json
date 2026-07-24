@@ -463,5 +463,20 @@
   "signalTime": 1784859300000,
   "status": "pending",
   "createdAt": 1784859332402
+ },
+ {
+  "id": "ALLOUSDT::ChoCh::1784863800000",
+  "symbol": "ALLOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.5139,
+  "sl": 0.49860000000000004,
+  "tp": 0.5512,
+  "tpSrc": "WH",
+  "slPct": 2.98,
+  "gainPct": 7.26,
+  "rr": 2.44,
+  "signalTime": 1784863800000,
+  "status": "pending",
+  "createdAt": 1784863840691
  }
 ]
