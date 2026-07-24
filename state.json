@@ -1,11 +1,10 @@
 {
   "ready": [
     "AEROUSDT::ChoCh",
-    "ALLOUSDT::ChoCh",
     "BANKUSDT::BoS",
     "ERAUSDT::ChoCh",
     "INJUSDT::BoS",
     "REUSDT::BoS"
   ],
-  "at": "2026-07-24T04:00:47.577Z"
+  "at": "2026-07-24T04:15:31.446Z"
 }
