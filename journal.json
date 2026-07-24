@@ -395,5 +395,20 @@
   "status": "open",
   "createdAt": 1784852132092,
   "fillTime": 1784852100000
+ },
+ {
+  "id": "ERAUSDT::ChoCh::1784853900000",
+  "symbol": "ERAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0963,
+  "sl": 0.0912,
+  "tp": 0.10685,
+  "tpSrc": "EQ",
+  "slPct": 5.3,
+  "gainPct": 10.96,
+  "rr": 2.07,
+  "signalTime": 1784853900000,
+  "status": "pending",
+  "createdAt": 1784853932909
  }
 ]

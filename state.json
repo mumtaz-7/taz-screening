@@ -1,9 +1,10 @@
 {
   "ready": [
     "BANKUSDT::BoS",
+    "ERAUSDT::ChoCh",
     "INJUSDT::BoS",
     "SPCXBUSDT::ChoCh",
     "ZAMAUSDT::BoS"
   ],
-  "at": "2026-07-24T00:30:39.394Z"
+  "at": "2026-07-24T00:45:32.908Z"
 }
