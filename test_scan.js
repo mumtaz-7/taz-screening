@@ -44,8 +44,10 @@ console.log("== TP BoS = OB di atas Weak High ==");
   if(ch) ck("ChoCh tetap TP Weak High", Math.abs(ch.a.tp-ch.a.weakHigh)<1e-9 && ch.a.tpSrc==='WH'); }
 
 
-console.log("== filter TP >= MIN_TP (5%) ==");
-{ ck("MIN_TP di-export = 5", S.MIN_TP===5);
+console.log("== filter TP >= MIN_TP (10%) + R:R >= MIN_RR (1) ==");
+{ ck("MIN_TP di-export = 10", S.MIN_TP===10);
+  ck("MIN_RR di-export = 1", S.MIN_RR===1);
+  ck("MAX_FRESH di-export = 5", S.MAX_FRESH===5);
   let below=0, above=0, kept=0;
   for(let sd=1;sd<3000;sd++){ const a=S.analyze(walk(sd,400,0.05,3.0,1.2)); if(!a) continue;
     if(a.gainPct<S.MIN_TP) below++; else { above++; if(a.gainPct>=S.MIN_TP) kept++; } }

@@ -15,7 +15,10 @@ const INTERNAL_LEN= 5;
 const MAX_BARS    = 25;       // maks bar sejak break (fresh)
 const CONFLUENCE  = true;     // ON, sesuai chart
 const MIN_VOL     = 3e6;      // volume 24h minimal (USDT) = 3 juta
-const MIN_TP      = 5;        // notif cuma kalau potensi TP >= 5% (saring cuan receh). Naikin/turunin sesuka.
+const MIN_TP      = 10;       // notif cuma kalau potensi TP >= 10% (kualitas > kuantitas, biar jumlah trade ke-manage max 4)
+const MIN_RR      = 1;        // notif cuma kalau R:R >= 1 (untung minimal setara risiko; buang sinyal risiko>untung kayak TLM 0.37)
+const OB_EXTEND_BELOW = 5;    // ChoCh: kalau weak high < 5% & ada OB di atas → naik ke OB (DIPISAH dari MIN_TP biar ga maksa ChoCh ngejar OB jauh demi 10%)
+const MAX_FRESH   = 5;        // gerbang kesegaran: cuma notif kalau event setup masih muda (barsSince <= 5 candle) — buang sinyal basi
 const SL_BUFFER   = 0.5;      // Opsi 3: SL = internal low − 0.5×(entry−internal low). 0.5 = 50%.
 const CONC        = 5;        // request paralel
 const STATE_FILE  = __dirname + '/state.json';
@@ -156,7 +159,7 @@ function analyze(c){
       if(useEQ){ tpC = eq; tpSrcC = 'EQ'; }
       else {
         const whGain = (weakHigh - entry)/entry*100;
-        if(whGain < MIN_TP && ev.obTP != null && ev.obTP > weakHigh){ tpC = ev.obTP; tpSrcC = 'OB'; }
+        if(whGain < OB_EXTEND_BELOW && ev.obTP != null && ev.obTP > weakHigh){ tpC = ev.obTP; tpSrcC = 'OB'; }
         else { tpC = weakHigh; tpSrcC = 'WH'; }
       }
       choch = build(ev, 'ChoCh', slOpt3(entry, ev.internalLow), tpC, tpSrcC);
@@ -312,7 +315,7 @@ async function main(){
       try{
         const raw = await apiGet('/api/v3/klines', {symbol: sym, interval: TF, limit: LIMIT});
         const c = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]}));
-        const a = analyze(c); if(a && a.gainPct >= MIN_TP) ready[sym] = {...a, signalTime: c[c.length-1].t, price: c[c.length-1].c};   // filter TP min + anchor waktu + harga skrg
+        const a = analyze(c); if(a && a.gainPct >= MIN_TP && a.rr >= MIN_RR && a.barsSince <= MAX_FRESH) ready[sym] = {...a, signalTime: c[c.length-1].t, price: c[c.length-1].c};   // filter TP + R:R + kesegaran + anchor waktu + harga skrg
       }catch(e){}
     }
   }
@@ -320,17 +323,24 @@ async function main(){
 
   let prev = [];
   try{ prev = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8')).ready || []; }catch(e){}
+  // journal di-load DULU → dipakai buat dedup: sinyal yg udah punya trade AKTIF jangan di-notif/journal lagi (fix ERA kembar)
+  let journal = [];
+  try{ journal = JSON.parse(fs.readFileSync(JOURNAL_FILE, 'utf8')); }catch(e){}
+  const hasActive = (sym, setup) => journal.some(t => t.symbol===sym && t.setup===setup && !TERMINAL.includes(t.status));
   // kunci = SIMBOL::setup → kalau setup-nya berubah (ChoCh → BoS), dianggap sinyal baru
   const curr  = Object.keys(ready).map(s => `${s}::${ready[s].setup}`).sort();
-  const fresh = curr.filter(k => !prev.includes(k));
+  const fresh = curr.filter(k => {
+    if(prev.includes(k)) return false;                    // masih READY terus dari run sebelumnya
+    const sym = k.split('::')[0], a = ready[sym]; if(!a) return false;
+    if(a.price != null && a.price >= a.tp) return true;   // radar (Extended) ga di-track, biarin lolos
+    return !hasActive(sym, a.setup);                      // skip kalau udah ada trade AKTIF utk setup ini (re-sinyal level sama)
+  });
   console.log(`scan: ${liquid.length} coin · ${curr.length} READY · ${fresh.length} baru → ${fresh.join(', ') || '-'}`);
   if(fresh.length) await notify(fresh, ready);
   fs.writeFileSync(STATE_FILE, JSON.stringify({ready: curr, at: new Date().toISOString()}, null, 2));
 
   // ---------- TRACK RECORD OTOMATIS ----------
-  let journal = [];
-  try{ journal = JSON.parse(fs.readFileSync(JOURNAL_FILE, 'utf8')); }catch(e){}
-  // 1) catat sinyal BARU yang barusan dikirim (status pending, nunggu retest)
+  // 1) catat sinyal BARU yang barusan dikirim (status pending) — fresh udah difilter dedup trade-aktif di atas
   const ids = new Set(journal.map(t => t.id));
   const justCreated = new Set();   // sinyal yg LAHIR run ini → tunda evaluasi fill ke run berikutnya (kasih window entry ≥15m + hindari fill se-run + buang look-ahead)
   for(const k of fresh){ const sym = k.split('::')[0], a = ready[sym]; if(!a) continue;
@@ -369,4 +379,4 @@ async function main(){
 }
 
 if(require.main === module){ main().catch(e => { console.error(e); process.exit(1); }); }
-module.exports = { analyze, luxStructure, computeLeg, MIN_TP, evalTrade, computeStats };
+module.exports = { analyze, luxStructure, computeLeg, MIN_TP, MIN_RR, MAX_FRESH, evalTrade, computeStats };
