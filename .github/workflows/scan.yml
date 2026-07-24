@@ -26,6 +26,7 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID_UPDATES: ${{ secrets.TELEGRAM_CHAT_ID_UPDATES }}
         run: node scan.js
 
       - name: Simpan state (dedup)
