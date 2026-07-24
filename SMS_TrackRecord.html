@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMS — Track Record</title>
+<style>
+  :root{
+    --bg:#0e0e10; --panel:#161618; --panel2:#1e1e21; --border:#2a2a2e;
+    --txt:#e7e7ea; --muted:#8b8b93; --accent:#9d92cf;
+    --green:#5fb89a; --red:#d98a7e; --blue:#7f9bd0; --gold:#d8d0a0;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 34px rgba(0,0,0,.34);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:linear-gradient(180deg,#101012 0%,#0b0b0c 100%);color:var(--txt);font-size:13.5px;line-height:1.55;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1080px;margin:0 auto;padding:30px 24px 60px;}
+  header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:20px;}
+  .dot{width:11px;height:11px;border-radius:50%;background:linear-gradient(135deg,#9d92cf,#5fb89a);box-shadow:0 0 0 4px rgba(157,146,207,.15);}
+  h1{font-size:19px;margin:0;font-weight:600;letter-spacing:-.2px;}
+  .badge{background:var(--panel2);color:#9a9aa2;font-size:11px;padding:5px 11px;border-radius:999px;border:1px solid var(--border);}
+  button{background:#1a1a1d;color:#cfcfd6;border:1px solid var(--border);border-radius:11px;padding:9px 16px;font-size:13px;cursor:pointer;transition:border-color .15s,color .15s;}
+  button:hover{border-color:#4a4a55;color:#fff;}
+  .right{margin-left:auto;}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px;}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:18px 20px;box-shadow:var(--shadow);}
+  .card .lab{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;}
+  .card .val{font-size:30px;font-weight:700;letter-spacing:-.5px;font-variant-numeric:tabular-nums;}
+  .card .sub{font-size:11.5px;color:var(--muted);margin-top:3px;}
+  .pos{color:var(--green);} .neg{color:var(--red);}
+  .panel{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:20px 22px;margin-bottom:18px;box-shadow:var(--shadow);}
+  .panel h2{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin:0 0 14px;font-weight:600;}
+  table{width:100%;border-collapse:separate;border-spacing:0;font-size:13px;}
+  th,td{padding:9px 11px;text-align:left;white-space:nowrap;border-bottom:1px solid #202024;}
+  th{color:#7d7d86;font-weight:600;font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;}
+  td.num{font-variant-numeric:tabular-nums;color:#a9a9b2;}
+  .tag{display:inline-block;padding:2px 9px;border-radius:999px;font-size:10.5px;font-weight:600;}
+  .t-win{background:rgba(95,184,154,.16);color:#6fc6a6;} .t-loss{background:rgba(217,138,126,.16);color:#e0968a;}
+  .t-open{background:rgba(127,155,208,.14);color:#9fbbe6;} .t-pending{background:rgba(139,139,147,.14);color:#b7b7c0;}
+  .t-void,.t-expired{background:rgba(139,139,147,.1);color:#75757e;}
+  .t-ChoCh{background:rgba(127,155,208,.13);color:#9fbbe6;} .t-BoS{background:rgba(95,184,154,.14);color:#7fd0b0;}
+  .setrow{display:flex;gap:10px;flex-wrap:wrap;}
+  .setrow .box{flex:1;min-width:200px;background:#141416;border:1px solid var(--border);border-radius:12px;padding:14px 16px;}
+  .setrow .box .h{font-weight:600;margin-bottom:6px;}
+  .setrow .box .m{color:var(--muted);font-size:12px;}
+  .note{background:rgba(217,138,126,.1);border:1px solid rgba(217,138,126,.28);border-radius:12px;padding:11px 15px;font-size:12.5px;color:#e6a99f;margin-bottom:18px;}
+  .disc{background:rgba(127,155,208,.1);border:1px solid rgba(127,155,208,.25);border-radius:12px;padding:11px 15px;font-size:12px;color:#a6bbdc;margin-top:16px;}
+  .filters{display:flex;gap:10px;margin-bottom:12px;flex-wrap:wrap;}
+  select{background:#141416;border:1px solid var(--border);color:var(--txt);border-radius:10px;padding:8px 11px;font-size:12.5px;}
+  .empty{text-align:center;color:var(--muted);padding:40px 0;}
+  a{color:var(--accent);text-decoration:none;} a:hover{color:#c3bce4;}
+  svg text{fill:var(--muted);font-size:10px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="dot"></span><h1>Smart Money Society — Track Record</h1>
+    <span class="badge" id="updated">memuat…</span>
+    <button class="right" id="refreshBtn">↻ Refresh</button>
+  </header>
+
+  <div id="warn"></div>
+
+  <div class="grid" id="cards"></div>
+
+  <div class="panel">
+    <h2>Per Setup</h2>
+    <div class="setrow" id="setups"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Kurva Equity (kumulatif R)</h2>
+    <div id="equity"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Riwayat Trade</h2>
+    <div class="filters">
+      <select id="fStatus"><option value="all">Semua status</option><option>win</option><option>loss</option><option>open</option><option>pending</option><option>void</option><option>expired</option></select>
+      <select id="fSetup"><option value="all">Semua setup</option><option>ChoCh</option><option>BoS</option></select>
+    </div>
+    <div style="overflow-x:auto;max-height:60vh;overflow-y:auto;">
+      <table id="tbl"><thead><tr>
+        <th>Waktu</th><th>Simbol</th><th>Setup</th><th>Entry</th><th>SL</th><th>TP</th><th>R:R</th><th>Status</th><th>Hasil (R)</th>
+      </tr></thead><tbody id="tbody"></tbody></table>
+    </div>
+  </div>
+
+  <div class="disc">
+    Track record ini ngukur <b>sistem kalau diikutin mekanis</b> (entry limit di level, keluar di TP/SL), bukan trade real kamu. Resolusi candle M15, same-bar SL+TP dihitung kalah. <b>Bukan nasihat keuangan · DYOR.</b>
+  </div>
+</div>
+
+<script>
+const REPO="mumtaz-7/taz-screening";
+const RAW=p=>`https://raw.githubusercontent.com/${REPO}/main/${p}?t=${Date.now()}`;
+let JOURNAL=[], STATS=null;
+
+function g(x){ if(x==null)return"–"; const a=Math.abs(x); if(a>=1000)return x.toFixed(2); return parseFloat((+x).toPrecision(6)).toString(); }
+function pct(x){ return x==null?"–":(x>=0?"+":"")+x+"%"; }
+
+async function load(){
+  document.getElementById("updated").textContent="memuat…";
+  try{
+    const [s,j]=await Promise.all([fetch(RAW("stats.json")).then(r=>r.json()), fetch(RAW("journal.json")).then(r=>r.json())]);
+    STATS=s; JOURNAL=Array.isArray(j)?j:[];
+  }catch(e){ document.getElementById("updated").textContent="gagal ambil data"; return; }
+  render();
+}
+
+function render(){
+  const s=STATS||{}; const a=s.all||{n:0};
+  document.getElementById("updated").textContent = s.updatedAt ? ("update: "+new Date(s.updatedAt).toLocaleString("id-ID")) : "belum ada data";
+
+  // kartu utama
+  const erCls = a.er==null?"":(a.er>=0?"pos":"neg");
+  document.getElementById("cards").innerHTML=`
+    <div class="card"><div class="lab">Trade Kelar</div><div class="val">${a.n||0}</div><div class="sub">${a.wins||0} menang · ${a.losses||0} kalah</div></div>
+    <div class="card"><div class="lab">Win Rate</div><div class="val">${a.win==null?"–":a.win+"%"}</div><div class="sub">dari ${a.n||0} trade</div></div>
+    <div class="card"><div class="lab">Expectancy</div><div class="val ${erCls}">${a.er==null?"–":(a.er>=0?"+":"")+a.er+"R"}</div><div class="sub">rata-rata per trade</div></div>
+    <div class="card"><div class="lab">Lagi Jalan</div><div class="val">${(s.open||0)+(s.pending||0)}</div><div class="sub">${s.open||0} open · ${s.pending||0} nunggu retest</div></div>`;
+
+  // peringatan sampel
+  const w=document.getElementById("warn");
+  if((a.n||0) < 30) w.innerHTML=`<div class="note">⚠ Sampel masih ${a.n||0} trade — belum cukup buat disimpulin. Butuh 30-50 trade kelar biar angkanya berarti. Sabar. 🙂</div>`;
+  else w.innerHTML="";
+
+  // per setup
+  const box=(nm,d)=>`<div class="box"><div class="h"><span class="tag t-${nm}">${nm}</span></div>
+    <div class="m">${d&&d.n?`Win <b style="color:#e7e7ea">${d.win}%</b> · ${d.n} trade · Exp <b style="color:${d.er>=0?'#6fc6a6':'#e0968a'}">${d.er>=0?'+':''}${d.er}R</b>${d.avgWin!=null?` · avg win +${d.avgWin}R`:''}</div>`:'<div class="m">belum ada trade kelar</div>'}</div>`;
+  document.getElementById("setups").innerHTML=box("ChoCh",s.ChoCh)+box("BoS",s.BoS);
+
+  drawEquity();
+  drawTable();
+}
+
+function drawEquity(){
+  const done=JOURNAL.filter(t=>t.status==='win'||t.status==='loss').sort((x,y)=>(x.resolvedTime||0)-(y.resolvedTime||0));
+  const el=document.getElementById("equity");
+  if(done.length<2){ el.innerHTML='<div class="empty">Kurva muncul setelah ada ≥2 trade kelar.</div>'; return; }
+  let cum=0; const pts=[{i:0,r:0}]; done.forEach((t,i)=>{ cum+=t.R; pts.push({i:i+1,r:cum}); });
+  const W=1000,H=240,pad=30;
+  const rs=pts.map(p=>p.r); const mn=Math.min(0,...rs), mx=Math.max(0,...rs), rng=(mx-mn)||1;
+  const x=i=>pad+(i/(pts.length-1))*(W-2*pad);
+  const y=r=>H-pad-((r-mn)/rng)*(H-2*pad);
+  const line=pts.map(p=>`${x(p.i).toFixed(1)},${y(p.r).toFixed(1)}`).join(" ");
+  const zeroY=y(0).toFixed(1); const last=cum;
+  const col=last>=0?"#5fb89a":"#d98a7e";
+  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="none" style="max-height:240px">
+    <line x1="${pad}" y1="${zeroY}" x2="${W-pad}" y2="${zeroY}" stroke="#3a3a42" stroke-width="1" stroke-dasharray="4 6"/>
+    <polyline points="${line}" fill="none" stroke="${col}" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="${x(pts.length-1)}" cy="${y(last)}" r="4" fill="${col}"/>
+    <text x="${W-pad}" y="${y(last)-8}" text-anchor="end" style="fill:${col};font-weight:700;font-size:12px">${last>=0?'+':''}${last.toFixed(2)}R</text>
+    <text x="${pad}" y="${H-8}">${done.length} trade kelar</text>
+  </svg>`;
+}
+
+function drawTable(){
+  const fs=document.getElementById("fStatus").value, fse=document.getElementById("fSetup").value;
+  let rows=JOURNAL.filter(t=>(fs==="all"||t.status===fs)&&(fse==="all"||t.setup===fse))
+    .sort((x,y)=>(y.signalTime||0)-(x.signalTime||0));
+  const tb=document.getElementById("tbody");
+  if(!rows.length){ tb.innerHTML='<tr><td colspan="9" class="empty">Belum ada trade.</td></tr>'; return; }
+  tb.innerHTML=rows.map(t=>{
+    const tv=`https://www.tradingview.com/chart/?symbol=BINANCE:${t.symbol}`;
+    const rcol=t.R>0?"#6fc6a6":(t.R<0?"#e0968a":"#8b8b93");
+    return `<tr>
+      <td class="num">${t.signalTime?new Date(t.signalTime).toLocaleString("id-ID",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"}):"–"}</td>
+      <td><a href="${tv}" target="_blank" rel="noopener">${t.symbol}</a></td>
+      <td><span class="tag t-${t.setup}">${t.setup}</span></td>
+      <td class="num">${g(t.entry)}</td><td class="num">${g(t.sl)}</td>
+      <td class="num">${g(t.tp)}${t.tpSrc==="OB"?" <span style='color:#b7aee6'>OB</span>":t.tpSrc==="EQ"?" <span style='color:#9fbbe6'>EQ</span>":""}</td>
+      <td class="num">${t.rr!=null?t.rr:"–"}</td>
+      <td><span class="tag t-${t.status}">${t.status}</span></td>
+      <td class="num" style="color:${rcol};font-weight:600">${t.R!=null?(t.R>=0?"+":"")+t.R:"–"}</td>
+    </tr>`;
+  }).join("");
+}
+
+document.getElementById("refreshBtn").addEventListener("click",load);
+document.getElementById("fStatus").addEventListener("change",drawTable);
+document.getElementById("fSetup").addEventListener("change",drawTable);
+load();
+</script>
+</body>
+</html>
