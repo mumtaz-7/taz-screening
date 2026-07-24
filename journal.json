@@ -424,8 +424,9 @@
   "gainPct": 14.56,
   "rr": 1.53,
   "signalTime": 1784856600000,
-  "status": "pending",
-  "createdAt": 1784856638217
+  "status": "open",
+  "createdAt": 1784856638217,
+  "fillTime": 1784856600000
  },
  {
   "id": "REUSDT::BoS::1784856600000",
@@ -439,7 +440,9 @@
   "gainPct": 5.57,
   "rr": 0.54,
   "signalTime": 1784856600000,
-  "status": "pending",
-  "createdAt": 1784856638217
+  "status": "void",
+  "createdAt": 1784856638217,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1784856600000
  }
 ]
