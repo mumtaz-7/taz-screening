@@ -24,6 +24,7 @@ const CONC        = 5;        // request paralel
 const STATE_FILE  = __dirname + '/state.json';
 const TG_TOKEN    = process.env.TELEGRAM_TOKEN;
 const TG_CHAT     = process.env.TELEGRAM_CHAT_ID;
+const TG_CHAT_UPDATES = process.env.TELEGRAM_CHAT_ID_UPDATES || TG_CHAT;   // channel terpisah buat UPDATE STATUS (fallback ke channel utama kalau belum di-set)
 
 const STABLE_BASES = new Set(["USDC","FDUSD","TUSD","BUSD","DAI","USDP","UST","USTC","EUR","GBP","AEUR","USD1","XUSD","PYUSD","EURI","TRY","BRL","ARS","ZAR","BIDR","IDRT","NGN","UAH","RUB","PLN","RON","JPY","MXN","COP","CZK"]);
 const LEVERAGE_TAGS = ["UP","DOWN","BULL","BEAR"];
@@ -210,7 +211,7 @@ async function notify(fresh, ready){
 
 // Notif UPDATE STATUS posisi yg dilacak journal (entry kefill / TP / SL / void)
 async function notifyUpdates(updates){
-  if(!TG_TOKEN || !TG_CHAT){ console.log('TG kosong — skip update.'); return; }
+  if(!TG_TOKEN || !TG_CHAT_UPDATES){ console.log('TG kosong — skip update.'); return; }
   let msg = `▸ <b>Update Posisi</b> · <b>M15</b>\n\n`;
   for(const t of updates){
     msg += `<b>${t.symbol}</b> · ${t.setup}\n`;
@@ -235,7 +236,7 @@ async function notifyUpdates(updates){
   msg += `<i>Auto-tracking track record · bukan aba-aba entry/exit.</i>`;
   const r = await fetch(`https://api.telegram.org/bot${TG_TOKEN}/sendMessage`, {
     method:'POST', headers:{'Content-Type':'application/json'},
-    body: JSON.stringify({chat_id: TG_CHAT, text: msg, parse_mode:'HTML', disable_web_page_preview:true})
+    body: JSON.stringify({chat_id: TG_CHAT_UPDATES, text: msg, parse_mode:'HTML', disable_web_page_preview:true})
   });
   console.log('telegram update:', r.status, `(${updates.length} posisi)`);
 }
