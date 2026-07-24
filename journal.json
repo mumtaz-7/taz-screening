@@ -426,9 +426,11 @@
   "gainPct": 14.56,
   "rr": 1.53,
   "signalTime": 1784856600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1784856638217,
-  "fillTime": 1784856600000
+  "fillTime": 1784856600000,
+  "R": 1.53,
+  "resolvedTime": 1784860200000
  },
  {
   "id": "REUSDT::BoS::1784856600000",
