@@ -341,8 +341,10 @@
   "gainPct": 7.83,
   "rr": 0.78,
   "signalTime": 1784849400000,
-  "status": "pending",
-  "createdAt": 1784849438855
+  "status": "void",
+  "createdAt": 1784849438855,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1784852100000
  },
  {
   "id": "INJUSDT::BoS::1784849400000",
@@ -390,7 +392,8 @@
   "gainPct": 10.48,
   "rr": 1.98,
   "signalTime": 1784852100000,
-  "status": "pending",
-  "createdAt": 1784852132092
+  "status": "open",
+  "createdAt": 1784852132092,
+  "fillTime": 1784852100000
  }
 ]
