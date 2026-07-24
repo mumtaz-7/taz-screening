@@ -1,9 +1,7 @@
 {
   "ready": [
     "AEROUSDT::ChoCh",
-    "BANKUSDT::BoS",
-    "ERAUSDT::ChoCh",
-    "INJUSDT::BoS"
+    "ERAUSDT::ChoCh"
   ],
-  "at": "2026-07-24T05:30:39.150Z"
+  "at": "2026-07-24T05:45:33.184Z"
 }
