@@ -1,1 +1,17 @@
-[]
+[
+ {
+  "id": "ZAMAUSDT::ChoCh::1784890800000",
+  "symbol": "ZAMAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.05243,
+  "sl": 0.048635,
+  "tp": 0.05975,
+  "tpSrc": "WH",
+  "slPct": 7.24,
+  "gainPct": 13.96,
+  "rr": 1.93,
+  "signalTime": 1784890800000,
+  "status": "pending",
+  "createdAt": 1784890860869
+ }
+]
