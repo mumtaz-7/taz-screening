@@ -287,9 +287,11 @@
   "gainPct": 5.78,
   "rr": 1.42,
   "signalTime": 1784835000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1784835042315,
-  "fillTime": 1784835000000
+  "fillTime": 1784835000000,
+  "R": -1,
+  "resolvedTime": 1784851200000
  },
  {
   "id": "TLMUSDT::ChoCh::1784838600000",
@@ -321,9 +323,11 @@
   "gainPct": 8.84,
   "rr": 3.76,
   "signalTime": 1784844000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1784844044356,
-  "fillTime": 1784844900000
+  "fillTime": 1784844900000,
+  "R": -1,
+  "resolvedTime": 1784851200000
  },
  {
   "id": "BANKUSDT::BoS::1784849400000",
@@ -368,8 +372,25 @@
   "gainPct": 7.03,
   "rr": 1.3,
   "signalTime": 1784850300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1784850331126,
-  "fillTime": 1784850300000
+  "fillTime": 1784850300000,
+  "R": 1.3,
+  "resolvedTime": 1784851200000
+ },
+ {
+  "id": "ZAMAUSDT::BoS::1784852100000",
+  "symbol": "ZAMAUSDT",
+  "setup": "BoS",
+  "entry": 0.05408,
+  "sl": 0.051215,
+  "tp": 0.05975,
+  "tpSrc": "WH",
+  "slPct": 5.3,
+  "gainPct": 10.48,
+  "rr": 1.98,
+  "signalTime": 1784852100000,
+  "status": "pending",
+  "createdAt": 1784852132092
  }
 ]
