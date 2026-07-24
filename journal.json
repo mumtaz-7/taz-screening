@@ -411,5 +411,35 @@
   "status": "open",
   "createdAt": 1784853932909,
   "fillTime": 1784854800000
+ },
+ {
+  "id": "PROMUSDT::BoS::1784856600000",
+  "symbol": "PROMUSDT",
+  "setup": "BoS",
+  "entry": 1.848,
+  "sl": 1.6725,
+  "tp": 2.117,
+  "tpSrc": "OB",
+  "slPct": 9.5,
+  "gainPct": 14.56,
+  "rr": 1.53,
+  "signalTime": 1784856600000,
+  "status": "pending",
+  "createdAt": 1784856638217
+ },
+ {
+  "id": "REUSDT::BoS::1784856600000",
+  "symbol": "REUSDT",
+  "setup": "BoS",
+  "entry": 0.5585,
+  "sl": 0.50105,
+  "tp": 0.5896,
+  "tpSrc": "WH",
+  "slPct": 10.29,
+  "gainPct": 5.57,
+  "rr": 0.54,
+  "signalTime": 1784856600000,
+  "status": "pending",
+  "createdAt": 1784856638217
  }
 ]
