@@ -116,9 +116,11 @@
   "gainPct": 18.58,
   "rr": 3.03,
   "signalTime": 1784981700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1784981783554,
-  "fillTime": 1784982600000
+  "fillTime": 1784982600000,
+  "R": 3.03,
+  "resolvedTime": 1784992500000
  },
  {
   "id": "BANKUSDT::BoS::1784991600000",
@@ -132,7 +134,8 @@
   "gainPct": 15.06,
   "rr": 2.44,
   "signalTime": 1784991600000,
-  "status": "pending",
-  "createdAt": 1784991643016
+  "status": "open",
+  "createdAt": 1784991643016,
+  "fillTime": 1784991600000
  }
 ]
