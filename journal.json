@@ -11,9 +11,11 @@
   "gainPct": 13.96,
   "rr": 1.93,
   "signalTime": 1784890800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1784890860869,
-  "fillTime": 1784893500000
+  "fillTime": 1784893500000,
+  "R": 1.93,
+  "resolvedTime": 1784953800000
  },
  {
   "id": "ZAMAUSDT::BoS::1784922300000",
@@ -27,9 +29,11 @@
   "gainPct": 13.06,
   "rr": 3.48,
   "signalTime": 1784922300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1784922331725,
-  "fillTime": 1784925900000
+  "fillTime": 1784925900000,
+  "R": 3.48,
+  "resolvedTime": 1784953800000
  },
  {
   "id": "DEXEUSDT::BoS::1784952900000",
@@ -43,8 +47,9 @@
   "gainPct": 43.77,
   "rr": 2.24,
   "signalTime": 1784952900000,
-  "status": "pending",
-  "createdAt": 1784953108717
+  "status": "open",
+  "createdAt": 1784953108717,
+  "fillTime": 1784953800000
  },
  {
   "id": "PROMUSDT::ChoCh::1784953800000",
@@ -58,7 +63,8 @@
   "gainPct": 11.39,
   "rr": 1.64,
   "signalTime": 1784953800000,
-  "status": "pending",
-  "createdAt": 1784953836778
+  "status": "open",
+  "createdAt": 1784953836778,
+  "fillTime": 1784953800000
  }
 ]
