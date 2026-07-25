@@ -192,5 +192,20 @@
   "createdAt": 1785005136001,
   "fillTime": 1785005100000,
   "notified": []
+ },
+ {
+  "id": "BANKUSDT::ChoCh::1785019500000",
+  "symbol": "BANKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.346,
+  "sl": 0.32635,
+  "tp": 0.3889,
+  "tpSrc": "WH",
+  "slPct": 5.68,
+  "gainPct": 12.4,
+  "rr": 2.18,
+  "signalTime": 1785019500000,
+  "status": "pending",
+  "createdAt": 1785019534520
  }
 ]
