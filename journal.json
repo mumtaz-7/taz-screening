@@ -65,9 +65,11 @@
   "gainPct": 11.39,
   "rr": 1.64,
   "signalTime": 1784953800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1784953836778,
-  "fillTime": 1784953800000
+  "fillTime": 1784953800000,
+  "R": 1.64,
+  "resolvedTime": 1784967300000
  },
  {
   "id": "LAUSDT::ChoCh::1784960100000",
