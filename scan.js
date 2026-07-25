@@ -367,9 +367,14 @@ async function main(){
     if(!cache[t.symbol]) continue;
     const before = t.status;
     const after  = evalTrade(t, cache[t.symbol]);
+    after.notified = Array.isArray(after.notified) ? after.notified : (Array.isArray(t.notified) ? t.notified : []);
     journal[j] = after;
     // notif kalau status pindah ke: open (entry kefill) / win / loss / void. Expired di-skip.
-    if(after.status !== before && ['open','win','loss','void'].includes(after.status)) updates.push(after);
+    // GUARD: tiap status cuma di-notif SEKALI per trade (anti-dobel kalau workflow kebetulan jalan 2x)
+    if(after.status !== before && ['open','win','loss','void'].includes(after.status) && !after.notified.includes(after.status)){
+      after.notified.push(after.status);
+      updates.push(after);
+    }
   }
   if(updates.length) await notifyUpdates(updates);
   // 3) hitung statistik + simpan
