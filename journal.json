@@ -171,5 +171,20 @@
   "status": "open",
   "createdAt": 1785002441891,
   "fillTime": 1785002400000
+ },
+ {
+  "id": "ATMUSDT::ChoCh::1785005100000",
+  "symbol": "ATMUSDT",
+  "setup": "ChoCh",
+  "entry": 1.876,
+  "sl": 1.762,
+  "tp": 2.197,
+  "tpSrc": "WH",
+  "slPct": 6.08,
+  "gainPct": 17.11,
+  "rr": 2.82,
+  "signalTime": 1785005100000,
+  "status": "pending",
+  "createdAt": 1785005136001
  }
 ]
