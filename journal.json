@@ -30,5 +30,20 @@
   "status": "open",
   "createdAt": 1784922331725,
   "fillTime": 1784925900000
+ },
+ {
+  "id": "DEXEUSDT::BoS::1784952900000",
+  "symbol": "DEXEUSDT",
+  "setup": "BoS",
+  "entry": 4.254,
+  "sl": 3.4230000000000005,
+  "tp": 6.116,
+  "tpSrc": "OB",
+  "slPct": 19.53,
+  "gainPct": 43.77,
+  "rr": 2.24,
+  "signalTime": 1784952900000,
+  "status": "pending",
+  "createdAt": 1784953108717
  }
 ]
