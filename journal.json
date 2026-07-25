@@ -155,5 +155,20 @@
   "status": "open",
   "createdAt": 1784999731807,
   "fillTime": 1784999700000
+ },
+ {
+  "id": "EULUSDT::ChoCh::1785002400000",
+  "symbol": "EULUSDT",
+  "setup": "ChoCh",
+  "entry": 1.54,
+  "sl": 1.3885,
+  "tp": 1.798,
+  "tpSrc": "WH",
+  "slPct": 9.84,
+  "gainPct": 16.75,
+  "rr": 1.7,
+  "signalTime": 1785002400000,
+  "status": "pending",
+  "createdAt": 1785002441891
  }
 ]
