@@ -85,7 +85,8 @@
   "signalTime": 1784960100000,
   "status": "open",
   "createdAt": 1784960131328,
-  "fillTime": 1784960100000
+  "fillTime": 1784960100000,
+  "notified": []
  },
  {
   "id": "VANRYUSDT::BoS::1784979000000",
@@ -154,7 +155,8 @@
   "signalTime": 1784999700000,
   "status": "open",
   "createdAt": 1784999731807,
-  "fillTime": 1784999700000
+  "fillTime": 1784999700000,
+  "notified": []
  },
  {
   "id": "EULUSDT::ChoCh::1785002400000",
@@ -188,6 +190,7 @@
   "signalTime": 1785005100000,
   "status": "open",
   "createdAt": 1785005136001,
-  "fillTime": 1785005100000
+  "fillTime": 1785005100000,
+  "notified": []
  }
 ]
