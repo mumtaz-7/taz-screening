@@ -45,5 +45,20 @@
   "signalTime": 1784952900000,
   "status": "pending",
   "createdAt": 1784953108717
+ },
+ {
+  "id": "PROMUSDT::ChoCh::1784953800000",
+  "symbol": "PROMUSDT",
+  "setup": "ChoCh",
+  "entry": 1.906,
+  "sl": 1.774,
+  "tp": 2.123,
+  "tpSrc": "WH",
+  "slPct": 6.93,
+  "gainPct": 11.39,
+  "rr": 1.64,
+  "signalTime": 1784953800000,
+  "status": "pending",
+  "createdAt": 1784953836778
  }
 ]
