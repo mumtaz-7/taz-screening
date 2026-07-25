@@ -47,9 +47,11 @@
   "gainPct": 43.77,
   "rr": 2.24,
   "signalTime": 1784952900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1784953108717,
-  "fillTime": 1784953800000
+  "fillTime": 1784953800000,
+  "R": 2.24,
+  "resolvedTime": 1784965500000
  },
  {
   "id": "PROMUSDT::ChoCh::1784953800000",
