@@ -86,5 +86,20 @@
   "status": "open",
   "createdAt": 1784960131328,
   "fillTime": 1784960100000
+ },
+ {
+  "id": "VANRYUSDT::BoS::1784979000000",
+  "symbol": "VANRYUSDT",
+  "setup": "BoS",
+  "entry": 0.004871,
+  "sl": 0.0046715,
+  "tp": 0.005555,
+  "tpSrc": "WH",
+  "slPct": 4.1,
+  "gainPct": 14.04,
+  "rr": 3.43,
+  "signalTime": 1784979000000,
+  "status": "pending",
+  "createdAt": 1784979790770
  }
 ]
