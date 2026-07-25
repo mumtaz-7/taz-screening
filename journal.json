@@ -103,5 +103,20 @@
   "createdAt": 1784979790770,
   "voidReason": "tp-duluan",
   "resolvedTime": 1784979000000
+ },
+ {
+  "id": "SYNUSDT::BoS::1784981700000",
+  "symbol": "SYNUSDT",
+  "setup": "BoS",
+  "entry": 0.15422,
+  "sl": 0.14475500000000002,
+  "tp": 0.18288,
+  "tpSrc": "OB",
+  "slPct": 6.14,
+  "gainPct": 18.58,
+  "rr": 3.03,
+  "signalTime": 1784981700000,
+  "status": "pending",
+  "createdAt": 1784981783554
  }
 ]
