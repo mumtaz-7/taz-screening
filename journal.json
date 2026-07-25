@@ -168,9 +168,11 @@
   "gainPct": 16.75,
   "rr": 1.7,
   "signalTime": 1785002400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785002441891,
-  "fillTime": 1785002400000
+  "fillTime": 1785002400000,
+  "R": 1.7,
+  "resolvedTime": 1785009600000
  },
  {
   "id": "ATMUSDT::ChoCh::1785005100000",
