@@ -247,5 +247,20 @@
   "status": "pending",
   "createdAt": 1785033037079,
   "notified": []
+ },
+ {
+  "id": "ATMUSDT::BoS::1785036600000",
+  "symbol": "ATMUSDT",
+  "setup": "BoS",
+  "entry": 1.888,
+  "sl": 1.8115,
+  "tp": 2.385,
+  "tpSrc": "OB",
+  "slPct": 4.05,
+  "gainPct": 26.32,
+  "rr": 6.5,
+  "signalTime": 1785036600000,
+  "status": "pending",
+  "createdAt": 1785036636967
  }
 ]
