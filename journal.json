@@ -244,9 +244,12 @@
   "gainPct": 20.33,
   "rr": 2.05,
   "signalTime": 1785033000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785033037079,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785036600000
  },
  {
   "id": "ATMUSDT::BoS::1785036600000",
@@ -260,7 +263,11 @@
   "gainPct": 26.32,
   "rr": 6.5,
   "signalTime": 1785036600000,
-  "status": "pending",
-  "createdAt": 1785036636967
+  "status": "open",
+  "createdAt": 1785036636967,
+  "fillTime": 1785036600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
