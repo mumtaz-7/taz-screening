@@ -272,5 +272,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "DIAUSDT::BoS::1785043800000",
+  "symbol": "DIAUSDT",
+  "setup": "BoS",
+  "entry": 0.1222,
+  "sl": 0.09535,
+  "tp": 0.1499,
+  "tpSrc": "WH",
+  "slPct": 21.97,
+  "gainPct": 22.67,
+  "rr": 1.03,
+  "signalTime": 1785043800000,
+  "status": "pending",
+  "createdAt": 1785043837846
  }
 ]
