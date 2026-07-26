@@ -318,5 +318,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "LAUSDT::BoS::1785076200000",
+  "symbol": "LAUSDT",
+  "setup": "BoS",
+  "entry": 0.0697,
+  "sl": 0.06625,
+  "tp": 0.0777,
+  "tpSrc": "WH",
+  "slPct": 4.95,
+  "gainPct": 11.48,
+  "rr": 2.32,
+  "signalTime": 1785076200000,
+  "status": "pending",
+  "createdAt": 1785076238500
  }
 ]
