@@ -247,12 +247,15 @@
   "gainPct": 20.33,
   "rr": 2.05,
   "signalTime": 1785033000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785033037079,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785036600000
+  "fillTime": 1785036600000,
+  "R": -1,
+  "resolvedTime": 1785052800000
  },
  {
   "id": "ATMUSDT::BoS::1785036600000",
