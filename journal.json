@@ -231,5 +231,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "REQUSDT::ChoCh::1785033000000",
+  "symbol": "REQUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0664,
+  "sl": 0.0598,
+  "tp": 0.0799,
+  "tpSrc": "WH",
+  "slPct": 9.94,
+  "gainPct": 20.33,
+  "rr": 2.05,
+  "signalTime": 1785033000000,
+  "status": "pending",
+  "createdAt": 1785033037079
  }
 ]
