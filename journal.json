@@ -342,5 +342,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1785080700000
+ },
+ {
+  "id": "LPTUSDT::BoS::1785089700000",
+  "symbol": "LPTUSDT",
+  "setup": "BoS",
+  "entry": 1.49,
+  "sl": 1.4435000000000002,
+  "tp": 1.8,
+  "tpSrc": "WH",
+  "slPct": 3.12,
+  "gainPct": 20.81,
+  "rr": 6.67,
+  "signalTime": 1785089700000,
+  "status": "pending",
+  "createdAt": 1785089729833
  }
 ]
