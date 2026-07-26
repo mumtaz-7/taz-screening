@@ -390,7 +390,26 @@
   "gainPct": 15.43,
   "rr": 2.24,
   "signalTime": 1785096900000,
+  "status": "open",
+  "createdAt": 1785096931608,
+  "fillTime": 1785096900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "SYNUSDT::ChoCh::1785097800000",
+  "symbol": "SYNUSDT",
+  "setup": "ChoCh",
+  "entry": 0.14844,
+  "sl": 0.14436,
+  "tp": 0.16566999999999998,
+  "tpSrc": "EQ",
+  "slPct": 2.75,
+  "gainPct": 11.61,
+  "rr": 4.22,
+  "signalTime": 1785097800000,
   "status": "pending",
-  "createdAt": 1785096931608
+  "createdAt": 1785097838770
  }
 ]
