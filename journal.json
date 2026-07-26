@@ -211,5 +211,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EULUSDT::BoS::1785026700000",
+  "symbol": "EULUSDT",
+  "setup": "BoS",
+  "entry": 1.826,
+  "sl": 1.5679999999999998,
+  "tp": 2.11,
+  "tpSrc": "WH",
+  "slPct": 14.13,
+  "gainPct": 15.55,
+  "rr": 1.1,
+  "signalTime": 1785026700000,
+  "status": "pending",
+  "createdAt": 1785026734188
  }
 ]
