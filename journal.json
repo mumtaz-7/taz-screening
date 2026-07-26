@@ -83,10 +83,14 @@
   "gainPct": 14.24,
   "rr": 1.38,
   "signalTime": 1784960100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1784960131328,
   "fillTime": 1784960100000,
-  "notified": []
+  "notified": [
+   "win"
+  ],
+  "R": 1.38,
+  "resolvedTime": 1785080700000
  },
  {
   "id": "VANRYUSDT::BoS::1784979000000",
@@ -331,8 +335,12 @@
   "gainPct": 11.48,
   "rr": 2.32,
   "signalTime": 1785076200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1785076238500,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1785080700000
  }
 ]
