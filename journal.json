@@ -266,12 +266,15 @@
   "gainPct": 26.32,
   "rr": 6.5,
   "signalTime": 1785036600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785036636967,
   "fillTime": 1785036600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785047400000
  },
  {
   "id": "DIAUSDT::BoS::1785043800000",
