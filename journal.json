@@ -205,12 +205,15 @@
   "gainPct": 12.4,
   "rr": 2.18,
   "signalTime": 1785019500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785019534520,
   "fillTime": 1785019500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.18,
+  "resolvedTime": 1785037500000
  },
  {
   "id": "EULUSDT::BoS::1785026700000",
