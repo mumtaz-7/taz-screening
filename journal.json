@@ -495,5 +495,20 @@
    "open"
   ],
   "fillTime": 1785134700000
+ },
+ {
+  "id": "DIAUSDT::BoS::1785139200000",
+  "symbol": "DIAUSDT",
+  "setup": "BoS",
+  "entry": 0.1695,
+  "sl": 0.1488,
+  "tp": 0.1912,
+  "tpSrc": "WH",
+  "slPct": 12.21,
+  "gainPct": 12.8,
+  "rr": 1.05,
+  "signalTime": 1785139200000,
+  "status": "pending",
+  "createdAt": 1785139250005
  }
 ]
