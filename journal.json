@@ -521,5 +521,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "NILUSDT::ChoCh::1785184200000",
+  "symbol": "NILUSDT",
+  "setup": "ChoCh",
+  "entry": 0.04185,
+  "sl": 0.038355,
+  "tp": 0.0493,
+  "tpSrc": "WH",
+  "slPct": 8.35,
+  "gainPct": 17.8,
+  "rr": 2.13,
+  "signalTime": 1785184200000,
+  "status": "pending",
+  "createdAt": 1785184243971
  }
 ]
