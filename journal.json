@@ -359,9 +359,12 @@
   "gainPct": 20.81,
   "rr": 6.67,
   "signalTime": 1785089700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1785089729833,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "DIAUSDT::ChoCh::1785090600000",
