@@ -453,5 +453,20 @@
   ],
   "R": 1.15,
   "resolvedTime": 1785118500000
+ },
+ {
+  "id": "LAUSDT::ChoCh::1785132000000",
+  "symbol": "LAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0738,
+  "sl": 0.07035,
+  "tp": 0.0814,
+  "tpSrc": "WH",
+  "slPct": 4.67,
+  "gainPct": 10.3,
+  "rr": 2.2,
+  "signalTime": 1785132000000,
+  "status": "pending",
+  "createdAt": 1785132044457
  }
 ]
