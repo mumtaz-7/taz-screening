@@ -540,5 +540,20 @@
    "open"
   ],
   "fillTime": 1785185100000
+ },
+ {
+  "id": "REZUSDT::BoS::1785187800000",
+  "symbol": "REZUSDT",
+  "setup": "BoS",
+  "entry": 0.002724,
+  "sl": 0.0025529999999999997,
+  "tp": 0.0033,
+  "tpSrc": "WH",
+  "slPct": 6.28,
+  "gainPct": 21.15,
+  "rr": 3.37,
+  "signalTime": 1785187800000,
+  "status": "pending",
+  "createdAt": 1785187837758
  }
 ]
