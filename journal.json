@@ -378,12 +378,15 @@
   "gainPct": 13.61,
   "rr": 1.56,
   "signalTime": 1785090600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785090637693,
   "fillTime": 1785090600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.56,
+  "resolvedTime": 1785118500000
  },
  {
   "id": "EULUSDT::ChoCh::1785096900000",
@@ -441,11 +444,14 @@
   "gainPct": 12.08,
   "rr": 1.15,
   "signalTime": 1785103200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785103244691,
   "fillTime": 1785103200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.15,
+  "resolvedTime": 1785118500000
  }
 ]
