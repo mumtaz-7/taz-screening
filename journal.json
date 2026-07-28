@@ -575,12 +575,15 @@
   "gainPct": 11.18,
   "rr": 2.05,
   "signalTime": 1785222000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785222046203,
   "fillTime": 1785222000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785256200000
  },
  {
   "id": "EULUSDT::ChoCh::1785233700000",
