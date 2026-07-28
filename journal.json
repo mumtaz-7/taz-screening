@@ -647,5 +647,20 @@
   ],
   "R": -1,
   "resolvedTime": 1785248100000
+ },
+ {
+  "id": "ZILUSDT::BoS::1785271500000",
+  "symbol": "ZILUSDT",
+  "setup": "BoS",
+  "entry": 0.00274,
+  "sl": 0.0024700000000000004,
+  "tp": 0.003135,
+  "tpSrc": "WH",
+  "slPct": 9.85,
+  "gainPct": 14.42,
+  "rr": 1.46,
+  "signalTime": 1785271500000,
+  "status": "pending",
+  "createdAt": 1785271532714
  }
 ]
