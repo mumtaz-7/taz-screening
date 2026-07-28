@@ -616,5 +616,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NILUSDT::BoS::1785240900000",
+  "symbol": "NILUSDT",
+  "setup": "BoS",
+  "entry": 0.03713,
+  "sl": 0.036289999999999996,
+  "tp": 0.0493,
+  "tpSrc": "WH",
+  "slPct": 2.26,
+  "gainPct": 32.78,
+  "rr": 14.49,
+  "signalTime": 1785240900000,
+  "status": "pending",
+  "createdAt": 1785240932574
  }
 ]
