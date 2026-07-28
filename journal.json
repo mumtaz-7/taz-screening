@@ -581,5 +581,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EULUSDT::ChoCh::1785233700000",
+  "symbol": "EULUSDT",
+  "setup": "ChoCh",
+  "entry": 1.559,
+  "sl": 1.4344999999999999,
+  "tp": 1.8615,
+  "tpSrc": "EQ",
+  "slPct": 7.99,
+  "gainPct": 19.4,
+  "rr": 2.43,
+  "signalTime": 1785233700000,
+  "status": "pending",
+  "createdAt": 1785233731984
  }
 ]
