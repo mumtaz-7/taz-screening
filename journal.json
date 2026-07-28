@@ -594,9 +594,12 @@
   "gainPct": 19.4,
   "rr": 2.43,
   "signalTime": 1785233700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785233731984,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785254400000
  },
  {
   "id": "COTIUSDT::ChoCh::1785237300000",
@@ -610,12 +613,15 @@
   "gainPct": 23.18,
   "rr": 1.68,
   "signalTime": 1785237300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785237332347,
   "fillTime": 1785237300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.68,
+  "resolvedTime": 1785254400000
  },
  {
   "id": "NILUSDT::BoS::1785240900000",
