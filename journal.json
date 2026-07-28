@@ -597,5 +597,20 @@
   "status": "pending",
   "createdAt": 1785233731984,
   "notified": []
+ },
+ {
+  "id": "COTIUSDT::ChoCh::1785237300000",
+  "symbol": "COTIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01195,
+  "sl": 0.0103,
+  "tp": 0.01472,
+  "tpSrc": "WH",
+  "slPct": 13.81,
+  "gainPct": 23.18,
+  "rr": 1.68,
+  "signalTime": 1785237300000,
+  "status": "pending",
+  "createdAt": 1785237332347
  }
 ]
