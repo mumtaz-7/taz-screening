@@ -562,5 +562,20 @@
    "open"
   ],
   "fillTime": 1785188700000
+ },
+ {
+  "id": "NILUSDT::ChoCh::1785222000000",
+  "symbol": "NILUSDT",
+  "setup": "ChoCh",
+  "entry": 0.03771,
+  "sl": 0.03565499999999999,
+  "tp": 0.041925,
+  "tpSrc": "EQ",
+  "slPct": 5.45,
+  "gainPct": 11.18,
+  "rr": 2.05,
+  "signalTime": 1785222000000,
+  "status": "pending",
+  "createdAt": 1785222046203
  }
 ]
