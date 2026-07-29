@@ -725,12 +725,15 @@
   "gainPct": 14.76,
   "rr": 3.53,
   "signalTime": 1785334500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785334539776,
   "fillTime": 1785334500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785356100000
  },
  {
   "id": "REUSDT::BoS::1785344400000",
