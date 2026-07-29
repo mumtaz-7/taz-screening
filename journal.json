@@ -731,5 +731,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "REUSDT::BoS::1785344400000",
+  "symbol": "REUSDT",
+  "setup": "BoS",
+  "entry": 0.4452,
+  "sl": 0.4242,
+  "tp": 0.4924,
+  "tpSrc": "OB",
+  "slPct": 4.72,
+  "gainPct": 10.6,
+  "rr": 2.25,
+  "signalTime": 1785344400000,
+  "status": "pending",
+  "createdAt": 1785344447665
  }
 ]
