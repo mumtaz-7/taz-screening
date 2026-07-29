@@ -686,9 +686,13 @@
   "gainPct": 26.93,
   "rr": 1.45,
   "signalTime": 1785304800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1785304843881,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1785316500000
  },
  {
   "id": "ACHUSDT::ChoCh::1785316500000",
@@ -702,7 +706,11 @@
   "gainPct": 15.25,
   "rr": 1.14,
   "signalTime": 1785316500000,
-  "status": "pending",
-  "createdAt": 1785316538537
+  "status": "open",
+  "createdAt": 1785316538537,
+  "fillTime": 1785316500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
