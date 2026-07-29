@@ -689,5 +689,20 @@
   "status": "pending",
   "createdAt": 1785304843881,
   "notified": []
+ },
+ {
+  "id": "ACHUSDT::ChoCh::1785316500000",
+  "symbol": "ACHUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00459,
+  "sl": 0.003974999999999999,
+  "tp": 0.00529,
+  "tpSrc": "WH",
+  "slPct": 13.4,
+  "gainPct": 15.25,
+  "rr": 1.14,
+  "signalTime": 1785316500000,
+  "status": "pending",
+  "createdAt": 1785316538537
  }
 ]
