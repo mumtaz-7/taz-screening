@@ -600,12 +600,15 @@
   "gainPct": 19.4,
   "rr": 2.43,
   "signalTime": 1785233700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785233731984,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785254400000
+  "fillTime": 1785254400000,
+  "R": 2.43,
+  "resolvedTime": 1785294900000
  },
  {
   "id": "COTIUSDT::ChoCh::1785237300000",
