@@ -754,5 +754,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1785348000000
+ },
+ {
+  "id": "ZILUSDT::ChoCh::1785365100000",
+  "symbol": "ZILUSDT",
+  "setup": "ChoCh",
+  "entry": 0.002587,
+  "sl": 0.002419,
+  "tp": 0.0028935000000000002,
+  "tpSrc": "EQ",
+  "slPct": 6.49,
+  "gainPct": 11.85,
+  "rr": 1.82,
+  "signalTime": 1785365100000,
+  "status": "pending",
+  "createdAt": 1785365131616
  }
 ]
