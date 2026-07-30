@@ -1,6 +1,7 @@
 {
   "ready": [
-    "EPICUSDT::BoS"
+    "EPICUSDT::BoS",
+    "MIRAUSDT::BoS"
   ],
-  "at": "2026-07-30T14:00:42.961Z"
+  "at": "2026-07-30T14:15:32.302Z"
 }

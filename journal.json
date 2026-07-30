@@ -14,5 +14,20 @@
   "status": "pending",
   "createdAt": 1785419138194,
   "notified": []
+ },
+ {
+  "id": "MIRAUSDT::BoS::1785420900000",
+  "symbol": "MIRAUSDT",
+  "setup": "BoS",
+  "entry": 0.0424,
+  "sl": 0.041800000000000004,
+  "tp": 0.0477,
+  "tpSrc": "OB",
+  "slPct": 1.42,
+  "gainPct": 12.5,
+  "rr": 8.83,
+  "signalTime": 1785420900000,
+  "status": "pending",
+  "createdAt": 1785420932303
  }
 ]
