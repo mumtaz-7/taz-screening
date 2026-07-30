@@ -30,5 +30,20 @@
   "status": "pending",
   "createdAt": 1785420932303,
   "notified": []
+ },
+ {
+  "id": "MMTUSDT::BoS::1785426300000",
+  "symbol": "MMTUSDT",
+  "setup": "BoS",
+  "entry": 0.21,
+  "sl": 0.1965,
+  "tp": 0.2263,
+  "tpSrc": "WH",
+  "slPct": 6.43,
+  "gainPct": 7.76,
+  "rr": 1.21,
+  "signalTime": 1785426300000,
+  "status": "pending",
+  "createdAt": 1785426332717
  }
 ]
