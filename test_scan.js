@@ -96,5 +96,14 @@ console.log("== TP OB pakai DASAR zona (min), tahan swap high/low candle volatil
     for(const e of st.events){ if(e.dir==='bull' && e.obTP!=null && e.obTP<=e.weakHigh){ ok=false; break; } } }
   ck("obTP real selalu di atas weakHigh (dasar zona valid)", ok); }
 
+console.log("== adaptive floor (10→9→8→7) ==");
+ck("pickFloor di-export", typeof S.pickFloor==="function");
+ck("MIN_TP_FLOOR di-export = 7", S.MIN_TP_FLOOR===7);
+ck("ada ≥10 → floor 10 (plafon)", S.pickFloor([15,8,12])===10);
+ck("max 9.5 → floor 9", S.pickFloor([9.5,8.2])===9);
+ck("max 8.3 → floor 8", S.pickFloor([8.3])===8);
+ck("max 7.2 → floor 7 (lantai)", S.pickFloor([7.2])===7);
+ck("kosong → null (ga ada sinyal)", S.pickFloor([])===null);
+
 console.log(`\nRINGKASAN: ${pass} PASS, ${fail} FAIL`);
 process.exit(fail?1:0);
