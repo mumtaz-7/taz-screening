@@ -45,13 +45,19 @@ console.log("== evalTrade: void kalau TP nyentuh SEBELUM entry ==");
   const r=S.evalTrade({...base, status:'void'}, [C(0,102,103,99,100),C(1,100,111,100,110)]);
   ck("status terminal (void) tetap beku", r.status==='void'); }
 
-console.log("== fill ke-hit di candle sinyal sendiri (wick), jangan ke-skip ==");
-{ // candle TEPAT di signalTime wick ke entry (retest langsung), candle berikutnya udah lari ke TP
-  const cs=[{t:st,o:102,h:103,l:99,c:101},       // t==signalTime, low 99<=entry100 → harus FILL di sini
-            {t:st+M,o:101,h:111,l:101,c:110}];    // low 101>entry (ga fill di sini), high 111>=tp
+console.log("== ACT ON CLOSE: fill mulai candle SETELAH sinyal (anti look-ahead) ==");
+{ // signalTime = close candle konfirmasi = open candle berikutnya. Candle di t==signalTime = candle PERTAMA setelah sinyal → fill di sini SAH
+  const cs=[{t:st,o:102,h:103,l:99,c:101},       // t==signalTime (candle pertama setelah konfirmasi), low 99<=entry → FILL sah
+            {t:st+M,o:101,h:111,l:101,c:110}];    // high 111>=tp → win
   const r=S.evalTrade({...base}, cs);
-  // dgn start>=signalTime: fill di candle0 → candle1 kena TP → win.  (dgn > lama: candle0 ke-skip → void tp-duluan)
-  ck("retest di candle sinyal → fill lalu win (bukan void)", r.status==='win'); }
+  ck("fill di candle pertama setelah sinyal → win", r.status==='win'); }
+
+{ // ANTI LOOK-AHEAD: wick ke entry di candle SEBELUM signalTime (candle konfirmasi) TIDAK boleh dihitung fill
+  const cs=[{t:st-M,o:102,h:103,l:99,c:101},     // SEBELUM signalTime → low 99<=entry TAPI harus DIABAIKAN (candle konfirmasi/sebelum sinyal)
+            {t:st,o:103,h:105,l:101,c:103},        // ga fill (low 101>entry)
+            {t:st+M,o:103,h:105,l:101,c:103}];     // ga fill
+  const r=S.evalTrade({...base}, cs);
+  ck("wick di candle sebelum sinyal (konfirmasi) TIDAK fill → pending", r.status==='pending'); }
 
 console.log("== computeStats: void ga masuk win/loss ==");
 { const j=[{status:'win',R:2,setup:'ChoCh'},{status:'loss',R:-1,setup:'ChoCh'},
