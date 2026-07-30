@@ -789,12 +789,15 @@
   "gainPct": 10.67,
   "rr": 1.31,
   "signalTime": 1785371400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785371437211,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785373200000
+  "fillTime": 1785373200000,
+  "R": 1.31,
+  "resolvedTime": 1785375000000
  },
  {
   "id": "ZILUSDT::BoS::1785375000000",
@@ -808,7 +811,11 @@
   "gainPct": 34.68,
   "rr": 9.71,
   "signalTime": 1785375000000,
-  "status": "pending",
-  "createdAt": 1785375037892
+  "status": "open",
+  "createdAt": 1785375037892,
+  "fillTime": 1785375000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
