@@ -27,9 +27,12 @@
   "gainPct": 12.5,
   "rr": 8.83,
   "signalTime": 1785420900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785420932303,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785438000000
  },
  {
   "id": "MMTUSDT::BoS::1785426300000",
