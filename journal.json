@@ -795,5 +795,20 @@
    "open"
   ],
   "fillTime": 1785373200000
+ },
+ {
+  "id": "ZILUSDT::BoS::1785375000000",
+  "symbol": "ZILUSDT",
+  "setup": "BoS",
+  "entry": 0.002604,
+  "sl": 0.002511,
+  "tp": 0.003507,
+  "tpSrc": "WH",
+  "slPct": 3.57,
+  "gainPct": 34.68,
+  "rr": 9.71,
+  "signalTime": 1785375000000,
+  "status": "pending",
+  "createdAt": 1785375037892
  }
 ]
