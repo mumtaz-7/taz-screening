@@ -817,5 +817,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EPICUSDT::BoS::1785397500000",
+  "symbol": "EPICUSDT",
+  "setup": "BoS",
+  "entry": 0.74,
+  "sl": 0.7055,
+  "tp": 0.9999,
+  "tpSrc": "WH",
+  "slPct": 4.66,
+  "gainPct": 35.12,
+  "rr": 7.53,
+  "signalTime": 1785397500000,
+  "status": "pending",
+  "createdAt": 1785397539003
  }
 ]
