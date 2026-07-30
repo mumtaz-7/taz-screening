@@ -1,1 +1,17 @@
-[]
+[
+ {
+  "id": "EPICUSDT::BoS::1785419100000",
+  "symbol": "EPICUSDT",
+  "setup": "BoS",
+  "entry": 0.7234,
+  "sl": 0.7018,
+  "tp": 0.9999,
+  "tpSrc": "WH",
+  "slPct": 2.99,
+  "gainPct": 38.22,
+  "rr": 12.8,
+  "signalTime": 1785419100000,
+  "status": "pending",
+  "createdAt": 1785419138194
+ }
+]
