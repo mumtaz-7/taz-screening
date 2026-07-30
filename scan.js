@@ -9,6 +9,7 @@ const fs = require('fs');
 // ---------- KONFIG (samain sama v4) ----------
 const BASE        = 'https://data-api.binance.vision';
 const TF          = '15m';
+const TF_MS       = 15*60*1000;   // durasi 1 candle M15 (ms) — buat anchor "act on close"
 const LIMIT       = 700;      // candle per koin (cukup buat swing 50)
 const SWING_LEN   = 50;
 const INTERNAL_LEN= 5;
@@ -254,7 +255,7 @@ const round = x => x==null ? null : Math.round(x*100)/100;
 function evalTrade(tr, candles){
   if(TERMINAL.includes(tr.status)) return tr;
   const ageDays = (Date.now() - tr.signalTime) / 86400000;
-  const start = candles.findIndex(c => c.t >= tr.signalTime);   // bar SEJAK sinyal (termasuk candle sinyal, biar retest langsung ke-hit wick ga kelewat + sinkron sama backtest)
+  const start = candles.findIndex(c => c.t >= tr.signalTime);   // ACT ON CLOSE: signalTime = close candle konfirmasi, jadi ini mulai dari candle BERIKUTNYA (candle konfirmasi & sebelumnya TIDAK dihitung → anti look-ahead)
   if(start < 0) return ageDays > MAX_HOLD_DAYS ? {...tr, status:'void', voidReason:'ga-retest'} : tr;
   // cari fill (harga retest turun ke entry) dalam jendela.
   // Kalau harga nyentuh TP DULUAN sebelum retest ke entry → setup basi (nggak pernah kefill) → void.
@@ -315,8 +316,9 @@ async function main(){
     while(i < liquid.length){ const sym = liquid[i++];
       try{
         const raw = await apiGet('/api/v3/klines', {symbol: sym, interval: TF, limit: LIMIT});
+        if(raw.length && raw[raw.length-1][6] > Date.now()) raw.pop();   // ACT ON CLOSE: buang candle yg belum tutup (closeTime idx 6 di masa depan) → sinyal cuma dari candle final (anti-repaint + anti-look-ahead)
         const c = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]}));
-        const a = analyze(c); if(a && a.gainPct >= MIN_TP && a.rr >= MIN_RR && a.barsSince <= MAX_FRESH) ready[sym] = {...a, signalTime: c[c.length-1].t, price: c[c.length-1].c};   // filter TP + R:R + kesegaran + anchor waktu + harga skrg
+        const a = analyze(c); if(a && a.gainPct >= MIN_TP && a.rr >= MIN_RR && a.barsSince <= MAX_FRESH) ready[sym] = {...a, signalTime: c[c.length-1].t + TF_MS, price: c[c.length-1].c};   // signalTime = CLOSE candle konfirmasi (= open candle berikutnya) → jendela fill mulai candle setelah sinyal
       }catch(e){}
     }
   }
@@ -358,6 +360,7 @@ async function main(){
   const cache = {}; let ti = 0;
   async function trackWorker(){ while(ti < symsNeeded.length){ const sym = symsNeeded[ti++];
     try{ const raw = await apiGet('/api/v3/klines', {symbol:sym, interval:TF, limit:TRACK_LIMIT});
+      if(raw.length && raw[raw.length-1][6] > Date.now()) raw.pop();   // ACT ON CLOSE: tracking juga cuma pake candle yg udah tutup
       cache[sym] = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]})); }catch(e){ cache[sym] = null; } } }
   await Promise.all(Array.from({length: CONC}, trackWorker));
   const updates = [];
