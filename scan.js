@@ -16,7 +16,8 @@ const INTERNAL_LEN= 5;
 const MAX_BARS    = 25;       // maks bar sejak break (fresh)
 const CONFLUENCE  = true;     // ON, sesuai chart
 const MIN_VOL     = 3e6;      // volume 24h minimal (USDT) = 3 juta
-const MIN_TP      = 10;       // notif cuma kalau potensi TP >= 10% (kualitas > kuantitas, biar jumlah trade ke-manage max 4)
+const MIN_TP      = 10;       // plafon tier adaptive floor. Per scan pakai tier gain TERTINGGI yg ada (10→9→8→7)
+const MIN_TP_FLOOR= 7;        // lantai bawah adaptive floor: kalau ga ada sinyal ≥8/9/10%, mentok terima ≥7%
 const MIN_RR      = 1;        // notif cuma kalau R:R >= 1 (untung minimal setara risiko; buang sinyal risiko>untung kayak TLM 0.37)
 const OB_EXTEND_BELOW = 5;    // ChoCh: kalau weak high < 5% & ada OB di atas → naik ke OB (DIPISAH dari MIN_TP biar ga maksa ChoCh ngejar OB jauh demi 10%)
 const MAX_FRESH   = 5;        // gerbang kesegaran: cuma notif kalau event setup masih muda (barsSince <= 5 candle) — buang sinyal basi
@@ -298,6 +299,12 @@ function computeStats(journal){
   };
 }
 
+// ADAPTIVE FLOOR: tentuin ambang gain dari tier TERTINGGI yg tersedia (10→9→8→7). gains semua udah >= MIN_TP_FLOOR (7).
+function pickFloor(gains){
+  if(!gains || !gains.length) return null;
+  return Math.min(MIN_TP, Math.floor(Math.max.apply(null, gains)));   // plafon = MIN_TP (10); kalau max 9.x → 9, 8.x → 8, dst
+}
+
 // ---------- MAIN ----------
 async function main(){
   const info = await apiGet('/api/v3/exchangeInfo');
@@ -318,11 +325,16 @@ async function main(){
         const raw = await apiGet('/api/v3/klines', {symbol: sym, interval: TF, limit: LIMIT});
         if(raw.length && raw[raw.length-1][6] > Date.now()) raw.pop();   // ACT ON CLOSE: buang candle yg belum tutup (closeTime idx 6 di masa depan) → sinyal cuma dari candle final (anti-repaint + anti-look-ahead)
         const c = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]}));
-        const a = analyze(c); if(a && a.gainPct >= MIN_TP && a.rr >= MIN_RR && a.barsSince <= MAX_FRESH) ready[sym] = {...a, signalTime: c[c.length-1].t + TF_MS, price: c[c.length-1].c};   // signalTime = CLOSE candle konfirmasi (= open candle berikutnya) → jendela fill mulai candle setelah sinyal
+        const a = analyze(c); if(a && a.gainPct >= MIN_TP_FLOOR && a.rr >= MIN_RR && a.barsSince <= MAX_FRESH) ready[sym] = {...a, signalTime: c[c.length-1].t + TF_MS, price: c[c.length-1].c};   // kandidat: gain >= lantai 7% (adaptive floor difinalin setelah semua koin ke-scan). signalTime = CLOSE candle konfirmasi
       }catch(e){}
     }
   }
   await Promise.all(Array.from({length: CONC}, worker));
+
+  // ADAPTIVE FLOOR (10→9→8→7): per scan, pakai tier gain TERTINGGI yg tersedia. Ada ≥10% → cuma kirim ≥10%; ga ada → turun 9,8,7 (lantai 7). Kualitas dulu, longgar cuma pas sepi.
+  { const floor = pickFloor(Object.values(ready).map(a => a.gainPct));
+    if(floor != null){ for(const sym of Object.keys(ready)){ if(ready[sym].gainPct < floor) delete ready[sym]; }
+      console.log(`adaptive floor run ini: ${floor}% (${Object.keys(ready).length} lolos)`); } }
 
   let prev = [];
   try{ prev = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8')).ready || []; }catch(e){}
@@ -388,4 +400,4 @@ async function main(){
 }
 
 if(require.main === module){ main().catch(e => { console.error(e); process.exit(1); }); }
-module.exports = { analyze, luxStructure, computeLeg, MIN_TP, MIN_RR, MAX_FRESH, evalTrade, computeStats };
+module.exports = { analyze, luxStructure, computeLeg, MIN_TP, MIN_TP_FLOOR, MIN_RR, MAX_FRESH, evalTrade, computeStats, pickFloor };
