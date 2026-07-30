@@ -56,5 +56,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1785429000000
+ },
+ {
+  "id": "SNDKBUSDT::ChoCh::1785441600000",
+  "symbol": "SNDKBUSDT",
+  "setup": "ChoCh",
+  "entry": 1273.06,
+  "sl": 1230.9250000000002,
+  "tp": 1507.44,
+  "tpSrc": "OB",
+  "slPct": 3.31,
+  "gainPct": 18.41,
+  "rr": 5.56,
+  "signalTime": 1785441600000,
+  "status": "pending",
+  "createdAt": 1785441647461
  }
 ]
