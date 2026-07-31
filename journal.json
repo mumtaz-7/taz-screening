@@ -276,5 +276,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SOXLBUSDT::ChoCh::1785504600000",
+  "symbol": "SOXLBUSDT",
+  "setup": "ChoCh",
+  "entry": 129.58,
+  "sl": 123.93999999999998,
+  "tp": 148.97,
+  "tpSrc": "OB",
+  "slPct": 4.35,
+  "gainPct": 14.96,
+  "rr": 3.44,
+  "signalTime": 1785504600000,
+  "status": "pending",
+  "createdAt": 1785504638493
  }
 ]
