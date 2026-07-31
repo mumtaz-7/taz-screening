@@ -234,5 +234,35 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ERAUSDT::BoS::1785496500000",
+  "symbol": "ERAUSDT",
+  "setup": "BoS",
+  "entry": 0.0711,
+  "sl": 0.06659999999999999,
+  "tp": 0.0888,
+  "tpSrc": "WH",
+  "slPct": 6.33,
+  "gainPct": 24.89,
+  "rr": 3.93,
+  "signalTime": 1785496500000,
+  "status": "pending",
+  "createdAt": 1785496537527
+ },
+ {
+  "id": "MUUBUSDT::BoS::1785496500000",
+  "symbol": "MUUBUSDT",
+  "setup": "BoS",
+  "entry": 29.44,
+  "sl": 26.68,
+  "tp": 33.61,
+  "tpSrc": "OB",
+  "slPct": 9.38,
+  "gainPct": 14.16,
+  "rr": 1.51,
+  "signalTime": 1785496500000,
+  "status": "pending",
+  "createdAt": 1785496537527
  }
 ]

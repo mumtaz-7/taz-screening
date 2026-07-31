@@ -1,6 +1,7 @@
 {
   "ready": [
-    "MMTUSDT::BoS"
+    "ERAUSDT::BoS",
+    "MUUBUSDT::BoS"
   ],
-  "at": "2026-07-31T11:00:48.501Z"
+  "at": "2026-07-31T11:15:37.527Z"
 }
