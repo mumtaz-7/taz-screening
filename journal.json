@@ -247,8 +247,12 @@
   "gainPct": 24.89,
   "rr": 3.93,
   "signalTime": 1785496500000,
-  "status": "pending",
-  "createdAt": 1785496537527
+  "status": "open",
+  "createdAt": 1785496537527,
+  "fillTime": 1785496500000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "MUUBUSDT::BoS::1785496500000",
@@ -262,7 +266,11 @@
   "gainPct": 14.16,
   "rr": 1.51,
   "signalTime": 1785496500000,
-  "status": "pending",
-  "createdAt": 1785496537527
+  "status": "open",
+  "createdAt": 1785496537527,
+  "fillTime": 1785496500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
