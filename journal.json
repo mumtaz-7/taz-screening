@@ -75,5 +75,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SNXXBUSDT::BoS::1785456900000",
+  "symbol": "SNXXBUSDT",
+  "setup": "BoS",
+  "entry": 11.86,
+  "sl": 8.965,
+  "tp": 15.79,
+  "tpSrc": "OB",
+  "slPct": 24.41,
+  "gainPct": 33.14,
+  "rr": 1.36,
+  "signalTime": 1785456900000,
+  "status": "pending",
+  "createdAt": 1785456932685
  }
 ]
