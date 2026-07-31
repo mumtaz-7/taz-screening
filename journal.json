@@ -110,12 +110,15 @@
   "gainPct": 14.36,
   "rr": 1.68,
   "signalTime": 1785472200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785472245118,
   "fillTime": 1785472200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.68,
+  "resolvedTime": 1785480300000
  },
  {
   "id": "ESPUSDT::ChoCh::1785474900000",
@@ -149,6 +152,7 @@
   "rr": 3.22,
   "signalTime": 1785480300000,
   "status": "pending",
-  "createdAt": 1785480335700
+  "createdAt": 1785480335700,
+  "notified": []
  }
 ]
