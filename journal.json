@@ -227,7 +227,12 @@
   "gainPct": 16.6,
   "rr": 1.42,
   "signalTime": 1785493800000,
-  "status": "pending",
-  "createdAt": 1785493844824
+  "status": "void",
+  "createdAt": 1785493844824,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1785493800000,
+  "notified": [
+   "void"
+  ]
  }
 ]
