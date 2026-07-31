@@ -315,5 +315,20 @@
   "notified": [
    "loss"
   ]
+ },
+ {
+  "id": "MMTUSDT::ChoCh::1785537900000",
+  "symbol": "MMTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2049,
+  "sl": 0.17955,
+  "tp": 0.31705,
+  "tpSrc": "EQ",
+  "slPct": 12.37,
+  "gainPct": 54.73,
+  "rr": 4.42,
+  "signalTime": 1785537900000,
+  "status": "pending",
+  "createdAt": 1785537932067
  }
 ]
