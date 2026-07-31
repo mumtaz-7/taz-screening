@@ -176,5 +176,20 @@
   "status": "pending",
   "createdAt": 1785485738707,
   "notified": []
+ },
+ {
+  "id": "SOXLBUSDT::BoS::1785488400000",
+  "symbol": "SOXLBUSDT",
+  "setup": "BoS",
+  "entry": 127.31,
+  "sl": 119.70499999999998,
+  "tp": 148.97,
+  "tpSrc": "OB",
+  "slPct": 5.97,
+  "gainPct": 17.01,
+  "rr": 2.85,
+  "signalTime": 1785488400000,
+  "status": "pending",
+  "createdAt": 1785488449712
  }
 ]
