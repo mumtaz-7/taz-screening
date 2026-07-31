@@ -11,12 +11,15 @@
   "gainPct": 38.22,
   "rr": 12.8,
   "signalTime": 1785419100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785419138194,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785439800000
+  "fillTime": 1785439800000,
+  "R": -1,
+  "resolvedTime": 1785511800000
  },
  {
   "id": "MIRAUSDT::BoS::1785420900000",
