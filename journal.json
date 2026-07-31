@@ -157,5 +157,20 @@
   "status": "pending",
   "createdAt": 1785480335700,
   "notified": []
+ },
+ {
+  "id": "ROBOUSDT::ChoCh::1785485700000",
+  "symbol": "ROBOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01307,
+  "sl": 0.01232,
+  "tp": 0.01464,
+  "tpSrc": "WH",
+  "slPct": 5.74,
+  "gainPct": 12.01,
+  "rr": 2.09,
+  "signalTime": 1785485700000,
+  "status": "pending",
+  "createdAt": 1785485738707
  }
 ]
