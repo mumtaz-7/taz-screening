@@ -72,12 +72,15 @@
   "gainPct": 18.41,
   "rr": 5.56,
   "signalTime": 1785441600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785441647461,
   "fillTime": 1785441600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785505500000
  },
  {
   "id": "SNXXBUSDT::BoS::1785456900000",
@@ -193,12 +196,15 @@
   "gainPct": 17.01,
   "rr": 2.85,
   "signalTime": 1785488400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785488449712,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785490200000
+  "fillTime": 1785490200000,
+  "R": -1,
+  "resolvedTime": 1785505500000
  },
  {
   "id": "INTCBUSDT::ChoCh::1785489300000",
@@ -212,12 +218,15 @@
   "gainPct": 10.26,
   "rr": 2.82,
   "signalTime": 1785489300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785489331198,
   "fillTime": 1785489300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785505500000
  },
  {
   "id": "MMTUSDT::BoS::1785493800000",
@@ -270,12 +279,15 @@
   "gainPct": 14.16,
   "rr": 1.51,
   "signalTime": 1785496500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785496537527,
   "fillTime": 1785496500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785505500000
  },
  {
   "id": "SOXLBUSDT::ChoCh::1785504600000",
