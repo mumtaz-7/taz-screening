@@ -173,9 +173,13 @@
   "gainPct": 12.01,
   "rr": 2.09,
   "signalTime": 1785485700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1785485738707,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1785501000000
  },
  {
   "id": "SOXLBUSDT::BoS::1785488400000",
