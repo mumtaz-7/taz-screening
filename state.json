@@ -1,6 +1,7 @@
 {
   "ready": [
-    "COTIUSDT::ChoCh"
+    "COTIUSDT::ChoCh",
+    "ESPUSDT::ChoCh"
   ],
-  "at": "2026-07-31T05:00:46.314Z"
+  "at": "2026-07-31T05:15:33.756Z"
 }

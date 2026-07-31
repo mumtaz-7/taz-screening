@@ -116,5 +116,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ESPUSDT::ChoCh::1785474900000",
+  "symbol": "ESPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.07189,
+  "sl": 0.068275,
+  "tp": 0.08702,
+  "tpSrc": "WH",
+  "slPct": 5.03,
+  "gainPct": 21.05,
+  "rr": 4.19,
+  "signalTime": 1785474900000,
+  "status": "pending",
+  "createdAt": 1785474933757
  }
 ]
