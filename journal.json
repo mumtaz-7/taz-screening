@@ -543,9 +543,12 @@
   "gainPct": 15.89,
   "rr": 24.4,
   "signalTime": 1785583800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785583838642,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785585600000
  },
  {
   "id": "SOXLBUSDT::BoS::1785583800000",
