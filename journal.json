@@ -266,12 +266,15 @@
   "gainPct": 24.89,
   "rr": 3.93,
   "signalTime": 1785496500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785496537527,
   "fillTime": 1785496500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785546000000
  },
  {
   "id": "MUUBUSDT::BoS::1785496500000",
