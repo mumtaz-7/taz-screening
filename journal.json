@@ -40,5 +40,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1785605400000
+ },
+ {
+  "id": "GIGGLEUSDT::ChoCh::1785617100000",
+  "symbol": "GIGGLEUSDT",
+  "setup": "ChoCh",
+  "entry": 39.91,
+  "sl": 38.155,
+  "tp": 55.71,
+  "tpSrc": "WH",
+  "slPct": 4.4,
+  "gainPct": 39.59,
+  "rr": 9,
+  "signalTime": 1785617100000,
+  "status": "pending",
+  "createdAt": 1785617132931
  }
 ]
