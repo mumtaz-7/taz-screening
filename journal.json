@@ -20,5 +20,20 @@
   "fillTime": 1785595500000,
   "R": -1,
   "resolvedTime": 1785597300000
+ },
+ {
+  "id": "KAITOUSDT::ChoCh::1785604500000",
+  "symbol": "KAITOUSDT",
+  "setup": "ChoCh",
+  "entry": 1.1266,
+  "sl": 1.0882,
+  "tp": 1.2098,
+  "tpSrc": "OB",
+  "slPct": 3.41,
+  "gainPct": 7.39,
+  "rr": 2.17,
+  "signalTime": 1785604500000,
+  "status": "pending",
+  "createdAt": 1785604533860
  }
 ]
