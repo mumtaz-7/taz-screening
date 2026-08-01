@@ -530,5 +530,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MUBUSDT::BoS::1785583800000",
+  "symbol": "MUBUSDT",
+  "setup": "BoS",
+  "entry": 822.57,
+  "sl": 817.2149999999999,
+  "tp": 953.25,
+  "tpSrc": "OB",
+  "slPct": 0.65,
+  "gainPct": 15.89,
+  "rr": 24.4,
+  "signalTime": 1785583800000,
+  "status": "pending",
+  "createdAt": 1785583838642
+ },
+ {
+  "id": "SOXLBUSDT::BoS::1785583800000",
+  "symbol": "SOXLBUSDT",
+  "setup": "BoS",
+  "entry": 113.64,
+  "sl": 112.005,
+  "tp": 148.97,
+  "tpSrc": "OB",
+  "slPct": 1.44,
+  "gainPct": 31.09,
+  "rr": 21.61,
+  "signalTime": 1785583800000,
+  "status": "pending",
+  "createdAt": 1785583838642
  }
 ]
