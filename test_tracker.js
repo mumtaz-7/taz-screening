@@ -1,4 +1,4 @@
-const S=require("/sessions/cool-laughing-ptolemy/mnt/Crypto Trading/telegram-scanner/scan.js");
+const S=require("./scan.js");
 let pass=0,fail=0; const ck=(n,c)=>{ c?(pass++,console.log("  PASS "+n)):(fail++,console.log("  FAIL "+n)); };
 const now=Date.now(), M=900000;                       // M15 = 900k ms
 const st=now-2*3600*1000;                             // sinyal 2 jam lalu (age < 3 hari)

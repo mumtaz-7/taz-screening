@@ -1,4 +1,4 @@
-const S=require("/sessions/cool-laughing-ptolemy/mnt/Crypto Trading/telegram-scanner/scan.js");
+const S=require("./scan.js");
 let pass=0,fail=0; const ck=(n,c)=>{ c?(pass++,console.log("  PASS "+n)):(fail++,console.log("  FAIL "+n)); };
 const C=(o,h,l,c)=>({t:0,o,h,l,c});
 function rng(s){ return ()=>{ s=(s*1103515245+12345)&0x7fffffff; return s/0x7fffffff; }; }

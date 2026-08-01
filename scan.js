@@ -30,6 +30,7 @@ const TG_CHAT_UPDATES = process.env.TELEGRAM_CHAT_ID_UPDATES || TG_CHAT;   // ch
 
 const STABLE_BASES = new Set(["USDC","FDUSD","TUSD","BUSD","DAI","USDP","UST","USTC","EUR","GBP","AEUR","USD1","XUSD","PYUSD","EURI","TRY","BRL","ARS","ZAR","BIDR","IDRT","NGN","UAH","RUB","PLN","RON","JPY","MXN","COP","CZK"]);
 const LEVERAGE_TAGS = ["UP","DOWN","BULL","BEAR"];
+const TOKENIZED_GRP = 'TRD_GRP_261';   // grup permission bStocks (tokenized stock: AAPLB/TSLAB/SNXXB dll) — DIBUANG (anomali, ngikut jam bursa saham)
 // Filter halal (sama persis v4) — editable
 const HARAM_BASES = new Set([
   // — Meme / nirutilitas: spekulasi murni (tabzir + maysir + garar), Fatwa syarat objek #2 —
@@ -313,6 +314,7 @@ async function main(){
     if(s.quoteAsset !== 'USDT' || s.status !== 'TRADING' || !s.isSpotTradingAllowed) continue;
     const b = s.baseAsset;
     if(STABLE_BASES.has(b) || HARAM_BASES.has(b) || LEVERAGE_TAGS.some(t => b.endsWith(t))) continue;
+    if((s.permissionSets||[]).some(ps => ps.includes(TOKENIZED_GRP))) continue;   // buang tokenized stock (bStocks)
     valid.add(s.symbol);
   }
   const tick = await apiGet('/api/v3/ticker/24hr');
