@@ -506,7 +506,8 @@
   "rr": 10.8,
   "signalTime": 1785571200000,
   "status": "pending",
-  "createdAt": 1785571241334
+  "createdAt": 1785571241334,
+  "notified": []
  },
  {
   "id": "SNXXBUSDT::BoS::1785571200000",
@@ -520,7 +521,11 @@
   "gainPct": 30.53,
   "rr": 11.25,
   "signalTime": 1785571200000,
-  "status": "pending",
-  "createdAt": 1785571241334
+  "status": "open",
+  "createdAt": 1785571241334,
+  "fillTime": 1785571200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
