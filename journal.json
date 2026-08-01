@@ -454,5 +454,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SNDKBUSDT::BoS::1785565800000",
+  "symbol": "SNDKBUSDT",
+  "setup": "BoS",
+  "entry": 1221.12,
+  "sl": 1212.345,
+  "tp": 1507.44,
+  "tpSrc": "OB",
+  "slPct": 0.72,
+  "gainPct": 23.45,
+  "rr": 32.63,
+  "signalTime": 1785565800000,
+  "status": "pending",
+  "createdAt": 1785565837571
+ },
+ {
+  "id": "SOXLBUSDT::ChoCh::1785565800000",
+  "symbol": "SOXLBUSDT",
+  "setup": "ChoCh",
+  "entry": 113.44,
+  "sl": 111.595,
+  "tp": 133.85,
+  "tpSrc": "WH",
+  "slPct": 1.63,
+  "gainPct": 17.99,
+  "rr": 11.06,
+  "signalTime": 1785565800000,
+  "status": "pending",
+  "createdAt": 1785565837571
  }
 ]

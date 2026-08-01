@@ -1,7 +1,8 @@
 {
   "ready": [
     "SKHYBUSDT::ChoCh",
-    "SNXXBUSDT::ChoCh"
+    "SNDKBUSDT::BoS",
+    "SOXLBUSDT::ChoCh"
   ],
-  "at": "2026-08-01T06:15:38.699Z"
+  "at": "2026-08-01T06:30:37.570Z"
 }
