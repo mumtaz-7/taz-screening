@@ -413,5 +413,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SKHYBUSDT::ChoCh::1785561300000",
+  "symbol": "SKHYBUSDT",
+  "setup": "ChoCh",
+  "entry": 145.07,
+  "sl": 143.84,
+  "tp": 162.83,
+  "tpSrc": "WH",
+  "slPct": 0.85,
+  "gainPct": 12.24,
+  "rr": 14.44,
+  "signalTime": 1785561300000,
+  "status": "pending",
+  "createdAt": 1785561332775
+ },
+ {
+  "id": "SNXXBUSDT::ChoCh::1785561300000",
+  "symbol": "SNXXBUSDT",
+  "setup": "ChoCh",
+  "entry": 9.31,
+  "sl": 8.844999999999999,
+  "tp": 10.805,
+  "tpSrc": "EQ",
+  "slPct": 4.99,
+  "gainPct": 16.06,
+  "rr": 3.22,
+  "signalTime": 1785561300000,
+  "status": "pending",
+  "createdAt": 1785561332775
  }
 ]
