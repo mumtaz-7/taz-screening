@@ -544,7 +544,8 @@
   "rr": 24.4,
   "signalTime": 1785583800000,
   "status": "pending",
-  "createdAt": 1785583838642
+  "createdAt": 1785583838642,
+  "notified": []
  },
  {
   "id": "SOXLBUSDT::BoS::1785583800000",
@@ -558,7 +559,26 @@
   "gainPct": 31.09,
   "rr": 21.61,
   "signalTime": 1785583800000,
+  "status": "open",
+  "createdAt": 1785583838642,
+  "fillTime": 1785583800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "DRAMBUSDT::BoS::1785584700000",
+  "symbol": "DRAMBUSDT",
+  "setup": "BoS",
+  "entry": 50.39,
+  "sl": 50,
+  "tp": 56.04,
+  "tpSrc": "OB",
+  "slPct": 0.77,
+  "gainPct": 11.21,
+  "rr": 14.49,
+  "signalTime": 1785584700000,
   "status": "pending",
-  "createdAt": 1785583838642
+  "createdAt": 1785584738879
  }
 ]

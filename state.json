@@ -1,9 +1,10 @@
 {
   "ready": [
+    "DRAMBUSDT::BoS",
     "MUBUSDT::BoS",
     "MUUBUSDT::ChoCh",
     "SNDKBUSDT::BoS",
     "SOXLBUSDT::BoS"
   ],
-  "at": "2026-08-01T11:30:38.547Z"
+  "at": "2026-08-01T11:45:38.876Z"
 }
