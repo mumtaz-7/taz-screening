@@ -347,8 +347,12 @@
   "gainPct": 13.81,
   "rr": 16.21,
   "signalTime": 1785543300000,
-  "status": "pending",
-  "createdAt": 1785543332861
+  "status": "open",
+  "createdAt": 1785543332861,
+  "fillTime": 1785543300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "MUUBUSDT::ChoCh::1785543300000",
@@ -362,8 +366,12 @@
   "gainPct": 29.65,
   "rr": 15.93,
   "signalTime": 1785543300000,
-  "status": "pending",
-  "createdAt": 1785543332861
+  "status": "open",
+  "createdAt": 1785543332861,
+  "fillTime": 1785543300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SNDKBUSDT::ChoCh::1785543300000",
@@ -377,7 +385,11 @@
   "gainPct": 17.82,
   "rr": 13.95,
   "signalTime": 1785543300000,
-  "status": "pending",
-  "createdAt": 1785543332861
+  "status": "open",
+  "createdAt": 1785543332861,
+  "fillTime": 1785543300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
