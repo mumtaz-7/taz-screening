@@ -407,12 +407,15 @@
   "gainPct": 25.15,
   "rr": 3.27,
   "signalTime": 1785549600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785549649104,
   "fillTime": 1785549600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785562200000
  },
  {
   "id": "SKHYBUSDT::ChoCh::1785561300000",
