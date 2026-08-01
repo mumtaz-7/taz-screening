@@ -492,5 +492,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "DRAMBUSDT::ChoCh::1785571200000",
+  "symbol": "DRAMBUSDT",
+  "setup": "ChoCh",
+  "entry": 50.17,
+  "sl": 49.644999999999996,
+  "tp": 55.84,
+  "tpSrc": "WH",
+  "slPct": 1.05,
+  "gainPct": 11.3,
+  "rr": 10.8,
+  "signalTime": 1785571200000,
+  "status": "pending",
+  "createdAt": 1785571241334
+ },
+ {
+  "id": "SNXXBUSDT::BoS::1785571200000",
+  "symbol": "SNXXBUSDT",
+  "setup": "BoS",
+  "entry": 9.4,
+  "sl": 9.145,
+  "tp": 12.27,
+  "tpSrc": "OB",
+  "slPct": 2.71,
+  "gainPct": 30.53,
+  "rr": 11.25,
+  "signalTime": 1785571200000,
+  "status": "pending",
+  "createdAt": 1785571241334
  }
 ]
