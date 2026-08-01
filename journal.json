@@ -426,8 +426,12 @@
   "gainPct": 12.24,
   "rr": 14.44,
   "signalTime": 1785561300000,
-  "status": "pending",
-  "createdAt": 1785561332775
+  "status": "open",
+  "createdAt": 1785561332775,
+  "fillTime": 1785561300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SNXXBUSDT::ChoCh::1785561300000",
@@ -441,7 +445,11 @@
   "gainPct": 16.06,
   "rr": 3.22,
   "signalTime": 1785561300000,
-  "status": "pending",
-  "createdAt": 1785561332775
+  "status": "open",
+  "createdAt": 1785561332775,
+  "fillTime": 1785561300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
