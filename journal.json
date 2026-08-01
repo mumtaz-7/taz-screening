@@ -334,5 +334,50 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MUBUSDT::ChoCh::1785543300000",
+  "symbol": "MUBUSDT",
+  "setup": "ChoCh",
+  "entry": 818.73,
+  "sl": 811.7550000000001,
+  "tp": 931.81,
+  "tpSrc": "WH",
+  "slPct": 0.85,
+  "gainPct": 13.81,
+  "rr": 16.21,
+  "signalTime": 1785543300000,
+  "status": "pending",
+  "createdAt": 1785543332861
+ },
+ {
+  "id": "MUUBUSDT::ChoCh::1785543300000",
+  "symbol": "MUUBUSDT",
+  "setup": "ChoCh",
+  "entry": 23.37,
+  "sl": 22.934999999999995,
+  "tp": 30.3,
+  "tpSrc": "WH",
+  "slPct": 1.86,
+  "gainPct": 29.65,
+  "rr": 15.93,
+  "signalTime": 1785543300000,
+  "status": "pending",
+  "createdAt": 1785543332861
+ },
+ {
+  "id": "SNDKBUSDT::ChoCh::1785543300000",
+  "symbol": "SNDKBUSDT",
+  "setup": "ChoCh",
+  "entry": 1214.28,
+  "sl": 1198.77,
+  "tp": 1430.71,
+  "tpSrc": "WH",
+  "slPct": 1.28,
+  "gainPct": 17.82,
+  "rr": 13.95,
+  "signalTime": 1785543300000,
+  "status": "pending",
+  "createdAt": 1785543332861
  }
 ]
