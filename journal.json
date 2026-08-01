@@ -394,5 +394,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "COTIUSDT::ChoCh::1785549600000",
+  "symbol": "COTIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01678,
+  "sl": 0.01549,
+  "tp": 0.021,
+  "tpSrc": "WH",
+  "slPct": 7.69,
+  "gainPct": 25.15,
+  "rr": 3.27,
+  "signalTime": 1785549600000,
+  "status": "pending",
+  "createdAt": 1785549649104
  }
 ]
