@@ -138,5 +138,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ESPUSDT::BoS::1785654000000",
+  "symbol": "ESPUSDT",
+  "setup": "BoS",
+  "entry": 0.07186,
+  "sl": 0.06767500000000001,
+  "tp": 0.08969,
+  "tpSrc": "OB",
+  "slPct": 5.82,
+  "gainPct": 24.81,
+  "rr": 4.26,
+  "signalTime": 1785654000000,
+  "status": "pending",
+  "createdAt": 1785654043796
  }
 ]
