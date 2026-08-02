@@ -135,12 +135,15 @@
   "gainPct": 8.78,
   "rr": 2.58,
   "signalTime": 1785652200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785652245547,
   "fillTime": 1785652200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785712500000
  },
  {
   "id": "ESPUSDT::BoS::1785654000000",
