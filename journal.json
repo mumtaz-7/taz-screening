@@ -72,12 +72,15 @@
   "gainPct": 27.01,
   "rr": 4.62,
   "signalTime": 1785631500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785631531614,
   "fillTime": 1785631500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785651300000
  },
  {
   "id": "FETUSDT::ChoCh::1785636900000",
@@ -116,5 +119,20 @@
   "fillTime": 1785642300000,
   "R": -1,
   "resolvedTime": 1785645900000
+ },
+ {
+  "id": "HEIUSDT::ChoCh::1785652200000",
+  "symbol": "HEIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0837,
+  "sl": 0.08085,
+  "tp": 0.09104999999999999,
+  "tpSrc": "EQ",
+  "slPct": 3.41,
+  "gainPct": 8.78,
+  "rr": 2.58,
+  "signalTime": 1785652200000,
+  "status": "pending",
+  "createdAt": 1785652245547
  }
 ]
