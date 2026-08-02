@@ -154,12 +154,15 @@
   "gainPct": 24.81,
   "rr": 4.26,
   "signalTime": 1785654000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785654043796,
   "fillTime": 1785654000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785662100000
  },
  {
   "id": "HEIUSDT::BoS::1785660300000",
@@ -173,8 +176,11 @@
   "gainPct": 19.46,
   "rr": 4.07,
   "signalTime": 1785660300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785660332517,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785662100000
  }
 ]
