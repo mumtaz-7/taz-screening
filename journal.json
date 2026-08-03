@@ -239,12 +239,15 @@
   "gainPct": 19.91,
   "rr": 1.51,
   "signalTime": 1785749400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785749444345,
   "fillTime": 1785749400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.51,
+  "resolvedTime": 1785762900000
  },
  {
   "id": "VICUSDT::BoS::1785762000000",
