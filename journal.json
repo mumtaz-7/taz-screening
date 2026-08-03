@@ -198,12 +198,15 @@
   "gainPct": 32.11,
   "rr": 3.99,
   "signalTime": 1785664800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785664843515,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785667500000
+  "fillTime": 1785667500000,
+  "R": -1,
+  "resolvedTime": 1785774600000
  },
  {
   "id": "HOMEUSDT::ChoCh::1785740400000",
