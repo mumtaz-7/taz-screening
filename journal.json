@@ -53,12 +53,15 @@
   "gainPct": 39.59,
   "rr": 9,
   "signalTime": 1785617100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785617132931,
   "fillTime": 1785617100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785786300000
  },
  {
   "id": "EULUSDT::BoS::1785631500000",
