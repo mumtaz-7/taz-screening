@@ -287,9 +287,12 @@
   "gainPct": 7.21,
   "rr": 1.83,
   "signalTime": 1785776400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785776452893,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785794400000
  },
  {
   "id": "NILUSDT::BoS::1785782700000",
