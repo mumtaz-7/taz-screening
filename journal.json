@@ -442,5 +442,20 @@
    "open"
   ],
   "fillTime": 1785843000000
+ },
+ {
+  "id": "SYNUSDT::ChoCh::1785871800000",
+  "symbol": "SYNUSDT",
+  "setup": "ChoCh",
+  "entry": 0.10059,
+  "sl": 0.08740500000000001,
+  "tp": 0.1186,
+  "tpSrc": "OB",
+  "slPct": 13.11,
+  "gainPct": 17.9,
+  "rr": 1.37,
+  "signalTime": 1785871800000,
+  "status": "pending",
+  "createdAt": 1785871848829
  }
 ]
