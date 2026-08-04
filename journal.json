@@ -344,9 +344,12 @@
   "gainPct": 43.86,
   "rr": 2.31,
   "signalTime": 1785810600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785810637181,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785815100000
  },
  {
   "id": "VANRYUSDT::BoS::1785814200000",
