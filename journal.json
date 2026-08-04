@@ -306,9 +306,12 @@
   "gainPct": 9.76,
   "rr": 2.99,
   "signalTime": 1785782700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1785782741744,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "VANRYUSDT::ChoCh::1785797100000",
