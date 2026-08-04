@@ -386,8 +386,12 @@
   "gainPct": 14.61,
   "rr": 1.35,
   "signalTime": 1785818700000,
-  "status": "pending",
-  "createdAt": 1785818737841
+  "status": "open",
+  "createdAt": 1785818737841,
+  "fillTime": 1785818700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "HOMEUSDT::ChoCh::1785818700000",
@@ -402,6 +406,7 @@
   "rr": 1.01,
   "signalTime": 1785818700000,
   "status": "pending",
-  "createdAt": 1785818737842
+  "createdAt": 1785818737842,
+  "notified": []
  }
 ]
