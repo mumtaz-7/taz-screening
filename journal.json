@@ -325,12 +325,15 @@
   "gainPct": 13.65,
   "rr": 2.74,
   "signalTime": 1785797100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785797132024,
   "fillTime": 1785797100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.74,
+  "resolvedTime": 1785816900000
  },
  {
   "id": "HFTUSDT::ChoCh::1785810600000",
@@ -363,8 +366,12 @@
   "gainPct": 10.56,
   "rr": 1.77,
   "signalTime": 1785814200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1785814239998,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1785816900000
  }
 ]
