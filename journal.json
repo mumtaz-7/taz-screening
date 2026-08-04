@@ -414,5 +414,20 @@
   "fillTime": 1785819600000,
   "R": 1.01,
   "resolvedTime": 1785825900000
+ },
+ {
+  "id": "HFTUSDT::BoS::1785842100000",
+  "symbol": "HFTUSDT",
+  "setup": "BoS",
+  "entry": 0.010017,
+  "sl": 0.0087165,
+  "tp": 0.01372,
+  "tpSrc": "WH",
+  "slPct": 12.98,
+  "gainPct": 36.97,
+  "rr": 2.85,
+  "signalTime": 1785842100000,
+  "status": "pending",
+  "createdAt": 1785842132146
  }
 ]
