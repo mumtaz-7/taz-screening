@@ -287,12 +287,15 @@
   "gainPct": 7.21,
   "rr": 1.83,
   "signalTime": 1785776400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785776452893,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785794400000
+  "fillTime": 1785794400000,
+  "R": 1.83,
+  "resolvedTime": 1785855600000
  },
  {
   "id": "NILUSDT::BoS::1785782700000",
