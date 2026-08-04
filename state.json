@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-08-04T04:30:41.386Z"
+  "ready": [
+    "BICOUSDT::ChoCh",
+    "HOMEUSDT::ChoCh"
+  ],
+  "at": "2026-08-04T04:45:37.841Z"
 }
