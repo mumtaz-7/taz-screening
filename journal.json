@@ -673,5 +673,20 @@
    "open"
   ],
   "fillTime": 1785943800000
+ },
+ {
+  "id": "BICOUSDT::ChoCh::1785949200000",
+  "symbol": "BICOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02443,
+  "sl": 0.020515,
+  "tp": 0.02857,
+  "tpSrc": "WH",
+  "slPct": 16.03,
+  "gainPct": 16.95,
+  "rr": 1.06,
+  "signalTime": 1785949200000,
+  "status": "pending",
+  "createdAt": 1785949253069
  }
 ]
