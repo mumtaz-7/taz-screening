@@ -353,12 +353,15 @@
   "gainPct": 43.86,
   "rr": 2.31,
   "signalTime": 1785810600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785810637181,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785815100000
+  "fillTime": 1785815100000,
+  "R": 2.31,
+  "resolvedTime": 1785902400000
  },
  {
   "id": "VANRYUSDT::BoS::1785814200000",
@@ -436,12 +439,15 @@
   "gainPct": 36.97,
   "rr": 2.85,
   "signalTime": 1785842100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785842132146,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785843000000
+  "fillTime": 1785843000000,
+  "R": 2.85,
+  "resolvedTime": 1785902400000
  },
  {
   "id": "SYNUSDT::ChoCh::1785871800000",
@@ -534,8 +540,11 @@
   "gainPct": 10.73,
   "rr": 1.58,
   "signalTime": 1785901500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785901533798,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785902400000
  }
 ]
