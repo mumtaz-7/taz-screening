@@ -686,12 +686,15 @@
   "gainPct": 16.95,
   "rr": 1.06,
   "signalTime": 1785949200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785949253069,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785951000000
+  "fillTime": 1785951000000,
+  "R": 1.06,
+  "resolvedTime": 1785961800000
  },
  {
   "id": "HEIUSDT::BoS::1785950100000",
