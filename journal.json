@@ -687,6 +687,22 @@
   "rr": 1.06,
   "signalTime": 1785949200000,
   "status": "pending",
-  "createdAt": 1785949253069
+  "createdAt": 1785949253069,
+  "notified": []
+ },
+ {
+  "id": "HEIUSDT::BoS::1785950100000",
+  "symbol": "HEIUSDT",
+  "setup": "BoS",
+  "entry": 0.2063,
+  "sl": 0.16025,
+  "tp": 0.2574,
+  "tpSrc": "WH",
+  "slPct": 22.32,
+  "gainPct": 24.77,
+  "rr": 1.11,
+  "signalTime": 1785950100000,
+  "status": "pending",
+  "createdAt": 1785950135029
  }
 ]
