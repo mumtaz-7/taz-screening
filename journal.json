@@ -635,5 +635,35 @@
    "open"
   ],
   "fillTime": 1785936600000
+ },
+ {
+  "id": "ACEUSDT::ChoCh::1785940200000",
+  "symbol": "ACEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0729,
+  "sl": 0.06825,
+  "tp": 0.079,
+  "tpSrc": "WH",
+  "slPct": 6.38,
+  "gainPct": 8.37,
+  "rr": 1.31,
+  "signalTime": 1785940200000,
+  "status": "pending",
+  "createdAt": 1785940240953
+ },
+ {
+  "id": "ERAUSDT::BoS::1785940200000",
+  "symbol": "ERAUSDT",
+  "setup": "BoS",
+  "entry": 0.0656,
+  "sl": 0.0638,
+  "tp": 0.0712,
+  "tpSrc": "WH",
+  "slPct": 2.74,
+  "gainPct": 8.54,
+  "rr": 3.11,
+  "signalTime": 1785940200000,
+  "status": "pending",
+  "createdAt": 1785940240953
  }
 ]
