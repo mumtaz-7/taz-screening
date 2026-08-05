@@ -705,9 +705,13 @@
   "gainPct": 24.77,
   "rr": 1.11,
   "signalTime": 1785950100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1785950135029,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1785951900000
  },
  {
   "id": "GIGGLEUSDT::BoS::1785951900000",
@@ -721,7 +725,11 @@
   "gainPct": 10.59,
   "rr": 1.63,
   "signalTime": 1785951900000,
-  "status": "pending",
-  "createdAt": 1785951935257
+  "status": "open",
+  "createdAt": 1785951935257,
+  "fillTime": 1785951900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
