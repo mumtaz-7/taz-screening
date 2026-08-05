@@ -546,12 +546,15 @@
   "gainPct": 10.73,
   "rr": 1.58,
   "signalTime": 1785901500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785901533798,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785902400000
+  "fillTime": 1785902400000,
+  "R": -1,
+  "resolvedTime": 1785921300000
  },
  {
   "id": "VICUSDT::ChoCh::1785904200000",
