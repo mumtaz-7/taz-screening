@@ -568,12 +568,15 @@
   "gainPct": 31.9,
   "rr": 3.7,
   "signalTime": 1785904200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785904245937,
   "fillTime": 1785904200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.7,
+  "resolvedTime": 1785924000000
  },
  {
   "id": "HFTUSDT::ChoCh::1785907800000",
