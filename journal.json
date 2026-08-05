@@ -686,9 +686,12 @@
   "gainPct": 16.95,
   "rr": 1.06,
   "signalTime": 1785949200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785949253069,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785951000000
  },
  {
   "id": "HEIUSDT::BoS::1785950100000",
@@ -705,5 +708,20 @@
   "status": "pending",
   "createdAt": 1785950135029,
   "notified": []
+ },
+ {
+  "id": "GIGGLEUSDT::BoS::1785951900000",
+  "symbol": "GIGGLEUSDT",
+  "setup": "BoS",
+  "entry": 35.49,
+  "sl": 33.18000000000001,
+  "tp": 39.25,
+  "tpSrc": "OB",
+  "slPct": 6.51,
+  "gainPct": 10.59,
+  "rr": 1.63,
+  "signalTime": 1785951900000,
+  "status": "pending",
+  "createdAt": 1785951935257
  }
 ]
