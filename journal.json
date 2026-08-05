@@ -546,5 +546,20 @@
    "open"
   ],
   "fillTime": 1785902400000
+ },
+ {
+  "id": "VICUSDT::ChoCh::1785904200000",
+  "symbol": "VICUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0348,
+  "sl": 0.03180000000000001,
+  "tp": 0.045899999999999996,
+  "tpSrc": "EQ",
+  "slPct": 8.62,
+  "gainPct": 31.9,
+  "rr": 3.7,
+  "signalTime": 1785904200000,
+  "status": "pending",
+  "createdAt": 1785904245937
  }
 ]
