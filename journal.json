@@ -859,8 +859,12 @@
   "gainPct": 16.92,
   "rr": 2.03,
   "signalTime": 1786034700000,
-  "status": "pending",
-  "createdAt": 1786034999384
+  "status": "open",
+  "createdAt": 1786034999384,
+  "fillTime": 1786039200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SYNUSDT::ChoCh::1786034700000",
@@ -874,7 +878,11 @@
   "gainPct": 12.13,
   "rr": 1.5,
   "signalTime": 1786034700000,
-  "status": "pending",
-  "createdAt": 1786034999384
+  "status": "open",
+  "createdAt": 1786034999384,
+  "fillTime": 1786034700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
