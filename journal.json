@@ -753,12 +753,15 @@
   "gainPct": 22.02,
   "rr": 2.05,
   "signalTime": 1785978000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785978049747,
   "fillTime": 1785978000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.05,
+  "resolvedTime": 1785992400000
  },
  {
   "id": "ACXUSDT::ChoCh::1785992400000",
@@ -772,7 +775,11 @@
   "gainPct": 15.55,
   "rr": 3.53,
   "signalTime": 1785992400000,
-  "status": "pending",
-  "createdAt": 1785992444530
+  "status": "open",
+  "createdAt": 1785992444530,
+  "fillTime": 1785992400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
