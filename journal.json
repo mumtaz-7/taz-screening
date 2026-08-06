@@ -737,5 +737,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "VICUSDT::ChoCh::1785978000000",
+  "symbol": "VICUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0377,
+  "sl": 0.033650000000000006,
+  "tp": 0.046,
+  "tpSrc": "WH",
+  "slPct": 10.74,
+  "gainPct": 22.02,
+  "rr": 2.05,
+  "signalTime": 1785978000000,
+  "status": "pending",
+  "createdAt": 1785978049747
  }
 ]
