@@ -846,5 +846,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PORTALUSDT::BoS::1786034700000",
+  "symbol": "PORTALUSDT",
+  "setup": "BoS",
+  "entry": 0.0117,
+  "sl": 0.010725000000000002,
+  "tp": 0.01368,
+  "tpSrc": "WH",
+  "slPct": 8.33,
+  "gainPct": 16.92,
+  "rr": 2.03,
+  "signalTime": 1786034700000,
+  "status": "pending",
+  "createdAt": 1786034999384
+ },
+ {
+  "id": "SYNUSDT::ChoCh::1786034700000",
+  "symbol": "SYNUSDT",
+  "setup": "ChoCh",
+  "entry": 0.13199,
+  "sl": 0.12134,
+  "tp": 0.148,
+  "tpSrc": "WH",
+  "slPct": 8.07,
+  "gainPct": 12.13,
+  "rr": 1.5,
+  "signalTime": 1786034700000,
+  "status": "pending",
+  "createdAt": 1786034999384
  }
 ]
