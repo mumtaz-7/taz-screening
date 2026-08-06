@@ -613,12 +613,15 @@
   "gainPct": 80.43,
   "rr": 4.44,
   "signalTime": 1785916800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785916844554,
   "fillTime": 1785916800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786058100000
  },
  {
   "id": "GIGGLEUSDT::ChoCh::1785935700000",
