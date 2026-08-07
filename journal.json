@@ -982,8 +982,12 @@
   "gainPct": 45.41,
   "rr": 2.04,
   "signalTime": 1786093200000,
-  "status": "pending",
-  "createdAt": 1786093245438
+  "status": "open",
+  "createdAt": 1786093245438,
+  "fillTime": 1786093200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TSTUSDT::ChoCh::1786093200000",
@@ -997,7 +1001,12 @@
   "gainPct": 16.4,
   "rr": 1.78,
   "signalTime": 1786093200000,
-  "status": "pending",
-  "createdAt": 1786093245438
+  "status": "void",
+  "createdAt": 1786093245438,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786093200000,
+  "notified": [
+   "void"
+  ]
  }
 ]
