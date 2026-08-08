@@ -1179,8 +1179,13 @@
   "gainPct": 13.1,
   "rr": 1.67,
   "signalTime": 1786170600000,
-  "status": "pending",
-  "createdAt": 1786170638732
+  "status": "void",
+  "createdAt": 1786170638732,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786170600000,
+  "notified": [
+   "void"
+  ]
  },
  {
   "id": "XAIUSDT::ChoCh::1786170600000",
@@ -1194,7 +1199,11 @@
   "gainPct": 12.68,
   "rr": 2.22,
   "signalTime": 1786170600000,
-  "status": "pending",
-  "createdAt": 1786170638732
+  "status": "open",
+  "createdAt": 1786170638732,
+  "fillTime": 1786170600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
