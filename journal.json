@@ -1380,5 +1380,20 @@
   "status": "pending",
   "createdAt": 1786203044874,
   "notified": []
+ },
+ {
+  "id": "DODOUSDT::ChoCh::1786220100000",
+  "symbol": "DODOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0224,
+  "sl": 0.021034999999999998,
+  "tp": 0.026,
+  "tpSrc": "WH",
+  "slPct": 6.09,
+  "gainPct": 16.07,
+  "rr": 2.64,
+  "signalTime": 1786220100000,
+  "status": "pending",
+  "createdAt": 1786220130474
  }
 ]
