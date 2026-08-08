@@ -1116,12 +1116,15 @@
   "gainPct": 7.83,
   "rr": 1.91,
   "signalTime": 1786136400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786136452526,
   "fillTime": 1786136400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.91,
+  "resolvedTime": 1786202100000
  },
  {
   "id": "HEIUSDT::BoS::1786146300000",
@@ -1355,5 +1358,20 @@
   "status": "pending",
   "createdAt": 1786195844967,
   "notified": []
+ },
+ {
+  "id": "ACEUSDT::BoS::1786203000000",
+  "symbol": "ACEUSDT",
+  "setup": "BoS",
+  "entry": 0.1272,
+  "sl": 0.10754999999999998,
+  "tp": 0.1642,
+  "tpSrc": "WH",
+  "slPct": 15.45,
+  "gainPct": 29.09,
+  "rr": 1.88,
+  "signalTime": 1786203000000,
+  "status": "pending",
+  "createdAt": 1786203044874
  }
 ]
