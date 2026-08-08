@@ -1129,12 +1129,15 @@
   "gainPct": 120.78,
   "rr": 13.99,
   "signalTime": 1786146300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786146331526,
   "fillTime": 1786146300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786156200000
  },
  {
   "id": "ESPUSDT::ChoCh::1786151700000",
@@ -1148,8 +1151,11 @@
   "gainPct": 16.64,
   "rr": 4.39,
   "signalTime": 1786151700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786151761540,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786156200000
  }
 ]
