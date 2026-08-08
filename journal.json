@@ -1380,9 +1380,12 @@
   "gainPct": 29.09,
   "rr": 1.88,
   "signalTime": 1786203000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786203044874,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "DODOUSDT::ChoCh::1786220100000",
