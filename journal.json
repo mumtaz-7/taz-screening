@@ -1030,12 +1030,15 @@
   "gainPct": 29.85,
   "rr": 6.52,
   "signalTime": 1786095900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786095933844,
   "fillTime": 1786095900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786149000000
  },
  {
   "id": "EPICUSDT::ChoCh::1786096800000",
