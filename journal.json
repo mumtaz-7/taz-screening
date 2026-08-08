@@ -1335,5 +1335,20 @@
   "status": "pending",
   "createdAt": 1786190445900,
   "notified": []
+ },
+ {
+  "id": "DEXEUSDT::ChoCh::1786195800000",
+  "symbol": "DEXEUSDT",
+  "setup": "ChoCh",
+  "entry": 2.241,
+  "sl": 2.1855,
+  "tp": 2.452,
+  "tpSrc": "OB",
+  "slPct": 2.48,
+  "gainPct": 9.42,
+  "rr": 3.8,
+  "signalTime": 1786195800000,
+  "status": "pending",
+  "createdAt": 1786195844967
  }
 ]
