@@ -1202,12 +1202,15 @@
   "gainPct": 12.68,
   "rr": 2.22,
   "signalTime": 1786170600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786170638732,
   "fillTime": 1786170600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.22,
+  "resolvedTime": 1786222800000
  },
  {
   "id": "XAIUSDT::BoS::1786176000000",
