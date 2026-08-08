@@ -1275,9 +1275,12 @@
   "gainPct": 22.9,
   "rr": 3.72,
   "signalTime": 1786184100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786184138188,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786185000000
  },
  {
   "id": "TSTUSDT::BoS::1786185000000",
@@ -1291,7 +1294,11 @@
   "gainPct": 16.41,
   "rr": 1.24,
   "signalTime": 1786185000000,
-  "status": "pending",
-  "createdAt": 1786185038647
+  "status": "open",
+  "createdAt": 1786185038647,
+  "fillTime": 1786185000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
