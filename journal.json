@@ -1276,6 +1276,22 @@
   "rr": 3.72,
   "signalTime": 1786184100000,
   "status": "pending",
-  "createdAt": 1786184138188
+  "createdAt": 1786184138188,
+  "notified": []
+ },
+ {
+  "id": "TSTUSDT::BoS::1786185000000",
+  "symbol": "TSTUSDT",
+  "setup": "BoS",
+  "entry": 0.01408,
+  "sl": 0.012220000000000002,
+  "tp": 0.01639,
+  "tpSrc": "WH",
+  "slPct": 13.21,
+  "gainPct": 16.41,
+  "rr": 1.24,
+  "signalTime": 1786185000000,
+  "status": "pending",
+  "createdAt": 1786185038647
  }
 ]
