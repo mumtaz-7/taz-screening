@@ -1300,5 +1300,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EPICUSDT::ChoCh::1786187700000",
+  "symbol": "EPICUSDT",
+  "setup": "ChoCh",
+  "entry": 1.1166,
+  "sl": 1.0617,
+  "tp": 1.29,
+  "tpSrc": "WH",
+  "slPct": 4.92,
+  "gainPct": 15.53,
+  "rr": 3.16,
+  "signalTime": 1786187700000,
+  "status": "pending",
+  "createdAt": 1786187742316
  }
 ]
