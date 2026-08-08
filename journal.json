@@ -1319,5 +1319,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ACEUSDT::ChoCh::1786190400000",
+  "symbol": "ACEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1069,
+  "sl": 0.1018,
+  "tp": 0.1318,
+  "tpSrc": "EQ",
+  "slPct": 4.77,
+  "gainPct": 23.29,
+  "rr": 4.88,
+  "signalTime": 1786190400000,
+  "status": "pending",
+  "createdAt": 1786190445900
  }
 ]
