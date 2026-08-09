@@ -1431,5 +1431,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ZBTUSDT::ChoCh::1786235400000",
+  "symbol": "ZBTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1051,
+  "sl": 0.10165,
+  "tp": 0.1538,
+  "tpSrc": "EQ",
+  "slPct": 3.28,
+  "gainPct": 46.34,
+  "rr": 14.12,
+  "signalTime": 1786235400000,
+  "status": "pending",
+  "createdAt": 1786235438172
  }
 ]
