@@ -1287,12 +1287,15 @@
   "gainPct": 22.9,
   "rr": 3.72,
   "signalTime": 1786184100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786184138188,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786185000000
+  "fillTime": 1786185000000,
+  "R": -1,
+  "resolvedTime": 1786244400000
  },
  {
   "id": "TSTUSDT::BoS::1786185000000",
@@ -1328,12 +1331,15 @@
   "gainPct": 15.53,
   "rr": 3.16,
   "signalTime": 1786187700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786187742316,
   "fillTime": 1786187700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786244400000
  },
  {
   "id": "ACEUSDT::ChoCh::1786190400000",
