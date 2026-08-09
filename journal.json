@@ -1475,12 +1475,15 @@
   "gainPct": 18.83,
   "rr": 2.21,
   "signalTime": 1786252500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786252533217,
   "fillTime": 1786252500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786275000000
  },
  {
   "id": "BICOUSDT::BoS::1786259700000",
