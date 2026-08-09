@@ -1481,5 +1481,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BICOUSDT::BoS::1786259700000",
+  "symbol": "BICOUSDT",
+  "setup": "BoS",
+  "entry": 0.07457,
+  "sl": 0.062090000000000006,
+  "tp": 0.09,
+  "tpSrc": "WH",
+  "slPct": 16.74,
+  "gainPct": 20.69,
+  "rr": 1.24,
+  "signalTime": 1786259700000,
+  "status": "pending",
+  "createdAt": 1786259734275
  }
 ]
