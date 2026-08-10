@@ -1753,5 +1753,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HOMEUSDT::ChoCh::1786374900000",
+  "symbol": "HOMEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00972,
+  "sl": 0.00936,
+  "tp": 0.01045,
+  "tpSrc": "WH",
+  "slPct": 3.7,
+  "gainPct": 7.51,
+  "rr": 2.03,
+  "signalTime": 1786374900000,
+  "status": "pending",
+  "createdAt": 1786374935190
  }
 ]
