@@ -1789,12 +1789,15 @@
   "gainPct": 10.3,
   "rr": 1.54,
   "signalTime": 1786378500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786378535291,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786383900000
+  "fillTime": 1786383900000,
+  "R": -1,
+  "resolvedTime": 1786402800000
  },
  {
   "id": "TSTUSDT::ChoCh::1786378500000",
