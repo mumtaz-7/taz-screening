@@ -1,6 +1,8 @@
 {
   "ready": [
+    "BANKUSDT::BoS",
+    "BROCCOLI714USDT::BoS",
     "TSTUSDT::BoS"
   ],
-  "at": "2026-08-10T19:00:51.328Z"
+  "at": "2026-08-10T19:15:34.012Z"
 }
