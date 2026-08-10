@@ -1708,9 +1708,13 @@
   "gainPct": 29.67,
   "rr": 2.51,
   "signalTime": 1786349700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786349734775,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786355100000
  },
  {
   "id": "BROCCOLI714USDT::ChoCh::1786350600000",
@@ -1730,5 +1734,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BBUSDT::ChoCh::1786356000000",
+  "symbol": "BBUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01393,
+  "sl": 0.013614999999999999,
+  "tp": 0.01495,
+  "tpSrc": "EQ",
+  "slPct": 2.26,
+  "gainPct": 7.32,
+  "rr": 3.24,
+  "signalTime": 1786356000000,
+  "status": "pending",
+  "createdAt": 1786356048151
  }
 ]
