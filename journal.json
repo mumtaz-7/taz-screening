@@ -1651,5 +1651,20 @@
    "open"
   ],
   "fillTime": 1786321800000
+ },
+ {
+  "id": "BROCCOLI714USDT::BoS::1786324500000",
+  "symbol": "BROCCOLI714USDT",
+  "setup": "BoS",
+  "entry": 0.02017,
+  "sl": 0.019105000000000004,
+  "tp": 0.02179,
+  "tpSrc": "WH",
+  "slPct": 5.28,
+  "gainPct": 8.03,
+  "rr": 1.52,
+  "signalTime": 1786324500000,
+  "status": "pending",
+  "createdAt": 1786324567128
  }
 ]
