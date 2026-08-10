@@ -1676,5 +1676,20 @@
   ],
   "R": -1,
   "resolvedTime": 1786329000000
+ },
+ {
+  "id": "SAGAUSDT::ChoCh::1786339800000",
+  "symbol": "SAGAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01532,
+  "sl": 0.01406,
+  "tp": 0.01762,
+  "tpSrc": "EQ",
+  "slPct": 8.22,
+  "gainPct": 15.01,
+  "rr": 1.83,
+  "signalTime": 1786339800000,
+  "status": "pending",
+  "createdAt": 1786339840848
  }
 ]
