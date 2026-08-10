@@ -1747,12 +1747,15 @@
   "gainPct": 7.32,
   "rr": 3.24,
   "signalTime": 1786356000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786356048151,
   "fillTime": 1786356000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786387500000
  },
  {
   "id": "HOMEUSDT::ChoCh::1786374900000",
@@ -1811,5 +1814,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TSTUSDT::BoS::1786388400000",
+  "symbol": "TSTUSDT",
+  "setup": "BoS",
+  "entry": 0.02288,
+  "sl": 0.019790000000000002,
+  "tp": 0.02637,
+  "tpSrc": "WH",
+  "slPct": 13.51,
+  "gainPct": 15.25,
+  "rr": 1.13,
+  "signalTime": 1786388400000,
+  "status": "pending",
+  "createdAt": 1786388451329
  }
 ]
