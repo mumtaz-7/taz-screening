@@ -1,4 +1,8 @@
 {
-  "ready": [],
-  "at": "2026-08-10T16:00:45.501Z"
+  "ready": [
+    "GIGGLEUSDT::ChoCh",
+    "MMTUSDT::ChoCh",
+    "TSTUSDT::ChoCh"
+  ],
+  "at": "2026-08-10T16:15:35.291Z"
 }
