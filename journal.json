@@ -635,12 +635,15 @@
   "gainPct": 15.2,
   "rr": 1.37,
   "signalTime": 1785935700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785935741867,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785936600000
+  "fillTime": 1785936600000,
+  "R": 1.37,
+  "resolvedTime": 1786479300000
  },
  {
   "id": "ACEUSDT::ChoCh::1785940200000",
@@ -972,12 +975,15 @@
   "gainPct": 19.05,
   "rr": 2.46,
   "signalTime": 1786088700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786088736986,
   "fillTime": 1786088700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.46,
+  "resolvedTime": 1786479300000
  },
  {
   "id": "HEIUSDT::ChoCh::1786093200000",
@@ -2107,8 +2113,27 @@
   "gainPct": 12.43,
   "rr": 1.08,
   "signalTime": 1786474800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786474846063,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786479300000
+ },
+ {
+  "id": "BANANAS31USDT::ChoCh::1786480200000",
+  "symbol": "BANANAS31USDT",
+  "setup": "ChoCh",
+  "entry": 0.010091,
+  "sl": 0.009642500000000002,
+  "tp": 0.011598,
+  "tpSrc": "WH",
+  "slPct": 4.44,
+  "gainPct": 14.93,
+  "rr": 3.36,
+  "signalTime": 1786480200000,
+  "status": "pending",
+  "createdAt": 1786480239980
  }
 ]
