@@ -1964,12 +1964,15 @@
   "gainPct": 8.83,
   "rr": 1.93,
   "signalTime": 1786425300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786425338782,
   "fillTime": 1786425300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786442400000
  },
  {
   "id": "BANANAS31USDT::BoS::1786442400000",
@@ -1984,6 +1987,7 @@
   "rr": 1.31,
   "signalTime": 1786442400000,
   "status": "pending",
-  "createdAt": 1786442448907
+  "createdAt": 1786442448907,
+  "notified": []
  }
 ]
