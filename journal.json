@@ -2075,5 +2075,20 @@
    "open"
   ],
   "fillTime": 1786462200000
+ },
+ {
+  "id": "DODOUSDT::ChoCh::1786473000000",
+  "symbol": "DODOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02144,
+  "sl": 0.020585,
+  "tp": 0.02368,
+  "tpSrc": "EQ",
+  "slPct": 3.99,
+  "gainPct": 10.45,
+  "rr": 2.62,
+  "signalTime": 1786473000000,
+  "status": "pending",
+  "createdAt": 1786473040348
  }
 ]
