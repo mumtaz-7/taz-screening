@@ -2012,5 +2012,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MITOUSDT::BoS::1786448700000",
+  "symbol": "MITOUSDT",
+  "setup": "BoS",
+  "entry": 0.02619,
+  "sl": 0.022740000000000003,
+  "tp": 0.03431,
+  "tpSrc": "WH",
+  "slPct": 13.17,
+  "gainPct": 31,
+  "rr": 2.35,
+  "signalTime": 1786448700000,
+  "status": "pending",
+  "createdAt": 1786448732715
  }
 ]
