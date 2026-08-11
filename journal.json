@@ -1970,5 +1970,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BANANAS31USDT::BoS::1786442400000",
+  "symbol": "BANANAS31USDT",
+  "setup": "BoS",
+  "entry": 0.0099,
+  "sl": 0.009054,
+  "tp": 0.011009,
+  "tpSrc": "WH",
+  "slPct": 8.55,
+  "gainPct": 11.2,
+  "rr": 1.31,
+  "signalTime": 1786442400000,
+  "status": "pending",
+  "createdAt": 1786442448907
  }
 ]
