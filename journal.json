@@ -2155,9 +2155,12 @@
   "gainPct": 9.28,
   "rr": 1.67,
   "signalTime": 1786486500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786486532950,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786487400000
  },
  {
   "id": "DODOUSDT::BoS::1786487400000",
@@ -2172,6 +2175,7 @@
   "rr": 5.67,
   "signalTime": 1786487400000,
   "status": "pending",
-  "createdAt": 1786487440378
+  "createdAt": 1786487440378,
+  "notified": []
  }
 ]
