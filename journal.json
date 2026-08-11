@@ -1948,5 +1948,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ROBOUSDT::ChoCh::1786425300000",
+  "symbol": "ROBOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01376,
+  "sl": 0.01313,
+  "tp": 0.014975,
+  "tpSrc": "EQ",
+  "slPct": 4.58,
+  "gainPct": 8.83,
+  "rr": 1.93,
+  "signalTime": 1786425300000,
+  "status": "pending",
+  "createdAt": 1786425338782
  }
 ]
