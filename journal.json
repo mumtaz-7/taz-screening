@@ -1833,12 +1833,15 @@
   "gainPct": 15.25,
   "rr": 1.13,
   "signalTime": 1786388400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786388451329,
   "fillTime": 1786388400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786412700000
  },
  {
   "id": "BANKUSDT::BoS::1786389300000",
