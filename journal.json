@@ -2142,5 +2142,20 @@
   ],
   "R": -1,
   "resolvedTime": 1786482000000
+ },
+ {
+  "id": "LUNAUSDT::ChoCh::1786486500000",
+  "symbol": "LUNAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0485,
+  "sl": 0.045799999999999993,
+  "tp": 0.053,
+  "tpSrc": "WH",
+  "slPct": 5.57,
+  "gainPct": 9.28,
+  "rr": 1.67,
+  "signalTime": 1786486500000,
+  "status": "pending",
+  "createdAt": 1786486532950
  }
 ]
