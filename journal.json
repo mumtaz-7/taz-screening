@@ -2156,6 +2156,22 @@
   "rr": 1.67,
   "signalTime": 1786486500000,
   "status": "pending",
-  "createdAt": 1786486532950
+  "createdAt": 1786486532950,
+  "notified": []
+ },
+ {
+  "id": "DODOUSDT::BoS::1786487400000",
+  "symbol": "DODOUSDT",
+  "setup": "BoS",
+  "entry": 0.0222,
+  "sl": 0.021015,
+  "tp": 0.02892,
+  "tpSrc": "OB",
+  "slPct": 5.34,
+  "gainPct": 30.27,
+  "rr": 5.67,
+  "signalTime": 1786487400000,
+  "status": "pending",
+  "createdAt": 1786487440378
  }
 ]
