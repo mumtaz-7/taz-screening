@@ -1728,12 +1728,15 @@
   "gainPct": 12.9,
   "rr": 1.46,
   "signalTime": 1786350600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786350643219,
   "fillTime": 1786350600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786410900000
  },
  {
   "id": "BBUSDT::ChoCh::1786356000000",
@@ -1897,5 +1900,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ACEUSDT::BoS::1786411800000",
+  "symbol": "ACEUSDT",
+  "setup": "BoS",
+  "entry": 0.1226,
+  "sl": 0.11630000000000001,
+  "tp": 0.1435,
+  "tpSrc": "OB",
+  "slPct": 5.14,
+  "gainPct": 17.05,
+  "rr": 3.32,
+  "signalTime": 1786411800000,
+  "status": "pending",
+  "createdAt": 1786411839384
  }
 ]
