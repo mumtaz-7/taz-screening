@@ -1858,12 +1858,15 @@
   "gainPct": 29.95,
   "rr": 7.87,
   "signalTime": 1786389300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786389334013,
   "fillTime": 1786389300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786428000000
  },
  {
   "id": "BROCCOLI714USDT::BoS::1786389300000",
