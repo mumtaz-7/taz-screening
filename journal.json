@@ -2155,12 +2155,15 @@
   "gainPct": 9.28,
   "rr": 1.67,
   "signalTime": 1786486500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786486532950,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786487400000
+  "fillTime": 1786487400000,
+  "R": -1,
+  "resolvedTime": 1786497300000
  },
  {
   "id": "DODOUSDT::BoS::1786487400000",
@@ -2193,11 +2196,14 @@
   "gainPct": 83.31,
   "rr": 7.82,
   "signalTime": 1786491000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786491041290,
   "fillTime": 1786491000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786497300000
  }
 ]
