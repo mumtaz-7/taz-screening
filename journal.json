@@ -2275,5 +2275,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::ChoCh::1786572000000",
+  "symbol": "PROMUSDT",
+  "setup": "ChoCh",
+  "entry": 2.666,
+  "sl": 2.5025,
+  "tp": 3.627,
+  "tpSrc": "WH",
+  "slPct": 6.13,
+  "gainPct": 36.05,
+  "rr": 5.88,
+  "signalTime": 1786572000000,
+  "status": "pending",
+  "createdAt": 1786572047701
  }
 ]
