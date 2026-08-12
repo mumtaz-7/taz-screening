@@ -2097,12 +2097,15 @@
   "gainPct": 10.45,
   "rr": 2.62,
   "signalTime": 1786473000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786473040348,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1786473900000
+  "fillTime": 1786473900000,
+  "R": 2.62,
+  "resolvedTime": 1786510800000
  },
  {
   "id": "HOLOUSDT::ChoCh::1786474800000",
