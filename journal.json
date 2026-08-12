@@ -2237,5 +2237,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "RADUSDT::ChoCh::1786554000000",
+  "symbol": "RADUSDT",
+  "setup": "ChoCh",
+  "entry": 0.241,
+  "sl": 0.23199999999999998,
+  "tp": 0.266,
+  "tpSrc": "EQ",
+  "slPct": 3.73,
+  "gainPct": 10.37,
+  "rr": 2.78,
+  "signalTime": 1786554000000,
+  "status": "pending",
+  "createdAt": 1786554044409
  }
 ]
