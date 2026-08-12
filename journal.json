@@ -2056,12 +2056,15 @@
   "gainPct": 7.41,
   "rr": 1.83,
   "signalTime": 1786451400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786451443075,
   "fillTime": 1786451400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786543200000
  },
  {
   "id": "BMTUSDT::ChoCh::1786458600000",
