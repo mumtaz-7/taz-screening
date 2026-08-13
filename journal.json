@@ -2335,9 +2335,12 @@
   "gainPct": 14.47,
   "rr": 4.49,
   "signalTime": 1786592700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786592732951,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "TSTUSDT::BoS::1786595400000",
