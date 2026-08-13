@@ -2368,9 +2368,12 @@
   "gainPct": 18.38,
   "rr": 6.03,
   "signalTime": 1786599900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786599933145,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786606200000
  },
  {
   "id": "ATUSDT::ChoCh::1786606200000",
@@ -2384,7 +2387,11 @@
   "gainPct": 11.48,
   "rr": 1.53,
   "signalTime": 1786606200000,
-  "status": "pending",
-  "createdAt": 1786606241498
+  "status": "open",
+  "createdAt": 1786606241498,
+  "fillTime": 1786606200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
