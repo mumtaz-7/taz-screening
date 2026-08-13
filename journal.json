@@ -2355,5 +2355,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "HOMEUSDT::BoS::1786599900000",
+  "symbol": "HOMEUSDT",
+  "setup": "BoS",
+  "entry": 0.00985,
+  "sl": 0.009550000000000001,
+  "tp": 0.01166,
+  "tpSrc": "OB",
+  "slPct": 3.05,
+  "gainPct": 18.38,
+  "rr": 6.03,
+  "signalTime": 1786599900000,
+  "status": "pending",
+  "createdAt": 1786599933145
  }
 ]
