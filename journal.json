@@ -2520,9 +2520,12 @@
   "gainPct": 9.03,
   "rr": 2.32,
   "signalTime": 1786640400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786640445775,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PROMUSDT::ChoCh::1786646700000",
