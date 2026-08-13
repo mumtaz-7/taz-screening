@@ -2371,5 +2371,20 @@
   "status": "pending",
   "createdAt": 1786599933145,
   "notified": []
+ },
+ {
+  "id": "ATUSDT::ChoCh::1786606200000",
+  "symbol": "ATUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1664,
+  "sl": 0.15394999999999998,
+  "tp": 0.1855,
+  "tpSrc": "WH",
+  "slPct": 7.48,
+  "gainPct": 11.48,
+  "rr": 1.53,
+  "signalTime": 1786606200000,
+  "status": "pending",
+  "createdAt": 1786606241498
  }
 ]
