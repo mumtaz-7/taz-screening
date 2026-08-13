@@ -2021,12 +2021,15 @@
   "gainPct": 21.18,
   "rr": 5.05,
   "signalTime": 1786446900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786446947433,
   "fillTime": 1786446900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786638600000
  },
  {
   "id": "MITOUSDT::BoS::1786448700000",
@@ -2476,9 +2479,12 @@
   "gainPct": 7.42,
   "rr": 1.12,
   "signalTime": 1786626900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786626933484,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786638600000
  },
  {
   "id": "COTIUSDT::BoS::1786637700000",
