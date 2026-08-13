@@ -2504,5 +2504,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ATUSDT::ChoCh::1786640400000",
+  "symbol": "ATUSDT",
+  "setup": "ChoCh",
+  "entry": 0.15,
+  "sl": 0.14415,
+  "tp": 0.16355,
+  "tpSrc": "EQ",
+  "slPct": 3.9,
+  "gainPct": 9.03,
+  "rr": 2.32,
+  "signalTime": 1786640400000,
+  "status": "pending",
+  "createdAt": 1786640445775
  }
 ]
