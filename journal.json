@@ -2269,12 +2269,15 @@
   "gainPct": 32.12,
   "rr": 9.49,
   "signalTime": 1786569300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786569332840,
   "fillTime": 1786569300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786591800000
  },
  {
   "id": "PROMUSDT::ChoCh::1786572000000",
@@ -2313,5 +2316,20 @@
   "status": "pending",
   "createdAt": 1786577443018,
   "notified": []
+ },
+ {
+  "id": "DODOUSDT::ChoCh::1786592700000",
+  "symbol": "DODOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02232,
+  "sl": 0.021599999999999998,
+  "tp": 0.02555,
+  "tpSrc": "WH",
+  "slPct": 3.23,
+  "gainPct": 14.47,
+  "rr": 4.49,
+  "signalTime": 1786592700000,
+  "status": "pending",
+  "createdAt": 1786592732951
  }
 ]
