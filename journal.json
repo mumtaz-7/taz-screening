@@ -2562,12 +2562,15 @@
   "gainPct": 43.64,
   "rr": 6.87,
   "signalTime": 1786660200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786660240971,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786670100000
+  "fillTime": 1786670100000,
+  "R": -1,
+  "resolvedTime": 1786733100000
  },
  {
   "id": "ACEUSDT::BoS::1786672800000",
