@@ -2539,9 +2539,13 @@
   "gainPct": 17.35,
   "rr": 2.34,
   "signalTime": 1786646700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786646735288,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786665600000
  },
  {
   "id": "PROMUSDT::BoS::1786660200000",
