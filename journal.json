@@ -2507,12 +2507,15 @@
   "gainPct": 20.09,
   "rr": 1.08,
   "signalTime": 1786637700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786637735012,
   "fillTime": 1786637700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786745700000
  },
  {
   "id": "ATUSDT::ChoCh::1786640400000",
@@ -2695,5 +2698,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ACEUSDT::BoS::1786746600000",
+  "symbol": "ACEUSDT",
+  "setup": "BoS",
+  "entry": 0.3245,
+  "sl": 0.27125,
+  "tp": 0.3784,
+  "tpSrc": "WH",
+  "slPct": 16.41,
+  "gainPct": 16.61,
+  "rr": 1.01,
+  "signalTime": 1786746600000,
+  "status": "pending",
+  "createdAt": 1786746635513
  }
 ]
