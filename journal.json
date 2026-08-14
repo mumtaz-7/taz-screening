@@ -2485,12 +2485,15 @@
   "gainPct": 7.42,
   "rr": 1.12,
   "signalTime": 1786626900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786626933484,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1786638600000
+  "fillTime": 1786638600000,
+  "R": 1.12,
+  "resolvedTime": 1786741200000
  },
  {
   "id": "COTIUSDT::BoS::1786637700000",
