@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ACEUSDT::BoS"
+    "ACEUSDT::BoS",
+    "ATUSDT::BoS"
   ],
-  "at": "2026-08-14T02:30:39.206Z"
+  "at": "2026-08-14T02:45:32.730Z"
 }
