@@ -2380,12 +2380,15 @@
   "gainPct": 18.38,
   "rr": 6.03,
   "signalTime": 1786599900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786599933145,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1786606200000
+  "fillTime": 1786606200000,
+  "R": 6.03,
+  "resolvedTime": 1786692600000
  },
  {
   "id": "ATUSDT::ChoCh::1786606200000",
