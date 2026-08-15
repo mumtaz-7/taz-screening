@@ -2846,11 +2846,29 @@
   "gainPct": 9.65,
   "rr": 1.59,
   "signalTime": 1786806900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786806927990,
   "fillTime": 1786806900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786820400000
+ },
+ {
+  "id": "CHIPUSDT::ChoCh::1786821300000",
+  "symbol": "CHIPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02567,
+  "sl": 0.024440000000000003,
+  "tp": 0.028,
+  "tpSrc": "WH",
+  "slPct": 4.79,
+  "gainPct": 9.08,
+  "rr": 1.89,
+  "signalTime": 1786821300000,
+  "status": "pending",
+  "createdAt": 1786821328845
  }
 ]
