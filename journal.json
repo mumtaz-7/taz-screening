@@ -2786,12 +2786,15 @@
   "gainPct": 33.18,
   "rr": 3.11,
   "signalTime": 1786786200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786786234572,
   "fillTime": 1786786200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786816800000
  },
  {
   "id": "MOVRUSDT::BoS::1786799700000",
