@@ -2792,5 +2792,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MOVRUSDT::BoS::1786799700000",
+  "symbol": "MOVRUSDT",
+  "setup": "BoS",
+  "entry": 0.872,
+  "sl": 0.7130000000000001,
+  "tp": 1.146,
+  "tpSrc": "OB",
+  "slPct": 18.23,
+  "gainPct": 31.42,
+  "rr": 1.72,
+  "signalTime": 1786799700000,
+  "status": "pending",
+  "createdAt": 1786799727951
  }
 ]
