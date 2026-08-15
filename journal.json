@@ -2806,6 +2806,22 @@
   "rr": 1.72,
   "signalTime": 1786799700000,
   "status": "pending",
-  "createdAt": 1786799727951
+  "createdAt": 1786799727951,
+  "notified": []
+ },
+ {
+  "id": "ALICEUSDT::ChoCh::1786800600000",
+  "symbol": "ALICEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1279,
+  "sl": 0.12355,
+  "tp": 0.1477,
+  "tpSrc": "EQ",
+  "slPct": 3.4,
+  "gainPct": 15.48,
+  "rr": 4.55,
+  "signalTime": 1786800600000,
+  "status": "pending",
+  "createdAt": 1786800631529
  }
 ]
