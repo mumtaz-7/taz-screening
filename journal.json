@@ -2767,5 +2767,20 @@
   ],
   "R": -1,
   "resolvedTime": 1786783500000
+ },
+ {
+  "id": "BMTUSDT::BoS::1786786200000",
+  "symbol": "BMTUSDT",
+  "setup": "BoS",
+  "entry": 0.017,
+  "sl": 0.015184999999999997,
+  "tp": 0.02264,
+  "tpSrc": "OB",
+  "slPct": 10.68,
+  "gainPct": 33.18,
+  "rr": 3.11,
+  "signalTime": 1786786200000,
+  "status": "pending",
+  "createdAt": 1786786234572
  }
 ]
