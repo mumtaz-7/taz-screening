@@ -2720,5 +2720,20 @@
   "fillTime": 1786748400000,
   "R": -1,
   "resolvedTime": 1786751100000
+ },
+ {
+  "id": "PLUMEUSDT::ChoCh::1786753800000",
+  "symbol": "PLUMEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01261,
+  "sl": 0.012205,
+  "tp": 0.0137,
+  "tpSrc": "WH",
+  "slPct": 3.21,
+  "gainPct": 8.64,
+  "rr": 2.69,
+  "signalTime": 1786753800000,
+  "status": "pending",
+  "createdAt": 1786753835271
  }
 ]
