@@ -2805,9 +2805,12 @@
   "gainPct": 31.42,
   "rr": 1.72,
   "signalTime": 1786799700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786799727951,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786801500000
  },
  {
   "id": "ALICEUSDT::ChoCh::1786800600000",
