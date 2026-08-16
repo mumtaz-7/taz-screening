@@ -2992,5 +2992,20 @@
   "fillTime": 1786866300000,
   "R": -1,
   "resolvedTime": 1786867200000
+ },
+ {
+  "id": "MOVRUSDT::ChoCh::1786869900000",
+  "symbol": "MOVRUSDT",
+  "setup": "ChoCh",
+  "entry": 0.808,
+  "sl": 0.763,
+  "tp": 0.8825000000000001,
+  "tpSrc": "EQ",
+  "slPct": 5.57,
+  "gainPct": 9.22,
+  "rr": 1.66,
+  "signalTime": 1786869900000,
+  "status": "pending",
+  "createdAt": 1786869927336
  }
 ]
