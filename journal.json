@@ -2933,6 +2933,22 @@
   "rr": 5.24,
   "signalTime": 1786860000000,
   "status": "pending",
-  "createdAt": 1786860037186
+  "createdAt": 1786860037186,
+  "notified": []
+ },
+ {
+  "id": "EPICUSDT::ChoCh::1786860900000",
+  "symbol": "EPICUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3371,
+  "sl": 0.32389999999999997,
+  "tp": 0.37725,
+  "tpSrc": "EQ",
+  "slPct": 3.92,
+  "gainPct": 11.91,
+  "rr": 3.04,
+  "signalTime": 1786860900000,
+  "status": "pending",
+  "createdAt": 1786860929512
  }
 ]
