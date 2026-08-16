@@ -2900,5 +2900,20 @@
   ],
   "R": -1,
   "resolvedTime": 1786843800000
+ },
+ {
+  "id": "PORTALUSDT::ChoCh::1786853700000",
+  "symbol": "PORTALUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01098,
+  "sl": 0.0108,
+  "tp": 0.01188,
+  "tpSrc": "EQ",
+  "slPct": 1.64,
+  "gainPct": 8.2,
+  "rr": 5,
+  "signalTime": 1786853700000,
+  "status": "pending",
+  "createdAt": 1786853731839
  }
 ]
