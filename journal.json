@@ -2974,9 +2974,13 @@
   "gainPct": 18.74,
   "rr": 5.05,
   "signalTime": 1786864500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786864527324,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786880700000
  },
  {
   "id": "PIXELUSDT::BoS::1786865400000",
@@ -3072,8 +3076,11 @@
   "gainPct": 33.47,
   "rr": 10.17,
   "signalTime": 1786879800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786879832651,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786880700000
  }
 ]
