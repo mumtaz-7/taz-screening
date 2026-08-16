@@ -3008,12 +3008,15 @@
   "gainPct": 9.22,
   "rr": 1.66,
   "signalTime": 1786869900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786869927336,
   "fillTime": 1786869900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.66,
+  "resolvedTime": 1786874400000
  },
  {
   "id": "ALICEUSDT::BoS::1786871700000",
