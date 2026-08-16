@@ -3011,5 +3011,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ALICEUSDT::BoS::1786871700000",
+  "symbol": "ALICEUSDT",
+  "setup": "BoS",
+  "entry": 0.1296,
+  "sl": 0.11685000000000001,
+  "tp": 0.1816,
+  "tpSrc": "WH",
+  "slPct": 9.84,
+  "gainPct": 40.12,
+  "rr": 4.08,
+  "signalTime": 1786871700000,
+  "status": "pending",
+  "createdAt": 1786871727269
  }
 ]
