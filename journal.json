@@ -2968,6 +2968,22 @@
   "rr": 5.05,
   "signalTime": 1786864500000,
   "status": "pending",
-  "createdAt": 1786864527324
+  "createdAt": 1786864527324,
+  "notified": []
+ },
+ {
+  "id": "PIXELUSDT::BoS::1786865400000",
+  "symbol": "PIXELUSDT",
+  "setup": "BoS",
+  "entry": 0.00524,
+  "sl": 0.00491,
+  "tp": 0.00637,
+  "tpSrc": "WH",
+  "slPct": 6.3,
+  "gainPct": 21.56,
+  "rr": 3.42,
+  "signalTime": 1786865400000,
+  "status": "pending",
+  "createdAt": 1786865431429
  }
 ]
