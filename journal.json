@@ -3053,9 +3053,12 @@
   "gainPct": 9.38,
   "rr": 2.28,
   "signalTime": 1786878900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786878925791,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786879800000
  },
  {
   "id": "ROBOUSDT::ChoCh::1786879800000",
@@ -3070,6 +3073,7 @@
   "rr": 10.17,
   "signalTime": 1786879800000,
   "status": "pending",
-  "createdAt": 1786879832651
+  "createdAt": 1786879832651,
+  "notified": []
  }
 ]
