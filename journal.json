@@ -3223,12 +3223,15 @@
   "gainPct": 19.62,
   "rr": 1.76,
   "signalTime": 1786966200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786966230344,
   "fillTime": 1786966200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787003100000
  },
  {
   "id": "HEMIUSDT::BoS::1786970700000",
@@ -3264,5 +3267,20 @@
   "status": "pending",
   "createdAt": 1786992329054,
   "notified": []
+ },
+ {
+  "id": "ONGUSDT::ChoCh::1787004000000",
+  "symbol": "ONGUSDT",
+  "setup": "ChoCh",
+  "entry": 0.05432,
+  "sl": 0.05093,
+  "tp": 0.0646,
+  "tpSrc": "WH",
+  "slPct": 6.24,
+  "gainPct": 18.92,
+  "rr": 3.03,
+  "signalTime": 1787004000000,
+  "status": "pending",
+  "createdAt": 1787004036962
  }
 ]
