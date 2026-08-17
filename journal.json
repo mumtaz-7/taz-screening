@@ -3165,5 +3165,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CHIPUSDT::ChoCh::1786950000000",
+  "symbol": "CHIPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02946,
+  "sl": 0.028020000000000003,
+  "tp": 0.03235,
+  "tpSrc": "WH",
+  "slPct": 4.89,
+  "gainPct": 9.81,
+  "rr": 2.01,
+  "signalTime": 1786950000000,
+  "status": "pending",
+  "createdAt": 1786950038082
  }
 ]
