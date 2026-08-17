@@ -3264,9 +3264,12 @@
   "gainPct": 8.71,
   "rr": 1.27,
   "signalTime": 1786992300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786992329054,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787004900000
  },
  {
   "id": "ONGUSDT::ChoCh::1787004000000",
@@ -3299,7 +3302,12 @@
   "gainPct": 10.49,
   "rr": 1.55,
   "signalTime": 1787004900000,
-  "status": "pending",
-  "createdAt": 1787004927021
+  "status": "void",
+  "createdAt": 1787004927021,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787004900000,
+  "notified": [
+   "void"
+  ]
  }
 ]
