@@ -3185,5 +3185,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "BELUSDT::ChoCh::1786958100000",
+  "symbol": "BELUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1093,
+  "sl": 0.10494999999999999,
+  "tp": 0.11699999999999999,
+  "tpSrc": "EQ",
+  "slPct": 3.98,
+  "gainPct": 7.04,
+  "rr": 1.77,
+  "signalTime": 1786958100000,
+  "status": "pending",
+  "createdAt": 1786958127489
  }
 ]
