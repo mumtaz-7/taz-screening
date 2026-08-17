@@ -3245,5 +3245,20 @@
   "status": "pending",
   "createdAt": 1786970728443,
   "notified": []
+ },
+ {
+  "id": "ALLOUSDT::BoS::1786992300000",
+  "symbol": "ALLOUSDT",
+  "setup": "BoS",
+  "entry": 0.2847,
+  "sl": 0.2652,
+  "tp": 0.3095,
+  "tpSrc": "OB",
+  "slPct": 6.85,
+  "gainPct": 8.71,
+  "rr": 1.27,
+  "signalTime": 1786992300000,
+  "status": "pending",
+  "createdAt": 1786992329054
  }
 ]
