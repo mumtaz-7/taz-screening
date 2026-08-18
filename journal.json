@@ -3404,7 +3404,8 @@
   "rr": 4.43,
   "signalTime": 1787064300000,
   "status": "pending",
-  "createdAt": 1787064330408
+  "createdAt": 1787064330408,
+  "notified": []
  },
  {
   "id": "PUMPUSDT::BoS::1787064300000",
@@ -3419,6 +3420,7 @@
   "rr": 4.53,
   "signalTime": 1787064300000,
   "status": "pending",
-  "createdAt": 1787064330408
+  "createdAt": 1787064330408,
+  "notified": []
  }
 ]
