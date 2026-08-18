@@ -3383,8 +3383,42 @@
   "gainPct": 8.79,
   "rr": 2.52,
   "signalTime": 1787059800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787059834421,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787063400000
+ },
+ {
+  "id": "GIGGLEUSDT::ChoCh::1787064300000",
+  "symbol": "GIGGLEUSDT",
+  "setup": "ChoCh",
+  "entry": 33.37,
+  "sl": 32.815,
+  "tp": 35.83,
+  "tpSrc": "WH",
+  "slPct": 1.66,
+  "gainPct": 7.37,
+  "rr": 4.43,
+  "signalTime": 1787064300000,
+  "status": "pending",
+  "createdAt": 1787064330408
+ },
+ {
+  "id": "PUMPUSDT::BoS::1787064300000",
+  "symbol": "PUMPUSDT",
+  "setup": "BoS",
+  "entry": 0.0028,
+  "sl": 0.0027549999999999996,
+  "tp": 0.003004,
+  "tpSrc": "WH",
+  "slPct": 1.61,
+  "gainPct": 7.29,
+  "rr": 4.53,
+  "signalTime": 1787064300000,
+  "status": "pending",
+  "createdAt": 1787064330408
  }
 ]
