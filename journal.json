@@ -3403,12 +3403,15 @@
   "gainPct": 7.37,
   "rr": 4.43,
   "signalTime": 1787064300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787064330408,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787065200000
+  "fillTime": 1787065200000,
+  "R": -1,
+  "resolvedTime": 1787082300000
  },
  {
   "id": "PUMPUSDT::BoS::1787064300000",
