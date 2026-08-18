@@ -3428,5 +3428,20 @@
    "open"
   ],
   "fillTime": 1787068800000
+ },
+ {
+  "id": "EDENUSDT::BoS::1787070600000",
+  "symbol": "EDENUSDT",
+  "setup": "BoS",
+  "entry": 0.05495,
+  "sl": 0.049565000000000005,
+  "tp": 0.06106,
+  "tpSrc": "OB",
+  "slPct": 9.8,
+  "gainPct": 11.12,
+  "rr": 1.13,
+  "signalTime": 1787070600000,
+  "status": "pending",
+  "createdAt": 1787070633834
  }
 ]
