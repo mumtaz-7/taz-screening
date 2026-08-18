@@ -3425,12 +3425,15 @@
   "gainPct": 7.29,
   "rr": 4.53,
   "signalTime": 1787064300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787064330408,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787068800000
+  "fillTime": 1787068800000,
+  "R": 4.53,
+  "resolvedTime": 1787091300000
  },
  {
   "id": "EDENUSDT::BoS::1787070600000",
