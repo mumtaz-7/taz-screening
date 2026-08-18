@@ -1534,7 +1534,7 @@
   "gainPct": 15.56,
   "rr": 1.48,
   "signalTime": 1786260600000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1786260637788,
   "fillTime": 1786260600000,
   "notified": [
@@ -3322,9 +3322,12 @@
   "gainPct": 15.48,
   "rr": 1.49,
   "signalTime": 1787015700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787015849189,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ACEUSDT::ChoCh::1787034600000",
@@ -3355,6 +3358,7 @@
   "rr": 1.08,
   "signalTime": 1787037300000,
   "status": "pending",
-  "createdAt": 1787037326886
+  "createdAt": 1787037326886,
+  "notified": []
  }
 ]
