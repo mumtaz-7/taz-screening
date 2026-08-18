@@ -3341,5 +3341,20 @@
   "status": "pending",
   "createdAt": 1787034633610,
   "notified": []
+ },
+ {
+  "id": "EDENUSDT::ChoCh::1787037300000",
+  "symbol": "EDENUSDT",
+  "setup": "ChoCh",
+  "entry": 0.05279,
+  "sl": 0.046115,
+  "tp": 0.06,
+  "tpSrc": "WH",
+  "slPct": 12.64,
+  "gainPct": 13.66,
+  "rr": 1.08,
+  "signalTime": 1787037300000,
+  "status": "pending",
+  "createdAt": 1787037326886
  }
 ]
