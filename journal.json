@@ -3581,5 +3581,20 @@
   "status": "pending",
   "createdAt": 1787154329411,
   "notified": []
+ },
+ {
+  "id": "ALPINEUSDT::ChoCh::1787156100000",
+  "symbol": "ALPINEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.333,
+  "sl": 0.318,
+  "tp": 0.37,
+  "tpSrc": "EQ",
+  "slPct": 4.5,
+  "gainPct": 11.11,
+  "rr": 2.47,
+  "signalTime": 1787156100000,
+  "status": "pending",
+  "createdAt": 1787156128811
  }
 ]
