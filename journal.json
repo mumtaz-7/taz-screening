@@ -3453,5 +3453,20 @@
    "open"
   ],
   "fillTime": 1787072400000
+ },
+ {
+  "id": "ACEUSDT::BoS::1787101200000",
+  "symbol": "ACEUSDT",
+  "setup": "BoS",
+  "entry": 0.2322,
+  "sl": 0.2178,
+  "tp": 0.2665,
+  "tpSrc": "OB",
+  "slPct": 6.2,
+  "gainPct": 14.77,
+  "rr": 2.38,
+  "signalTime": 1787101200000,
+  "status": "pending",
+  "createdAt": 1787101238523
  }
 ]
