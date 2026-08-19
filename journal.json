@@ -3450,12 +3450,15 @@
   "gainPct": 11.12,
   "rr": 1.13,
   "signalTime": 1787070600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787070633834,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787072400000
+  "fillTime": 1787072400000,
+  "R": -1,
+  "resolvedTime": 1787104800000
  },
  {
   "id": "ACEUSDT::BoS::1787101200000",
@@ -3469,11 +3472,14 @@
   "gainPct": 14.77,
   "rr": 2.38,
   "signalTime": 1787101200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787101238523,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787103900000
+  "fillTime": 1787103900000,
+  "R": -1,
+  "resolvedTime": 1787104800000
  }
 ]
