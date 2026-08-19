@@ -1,6 +1,7 @@
 {
   "ready": [
-    "TREEUSDT::BoS"
+    "ETHUSDT::BoS",
+    "WLDUSDT::BoS"
   ],
-  "at": "2026-08-19T15:30:33.944Z"
+  "at": "2026-08-19T15:45:29.410Z"
 }

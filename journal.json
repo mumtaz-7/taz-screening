@@ -3545,5 +3545,35 @@
   "status": "pending",
   "createdAt": 1787152534975,
   "notified": []
+ },
+ {
+  "id": "ETHUSDT::BoS::1787154300000",
+  "symbol": "ETHUSDT",
+  "setup": "BoS",
+  "entry": 1943.21,
+  "sl": 1920.5449999999998,
+  "tp": 2115,
+  "tpSrc": "WH",
+  "slPct": 1.17,
+  "gainPct": 8.84,
+  "rr": 7.58,
+  "signalTime": 1787154300000,
+  "status": "pending",
+  "createdAt": 1787154329411
+ },
+ {
+  "id": "WLDUSDT::BoS::1787154300000",
+  "symbol": "WLDUSDT",
+  "setup": "BoS",
+  "entry": 0.3231,
+  "sl": 0.31275,
+  "tp": 0.3513,
+  "tpSrc": "OB",
+  "slPct": 3.2,
+  "gainPct": 8.73,
+  "rr": 2.72,
+  "signalTime": 1787154300000,
+  "status": "pending",
+  "createdAt": 1787154329411
  }
 ]
