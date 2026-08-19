@@ -3578,9 +3578,13 @@
   "gainPct": 8.73,
   "rr": 2.72,
   "signalTime": 1787154300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787154329411,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787161500000
  },
  {
   "id": "ALPINEUSDT::ChoCh::1787156100000",
