@@ -3146,12 +3146,15 @@
   "gainPct": 39.32,
   "rr": 3.46,
   "signalTime": 1786933800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786933832092,
   "fillTime": 1786933800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.46,
+  "resolvedTime": 1787122800000
  },
  {
   "id": "DODOUSDT::ChoCh::1786947300000",
