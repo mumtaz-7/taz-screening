@@ -3529,5 +3529,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "TREEUSDT::BoS::1787152500000",
+  "symbol": "TREEUSDT",
+  "setup": "BoS",
+  "entry": 0.035,
+  "sl": 0.03215,
+  "tp": 0.0434,
+  "tpSrc": "WH",
+  "slPct": 8.14,
+  "gainPct": 24,
+  "rr": 2.95,
+  "signalTime": 1787152500000,
+  "status": "pending",
+  "createdAt": 1787152534975
  }
 ]
