@@ -3823,7 +3823,27 @@
   "gainPct": 36.09,
   "rr": 1.9,
   "signalTime": 1787256900000,
+  "status": "void",
+  "createdAt": 1787256929294,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787256900000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "REDUSDT::ChoCh::1787257800000",
+  "symbol": "REDUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1053,
+  "sl": 0.1026,
+  "tp": 0.1223,
+  "tpSrc": "WH",
+  "slPct": 2.56,
+  "gainPct": 16.14,
+  "rr": 6.3,
+  "signalTime": 1787257800000,
   "status": "pending",
-  "createdAt": 1787256929294
+  "createdAt": 1787257832983
  }
 ]
