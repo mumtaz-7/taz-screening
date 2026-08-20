@@ -3703,5 +3703,20 @@
    "open"
   ],
   "fillTime": 1787211000000
+ },
+ {
+  "id": "GALAUSDT::BoS::1787213700000",
+  "symbol": "GALAUSDT",
+  "setup": "BoS",
+  "entry": 0.00142,
+  "sl": 0.001396,
+  "tp": 0.001624,
+  "tpSrc": "OB",
+  "slPct": 1.69,
+  "gainPct": 14.37,
+  "rr": 8.5,
+  "signalTime": 1787213700000,
+  "status": "pending",
+  "createdAt": 1787213728361
  }
 ]
