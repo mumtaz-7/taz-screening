@@ -3719,9 +3719,12 @@
   "gainPct": 14.37,
   "rr": 8.5,
   "signalTime": 1787213700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787213728361,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "币安人生USDT::ChoCh::1787220000000",
