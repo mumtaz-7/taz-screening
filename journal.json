@@ -3768,5 +3768,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "PUMPUSDT::BoS::1787238900000",
+  "symbol": "PUMPUSDT",
+  "setup": "BoS",
+  "entry": 0.003483,
+  "sl": 0.0032145000000000003,
+  "tp": 0.003777,
+  "tpSrc": "WH",
+  "slPct": 7.71,
+  "gainPct": 8.44,
+  "rr": 1.09,
+  "signalTime": 1787238900000,
+  "status": "pending",
+  "createdAt": 1787238930518
  }
 ]
