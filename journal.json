@@ -3810,5 +3810,20 @@
    "open"
   ],
   "fillTime": 1787240700000
+ },
+ {
+  "id": "ONGUSDT::BoS::1787256900000",
+  "symbol": "ONGUSDT",
+  "setup": "BoS",
+  "entry": 0.08507,
+  "sl": 0.068885,
+  "tp": 0.11577,
+  "tpSrc": "WH",
+  "slPct": 19.03,
+  "gainPct": 36.09,
+  "rr": 1.9,
+  "signalTime": 1787256900000,
+  "status": "pending",
+  "createdAt": 1787256929294
  }
 ]
