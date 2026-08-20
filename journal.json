@@ -3784,9 +3784,13 @@
   "gainPct": 8.44,
   "rr": 1.09,
   "signalTime": 1787238900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787238930518,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787249700000
  },
  {
   "id": "METUSDT::BoS::1787239800000",
