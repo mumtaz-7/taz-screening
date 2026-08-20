@@ -3804,12 +3804,15 @@
   "gainPct": 8.64,
   "rr": 2.84,
   "signalTime": 1787239800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787239836706,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787240700000
+  "fillTime": 1787240700000,
+  "R": -1,
+  "resolvedTime": 1787262300000
  },
  {
   "id": "ONGUSDT::BoS::1787256900000",
