@@ -3643,12 +3643,15 @@
   "gainPct": 27.65,
   "rr": 2.88,
   "signalTime": 1787165100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787165129245,
   "fillTime": 1787165100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.88,
+  "resolvedTime": 1787236200000
  },
  {
   "id": "ETHUSDT::BoS::1787174100000",
