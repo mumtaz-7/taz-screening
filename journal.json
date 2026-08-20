@@ -3684,5 +3684,20 @@
    "void"
   ],
   "voidReason": "ga-retest"
+ },
+ {
+  "id": "TREEUSDT::ChoCh::1787197500000",
+  "symbol": "TREEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0368,
+  "sl": 0.03515,
+  "tp": 0.0401,
+  "tpSrc": "EQ",
+  "slPct": 4.48,
+  "gainPct": 8.97,
+  "rr": 2,
+  "signalTime": 1787197500000,
+  "status": "pending",
+  "createdAt": 1787197527747
  }
 ]
