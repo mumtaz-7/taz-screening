@@ -3659,9 +3659,12 @@
   "gainPct": 10.7,
   "rr": 3.71,
   "signalTime": 1787174100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787174132058,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "WBETHUSDT::BoS::1787174100000",
@@ -3675,8 +3678,11 @@
   "gainPct": 10.63,
   "rr": 3.6,
   "signalTime": 1787174100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787174132058,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  }
 ]
