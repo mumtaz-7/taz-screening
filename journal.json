@@ -3739,5 +3739,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ROBOUSDT::BoS::1787229000000",
+  "symbol": "ROBOUSDT",
+  "setup": "BoS",
+  "entry": 0.01324,
+  "sl": 0.012879999999999999,
+  "tp": 0.01419,
+  "tpSrc": "WH",
+  "slPct": 2.72,
+  "gainPct": 7.18,
+  "rr": 2.64,
+  "signalTime": 1787229000000,
+  "status": "pending",
+  "createdAt": 1787229035603
  }
 ]
