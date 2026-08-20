@@ -3719,5 +3719,20 @@
   "status": "pending",
   "createdAt": 1787213728361,
   "notified": []
+ },
+ {
+  "id": "币安人生USDT::ChoCh::1787220000000",
+  "symbol": "币安人生USDT",
+  "setup": "ChoCh",
+  "entry": 0.4489,
+  "sl": 0.43405,
+  "tp": 0.4881,
+  "tpSrc": "WH",
+  "slPct": 3.31,
+  "gainPct": 8.73,
+  "rr": 2.64,
+  "signalTime": 1787220000000,
+  "status": "pending",
+  "createdAt": 1787220040455
  }
 ]
