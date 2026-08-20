@@ -3273,12 +3273,15 @@
   "gainPct": 8.71,
   "rr": 1.27,
   "signalTime": 1786992300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786992329054,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787004900000
+  "fillTime": 1787004900000,
+  "R": 1.27,
+  "resolvedTime": 1787245200000
  },
  {
   "id": "ONGUSDT::ChoCh::1787004000000",
