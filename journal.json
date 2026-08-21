@@ -4093,5 +4093,20 @@
    "open"
   ],
   "fillTime": 1787324400000
+ },
+ {
+  "id": "ENAUSDT::ChoCh::1787326200000",
+  "symbol": "ENAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1438,
+  "sl": 0.13405,
+  "tp": 0.1548,
+  "tpSrc": "WH",
+  "slPct": 6.78,
+  "gainPct": 7.65,
+  "rr": 1.13,
+  "signalTime": 1787326200000,
+  "status": "pending",
+  "createdAt": 1787326235155
  }
 ]
