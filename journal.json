@@ -4173,9 +4173,12 @@
   "gainPct": 30.37,
   "rr": 7.16,
   "signalTime": 1787345100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787345128282,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787351400000
  },
  {
   "id": "SANTOSUSDT::BoS::1787348700000",
