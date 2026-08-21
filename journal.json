@@ -4032,12 +4032,15 @@
   "gainPct": 14.16,
   "rr": 3.3,
   "signalTime": 1787302800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787302839385,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787306400000
+  "fillTime": 1787306400000,
+  "R": 3.3,
+  "resolvedTime": 1787333400000
  },
  {
   "id": "SANTOSUSDT::ChoCh::1787312700000",
