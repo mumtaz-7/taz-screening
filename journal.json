@@ -4116,5 +4116,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "SPKUSDT::BoS::1787331600000",
+  "symbol": "SPKUSDT",
+  "setup": "BoS",
+  "entry": 0.01781,
+  "sl": 0.017183000000000004,
+  "tp": 0.019775,
+  "tpSrc": "WH",
+  "slPct": 3.52,
+  "gainPct": 11.03,
+  "rr": 3.13,
+  "signalTime": 1787331600000,
+  "status": "pending",
+  "createdAt": 1787331639446
  }
 ]
