@@ -4003,9 +4003,13 @@
   "gainPct": 17.81,
   "rr": 2.32,
   "signalTime": 1787301900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787301929718,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787303700000
  },
  {
   "id": "GPSUSDT::BoS::1787302800000",
