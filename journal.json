@@ -4004,6 +4004,22 @@
   "rr": 2.32,
   "signalTime": 1787301900000,
   "status": "pending",
-  "createdAt": 1787301929718
+  "createdAt": 1787301929718,
+  "notified": []
+ },
+ {
+  "id": "GPSUSDT::BoS::1787302800000",
+  "symbol": "GPSUSDT",
+  "setup": "BoS",
+  "entry": 0.01222,
+  "sl": 0.011695,
+  "tp": 0.01395,
+  "tpSrc": "OB",
+  "slPct": 4.3,
+  "gainPct": 14.16,
+  "rr": 3.3,
+  "signalTime": 1787302800000,
+  "status": "pending",
+  "createdAt": 1787302839385
  }
 ]
