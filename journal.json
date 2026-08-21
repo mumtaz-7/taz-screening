@@ -3948,8 +3948,12 @@
   "gainPct": 7.94,
   "rr": 2.56,
   "signalTime": 1787299200000,
-  "status": "pending",
-  "createdAt": 1787299239229
+  "status": "open",
+  "createdAt": 1787299239229,
+  "fillTime": 1787299200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "LINKUSDT::BoS::1787299200000",
@@ -3964,7 +3968,8 @@
   "rr": 3.03,
   "signalTime": 1787299200000,
   "status": "pending",
-  "createdAt": 1787299239229
+  "createdAt": 1787299239229,
+  "notified": []
  },
  {
   "id": "ROBOUSDT::ChoCh::1787299200000",
@@ -3979,6 +3984,7 @@
   "rr": 2.1,
   "signalTime": 1787299200000,
   "status": "pending",
-  "createdAt": 1787299239229
+  "createdAt": 1787299239229,
+  "notified": []
  }
 ]
