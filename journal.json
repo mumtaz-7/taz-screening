@@ -3983,8 +3983,27 @@
   "gainPct": 7.15,
   "rr": 2.1,
   "signalTime": 1787299200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787299239229,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787301000000
+ },
+ {
+  "id": "BBUSDT::BoS::1787301900000",
+  "symbol": "BBUSDT",
+  "setup": "BoS",
+  "entry": 0.01016,
+  "sl": 0.00938,
+  "tp": 0.01197,
+  "tpSrc": "OB",
+  "slPct": 7.68,
+  "gainPct": 17.81,
+  "rr": 2.32,
+  "signalTime": 1787301900000,
+  "status": "pending",
+  "createdAt": 1787301929718
  }
 ]
