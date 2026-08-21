@@ -4029,5 +4029,20 @@
    "open"
   ],
   "fillTime": 1787306400000
+ },
+ {
+  "id": "SANTOSUSDT::ChoCh::1787312700000",
+  "symbol": "SANTOSUSDT",
+  "setup": "ChoCh",
+  "entry": 0.52,
+  "sl": 0.496,
+  "tp": 0.5994999999999999,
+  "tpSrc": "EQ",
+  "slPct": 4.62,
+  "gainPct": 15.29,
+  "rr": 3.31,
+  "signalTime": 1787312700000,
+  "status": "pending",
+  "createdAt": 1787312729329
  }
 ]
