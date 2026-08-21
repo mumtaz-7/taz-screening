@@ -4155,7 +4155,8 @@
   "rr": 6.39,
   "signalTime": 1787345100000,
   "status": "pending",
-  "createdAt": 1787345128282
+  "createdAt": 1787345128282,
+  "notified": []
  },
  {
   "id": "ONTUSDT::ChoCh::1787345100000",
@@ -4170,6 +4171,7 @@
   "rr": 7.16,
   "signalTime": 1787345100000,
   "status": "pending",
-  "createdAt": 1787345128282
+  "createdAt": 1787345128282,
+  "notified": []
  }
 ]
