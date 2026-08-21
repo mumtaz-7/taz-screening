@@ -3893,12 +3893,15 @@
   "gainPct": 16.37,
   "rr": 7.17,
   "signalTime": 1787274000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787274038317,
   "fillTime": 1787274000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 7.17,
+  "resolvedTime": 1787326200000
  },
  {
   "id": "CRVUSDT::BoS::1787279400000",
@@ -4106,7 +4109,12 @@
   "gainPct": 7.65,
   "rr": 1.13,
   "signalTime": 1787326200000,
-  "status": "pending",
-  "createdAt": 1787326235155
+  "status": "void",
+  "createdAt": 1787326235155,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787326200000,
+  "notified": [
+   "void"
+  ]
  }
 ]
