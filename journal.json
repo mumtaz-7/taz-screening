@@ -3916,5 +3916,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1787283000000
+ },
+ {
+  "id": "BIOUSDT::ChoCh::1787287500000",
+  "symbol": "BIOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.03147,
+  "sl": 0.029175000000000003,
+  "tp": 0.034,
+  "tpSrc": "WH",
+  "slPct": 7.29,
+  "gainPct": 8.04,
+  "rr": 1.1,
+  "signalTime": 1787287500000,
+  "status": "pending",
+  "createdAt": 1787287529557
  }
 ]
