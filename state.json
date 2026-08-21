@@ -1,6 +1,8 @@
 {
   "ready": [
-    "REDUSDT::BoS"
+    "HOMEUSDT::BoS",
+    "LINKUSDT::BoS",
+    "ROBOUSDT::ChoCh"
   ],
-  "at": "2026-08-21T07:45:28.635Z"
+  "at": "2026-08-21T08:00:39.229Z"
 }

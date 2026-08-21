@@ -3935,5 +3935,50 @@
    "open"
   ],
   "fillTime": 1787288400000
+ },
+ {
+  "id": "HOMEUSDT::BoS::1787299200000",
+  "symbol": "HOMEUSDT",
+  "setup": "BoS",
+  "entry": 0.0063,
+  "sl": 0.006105,
+  "tp": 0.0068,
+  "tpSrc": "OB",
+  "slPct": 3.1,
+  "gainPct": 7.94,
+  "rr": 2.56,
+  "signalTime": 1787299200000,
+  "status": "pending",
+  "createdAt": 1787299239229
+ },
+ {
+  "id": "LINKUSDT::BoS::1787299200000",
+  "symbol": "LINKUSDT",
+  "setup": "BoS",
+  "entry": 11.038,
+  "sl": 10.768,
+  "tp": 11.857,
+  "tpSrc": "WH",
+  "slPct": 2.45,
+  "gainPct": 7.42,
+  "rr": 3.03,
+  "signalTime": 1787299200000,
+  "status": "pending",
+  "createdAt": 1787299239229
+ },
+ {
+  "id": "ROBOUSDT::ChoCh::1787299200000",
+  "symbol": "ROBOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01322,
+  "sl": 0.012769999999999998,
+  "tp": 0.014165,
+  "tpSrc": "EQ",
+  "slPct": 3.4,
+  "gainPct": 7.15,
+  "rr": 2.1,
+  "signalTime": 1787299200000,
+  "status": "pending",
+  "createdAt": 1787299239229
  }
 ]
