@@ -3893,5 +3893,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CRVUSDT::BoS::1787279400000",
+  "symbol": "CRVUSDT",
+  "setup": "BoS",
+  "entry": 0.2928,
+  "sl": 0.26685000000000003,
+  "tp": 0.324,
+  "tpSrc": "WH",
+  "slPct": 8.86,
+  "gainPct": 10.66,
+  "rr": 1.2,
+  "signalTime": 1787279400000,
+  "status": "pending",
+  "createdAt": 1787279436328
  }
 ]
