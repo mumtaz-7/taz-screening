@@ -4717,9 +4717,12 @@
   "gainPct": 11.43,
   "rr": 3.37,
   "signalTime": 1787417100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787417129205,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787425200000
  },
  {
   "id": "DASHUSDT::ChoCh::1787419800000",
