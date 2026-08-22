@@ -4555,5 +4555,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GENIUSUSDT::ChoCh::1787399100000",
+  "symbol": "GENIUSUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3286,
+  "sl": 0.30355,
+  "tp": 0.36,
+  "tpSrc": "WH",
+  "slPct": 7.62,
+  "gainPct": 9.56,
+  "rr": 1.25,
+  "signalTime": 1787399100000,
+  "status": "pending",
+  "createdAt": 1787399129207
  }
 ]
