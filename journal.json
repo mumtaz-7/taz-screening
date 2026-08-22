@@ -4694,9 +4694,12 @@
   "gainPct": 16.25,
   "rr": 5.05,
   "signalTime": 1787416200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787416234706,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "GALAUSDT::ChoCh::1787417100000",
