@@ -4698,8 +4698,12 @@
   "gainPct": 16.44,
   "rr": 4.13,
   "signalTime": 1787417100000,
-  "status": "pending",
-  "createdAt": 1787417129205
+  "status": "open",
+  "createdAt": 1787417129205,
+  "fillTime": 1787417100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "VIRTUALUSDT::ChoCh::1787417100000",
@@ -4714,6 +4718,7 @@
   "rr": 3.37,
   "signalTime": 1787417100000,
   "status": "pending",
-  "createdAt": 1787417129205
+  "createdAt": 1787417129205,
+  "notified": []
  }
 ]
