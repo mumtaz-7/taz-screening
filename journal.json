@@ -4634,12 +4634,15 @@
   "gainPct": 12.04,
   "rr": 3.38,
   "signalTime": 1787401800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787401833628,
   "fillTime": 1787401800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787436000000
  },
  {
   "id": "HEMIUSDT::ChoCh::1787407200000",
