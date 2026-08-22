@@ -4749,9 +4749,12 @@
   "gainPct": 10.37,
   "rr": 2.75,
   "signalTime": 1787420700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787420730198,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787423400000
  },
  {
   "id": "ARUSDT::ChoCh::1787420700000",
@@ -4879,7 +4882,11 @@
   "gainPct": 14.11,
   "rr": 2.01,
   "signalTime": 1787423400000,
-  "status": "pending",
-  "createdAt": 1787423436663
+  "status": "open",
+  "createdAt": 1787423436663,
+  "fillTime": 1787423400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
