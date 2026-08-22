@@ -4587,9 +4587,12 @@
   "gainPct": 15.78,
   "rr": 3.01,
   "signalTime": 1787400900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787400932267,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787401800000
  },
  {
   "id": "XPLUSDT::ChoCh::1787400900000",
@@ -4619,7 +4622,11 @@
   "gainPct": 12.04,
   "rr": 3.38,
   "signalTime": 1787401800000,
-  "status": "pending",
-  "createdAt": 1787401833628
+  "status": "open",
+  "createdAt": 1787401833628,
+  "fillTime": 1787401800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
