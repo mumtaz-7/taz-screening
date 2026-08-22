@@ -4588,7 +4588,8 @@
   "rr": 3.01,
   "signalTime": 1787400900000,
   "status": "pending",
-  "createdAt": 1787400932267
+  "createdAt": 1787400932267,
+  "notified": []
  },
  {
   "id": "XPLUSDT::ChoCh::1787400900000",
@@ -4603,6 +4604,22 @@
   "rr": 3.38,
   "signalTime": 1787400900000,
   "status": "pending",
-  "createdAt": 1787400932267
+  "createdAt": 1787400932267,
+  "notified": []
+ },
+ {
+  "id": "SANDUSDT::BoS::1787401800000",
+  "symbol": "SANDUSDT",
+  "setup": "BoS",
+  "entry": 0.04667,
+  "sl": 0.045005,
+  "tp": 0.05229,
+  "tpSrc": "WH",
+  "slPct": 3.57,
+  "gainPct": 12.04,
+  "rr": 3.38,
+  "signalTime": 1787401800000,
+  "status": "pending",
+  "createdAt": 1787401833628
  }
 ]
