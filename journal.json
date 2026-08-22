@@ -4574,5 +4574,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "WLDUSDT::BoS::1787400900000",
+  "symbol": "WLDUSDT",
+  "setup": "BoS",
+  "entry": 0.4004,
+  "sl": 0.37940000000000007,
+  "tp": 0.4636,
+  "tpSrc": "WH",
+  "slPct": 5.24,
+  "gainPct": 15.78,
+  "rr": 3.01,
+  "signalTime": 1787400900000,
+  "status": "pending",
+  "createdAt": 1787400932267
+ },
+ {
+  "id": "XPLUSDT::ChoCh::1787400900000",
+  "symbol": "XPLUSDT",
+  "setup": "ChoCh",
+  "entry": 0.09447,
+  "sl": 0.090165,
+  "tp": 0.109,
+  "tpSrc": "WH",
+  "slPct": 4.56,
+  "gainPct": 15.38,
+  "rr": 3.38,
+  "signalTime": 1787400900000,
+  "status": "pending",
+  "createdAt": 1787400932267
  }
 ]
