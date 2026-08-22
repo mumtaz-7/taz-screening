@@ -3611,12 +3611,15 @@
   "gainPct": 11.11,
   "rr": 2.47,
   "signalTime": 1787156100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787156128811,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787157000000
+  "fillTime": 1787157000000,
+  "R": 2.47,
+  "resolvedTime": 1787368500000
  },
  {
   "id": "ACMUSDT::BoS::1787159700000",
@@ -4392,7 +4395,26 @@
   "gainPct": 26.03,
   "rr": 3.54,
   "signalTime": 1787368500000,
+  "status": "open",
+  "createdAt": 1787368530342,
+  "fillTime": 1787368500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ENAUSDT::ChoCh::1787369400000",
+  "symbol": "ENAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1446,
+  "sl": 0.13635,
+  "tp": 0.1592,
+  "tpSrc": "WH",
+  "slPct": 5.71,
+  "gainPct": 10.1,
+  "rr": 1.77,
+  "signalTime": 1787369400000,
   "status": "pending",
-  "createdAt": 1787368530342
+  "createdAt": 1787369433914
  }
 ]
