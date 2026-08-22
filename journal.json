@@ -4999,7 +4999,26 @@
   "gainPct": 36.1,
   "rr": 5.51,
   "signalTime": 1787433300000,
+  "status": "open",
+  "createdAt": 1787433330959,
+  "fillTime": 1787433300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GIGGLEUSDT::BoS::1787434200000",
+  "symbol": "GIGGLEUSDT",
+  "setup": "BoS",
+  "entry": 36.52,
+  "sl": 35.065,
+  "tp": 42.19,
+  "tpSrc": "WH",
+  "slPct": 3.98,
+  "gainPct": 15.53,
+  "rr": 3.9,
+  "signalTime": 1787434200000,
   "status": "pending",
-  "createdAt": 1787433330959
+  "createdAt": 1787434235687
  }
 ]
