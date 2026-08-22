@@ -3,7 +3,8 @@
     "ACEUSDT::ChoCh",
     "GPSUSDT::BoS",
     "HEMIUSDT::ChoCh",
-    "REDUSDT::ChoCh"
+    "REDUSDT::ChoCh",
+    "REUSDT::BoS"
   ],
-  "at": "2026-08-22T00:45:29.178Z"
+  "at": "2026-08-22T01:00:40.875Z"
 }
