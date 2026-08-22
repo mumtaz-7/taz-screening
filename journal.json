@@ -3938,12 +3938,15 @@
   "gainPct": 8.04,
   "rr": 1.1,
   "signalTime": 1787287500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787287529557,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787288400000
+  "fillTime": 1787288400000,
+  "R": 1.1,
+  "resolvedTime": 1787364900000
  },
  {
   "id": "HOMEUSDT::BoS::1787299200000",
@@ -4336,5 +4339,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "TRBUSDT::BoS::1787365800000",
+  "symbol": "TRBUSDT",
+  "setup": "BoS",
+  "entry": 18.42,
+  "sl": 15.825000000000001,
+  "tp": 22.33,
+  "tpSrc": "WH",
+  "slPct": 14.09,
+  "gainPct": 21.23,
+  "rr": 1.51,
+  "signalTime": 1787365800000,
+  "status": "pending",
+  "createdAt": 1787365832313
  }
 ]
