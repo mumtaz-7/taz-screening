@@ -4069,12 +4069,15 @@
   "gainPct": 15.29,
   "rr": 3.31,
   "signalTime": 1787312700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787312729329,
   "fillTime": 1787312700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.31,
+  "resolvedTime": 1787409900000
  },
  {
   "id": "HEMIUSDT::BoS::1787313600000",
