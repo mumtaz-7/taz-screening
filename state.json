@@ -1,9 +1,7 @@
 {
   "ready": [
     "GPSUSDT::BoS",
-    "HEMIUSDT::ChoCh",
-    "REDUSDT::ChoCh",
-    "REUSDT::BoS"
+    "REDUSDT::ChoCh"
   ],
-  "at": "2026-08-22T01:30:32.785Z"
+  "at": "2026-08-22T01:45:28.308Z"
 }
