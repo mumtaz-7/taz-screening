@@ -2814,12 +2814,15 @@
   "gainPct": 31.42,
   "rr": 1.72,
   "signalTime": 1786799700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786799727951,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786801500000
+  "fillTime": 1786801500000,
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "ALICEUSDT::ChoCh::1786800600000",
@@ -3963,12 +3966,15 @@
   "gainPct": 7.94,
   "rr": 2.56,
   "signalTime": 1787299200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787299239229,
   "fillTime": 1787299200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "LINKUSDT::BoS::1787299200000",
@@ -4102,12 +4108,15 @@
   "gainPct": 7.41,
   "rr": 1.56,
   "signalTime": 1787321700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787321731236,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787324400000
+  "fillTime": 1787324400000,
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "ENAUSDT::ChoCh::1787326200000",
@@ -4163,12 +4172,15 @@
   "gainPct": 43.97,
   "rr": 6.39,
   "signalTime": 1787345100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787345128282,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787346900000
+  "fillTime": 1787346900000,
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "ONTUSDT::ChoCh::1787345100000",
@@ -4182,12 +4194,15 @@
   "gainPct": 30.37,
   "rr": 7.16,
   "signalTime": 1787345100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787345128282,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787351400000
+  "fillTime": 1787351400000,
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "SANTOSUSDT::BoS::1787348700000",
@@ -4201,12 +4216,15 @@
   "gainPct": 37.03,
   "rr": 6.25,
   "signalTime": 1787348700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787348729925,
   "fillTime": 1787348700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "HEMIUSDT::ChoCh::1787357700000",
@@ -4220,12 +4238,15 @@
   "gainPct": 16.54,
   "rr": 1.55,
   "signalTime": 1787357700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787357729663,
   "fillTime": 1787357700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "GPSUSDT::BoS::1787358600000",
@@ -4261,12 +4282,15 @@
   "gainPct": 13.79,
   "rr": 3.19,
   "signalTime": 1787358600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787358635423,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787362200000
+  "fillTime": 1787362200000,
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "ACEUSDT::ChoCh::1787359500000",
@@ -4280,12 +4304,15 @@
   "gainPct": 20.91,
   "rr": 4.27,
   "signalTime": 1787359500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787359529178,
   "fillTime": 1787359500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "REUSDT::BoS::1787360400000",
@@ -4319,12 +4346,15 @@
   "gainPct": 9.56,
   "rr": 2.94,
   "signalTime": 1787364000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787364040070,
   "fillTime": 1787364000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "ZECUSDT::BoS::1787364000000",
@@ -4398,12 +4428,15 @@
   "gainPct": 26.03,
   "rr": 3.54,
   "signalTime": 1787368500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787368530342,
   "fillTime": 1787368500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787374800000
  },
  {
   "id": "ENAUSDT::ChoCh::1787369400000",
@@ -4437,11 +4470,14 @@
   "gainPct": 21.63,
   "rr": 5.57,
   "signalTime": 1787371200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787371238570,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787372100000
+  "fillTime": 1787372100000,
+  "R": -1,
+  "resolvedTime": 1787374800000
  }
 ]
