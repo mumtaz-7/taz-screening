@@ -4667,7 +4667,8 @@
   "rr": 4.8,
   "signalTime": 1787416200000,
   "status": "pending",
-  "createdAt": 1787416234706
+  "createdAt": 1787416234706,
+  "notified": []
  },
  {
   "id": "ZENUSDT::ChoCh::1787416200000",
@@ -4682,6 +4683,37 @@
   "rr": 5.05,
   "signalTime": 1787416200000,
   "status": "pending",
-  "createdAt": 1787416234706
+  "createdAt": 1787416234706,
+  "notified": []
+ },
+ {
+  "id": "GALAUSDT::ChoCh::1787417100000",
+  "symbol": "GALAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001959,
+  "sl": 0.0018810000000000003,
+  "tp": 0.002281,
+  "tpSrc": "WH",
+  "slPct": 3.98,
+  "gainPct": 16.44,
+  "rr": 4.13,
+  "signalTime": 1787417100000,
+  "status": "pending",
+  "createdAt": 1787417129205
+ },
+ {
+  "id": "VIRTUALUSDT::ChoCh::1787417100000",
+  "symbol": "VIRTUALUSDT",
+  "setup": "ChoCh",
+  "entry": 0.6892,
+  "sl": 0.6658,
+  "tp": 0.768,
+  "tpSrc": "WH",
+  "slPct": 3.4,
+  "gainPct": 11.43,
+  "rr": 3.37,
+  "signalTime": 1787417100000,
+  "status": "pending",
+  "createdAt": 1787417129205
  }
 ]
