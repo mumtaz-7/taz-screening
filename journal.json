@@ -4379,5 +4379,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "COTIUSDT::BoS::1787368500000",
+  "symbol": "COTIUSDT",
+  "setup": "BoS",
+  "entry": 0.01164,
+  "sl": 0.010785,
+  "tp": 0.01467,
+  "tpSrc": "WH",
+  "slPct": 7.35,
+  "gainPct": 26.03,
+  "rr": 3.54,
+  "signalTime": 1787368500000,
+  "status": "pending",
+  "createdAt": 1787368530342
  }
 ]

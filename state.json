@@ -1,7 +1,7 @@
 {
   "ready": [
-    "ONTUSDT::ChoCh",
-    "ZENUSDT::BoS"
+    "COTIUSDT::BoS",
+    "ONTUSDT::ChoCh"
   ],
-  "at": "2026-08-22T03:00:38.378Z"
+  "at": "2026-08-22T03:15:30.341Z"
 }
