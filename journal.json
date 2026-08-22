@@ -4734,6 +4734,52 @@
   "rr": 2.1,
   "signalTime": 1787419800000,
   "status": "pending",
-  "createdAt": 1787419836531
+  "createdAt": 1787419836531,
+  "notified": []
+ },
+ {
+  "id": "ARBUSDT::ChoCh::1787420700000",
+  "symbol": "ARBUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0993,
+  "sl": 0.09555,
+  "tp": 0.1096,
+  "tpSrc": "WH",
+  "slPct": 3.78,
+  "gainPct": 10.37,
+  "rr": 2.75,
+  "signalTime": 1787420700000,
+  "status": "pending",
+  "createdAt": 1787420730198
+ },
+ {
+  "id": "ARUSDT::ChoCh::1787420700000",
+  "symbol": "ARUSDT",
+  "setup": "ChoCh",
+  "entry": 2.179,
+  "sl": 2.1069999999999998,
+  "tp": 2.399,
+  "tpSrc": "WH",
+  "slPct": 3.3,
+  "gainPct": 10.1,
+  "rr": 3.06,
+  "signalTime": 1787420700000,
+  "status": "pending",
+  "createdAt": 1787420730198
+ },
+ {
+  "id": "FILUSDT::ChoCh::1787420700000",
+  "symbol": "FILUSDT",
+  "setup": "ChoCh",
+  "entry": 0.78,
+  "sl": 0.7522499999999999,
+  "tp": 0.8595,
+  "tpSrc": "WH",
+  "slPct": 3.56,
+  "gainPct": 10.19,
+  "rr": 2.86,
+  "signalTime": 1787420700000,
+  "status": "pending",
+  "createdAt": 1787420730198
  }
 ]
