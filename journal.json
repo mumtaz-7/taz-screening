@@ -4297,5 +4297,35 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1787361300000
+ },
+ {
+  "id": "ALLOUSDT::ChoCh::1787364000000",
+  "symbol": "ALLOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3043,
+  "sl": 0.2944,
+  "tp": 0.3334,
+  "tpSrc": "WH",
+  "slPct": 3.25,
+  "gainPct": 9.56,
+  "rr": 2.94,
+  "signalTime": 1787364000000,
+  "status": "pending",
+  "createdAt": 1787364040070
+ },
+ {
+  "id": "ZECUSDT::BoS::1787364000000",
+  "symbol": "ZECUSDT",
+  "setup": "BoS",
+  "entry": 744,
+  "sl": 714.9000000000001,
+  "tp": 813,
+  "tpSrc": "WH",
+  "slPct": 3.91,
+  "gainPct": 9.27,
+  "rr": 2.37,
+  "signalTime": 1787364000000,
+  "status": "pending",
+  "createdAt": 1787364040070
  }
 ]

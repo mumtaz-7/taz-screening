@@ -1,7 +1,7 @@
 {
   "ready": [
-    "GPSUSDT::BoS",
-    "REDUSDT::ChoCh"
+    "ALLOUSDT::ChoCh",
+    "ZECUSDT::BoS"
   ],
-  "at": "2026-08-22T01:45:28.308Z"
+  "at": "2026-08-22T02:00:40.069Z"
 }
