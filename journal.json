@@ -4707,12 +4707,15 @@
   "gainPct": 16.44,
   "rr": 4.13,
   "signalTime": 1787417100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787417129205,
   "fillTime": 1787417100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787435100000
  },
  {
   "id": "VIRTUALUSDT::ChoCh::1787417100000",
@@ -4805,12 +4808,15 @@
   "gainPct": 10.19,
   "rr": 2.86,
   "signalTime": 1787420700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787420730198,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787421600000
+  "fillTime": 1787421600000,
+  "R": -1,
+  "resolvedTime": 1787435100000
  },
  {
   "id": "ADAUSDT::ChoCh::1787421600000",
