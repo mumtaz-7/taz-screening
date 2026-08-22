@@ -1,9 +1,6 @@
 {
   "ready": [
-    "BNSOLUSDT::BoS",
-    "ENAUSDT::BoS",
-    "FORMUSDT::ChoCh",
-    "SOLUSDT::BoS"
+    "GALAUSDT::BoS"
   ],
-  "at": "2026-08-22T20:00:40.824Z"
+  "at": "2026-08-22T20:15:29.004Z"
 }
