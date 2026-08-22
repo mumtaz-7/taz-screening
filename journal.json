@@ -4239,12 +4239,15 @@
   "gainPct": 40.39,
   "rr": 8.09,
   "signalTime": 1787358600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787358635423,
   "fillTime": 1787358600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787373900000
  },
  {
   "id": "REDUSDT::ChoCh::1787358600000",
