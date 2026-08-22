@@ -4750,7 +4750,8 @@
   "rr": 2.75,
   "signalTime": 1787420700000,
   "status": "pending",
-  "createdAt": 1787420730198
+  "createdAt": 1787420730198,
+  "notified": []
  },
  {
   "id": "ARUSDT::ChoCh::1787420700000",
@@ -4764,8 +4765,12 @@
   "gainPct": 10.1,
   "rr": 3.06,
   "signalTime": 1787420700000,
-  "status": "pending",
-  "createdAt": 1787420730198
+  "status": "open",
+  "createdAt": 1787420730198,
+  "fillTime": 1787420700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "FILUSDT::ChoCh::1787420700000",
@@ -4780,6 +4785,67 @@
   "rr": 2.86,
   "signalTime": 1787420700000,
   "status": "pending",
-  "createdAt": 1787420730198
+  "createdAt": 1787420730198,
+  "notified": []
+ },
+ {
+  "id": "ADAUSDT::ChoCh::1787421600000",
+  "symbol": "ADAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.228,
+  "sl": 0.21764999999999998,
+  "tp": 0.2584,
+  "tpSrc": "WH",
+  "slPct": 4.54,
+  "gainPct": 13.33,
+  "rr": 2.94,
+  "signalTime": 1787421600000,
+  "status": "pending",
+  "createdAt": 1787421638420
+ },
+ {
+  "id": "APTUSDT::ChoCh::1787421600000",
+  "symbol": "APTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.646,
+  "sl": 0.6145,
+  "tp": 0.714,
+  "tpSrc": "WH",
+  "slPct": 4.88,
+  "gainPct": 10.53,
+  "rr": 2.16,
+  "signalTime": 1787421600000,
+  "status": "pending",
+  "createdAt": 1787421638420
+ },
+ {
+  "id": "STRKUSDT::ChoCh::1787421600000",
+  "symbol": "STRKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02794,
+  "sl": 0.02638,
+  "tp": 0.03075,
+  "tpSrc": "WH",
+  "slPct": 5.58,
+  "gainPct": 10.06,
+  "rr": 1.8,
+  "signalTime": 1787421600000,
+  "status": "pending",
+  "createdAt": 1787421638420
+ },
+ {
+  "id": "TAOUSDT::ChoCh::1787421600000",
+  "symbol": "TAOUSDT",
+  "setup": "ChoCh",
+  "entry": 226,
+  "sl": 215.5,
+  "tp": 250.3,
+  "tpSrc": "WH",
+  "slPct": 4.65,
+  "gainPct": 10.75,
+  "rr": 2.31,
+  "signalTime": 1787421600000,
+  "status": "pending",
+  "createdAt": 1787421638420
  }
 ]

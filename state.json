@@ -1,13 +1,15 @@
 {
   "ready": [
+    "ADAUSDT::ChoCh",
+    "APTUSDT::ChoCh",
     "ARBUSDT::ChoCh",
     "ARUSDT::ChoCh",
     "DASHUSDT::ChoCh",
     "FILUSDT::ChoCh",
     "GALAUSDT::ChoCh",
-    "TRBUSDT::ChoCh",
-    "VIRTUALUSDT::ChoCh",
-    "ZENUSDT::ChoCh"
+    "STRKUSDT::ChoCh",
+    "TAOUSDT::ChoCh",
+    "VIRTUALUSDT::ChoCh"
   ],
-  "at": "2026-08-22T17:45:30.197Z"
+  "at": "2026-08-22T18:00:38.419Z"
 }
