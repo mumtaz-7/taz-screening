@@ -4352,7 +4352,27 @@
   "gainPct": 21.23,
   "rr": 1.51,
   "signalTime": 1787365800000,
+  "status": "void",
+  "createdAt": 1787365832313,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787365800000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "ZENUSDT::BoS::1787366700000",
+  "symbol": "ZENUSDT",
+  "setup": "BoS",
+  "entry": 5.341,
+  "sl": 5.1175,
+  "tp": 6,
+  "tpSrc": "WH",
+  "slPct": 4.18,
+  "gainPct": 12.34,
+  "rr": 2.95,
+  "signalTime": 1787366700000,
   "status": "pending",
-  "createdAt": 1787365832313
+  "createdAt": 1787366728756
  }
 ]
