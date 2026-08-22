@@ -4310,8 +4310,12 @@
   "gainPct": 9.56,
   "rr": 2.94,
   "signalTime": 1787364000000,
-  "status": "pending",
-  "createdAt": 1787364040070
+  "status": "open",
+  "createdAt": 1787364040070,
+  "fillTime": 1787364000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ZECUSDT::BoS::1787364000000",
@@ -4325,7 +4329,12 @@
   "gainPct": 9.27,
   "rr": 2.37,
   "signalTime": 1787364000000,
-  "status": "pending",
-  "createdAt": 1787364040070
+  "status": "void",
+  "createdAt": 1787364040070,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787364000000,
+  "notified": [
+   "void"
+  ]
  }
 ]
