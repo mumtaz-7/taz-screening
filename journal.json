@@ -4666,9 +4666,12 @@
   "gainPct": 24.19,
   "rr": 4.8,
   "signalTime": 1787416200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787416234706,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787432400000
  },
  {
   "id": "ZENUSDT::ChoCh::1787416200000",
@@ -4939,9 +4942,12 @@
   "gainPct": 8.39,
   "rr": 5.13,
   "signalTime": 1787428800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787428840825,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787432400000
  },
  {
   "id": "SOLUSDT::BoS::1787428800000",
@@ -4980,5 +4986,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SCUSDT::ChoCh::1787433300000",
+  "symbol": "SCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000687,
+  "sl": 0.000642,
+  "tp": 0.000935,
+  "tpSrc": "WH",
+  "slPct": 6.55,
+  "gainPct": 36.1,
+  "rr": 5.51,
+  "signalTime": 1787433300000,
+  "status": "pending",
+  "createdAt": 1787433330959
  }
 ]
