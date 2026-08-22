@@ -4653,5 +4653,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TRBUSDT::ChoCh::1787416200000",
+  "symbol": "TRBUSDT",
+  "setup": "ChoCh",
+  "entry": 18.44,
+  "sl": 17.509999999999998,
+  "tp": 22.9,
+  "tpSrc": "WH",
+  "slPct": 5.04,
+  "gainPct": 24.19,
+  "rr": 4.8,
+  "signalTime": 1787416200000,
+  "status": "pending",
+  "createdAt": 1787416234706
+ },
+ {
+  "id": "ZENUSDT::ChoCh::1787416200000",
+  "symbol": "ZENUSDT",
+  "setup": "ChoCh",
+  "entry": 5.267,
+  "sl": 5.0975,
+  "tp": 6.123,
+  "tpSrc": "WH",
+  "slPct": 3.22,
+  "gainPct": 16.25,
+  "rr": 5.05,
+  "signalTime": 1787416200000,
+  "status": "pending",
+  "createdAt": 1787416234706
  }
 ]
