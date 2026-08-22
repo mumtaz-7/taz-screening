@@ -4891,5 +4891,65 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BNSOLUSDT::BoS::1787428800000",
+  "symbol": "BNSOLUSDT",
+  "setup": "BoS",
+  "entry": 106.8,
+  "sl": 105.45000000000002,
+  "tp": 115.8,
+  "tpSrc": "WH",
+  "slPct": 1.26,
+  "gainPct": 8.43,
+  "rr": 6.67,
+  "signalTime": 1787428800000,
+  "status": "pending",
+  "createdAt": 1787428840825
+ },
+ {
+  "id": "ENAUSDT::BoS::1787428800000",
+  "symbol": "ENAUSDT",
+  "setup": "BoS",
+  "entry": 0.1522,
+  "sl": 0.1477,
+  "tp": 0.1657,
+  "tpSrc": "WH",
+  "slPct": 2.96,
+  "gainPct": 8.87,
+  "rr": 3,
+  "signalTime": 1787428800000,
+  "status": "pending",
+  "createdAt": 1787428840825
+ },
+ {
+  "id": "FORMUSDT::ChoCh::1787428800000",
+  "symbol": "FORMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2657,
+  "sl": 0.26134999999999997,
+  "tp": 0.288,
+  "tpSrc": "WH",
+  "slPct": 1.64,
+  "gainPct": 8.39,
+  "rr": 5.13,
+  "signalTime": 1787428800000,
+  "status": "pending",
+  "createdAt": 1787428840825
+ },
+ {
+  "id": "SOLUSDT::BoS::1787428800000",
+  "symbol": "SOLUSDT",
+  "setup": "BoS",
+  "entry": 94.67,
+  "sl": 93.32,
+  "tp": 102.74,
+  "tpSrc": "WH",
+  "slPct": 1.43,
+  "gainPct": 8.52,
+  "rr": 5.98,
+  "signalTime": 1787428800000,
+  "status": "pending",
+  "createdAt": 1787428840825
  }
 ]

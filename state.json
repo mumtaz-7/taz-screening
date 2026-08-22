@@ -1,6 +1,9 @@
 {
   "ready": [
-    "XRPUSDT::ChoCh"
+    "BNSOLUSDT::BoS",
+    "ENAUSDT::BoS",
+    "FORMUSDT::ChoCh",
+    "SOLUSDT::BoS"
   ],
-  "at": "2026-08-22T19:45:31.343Z"
+  "at": "2026-08-22T20:00:40.824Z"
 }
