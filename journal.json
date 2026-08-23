@@ -5605,8 +5605,12 @@
   "gainPct": 10.87,
   "rr": 4.67,
   "signalTime": 1787519700000,
-  "status": "pending",
-  "createdAt": 1787519727957
+  "status": "open",
+  "createdAt": 1787519727957,
+  "fillTime": 1787519700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ONDOUSDT::BoS::1787519700000",
@@ -5621,6 +5625,22 @@
   "rr": 4.02,
   "signalTime": 1787519700000,
   "status": "pending",
-  "createdAt": 1787519727957
+  "createdAt": 1787519727957,
+  "notified": []
+ },
+ {
+  "id": "XLMUSDT::ChoCh::1787520600000",
+  "symbol": "XLMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2011,
+  "sl": 0.19585,
+  "tp": 0.2226,
+  "tpSrc": "WH",
+  "slPct": 2.61,
+  "gainPct": 10.69,
+  "rr": 4.1,
+  "signalTime": 1787520600000,
+  "status": "pending",
+  "createdAt": 1787520632789
  }
 ]
