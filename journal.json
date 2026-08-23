@@ -5418,8 +5418,12 @@
   "gainPct": 11.96,
   "rr": 4.72,
   "signalTime": 1787481900000,
-  "status": "pending",
-  "createdAt": 1787481927735
+  "status": "open",
+  "createdAt": 1787481927735,
+  "fillTime": 1787481900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TAOUSDT::ChoCh::1787481900000",
@@ -5433,7 +5437,11 @@
   "gainPct": 11.34,
   "rr": 1.95,
   "signalTime": 1787481900000,
-  "status": "pending",
-  "createdAt": 1787481927735
+  "status": "open",
+  "createdAt": 1787481927735,
+  "fillTime": 1787481900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
