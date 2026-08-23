@@ -4735,12 +4735,15 @@
   "gainPct": 11.43,
   "rr": 3.37,
   "signalTime": 1787417100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787417129205,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787425200000
+  "fillTime": 1787425200000,
+  "R": -1,
+  "resolvedTime": 1787457600000
  },
  {
   "id": "DASHUSDT::ChoCh::1787419800000",
@@ -4839,12 +4842,15 @@
   "gainPct": 13.33,
   "rr": 2.94,
   "signalTime": 1787421600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787421638420,
   "fillTime": 1787421600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787457600000
  },
  {
   "id": "APTUSDT::ChoCh::1787421600000",
