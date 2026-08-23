@@ -5351,5 +5351,20 @@
   "status": "pending",
   "createdAt": 1787470233772,
   "notified": []
+ },
+ {
+  "id": "SCUSDT::ChoCh::1787474700000",
+  "symbol": "SCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000655,
+  "sl": 0.0006250000000000001,
+  "tp": 0.000935,
+  "tpSrc": "WH",
+  "slPct": 4.58,
+  "gainPct": 42.75,
+  "rr": 9.33,
+  "signalTime": 1787474700000,
+  "status": "pending",
+  "createdAt": 1787474727716
  }
 ]
