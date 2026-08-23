@@ -1,9 +1,6 @@
 {
   "ready": [
-    "APTUSDT::ChoCh",
-    "ETCUSDT::ChoCh",
-    "FILUSDT::BoS",
     "ZAMAUSDT::BoS"
   ],
-  "at": "2026-08-23T15:00:40.079Z"
+  "at": "2026-08-23T15:15:27.473Z"
 }
