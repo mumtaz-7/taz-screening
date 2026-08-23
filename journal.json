@@ -5265,5 +5265,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SYNUSDT::ChoCh::1787452200000",
+  "symbol": "SYNUSDT",
+  "setup": "ChoCh",
+  "entry": 0.11301,
+  "sl": 0.105435,
+  "tp": 0.12434,
+  "tpSrc": "WH",
+  "slPct": 6.7,
+  "gainPct": 10.03,
+  "rr": 1.5,
+  "signalTime": 1787452200000,
+  "status": "pending",
+  "createdAt": 1787452234293
  }
 ]
