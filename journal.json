@@ -4773,12 +4773,15 @@
   "gainPct": 10.37,
   "rr": 2.75,
   "signalTime": 1787420700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787420730198,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787423400000
+  "fillTime": 1787423400000,
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "ARUSDT::ChoCh::1787420700000",
@@ -5167,12 +5170,15 @@
   "gainPct": 12.88,
   "rr": 5.13,
   "signalTime": 1787445000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787445032964,
   "fillTime": 1787445000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "ADAUSDT::BoS::1787446800000",
@@ -5208,12 +5214,15 @@
   "gainPct": 13.89,
   "rr": 3.09,
   "signalTime": 1787446800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787446838967,
   "fillTime": 1787446800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "LUNCUSDT::ChoCh::1787446800000",
@@ -5249,12 +5258,15 @@
   "gainPct": 10.92,
   "rr": 2.96,
   "signalTime": 1787446800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787446838968,
   "fillTime": 1787446800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "ZAMAUSDT::ChoCh::1787450400000",
@@ -5268,12 +5280,15 @@
   "gainPct": 10.64,
   "rr": 3.82,
   "signalTime": 1787450400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787450441829,
   "fillTime": 1787450400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "SYNUSDT::ChoCh::1787452200000",
@@ -5287,8 +5302,11 @@
   "gainPct": 10.03,
   "rr": 1.5,
   "signalTime": 1787452200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787452234293,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787455800000
  }
 ]
