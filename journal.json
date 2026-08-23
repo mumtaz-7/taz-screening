@@ -4675,12 +4675,15 @@
   "gainPct": 24.19,
   "rr": 4.8,
   "signalTime": 1787416200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787416234706,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787432400000
+  "fillTime": 1787432400000,
+  "R": -1,
+  "resolvedTime": 1787460300000
  },
  {
   "id": "ZENUSDT::ChoCh::1787416200000",
@@ -4908,12 +4911,15 @@
   "gainPct": 10.75,
   "rr": 2.31,
   "signalTime": 1787421600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787421638420,
   "fillTime": 1787421600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787460300000
  },
  {
   "id": "XRPUSDT::ChoCh::1787423400000",
