@@ -5573,5 +5573,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XRPUSDT::BoS::1787508900000",
+  "symbol": "XRPUSDT",
+  "setup": "BoS",
+  "entry": 1.512,
+  "sl": 1.48545,
+  "tp": 1.6999,
+  "tpSrc": "WH",
+  "slPct": 1.76,
+  "gainPct": 12.43,
+  "rr": 7.08,
+  "signalTime": 1787508900000,
+  "status": "pending",
+  "createdAt": 1787508927601
  }
 ]
