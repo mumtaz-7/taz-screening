@@ -5443,5 +5443,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ASTERUSDT::BoS::1787487300000",
+  "symbol": "ASTERUSDT",
+  "setup": "BoS",
+  "entry": 0.666,
+  "sl": 0.648,
+  "tp": 0.777,
+  "tpSrc": "WH",
+  "slPct": 2.7,
+  "gainPct": 16.67,
+  "rr": 6.17,
+  "signalTime": 1787487300000,
+  "status": "pending",
+  "createdAt": 1787487327882
  }
 ]
