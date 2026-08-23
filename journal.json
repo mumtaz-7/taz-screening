@@ -5646,5 +5646,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FILUSDT::BoS::1787522400000",
+  "symbol": "FILUSDT",
+  "setup": "BoS",
+  "entry": 0.7756,
+  "sl": 0.76075,
+  "tp": 0.8595,
+  "tpSrc": "WH",
+  "slPct": 1.91,
+  "gainPct": 10.82,
+  "rr": 5.65,
+  "signalTime": 1787522400000,
+  "status": "pending",
+  "createdAt": 1787522436656
  }
 ]
