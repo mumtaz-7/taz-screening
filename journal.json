@@ -5079,5 +5079,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SCUSDT::BoS::1787444100000",
+  "symbol": "SCUSDT",
+  "setup": "BoS",
+  "entry": 0.00075,
+  "sl": 0.000603,
+  "tp": 0.000935,
+  "tpSrc": "WH",
+  "slPct": 19.6,
+  "gainPct": 24.67,
+  "rr": 1.26,
+  "signalTime": 1787444100000,
+  "status": "pending",
+  "createdAt": 1787444129119
  }
 ]
