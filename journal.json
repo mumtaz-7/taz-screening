@@ -5351,9 +5351,13 @@
   "gainPct": 7.81,
   "rr": 2.1,
   "signalTime": 1787470200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787470233772,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787491800000
  },
  {
   "id": "SCUSDT::ChoCh::1787474700000",
@@ -5465,5 +5469,50 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "APTUSDT::ChoCh::1787492700000",
+  "symbol": "APTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.642,
+  "sl": 0.579,
+  "tp": 0.714,
+  "tpSrc": "WH",
+  "slPct": 9.81,
+  "gainPct": 11.21,
+  "rr": 1.14,
+  "signalTime": 1787492700000,
+  "status": "pending",
+  "createdAt": 1787492730137
+ },
+ {
+  "id": "ETCUSDT::ChoCh::1787492700000",
+  "symbol": "ETCUSDT",
+  "setup": "ChoCh",
+  "entry": 7.91,
+  "sl": 7.73,
+  "tp": 9.1,
+  "tpSrc": "WH",
+  "slPct": 2.28,
+  "gainPct": 15.04,
+  "rr": 6.61,
+  "signalTime": 1787492700000,
+  "status": "pending",
+  "createdAt": 1787492730137
+ },
+ {
+  "id": "FILUSDT::BoS::1787492700000",
+  "symbol": "FILUSDT",
+  "setup": "BoS",
+  "entry": 0.7709,
+  "sl": 0.7532,
+  "tp": 0.8595,
+  "tpSrc": "WH",
+  "slPct": 2.3,
+  "gainPct": 11.49,
+  "rr": 5.01,
+  "signalTime": 1787492700000,
+  "status": "pending",
+  "createdAt": 1787492730137
  }
 ]
