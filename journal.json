@@ -5035,12 +5035,15 @@
   "gainPct": 36.1,
   "rr": 5.51,
   "signalTime": 1787433300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787433330959,
   "fillTime": 1787433300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787449500000
  },
  {
   "id": "GIGGLEUSDT::BoS::1787434200000",
@@ -5231,5 +5234,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZAMAUSDT::ChoCh::1787450400000",
+  "symbol": "ZAMAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.05331,
+  "sl": 0.051824999999999996,
+  "tp": 0.05898,
+  "tpSrc": "EQ",
+  "slPct": 2.79,
+  "gainPct": 10.64,
+  "rr": 3.82,
+  "signalTime": 1787450400000,
+  "status": "pending",
+  "createdAt": 1787450441829
  }
 ]
