@@ -1,6 +1,7 @@
 {
   "ready": [
-    "INJUSDT::ChoCh"
+    "GALAUSDT::ChoCh",
+    "SCUSDT::BoS"
   ],
-  "at": "2026-08-23T10:15:29.514Z"
+  "at": "2026-08-23T10:30:34.593Z"
 }
