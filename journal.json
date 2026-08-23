@@ -5483,7 +5483,8 @@
   "rr": 1.14,
   "signalTime": 1787492700000,
   "status": "pending",
-  "createdAt": 1787492730137
+  "createdAt": 1787492730137,
+  "notified": []
  },
  {
   "id": "ETCUSDT::ChoCh::1787492700000",
@@ -5497,8 +5498,12 @@
   "gainPct": 15.04,
   "rr": 6.61,
   "signalTime": 1787492700000,
-  "status": "pending",
-  "createdAt": 1787492730137
+  "status": "open",
+  "createdAt": 1787492730137,
+  "fillTime": 1787492700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "FILUSDT::BoS::1787492700000",
@@ -5513,6 +5518,22 @@
   "rr": 5.01,
   "signalTime": 1787492700000,
   "status": "pending",
-  "createdAt": 1787492730137
+  "createdAt": 1787492730137,
+  "notified": []
+ },
+ {
+  "id": "ZAMAUSDT::BoS::1787493600000",
+  "symbol": "ZAMAUSDT",
+  "setup": "BoS",
+  "entry": 0.05447,
+  "sl": 0.051155000000000006,
+  "tp": 0.06275,
+  "tpSrc": "OB",
+  "slPct": 6.09,
+  "gainPct": 15.2,
+  "rr": 2.5,
+  "signalTime": 1787493600000,
+  "status": "pending",
+  "createdAt": 1787493638648
  }
 ]
