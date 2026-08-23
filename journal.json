@@ -5370,5 +5370,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "INJUSDT::ChoCh::1787480100000",
+  "symbol": "INJUSDT",
+  "setup": "ChoCh",
+  "entry": 4.885,
+  "sl": 4.7305,
+  "tp": 5.282,
+  "tpSrc": "OB",
+  "slPct": 3.16,
+  "gainPct": 8.13,
+  "rr": 2.57,
+  "signalTime": 1787480100000,
+  "status": "pending",
+  "createdAt": 1787480129515
  }
 ]
