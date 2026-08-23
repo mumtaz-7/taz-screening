@@ -5425,12 +5425,15 @@
   "gainPct": 11.96,
   "rr": 4.72,
   "signalTime": 1787481900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787481927735,
   "fillTime": 1787481900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787495400000
  },
  {
   "id": "TAOUSDT::ChoCh::1787481900000",
@@ -5482,9 +5485,12 @@
   "gainPct": 11.21,
   "rr": 1.14,
   "signalTime": 1787492700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787492730137,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787495400000
  },
  {
   "id": "ETCUSDT::ChoCh::1787492700000",
@@ -5517,9 +5523,14 @@
   "gainPct": 11.49,
   "rr": 5.01,
   "signalTime": 1787492700000,
-  "status": "pending",
+  "status": "loss",
   "createdAt": 1787492730137,
-  "notified": []
+  "notified": [
+   "loss"
+  ],
+  "R": -1,
+  "fillTime": 1787495400000,
+  "resolvedTime": 1787495400000
  },
  {
   "id": "ZAMAUSDT::BoS::1787493600000",
@@ -5533,8 +5544,11 @@
   "gainPct": 15.2,
   "rr": 2.5,
   "signalTime": 1787493600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787493638648,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787495400000
  }
 ]
