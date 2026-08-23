@@ -5592,5 +5592,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ICPUSDT::ChoCh::1787519700000",
+  "symbol": "ICPUSDT",
+  "setup": "ChoCh",
+  "entry": 2.448,
+  "sl": 2.391,
+  "tp": 2.714,
+  "tpSrc": "WH",
+  "slPct": 2.33,
+  "gainPct": 10.87,
+  "rr": 4.67,
+  "signalTime": 1787519700000,
+  "status": "pending",
+  "createdAt": 1787519727957
+ },
+ {
+  "id": "ONDOUSDT::BoS::1787519700000",
+  "symbol": "ONDOUSDT",
+  "setup": "BoS",
+  "entry": 0.3847,
+  "sl": 0.37510000000000004,
+  "tp": 0.4233,
+  "tpSrc": "OB",
+  "slPct": 2.5,
+  "gainPct": 10.03,
+  "rr": 4.02,
+  "signalTime": 1787519700000,
+  "status": "pending",
+  "createdAt": 1787519727957
  }
 ]
