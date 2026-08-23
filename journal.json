@@ -5112,7 +5112,8 @@
   "rr": 5.42,
   "signalTime": 1787445000000,
   "status": "pending",
-  "createdAt": 1787445032964
+  "createdAt": 1787445032964,
+  "notified": []
  },
  {
   "id": "STRKUSDT::BoS::1787445000000",
@@ -5127,7 +5128,8 @@
   "rr": 2.5,
   "signalTime": 1787445000000,
   "status": "pending",
-  "createdAt": 1787445032964
+  "createdAt": 1787445032964,
+  "notified": []
  },
  {
   "id": "XLMUSDT::ChoCh::1787445000000",
@@ -5141,7 +5143,11 @@
   "gainPct": 12.88,
   "rr": 5.13,
   "signalTime": 1787445000000,
-  "status": "pending",
-  "createdAt": 1787445032964
+  "status": "open",
+  "createdAt": 1787445032964,
+  "fillTime": 1787445000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
