@@ -1,7 +1,9 @@
 {
   "ready": [
     "GALAUSDT::ChoCh",
-    "SCUSDT::BoS"
+    "ICPUSDT::BoS",
+    "SCUSDT::BoS",
+    "TAOUSDT::ChoCh"
   ],
-  "at": "2026-08-23T10:30:34.593Z"
+  "at": "2026-08-23T10:45:27.735Z"
 }
