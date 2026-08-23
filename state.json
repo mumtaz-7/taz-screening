@@ -2,10 +2,8 @@
   "ready": [
     "ETCUSDT::BoS",
     "FILUSDT::BoS",
-    "ICPUSDT::ChoCh",
-    "ONDOUSDT::BoS",
     "SCUSDT::BoS",
     "XLMUSDT::ChoCh"
   ],
-  "at": "2026-08-23T22:30:31.500Z"
+  "at": "2026-08-23T22:45:27.042Z"
 }
