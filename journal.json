@@ -4665,12 +4665,15 @@
   "gainPct": 22.85,
   "rr": 2.03,
   "signalTime": 1787407200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787407239387,
   "fillTime": 1787407200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787527800000
  },
  {
   "id": "TRBUSDT::ChoCh::1787416200000",
