@@ -5785,8 +5785,13 @@
   "gainPct": 13.2,
   "rr": 2.24,
   "signalTime": 1787545800000,
-  "status": "pending",
-  "createdAt": 1787545833618
+  "status": "void",
+  "createdAt": 1787545833618,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787545800000,
+  "notified": [
+   "void"
+  ]
  },
  {
   "id": "RENDERUSDT::ChoCh::1787545800000",
@@ -5800,7 +5805,26 @@
   "gainPct": 10.01,
   "rr": 3.82,
   "signalTime": 1787545800000,
+  "status": "open",
+  "createdAt": 1787545833618,
+  "fillTime": 1787545800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "REUSDT::ChoCh::1787546700000",
+  "symbol": "REUSDT",
+  "setup": "ChoCh",
+  "entry": 0.533,
+  "sl": 0.5165,
+  "tp": 0.6053,
+  "tpSrc": "OB",
+  "slPct": 3.1,
+  "gainPct": 13.56,
+  "rr": 4.38,
+  "signalTime": 1787546700000,
   "status": "pending",
-  "createdAt": 1787545833618
+  "createdAt": 1787546729316
  }
 ]
