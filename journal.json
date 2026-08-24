@@ -5511,12 +5511,15 @@
   "gainPct": 15.04,
   "rr": 6.61,
   "signalTime": 1787492700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787492730137,
   "fillTime": 1787492700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787535000000
  },
  {
   "id": "FILUSDT::BoS::1787492700000",
@@ -5677,12 +5680,15 @@
   "gainPct": 10.82,
   "rr": 5.65,
   "signalTime": 1787522400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787522436656,
   "fillTime": 1787522400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787535000000
  },
  {
   "id": "ETCUSDT::BoS::1787524200000",
