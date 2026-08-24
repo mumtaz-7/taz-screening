@@ -4580,12 +4580,15 @@
   "gainPct": 9.56,
   "rr": 1.25,
   "signalTime": 1787399100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787399129207,
   "fillTime": 1787399100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787589000000
  },
  {
   "id": "WLDUSDT::BoS::1787400900000",
