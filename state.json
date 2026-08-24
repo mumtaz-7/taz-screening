@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-08-24T15:15:28.682Z"
+  "ready": [
+    "PENDLEUSDT::BoS",
+    "STRKUSDT::ChoCh"
+  ],
+  "at": "2026-08-24T15:30:35.387Z"
 }

@@ -5554,12 +5554,15 @@
   "gainPct": 15.2,
   "rr": 2.5,
   "signalTime": 1787493600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787493638648,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787495400000
+  "fillTime": 1787495400000,
+  "R": 2.5,
+  "resolvedTime": 1787584500000
  },
  {
   "id": "OGUSDT::ChoCh::1787505300000",
@@ -5966,5 +5969,35 @@
    "open"
   ],
   "fillTime": 1787567400000
+ },
+ {
+  "id": "PENDLEUSDT::BoS::1787585400000",
+  "symbol": "PENDLEUSDT",
+  "setup": "BoS",
+  "entry": 1.829,
+  "sl": 1.7405,
+  "tp": 1.983,
+  "tpSrc": "WH",
+  "slPct": 4.84,
+  "gainPct": 8.42,
+  "rr": 1.74,
+  "signalTime": 1787585400000,
+  "status": "pending",
+  "createdAt": 1787585435387
+ },
+ {
+  "id": "STRKUSDT::ChoCh::1787585400000",
+  "symbol": "STRKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0277,
+  "sl": 0.026500000000000003,
+  "tp": 0.03016,
+  "tpSrc": "WH",
+  "slPct": 4.33,
+  "gainPct": 8.88,
+  "rr": 2.05,
+  "signalTime": 1787585400000,
+  "status": "pending",
+  "createdAt": 1787585435387
  }
 ]
