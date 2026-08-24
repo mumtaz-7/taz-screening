@@ -6134,5 +6134,20 @@
   "status": "pending",
   "createdAt": 1787608838552,
   "notified": []
+ },
+ {
+  "id": "STORJUSDT::BoS::1787612400000",
+  "symbol": "STORJUSDT",
+  "setup": "BoS",
+  "entry": 0.0514,
+  "sl": 0.04675,
+  "tp": 0.0649,
+  "tpSrc": "WH",
+  "slPct": 9.05,
+  "gainPct": 26.26,
+  "rr": 2.9,
+  "signalTime": 1787612400000,
+  "status": "pending",
+  "createdAt": 1787612440138
  }
 ]

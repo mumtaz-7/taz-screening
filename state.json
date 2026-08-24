@@ -1,6 +1,7 @@
 {
   "ready": [
-    "COTIUSDT::BoS"
+    "COTIUSDT::BoS",
+    "STORJUSDT::BoS"
   ],
-  "at": "2026-08-24T22:45:27.616Z"
+  "at": "2026-08-24T23:00:40.084Z"
 }
