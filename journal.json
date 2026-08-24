@@ -6045,5 +6045,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "AMPUSDT::BoS::1787595300000",
+  "symbol": "AMPUSDT",
+  "setup": "BoS",
+  "entry": 0.000428,
+  "sl": 0.0004085,
+  "tp": 0.000629,
+  "tpSrc": "WH",
+  "slPct": 4.56,
+  "gainPct": 46.96,
+  "rr": 10.31,
+  "signalTime": 1787595300000,
+  "status": "pending",
+  "createdAt": 1787595329897
  }
 ]
