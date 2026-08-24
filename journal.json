@@ -6093,7 +6093,26 @@
   "gainPct": 9.93,
   "rr": 1.66,
   "signalTime": 1787605200000,
+  "status": "open",
+  "createdAt": 1787605241002,
+  "fillTime": 1787605200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "LDOUSDT::ChoCh::1787606100000",
+  "symbol": "LDOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3722,
+  "sl": 0.36395000000000005,
+  "tp": 0.4132,
+  "tpSrc": "WH",
+  "slPct": 2.22,
+  "gainPct": 11.02,
+  "rr": 4.97,
+  "signalTime": 1787606100000,
   "status": "pending",
-  "createdAt": 1787605241002
+  "createdAt": 1787606129223
  }
 ]
