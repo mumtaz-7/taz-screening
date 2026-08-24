@@ -6112,9 +6112,12 @@
   "gainPct": 11.02,
   "rr": 4.97,
   "signalTime": 1787606100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787606129223,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787610600000
  },
  {
   "id": "COTIUSDT::BoS::1787608800000",
