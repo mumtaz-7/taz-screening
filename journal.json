@@ -5865,5 +5865,20 @@
   "status": "pending",
   "createdAt": 1787553033166,
   "notified": []
+ },
+ {
+  "id": "ONDOUSDT::ChoCh::1787555700000",
+  "symbol": "ONDOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3745,
+  "sl": 0.3658,
+  "tp": 0.4233,
+  "tpSrc": "OB",
+  "slPct": 2.32,
+  "gainPct": 13.03,
+  "rr": 5.61,
+  "signalTime": 1787555700000,
+  "status": "pending",
+  "createdAt": 1787555729197
  }
 ]
