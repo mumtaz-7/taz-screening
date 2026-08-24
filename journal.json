@@ -6064,5 +6064,20 @@
   "status": "pending",
   "createdAt": 1787595329897,
   "notified": []
+ },
+ {
+  "id": "PENGUUSDT::ChoCh::1787604300000",
+  "symbol": "PENGUUSDT",
+  "setup": "ChoCh",
+  "entry": 0.009544,
+  "sl": 0.009238,
+  "tp": 0.01035,
+  "tpSrc": "WH",
+  "slPct": 3.21,
+  "gainPct": 8.45,
+  "rr": 2.63,
+  "signalTime": 1787604300000,
+  "status": "pending",
+  "createdAt": 1787604329675
  }
 ]
