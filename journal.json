@@ -6115,5 +6115,20 @@
   "status": "pending",
   "createdAt": 1787606129223,
   "notified": []
+ },
+ {
+  "id": "COTIUSDT::BoS::1787608800000",
+  "symbol": "COTIUSDT",
+  "setup": "BoS",
+  "entry": 0.01265,
+  "sl": 0.012094999999999998,
+  "tp": 0.01427,
+  "tpSrc": "WH",
+  "slPct": 4.39,
+  "gainPct": 12.81,
+  "rr": 2.92,
+  "signalTime": 1787608800000,
+  "status": "pending",
+  "createdAt": 1787608838552
  }
 ]
