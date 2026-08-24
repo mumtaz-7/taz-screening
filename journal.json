@@ -5982,8 +5982,12 @@
   "gainPct": 8.42,
   "rr": 1.74,
   "signalTime": 1787585400000,
-  "status": "pending",
-  "createdAt": 1787585435387
+  "status": "open",
+  "createdAt": 1787585435387,
+  "fillTime": 1787585400000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "STRKUSDT::ChoCh::1787585400000",
@@ -5997,7 +6001,11 @@
   "gainPct": 8.88,
   "rr": 2.05,
   "signalTime": 1787585400000,
-  "status": "pending",
-  "createdAt": 1787585435387
+  "status": "open",
+  "createdAt": 1787585435387,
+  "fillTime": 1787585400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
