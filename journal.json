@@ -5914,7 +5914,8 @@
   "rr": 5.19,
   "signalTime": 1787562900000,
   "status": "pending",
-  "createdAt": 1787562928105
+  "createdAt": 1787562928105,
+  "notified": []
  },
  {
   "id": "XPLUSDT::BoS::1787562900000",
@@ -5928,7 +5929,11 @@
   "gainPct": 11.17,
   "rr": 1.59,
   "signalTime": 1787562900000,
-  "status": "pending",
-  "createdAt": 1787562928105
+  "status": "open",
+  "createdAt": 1787562928105,
+  "fillTime": 1787562900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
