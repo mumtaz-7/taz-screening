@@ -5897,9 +5897,12 @@
   "gainPct": 7.79,
   "rr": 2.35,
   "signalTime": 1787560200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787560235279,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787571000000
  },
  {
   "id": "PENDLEUSDT::ChoCh::1787562900000",
