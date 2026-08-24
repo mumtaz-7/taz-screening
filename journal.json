@@ -5862,9 +5862,12 @@
   "gainPct": 20.14,
   "rr": 3.87,
   "signalTime": 1787553000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787553033166,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787571900000
  },
  {
   "id": "ONDOUSDT::ChoCh::1787555700000",
