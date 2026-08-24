@@ -5696,12 +5696,15 @@
   "gainPct": 14.04,
   "rr": 4.98,
   "signalTime": 1787524200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787524231501,
   "fillTime": 1787524200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787534100000
  },
  {
   "id": "PORTALUSDT::ChoCh::1787533200000",
