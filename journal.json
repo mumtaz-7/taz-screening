@@ -5919,9 +5919,12 @@
   "gainPct": 10.41,
   "rr": 5.19,
   "signalTime": 1787562900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787562928105,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787573700000
  },
  {
   "id": "XPLUSDT::BoS::1787562900000",
