@@ -1,8 +1,6 @@
 {
   "ready": [
-    "PENDLEUSDT::ChoCh",
-    "RENDERUSDT::BoS",
-    "XPLUSDT::BoS"
+    "RENDERUSDT::BoS"
   ],
-  "at": "2026-08-24T10:30:33.738Z"
+  "at": "2026-08-24T10:45:27.447Z"
 }
