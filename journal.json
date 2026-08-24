@@ -5772,12 +5772,15 @@
   "gainPct": 10.41,
   "rr": 1.54,
   "signalTime": 1787544900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787544928273,
   "fillTime": 1787544900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787591700000
  },
  {
   "id": "PROMUSDT::ChoCh::1787545800000",
@@ -5931,12 +5934,15 @@
   "gainPct": 10.41,
   "rr": 5.19,
   "signalTime": 1787562900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787562928105,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787573700000
+  "fillTime": 1787573700000,
+  "R": -1,
+  "resolvedTime": 1787591700000
  },
  {
   "id": "XPLUSDT::BoS::1787562900000",
