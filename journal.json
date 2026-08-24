@@ -5608,12 +5608,15 @@
   "gainPct": 10.87,
   "rr": 4.67,
   "signalTime": 1787519700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787519727957,
   "fillTime": 1787519700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787530500000
  },
  {
   "id": "ONDOUSDT::BoS::1787519700000",
@@ -5627,12 +5630,15 @@
   "gainPct": 10.03,
   "rr": 4.02,
   "signalTime": 1787519700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787519727957,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787522400000
+  "fillTime": 1787522400000,
+  "R": -1,
+  "resolvedTime": 1787530500000
  },
  {
   "id": "XLMUSDT::ChoCh::1787520600000",
