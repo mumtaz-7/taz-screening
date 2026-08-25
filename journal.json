@@ -4775,12 +4775,15 @@
   "gainPct": 16.52,
   "rr": 2.1,
   "signalTime": 1787419800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787419836531,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787434200000
+  "fillTime": 1787434200000,
+  "R": -1,
+  "resolvedTime": 1787691600000
  },
  {
   "id": "ARBUSDT::ChoCh::1787420700000",
@@ -6133,12 +6136,15 @@
   "gainPct": 11.02,
   "rr": 4.97,
   "signalTime": 1787606100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787606129223,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787610600000
+  "fillTime": 1787610600000,
+  "R": -1,
+  "resolvedTime": 1787691600000
  },
  {
   "id": "COTIUSDT::BoS::1787608800000",
@@ -6196,12 +6202,15 @@
   "gainPct": 8.77,
   "rr": 3.08,
   "signalTime": 1787617800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787617832524,
   "fillTime": 1787617800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787691600000
  },
  {
   "id": "LDOUSDT::BoS::1787619600000",
@@ -6441,12 +6450,15 @@
   "gainPct": 7.81,
   "rr": 2.08,
   "signalTime": 1787688900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787688930032,
   "fillTime": 1787688900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787691600000
  },
  {
   "id": "RAYUSDT::ChoCh::1787688900000",
@@ -6460,11 +6472,14 @@
   "gainPct": 7.09,
   "rr": 2.8,
   "signalTime": 1787688900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787688930032,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787689800000
+  "fillTime": 1787689800000,
+  "R": -1,
+  "resolvedTime": 1787691600000
  }
 ]
