@@ -6080,9 +6080,12 @@
   "gainPct": 8.45,
   "rr": 2.63,
   "signalTime": 1787604300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787604329675,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PORTALUSDT::ChoCh::1787605200000",
@@ -6204,8 +6207,26 @@
   "gainPct": 7.23,
   "rr": 1.91,
   "signalTime": 1787625000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787625036499,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787625900000
+ },
+ {
+  "id": "PROMUSDT::ChoCh::1787626800000",
+  "symbol": "PROMUSDT",
+  "setup": "ChoCh",
+  "entry": 3.83,
+  "sl": 3.4444999999999997,
+  "tp": 4.315,
+  "tpSrc": "WH",
+  "slPct": 10.07,
+  "gainPct": 12.66,
+  "rr": 1.26,
+  "signalTime": 1787626800000,
+  "status": "pending",
+  "createdAt": 1787626839322
  }
 ]
