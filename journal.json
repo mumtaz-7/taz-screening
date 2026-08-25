@@ -5498,12 +5498,15 @@
   "gainPct": 11.21,
   "rr": 1.14,
   "signalTime": 1787492700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787492730137,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787495400000
+  "fillTime": 1787495400000,
+  "R": -1,
+  "resolvedTime": 1787688000000
  },
  {
   "id": "ETCUSDT::ChoCh::1787492700000",
@@ -6410,8 +6413,41 @@
   "gainPct": 19.17,
   "rr": 2.06,
   "signalTime": 1787683500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787683529857,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787688000000
+ },
+ {
+  "id": "PENGUUSDT::ChoCh::1787688900000",
+  "symbol": "PENGUUSDT",
+  "setup": "ChoCh",
+  "entry": 0.009812,
+  "sl": 0.009443,
+  "tp": 0.010578,
+  "tpSrc": "WH",
+  "slPct": 3.76,
+  "gainPct": 7.81,
+  "rr": 2.08,
+  "signalTime": 1787688900000,
+  "status": "pending",
+  "createdAt": 1787688930032
+ },
+ {
+  "id": "RAYUSDT::ChoCh::1787688900000",
+  "symbol": "RAYUSDT",
+  "setup": "ChoCh",
+  "entry": 0.7992,
+  "sl": 0.7789499999999999,
+  "tp": 0.8559,
+  "tpSrc": "WH",
+  "slPct": 2.53,
+  "gainPct": 7.09,
+  "rr": 2.8,
+  "signalTime": 1787688900000,
+  "status": "pending",
+  "createdAt": 1787688930032
  }
 ]
