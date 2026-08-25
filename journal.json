@@ -6375,5 +6375,20 @@
    "open"
   ],
   "fillTime": 1787674500000
+ },
+ {
+  "id": "STXUSDT::ChoCh::1787680800000",
+  "symbol": "STXUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2677,
+  "sl": 0.24550000000000002,
+  "tp": 0.29,
+  "tpSrc": "WH",
+  "slPct": 8.29,
+  "gainPct": 8.33,
+  "rr": 1,
+  "signalTime": 1787680800000,
+  "status": "pending",
+  "createdAt": 1787680840737
  }
 ]
