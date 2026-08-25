@@ -6356,5 +6356,20 @@
    "open"
   ],
   "fillTime": 1787664600000
+ },
+ {
+  "id": "PYTHUSDT::ChoCh::1787669100000",
+  "symbol": "PYTHUSDT",
+  "setup": "ChoCh",
+  "entry": 0.05188,
+  "sl": 0.04987,
+  "tp": 0.05579,
+  "tpSrc": "WH",
+  "slPct": 3.87,
+  "gainPct": 7.54,
+  "rr": 1.95,
+  "signalTime": 1787669100000,
+  "status": "pending",
+  "createdAt": 1787669132271
  }
 ]
