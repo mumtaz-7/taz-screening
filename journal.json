@@ -6146,12 +6146,15 @@
   "gainPct": 12.81,
   "rr": 2.92,
   "signalTime": 1787608800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787608838552,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787612400000
+  "fillTime": 1787612400000,
+  "R": -1,
+  "resolvedTime": 1787680800000
  },
  {
   "id": "STORJUSDT::BoS::1787612400000",
@@ -6388,7 +6391,11 @@
   "gainPct": 8.33,
   "rr": 1,
   "signalTime": 1787680800000,
-  "status": "pending",
-  "createdAt": 1787680840737
+  "status": "open",
+  "createdAt": 1787680840737,
+  "fillTime": 1787680800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
