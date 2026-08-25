@@ -5416,12 +5416,15 @@
   "gainPct": 16.44,
   "rr": 2.98,
   "signalTime": 1787481000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787481034645,
   "fillTime": 1787481000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787663700000
  },
  {
   "id": "ICPUSDT::BoS::1787481900000",
@@ -6348,6 +6351,7 @@
   "rr": 1.86,
   "signalTime": 1787663700000,
   "status": "pending",
-  "createdAt": 1787663729190
+  "createdAt": 1787663729190,
+  "notified": []
  }
 ]
