@@ -6191,9 +6191,12 @@
   "gainPct": 10.22,
   "rr": 4.12,
   "signalTime": 1787619600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787619639113,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787629500000
  },
  {
   "id": "NEARUSDT::BoS::1787625000000",
@@ -6246,7 +6249,11 @@
   "gainPct": 55.73,
   "rr": 4.9,
   "signalTime": 1787629500000,
-  "status": "pending",
-  "createdAt": 1787629529815
+  "status": "open",
+  "createdAt": 1787629529815,
+  "fillTime": 1787629500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
