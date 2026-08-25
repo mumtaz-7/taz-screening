@@ -6297,5 +6297,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PENDLEUSDT::ChoCh::1787641200000",
+  "symbol": "PENDLEUSDT",
+  "setup": "ChoCh",
+  "entry": 1.814,
+  "sl": 1.748,
+  "tp": 1.983,
+  "tpSrc": "WH",
+  "slPct": 3.64,
+  "gainPct": 9.32,
+  "rr": 2.56,
+  "signalTime": 1787641200000,
+  "status": "pending",
+  "createdAt": 1787641239829
  }
 ]
