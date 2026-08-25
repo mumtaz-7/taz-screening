@@ -6156,9 +6156,12 @@
   "gainPct": 26.26,
   "rr": 2.9,
   "signalTime": 1787612400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787612440138,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787631300000
  },
  {
   "id": "UNIUSDT::ChoCh::1787617800000",
