@@ -5902,12 +5902,15 @@
   "gainPct": 13.03,
   "rr": 5.61,
   "signalTime": 1787555700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787555729197,
   "fillTime": 1787555700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787689800000
  },
  {
   "id": "COTIUSDT::BoS::1787560200000",
@@ -6212,12 +6215,15 @@
   "gainPct": 10.22,
   "rr": 4.12,
   "signalTime": 1787619600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787619639113,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787629500000
+  "fillTime": 1787629500000,
+  "R": -1,
+  "resolvedTime": 1787689800000
  },
  {
   "id": "NEARUSDT::BoS::1787625000000",
@@ -6451,8 +6457,11 @@
   "gainPct": 7.09,
   "rr": 2.8,
   "signalTime": 1787688900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787688930032,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787689800000
  }
 ]
