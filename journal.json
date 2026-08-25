@@ -6272,6 +6272,22 @@
   "rr": 2.26,
   "signalTime": 1787634900000,
   "status": "pending",
-  "createdAt": 1787634928114
+  "createdAt": 1787634928114,
+  "notified": []
+ },
+ {
+  "id": "PUMPUSDT::ChoCh::1787635800000",
+  "symbol": "PUMPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.004912,
+  "sl": 0.004537000000000001,
+  "tp": 0.005447,
+  "tpSrc": "WH",
+  "slPct": 7.63,
+  "gainPct": 10.89,
+  "rr": 1.43,
+  "signalTime": 1787635800000,
+  "status": "pending",
+  "createdAt": 1787635833312
  }
 ]
