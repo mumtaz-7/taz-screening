@@ -6271,9 +6271,13 @@
   "gainPct": 10.3,
   "rr": 2.26,
   "signalTime": 1787634900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787634928114,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787635800000
  },
  {
   "id": "PUMPUSDT::ChoCh::1787635800000",
@@ -6287,7 +6291,11 @@
   "gainPct": 10.89,
   "rr": 1.43,
   "signalTime": 1787635800000,
-  "status": "pending",
-  "createdAt": 1787635833312
+  "status": "open",
+  "createdAt": 1787635833312,
+  "fillTime": 1787635800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
