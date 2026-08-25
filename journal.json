@@ -6099,12 +6099,15 @@
   "gainPct": 9.93,
   "rr": 1.66,
   "signalTime": 1787605200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787605241002,
   "fillTime": 1787605200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787643000000
  },
  {
   "id": "LDOUSDT::ChoCh::1787606100000",
