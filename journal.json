@@ -6061,9 +6061,12 @@
   "gainPct": 46.96,
   "rr": 10.31,
   "signalTime": 1787595300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787595329897,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PENGUUSDT::ChoCh::1787604300000",
@@ -6153,5 +6156,20 @@
   "status": "pending",
   "createdAt": 1787612440138,
   "notified": []
+ },
+ {
+  "id": "UNIUSDT::ChoCh::1787617800000",
+  "symbol": "UNIUSDT",
+  "setup": "ChoCh",
+  "entry": 4.321,
+  "sl": 4.198,
+  "tp": 4.7,
+  "tpSrc": "WH",
+  "slPct": 2.85,
+  "gainPct": 8.77,
+  "rr": 3.08,
+  "signalTime": 1787617800000,
+  "status": "pending",
+  "createdAt": 1787617832524
  }
 ]
