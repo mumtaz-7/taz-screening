@@ -6826,5 +6826,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SPKUSDT::BoS::1787786100000",
+  "symbol": "SPKUSDT",
+  "setup": "BoS",
+  "entry": 0.01872,
+  "sl": 0.018383999999999998,
+  "tp": 0.024166,
+  "tpSrc": "WH",
+  "slPct": 1.79,
+  "gainPct": 29.09,
+  "rr": 16.21,
+  "signalTime": 1787786100000,
+  "status": "pending",
+  "createdAt": 1787786130545
  }
 ]

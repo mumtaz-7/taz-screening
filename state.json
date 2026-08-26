@@ -1,6 +1,7 @@
 {
   "ready": [
-    "HEMIUSDT::BoS"
+    "HEMIUSDT::BoS",
+    "SPKUSDT::BoS"
   ],
-  "at": "2026-08-26T23:00:39.954Z"
+  "at": "2026-08-26T23:15:30.544Z"
 }
