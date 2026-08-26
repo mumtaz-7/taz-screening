@@ -6495,6 +6495,22 @@
   "rr": 1.64,
   "signalTime": 1787705100000,
   "status": "pending",
-  "createdAt": 1787705127692
+  "createdAt": 1787705127692,
+  "notified": []
+ },
+ {
+  "id": "SUPERUSDT::ChoCh::1787706000000",
+  "symbol": "SUPERUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1145,
+  "sl": 0.11195,
+  "tp": 0.1403,
+  "tpSrc": "WH",
+  "slPct": 2.23,
+  "gainPct": 22.53,
+  "rr": 10.12,
+  "signalTime": 1787706000000,
+  "status": "pending",
+  "createdAt": 1787706041375
  }
 ]
