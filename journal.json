@@ -6570,9 +6570,12 @@
   "gainPct": 10.8,
   "rr": 1.78,
   "signalTime": 1787718600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787718632548,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787723100000
  },
  {
   "id": "PORTALUSDT::BoS::1787722200000",
