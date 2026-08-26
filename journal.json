@@ -6591,12 +6591,15 @@
   "gainPct": 10.8,
   "rr": 1.78,
   "signalTime": 1787718600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787718632548,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787723100000
+  "fillTime": 1787723100000,
+  "R": -1,
+  "resolvedTime": 1787755500000
  },
  {
   "id": "PORTALUSDT::BoS::1787722200000",
