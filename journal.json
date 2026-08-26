@@ -6596,5 +6596,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "SOLVUSDT::ChoCh::1787725800000",
+  "symbol": "SOLVUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00291,
+  "sl": 0.002775,
+  "tp": 0.0032,
+  "tpSrc": "WH",
+  "slPct": 4.64,
+  "gainPct": 9.97,
+  "rr": 2.15,
+  "signalTime": 1787725800000,
+  "status": "pending",
+  "createdAt": 1787725833633
  }
 ]
