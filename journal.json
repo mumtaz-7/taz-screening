@@ -6291,12 +6291,15 @@
   "gainPct": 55.73,
   "rr": 4.9,
   "signalTime": 1787629500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787629529815,
   "fillTime": 1787629500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.9,
+  "resolvedTime": 1787751900000
  },
  {
   "id": "STXUSDT::BoS::1787634900000",
@@ -6697,7 +6700,12 @@
   "gainPct": 19.89,
   "rr": 1.36,
   "signalTime": 1787751900000,
-  "status": "pending",
-  "createdAt": 1787751934423
+  "status": "void",
+  "createdAt": 1787751934423,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787751900000,
+  "notified": [
+   "void"
+  ]
  }
 ]
