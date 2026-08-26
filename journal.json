@@ -6684,5 +6684,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONGUSDT::ChoCh::1787751900000",
+  "symbol": "ONGUSDT",
+  "setup": "ChoCh",
+  "entry": 0.10978,
+  "sl": 0.09369999999999999,
+  "tp": 0.13161,
+  "tpSrc": "WH",
+  "slPct": 14.65,
+  "gainPct": 19.89,
+  "rr": 1.36,
+  "signalTime": 1787751900000,
+  "status": "pending",
+  "createdAt": 1787751934423
  }
 ]
