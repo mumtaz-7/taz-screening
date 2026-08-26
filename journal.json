@@ -6722,5 +6722,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "EDENUSDT::BoS::1787764500000",
+  "symbol": "EDENUSDT",
+  "setup": "BoS",
+  "entry": 0.059,
+  "sl": 0.05525000000000001,
+  "tp": 0.07031,
+  "tpSrc": "WH",
+  "slPct": 6.36,
+  "gainPct": 19.17,
+  "rr": 3.02,
+  "signalTime": 1787764500000,
+  "status": "pending",
+  "createdAt": 1787764529162
  }
 ]
