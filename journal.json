@@ -6380,12 +6380,15 @@
   "gainPct": 10.55,
   "rr": 1.86,
   "signalTime": 1787663700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787663729190,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787664600000
+  "fillTime": 1787664600000,
+  "R": 1.86,
+  "resolvedTime": 1787753700000
  },
  {
   "id": "PYTHUSDT::ChoCh::1787669100000",
@@ -6624,12 +6627,15 @@
   "gainPct": 9.97,
   "rr": 2.15,
   "signalTime": 1787725800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787725833633,
   "fillTime": 1787725800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787753700000
  },
  {
   "id": "ONTUSDT::ChoCh::1787731200000",
