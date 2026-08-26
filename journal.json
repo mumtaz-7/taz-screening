@@ -6516,12 +6516,15 @@
   "gainPct": 22.53,
   "rr": 10.12,
   "signalTime": 1787706000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787706041375,
   "fillTime": 1787706000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787734800000
  },
  {
   "id": "AEROUSDT::ChoCh::1787711400000",
