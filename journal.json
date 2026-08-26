@@ -6497,9 +6497,12 @@
   "gainPct": 9.77,
   "rr": 1.64,
   "signalTime": 1787705100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787705127692,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "SUPERUSDT::ChoCh::1787706000000",
