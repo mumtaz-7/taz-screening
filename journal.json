@@ -6529,9 +6529,12 @@
   "gainPct": 9.21,
   "rr": 1.84,
   "signalTime": 1787711400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787711433426,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787713200000
  },
  {
   "id": "BANKUSDT::ChoCh::1787712300000",
