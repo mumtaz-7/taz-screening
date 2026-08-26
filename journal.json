@@ -6677,12 +6677,15 @@
   "gainPct": 9.29,
   "rr": 3.79,
   "signalTime": 1787745600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787745640272,
   "fillTime": 1787745600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.79,
+  "resolvedTime": 1787768100000
  },
  {
   "id": "JASMYUSDT::ChoCh::1787747400000",
