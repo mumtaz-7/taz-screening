@@ -6643,5 +6643,20 @@
   ],
   "R": -1,
   "resolvedTime": 1787738400000
+ },
+ {
+  "id": "HEIUSDT::BoS::1787745600000",
+  "symbol": "HEIUSDT",
+  "setup": "BoS",
+  "entry": 0.1345,
+  "sl": 0.13119999999999998,
+  "tp": 0.147,
+  "tpSrc": "WH",
+  "slPct": 2.45,
+  "gainPct": 9.29,
+  "rr": 3.79,
+  "signalTime": 1787745600000,
+  "status": "pending",
+  "createdAt": 1787745640272
  }
 ]
