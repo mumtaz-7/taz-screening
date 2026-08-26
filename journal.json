@@ -6481,5 +6481,20 @@
   "fillTime": 1787689800000,
   "R": -1,
   "resolvedTime": 1787691600000
+ },
+ {
+  "id": "STXUSDT::BoS::1787705100000",
+  "symbol": "STXUSDT",
+  "setup": "BoS",
+  "entry": 0.2642,
+  "sl": 0.24844999999999998,
+  "tp": 0.29,
+  "tpSrc": "WH",
+  "slPct": 5.96,
+  "gainPct": 9.77,
+  "rr": 1.64,
+  "signalTime": 1787705100000,
+  "status": "pending",
+  "createdAt": 1787705127692
  }
 ]
