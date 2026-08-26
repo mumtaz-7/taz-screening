@@ -5127,12 +5127,15 @@
   "gainPct": 15.69,
   "rr": 3.53,
   "signalTime": 1787439600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787439639607,
   "fillTime": 1787439600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.53,
+  "resolvedTime": 1787783400000
  },
  {
   "id": "SCUSDT::BoS::1787444100000",
