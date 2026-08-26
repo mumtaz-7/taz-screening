@@ -6431,12 +6431,15 @@
   "gainPct": 19.17,
   "rr": 2.06,
   "signalTime": 1787683500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787683529857,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787688000000
+  "fillTime": 1787688000000,
+  "R": -1,
+  "resolvedTime": 1787721300000
  },
  {
   "id": "PENGUUSDT::ChoCh::1787688900000",
@@ -6570,5 +6573,20 @@
   "status": "pending",
   "createdAt": 1787718632548,
   "notified": []
+ },
+ {
+  "id": "PORTALUSDT::BoS::1787722200000",
+  "symbol": "PORTALUSDT",
+  "setup": "BoS",
+  "entry": 0.01646,
+  "sl": 0.013309999999999999,
+  "tp": 0.02055,
+  "tpSrc": "WH",
+  "slPct": 19.14,
+  "gainPct": 24.85,
+  "rr": 1.3,
+  "signalTime": 1787722200000,
+  "status": "pending",
+  "createdAt": 1787722233260
  }
 ]
