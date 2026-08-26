@@ -5383,12 +5383,15 @@
   "gainPct": 42.75,
   "rr": 9.33,
   "signalTime": 1787474700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787474727716,
   "fillTime": 1787474700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787754600000
  },
  {
   "id": "INJUSDT::ChoCh::1787480100000",
