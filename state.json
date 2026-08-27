@@ -1,6 +1,7 @@
 {
   "ready": [
-    "BICOUSDT::ChoCh"
+    "BICOUSDT::ChoCh",
+    "HEMIUSDT::BoS"
   ],
-  "at": "2026-08-27T11:30:32.223Z"
+  "at": "2026-08-27T11:45:29.123Z"
 }
