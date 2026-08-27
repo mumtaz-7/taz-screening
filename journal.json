@@ -5472,12 +5472,15 @@
   "gainPct": 11.34,
   "rr": 1.95,
   "signalTime": 1787481900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787481927735,
   "fillTime": 1787481900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.95,
+  "resolvedTime": 1787817600000
  },
  {
   "id": "ASTERUSDT::BoS::1787487300000",
@@ -6867,5 +6870,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FIDAUSDT::ChoCh::1787818500000",
+  "symbol": "FIDAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01971,
+  "sl": 0.019365,
+  "tp": 0.02175,
+  "tpSrc": "WH",
+  "slPct": 1.75,
+  "gainPct": 10.35,
+  "rr": 5.91,
+  "signalTime": 1787818500000,
+  "status": "pending",
+  "createdAt": 1787818528640
  }
 ]
