@@ -7009,9 +7009,12 @@
   "gainPct": 7.73,
   "rr": 1.96,
   "signalTime": 1787868000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787868041734,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787871600000
  },
  {
   "id": "ONTUSDT::BoS::1787868900000",
