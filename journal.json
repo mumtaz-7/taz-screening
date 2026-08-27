@@ -6826,12 +6826,15 @@
   "gainPct": 20.05,
   "rr": 2.08,
   "signalTime": 1787781600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787781640351,
   "fillTime": 1787781600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.08,
+  "resolvedTime": 1787831100000
  },
  {
   "id": "SPKUSDT::BoS::1787786100000",
@@ -6867,12 +6870,15 @@
   "gainPct": 17.78,
   "rr": 1.77,
   "signalTime": 1787812200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787812233658,
   "fillTime": 1787812200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.77,
+  "resolvedTime": 1787831100000
  },
  {
   "id": "FIDAUSDT::ChoCh::1787818500000",
