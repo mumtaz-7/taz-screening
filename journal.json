@@ -7026,6 +7026,22 @@
   "rr": 10.03,
   "signalTime": 1787868900000,
   "status": "pending",
-  "createdAt": 1787868930574
+  "createdAt": 1787868930574,
+  "notified": []
+ },
+ {
+  "id": "BICOUSDT::ChoCh::1787869800000",
+  "symbol": "BICOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02626,
+  "sl": 0.023575,
+  "tp": 0.03196,
+  "tpSrc": "WH",
+  "slPct": 10.22,
+  "gainPct": 21.71,
+  "rr": 2.12,
+  "signalTime": 1787869800000,
+  "status": "pending",
+  "createdAt": 1787869834210
  }
 ]
