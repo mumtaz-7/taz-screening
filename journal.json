@@ -6764,12 +6764,15 @@
   "gainPct": 12.54,
   "rr": 4.25,
   "signalTime": 1787766300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787766328988,
   "fillTime": 1787766300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.25,
+  "resolvedTime": 1787821200000
  },
  {
   "id": "ONTUSDT::ChoCh::1787769900000",
