@@ -6917,5 +6917,20 @@
    "open"
   ],
   "fillTime": 1787830200000
+ },
+ {
+  "id": "HEIUSDT::ChoCh::1787836500000",
+  "symbol": "HEIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1453,
+  "sl": 0.13539999999999996,
+  "tp": 0.1693,
+  "tpSrc": "WH",
+  "slPct": 6.81,
+  "gainPct": 16.52,
+  "rr": 2.42,
+  "signalTime": 1787836500000,
+  "status": "pending",
+  "createdAt": 1787836528477
  }
 ]
