@@ -6848,5 +6848,20 @@
   "fillTime": 1787788800000,
   "R": -1,
   "resolvedTime": 1787793300000
+ },
+ {
+  "id": "HEMIUSDT::ChoCh::1787812200000",
+  "symbol": "HEMIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00793,
+  "sl": 0.007135000000000001,
+  "tp": 0.00934,
+  "tpSrc": "OB",
+  "slPct": 10.03,
+  "gainPct": 17.78,
+  "rr": 1.77,
+  "signalTime": 1787812200000,
+  "status": "pending",
+  "createdAt": 1787812233658
  }
 ]
