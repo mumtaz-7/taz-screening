@@ -6971,12 +6971,15 @@
   "gainPct": 100.23,
   "rr": 11.66,
   "signalTime": 1787853600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787853641724,
   "fillTime": 1787853600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787884200000
  },
  {
   "id": "WLFIUSDT::BoS::1787859000000",
