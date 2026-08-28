@@ -7015,12 +7015,15 @@
   "gainPct": 7.73,
   "rr": 1.96,
   "signalTime": 1787868000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787868041734,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787871600000
+  "fillTime": 1787871600000,
+  "R": -1,
+  "resolvedTime": 1787909400000
  },
  {
   "id": "ONTUSDT::BoS::1787868900000",
