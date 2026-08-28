@@ -7306,5 +7306,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "DASHUSDT::ChoCh::1787928300000",
+  "symbol": "DASHUSDT",
+  "setup": "ChoCh",
+  "entry": 38.94,
+  "sl": 37.635000000000005,
+  "tp": 43.14,
+  "tpSrc": "OB",
+  "slPct": 3.35,
+  "gainPct": 10.79,
+  "rr": 3.22,
+  "signalTime": 1787928300000,
+  "status": "pending",
+  "createdAt": 1787928331652
  }
 ]
