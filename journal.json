@@ -6014,12 +6014,15 @@
   "gainPct": 10.24,
   "rr": 3.49,
   "signalTime": 1787565600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787565640230,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787567400000
+  "fillTime": 1787567400000,
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "PENDLEUSDT::BoS::1787585400000",
@@ -6587,12 +6590,15 @@
   "gainPct": 8.36,
   "rr": 2.5,
   "signalTime": 1787712300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787712328205,
   "fillTime": 1787712300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "ZROUSDT::ChoCh::1787718600000",
@@ -6714,12 +6720,15 @@
   "gainPct": 12.55,
   "rr": 2.86,
   "signalTime": 1787747400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787747434688,
   "fillTime": 1787747400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "ONGUSDT::ChoCh::1787751900000",
@@ -7008,12 +7017,15 @@
   "gainPct": 12.5,
   "rr": 2.5,
   "signalTime": 1787859000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787859033507,
   "fillTime": 1787859000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "SPKUSDT::ChoCh::1787868000000",
@@ -7306,12 +7318,15 @@
   "gainPct": 8.94,
   "rr": 1.5,
   "signalTime": 1787925600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787925641580,
   "fillTime": 1787925600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "DASHUSDT::ChoCh::1787928300000",
