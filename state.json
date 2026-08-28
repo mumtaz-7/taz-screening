@@ -1,8 +1,8 @@
 {
   "ready": [
+    "EDENUSDT::ChoCh",
     "ENAUSDT::BoS",
-    "ONGUSDT::ChoCh",
-    "WLFIUSDT::ChoCh"
+    "ONGUSDT::ChoCh"
   ],
-  "at": "2026-08-28T02:00:39.103Z"
+  "at": "2026-08-28T02:15:29.030Z"
 }
