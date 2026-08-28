@@ -7072,12 +7072,15 @@
   "gainPct": 8.66,
   "rr": 5.46,
   "signalTime": 1787875200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787875242699,
   "fillTime": 1787875200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787885100000
  },
  {
   "id": "WLFIUSDT::ChoCh::1787877900000",
@@ -7132,9 +7135,12 @@
   "gainPct": 10.02,
   "rr": 2.68,
   "signalTime": 1787881500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787881527612,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787885100000
  },
  {
   "id": "EDENUSDT::ChoCh::1787883300000",
