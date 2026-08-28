@@ -7135,12 +7135,15 @@
   "gainPct": 10.02,
   "rr": 2.68,
   "signalTime": 1787881500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787881527612,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787885100000
+  "fillTime": 1787885100000,
+  "R": -1,
+  "resolvedTime": 1787886000000
  },
  {
   "id": "EDENUSDT::ChoCh::1787883300000",
@@ -7160,5 +7163,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BICOUSDT::BoS::1787887800000",
+  "symbol": "BICOUSDT",
+  "setup": "BoS",
+  "entry": 0.027,
+  "sl": 0.023535,
+  "tp": 0.03196,
+  "tpSrc": "WH",
+  "slPct": 12.83,
+  "gainPct": 18.37,
+  "rr": 1.43,
+  "signalTime": 1787887800000,
+  "status": "pending",
+  "createdAt": 1787887833653
  }
 ]
