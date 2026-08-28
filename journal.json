@@ -7059,12 +7059,15 @@
   "gainPct": 21.71,
   "rr": 2.12,
   "signalTime": 1787869800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787869834210,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787870700000
+  "fillTime": 1787870700000,
+  "R": -1,
+  "resolvedTime": 1787915700000
  },
  {
   "id": "ICPUSDT::ChoCh::1787875200000",
@@ -7188,12 +7191,15 @@
   "gainPct": 18.37,
   "rr": 1.43,
   "signalTime": 1787887800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787887833653,
   "fillTime": 1787887800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787915700000
  },
  {
   "id": "PROMUSDT::ChoCh::1787895900000",
