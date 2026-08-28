@@ -7088,9 +7088,12 @@
   "gainPct": 11.94,
   "rr": 6.86,
   "signalTime": 1787877900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787877928924,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787883300000
  },
  {
   "id": "ZROUSDT::ChoCh::1787879700000",
@@ -7142,7 +7145,11 @@
   "gainPct": 19.48,
   "rr": 1.95,
   "signalTime": 1787883300000,
-  "status": "pending",
-  "createdAt": 1787883329031
+  "status": "open",
+  "createdAt": 1787883329031,
+  "fillTime": 1787883300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
