@@ -7281,5 +7281,20 @@
    "open"
   ],
   "fillTime": 1787922000000
+ },
+ {
+  "id": "VETUSDT::ChoCh::1787925600000",
+  "symbol": "VETUSDT",
+  "setup": "ChoCh",
+  "entry": 0.007002,
+  "sl": 0.006585,
+  "tp": 0.007628,
+  "tpSrc": "WH",
+  "slPct": 5.96,
+  "gainPct": 8.94,
+  "rr": 1.5,
+  "signalTime": 1787925600000,
+  "status": "pending",
+  "createdAt": 1787925641580
  }
 ]
