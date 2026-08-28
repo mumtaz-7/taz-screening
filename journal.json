@@ -5838,12 +5838,15 @@
   "gainPct": 10.01,
   "rr": 3.82,
   "signalTime": 1787545800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787545833618,
   "fillTime": 1787545800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787932800000
  },
  {
   "id": "REUSDT::ChoCh::1787546700000",
@@ -6562,12 +6565,15 @@
   "gainPct": 9.21,
   "rr": 1.84,
   "signalTime": 1787711400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787711433426,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787713200000
+  "fillTime": 1787713200000,
+  "R": -1,
+  "resolvedTime": 1787932800000
  },
  {
   "id": "BANKUSDT::ChoCh::1787712300000",
@@ -7319,12 +7325,15 @@
   "gainPct": 10.79,
   "rr": 3.22,
   "signalTime": 1787928300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787928331652,
   "fillTime": 1787928300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787932800000
  },
  {
   "id": "ENAUSDT::ChoCh::1787931000000",
