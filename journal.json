@@ -7104,12 +7104,15 @@
   "gainPct": 12.56,
   "rr": 4.35,
   "signalTime": 1787879700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787879731117,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787880600000
+  "fillTime": 1787880600000,
+  "R": -1,
+  "resolvedTime": 1787881500000
  },
  {
   "id": "ENAUSDT::BoS::1787881500000",
@@ -7124,6 +7127,7 @@
   "rr": 2.68,
   "signalTime": 1787881500000,
   "status": "pending",
-  "createdAt": 1787881527612
+  "createdAt": 1787881527612,
+  "notified": []
  }
 ]
