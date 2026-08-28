@@ -7053,5 +7053,20 @@
    "open"
   ],
   "fillTime": 1787870700000
+ },
+ {
+  "id": "ICPUSDT::ChoCh::1787875200000",
+  "symbol": "ICPUSDT",
+  "setup": "ChoCh",
+  "entry": 2.459,
+  "sl": 2.42,
+  "tp": 2.672,
+  "tpSrc": "OB",
+  "slPct": 1.59,
+  "gainPct": 8.66,
+  "rr": 5.46,
+  "signalTime": 1787875200000,
+  "status": "pending",
+  "createdAt": 1787875242699
  }
 ]
