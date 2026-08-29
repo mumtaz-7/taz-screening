@@ -1,8 +1,7 @@
 {
   "ready": [
     "DASHUSDT::ChoCh",
-    "HEMIUSDT::ChoCh",
-    "ICPUSDT::ChoCh"
+    "HEMIUSDT::ChoCh"
   ],
-  "at": "2026-08-29T04:00:42.474Z"
+  "at": "2026-08-29T04:15:27.407Z"
 }
