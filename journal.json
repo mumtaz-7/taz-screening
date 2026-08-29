@@ -7485,5 +7485,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ENAUSDT::BoS::1787980500000",
+  "symbol": "ENAUSDT",
+  "setup": "BoS",
+  "entry": 0.164,
+  "sl": 0.1553,
+  "tp": 0.1852,
+  "tpSrc": "OB",
+  "slPct": 5.3,
+  "gainPct": 12.93,
+  "rr": 2.44,
+  "signalTime": 1787980500000,
+  "status": "pending",
+  "createdAt": 1787980529621
  }
 ]
