@@ -7532,9 +7532,12 @@
   "gainPct": 15.25,
   "rr": 2.84,
   "signalTime": 1787985000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787985037439,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788003900000
  },
  {
   "id": "TSTUSDT::ChoCh::1787993100000",
