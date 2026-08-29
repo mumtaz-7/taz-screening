@@ -7463,12 +7463,15 @@
   "gainPct": 17.47,
   "rr": 2.82,
   "signalTime": 1787973300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787973330106,
   "fillTime": 1787973300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787985900000
  },
  {
   "id": "DASHUSDT::ChoCh::1787975100000",
