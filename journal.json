@@ -7428,5 +7428,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ICPUSDT::ChoCh::1787971500000",
+  "symbol": "ICPUSDT",
+  "setup": "ChoCh",
+  "entry": 2.402,
+  "sl": 2.3705,
+  "tp": 2.672,
+  "tpSrc": "OB",
+  "slPct": 1.31,
+  "gainPct": 11.24,
+  "rr": 8.57,
+  "signalTime": 1787971500000,
+  "status": "pending",
+  "createdAt": 1787971527216
  }
 ]
