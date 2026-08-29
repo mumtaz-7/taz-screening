@@ -7573,5 +7573,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PUMPUSDT::ChoCh::1788000300000",
+  "symbol": "PUMPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.004667,
+  "sl": 0.0045185,
+  "tp": 0.005037,
+  "tpSrc": "WH",
+  "slPct": 3.18,
+  "gainPct": 7.93,
+  "rr": 2.49,
+  "signalTime": 1788000300000,
+  "status": "pending",
+  "createdAt": 1788000329650
  }
 ]
