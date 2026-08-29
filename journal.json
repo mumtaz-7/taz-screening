@@ -7441,8 +7441,26 @@
   "gainPct": 11.24,
   "rr": 8.57,
   "signalTime": 1787971500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787971527216,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787972400000
+ },
+ {
+  "id": "HEMIUSDT::ChoCh::1787973300000",
+  "symbol": "HEMIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01185,
+  "sl": 0.011115,
+  "tp": 0.01392,
+  "tpSrc": "WH",
+  "slPct": 6.2,
+  "gainPct": 17.47,
+  "rr": 2.82,
+  "signalTime": 1787973300000,
+  "status": "pending",
+  "createdAt": 1787973330106
  }
 ]
