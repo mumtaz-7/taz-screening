@@ -7678,12 +7678,15 @@
   "gainPct": 28.86,
   "rr": 11.28,
   "signalTime": 1788039000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788039034172,
   "fillTime": 1788039000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788052500000
  },
  {
   "id": "ZKPUSDT::BoS::1788041700000",
