@@ -7755,12 +7755,15 @@
   "gainPct": 9.71,
   "rr": 3.18,
   "signalTime": 1788059700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788059728899,
   "fillTime": 1788059700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.18,
+  "resolvedTime": 1788069600000
  },
  {
   "id": "ROBOUSDT::ChoCh::1788061500000",
