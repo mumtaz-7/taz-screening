@@ -5152,12 +5152,15 @@
   "gainPct": 24.67,
   "rr": 1.26,
   "signalTime": 1787444100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787444129119,
   "fillTime": 1787444100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788132600000
  },
  {
   "id": "ALGOUSDT::ChoCh::1787445000000",
@@ -7928,11 +7931,14 @@
   "gainPct": 14.82,
   "rr": 4.33,
   "signalTime": 1788114600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788114636803,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788121800000
+  "fillTime": 1788121800000,
+  "R": -1,
+  "resolvedTime": 1788132600000
  }
 ]
