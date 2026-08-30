@@ -7305,12 +7305,15 @@
   "gainPct": 10.97,
   "rr": 2.18,
   "signalTime": 1787913900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787913931006,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787922000000
+  "fillTime": 1787922000000,
+  "R": -1,
+  "resolvedTime": 1788130800000
  },
  {
   "id": "VETUSDT::ChoCh::1787925600000",
