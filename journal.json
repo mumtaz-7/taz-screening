@@ -7761,5 +7761,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ROBOUSDT::ChoCh::1788061500000",
+  "symbol": "ROBOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01308,
+  "sl": 0.012705,
+  "tp": 0.0141,
+  "tpSrc": "EQ",
+  "slPct": 2.87,
+  "gainPct": 7.8,
+  "rr": 2.72,
+  "signalTime": 1788061500000,
+  "status": "pending",
+  "createdAt": 1788061527497
+ },
+ {
+  "id": "XPLUSDT::ChoCh::1788061500000",
+  "symbol": "XPLUSDT",
+  "setup": "ChoCh",
+  "entry": 0.08743,
+  "sl": 0.08513500000000002,
+  "tp": 0.09378,
+  "tpSrc": "OB",
+  "slPct": 2.62,
+  "gainPct": 7.26,
+  "rr": 2.77,
+  "signalTime": 1788061500000,
+  "status": "pending",
+  "createdAt": 1788061527497
  }
 ]
