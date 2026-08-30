@@ -7694,9 +7694,13 @@
   "gainPct": 11.96,
   "rr": 2.76,
   "signalTime": 1788041700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788041729596,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788050700000
  },
  {
   "id": "HOMEUSDT::ChoCh::1788047100000",
