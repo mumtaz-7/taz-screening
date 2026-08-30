@@ -7824,5 +7824,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZKPUSDT::ChoCh::1788082200000",
+  "symbol": "ZKPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.056,
+  "sl": 0.051199999999999996,
+  "tp": 0.062,
+  "tpSrc": "WH",
+  "slPct": 8.57,
+  "gainPct": 10.71,
+  "rr": 1.25,
+  "signalTime": 1788082200000,
+  "status": "pending",
+  "createdAt": 1788082236085
  }
 ]
