@@ -7866,5 +7866,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CHIPUSDT::BoS::1788100200000",
+  "symbol": "CHIPUSDT",
+  "setup": "BoS",
+  "entry": 0.04174,
+  "sl": 0.03924999999999999,
+  "tp": 0.04618,
+  "tpSrc": "OB",
+  "slPct": 5.97,
+  "gainPct": 10.64,
+  "rr": 1.78,
+  "signalTime": 1788100200000,
+  "status": "pending",
+  "createdAt": 1788100233228
  }
 ]
