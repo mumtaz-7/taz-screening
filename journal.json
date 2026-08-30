@@ -7491,12 +7491,15 @@
   "gainPct": 10.19,
   "rr": 1.81,
   "signalTime": 1787975100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787975126779,
   "fillTime": 1787975100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.81,
+  "resolvedTime": 1788109200000
  },
  {
   "id": "ENAUSDT::BoS::1787980500000",
