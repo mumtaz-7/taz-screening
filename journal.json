@@ -7371,12 +7371,15 @@
   "gainPct": 12.3,
   "rr": 1.32,
   "signalTime": 1787931000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787931037835,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787931900000
+  "fillTime": 1787931900000,
+  "R": -1,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "PROMUSDT::ChoCh::1787946300000",
@@ -7456,12 +7459,15 @@
   "gainPct": 11.24,
   "rr": 8.57,
   "signalTime": 1787971500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787971527216,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787972400000
+  "fillTime": 1787972400000,
+  "R": -1,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "HEMIUSDT::ChoCh::1787973300000",
@@ -7792,12 +7798,15 @@
   "gainPct": 7.8,
   "rr": 2.72,
   "signalTime": 1788061500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788061527497,
   "fillTime": 1788061500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "XPLUSDT::ChoCh::1788061500000",
@@ -7811,12 +7820,15 @@
   "gainPct": 7.26,
   "rr": 2.77,
   "signalTime": 1788061500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788061527497,
   "fillTime": 1788061500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "NILUSDT::ChoCh::1788074100000",
