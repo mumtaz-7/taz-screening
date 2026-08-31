@@ -7968,5 +7968,20 @@
    "open"
   ],
   "fillTime": 1788144300000
+ },
+ {
+  "id": "MIRAUSDT::ChoCh::1788155100000",
+  "symbol": "MIRAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.04614,
+  "sl": 0.041565000000000005,
+  "tp": 0.05097,
+  "tpSrc": "WH",
+  "slPct": 9.92,
+  "gainPct": 10.47,
+  "rr": 1.06,
+  "signalTime": 1788155100000,
+  "status": "pending",
+  "createdAt": 1788155129243
  }
 ]
