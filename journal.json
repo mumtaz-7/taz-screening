@@ -6963,12 +6963,15 @@
   "gainPct": 16.52,
   "rr": 2.42,
   "signalTime": 1787836500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787836528477,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787847300000
+  "fillTime": 1787847300000,
+  "R": -1,
+  "resolvedTime": 1788133500000
  },
  {
   "id": "ONGUSDT::ChoCh::1787839200000",
@@ -7594,12 +7597,15 @@
   "gainPct": 10.7,
   "rr": 1.2,
   "signalTime": 1787994900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787994930559,
   "fillTime": 1787994900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788133500000
  },
  {
   "id": "PUMPUSDT::ChoCh::1788000300000",
