@@ -8087,5 +8087,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "UNIUSDT::BoS::1788245100000",
+  "symbol": "UNIUSDT",
+  "setup": "BoS",
+  "entry": 5.443,
+  "sl": 5.071000000000001,
+  "tp": 5.92,
+  "tpSrc": "WH",
+  "slPct": 6.83,
+  "gainPct": 8.76,
+  "rr": 1.28,
+  "signalTime": 1788245100000,
+  "status": "pending",
+  "createdAt": 1788245130444
  }
 ]
