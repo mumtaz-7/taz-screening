@@ -8062,7 +8062,11 @@
   "gainPct": 11.04,
   "rr": 2.37,
   "signalTime": 1788236100000,
-  "status": "pending",
-  "createdAt": 1788236128790
+  "status": "open",
+  "createdAt": 1788236128790,
+  "fillTime": 1788236100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
