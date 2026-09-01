@@ -8004,12 +8004,15 @@
   "gainPct": 7.17,
   "rr": 1.99,
   "signalTime": 1788157800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788157839428,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788166800000
+  "fillTime": 1788166800000,
+  "R": -1,
+  "resolvedTime": 1788250500000
  },
  {
   "id": "MIRAUSDT::ChoCh::1788185700000",
