@@ -8062,12 +8062,15 @@
   "gainPct": 11.04,
   "rr": 2.37,
   "signalTime": 1788236100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788236128790,
   "fillTime": 1788236100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.37,
+  "resolvedTime": 1788246000000
  },
  {
   "id": "ZKUSDT::ChoCh::1788238800000",
