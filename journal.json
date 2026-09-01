@@ -8109,5 +8109,20 @@
   "status": "pending",
   "createdAt": 1788245130444,
   "notified": []
+ },
+ {
+  "id": "SCUSDT::BoS::1788255000000",
+  "symbol": "SCUSDT",
+  "setup": "BoS",
+  "entry": 0.000847,
+  "sl": 0.0006789999999999999,
+  "tp": 0.001099,
+  "tpSrc": "WH",
+  "slPct": 19.83,
+  "gainPct": 29.75,
+  "rr": 1.5,
+  "signalTime": 1788255000000,
+  "status": "pending",
+  "createdAt": 1788255034751
  }
 ]
