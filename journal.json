@@ -5500,7 +5500,7 @@
   "gainPct": 16.67,
   "rr": 6.17,
   "signalTime": 1787487300000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1787487327882,
   "fillTime": 1787487300000,
   "notified": [
@@ -8026,12 +8026,15 @@
   "gainPct": 10.01,
   "rr": 2.13,
   "signalTime": 1788185700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788185734157,
   "fillTime": 1788185700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788264000000
  },
  {
   "id": "0GUSDT::BoS::1788196500000",
