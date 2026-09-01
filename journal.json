@@ -8193,5 +8193,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ARBUSDT::ChoCh::1788306300000",
+  "symbol": "ARBUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1091,
+  "sl": 0.10400000000000001,
+  "tp": 0.1202,
+  "tpSrc": "WH",
+  "slPct": 4.67,
+  "gainPct": 10.17,
+  "rr": 2.18,
+  "signalTime": 1788306300000,
+  "status": "pending",
+  "createdAt": 1788306332863
  }
 ]
