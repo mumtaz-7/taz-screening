@@ -8298,5 +8298,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "TUSDT::BoS::1788348600000",
+  "symbol": "TUSDT",
+  "setup": "BoS",
+  "entry": 0.00495,
+  "sl": 0.0038549999999999995,
+  "tp": 0.00614,
+  "tpSrc": "WH",
+  "slPct": 22.12,
+  "gainPct": 24.04,
+  "rr": 1.09,
+  "signalTime": 1788348600000,
+  "status": "pending",
+  "createdAt": 1788348635262
  }
 ]
