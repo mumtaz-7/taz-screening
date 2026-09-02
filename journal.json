@@ -8422,8 +8422,12 @@
   "gainPct": 9.43,
   "rr": 1.69,
   "signalTime": 1788390900000,
-  "status": "pending",
-  "createdAt": 1788390930303
+  "status": "open",
+  "createdAt": 1788390930303,
+  "fillTime": 1788390900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "LAUSDT::ChoCh::1788390900000",
@@ -8438,6 +8442,7 @@
   "rr": 1.09,
   "signalTime": 1788390900000,
   "status": "pending",
-  "createdAt": 1788390930303
+  "createdAt": 1788390930303,
+  "notified": []
  }
 ]
