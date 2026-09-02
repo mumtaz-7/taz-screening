@@ -8359,9 +8359,12 @@
   "gainPct": 15.78,
   "rr": 1.85,
   "signalTime": 1788366600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788366639463,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788373800000
  },
  {
   "id": "ACEUSDT::ChoCh::1788372000000",
@@ -8395,6 +8398,7 @@
   "rr": 12.68,
   "signalTime": 1788373800000,
   "status": "pending",
-  "createdAt": 1788373838147
+  "createdAt": 1788373838147,
+  "notified": []
  }
 ]
