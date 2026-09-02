@@ -8409,5 +8409,35 @@
   "fillTime": 1788375600000,
   "R": -1,
   "resolvedTime": 1788386400000
+ },
+ {
+  "id": "CHIPUSDT::ChoCh::1788390900000",
+  "symbol": "CHIPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.04274,
+  "sl": 0.040355,
+  "tp": 0.04677,
+  "tpSrc": "WH",
+  "slPct": 5.58,
+  "gainPct": 9.43,
+  "rr": 1.69,
+  "signalTime": 1788390900000,
+  "status": "pending",
+  "createdAt": 1788390930303
+ },
+ {
+  "id": "LAUSDT::ChoCh::1788390900000",
+  "symbol": "LAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0651,
+  "sl": 0.05925,
+  "tp": 0.0715,
+  "tpSrc": "WH",
+  "slPct": 8.99,
+  "gainPct": 9.83,
+  "rr": 1.09,
+  "signalTime": 1788390900000,
+  "status": "pending",
+  "createdAt": 1788390930303
  }
 ]
