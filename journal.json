@@ -8324,5 +8324,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1788351300000
+ },
+ {
+  "id": "0GUSDT::ChoCh::1788363900000",
+  "symbol": "0GUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1834,
+  "sl": 0.17874999999999996,
+  "tp": 0.20905,
+  "tpSrc": "EQ",
+  "slPct": 2.54,
+  "gainPct": 13.99,
+  "rr": 5.52,
+  "signalTime": 1788363900000,
+  "status": "pending",
+  "createdAt": 1788363930594
  }
 ]
