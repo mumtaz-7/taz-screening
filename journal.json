@@ -8256,5 +8256,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "0GUSDT::ChoCh::1788337800000",
+  "symbol": "0GUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1906,
+  "sl": 0.1795,
+  "tp": 0.20905,
+  "tpSrc": "EQ",
+  "slPct": 5.82,
+  "gainPct": 9.68,
+  "rr": 1.66,
+  "signalTime": 1788337800000,
+  "status": "pending",
+  "createdAt": 1788337840417
  }
 ]
