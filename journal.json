@@ -8343,5 +8343,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HEMIUSDT::ChoCh::1788366600000",
+  "symbol": "HEMIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01458,
+  "sl": 0.013335,
+  "tp": 0.01688,
+  "tpSrc": "EQ",
+  "slPct": 8.54,
+  "gainPct": 15.78,
+  "rr": 1.85,
+  "signalTime": 1788366600000,
+  "status": "pending",
+  "createdAt": 1788366639463
  }
 ]
