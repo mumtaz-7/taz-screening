@@ -8212,12 +8212,15 @@
   "gainPct": 10.17,
   "rr": 2.18,
   "signalTime": 1788306300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788306332863,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788308100000
+  "fillTime": 1788308100000,
+  "R": 2.18,
+  "resolvedTime": 1788366600000
  },
  {
   "id": "ENAUSDT::ChoCh::1788319800000",
@@ -8357,6 +8360,7 @@
   "rr": 1.85,
   "signalTime": 1788366600000,
   "status": "pending",
-  "createdAt": 1788366639463
+  "createdAt": 1788366639463,
+  "notified": []
  }
 ]
