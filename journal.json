@@ -8231,12 +8231,15 @@
   "gainPct": 15.39,
   "rr": 3.11,
   "signalTime": 1788319800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788319834468,
   "fillTime": 1788319800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788343200000
  },
  {
   "id": "IQUSDT::ChoCh::1788325200000",
@@ -8275,5 +8278,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "LAUSDT::ChoCh::1788344100000",
+  "symbol": "LAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.064,
+  "sl": 0.061450000000000005,
+  "tp": 0.0689,
+  "tpSrc": "WH",
+  "slPct": 3.98,
+  "gainPct": 7.66,
+  "rr": 1.92,
+  "signalTime": 1788344100000,
+  "status": "pending",
+  "createdAt": 1788344130533
  }
 ]
