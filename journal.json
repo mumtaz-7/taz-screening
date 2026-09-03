@@ -8425,12 +8425,15 @@
   "gainPct": 9.43,
   "rr": 1.69,
   "signalTime": 1788390900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788390930303,
   "fillTime": 1788390900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.69,
+  "resolvedTime": 1788417000000
  },
  {
   "id": "LAUSDT::ChoCh::1788390900000",
@@ -8463,12 +8466,15 @@
   "gainPct": 8.87,
   "rr": 1.4,
   "signalTime": 1788399900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788399931327,
   "fillTime": 1788399900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.4,
+  "resolvedTime": 1788417000000
  },
  {
   "id": "NEARUSDT::BoS::1788403500000",
