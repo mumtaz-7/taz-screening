@@ -8510,5 +8510,20 @@
   "status": "pending",
   "createdAt": 1788413433934,
   "notified": []
+ },
+ {
+  "id": "CHIPUSDT::BoS::1788418800000",
+  "symbol": "CHIPUSDT",
+  "setup": "BoS",
+  "entry": 0.04441,
+  "sl": 0.04345,
+  "tp": 0.04785,
+  "tpSrc": "WH",
+  "slPct": 2.16,
+  "gainPct": 7.75,
+  "rr": 3.58,
+  "signalTime": 1788418800000,
+  "status": "pending",
+  "createdAt": 1788418838363
  }
 ]
