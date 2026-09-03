@@ -8536,5 +8536,35 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ACEUSDT::ChoCh::1788439500000",
+  "symbol": "ACEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1845,
+  "sl": 0.17865000000000003,
+  "tp": 0.20350000000000001,
+  "tpSrc": "EQ",
+  "slPct": 3.17,
+  "gainPct": 10.3,
+  "rr": 3.25,
+  "signalTime": 1788439500000,
+  "status": "pending",
+  "createdAt": 1788439538964
+ },
+ {
+  "id": "TUSDT::ChoCh::1788439500000",
+  "symbol": "TUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00465,
+  "sl": 0.004275000000000001,
+  "tp": 0.0062,
+  "tpSrc": "WH",
+  "slPct": 8.06,
+  "gainPct": 33.33,
+  "rr": 4.13,
+  "signalTime": 1788439500000,
+  "status": "pending",
+  "createdAt": 1788439538964
  }
 ]
