@@ -8488,5 +8488,20 @@
    "open"
   ],
   "fillTime": 1788408900000
+ },
+ {
+  "id": "ARUSDT::BoS::1788413400000",
+  "symbol": "ARUSDT",
+  "setup": "BoS",
+  "entry": 2.475,
+  "sl": 2.3459999999999996,
+  "tp": 2.658,
+  "tpSrc": "WH",
+  "slPct": 5.21,
+  "gainPct": 7.39,
+  "rr": 1.42,
+  "signalTime": 1788413400000,
+  "status": "pending",
+  "createdAt": 1788413433934
  }
 ]
