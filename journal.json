@@ -8466,5 +8466,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NEARUSDT::BoS::1788403500000",
+  "symbol": "NEARUSDT",
+  "setup": "BoS",
+  "entry": 1.89,
+  "sl": 1.8315000000000001,
+  "tp": 2.047,
+  "tpSrc": "WH",
+  "slPct": 3.1,
+  "gainPct": 8.31,
+  "rr": 2.68,
+  "signalTime": 1788403500000,
+  "status": "pending",
+  "createdAt": 1788403529556
  }
 ]

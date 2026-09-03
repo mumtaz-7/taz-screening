@@ -1,6 +1,7 @@
 {
   "ready": [
-    "CHIPUSDT::BoS"
+    "CHIPUSDT::BoS",
+    "NEARUSDT::BoS"
   ],
-  "at": "2026-09-03T02:30:31.094Z"
+  "at": "2026-09-03T02:45:29.555Z"
 }
