@@ -8447,5 +8447,20 @@
    "open"
   ],
   "fillTime": 1788393600000
+ },
+ {
+  "id": "CHIPUSDT::BoS::1788399900000",
+  "symbol": "CHIPUSDT",
+  "setup": "BoS",
+  "entry": 0.04296,
+  "sl": 0.040245,
+  "tp": 0.04677,
+  "tpSrc": "WH",
+  "slPct": 6.32,
+  "gainPct": 8.87,
+  "rr": 1.4,
+  "signalTime": 1788399900000,
+  "status": "pending",
+  "createdAt": 1788399931327
  }
 ]
