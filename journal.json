@@ -8574,5 +8574,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ETHFIUSDT::ChoCh::1788445800000",
+  "symbol": "ETHFIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.5681,
+  "sl": 0.5497999999999998,
+  "tp": 0.6098,
+  "tpSrc": "WH",
+  "slPct": 3.22,
+  "gainPct": 7.34,
+  "rr": 2.28,
+  "signalTime": 1788445800000,
+  "status": "pending",
+  "createdAt": 1788445840660
  }
 ]
