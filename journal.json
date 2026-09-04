@@ -8673,5 +8673,35 @@
   ],
   "R": -1,
   "resolvedTime": 1788472800000
+ },
+ {
+  "id": "EGLDUSDT::ChoCh::1788480900000",
+  "symbol": "EGLDUSDT",
+  "setup": "ChoCh",
+  "entry": 4.729,
+  "sl": 4.6225000000000005,
+  "tp": 5.5,
+  "tpSrc": "WH",
+  "slPct": 2.25,
+  "gainPct": 16.3,
+  "rr": 7.24,
+  "signalTime": 1788480900000,
+  "status": "pending",
+  "createdAt": 1788480935338
+ },
+ {
+  "id": "LPTUSDT::BoS::1788480900000",
+  "symbol": "LPTUSDT",
+  "setup": "BoS",
+  "entry": 1.413,
+  "sl": 1.38,
+  "tp": 1.62,
+  "tpSrc": "WH",
+  "slPct": 2.34,
+  "gainPct": 14.65,
+  "rr": 6.27,
+  "signalTime": 1788480900000,
+  "status": "pending",
+  "createdAt": 1788480935338
  }
 ]
