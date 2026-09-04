@@ -8730,5 +8730,20 @@
    "open"
   ],
   "fillTime": 1788494400000
+ },
+ {
+  "id": "PUMPUSDT::ChoCh::1788496200000",
+  "symbol": "PUMPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.004336,
+  "sl": 0.003928,
+  "tp": 0.004858,
+  "tpSrc": "OB",
+  "slPct": 9.41,
+  "gainPct": 12.04,
+  "rr": 1.28,
+  "signalTime": 1788496200000,
+  "status": "pending",
+  "createdAt": 1788496234658
  }
 ]
