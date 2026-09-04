@@ -8708,9 +8708,12 @@
   "gainPct": 14.65,
   "rr": 6.27,
   "signalTime": 1788480900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788480935338,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "HIVEUSDT::ChoCh::1788485400000",
