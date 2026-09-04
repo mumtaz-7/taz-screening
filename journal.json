@@ -8755,5 +8755,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EGLDUSDT::ChoCh::1788519600000",
+  "symbol": "EGLDUSDT",
+  "setup": "ChoCh",
+  "entry": 4.674,
+  "sl": 4.2945,
+  "tp": 5.5,
+  "tpSrc": "WH",
+  "slPct": 8.12,
+  "gainPct": 17.67,
+  "rr": 2.18,
+  "signalTime": 1788519600000,
+  "status": "pending",
+  "createdAt": 1788519640360
  }
 ]
