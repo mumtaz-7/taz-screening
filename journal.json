@@ -8711,5 +8711,20 @@
   "status": "pending",
   "createdAt": 1788480935338,
   "notified": []
+ },
+ {
+  "id": "HIVEUSDT::ChoCh::1788485400000",
+  "symbol": "HIVEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0462,
+  "sl": 0.045149999999999996,
+  "tp": 0.05015,
+  "tpSrc": "EQ",
+  "slPct": 2.27,
+  "gainPct": 8.55,
+  "rr": 3.76,
+  "signalTime": 1788485400000,
+  "status": "pending",
+  "createdAt": 1788485431753
  }
 ]
