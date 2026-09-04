@@ -8824,9 +8824,12 @@
   "gainPct": 17.11,
   "rr": 1.59,
   "signalTime": 1788538500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788538528303,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788545700000
  },
  {
   "id": "LPTUSDT::ChoCh::1788539400000",
@@ -8916,7 +8919,11 @@
   "gainPct": 8.22,
   "rr": 1.79,
   "signalTime": 1788545700000,
-  "status": "pending",
-  "createdAt": 1788545730061
+  "status": "open",
+  "createdAt": 1788545730061,
+  "fillTime": 1788545700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
