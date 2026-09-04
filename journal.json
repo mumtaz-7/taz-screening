@@ -8837,9 +8837,12 @@
   "gainPct": 12.11,
   "rr": 1.82,
   "signalTime": 1788539400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788539434825,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788542100000
  },
  {
   "id": "PUMPUSDT::BoS::1788539400000",
