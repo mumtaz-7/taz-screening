@@ -8925,5 +8925,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PYTHUSDT::BoS::1788547500000",
+  "symbol": "PYTHUSDT",
+  "setup": "BoS",
+  "entry": 0.05474,
+  "sl": 0.051544999999999994,
+  "tp": 0.05969,
+  "tpSrc": "WH",
+  "slPct": 5.84,
+  "gainPct": 9.04,
+  "rr": 1.55,
+  "signalTime": 1788547500000,
+  "status": "pending",
+  "createdAt": 1788547529455
  }
 ]
