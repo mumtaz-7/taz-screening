@@ -8686,12 +8686,15 @@
   "gainPct": 16.3,
   "rr": 7.24,
   "signalTime": 1788480900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788480935338,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788481800000
+  "fillTime": 1788481800000,
+  "R": -1,
+  "resolvedTime": 1788483600000
  },
  {
   "id": "LPTUSDT::BoS::1788480900000",
