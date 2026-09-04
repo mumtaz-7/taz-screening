@@ -8687,7 +8687,8 @@
   "rr": 7.24,
   "signalTime": 1788480900000,
   "status": "pending",
-  "createdAt": 1788480935338
+  "createdAt": 1788480935338,
+  "notified": []
  },
  {
   "id": "LPTUSDT::BoS::1788480900000",
@@ -8702,6 +8703,7 @@
   "rr": 6.27,
   "signalTime": 1788480900000,
   "status": "pending",
-  "createdAt": 1788480935338
+  "createdAt": 1788480935338,
+  "notified": []
  }
 ]
