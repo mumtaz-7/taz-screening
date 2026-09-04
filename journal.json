@@ -8743,7 +8743,11 @@
   "gainPct": 12.04,
   "rr": 1.28,
   "signalTime": 1788496200000,
-  "status": "pending",
-  "createdAt": 1788496234658
+  "status": "open",
+  "createdAt": 1788496234658,
+  "fillTime": 1788496200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
