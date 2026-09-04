@@ -8343,12 +8343,15 @@
   "gainPct": 13.99,
   "rr": 5.52,
   "signalTime": 1788363900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788363930594,
   "fillTime": 1788363900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 5.52,
+  "resolvedTime": 1788538500000
  },
  {
   "id": "HEMIUSDT::ChoCh::1788366600000",
@@ -8819,6 +8822,37 @@
   "rr": 1.59,
   "signalTime": 1788538500000,
   "status": "pending",
-  "createdAt": 1788538528303
+  "createdAt": 1788538528303,
+  "notified": []
+ },
+ {
+  "id": "LPTUSDT::ChoCh::1788539400000",
+  "symbol": "LPTUSDT",
+  "setup": "ChoCh",
+  "entry": 1.445,
+  "sl": 1.349,
+  "tp": 1.62,
+  "tpSrc": "WH",
+  "slPct": 6.64,
+  "gainPct": 12.11,
+  "rr": 1.82,
+  "signalTime": 1788539400000,
+  "status": "pending",
+  "createdAt": 1788539434825
+ },
+ {
+  "id": "PUMPUSDT::BoS::1788539400000",
+  "symbol": "PUMPUSDT",
+  "setup": "BoS",
+  "entry": 0.004333,
+  "sl": 0.004078,
+  "tp": 0.004858,
+  "tpSrc": "OB",
+  "slPct": 5.89,
+  "gainPct": 12.12,
+  "rr": 2.06,
+  "signalTime": 1788539400000,
+  "status": "pending",
+  "createdAt": 1788539434825
  }
 ]
