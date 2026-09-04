@@ -8494,12 +8494,15 @@
   "gainPct": 8.31,
   "rr": 2.68,
   "signalTime": 1788403500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788403529556,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788408900000
+  "fillTime": 1788408900000,
+  "R": 2.68,
+  "resolvedTime": 1788549300000
  },
  {
   "id": "ARUSDT::BoS::1788413400000",
