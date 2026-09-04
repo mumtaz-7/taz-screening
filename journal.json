@@ -8869,8 +8869,12 @@
   "gainPct": 12.54,
   "rr": 2.28,
   "signalTime": 1788540300000,
-  "status": "pending",
-  "createdAt": 1788540328741
+  "status": "open",
+  "createdAt": 1788540328741,
+  "fillTime": 1788540300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "PROMUSDT::ChoCh::1788540300000",
@@ -8884,7 +8888,11 @@
   "gainPct": 12.25,
   "rr": 2.88,
   "signalTime": 1788540300000,
-  "status": "pending",
-  "createdAt": 1788540328741
+  "status": "open",
+  "createdAt": 1788540328741,
+  "fillTime": 1788540300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
