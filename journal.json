@@ -9145,11 +9145,14 @@
   "gainPct": 8.17,
   "rr": 1.78,
   "signalTime": 1788614100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788614127103,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788615000000
+  "fillTime": 1788615000000,
+  "R": -1,
+  "resolvedTime": 1788615900000
  }
 ]
