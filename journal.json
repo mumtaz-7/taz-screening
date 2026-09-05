@@ -9064,9 +9064,13 @@
   "gainPct": 10.6,
   "rr": 1.8,
   "signalTime": 1788596100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788596164729,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788612300000
  },
  {
   "id": "ENJUSDT::ChoCh::1788598800000",
@@ -9115,7 +9119,11 @@
   "gainPct": 7.42,
   "rr": 1.86,
   "signalTime": 1788612300000,
-  "status": "pending",
-  "createdAt": 1788612363766
+  "status": "open",
+  "createdAt": 1788612363766,
+  "fillTime": 1788612300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
