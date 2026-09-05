@@ -9004,9 +9004,12 @@
   "gainPct": 7.14,
   "rr": 4.14,
   "signalTime": 1788568200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788568242559,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ENAUSDT::ChoCh::1788576300000",
