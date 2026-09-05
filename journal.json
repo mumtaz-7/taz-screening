@@ -9103,9 +9103,13 @@
   "gainPct": 10.87,
   "rr": 3.94,
   "signalTime": 1788600600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788600631486,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788613200000
  },
  {
   "id": "DASHUSDT::BoS::1788612300000",
@@ -9125,5 +9129,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FORMUSDT::BoS::1788614100000",
+  "symbol": "FORMUSDT",
+  "setup": "BoS",
+  "entry": 0.2997,
+  "sl": 0.28589999999999993,
+  "tp": 0.3242,
+  "tpSrc": "WH",
+  "slPct": 4.6,
+  "gainPct": 8.17,
+  "rr": 1.78,
+  "signalTime": 1788614100000,
+  "status": "pending",
+  "createdAt": 1788614127103
  }
 ]
