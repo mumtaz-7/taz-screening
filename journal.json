@@ -8453,12 +8453,15 @@
   "gainPct": 9.83,
   "rr": 1.09,
   "signalTime": 1788390900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788390930303,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788393600000
+  "fillTime": 1788393600000,
+  "R": 1.09,
+  "resolvedTime": 1788568200000
  },
  {
   "id": "CHIPUSDT::BoS::1788399900000",
@@ -8999,6 +9002,7 @@
   "rr": 4.14,
   "signalTime": 1788568200000,
   "status": "pending",
-  "createdAt": 1788568242559
+  "createdAt": 1788568242559,
+  "notified": []
  }
 ]
