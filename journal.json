@@ -8985,12 +8985,15 @@
   "gainPct": 7.02,
   "rr": 2.56,
   "signalTime": 1788557400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788557433362,
   "fillTime": 1788557400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.56,
+  "resolvedTime": 1788595200000
  },
  {
   "id": "WLDUSDT::ChoCh::1788568200000",
@@ -9048,5 +9051,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FORMUSDT::BoS::1788596100000",
+  "symbol": "FORMUSDT",
+  "setup": "BoS",
+  "entry": 0.2848,
+  "sl": 0.268,
+  "tp": 0.315,
+  "tpSrc": "WH",
+  "slPct": 5.9,
+  "gainPct": 10.6,
+  "rr": 1.8,
+  "signalTime": 1788596100000,
+  "status": "pending",
+  "createdAt": 1788596164729
  }
 ]
