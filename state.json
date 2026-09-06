@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ARBUSDT::BoS"
+    "DCRUSDT::ChoCh",
+    "ZENUSDT::ChoCh"
   ],
-  "at": "2026-09-06T01:00:37.722Z"
+  "at": "2026-09-06T01:16:45.151Z"
 }

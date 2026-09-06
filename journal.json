@@ -9196,6 +9196,37 @@
   "rr": 1.06,
   "signalTime": 1788656400000,
   "status": "pending",
-  "createdAt": 1788656437723
+  "createdAt": 1788656437723,
+  "notified": []
+ },
+ {
+  "id": "DCRUSDT::ChoCh::1788657300000",
+  "symbol": "DCRUSDT",
+  "setup": "ChoCh",
+  "entry": 16.01,
+  "sl": 15.245,
+  "tp": 19.47,
+  "tpSrc": "WH",
+  "slPct": 4.78,
+  "gainPct": 21.61,
+  "rr": 4.52,
+  "signalTime": 1788657300000,
+  "status": "pending",
+  "createdAt": 1788657405151
+ },
+ {
+  "id": "ZENUSDT::ChoCh::1788657300000",
+  "symbol": "ZENUSDT",
+  "setup": "ChoCh",
+  "entry": 7.072,
+  "sl": 6.791499999999999,
+  "tp": 8.085,
+  "tpSrc": "WH",
+  "slPct": 3.97,
+  "gainPct": 14.32,
+  "rr": 3.61,
+  "signalTime": 1788657300000,
+  "status": "pending",
+  "createdAt": 1788657405151
  }
 ]
