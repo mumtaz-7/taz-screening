@@ -8934,12 +8934,15 @@
   "gainPct": 8.22,
   "rr": 1.79,
   "signalTime": 1788545700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788545730061,
   "fillTime": 1788545700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788704100000
  },
  {
   "id": "PYTHUSDT::BoS::1788547500000",
@@ -9292,12 +9295,15 @@
   "gainPct": 7.95,
   "rr": 1.27,
   "signalTime": 1788675300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788675329469,
   "fillTime": 1788675300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788704100000
  },
  {
   "id": "SUSHIUSDT::ChoCh::1788693300000",
