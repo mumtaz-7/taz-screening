@@ -9215,9 +9215,12 @@
   "gainPct": 21.61,
   "rr": 4.52,
   "signalTime": 1788657300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788657405151,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788658200000
  },
  {
   "id": "ZENUSDT::ChoCh::1788657300000",
