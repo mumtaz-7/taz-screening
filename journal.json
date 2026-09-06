@@ -9253,7 +9253,26 @@
   "gainPct": 12.7,
   "rr": 2.1,
   "signalTime": 1788669900000,
+  "status": "open",
+  "createdAt": 1788669926888,
+  "fillTime": 1788669900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "DASHUSDT::BoS::1788670800000",
+  "symbol": "DASHUSDT",
+  "setup": "BoS",
+  "entry": 69.39,
+  "sl": 66.07500000000002,
+  "tp": 76.34,
+  "tpSrc": "WH",
+  "slPct": 4.78,
+  "gainPct": 10.02,
+  "rr": 2.1,
+  "signalTime": 1788670800000,
   "status": "pending",
-  "createdAt": 1788669926888
+  "createdAt": 1788670837289
  }
 ]
