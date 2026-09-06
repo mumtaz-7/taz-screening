@@ -9381,5 +9381,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RAYUSDT::ChoCh::1788736500000",
+  "symbol": "RAYUSDT",
+  "setup": "ChoCh",
+  "entry": 1.2635,
+  "sl": 1.1813000000000002,
+  "tp": 1.4428,
+  "tpSrc": "WH",
+  "slPct": 6.51,
+  "gainPct": 14.19,
+  "rr": 2.18,
+  "signalTime": 1788736500000,
+  "status": "pending",
+  "createdAt": 1788736529232
  }
 ]
