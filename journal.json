@@ -9195,9 +9195,13 @@
   "gainPct": 7.05,
   "rr": 1.06,
   "signalTime": 1788656400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788656437723,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788657300000
  },
  {
   "id": "DCRUSDT::ChoCh::1788657300000",
@@ -9212,7 +9216,8 @@
   "rr": 4.52,
   "signalTime": 1788657300000,
   "status": "pending",
-  "createdAt": 1788657405151
+  "createdAt": 1788657405151,
+  "notified": []
  },
  {
   "id": "ZENUSDT::ChoCh::1788657300000",
@@ -9226,7 +9231,11 @@
   "gainPct": 14.32,
   "rr": 3.61,
   "signalTime": 1788657300000,
-  "status": "pending",
-  "createdAt": 1788657405151
+  "status": "open",
+  "createdAt": 1788657405151,
+  "fillTime": 1788657300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
