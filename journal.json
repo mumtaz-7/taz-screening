@@ -9032,12 +9032,15 @@
   "gainPct": 10.09,
   "rr": 6.11,
   "signalTime": 1788576300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788576335354,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788579900000
+  "fillTime": 1788579900000,
+  "R": 6.11,
+  "resolvedTime": 1788655500000
  },
  {
   "id": "CHIPUSDT::BoS::1788583500000",
@@ -9173,8 +9176,26 @@
   "gainPct": 7.99,
   "rr": 1.73,
   "signalTime": 1788633900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788633928745,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
+ },
+ {
+  "id": "ARBUSDT::BoS::1788656400000",
+  "symbol": "ARBUSDT",
+  "setup": "BoS",
+  "entry": 0.1831,
+  "sl": 0.17095,
+  "tp": 0.196,
+  "tpSrc": "WH",
+  "slPct": 6.64,
+  "gainPct": 7.05,
+  "rr": 1.06,
+  "signalTime": 1788656400000,
+  "status": "pending",
+  "createdAt": 1788656437723
  }
 ]
