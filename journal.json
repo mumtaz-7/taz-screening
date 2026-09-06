@@ -9279,5 +9279,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "GIGGLEUSDT::ChoCh::1788675300000",
+  "symbol": "GIGGLEUSDT",
+  "setup": "ChoCh",
+  "entry": 41.4,
+  "sl": 38.80500000000001,
+  "tp": 44.69,
+  "tpSrc": "WH",
+  "slPct": 6.27,
+  "gainPct": 7.95,
+  "rr": 1.27,
+  "signalTime": 1788675300000,
+  "status": "pending",
+  "createdAt": 1788675329469
  }
 ]
