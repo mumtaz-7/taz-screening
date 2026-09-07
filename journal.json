@@ -9359,9 +9359,12 @@
   "gainPct": 14.02,
   "rr": 1.43,
   "signalTime": 1788728400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788728437153,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788746400000
  },
  {
   "id": "MARSCOINUSDT::ChoCh::1788730200000",
@@ -9416,12 +9419,15 @@
   "gainPct": 8.63,
   "rr": 4.02,
   "signalTime": 1788741900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788741928516,
   "fillTime": 1788741900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788746400000
  },
  {
   "id": "ORCAUSDT::ChoCh::1788741900000",
