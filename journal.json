@@ -9505,12 +9505,15 @@
   "gainPct": 7.73,
   "rr": 1.49,
   "signalTime": 1788762600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788762635054,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788765300000
+  "fillTime": 1788765300000,
+  "R": -1,
+  "resolvedTime": 1788782400000
  },
  {
   "id": "RAYUSDT::ChoCh::1788771600000",
@@ -9553,5 +9556,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "METISUSDT::ChoCh::1788783300000",
+  "symbol": "METISUSDT",
+  "setup": "ChoCh",
+  "entry": 3.22,
+  "sl": 3.0700000000000003,
+  "tp": 3.85,
+  "tpSrc": "WH",
+  "slPct": 4.66,
+  "gainPct": 19.57,
+  "rr": 4.2,
+  "signalTime": 1788783300000,
+  "status": "pending",
+  "createdAt": 1788783327613
  }
 ]
