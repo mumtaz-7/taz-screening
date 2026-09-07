@@ -9400,12 +9400,15 @@
   "gainPct": 14.19,
   "rr": 2.18,
   "signalTime": 1788736500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788736529232,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788738300000
+  "fillTime": 1788738300000,
+  "R": -1,
+  "resolvedTime": 1788761700000
  },
  {
   "id": "GRTUSDT::ChoCh::1788741900000",
@@ -9483,5 +9486,20 @@
   "status": "pending",
   "createdAt": 1788754528478,
   "notified": []
+ },
+ {
+  "id": "COTIUSDT::BoS::1788762600000",
+  "symbol": "COTIUSDT",
+  "setup": "BoS",
+  "entry": 0.01799,
+  "sl": 0.01706,
+  "tp": 0.01938,
+  "tpSrc": "WH",
+  "slPct": 5.17,
+  "gainPct": 7.73,
+  "rr": 1.49,
+  "signalTime": 1788762600000,
+  "status": "pending",
+  "createdAt": 1788762635054
  }
 ]
