@@ -9616,5 +9616,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::BoS::1788795000000",
+  "symbol": "PROMUSDT",
+  "setup": "BoS",
+  "entry": 5.78,
+  "sl": 5.4395,
+  "tp": 6.835,
+  "tpSrc": "OB",
+  "slPct": 5.89,
+  "gainPct": 18.25,
+  "rr": 3.1,
+  "signalTime": 1788795000000,
+  "status": "pending",
+  "createdAt": 1788795035071
  }
 ]
