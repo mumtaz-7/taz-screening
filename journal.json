@@ -9486,9 +9486,12 @@
   "gainPct": 12.67,
   "rr": 4.04,
   "signalTime": 1788754500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788754528478,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "COTIUSDT::BoS::1788762600000",
