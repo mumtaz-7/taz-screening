@@ -9594,5 +9594,20 @@
   "status": "pending",
   "createdAt": 1788788765023,
   "notified": []
+ },
+ {
+  "id": "ARBUSDT::ChoCh::1788793200000",
+  "symbol": "ARBUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1684,
+  "sl": 0.15639999999999998,
+  "tp": 0.2066,
+  "tpSrc": "WH",
+  "slPct": 7.13,
+  "gainPct": 22.68,
+  "rr": 3.18,
+  "signalTime": 1788793200000,
+  "status": "pending",
+  "createdAt": 1788793238698
  }
 ]
