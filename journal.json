@@ -9060,12 +9060,15 @@
   "gainPct": 10,
   "rr": 1.52,
   "signalTime": 1788583500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788583527016,
   "fillTime": 1788583500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788791400000
  },
  {
   "id": "FORMUSDT::BoS::1788596100000",
