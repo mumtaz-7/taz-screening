@@ -9679,12 +9679,15 @@
   "gainPct": 9.21,
   "rr": 2.85,
   "signalTime": 1788830100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788830162367,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788834600000
+  "fillTime": 1788834600000,
+  "R": -1,
+  "resolvedTime": 1788847200000
  },
  {
   "id": "ZAMAUSDT::ChoCh::1788833700000",
@@ -9698,9 +9701,12 @@
   "gainPct": 10.12,
   "rr": 3.17,
   "signalTime": 1788833700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788833729287,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788847200000
  },
  {
   "id": "RAYUSDT::BoS::1788839100000",
@@ -9736,8 +9742,26 @@
   "gainPct": 20.82,
   "rr": 7.42,
   "signalTime": 1788844500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788844531212,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788847200000
+ },
+ {
+  "id": "SOLVUSDT::ChoCh::1788848100000",
+  "symbol": "SOLVUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00448,
+  "sl": 0.004255,
+  "tp": 0.00494,
+  "tpSrc": "WH",
+  "slPct": 5.02,
+  "gainPct": 10.27,
+  "rr": 2.04,
+  "signalTime": 1788848100000,
+  "status": "pending",
+  "createdAt": 1788848129298
  }
 ]
