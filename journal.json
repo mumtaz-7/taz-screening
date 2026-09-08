@@ -9785,6 +9785,22 @@
   "rr": 5.45,
   "signalTime": 1788860700000,
   "status": "pending",
-  "createdAt": 1788860730568
+  "createdAt": 1788860730568,
+  "notified": []
+ },
+ {
+  "id": "ZECUSDT::ChoCh::1788861600000",
+  "symbol": "ZECUSDT",
+  "setup": "ChoCh",
+  "entry": 1142.9,
+  "sl": 1099.04,
+  "tp": 1256.98,
+  "tpSrc": "WH",
+  "slPct": 3.84,
+  "gainPct": 9.98,
+  "rr": 2.6,
+  "signalTime": 1788861600000,
+  "status": "pending",
+  "createdAt": 1788861640149
  }
 ]
