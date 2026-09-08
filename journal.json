@@ -9875,7 +9875,26 @@
   "gainPct": 27.66,
   "rr": 3,
   "signalTime": 1788888600000,
+  "status": "open",
+  "createdAt": 1788888637160,
+  "fillTime": 1788888600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "IOSTUSDT::ChoCh::1788889500000",
+  "symbol": "IOSTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000919,
+  "sl": 0.0008634999999999999,
+  "tp": 0.001189,
+  "tpSrc": "WH",
+  "slPct": 6.04,
+  "gainPct": 29.38,
+  "rr": 4.86,
+  "signalTime": 1788889500000,
   "status": "pending",
-  "createdAt": 1788888637160
+  "createdAt": 1788889530487
  }
 ]
