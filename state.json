@@ -1,6 +1,7 @@
 {
   "ready": [
-    "FORMUSDT::ChoCh"
+    "FORMUSDT::ChoCh",
+    "RAYUSDT::BoS"
   ],
-  "at": "2026-09-08T23:30:36.161Z"
+  "at": "2026-09-08T23:45:28.746Z"
 }
