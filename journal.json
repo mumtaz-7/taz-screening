@@ -9784,12 +9784,15 @@
   "gainPct": 7.58,
   "rr": 5.45,
   "signalTime": 1788860700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788860730568,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788861600000
+  "fillTime": 1788861600000,
+  "R": -1,
+  "resolvedTime": 1788865200000
  },
  {
   "id": "ZECUSDT::ChoCh::1788861600000",
