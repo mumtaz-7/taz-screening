@@ -9784,9 +9784,12 @@
   "gainPct": 7.58,
   "rr": 5.45,
   "signalTime": 1788860700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788860730568,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788861600000
  },
  {
   "id": "ZECUSDT::ChoCh::1788861600000",
@@ -9800,7 +9803,11 @@
   "gainPct": 9.98,
   "rr": 2.6,
   "signalTime": 1788861600000,
-  "status": "pending",
-  "createdAt": 1788861640149
+  "status": "open",
+  "createdAt": 1788861640149,
+  "fillTime": 1788861600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
