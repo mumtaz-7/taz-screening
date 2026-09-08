@@ -9676,9 +9676,12 @@
   "gainPct": 9.21,
   "rr": 2.85,
   "signalTime": 1788830100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788830162367,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788834600000
  },
  {
   "id": "ZAMAUSDT::ChoCh::1788833700000",
