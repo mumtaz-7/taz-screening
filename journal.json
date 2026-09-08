@@ -9657,12 +9657,15 @@
   "gainPct": 22.92,
   "rr": 9.2,
   "signalTime": 1788824700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788824728080,
   "fillTime": 1788824700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788840900000
  },
  {
   "id": "JTOUSDT::ChoCh::1788830100000",
@@ -9711,11 +9714,14 @@
   "gainPct": 17.45,
   "rr": 1.93,
   "signalTime": 1788839100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788839129316,
   "fillTime": 1788839100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788840900000
  }
 ]
