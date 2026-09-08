@@ -9473,12 +9473,15 @@
   "gainPct": 10.35,
   "rr": 1.66,
   "signalTime": 1788748200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788748232584,
   "fillTime": 1788748200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788874200000
  },
  {
   "id": "COTIUSDT::ChoCh::1788754500000",
@@ -9745,12 +9748,15 @@
   "gainPct": 20.82,
   "rr": 7.42,
   "signalTime": 1788844500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788844531212,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788847200000
+  "fillTime": 1788847200000,
+  "R": -1,
+  "resolvedTime": 1788874200000
  },
  {
   "id": "SOLVUSDT::ChoCh::1788848100000",
