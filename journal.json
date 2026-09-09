@@ -10261,9 +10261,12 @@
   "gainPct": 26.64,
   "rr": 1.37,
   "signalTime": 1788971400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788971436687,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788980400000
  },
  {
   "id": "PHAUSDT::ChoCh::1788973200000",
