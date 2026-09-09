@@ -10115,5 +10115,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SCRUSDT::ChoCh::1788939900000",
+  "symbol": "SCRUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02164,
+  "sl": 0.020229999999999998,
+  "tp": 0.023289999999999998,
+  "tpSrc": "EQ",
+  "slPct": 6.52,
+  "gainPct": 7.62,
+  "rr": 1.17,
+  "signalTime": 1788939900000,
+  "status": "pending",
+  "createdAt": 1788939934895
  }
 ]
