@@ -8965,12 +8965,15 @@
   "gainPct": 9.04,
   "rr": 1.55,
   "signalTime": 1788547500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788547529455,
   "fillTime": 1788547500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "CHIPUSDT::ChoCh::1788552000000",
@@ -9377,12 +9380,15 @@
   "gainPct": 14.02,
   "rr": 1.43,
   "signalTime": 1788728400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788728437153,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788746400000
+  "fillTime": 1788746400000,
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "MARSCOINUSDT::ChoCh::1788730200000",
@@ -9719,12 +9725,15 @@
   "gainPct": 10.12,
   "rr": 3.17,
   "signalTime": 1788833700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788833729287,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788847200000
+  "fillTime": 1788847200000,
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "RAYUSDT::BoS::1788839100000",
@@ -10019,12 +10028,15 @@
   "gainPct": 19.29,
   "rr": 5.2,
   "signalTime": 1788917400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788917435913,
   "fillTime": 1788917400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "AEROUSDT::ChoCh::1788919200000",
@@ -10140,12 +10152,15 @@
   "gainPct": 7.62,
   "rr": 1.17,
   "signalTime": 1788939900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788939934895,
   "fillTime": 1788939900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "CHIPUSDT::BoS::1788940800000",
@@ -10223,12 +10238,15 @@
   "gainPct": 17.71,
   "rr": 4.14,
   "signalTime": 1788950700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788950731159,
   "fillTime": 1788950700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "KATUSDT::BoS::1788953400000",
@@ -10302,11 +10320,14 @@
   "gainPct": 9.26,
   "rr": 3,
   "signalTime": 1788975000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788975035567,
   "fillTime": 1788975000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788991200000
  }
 ]
