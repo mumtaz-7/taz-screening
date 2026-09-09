@@ -10048,12 +10048,15 @@
   "gainPct": 33.75,
   "rr": 2.41,
   "signalTime": 1788922800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788922840487,
   "fillTime": 1788922800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.41,
+  "resolvedTime": 1788938100000
  },
  {
   "id": "IOSTUSDT::BoS::1788930000000",
@@ -10067,9 +10070,13 @@
   "gainPct": 24.76,
   "rr": 1.15,
   "signalTime": 1788930000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788930042394,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788938100000
  },
  {
   "id": "ORCAUSDT::BoS::1788931800000",
