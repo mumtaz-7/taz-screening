@@ -10258,5 +10258,20 @@
   "status": "pending",
   "createdAt": 1788971436687,
   "notified": []
+ },
+ {
+  "id": "PHAUSDT::ChoCh::1788973200000",
+  "symbol": "PHAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0302,
+  "sl": 0.0266,
+  "tp": 0.035,
+  "tpSrc": "WH",
+  "slPct": 11.92,
+  "gainPct": 15.89,
+  "rr": 1.33,
+  "signalTime": 1788973200000,
+  "status": "pending",
+  "createdAt": 1788973242880
  }
 ]
