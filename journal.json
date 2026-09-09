@@ -10214,5 +10214,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "KATUSDT::BoS::1788953400000",
+  "symbol": "KATUSDT",
+  "setup": "BoS",
+  "entry": 0.00569,
+  "sl": 0.005135000000000001,
+  "tp": 0.00634,
+  "tpSrc": "WH",
+  "slPct": 9.75,
+  "gainPct": 11.42,
+  "rr": 1.17,
+  "signalTime": 1788953400000,
+  "status": "pending",
+  "createdAt": 1788953441351
  }
 ]
