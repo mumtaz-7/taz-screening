@@ -10170,12 +10170,15 @@
   "gainPct": 65.35,
   "rr": 11.29,
   "signalTime": 1788942600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788942636540,
   "fillTime": 1788942600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788962400000
  },
  {
   "id": "SOPHUSDT::BoS::1788945300000",
@@ -10189,12 +10192,15 @@
   "gainPct": 144.72,
   "rr": 16.61,
   "signalTime": 1788945300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788945332806,
   "fillTime": 1788945300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788962400000
  },
  {
   "id": "SCRUSDT::BoS::1788950700000",
