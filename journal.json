@@ -9815,12 +9815,15 @@
   "gainPct": 9.98,
   "rr": 2.6,
   "signalTime": 1788861600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788861640149,
   "fillTime": 1788861600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.6,
+  "resolvedTime": 1788929100000
  },
  {
   "id": "SOPHUSDT::ChoCh::1788864300000",
@@ -10045,5 +10048,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "IOSTUSDT::BoS::1788930000000",
+  "symbol": "IOSTUSDT",
+  "setup": "BoS",
+  "entry": 0.000953,
+  "sl": 0.0007475,
+  "tp": 0.001189,
+  "tpSrc": "WH",
+  "slPct": 21.56,
+  "gainPct": 24.76,
+  "rr": 1.15,
+  "signalTime": 1788930000000,
+  "status": "pending",
+  "createdAt": 1788930042394
  }
 ]
