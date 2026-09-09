@@ -9335,12 +9335,15 @@
   "gainPct": 16.45,
   "rr": 2.14,
   "signalTime": 1788693300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788693329019,
   "fillTime": 1788693300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788990300000
  },
  {
   "id": "LAYERUSDT::BoS::1788710400000",
