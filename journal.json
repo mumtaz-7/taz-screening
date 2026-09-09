@@ -9938,9 +9938,12 @@
   "gainPct": 26.28,
   "rr": 4.07,
   "signalTime": 1788908400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788908440481,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788913800000
  },
  {
   "id": "RAYUSDT::BoS::1788911100000",
@@ -9973,8 +9976,11 @@
   "gainPct": 20.1,
   "rr": 6.07,
   "signalTime": 1788912900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788912936829,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788913800000
  }
 ]
