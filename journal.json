@@ -9985,5 +9985,20 @@
    "open"
   ],
   "fillTime": 1788913800000
+ },
+ {
+  "id": "GLMRUSDT::BoS::1788917400000",
+  "symbol": "GLMRUSDT",
+  "setup": "BoS",
+  "entry": 0.007,
+  "sl": 0.0067405,
+  "tp": 0.00835,
+  "tpSrc": "WH",
+  "slPct": 3.71,
+  "gainPct": 19.29,
+  "rr": 5.2,
+  "signalTime": 1788917400000,
+  "status": "pending",
+  "createdAt": 1788917435913
  }
 ]
