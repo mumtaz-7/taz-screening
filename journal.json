@@ -10239,12 +10239,15 @@
   "gainPct": 11.42,
   "rr": 1.17,
   "signalTime": 1788953400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788953441351,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788954300000
+  "fillTime": 1788954300000,
+  "R": 1.17,
+  "resolvedTime": 1788979500000
  },
  {
   "id": "SCUSDT::BoS::1788971400000",
@@ -10274,9 +10277,12 @@
   "gainPct": 15.89,
   "rr": 1.33,
   "signalTime": 1788973200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788973242880,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788979500000
  },
  {
   "id": "LTCUSDT::BoS::1788975000000",
