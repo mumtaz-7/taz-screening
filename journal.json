@@ -9979,12 +9979,15 @@
   "gainPct": 20.1,
   "rr": 6.07,
   "signalTime": 1788912900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788912936829,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788913800000
+  "fillTime": 1788913800000,
+  "R": -1,
+  "resolvedTime": 1788919200000
  },
  {
   "id": "GLMRUSDT::BoS::1788917400000",
@@ -10017,7 +10020,11 @@
   "gainPct": 9.23,
   "rr": 5.29,
   "signalTime": 1788919200000,
-  "status": "pending",
-  "createdAt": 1788919239676
+  "status": "open",
+  "createdAt": 1788919239676,
+  "fillTime": 1788919200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
