@@ -10064,5 +10064,20 @@
   "status": "pending",
   "createdAt": 1788930042394,
   "notified": []
+ },
+ {
+  "id": "ORCAUSDT::BoS::1788931800000",
+  "symbol": "ORCAUSDT",
+  "setup": "BoS",
+  "entry": 1.461,
+  "sl": 1.374,
+  "tp": 1.738,
+  "tpSrc": "WH",
+  "slPct": 5.95,
+  "gainPct": 18.96,
+  "rr": 3.18,
+  "signalTime": 1788931800000,
+  "status": "pending",
+  "createdAt": 1788931836365
  }
 ]

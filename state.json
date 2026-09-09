@@ -2,7 +2,8 @@
   "ready": [
     "CFGUSDT::ChoCh",
     "IOSTUSDT::BoS",
+    "ORCAUSDT::BoS",
     "RAYUSDT::ChoCh"
   ],
-  "at": "2026-09-09T05:15:31.088Z"
+  "at": "2026-09-09T05:30:36.364Z"
 }
