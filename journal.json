@@ -10128,7 +10128,26 @@
   "gainPct": 7.62,
   "rr": 1.17,
   "signalTime": 1788939900000,
+  "status": "open",
+  "createdAt": 1788939934895,
+  "fillTime": 1788939900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "CHIPUSDT::BoS::1788940800000",
+  "symbol": "CHIPUSDT",
+  "setup": "BoS",
+  "entry": 0.05417,
+  "sl": 0.051845,
+  "tp": 0.05878,
+  "tpSrc": "WH",
+  "slPct": 4.29,
+  "gainPct": 8.51,
+  "rr": 1.98,
+  "signalTime": 1788940800000,
   "status": "pending",
-  "createdAt": 1788939934895
+  "createdAt": 1788940841741
  }
 ]
