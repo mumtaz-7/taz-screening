@@ -9878,12 +9878,15 @@
   "gainPct": 27.66,
   "rr": 3,
   "signalTime": 1788888600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788888637160,
   "fillTime": 1788888600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3,
+  "resolvedTime": 1788935400000
  },
  {
   "id": "IOSTUSDT::ChoCh::1788889500000",
@@ -9963,12 +9966,15 @@
   "gainPct": 17.58,
   "rr": 3.16,
   "signalTime": 1788911100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788911128760,
   "fillTime": 1788911100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.16,
+  "resolvedTime": 1788935400000
  },
  {
   "id": "GUSDT::BoS::1788912900000",
