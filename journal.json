@@ -10388,5 +10388,20 @@
    "open"
   ],
   "fillTime": 1789035300000
+ },
+ {
+  "id": "MINAUSDT::ChoCh::1789047900000",
+  "symbol": "MINAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0911,
+  "sl": 0.0875,
+  "tp": 0.0979,
+  "tpSrc": "WH",
+  "slPct": 3.95,
+  "gainPct": 7.46,
+  "rr": 1.89,
+  "signalTime": 1789047900000,
+  "status": "pending",
+  "createdAt": 1789047930701
  }
 ]
