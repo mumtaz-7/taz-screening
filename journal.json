@@ -10354,8 +10354,26 @@
   "gainPct": 19.98,
   "rr": 4.72,
   "signalTime": 1789010100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789010129332,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
+ },
+ {
+  "id": "NEWTUSDT::BoS::1789032600000",
+  "symbol": "NEWTUSDT",
+  "setup": "BoS",
+  "entry": 0.04518,
+  "sl": 0.04263,
+  "tp": 0.05716,
+  "tpSrc": "WH",
+  "slPct": 5.64,
+  "gainPct": 26.52,
+  "rr": 4.7,
+  "signalTime": 1789032600000,
+  "status": "pending",
+  "createdAt": 1789032638874
  }
 ]
