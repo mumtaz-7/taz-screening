@@ -9261,12 +9261,15 @@
   "gainPct": 14.32,
   "rr": 3.61,
   "signalTime": 1788657300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788657405151,
   "fillTime": 1788657300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789032600000
  },
  {
   "id": "ZENUSDT::BoS::1788669900000",
@@ -10374,6 +10377,7 @@
   "rr": 4.7,
   "signalTime": 1789032600000,
   "status": "pending",
-  "createdAt": 1789032638874
+  "createdAt": 1789032638874,
+  "notified": []
  }
 ]
