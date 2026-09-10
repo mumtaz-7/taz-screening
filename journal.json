@@ -10420,8 +10420,27 @@
   "gainPct": 9.96,
   "rr": 1.08,
   "signalTime": 1789052400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789052442727,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789054200000
+ },
+ {
+  "id": "NEARUSDT::ChoCh::1789055100000",
+  "symbol": "NEARUSDT",
+  "setup": "ChoCh",
+  "entry": 2.452,
+  "sl": 2.314,
+  "tp": 2.651,
+  "tpSrc": "WH",
+  "slPct": 5.63,
+  "gainPct": 8.12,
+  "rr": 1.44,
+  "signalTime": 1789055100000,
+  "status": "pending",
+  "createdAt": 1789055130245
  }
 ]
