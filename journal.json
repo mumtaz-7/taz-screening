@@ -10465,5 +10465,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EIGENUSDT::BoS::1789063200000",
+  "symbol": "EIGENUSDT",
+  "setup": "BoS",
+  "entry": 0.2045,
+  "sl": 0.19025000000000003,
+  "tp": 0.2226,
+  "tpSrc": "WH",
+  "slPct": 6.97,
+  "gainPct": 8.85,
+  "rr": 1.27,
+  "signalTime": 1789063200000,
+  "status": "pending",
+  "createdAt": 1789063247808
  }
 ]
