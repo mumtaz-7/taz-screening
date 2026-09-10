@@ -10446,5 +10446,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SOPHUSDT::BoS::1789056900000",
+  "symbol": "SOPHUSDT",
+  "setup": "BoS",
+  "entry": 0.00442,
+  "sl": 0.003925,
+  "tp": 0.00495,
+  "tpSrc": "OB",
+  "slPct": 11.2,
+  "gainPct": 11.99,
+  "rr": 1.07,
+  "signalTime": 1789056900000,
+  "status": "pending",
+  "createdAt": 1789056931001
  }
 ]
