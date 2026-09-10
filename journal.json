@@ -8795,12 +8795,15 @@
   "gainPct": 17.67,
   "rr": 2.18,
   "signalTime": 1788519600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788519640360,
   "fillTime": 1788519600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.18,
+  "resolvedTime": 1789030800000
  },
  {
   "id": "PORTALUSDT::BoS::1788521400000",
