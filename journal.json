@@ -9877,12 +9877,15 @@
   "gainPct": 17.79,
   "rr": 3.77,
   "signalTime": 1788876900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788876931451,
   "fillTime": 1788876900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789003800000
  },
  {
   "id": "RAYUSDT::ChoCh::1788888600000",
@@ -10304,12 +10307,15 @@
   "gainPct": 15.89,
   "rr": 1.33,
   "signalTime": 1788973200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788973242880,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788979500000
+  "fillTime": 1788979500000,
+  "R": -1,
+  "resolvedTime": 1789003800000
  },
  {
   "id": "LTCUSDT::BoS::1788975000000",
