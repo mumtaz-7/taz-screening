@@ -10485,5 +10485,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1789065900000
+ },
+ {
+  "id": "NEWTUSDT::ChoCh::1789072200000",
+  "symbol": "NEWTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.04384,
+  "sl": 0.043195,
+  "tp": 0.04961,
+  "tpSrc": "EQ",
+  "slPct": 1.47,
+  "gainPct": 13.16,
+  "rr": 8.95,
+  "signalTime": 1789072200000,
+  "status": "pending",
+  "createdAt": 1789072234254
  }
 ]
