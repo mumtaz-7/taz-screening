@@ -10498,8 +10498,13 @@
   "gainPct": 13.16,
   "rr": 8.95,
   "signalTime": 1789072200000,
-  "status": "pending",
+  "status": "loss",
   "createdAt": 1789072234254,
-  "notified": []
+  "notified": [
+   "loss"
+  ],
+  "R": -1,
+  "fillTime": 1789084800000,
+  "resolvedTime": 1789084800000
  }
 ]
