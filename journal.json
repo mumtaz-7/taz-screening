@@ -8861,12 +8861,15 @@
   "gainPct": 12.11,
   "rr": 1.82,
   "signalTime": 1788539400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788539434825,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788542100000
+  "fillTime": 1788542100000,
+  "R": -1,
+  "resolvedTime": 1789120800000
  },
  {
   "id": "PUMPUSDT::BoS::1788539400000",
@@ -10522,9 +10525,12 @@
   "gainPct": 8.28,
   "rr": 2.7,
   "signalTime": 1789099200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789099238505,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "REZUSDT::ChoCh::1789118100000",
