@@ -10382,12 +10382,15 @@
   "gainPct": 26.52,
   "rr": 4.7,
   "signalTime": 1789032600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789032638874,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789035300000
+  "fillTime": 1789035300000,
+  "R": -1,
+  "resolvedTime": 1789085700000
  },
  {
   "id": "MINAUSDT::ChoCh::1789047900000",
