@@ -10471,12 +10471,15 @@
   "gainPct": 11.99,
   "rr": 1.07,
   "signalTime": 1789056900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789056931001,
   "fillTime": 1789056900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.07,
+  "resolvedTime": 1789174800000
  },
  {
   "id": "EIGENUSDT::BoS::1789063200000",
@@ -10559,5 +10562,20 @@
   ],
   "R": -1,
   "resolvedTime": 1789124400000
+ },
+ {
+  "id": "SOPHUSDT::ChoCh::1789175700000",
+  "symbol": "SOPHUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00459,
+  "sl": 0.004275,
+  "tp": 0.00497,
+  "tpSrc": "WH",
+  "slPct": 6.86,
+  "gainPct": 8.28,
+  "rr": 1.21,
+  "signalTime": 1789175700000,
+  "status": "pending",
+  "createdAt": 1789175728767
  }
 ]
