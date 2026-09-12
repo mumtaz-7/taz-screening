@@ -1,6 +1,7 @@
 {
   "ready": [
-    "METUSDT::ChoCh"
+    "BLURUSDT::ChoCh",
+    "TREEUSDT::BoS"
   ],
-  "at": "2026-09-12T10:00:41.476Z"
+  "at": "2026-09-12T10:15:32.004Z"
 }
