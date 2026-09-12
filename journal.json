@@ -10712,9 +10712,13 @@
   "gainPct": 10.09,
   "rr": 2.8,
   "signalTime": 1789216200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789216233782,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789225200000
  },
  {
   "id": "CHZUSDT::ChoCh::1789225200000",
@@ -10728,7 +10732,11 @@
   "gainPct": 7.72,
   "rr": 6.73,
   "signalTime": 1789225200000,
-  "status": "pending",
-  "createdAt": 1789225241411
+  "status": "open",
+  "createdAt": 1789225241411,
+  "fillTime": 1789225200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
