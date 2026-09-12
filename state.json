@@ -1,6 +1,7 @@
 {
   "ready": [
-    "RAYUSDT::ChoCh"
+    "RAYUSDT::ChoCh",
+    "REZUSDT::BoS"
   ],
-  "at": "2026-09-12T12:15:28.703Z"
+  "at": "2026-09-12T12:30:33.782Z"
 }
