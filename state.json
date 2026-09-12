@@ -1,8 +1,6 @@
 {
   "ready": [
-    "BLURUSDT::ChoCh",
-    "RAYUSDT::ChoCh",
-    "TREEUSDT::BoS"
+    "RAYUSDT::ChoCh"
   ],
-  "at": "2026-09-12T11:30:36.312Z"
+  "at": "2026-09-12T11:45:30.388Z"
 }
