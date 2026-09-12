@@ -10744,5 +10744,20 @@
   ],
   "R": -1,
   "resolvedTime": 1789241400000
+ },
+ {
+  "id": "SOPHUSDT::BoS::1789252200000",
+  "symbol": "SOPHUSDT",
+  "setup": "BoS",
+  "entry": 0.00473,
+  "sl": 0.00464,
+  "tp": 0.00532,
+  "tpSrc": "OB",
+  "slPct": 1.9,
+  "gainPct": 12.47,
+  "rr": 6.56,
+  "signalTime": 1789252200000,
+  "status": "pending",
+  "createdAt": 1789252237111
  }
 ]
