@@ -10941,8 +10941,14 @@
   "gainPct": 12.06,
   "rr": 1.12,
   "signalTime": 1789303500000,
-  "status": "pending",
-  "createdAt": 1789303531132
+  "status": "win",
+  "createdAt": 1789303531132,
+  "R": 1.12,
+  "fillTime": 1789303500000,
+  "resolvedTime": 1789303500000,
+  "notified": [
+   "win"
+  ]
  },
  {
   "id": "PUNDIXUSDT::BoS::1789303500000",
@@ -10956,7 +10962,13 @@
   "gainPct": 13.46,
   "rr": 1.88,
   "signalTime": 1789303500000,
-  "status": "pending",
-  "createdAt": 1789303531132
+  "status": "loss",
+  "createdAt": 1789303531132,
+  "R": -1,
+  "fillTime": 1789303500000,
+  "resolvedTime": 1789303500000,
+  "notified": [
+   "loss"
+  ]
  }
 ]
