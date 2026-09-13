@@ -11053,5 +11053,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HIVEUSDT::ChoCh::1789333200000",
+  "symbol": "HIVEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0522,
+  "sl": 0.0492,
+  "tp": 0.0663,
+  "tpSrc": "WH",
+  "slPct": 5.75,
+  "gainPct": 27.01,
+  "rr": 4.7,
+  "signalTime": 1789333200000,
+  "status": "pending",
+  "createdAt": 1789333240769
  }
 ]
