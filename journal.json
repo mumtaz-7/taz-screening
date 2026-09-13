@@ -10880,5 +10880,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ILVUSDT::ChoCh::1789279200000",
+  "symbol": "ILVUSDT",
+  "setup": "ChoCh",
+  "entry": 3.78,
+  "sl": 3.3,
+  "tp": 4.4,
+  "tpSrc": "WH",
+  "slPct": 12.7,
+  "gainPct": 16.4,
+  "rr": 1.29,
+  "signalTime": 1789279200000,
+  "status": "pending",
+  "createdAt": 1789279241442
  }
 ]
