@@ -10973,5 +10973,20 @@
   "notified": [
    "loss"
   ]
+ },
+ {
+  "id": "KAVAUSDT::ChoCh::1789311600000",
+  "symbol": "KAVAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.07041,
+  "sl": 0.06471,
+  "tp": 0.08275,
+  "tpSrc": "WH",
+  "slPct": 8.1,
+  "gainPct": 17.53,
+  "rr": 2.16,
+  "signalTime": 1789311600000,
+  "status": "pending",
+  "createdAt": 1789311642007
  }
 ]
