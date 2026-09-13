@@ -10779,5 +10779,20 @@
   "status": "pending",
   "createdAt": 1789255833257,
   "notified": []
+ },
+ {
+  "id": "CHZUSDT::ChoCh::1789260300000",
+  "symbol": "CHZUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01436,
+  "sl": 0.014060000000000001,
+  "tp": 0.01548,
+  "tpSrc": "WH",
+  "slPct": 2.09,
+  "gainPct": 7.8,
+  "rr": 3.73,
+  "signalTime": 1789260300000,
+  "status": "pending",
+  "createdAt": 1789260331984
  }
 ]
