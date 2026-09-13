@@ -11047,12 +11047,15 @@
   "gainPct": 9.56,
   "rr": 1.27,
   "signalTime": 1789331400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789331434993,
   "fillTime": 1789331400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789334100000
  },
  {
   "id": "HIVEUSDT::ChoCh::1789333200000",
@@ -11066,8 +11069,11 @@
   "gainPct": 27.01,
   "rr": 4.7,
   "signalTime": 1789333200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789333240769,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789334100000
  }
 ]
