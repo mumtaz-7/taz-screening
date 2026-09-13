@@ -10816,6 +10816,22 @@
   "rr": 3.76,
   "signalTime": 1789263900000,
   "status": "pending",
-  "createdAt": 1789263927203
+  "createdAt": 1789263927203,
+  "notified": []
+ },
+ {
+  "id": "PUNDIXUSDT::BoS::1789264800000",
+  "symbol": "PUNDIXUSDT",
+  "setup": "BoS",
+  "entry": 0.1088,
+  "sl": 0.09935,
+  "tp": 0.12,
+  "tpSrc": "WH",
+  "slPct": 8.69,
+  "gainPct": 10.29,
+  "rr": 1.19,
+  "signalTime": 1789264800000,
+  "status": "pending",
+  "createdAt": 1789264839307
  }
 ]
