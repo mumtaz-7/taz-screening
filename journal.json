@@ -10614,12 +10614,15 @@
   "gainPct": 7.52,
   "rr": 3.27,
   "signalTime": 1789195500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789195532499,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789205400000
+  "fillTime": 1789205400000,
+  "R": -1,
+  "resolvedTime": 1789288200000
  },
  {
   "id": "TREEUSDT::BoS::1789200900000",
