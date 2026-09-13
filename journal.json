@@ -11075,5 +11075,20 @@
    "open"
   ],
   "fillTime": 1789334100000
+ },
+ {
+  "id": "LSKUSDT::ChoCh::1789335900000",
+  "symbol": "LSKUSDT",
+  "setup": "ChoCh",
+  "entry": 1.01,
+  "sl": 0.8172499999999999,
+  "tp": 1.3527,
+  "tpSrc": "EQ",
+  "slPct": 19.08,
+  "gainPct": 33.93,
+  "rr": 1.78,
+  "signalTime": 1789335900000,
+  "status": "pending",
+  "createdAt": 1789335927845
  }
 ]
