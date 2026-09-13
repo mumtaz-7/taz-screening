@@ -10883,12 +10883,15 @@
   "gainPct": 7.39,
   "rr": 1.14,
   "signalTime": 1789270200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789270233964,
   "fillTime": 1789270200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789308000000
  },
  {
   "id": "ILVUSDT::ChoCh::1789279200000",
