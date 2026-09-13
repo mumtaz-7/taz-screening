@@ -10815,9 +10815,12 @@
   "gainPct": 8.68,
   "rr": 3.76,
   "signalTime": 1789263900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789263927203,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789267500000
  },
  {
   "id": "PUNDIXUSDT::BoS::1789264800000",
@@ -10838,5 +10841,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1789265700000
+ },
+ {
+  "id": "ARKUSDT::BoS::1789268400000",
+  "symbol": "ARKUSDT",
+  "setup": "BoS",
+  "entry": 0.1339,
+  "sl": 0.1147,
+  "tp": 0.1607,
+  "tpSrc": "WH",
+  "slPct": 14.34,
+  "gainPct": 20.01,
+  "rr": 1.4,
+  "signalTime": 1789268400000,
+  "status": "pending",
+  "createdAt": 1789268441774
  }
 ]
