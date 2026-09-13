@@ -10861,5 +10861,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "MINAUSDT::ChoCh::1789270200000",
+  "symbol": "MINAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1069,
+  "sl": 0.1,
+  "tp": 0.1148,
+  "tpSrc": "WH",
+  "slPct": 6.45,
+  "gainPct": 7.39,
+  "rr": 1.14,
+  "signalTime": 1789270200000,
+  "status": "pending",
+  "createdAt": 1789270233964
  }
 ]
