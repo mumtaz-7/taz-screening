@@ -10908,5 +10908,20 @@
    "open"
   ],
   "fillTime": 1789283700000
+ },
+ {
+  "id": "CVCUSDT::BoS::1789301700000",
+  "symbol": "CVCUSDT",
+  "setup": "BoS",
+  "entry": 0.02637,
+  "sl": 0.024705,
+  "tp": 0.034,
+  "tpSrc": "WH",
+  "slPct": 6.31,
+  "gainPct": 28.93,
+  "rr": 4.58,
+  "signalTime": 1789301700000,
+  "status": "pending",
+  "createdAt": 1789301729782
  }
 ]
