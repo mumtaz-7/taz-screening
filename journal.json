@@ -10995,5 +10995,20 @@
   ],
   "R": -1,
   "resolvedTime": 1789312500000
+ },
+ {
+  "id": "REZUSDT::ChoCh::1789315200000",
+  "symbol": "REZUSDT",
+  "setup": "ChoCh",
+  "entry": 0.004047,
+  "sl": 0.003417,
+  "tp": 0.004993,
+  "tpSrc": "WH",
+  "slPct": 15.57,
+  "gainPct": 23.38,
+  "rr": 1.5,
+  "signalTime": 1789315200000,
+  "status": "pending",
+  "createdAt": 1789315240342
  }
 ]
