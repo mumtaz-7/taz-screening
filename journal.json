@@ -11300,5 +11300,20 @@
    "open"
   ],
   "fillTime": 1789377300000
+ },
+ {
+  "id": "WAXPUSDT::BoS::1789385400000",
+  "symbol": "WAXPUSDT",
+  "setup": "BoS",
+  "entry": 0.00545,
+  "sl": 0.00482,
+  "tp": 0.00632,
+  "tpSrc": "WH",
+  "slPct": 11.56,
+  "gainPct": 15.96,
+  "rr": 1.38,
+  "signalTime": 1789385400000,
+  "status": "pending",
+  "createdAt": 1789385434749
  }
 ]
