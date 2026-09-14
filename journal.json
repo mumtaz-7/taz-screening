@@ -11183,5 +11183,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "VTHOUSDT::ChoCh::1789360200000",
+  "symbol": "VTHOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000752,
+  "sl": 0.0006815,
+  "tp": 0.0009145,
+  "tpSrc": "EQ",
+  "slPct": 9.37,
+  "gainPct": 21.61,
+  "rr": 2.3,
+  "signalTime": 1789360200000,
+  "status": "pending",
+  "createdAt": 1789360236307
  }
 ]
