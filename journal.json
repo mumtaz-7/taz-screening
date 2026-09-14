@@ -11394,5 +11394,20 @@
   ],
   "R": -1,
   "resolvedTime": 1789421400000
+ },
+ {
+  "id": "STEEMUSDT::ChoCh::1789425900000",
+  "symbol": "STEEMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.05622,
+  "sl": 0.05474999999999999,
+  "tp": 0.0696,
+  "tpSrc": "EQ",
+  "slPct": 2.61,
+  "gainPct": 23.8,
+  "rr": 9.1,
+  "signalTime": 1789425900000,
+  "status": "pending",
+  "createdAt": 1789425930104
  }
 ]
