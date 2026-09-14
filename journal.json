@@ -11213,6 +11213,22 @@
   "rr": 2.27,
   "signalTime": 1789365600000,
   "status": "pending",
-  "createdAt": 1789365642125
+  "createdAt": 1789365642125,
+  "notified": []
+ },
+ {
+  "id": "ALTUSDT::BoS::1789366500000",
+  "symbol": "ALTUSDT",
+  "setup": "BoS",
+  "entry": 0.00679,
+  "sl": 0.0066099999999999996,
+  "tp": 0.0078,
+  "tpSrc": "WH",
+  "slPct": 2.65,
+  "gainPct": 14.87,
+  "rr": 5.61,
+  "signalTime": 1789366500000,
+  "status": "pending",
+  "createdAt": 1789366533945
  }
 ]
