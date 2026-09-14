@@ -11331,5 +11331,20 @@
    "open"
   ],
   "fillTime": 1789387200000
+ },
+ {
+  "id": "POLYXUSDT::BoS::1789395300000",
+  "symbol": "POLYXUSDT",
+  "setup": "BoS",
+  "entry": 0.0407,
+  "sl": 0.0386,
+  "tp": 0.0492,
+  "tpSrc": "WH",
+  "slPct": 5.16,
+  "gainPct": 20.88,
+  "rr": 4.05,
+  "signalTime": 1789395300000,
+  "status": "pending",
+  "createdAt": 1789395330336
  }
 ]
