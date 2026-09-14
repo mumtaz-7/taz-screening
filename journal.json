@@ -11353,5 +11353,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TAOUSDT::ChoCh::1789403400000",
+  "symbol": "TAOUSDT",
+  "setup": "ChoCh",
+  "entry": 235,
+  "sl": 229.75,
+  "tp": 252.8,
+  "tpSrc": "OB",
+  "slPct": 2.23,
+  "gainPct": 7.57,
+  "rr": 3.39,
+  "signalTime": 1789403400000,
+  "status": "pending",
+  "createdAt": 1789403436611
  }
 ]
