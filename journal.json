@@ -11196,9 +11196,12 @@
   "gainPct": 21.61,
   "rr": 2.3,
   "signalTime": 1789360200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789360236307,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789370100000
  },
  {
   "id": "CVCUSDT::ChoCh::1789365600000",
@@ -11247,9 +11250,12 @@
   "gainPct": 17.1,
   "rr": 1.02,
   "signalTime": 1789368300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789368330683,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789370100000
  },
  {
   "id": "POLYXUSDT::ChoCh::1789369200000",
