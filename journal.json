@@ -11069,12 +11069,15 @@
   "gainPct": 27.01,
   "rr": 4.7,
   "signalTime": 1789333200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789333240769,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789334100000
+  "fillTime": 1789334100000,
+  "R": -1,
+  "resolvedTime": 1789344000000
  },
  {
   "id": "LSKUSDT::ChoCh::1789335900000",
