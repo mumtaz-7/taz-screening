@@ -11372,5 +11372,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "IOTAUSDT::BoS::1789417800000",
+  "symbol": "IOTAUSDT",
+  "setup": "BoS",
+  "entry": 0.0441,
+  "sl": 0.04275,
+  "tp": 0.0488,
+  "tpSrc": "WH",
+  "slPct": 3.06,
+  "gainPct": 10.66,
+  "rr": 3.48,
+  "signalTime": 1789417800000,
+  "status": "pending",
+  "createdAt": 1789417837436
  }
 ]
