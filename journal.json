@@ -11246,12 +11246,15 @@
   "gainPct": 14.87,
   "rr": 5.61,
   "signalTime": 1789366500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789366533945,
   "fillTime": 1789366500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789398000000
  },
  {
   "id": "ARKUSDT::ChoCh::1789368300000",
