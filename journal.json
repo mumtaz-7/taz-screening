@@ -11135,9 +11135,13 @@
   "gainPct": 10.78,
   "rr": 2.64,
   "signalTime": 1789348500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789348530248,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789349400000
  },
  {
   "id": "GLMUSDT::BoS::1789349400000",
@@ -11152,6 +11156,7 @@
   "rr": 4.07,
   "signalTime": 1789349400000,
   "status": "pending",
-  "createdAt": 1789349433713
+  "createdAt": 1789349433713,
+  "notified": []
  }
 ]
