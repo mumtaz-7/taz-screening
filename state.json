@@ -1,6 +1,7 @@
 {
   "ready": [
-    "POLYXUSDT::ChoCh"
+    "POLYXUSDT::ChoCh",
+    "PUNDIXUSDT::ChoCh"
   ],
-  "at": "2026-09-14T08:00:46.490Z"
+  "at": "2026-09-14T08:15:30.159Z"
 }

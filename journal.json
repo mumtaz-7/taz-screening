@@ -11278,5 +11278,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PUNDIXUSDT::ChoCh::1789373700000",
+  "symbol": "PUNDIXUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1202,
+  "sl": 0.10969999999999999,
+  "tp": 0.1546,
+  "tpSrc": "WH",
+  "slPct": 8.74,
+  "gainPct": 28.62,
+  "rr": 3.28,
+  "signalTime": 1789373700000,
+  "status": "pending",
+  "createdAt": 1789373730159
  }
 ]
