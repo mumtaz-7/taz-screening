@@ -11300,12 +11300,15 @@
   "gainPct": 28.62,
   "rr": 3.28,
   "signalTime": 1789373700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789373730159,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789377300000
+  "fillTime": 1789377300000,
+  "R": -1,
+  "resolvedTime": 1789389900000
  },
  {
   "id": "WAXPUSDT::BoS::1789385400000",
