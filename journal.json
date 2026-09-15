@@ -11588,9 +11588,12 @@
   "gainPct": 9.67,
   "rr": 4.81,
   "signalTime": 1789494300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789494329277,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789496100000
  },
  {
   "id": "THEUSDT::ChoCh::1789495200000",
