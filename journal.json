@@ -11485,5 +11485,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XPLUSDT::ChoCh::1789465500000",
+  "symbol": "XPLUSDT",
+  "setup": "ChoCh",
+  "entry": 0.08264,
+  "sl": 0.079715,
+  "tp": 0.097,
+  "tpSrc": "OB",
+  "slPct": 3.54,
+  "gainPct": 17.38,
+  "rr": 4.91,
+  "signalTime": 1789465500000,
+  "status": "pending",
+  "createdAt": 1789465530533
  }
 ]
