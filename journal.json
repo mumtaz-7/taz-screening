@@ -11479,12 +11479,15 @@
   "gainPct": 7.35,
   "rr": 2.69,
   "signalTime": 1789462800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789462839420,
   "fillTime": 1789462800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789483500000
  },
  {
   "id": "XPLUSDT::ChoCh::1789465500000",
@@ -11498,12 +11501,15 @@
   "gainPct": 17.38,
   "rr": 4.91,
   "signalTime": 1789465500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789465530533,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789470000000
+  "fillTime": 1789470000000,
+  "R": -1,
+  "resolvedTime": 1789483500000
  },
  {
   "id": "TREEUSDT::ChoCh::1789473600000",
@@ -11555,7 +11561,13 @@
   "gainPct": 7.46,
   "rr": 2.5,
   "signalTime": 1789483500000,
-  "status": "pending",
-  "createdAt": 1789483530611
+  "status": "loss",
+  "createdAt": 1789483530611,
+  "R": -1,
+  "fillTime": 1789483500000,
+  "resolvedTime": 1789483500000,
+  "notified": [
+   "loss"
+  ]
  }
 ]
