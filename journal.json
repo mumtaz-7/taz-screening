@@ -11589,6 +11589,22 @@
   "rr": 4.81,
   "signalTime": 1789494300000,
   "status": "pending",
-  "createdAt": 1789494329277
+  "createdAt": 1789494329277,
+  "notified": []
+ },
+ {
+  "id": "THEUSDT::ChoCh::1789495200000",
+  "symbol": "THEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0669,
+  "sl": 0.06495000000000001,
+  "tp": 0.0742,
+  "tpSrc": "OB",
+  "slPct": 2.91,
+  "gainPct": 10.91,
+  "rr": 3.74,
+  "signalTime": 1789495200000,
+  "status": "pending",
+  "createdAt": 1789495239606
  }
 ]
