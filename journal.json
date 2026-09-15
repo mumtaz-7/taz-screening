@@ -11517,9 +11517,12 @@
   "gainPct": 10.07,
   "rr": 3.15,
   "signalTime": 1789473600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789473642535,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789479000000
  },
  {
   "id": "FFUSDT::ChoCh::1789478100000",
