@@ -11268,12 +11268,15 @@
   "gainPct": 17.1,
   "rr": 1.02,
   "signalTime": 1789368300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789368330683,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789370100000
+  "fillTime": 1789370100000,
+  "R": -1,
+  "resolvedTime": 1789441200000
  },
  {
   "id": "POLYXUSDT::ChoCh::1789369200000",
