@@ -10914,12 +10914,15 @@
   "gainPct": 16.4,
   "rr": 1.29,
   "signalTime": 1789279200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789279241442,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789283700000
+  "fillTime": 1789283700000,
+  "R": -1,
+  "resolvedTime": 1789497000000
  },
  {
   "id": "CVCUSDT::BoS::1789301700000",
@@ -11293,12 +11296,15 @@
   "gainPct": 13.89,
   "rr": 1.38,
   "signalTime": 1789369200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789369241924,
   "fillTime": 1789369200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789497000000
  },
  {
   "id": "PUNDIXUSDT::ChoCh::1789373700000",
@@ -11460,12 +11466,15 @@
   "gainPct": 64.14,
   "rr": 17.06,
   "signalTime": 1789431300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789431329791,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789446600000
+  "fillTime": 1789446600000,
+  "R": -1,
+  "resolvedTime": 1789497000000
  },
  {
   "id": "ENAUSDT::ChoCh::1789462800000",
