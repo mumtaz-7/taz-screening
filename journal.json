@@ -11233,12 +11233,15 @@
   "gainPct": 48.08,
   "rr": 2.27,
   "signalTime": 1789365600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789365642125,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789381800000
+  "fillTime": 1789381800000,
+  "R": -1,
+  "resolvedTime": 1789497900000
  },
  {
   "id": "ALTUSDT::BoS::1789366500000",
@@ -11359,12 +11362,15 @@
   "gainPct": 20.88,
   "rr": 4.05,
   "signalTime": 1789395300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789395330336,
   "fillTime": 1789395300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789497900000
  },
  {
   "id": "TAOUSDT::ChoCh::1789403400000",
@@ -11597,12 +11603,15 @@
   "gainPct": 9.67,
   "rr": 4.81,
   "signalTime": 1789494300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789494329277,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789496100000
+  "fillTime": 1789496100000,
+  "R": -1,
+  "resolvedTime": 1789497900000
  },
  {
   "id": "THEUSDT::ChoCh::1789495200000",
@@ -11616,11 +11625,14 @@
   "gainPct": 10.91,
   "rr": 3.74,
   "signalTime": 1789495200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789495239606,
   "fillTime": 1789495200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789497900000
  }
 ]
