@@ -11575,5 +11575,20 @@
   "notified": [
    "loss"
   ]
+ },
+ {
+  "id": "HIVEUSDT::ChoCh::1789494300000",
+  "symbol": "HIVEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0522,
+  "sl": 0.051149999999999994,
+  "tp": 0.057249999999999995,
+  "tpSrc": "EQ",
+  "slPct": 2.01,
+  "gainPct": 9.67,
+  "rr": 4.81,
+  "signalTime": 1789494300000,
+  "status": "pending",
+  "createdAt": 1789494329277
  }
 ]
