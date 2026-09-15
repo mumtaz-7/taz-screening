@@ -1,8 +1,6 @@
 {
   "ready": [
-    "ASTRUSDT::ChoCh",
-    "QKCUSDT::ChoCh",
-    "STEEMUSDT::BoS"
+    "ASTRUSDT::ChoCh"
   ],
-  "at": "2026-09-15T01:30:33.611Z"
+  "at": "2026-09-15T01:45:28.188Z"
 }
