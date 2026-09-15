@@ -11504,5 +11504,20 @@
    "open"
   ],
   "fillTime": 1789470000000
+ },
+ {
+  "id": "TREEUSDT::ChoCh::1789473600000",
+  "symbol": "TREEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0422,
+  "sl": 0.040850000000000004,
+  "tp": 0.046450000000000005,
+  "tpSrc": "EQ",
+  "slPct": 3.2,
+  "gainPct": 10.07,
+  "rr": 3.15,
+  "signalTime": 1789473600000,
+  "status": "pending",
+  "createdAt": 1789473642535
  }
 ]
