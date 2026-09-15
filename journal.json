@@ -11520,5 +11520,20 @@
   "status": "pending",
   "createdAt": 1789473642535,
   "notified": []
+ },
+ {
+  "id": "FFUSDT::ChoCh::1789478100000",
+  "symbol": "FFUSDT",
+  "setup": "ChoCh",
+  "entry": 0.14752,
+  "sl": 0.14194,
+  "tp": 0.17013,
+  "tpSrc": "WH",
+  "slPct": 3.78,
+  "gainPct": 15.33,
+  "rr": 4.05,
+  "signalTime": 1789478100000,
+  "status": "pending",
+  "createdAt": 1789478129925
  }
 ]
