@@ -11407,12 +11407,15 @@
   "gainPct": 23.8,
   "rr": 9.1,
   "signalTime": 1789425900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789425930104,
   "fillTime": 1789425900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 9.1,
+  "resolvedTime": 1789431300000
  },
  {
   "id": "QKCUSDT::ChoCh::1789431300000",
@@ -11426,8 +11429,12 @@
   "gainPct": 12.57,
   "rr": 1.54,
   "signalTime": 1789431300000,
-  "status": "pending",
-  "createdAt": 1789431329791
+  "status": "open",
+  "createdAt": 1789431329791,
+  "fillTime": 1789431300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "STEEMUSDT::BoS::1789431300000",
@@ -11442,6 +11449,7 @@
   "rr": 17.06,
   "signalTime": 1789431300000,
   "status": "pending",
-  "createdAt": 1789431329791
+  "createdAt": 1789431329791,
+  "notified": []
  }
 ]
