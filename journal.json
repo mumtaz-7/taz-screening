@@ -11523,12 +11523,15 @@
   "gainPct": 10.07,
   "rr": 3.15,
   "signalTime": 1789473600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789473642535,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789479000000
+  "fillTime": 1789479000000,
+  "R": -1,
+  "resolvedTime": 1789488000000
  },
  {
   "id": "FFUSDT::ChoCh::1789478100000",
