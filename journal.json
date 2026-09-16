@@ -11707,8 +11707,12 @@
   "gainPct": 21.2,
   "rr": 5.3,
   "signalTime": 1789542000000,
-  "status": "pending",
-  "createdAt": 1789542039629
+  "status": "open",
+  "createdAt": 1789542039629,
+  "fillTime": 1789542000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "XPLUSDT::BoS::1789542000000",
@@ -11722,7 +11726,11 @@
   "gainPct": 18.96,
   "rr": 9.12,
   "signalTime": 1789542000000,
-  "status": "pending",
-  "createdAt": 1789542039629
+  "status": "open",
+  "createdAt": 1789542039629,
+  "fillTime": 1789542000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
