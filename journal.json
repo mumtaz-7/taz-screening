@@ -11774,12 +11774,15 @@
   "gainPct": 15.15,
   "rr": 5.5,
   "signalTime": 1789550100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789550130547,
   "fillTime": 1789550100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789573500000
  },
  {
   "id": "LSKUSDT::BoS::1789556400000",
