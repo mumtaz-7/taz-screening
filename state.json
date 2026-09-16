@@ -1,8 +1,6 @@
 {
   "ready": [
-    "FFUSDT::ChoCh",
-    "SYNUSDT::BoS",
-    "XPLUSDT::BoS"
+    "FFUSDT::ChoCh"
   ],
-  "at": "2026-09-16T08:00:40.499Z"
+  "at": "2026-09-16T08:15:28.689Z"
 }
