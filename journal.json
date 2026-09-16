@@ -11653,5 +11653,20 @@
    "open"
   ],
   "fillTime": 1789500600000
+ },
+ {
+  "id": "SYNUSDT::BoS::1789525800000",
+  "symbol": "SYNUSDT",
+  "setup": "BoS",
+  "entry": 0.09786,
+  "sl": 0.091815,
+  "tp": 0.10834,
+  "tpSrc": "WH",
+  "slPct": 6.18,
+  "gainPct": 10.71,
+  "rr": 1.73,
+  "signalTime": 1789525800000,
+  "status": "pending",
+  "createdAt": 1789525837039
  }
 ]
