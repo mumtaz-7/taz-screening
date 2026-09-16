@@ -11771,5 +11771,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "LSKUSDT::BoS::1789556400000",
+  "symbol": "LSKUSDT",
+  "setup": "BoS",
+  "entry": 0.571,
+  "sl": 0.42010000000000003,
+  "tp": 1.038,
+  "tpSrc": "OB",
+  "slPct": 26.43,
+  "gainPct": 81.79,
+  "rr": 3.09,
+  "signalTime": 1789556400000,
+  "status": "pending",
+  "createdAt": 1789556443137
+ },
+ {
+  "id": "SAGAUSDT::ChoCh::1789556400000",
+  "symbol": "SAGAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02037,
+  "sl": 0.017895,
+  "tp": 0.02547,
+  "tpSrc": "WH",
+  "slPct": 12.15,
+  "gainPct": 25.04,
+  "rr": 2.06,
+  "signalTime": 1789556400000,
+  "status": "pending",
+  "createdAt": 1789556443137
  }
 ]
