@@ -11752,5 +11752,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ACEUSDT::BoS::1789550100000",
+  "symbol": "ACEUSDT",
+  "setup": "BoS",
+  "entry": 0.1525,
+  "sl": 0.1483,
+  "tp": 0.1756,
+  "tpSrc": "OB",
+  "slPct": 2.75,
+  "gainPct": 15.15,
+  "rr": 5.5,
+  "signalTime": 1789550100000,
+  "status": "pending",
+  "createdAt": 1789550130547
  }
 ]
