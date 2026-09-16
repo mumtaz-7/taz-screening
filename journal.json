@@ -11713,12 +11713,15 @@
   "gainPct": 21.2,
   "rr": 5.3,
   "signalTime": 1789542000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789542039629,
   "fillTime": 1789542000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789578000000
  },
  {
   "id": "XPLUSDT::BoS::1789542000000",
