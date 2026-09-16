@@ -11694,5 +11694,35 @@
    "open"
   ],
   "fillTime": 1789537500000
+ },
+ {
+  "id": "FFUSDT::ChoCh::1789542000000",
+  "symbol": "FFUSDT",
+  "setup": "ChoCh",
+  "entry": 0.14037,
+  "sl": 0.13476,
+  "tp": 0.17013,
+  "tpSrc": "WH",
+  "slPct": 4,
+  "gainPct": 21.2,
+  "rr": 5.3,
+  "signalTime": 1789542000000,
+  "status": "pending",
+  "createdAt": 1789542039629
+ },
+ {
+  "id": "XPLUSDT::BoS::1789542000000",
+  "symbol": "XPLUSDT",
+  "setup": "BoS",
+  "entry": 0.08154,
+  "sl": 0.079845,
+  "tp": 0.097,
+  "tpSrc": "OB",
+  "slPct": 2.08,
+  "gainPct": 18.96,
+  "rr": 9.12,
+  "signalTime": 1789542000000,
+  "status": "pending",
+  "createdAt": 1789542039629
  }
 ]
