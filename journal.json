@@ -11976,12 +11976,15 @@
   "gainPct": 11.62,
   "rr": 1.74,
   "signalTime": 1789614900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789614927877,
   "fillTime": 1789614900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.74,
+  "resolvedTime": 1789643700000
  },
  {
   "id": "ONEUSDT::ChoCh::1789618500000",
@@ -12057,5 +12060,20 @@
   "status": "pending",
   "createdAt": 1789635640760,
   "notified": []
+ },
+ {
+  "id": "REZUSDT::BoS::1789644600000",
+  "symbol": "REZUSDT",
+  "setup": "BoS",
+  "entry": 0.003824,
+  "sl": 0.0036394999999999995,
+  "tp": 0.004186,
+  "tpSrc": "WH",
+  "slPct": 4.82,
+  "gainPct": 9.47,
+  "rr": 1.96,
+  "signalTime": 1789644600000,
+  "status": "pending",
+  "createdAt": 1789644634764
  }
 ]
