@@ -11894,5 +11894,20 @@
   "status": "pending",
   "createdAt": 1789601434938,
   "notified": []
+ },
+ {
+  "id": "XLMUSDT::ChoCh::1789604100000",
+  "symbol": "XLMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1842,
+  "sl": 0.1764,
+  "tp": 0.1987,
+  "tpSrc": "WH",
+  "slPct": 4.23,
+  "gainPct": 7.87,
+  "rr": 1.86,
+  "signalTime": 1789604100000,
+  "status": "pending",
+  "createdAt": 1789604128623
  }
 ]
