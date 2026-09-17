@@ -12126,5 +12126,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GALAUSDT::ChoCh::1789664400000",
+  "symbol": "GALAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001743,
+  "sl": 0.0016784999999999999,
+  "tp": 0.001904,
+  "tpSrc": "WH",
+  "slPct": 3.7,
+  "gainPct": 9.24,
+  "rr": 2.5,
+  "signalTime": 1789664400000,
+  "status": "pending",
+  "createdAt": 1789664441449
  }
 ]
