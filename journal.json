@@ -12085,5 +12085,20 @@
    "open"
   ],
   "fillTime": 1789648200000
+ },
+ {
+  "id": "MARSCOINUSDT::ChoCh::1789651800000",
+  "symbol": "MARSCOINUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1115,
+  "sl": 0.10565,
+  "tp": 0.1207,
+  "tpSrc": "WH",
+  "slPct": 5.25,
+  "gainPct": 8.25,
+  "rr": 1.57,
+  "signalTime": 1789651800000,
+  "status": "pending",
+  "createdAt": 1789651838201
  }
 ]
