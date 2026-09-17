@@ -11910,9 +11910,12 @@
   "gainPct": 7.87,
   "rr": 1.86,
   "signalTime": 1789604100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789604128623,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789606800000
  },
  {
   "id": "DASHUSDT::ChoCh::1789605000000",
@@ -11929,5 +11932,20 @@
   "status": "pending",
   "createdAt": 1789605034169,
   "notified": []
+ },
+ {
+  "id": "IOSTUSDT::ChoCh::1789607700000",
+  "symbol": "IOSTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000855,
+  "sl": 0.0008115,
+  "tp": 0.00096,
+  "tpSrc": "WH",
+  "slPct": 5.09,
+  "gainPct": 12.28,
+  "rr": 2.41,
+  "signalTime": 1789607700000,
+  "status": "pending",
+  "createdAt": 1789607744590
  }
 ]
