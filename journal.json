@@ -12149,5 +12149,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "RAYUSDT::BoS::1789667100000",
+  "symbol": "RAYUSDT",
+  "setup": "BoS",
+  "entry": 1.4809,
+  "sl": 1.42165,
+  "tp": 1.5973,
+  "tpSrc": "OB",
+  "slPct": 4,
+  "gainPct": 7.86,
+  "rr": 1.96,
+  "signalTime": 1789667100000,
+  "status": "pending",
+  "createdAt": 1789667129864
  }
 ]
