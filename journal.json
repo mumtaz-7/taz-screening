@@ -11954,9 +11954,12 @@
   "gainPct": 12.28,
   "rr": 2.41,
   "signalTime": 1789607700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789607744590,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789621200000
  },
  {
   "id": "COTIUSDT::BoS::1789614900000",
@@ -11996,5 +11999,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "AVAUSDT::ChoCh::1789622100000",
+  "symbol": "AVAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1831,
+  "sl": 0.1699,
+  "tp": 0.2014,
+  "tpSrc": "WH",
+  "slPct": 7.21,
+  "gainPct": 9.99,
+  "rr": 1.39,
+  "signalTime": 1789622100000,
+  "status": "pending",
+  "createdAt": 1789622128692
  }
 ]
