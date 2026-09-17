@@ -11897,12 +11897,15 @@
   "gainPct": 7.04,
   "rr": 3.6,
   "signalTime": 1789601400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789601434938,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789605900000
+  "fillTime": 1789605900000,
+  "R": -1,
+  "resolvedTime": 1789618500000
  },
  {
   "id": "XLMUSDT::ChoCh::1789604100000",
@@ -11986,7 +11989,12 @@
   "gainPct": 19.14,
   "rr": 1.18,
   "signalTime": 1789618500000,
-  "status": "pending",
-  "createdAt": 1789618528937
+  "status": "void",
+  "createdAt": 1789618528937,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789618500000,
+  "notified": [
+   "void"
+  ]
  }
 ]
