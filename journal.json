@@ -11938,9 +11938,12 @@
   "gainPct": 9.84,
   "rr": 1.79,
   "signalTime": 1789605000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789605034169,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "IOSTUSDT::ChoCh::1789607700000",
