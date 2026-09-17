@@ -12082,12 +12082,15 @@
   "gainPct": 9.47,
   "rr": 1.96,
   "signalTime": 1789644600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789644634764,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789648200000
+  "fillTime": 1789648200000,
+  "R": -1,
+  "resolvedTime": 1789665300000
  },
  {
   "id": "MARSCOINUSDT::ChoCh::1789651800000",
