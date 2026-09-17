@@ -11856,9 +11856,12 @@
   "gainPct": 10.91,
   "rr": 2.43,
   "signalTime": 1789596000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789596038353,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "SAGAUSDT::BoS::1789596000000",
@@ -11970,5 +11973,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONEUSDT::ChoCh::1789618500000",
+  "symbol": "ONEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001144,
+  "sl": 0.0009580000000000001,
+  "tp": 0.001363,
+  "tpSrc": "WH",
+  "slPct": 16.26,
+  "gainPct": 19.14,
+  "rr": 1.18,
+  "signalTime": 1789618500000,
+  "status": "pending",
+  "createdAt": 1789618528937
  }
 ]
