@@ -11891,9 +11891,12 @@
   "gainPct": 7.04,
   "rr": 3.6,
   "signalTime": 1789601400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789601434938,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789605900000
  },
  {
   "id": "XLMUSDT::ChoCh::1789604100000",
