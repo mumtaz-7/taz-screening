@@ -12107,5 +12107,20 @@
    "open"
   ],
   "fillTime": 1789652700000
+ },
+ {
+  "id": "RAYUSDT::ChoCh::1789659900000",
+  "symbol": "RAYUSDT",
+  "setup": "ChoCh",
+  "entry": 1.4729,
+  "sl": 1.3903999999999999,
+  "tp": 1.5973,
+  "tpSrc": "OB",
+  "slPct": 5.6,
+  "gainPct": 8.45,
+  "rr": 1.51,
+  "signalTime": 1789659900000,
+  "status": "pending",
+  "createdAt": 1789659937179
  }
 ]
