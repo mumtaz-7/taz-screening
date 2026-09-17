@@ -11872,12 +11872,15 @@
   "gainPct": 27.86,
   "rr": 7.87,
   "signalTime": 1789596000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789596038353,
   "fillTime": 1789596000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789613100000
  },
  {
   "id": "PENDLEUSDT::ChoCh::1789601400000",
