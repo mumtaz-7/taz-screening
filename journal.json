@@ -12210,9 +12210,12 @@
   "gainPct": 8.17,
   "rr": 2.83,
   "signalTime": 1789713000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789713035948,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789719300000
  },
  {
   "id": "STRKUSDT::BoS::1789718400000",
@@ -12226,8 +12229,12 @@
   "gainPct": 10.75,
   "rr": 2.17,
   "signalTime": 1789718400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789718439310,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789719300000
  }
 ]
