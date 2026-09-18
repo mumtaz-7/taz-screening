@@ -12236,5 +12236,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1789719300000
+ },
+ {
+  "id": "ENSOUSDT::BoS::1789726500000",
+  "symbol": "ENSOUSDT",
+  "setup": "BoS",
+  "entry": 0.89,
+  "sl": 0.851,
+  "tp": 0.979,
+  "tpSrc": "WH",
+  "slPct": 4.38,
+  "gainPct": 10,
+  "rr": 2.28,
+  "signalTime": 1789726500000,
+  "status": "pending",
+  "createdAt": 1789726528426
  }
 ]
