@@ -12126,12 +12126,15 @@
   "gainPct": 8.45,
   "rr": 1.51,
   "signalTime": 1789659900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789659937179,
   "fillTime": 1789659900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.51,
+  "resolvedTime": 1789701300000
  },
  {
   "id": "GALAUSDT::ChoCh::1789664400000",
@@ -12165,12 +12168,15 @@
   "gainPct": 7.86,
   "rr": 1.96,
   "signalTime": 1789667100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789667129864,
   "fillTime": 1789667100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.96,
+  "resolvedTime": 1789701300000
  },
  {
   "id": "CHIPUSDT::ChoCh::1789696800000",
