@@ -12317,5 +12317,20 @@
    "open"
   ],
   "fillTime": 1789766100000
+ },
+ {
+  "id": "ONEUSDT::ChoCh::1789775100000",
+  "symbol": "ONEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001822,
+  "sl": 0.0016045,
+  "tp": 0.002171,
+  "tpSrc": "WH",
+  "slPct": 11.94,
+  "gainPct": 19.15,
+  "rr": 1.6,
+  "signalTime": 1789775100000,
+  "status": "pending",
+  "createdAt": 1789775131948
  }
 ]
