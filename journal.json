@@ -12259,5 +12259,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ZKUSDT::BoS::1789759800000",
+  "symbol": "ZKUSDT",
+  "setup": "BoS",
+  "entry": 0.01047,
+  "sl": 0.01014,
+  "tp": 0.01122,
+  "tpSrc": "WH",
+  "slPct": 3.15,
+  "gainPct": 7.16,
+  "rr": 2.27,
+  "signalTime": 1789759800000,
+  "status": "pending",
+  "createdAt": 1789759835545
  }
 ]
