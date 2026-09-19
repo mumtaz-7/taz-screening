@@ -12546,5 +12546,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1789803900000
+ },
+ {
+  "id": "STRKUSDT::ChoCh::1789805700000",
+  "symbol": "STRKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.04157,
+  "sl": 0.038915000000000005,
+  "tp": 0.04641,
+  "tpSrc": "WH",
+  "slPct": 6.39,
+  "gainPct": 11.64,
+  "rr": 1.82,
+  "signalTime": 1789805700000,
+  "status": "pending",
+  "createdAt": 1789805729809
  }
 ]
