@@ -12595,8 +12595,12 @@
   "gainPct": 17.57,
   "rr": 2.96,
   "signalTime": 1789807500000,
-  "status": "pending",
-  "createdAt": 1789807530940
+  "status": "open",
+  "createdAt": 1789807530940,
+  "fillTime": 1789807500000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "STGUSDT::ChoCh::1789807500000",
@@ -12611,6 +12615,22 @@
   "rr": 2.4,
   "signalTime": 1789807500000,
   "status": "pending",
-  "createdAt": 1789807530940
+  "createdAt": 1789807530940,
+  "notified": []
+ },
+ {
+  "id": "SYNUSDT::BoS::1789808400000",
+  "symbol": "SYNUSDT",
+  "setup": "BoS",
+  "entry": 0.247,
+  "sl": 0.21733000000000002,
+  "tp": 0.27696,
+  "tpSrc": "WH",
+  "slPct": 12.01,
+  "gainPct": 12.13,
+  "rr": 1.01,
+  "signalTime": 1789808400000,
+  "status": "pending",
+  "createdAt": 1789808440778
  }
 ]
