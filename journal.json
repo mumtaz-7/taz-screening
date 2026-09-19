@@ -12575,7 +12575,42 @@
   "gainPct": 14.62,
   "rr": 1.32,
   "signalTime": 1789806600000,
+  "status": "void",
+  "createdAt": 1789806635884,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789806600000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "REDUSDT::BoS::1789807500000",
+  "symbol": "REDUSDT",
+  "setup": "BoS",
+  "entry": 0.1514,
+  "sl": 0.1424,
+  "tp": 0.178,
+  "tpSrc": "WH",
+  "slPct": 5.94,
+  "gainPct": 17.57,
+  "rr": 2.96,
+  "signalTime": 1789807500000,
   "status": "pending",
-  "createdAt": 1789806635884
+  "createdAt": 1789807530940
+ },
+ {
+  "id": "STGUSDT::ChoCh::1789807500000",
+  "symbol": "STGUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1555,
+  "sl": 0.1456,
+  "tp": 0.1793,
+  "tpSrc": "WH",
+  "slPct": 6.37,
+  "gainPct": 15.31,
+  "rr": 2.4,
+  "signalTime": 1789807500000,
+  "status": "pending",
+  "createdAt": 1789807530940
  }
 ]

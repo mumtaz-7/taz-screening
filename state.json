@@ -1,7 +1,9 @@
 {
   "ready": [
+    "REDUSDT::BoS",
+    "STGUSDT::ChoCh",
     "STRKUSDT::ChoCh",
     "ZAMAUSDT::BoS"
   ],
-  "at": "2026-09-19T08:30:35.883Z"
+  "at": "2026-09-19T08:45:30.940Z"
 }
