@@ -12331,6 +12331,22 @@
   "rr": 1.6,
   "signalTime": 1789775100000,
   "status": "pending",
-  "createdAt": 1789775131948
+  "createdAt": 1789775131948,
+  "notified": []
+ },
+ {
+  "id": "STGUSDT::ChoCh::1789776000000",
+  "symbol": "STGUSDT",
+  "setup": "ChoCh",
+  "entry": 0.144,
+  "sl": 0.13755,
+  "tp": 0.1599,
+  "tpSrc": "WH",
+  "slPct": 4.48,
+  "gainPct": 11.04,
+  "rr": 2.47,
+  "signalTime": 1789776000000,
+  "status": "pending",
+  "createdAt": 1789776041846
  }
 ]
