@@ -1,8 +1,7 @@
 {
   "ready": [
     "REDUSDT::BoS",
-    "SAGAUSDT::BoS",
-    "SYNUSDT::BoS"
+    "SAGAUSDT::BoS"
   ],
-  "at": "2026-09-19T09:45:28.469Z"
+  "at": "2026-09-19T10:00:43.100Z"
 }
