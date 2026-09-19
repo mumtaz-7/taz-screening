@@ -12793,5 +12793,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AUSDT::BoS::1789846200000",
+  "symbol": "AUSDT",
+  "setup": "BoS",
+  "entry": 0.0903,
+  "sl": 0.08925,
+  "tp": 0.0993,
+  "tpSrc": "WH",
+  "slPct": 1.16,
+  "gainPct": 9.97,
+  "rr": 8.57,
+  "signalTime": 1789846200000,
+  "status": "pending",
+  "createdAt": 1789846236803
  }
 ]
