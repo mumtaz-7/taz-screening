@@ -12350,9 +12350,13 @@
   "gainPct": 11.04,
   "rr": 2.47,
   "signalTime": 1789776000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789776041846,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789779600000
  },
  {
   "id": "牛来USDT::ChoCh::1789777800000",
