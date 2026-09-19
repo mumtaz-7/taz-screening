@@ -12472,8 +12472,26 @@
   "gainPct": 12.54,
   "rr": 4.07,
   "signalTime": 1789794900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789794929887,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789796700000
+ },
+ {
+  "id": "REDUSDT::ChoCh::1789797600000",
+  "symbol": "REDUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1487,
+  "sl": 0.1385,
+  "tp": 0.178,
+  "tpSrc": "WH",
+  "slPct": 6.86,
+  "gainPct": 19.7,
+  "rr": 2.87,
+  "signalTime": 1789797600000,
+  "status": "pending",
+  "createdAt": 1789797640337
  }
 ]
