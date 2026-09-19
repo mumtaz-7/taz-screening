@@ -12560,6 +12560,22 @@
   "rr": 1.82,
   "signalTime": 1789805700000,
   "status": "pending",
-  "createdAt": 1789805729809
+  "createdAt": 1789805729809,
+  "notified": []
+ },
+ {
+  "id": "ZAMAUSDT::BoS::1789806600000",
+  "symbol": "ZAMAUSDT",
+  "setup": "BoS",
+  "entry": 0.065,
+  "sl": 0.057785,
+  "tp": 0.0745,
+  "tpSrc": "WH",
+  "slPct": 11.1,
+  "gainPct": 14.62,
+  "rr": 1.32,
+  "signalTime": 1789806600000,
+  "status": "pending",
+  "createdAt": 1789806635884
  }
 ]
