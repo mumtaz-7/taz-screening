@@ -1,7 +1,8 @@
 {
   "ready": [
     "ESPUSDT::BoS",
+    "HEIUSDT::BoS",
     "REDUSDT::ChoCh"
   ],
-  "at": "2026-09-19T07:00:42.249Z"
+  "at": "2026-09-19T07:15:28.446Z"
 }

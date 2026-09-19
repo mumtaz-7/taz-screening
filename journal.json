@@ -12050,12 +12050,15 @@
   "gainPct": 17.44,
   "rr": 1.67,
   "signalTime": 1789624800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789624837836,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789627500000
+  "fillTime": 1789627500000,
+  "R": 1.67,
+  "resolvedTime": 1789801200000
  },
  {
   "id": "PENDLEUSDT::ChoCh::1789635600000",
@@ -12523,5 +12526,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "HEIUSDT::BoS::1789802100000",
+  "symbol": "HEIUSDT",
+  "setup": "BoS",
+  "entry": 0.1448,
+  "sl": 0.13805,
+  "tp": 0.1675,
+  "tpSrc": "WH",
+  "slPct": 4.66,
+  "gainPct": 15.68,
+  "rr": 3.36,
+  "signalTime": 1789802100000,
+  "status": "pending",
+  "createdAt": 1789802128454
  }
 ]
