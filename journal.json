@@ -12330,9 +12330,13 @@
   "gainPct": 19.15,
   "rr": 1.6,
   "signalTime": 1789775100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789775131948,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789777800000
  },
  {
   "id": "STGUSDT::ChoCh::1789776000000",
@@ -12363,6 +12367,7 @@
   "rr": 3.01,
   "signalTime": 1789777800000,
   "status": "pending",
-  "createdAt": 1789777837062
+  "createdAt": 1789777837062,
+  "notified": []
  }
 ]
