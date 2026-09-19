@@ -12656,9 +12656,12 @@
   "gainPct": 23.42,
   "rr": 8.46,
   "signalTime": 1789817400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789817435841,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789821000000
  },
  {
   "id": "CUSDT::ChoCh::1789819200000",
@@ -12672,8 +12675,11 @@
   "gainPct": 31.39,
   "rr": 6.83,
   "signalTime": 1789819200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789819239795,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789821000000
  }
 ]
