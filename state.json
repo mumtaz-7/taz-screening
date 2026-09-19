@@ -1,6 +1,7 @@
 {
   "ready": [
-    "GUSDT::ChoCh"
+    "GUSDT::ChoCh",
+    "SAGAUSDT::BoS"
   ],
-  "at": "2026-09-19T04:00:39.631Z"
+  "at": "2026-09-19T04:15:29.692Z"
 }
