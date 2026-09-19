@@ -1,10 +1,11 @@
 {
   "ready": [
     "REDUSDT::BoS",
+    "SAGAUSDT::BoS",
     "STGUSDT::ChoCh",
     "STRKUSDT::ChoCh",
     "SYNUSDT::BoS",
     "ZAMAUSDT::BoS"
   ],
-  "at": "2026-09-19T09:15:29.647Z"
+  "at": "2026-09-19T09:30:37.064Z"
 }
