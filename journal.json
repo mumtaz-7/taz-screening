@@ -12774,5 +12774,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "PUMPUSDT::ChoCh::1789839900000",
+  "symbol": "PUMPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.004155,
+  "sl": 0.0040620000000000005,
+  "tp": 0.004452,
+  "tpSrc": "WH",
+  "slPct": 2.24,
+  "gainPct": 7.15,
+  "rr": 3.19,
+  "signalTime": 1789839900000,
+  "status": "pending",
+  "createdAt": 1789839929032
  }
 ]
