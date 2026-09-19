@@ -12453,8 +12453,12 @@
   "gainPct": 13.05,
   "rr": 1.71,
   "signalTime": 1789794900000,
-  "status": "pending",
-  "createdAt": 1789794929887
+  "status": "open",
+  "createdAt": 1789794929887,
+  "fillTime": 1789794900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SUPERUSDT::ChoCh::1789794900000",
@@ -12469,6 +12473,7 @@
   "rr": 4.07,
   "signalTime": 1789794900000,
   "status": "pending",
-  "createdAt": 1789794929887
+  "createdAt": 1789794929887,
+  "notified": []
  }
 ]
