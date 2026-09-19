@@ -11928,12 +11928,15 @@
   "gainPct": 7.87,
   "rr": 1.86,
   "signalTime": 1789604100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789604128623,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789606800000
+  "fillTime": 1789606800000,
+  "R": 1.86,
+  "resolvedTime": 1789821900000
  },
  {
   "id": "DASHUSDT::ChoCh::1789605000000",
@@ -12621,9 +12624,12 @@
   "gainPct": 15.31,
   "rr": 2.4,
   "signalTime": 1789807500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789807530940,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789821900000
  },
  {
   "id": "SYNUSDT::BoS::1789808400000",
