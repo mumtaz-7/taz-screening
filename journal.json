@@ -12420,5 +12420,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ARUSDT::BoS::1789794000000",
+  "symbol": "ARUSDT",
+  "setup": "BoS",
+  "entry": 3.731,
+  "sl": 3.4654999999999996,
+  "tp": 4.22,
+  "tpSrc": "WH",
+  "slPct": 7.12,
+  "gainPct": 13.11,
+  "rr": 1.84,
+  "signalTime": 1789794000000,
+  "status": "pending",
+  "createdAt": 1789794041233
  }
 ]
