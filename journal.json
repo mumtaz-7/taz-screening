@@ -12806,12 +12806,15 @@
   "gainPct": 9.97,
   "rr": 8.57,
   "signalTime": 1789846200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789846236803,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789850700000
+  "fillTime": 1789850700000,
+  "R": -1,
+  "resolvedTime": 1789855200000
  },
  {
   "id": "SYNUSDT::ChoCh::1789852500000",
