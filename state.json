@@ -1,9 +1,7 @@
 {
   "ready": [
     "ARUSDT::BoS",
-    "GENIUSUSDT::ChoCh",
-    "SAGAUSDT::BoS",
-    "SUPERUSDT::ChoCh"
+    "GENIUSUSDT::ChoCh"
   ],
-  "at": "2026-09-19T05:30:33.588Z"
+  "at": "2026-09-19T05:45:31.972Z"
 }
