@@ -12659,5 +12659,20 @@
   "status": "pending",
   "createdAt": 1789817435841,
   "notified": []
+ },
+ {
+  "id": "CUSDT::ChoCh::1789819200000",
+  "symbol": "CUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0685,
+  "sl": 0.06534999999999999,
+  "tp": 0.09,
+  "tpSrc": "WH",
+  "slPct": 4.6,
+  "gainPct": 31.39,
+  "rr": 6.83,
+  "signalTime": 1789819200000,
+  "status": "pending",
+  "createdAt": 1789819239795
  }
 ]
