@@ -12492,6 +12492,22 @@
   "rr": 2.87,
   "signalTime": 1789797600000,
   "status": "pending",
-  "createdAt": 1789797640337
+  "createdAt": 1789797640337,
+  "notified": []
+ },
+ {
+  "id": "ESPUSDT::BoS::1789798500000",
+  "symbol": "ESPUSDT",
+  "setup": "BoS",
+  "entry": 0.09445,
+  "sl": 0.09091,
+  "tp": 0.10681,
+  "tpSrc": "WH",
+  "slPct": 3.75,
+  "gainPct": 13.09,
+  "rr": 3.49,
+  "signalTime": 1789798500000,
+  "status": "pending",
+  "createdAt": 1789798532124
  }
 ]
