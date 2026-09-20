@@ -13286,9 +13286,12 @@
   "gainPct": 18.9,
   "rr": 7.57,
   "signalTime": 1789917300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789917329672,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789938000000
  },
  {
   "id": "SAGAUSDT::BoS::1789919100000",
