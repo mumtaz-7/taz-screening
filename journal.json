@@ -13101,12 +13101,15 @@
   "gainPct": 11.29,
   "rr": 2.42,
   "signalTime": 1789893000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789893034597,
   "fillTime": 1789893000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.42,
+  "resolvedTime": 1789922700000
  },
  {
   "id": "GUNUSDT::BoS::1789895700000",
