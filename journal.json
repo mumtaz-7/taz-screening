@@ -13328,9 +13328,13 @@
   "gainPct": 9.74,
   "rr": 1.08,
   "signalTime": 1789926300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789926329237,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789943400000
  },
  {
   "id": "GENIUSUSDT::ChoCh::1789929000000",
