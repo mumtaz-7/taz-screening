@@ -13045,8 +13045,12 @@
   "gainPct": 11.91,
   "rr": 4.29,
   "signalTime": 1789892100000,
-  "status": "pending",
-  "createdAt": 1789892129356
+  "status": "open",
+  "createdAt": 1789892129356,
+  "fillTime": 1789892100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "XTZUSDT::ChoCh::1789892100000",
@@ -13061,6 +13065,22 @@
   "rr": 3.18,
   "signalTime": 1789892100000,
   "status": "pending",
-  "createdAt": 1789892129356
+  "createdAt": 1789892129356,
+  "notified": []
+ },
+ {
+  "id": "ENAUSDT::ChoCh::1789893000000",
+  "symbol": "ENAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1993,
+  "sl": 0.19,
+  "tp": 0.2218,
+  "tpSrc": "WH",
+  "slPct": 4.67,
+  "gainPct": 11.29,
+  "rr": 2.42,
+  "signalTime": 1789893000000,
+  "status": "pending",
+  "createdAt": 1789893034597
  }
 ]
