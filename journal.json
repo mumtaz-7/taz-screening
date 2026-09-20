@@ -12693,12 +12693,15 @@
   "gainPct": 31.39,
   "rr": 6.83,
   "signalTime": 1789819200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789819239795,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789821000000
+  "fillTime": 1789821000000,
+  "R": 6.83,
+  "resolvedTime": 1789885800000
  },
  {
   "id": "AUSDT::ChoCh::1789826400000",
@@ -12734,12 +12737,15 @@
   "gainPct": 27.48,
   "rr": 3.7,
   "signalTime": 1789829100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789829128597,
   "fillTime": 1789829100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.7,
+  "resolvedTime": 1789885800000
  },
  {
   "id": "ONEUSDT::BoS::1789834500000",
@@ -12982,7 +12988,11 @@
   "gainPct": 24.13,
   "rr": 4.16,
   "signalTime": 1789885800000,
-  "status": "pending",
-  "createdAt": 1789885871627
+  "status": "open",
+  "createdAt": 1789885871627,
+  "fillTime": 1789885800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
