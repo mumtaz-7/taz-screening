@@ -13032,5 +13032,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AVAXUSDT::ChoCh::1789892100000",
+  "symbol": "AVAXUSDT",
+  "setup": "ChoCh",
+  "entry": 9.673,
+  "sl": 9.404499999999999,
+  "tp": 10.825,
+  "tpSrc": "WH",
+  "slPct": 2.78,
+  "gainPct": 11.91,
+  "rr": 4.29,
+  "signalTime": 1789892100000,
+  "status": "pending",
+  "createdAt": 1789892129356
+ },
+ {
+  "id": "XTZUSDT::ChoCh::1789892100000",
+  "symbol": "XTZUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3472,
+  "sl": 0.3298,
+  "tp": 0.4025,
+  "tpSrc": "WH",
+  "slPct": 5.01,
+  "gainPct": 15.93,
+  "rr": 3.18,
+  "signalTime": 1789892100000,
+  "status": "pending",
+  "createdAt": 1789892129356
  }
 ]
