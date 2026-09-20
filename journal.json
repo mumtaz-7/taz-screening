@@ -12853,9 +12853,12 @@
   "gainPct": 13.38,
   "rr": 1.98,
   "signalTime": 1789861500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789861528269,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789864200000
  },
  {
   "id": "GUSDT::BoS::1789863300000",
@@ -12872,5 +12875,20 @@
   "status": "pending",
   "createdAt": 1789863328682,
   "notified": []
+ },
+ {
+  "id": "AVAXUSDT::BoS::1789865100000",
+  "symbol": "AVAXUSDT",
+  "setup": "BoS",
+  "entry": 9.82,
+  "sl": 9.4495,
+  "tp": 10.825,
+  "tpSrc": "WH",
+  "slPct": 3.77,
+  "gainPct": 10.23,
+  "rr": 2.71,
+  "signalTime": 1789865100000,
+  "status": "pending",
+  "createdAt": 1789865129560
  }
 ]
