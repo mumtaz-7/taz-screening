@@ -13109,5 +13109,35 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "AVAXUSDT::BoS::1789897500000",
+  "symbol": "AVAXUSDT",
+  "setup": "BoS",
+  "entry": 9.839,
+  "sl": 9.4115,
+  "tp": 10.825,
+  "tpSrc": "WH",
+  "slPct": 4.34,
+  "gainPct": 10.02,
+  "rr": 2.31,
+  "signalTime": 1789897500000,
+  "status": "pending",
+  "createdAt": 1789897564362
+ },
+ {
+  "id": "ZENUSDT::BoS::1789897500000",
+  "symbol": "ZENUSDT",
+  "setup": "BoS",
+  "entry": 7.741,
+  "sl": 7.532500000000001,
+  "tp": 8.593,
+  "tpSrc": "WH",
+  "slPct": 2.69,
+  "gainPct": 11.01,
+  "rr": 4.09,
+  "signalTime": 1789897500000,
+  "status": "pending",
+  "createdAt": 1789897564362
  }
 ]
