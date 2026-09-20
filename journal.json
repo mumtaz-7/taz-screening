@@ -12950,12 +12950,15 @@
   "gainPct": 15.75,
   "rr": 2.46,
   "signalTime": 1789880400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789880441401,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789881300000
+  "fillTime": 1789881300000,
+  "R": -1,
+  "resolvedTime": 1789889400000
  },
  {
   "id": "ZENUSDT::ChoCh::1789884000000",
@@ -13008,7 +13011,8 @@
   "rr": 4.3,
   "signalTime": 1789889400000,
   "status": "pending",
-  "createdAt": 1789889433749
+  "createdAt": 1789889433749,
+  "notified": []
  },
  {
   "id": "INJUSDT::ChoCh::1789889400000",
@@ -13022,7 +13026,11 @@
   "gainPct": 9.01,
   "rr": 1.7,
   "signalTime": 1789889400000,
-  "status": "pending",
-  "createdAt": 1789889433749
+  "status": "open",
+  "createdAt": 1789889433749,
+  "fillTime": 1789889400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
