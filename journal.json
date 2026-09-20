@@ -12712,12 +12712,15 @@
   "gainPct": 9.85,
   "rr": 5.39,
   "signalTime": 1789826400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789826438247,
   "fillTime": 1789826400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789871400000
  },
  {
   "id": "CUSDT::BoS::1789829100000",
@@ -12790,12 +12793,15 @@
   "gainPct": 7.15,
   "rr": 3.19,
   "signalTime": 1789839900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789839929032,
   "fillTime": 1789839900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789871400000
  },
  {
   "id": "AUSDT::BoS::1789846200000",
