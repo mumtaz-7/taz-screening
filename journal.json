@@ -13064,9 +13064,12 @@
   "gainPct": 15.93,
   "rr": 3.18,
   "signalTime": 1789892100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789892129356,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789894800000
  },
  {
   "id": "ENAUSDT::ChoCh::1789893000000",
@@ -13086,5 +13089,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GUNUSDT::BoS::1789895700000",
+  "symbol": "GUNUSDT",
+  "setup": "BoS",
+  "entry": 0.00311,
+  "sl": 0.0027500000000000003,
+  "tp": 0.0037,
+  "tpSrc": "WH",
+  "slPct": 11.58,
+  "gainPct": 18.97,
+  "rr": 1.64,
+  "signalTime": 1789895700000,
+  "status": "pending",
+  "createdAt": 1789895729150
  }
 ]
