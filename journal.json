@@ -13057,12 +13057,15 @@
   "gainPct": 11.91,
   "rr": 4.29,
   "signalTime": 1789892100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789892129356,
   "fillTime": 1789892100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.29,
+  "resolvedTime": 1789914600000
  },
  {
   "id": "XTZUSDT::ChoCh::1789892100000",
@@ -13134,12 +13137,15 @@
   "gainPct": 10.02,
   "rr": 2.31,
   "signalTime": 1789897500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789897564362,
   "fillTime": 1789897500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.31,
+  "resolvedTime": 1789914600000
  },
  {
   "id": "ZENUSDT::BoS::1789897500000",
@@ -13216,9 +13222,12 @@
   "gainPct": 21.67,
   "rr": 1.84,
   "signalTime": 1789913700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789913728645,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789914600000
  },
  {
   "id": "EPICUSDT::ChoCh::1789913700000",
