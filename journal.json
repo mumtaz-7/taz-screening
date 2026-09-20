@@ -13225,12 +13225,15 @@
   "gainPct": 21.67,
   "rr": 1.84,
   "signalTime": 1789913700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789913728645,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789914600000
+  "fillTime": 1789914600000,
+  "R": -1,
+  "resolvedTime": 1789917300000
  },
  {
   "id": "EPICUSDT::ChoCh::1789913700000",
@@ -13265,7 +13268,8 @@
   "rr": 4.1,
   "signalTime": 1789917300000,
   "status": "pending",
-  "createdAt": 1789917329672
+  "createdAt": 1789917329672,
+  "notified": []
  },
  {
   "id": "FUSDT::ChoCh::1789917300000",
@@ -13280,6 +13284,7 @@
   "rr": 7.57,
   "signalTime": 1789917300000,
   "status": "pending",
-  "createdAt": 1789917329672
+  "createdAt": 1789917329672,
+  "notified": []
  }
 ]
