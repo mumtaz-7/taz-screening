@@ -12872,9 +12872,12 @@
   "gainPct": 16.12,
   "rr": 1.11,
   "signalTime": 1789863300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789863328682,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789865100000
  },
  {
   "id": "AVAXUSDT::BoS::1789865100000",
@@ -12889,6 +12892,7 @@
   "rr": 2.71,
   "signalTime": 1789865100000,
   "status": "pending",
-  "createdAt": 1789865129560
+  "createdAt": 1789865129560,
+  "notified": []
  }
 ]
