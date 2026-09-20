@@ -13341,5 +13341,20 @@
   "status": "pending",
   "createdAt": 1789929033564,
   "notified": []
+ },
+ {
+  "id": "ZENUSDT::ChoCh::1789932600000",
+  "symbol": "ZENUSDT",
+  "setup": "ChoCh",
+  "entry": 7.781,
+  "sl": 7.5215,
+  "tp": 8.593,
+  "tpSrc": "WH",
+  "slPct": 3.34,
+  "gainPct": 10.44,
+  "rr": 3.13,
+  "signalTime": 1789932600000,
+  "status": "pending",
+  "createdAt": 1789932634706
  }
 ]
