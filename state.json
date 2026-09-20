@@ -1,7 +1,8 @@
 {
   "ready": [
-    "CELRUSDT::ChoCh",
-    "EPICUSDT::ChoCh"
+    "BERAUSDT::ChoCh",
+    "FUSDT::ChoCh",
+    "XTZUSDT::ChoCh"
   ],
-  "at": "2026-09-20T15:00:40.912Z"
+  "at": "2026-09-20T15:15:29.667Z"
 }
