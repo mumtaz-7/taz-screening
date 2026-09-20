@@ -12490,12 +12490,15 @@
   "gainPct": 12.54,
   "rr": 4.07,
   "signalTime": 1789794900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789794929887,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789796700000
+  "fillTime": 1789796700000,
+  "R": -1,
+  "resolvedTime": 1789909200000
  },
  {
   "id": "REDUSDT::ChoCh::1789797600000",
@@ -13188,11 +13191,14 @@
   "gainPct": 11.4,
   "rr": 1.98,
   "signalTime": 1789906500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789906534610,
   "fillTime": 1789906500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789909200000
  }
 ]
