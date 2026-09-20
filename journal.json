@@ -13019,9 +13019,12 @@
   "gainPct": 9.69,
   "rr": 4.3,
   "signalTime": 1789889400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789889433749,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "INJUSDT::ChoCh::1789889400000",
