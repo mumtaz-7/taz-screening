@@ -12931,5 +12931,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HEIUSDT::ChoCh::1789880400000",
+  "symbol": "HEIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1638,
+  "sl": 0.1533,
+  "tp": 0.1896,
+  "tpSrc": "WH",
+  "slPct": 6.41,
+  "gainPct": 15.75,
+  "rr": 2.46,
+  "signalTime": 1789880400000,
+  "status": "pending",
+  "createdAt": 1789880441401
  }
 ]
