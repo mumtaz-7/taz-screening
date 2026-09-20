@@ -13389,5 +13389,20 @@
    "open"
   ],
   "fillTime": 1789942500000
+ },
+ {
+  "id": "LUNAUSDT::BoS::1789947000000",
+  "symbol": "LUNAUSDT",
+  "setup": "BoS",
+  "entry": 0.0569,
+  "sl": 0.052849999999999994,
+  "tp": 0.0657,
+  "tpSrc": "WH",
+  "slPct": 7.12,
+  "gainPct": 15.47,
+  "rr": 2.17,
+  "signalTime": 1789947000000,
+  "status": "pending",
+  "createdAt": 1789947033724
  }
 ]
