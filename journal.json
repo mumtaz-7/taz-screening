@@ -12931,12 +12931,15 @@
   "gainPct": 9.53,
   "rr": 1.02,
   "signalTime": 1789869600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789869638039,
   "fillTime": 1789869600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.02,
+  "resolvedTime": 1789908300000
  },
  {
   "id": "HEIUSDT::ChoCh::1789880400000",
