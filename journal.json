@@ -13403,6 +13403,22 @@
   "rr": 2.17,
   "signalTime": 1789947000000,
   "status": "pending",
-  "createdAt": 1789947033724
+  "createdAt": 1789947033724,
+  "notified": []
+ },
+ {
+  "id": "GUNUSDT::ChoCh::1789947900000",
+  "symbol": "GUNUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00294,
+  "sl": 0.0028200000000000005,
+  "tp": 0.0033,
+  "tpSrc": "EQ",
+  "slPct": 4.08,
+  "gainPct": 12.24,
+  "rr": 3,
+  "signalTime": 1789947900000,
+  "status": "pending",
+  "createdAt": 1789947930023
  }
 ]
