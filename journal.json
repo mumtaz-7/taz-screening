@@ -13147,5 +13147,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ALLOUSDT::ChoCh::1789901100000",
+  "symbol": "ALLOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2438,
+  "sl": 0.23645,
+  "tp": 0.2784,
+  "tpSrc": "WH",
+  "slPct": 3.01,
+  "gainPct": 14.19,
+  "rr": 4.71,
+  "signalTime": 1789901100000,
+  "status": "pending",
+  "createdAt": 1789901130662
  }
 ]
