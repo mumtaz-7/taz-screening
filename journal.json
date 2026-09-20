@@ -13325,5 +13325,20 @@
   "status": "pending",
   "createdAt": 1789926329237,
   "notified": []
+ },
+ {
+  "id": "GENIUSUSDT::ChoCh::1789929000000",
+  "symbol": "GENIUSUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3608,
+  "sl": 0.3308,
+  "tp": 0.4017,
+  "tpSrc": "WH",
+  "slPct": 8.31,
+  "gainPct": 11.34,
+  "rr": 1.36,
+  "signalTime": 1789929000000,
+  "status": "pending",
+  "createdAt": 1789929033564
  }
 ]
