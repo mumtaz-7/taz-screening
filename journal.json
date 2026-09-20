@@ -12859,12 +12859,15 @@
   "gainPct": 13.38,
   "rr": 1.98,
   "signalTime": 1789861500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789861528269,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789864200000
+  "fillTime": 1789864200000,
+  "R": -1,
+  "resolvedTime": 1789875000000
  },
  {
   "id": "GUSDT::BoS::1789863300000",
