@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ARUSDT::ChoCh"
+    "ARUSDT::ChoCh",
+    "GUSDT::BoS"
   ],
-  "at": "2026-09-20T00:00:38.734Z"
+  "at": "2026-09-20T00:15:28.681Z"
 }
