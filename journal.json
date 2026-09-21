@@ -13585,7 +13585,28 @@
   "gainPct": 14.82,
   "rr": 2.51,
   "signalTime": 1789971300000,
+  "status": "loss",
+  "createdAt": 1789971331867,
+  "R": -1,
+  "fillTime": 1789971300000,
+  "resolvedTime": 1789971300000,
+  "notified": [
+   "loss"
+  ]
+ },
+ {
+  "id": "NILUSDT::BoS::1789972200000",
+  "symbol": "NILUSDT",
+  "setup": "BoS",
+  "entry": 0.0644,
+  "sl": 0.05877500000000001,
+  "tp": 0.075,
+  "tpSrc": "WH",
+  "slPct": 8.73,
+  "gainPct": 16.46,
+  "rr": 1.88,
+  "signalTime": 1789972200000,
   "status": "pending",
-  "createdAt": 1789971331867
+  "createdAt": 1789972237233
  }
 ]
