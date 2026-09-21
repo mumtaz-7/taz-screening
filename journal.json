@@ -13637,12 +13637,15 @@
   "gainPct": 8.64,
   "rr": 1.12,
   "signalTime": 1789976700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789976731290,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789977600000
+  "fillTime": 1789977600000,
+  "R": 1.12,
+  "resolvedTime": 1790022600000
  },
  {
   "id": "ZILUSDT::BoS::1789978500000",
