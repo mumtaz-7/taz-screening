@@ -13799,5 +13799,20 @@
   ],
   "R": -1,
   "resolvedTime": 1790002800000
+ },
+ {
+  "id": "NILUSDT::ChoCh::1790004600000",
+  "symbol": "NILUSDT",
+  "setup": "ChoCh",
+  "entry": 0.06677,
+  "sl": 0.06141500000000001,
+  "tp": 0.075,
+  "tpSrc": "WH",
+  "slPct": 8.02,
+  "gainPct": 12.33,
+  "rr": 1.54,
+  "signalTime": 1790004600000,
+  "status": "pending",
+  "createdAt": 1790004636428
  }
 ]
