@@ -13724,9 +13724,12 @@
   "gainPct": 47.85,
   "rr": 4.86,
   "signalTime": 1789986600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789986636378,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789992900000
  },
  {
   "id": "SUSDT::BoS::1789992000000",
