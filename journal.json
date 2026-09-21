@@ -13484,9 +13484,12 @@
   "gainPct": 18.96,
   "rr": 6.77,
   "signalTime": 1789949700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789949728946,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789953300000
  },
  {
   "id": "ZILUSDT::ChoCh::1789950600000",
