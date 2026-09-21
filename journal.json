@@ -13547,5 +13547,20 @@
   "status": "pending",
   "createdAt": 1789959640321,
   "notified": []
+ },
+ {
+  "id": "FTTUSDT::ChoCh::1789961400000",
+  "symbol": "FTTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2978,
+  "sl": 0.25295,
+  "tp": 0.3462,
+  "tpSrc": "WH",
+  "slPct": 15.06,
+  "gainPct": 16.25,
+  "rr": 1.08,
+  "signalTime": 1789961400000,
+  "status": "pending",
+  "createdAt": 1789961433905
  }
 ]
