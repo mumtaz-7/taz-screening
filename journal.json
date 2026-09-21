@@ -13190,12 +13190,15 @@
   "gainPct": 14.19,
   "rr": 4.71,
   "signalTime": 1789901100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789901130662,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789904700000
+  "fillTime": 1789904700000,
+  "R": 4.71,
+  "resolvedTime": 1790007300000
  },
  {
   "id": "EPICUSDT::BoS::1789906500000",
