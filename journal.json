@@ -13509,5 +13509,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XTZUSDT::BoS::1789955100000",
+  "symbol": "XTZUSDT",
+  "setup": "BoS",
+  "entry": 0.3526,
+  "sl": 0.3409,
+  "tp": 0.4025,
+  "tpSrc": "WH",
+  "slPct": 3.32,
+  "gainPct": 14.15,
+  "rr": 4.26,
+  "signalTime": 1789955100000,
+  "status": "pending",
+  "createdAt": 1789955129325
  }
 ]
