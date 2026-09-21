@@ -13531,5 +13531,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CELRUSDT::ChoCh::1789959600000",
+  "symbol": "CELRUSDT",
+  "setup": "ChoCh",
+  "entry": 0.003333,
+  "sl": 0.003048,
+  "tp": 0.003712,
+  "tpSrc": "EQ",
+  "slPct": 8.55,
+  "gainPct": 11.37,
+  "rr": 1.33,
+  "signalTime": 1789959600000,
+  "status": "pending",
+  "createdAt": 1789959640321
  }
 ]
