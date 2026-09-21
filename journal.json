@@ -13572,5 +13572,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SAGAUSDT::BoS::1789971300000",
+  "symbol": "SAGAUSDT",
+  "setup": "BoS",
+  "entry": 0.03584,
+  "sl": 0.033725000000000005,
+  "tp": 0.04115,
+  "tpSrc": "WH",
+  "slPct": 5.9,
+  "gainPct": 14.82,
+  "rr": 2.51,
+  "signalTime": 1789971300000,
+  "status": "pending",
+  "createdAt": 1789971331867
  }
 ]
