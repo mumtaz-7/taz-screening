@@ -1,8 +1,9 @@
 {
   "ready": [
-    "GUNUSDT::ChoCh",
+    "ENSOUSDT::BoS",
+    "FILUSDT::ChoCh",
     "LUNAUSDT::BoS",
     "ONEUSDT::ChoCh"
   ],
-  "at": "2026-09-21T00:00:41.296Z"
+  "at": "2026-09-21T00:15:28.945Z"
 }
