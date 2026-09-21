@@ -13705,12 +13705,15 @@
   "gainPct": 16.56,
   "rr": 4.49,
   "signalTime": 1789983900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789983965488,
   "fillTime": 1789983900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.49,
+  "resolvedTime": 1789995600000
  },
  {
   "id": "CELRUSDT::BoS::1789986600000",
