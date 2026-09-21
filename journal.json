@@ -13846,5 +13846,20 @@
   "status": "pending",
   "createdAt": 1790021730730,
   "notified": []
+ },
+ {
+  "id": "ARKMUSDT::BoS::1790032500000",
+  "symbol": "ARKMUSDT",
+  "setup": "BoS",
+  "entry": 0.1263,
+  "sl": 0.12329999999999999,
+  "tp": 0.1366,
+  "tpSrc": "WH",
+  "slPct": 2.38,
+  "gainPct": 8.16,
+  "rr": 3.43,
+  "signalTime": 1790032500000,
+  "status": "pending",
+  "createdAt": 1790032529742
  }
 ]
