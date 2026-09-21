@@ -13348,9 +13348,12 @@
   "gainPct": 11.34,
   "rr": 1.36,
   "signalTime": 1789929000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789929033564,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ZENUSDT::ChoCh::1789932600000",
@@ -13497,7 +13500,11 @@
   "gainPct": 30.75,
   "rr": 9,
   "signalTime": 1789950600000,
-  "status": "pending",
-  "createdAt": 1789950635863
+  "status": "open",
+  "createdAt": 1789950635863,
+  "fillTime": 1789950600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
