@@ -13749,5 +13749,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MIRAUSDT::BoS::1789994700000",
+  "symbol": "MIRAUSDT",
+  "setup": "BoS",
+  "entry": 0.05366,
+  "sl": 0.052145000000000004,
+  "tp": 0.05836,
+  "tpSrc": "WH",
+  "slPct": 2.82,
+  "gainPct": 8.76,
+  "rr": 3.1,
+  "signalTime": 1789994700000,
+  "status": "pending",
+  "createdAt": 1789994731020
  }
 ]
