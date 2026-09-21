@@ -13528,12 +13528,15 @@
   "gainPct": 14.15,
   "rr": 4.26,
   "signalTime": 1789955100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789955129325,
   "fillTime": 1789955100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789975800000
  },
  {
   "id": "CELRUSDT::ChoCh::1789959600000",
@@ -13609,5 +13612,20 @@
   "status": "pending",
   "createdAt": 1789972237233,
   "notified": []
+ },
+ {
+  "id": "EPICUSDT::ChoCh::1789976700000",
+  "symbol": "EPICUSDT",
+  "setup": "ChoCh",
+  "entry": 0.5799,
+  "sl": 0.53535,
+  "tp": 0.63,
+  "tpSrc": "WH",
+  "slPct": 7.68,
+  "gainPct": 8.64,
+  "rr": 1.12,
+  "signalTime": 1789976700000,
+  "status": "pending",
+  "createdAt": 1789976731290
  }
 ]
