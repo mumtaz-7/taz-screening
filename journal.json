@@ -13708,5 +13708,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CELRUSDT::BoS::1789986600000",
+  "symbol": "CELRUSDT",
+  "setup": "BoS",
+  "entry": 0.003517,
+  "sl": 0.0031704999999999997,
+  "tp": 0.0052,
+  "tpSrc": "WH",
+  "slPct": 9.85,
+  "gainPct": 47.85,
+  "rr": 4.86,
+  "signalTime": 1789986600000,
+  "status": "pending",
+  "createdAt": 1789986636378
  }
 ]
