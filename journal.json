@@ -13547,9 +13547,12 @@
   "gainPct": 11.37,
   "rr": 1.33,
   "signalTime": 1789959600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789959640321,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789963200000
  },
  {
   "id": "FTTUSDT::ChoCh::1789961400000",
