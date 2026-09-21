@@ -13625,8 +13625,26 @@
   "gainPct": 8.64,
   "rr": 1.12,
   "signalTime": 1789976700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789976731290,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789977600000
+ },
+ {
+  "id": "ZILUSDT::BoS::1789978500000",
+  "symbol": "ZILUSDT",
+  "setup": "BoS",
+  "entry": 0.003516,
+  "sl": 0.003447,
+  "tp": 0.004108,
+  "tpSrc": "OB",
+  "slPct": 1.96,
+  "gainPct": 16.84,
+  "rr": 8.58,
+  "signalTime": 1789978500000,
+  "status": "pending",
+  "createdAt": 1789978530754
  }
 ]
