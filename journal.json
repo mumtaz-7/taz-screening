@@ -13446,12 +13446,15 @@
   "gainPct": 16.4,
   "rr": 1.07,
   "signalTime": 1789948800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789948841302,
   "fillTime": 1789948800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789956900000
  },
  {
   "id": "ENSOUSDT::BoS::1789949700000",
