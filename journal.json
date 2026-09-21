@@ -13682,7 +13682,27 @@
   "gainPct": 19.33,
   "rr": 1.45,
   "signalTime": 1789983000000,
+  "status": "void",
+  "createdAt": 1789983037118,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789983000000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "PROVEUSDT::ChoCh::1789983900000",
+  "symbol": "PROVEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2398,
+  "sl": 0.23095,
+  "tp": 0.2795,
+  "tpSrc": "WH",
+  "slPct": 3.69,
+  "gainPct": 16.56,
+  "rr": 4.49,
+  "signalTime": 1789983900000,
   "status": "pending",
-  "createdAt": 1789983037118
+  "createdAt": 1789983965488
  }
 ]

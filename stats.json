@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T09:30:37.821Z",
+  "updatedAt": "2026-09-21T09:46:06.406Z",
   "all": {
     "n": 461,
     "wins": 111,
@@ -26,7 +26,7 @@
   },
   "open": 19,
   "pending": 2,
-  "void": 153,
+  "void": 154,
   "expired": 7,
-  "totalSignals": 642
+  "totalSignals": 643
 }
