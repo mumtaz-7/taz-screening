@@ -13402,9 +13402,12 @@
   "gainPct": 15.47,
   "rr": 2.17,
   "signalTime": 1789947000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789947033724,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789947900000
  },
  {
   "id": "GUNUSDT::ChoCh::1789947900000",
@@ -13418,7 +13421,26 @@
   "gainPct": 12.24,
   "rr": 3,
   "signalTime": 1789947900000,
+  "status": "open",
+  "createdAt": 1789947930023,
+  "fillTime": 1789947900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ONEUSDT::ChoCh::1789948800000",
+  "symbol": "ONEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.003988,
+  "sl": 0.0033759999999999997,
+  "tp": 0.004642,
+  "tpSrc": "WH",
+  "slPct": 15.35,
+  "gainPct": 16.4,
+  "rr": 1.07,
+  "signalTime": 1789948800000,
   "status": "pending",
-  "createdAt": 1789947930023
+  "createdAt": 1789948841302
  }
 ]

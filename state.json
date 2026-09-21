@@ -1,7 +1,8 @@
 {
   "ready": [
     "GUNUSDT::ChoCh",
-    "LUNAUSDT::BoS"
+    "LUNAUSDT::BoS",
+    "ONEUSDT::ChoCh"
   ],
-  "at": "2026-09-20T23:45:30.023Z"
+  "at": "2026-09-21T00:00:41.296Z"
 }
