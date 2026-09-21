@@ -13609,9 +13609,12 @@
   "gainPct": 16.46,
   "rr": 1.88,
   "signalTime": 1789972200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789972237233,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789988400000
  },
  {
   "id": "EPICUSDT::ChoCh::1789976700000",
