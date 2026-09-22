@@ -14270,6 +14270,22 @@
   "rr": 7.94,
   "signalTime": 1790111700000,
   "status": "pending",
-  "createdAt": 1790111729528
+  "createdAt": 1790111729528,
+  "notified": []
+ },
+ {
+  "id": "NXPCUSDT::BoS::1790112600000",
+  "symbol": "NXPCUSDT",
+  "setup": "BoS",
+  "entry": 0.25,
+  "sl": 0.2455,
+  "tp": 0.2769,
+  "tpSrc": "WH",
+  "slPct": 1.8,
+  "gainPct": 10.76,
+  "rr": 5.98,
+  "signalTime": 1790112600000,
+  "status": "pending",
+  "createdAt": 1790112635584
  }
 ]
