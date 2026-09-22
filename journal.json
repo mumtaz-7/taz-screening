@@ -14150,5 +14150,20 @@
   ],
   "R": -1,
   "resolvedTime": 1790096400000
+ },
+ {
+  "id": "APEUSDT::ChoCh::1790098200000",
+  "symbol": "APEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1498,
+  "sl": 0.14350000000000002,
+  "tp": 0.162,
+  "tpSrc": "WH",
+  "slPct": 4.21,
+  "gainPct": 8.14,
+  "rr": 1.94,
+  "signalTime": 1790098200000,
+  "status": "pending",
+  "createdAt": 1790098236230
  }
 ]
