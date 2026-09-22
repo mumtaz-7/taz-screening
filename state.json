@@ -1,8 +1,9 @@
 {
   "ready": [
-    "GENIUSUSDT::BoS",
+    "COOKIEUSDT::ChoCh",
     "KERNELUSDT::BoS",
-    "NXPCUSDT::BoS"
+    "NXPCUSDT::BoS",
+    "XPLUSDT::ChoCh"
   ],
-  "at": "2026-09-22T22:30:35.715Z"
+  "at": "2026-09-22T22:45:30.259Z"
 }

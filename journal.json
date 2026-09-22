@@ -14316,5 +14316,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "COOKIEUSDT::ChoCh::1790117100000",
+  "symbol": "COOKIEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0125,
+  "sl": 0.012199999999999999,
+  "tp": 0.0143,
+  "tpSrc": "WH",
+  "slPct": 2.4,
+  "gainPct": 14.4,
+  "rr": 6,
+  "signalTime": 1790117100000,
+  "status": "pending",
+  "createdAt": 1790117130260
  }
 ]
