@@ -13739,12 +13739,15 @@
   "gainPct": 47.85,
   "rr": 4.86,
   "signalTime": 1789986600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789986636378,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789992900000
+  "fillTime": 1789992900000,
+  "R": -1,
+  "resolvedTime": 1790042400000
  },
  {
   "id": "SUSDT::BoS::1789992000000",
