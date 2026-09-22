@@ -14058,12 +14058,15 @@
   "gainPct": 8.5,
   "rr": 1.14,
   "signalTime": 1790068500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790068530557,
   "fillTime": 1790068500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790089200000
  },
  {
   "id": "FORMUSDT::ChoCh::1790074800000",
