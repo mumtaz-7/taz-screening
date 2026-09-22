@@ -1,8 +1,7 @@
 {
   "ready": [
-    "BCHUSDT::BoS",
-    "FILUSDT::ChoCh",
+    "ONEUSDT::ChoCh",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-09-22T14:00:43.078Z"
+  "at": "2026-09-22T14:15:36.505Z"
 }
