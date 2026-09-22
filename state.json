@@ -2,8 +2,9 @@
   "ready": [
     "COOKIEUSDT::ChoCh",
     "KERNELUSDT::BoS",
-    "NXPCUSDT::BoS",
+    "ONEUSDT::ChoCh",
+    "SAGAUSDT::ChoCh",
     "XPLUSDT::ChoCh"
   ],
-  "at": "2026-09-22T22:45:30.259Z"
+  "at": "2026-09-22T23:00:40.960Z"
 }
