@@ -13859,9 +13859,12 @@
   "gainPct": 8.16,
   "rr": 3.43,
   "signalTime": 1790032500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790032529742,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790038800000
  },
  {
   "id": "SEIUSDT::ChoCh::1790037900000",
@@ -13881,5 +13884,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONEUSDT::ChoCh::1790039700000",
+  "symbol": "ONEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00442,
+  "sl": 0.003733,
+  "tp": 0.005191,
+  "tpSrc": "WH",
+  "slPct": 15.54,
+  "gainPct": 17.44,
+  "rr": 1.12,
+  "signalTime": 1790039700000,
+  "status": "pending",
+  "createdAt": 1790039731897
  }
 ]
