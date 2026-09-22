@@ -1,6 +1,7 @@
 {
   "ready": [
-    "KERNELUSDT::ChoCh"
+    "NXPCUSDT::ChoCh",
+    "TIAUSDT::BoS"
   ],
-  "at": "2026-09-22T20:00:42.139Z"
+  "at": "2026-09-22T20:15:30.351Z"
 }
