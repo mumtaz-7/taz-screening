@@ -14170,5 +14170,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "MARSCOINUSDT::ChoCh::1790100900000",
+  "symbol": "MARSCOINUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1254,
+  "sl": 0.1152,
+  "tp": 0.1418,
+  "tpSrc": "WH",
+  "slPct": 8.13,
+  "gainPct": 13.08,
+  "rr": 1.61,
+  "signalTime": 1790100900000,
+  "status": "pending",
+  "createdAt": 1790100935418
  }
 ]
