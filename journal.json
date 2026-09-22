@@ -14218,9 +14218,12 @@
   "gainPct": 11.65,
   "rr": 3.44,
   "signalTime": 1790108100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790108130352,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790114400000
  },
  {
   "id": "TIAUSDT::BoS::1790108100000",
