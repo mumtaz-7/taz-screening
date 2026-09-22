@@ -13846,9 +13846,12 @@
   "gainPct": 8.95,
   "rr": 1.41,
   "signalTime": 1790021700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790021730730,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ARKMUSDT::BoS::1790032500000",
