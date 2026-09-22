@@ -13862,5 +13862,20 @@
   "status": "pending",
   "createdAt": 1790032529742,
   "notified": []
+ },
+ {
+  "id": "SEIUSDT::ChoCh::1790037900000",
+  "symbol": "SEIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.05999,
+  "sl": 0.057815000000000005,
+  "tp": 0.06461,
+  "tpSrc": "WH",
+  "slPct": 3.63,
+  "gainPct": 7.7,
+  "rr": 2.12,
+  "signalTime": 1790037900000,
+  "status": "pending",
+  "createdAt": 1790037931754
  }
 ]
