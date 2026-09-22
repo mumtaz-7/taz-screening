@@ -14219,7 +14219,8 @@
   "rr": 3.44,
   "signalTime": 1790108100000,
   "status": "pending",
-  "createdAt": 1790108130352
+  "createdAt": 1790108130352,
+  "notified": []
  },
  {
   "id": "TIAUSDT::BoS::1790108100000",
@@ -14234,6 +14235,22 @@
   "rr": 1.61,
   "signalTime": 1790108100000,
   "status": "pending",
-  "createdAt": 1790108130352
+  "createdAt": 1790108130352,
+  "notified": []
+ },
+ {
+  "id": "ARBUSDT::ChoCh::1790109000000",
+  "symbol": "ARBUSDT",
+  "setup": "ChoCh",
+  "entry": 0.218,
+  "sl": 0.20765,
+  "tp": 0.2478,
+  "tpSrc": "WH",
+  "slPct": 4.75,
+  "gainPct": 13.67,
+  "rr": 2.88,
+  "signalTime": 1790109000000,
+  "status": "pending",
+  "createdAt": 1790109037229
  }
 ]
