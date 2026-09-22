@@ -13925,12 +13925,15 @@
   "gainPct": 26.19,
   "rr": 2.49,
   "signalTime": 1790045100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790045131514,
   "fillTime": 1790045100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790055000000
  },
  {
   "id": "ALLOUSDT::ChoCh::1790054100000",
@@ -13944,8 +13947,26 @@
   "gainPct": 10.21,
   "rr": 2.01,
   "signalTime": 1790054100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790054131080,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790055000000
+ },
+ {
+  "id": "SYNUSDT::ChoCh::1790055900000",
+  "symbol": "SYNUSDT",
+  "setup": "ChoCh",
+  "entry": 0.24692,
+  "sl": 0.22493,
+  "tp": 0.27342,
+  "tpSrc": "WH",
+  "slPct": 8.91,
+  "gainPct": 10.73,
+  "rr": 1.21,
+  "signalTime": 1790055900000,
+  "status": "pending",
+  "createdAt": 1790055929641
  }
 ]
