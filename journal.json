@@ -14256,5 +14256,20 @@
    "open"
   ],
   "fillTime": 1790109900000
+ },
+ {
+  "id": "GENIUSUSDT::BoS::1790111700000",
+  "symbol": "GENIUSUSDT",
+  "setup": "BoS",
+  "entry": 0.3453,
+  "sl": 0.33885000000000004,
+  "tp": 0.3965,
+  "tpSrc": "WH",
+  "slPct": 1.87,
+  "gainPct": 14.83,
+  "rr": 7.94,
+  "signalTime": 1790111700000,
+  "status": "pending",
+  "createdAt": 1790111729528
  }
 ]
