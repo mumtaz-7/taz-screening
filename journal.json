@@ -14183,9 +14183,13 @@
   "gainPct": 13.08,
   "rr": 1.61,
   "signalTime": 1790100900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790100935418,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790119800000
  },
  {
   "id": "KERNELUSDT::ChoCh::1790102700000",
@@ -14386,8 +14390,11 @@
   "gainPct": 11,
   "rr": 4.54,
   "signalTime": 1790118900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790118928600,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790119800000
  }
 ]
