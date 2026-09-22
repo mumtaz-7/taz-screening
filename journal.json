@@ -13997,12 +13997,15 @@
   "gainPct": 10.5,
   "rr": 1.11,
   "signalTime": 1790058600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790058670682,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790059500000
+  "fillTime": 1790059500000,
+  "R": -1,
+  "resolvedTime": 1790093700000
  },
  {
   "id": "KERNELUSDT::ChoCh::1790063100000",
