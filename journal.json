@@ -13373,12 +13373,15 @@
   "gainPct": 10.44,
   "rr": 3.13,
   "signalTime": 1789932600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789932634706,
   "fillTime": 1789932600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790074800000
  },
  {
   "id": "ONGUSDT::ChoCh::1789941600000",
@@ -14068,7 +14071,11 @@
   "gainPct": 29.85,
   "rr": 3.27,
   "signalTime": 1790074800000,
-  "status": "pending",
-  "createdAt": 1790074846282
+  "status": "open",
+  "createdAt": 1790074846282,
+  "fillTime": 1790074800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
