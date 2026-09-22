@@ -14186,5 +14186,20 @@
   "status": "pending",
   "createdAt": 1790100935418,
   "notified": []
+ },
+ {
+  "id": "KERNELUSDT::ChoCh::1790102700000",
+  "symbol": "KERNELUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0584,
+  "sl": 0.05600000000000001,
+  "tp": 0.0748,
+  "tpSrc": "WH",
+  "slPct": 4.11,
+  "gainPct": 28.08,
+  "rr": 6.83,
+  "signalTime": 1790102700000,
+  "status": "pending",
+  "createdAt": 1790102730765
  }
 ]
