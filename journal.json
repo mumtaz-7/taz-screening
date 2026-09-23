@@ -13978,12 +13978,15 @@
   "gainPct": 10.73,
   "rr": 1.21,
   "signalTime": 1790055900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790055929641,
   "fillTime": 1790055900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790133300000
  },
  {
   "id": "SAGAUSDT::ChoCh::1790058600000",
