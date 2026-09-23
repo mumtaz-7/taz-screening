@@ -13085,12 +13085,15 @@
   "gainPct": 15.93,
   "rr": 3.18,
   "signalTime": 1789892100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789892129356,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789894800000
+  "fillTime": 1789894800000,
+  "R": -1,
+  "resolvedTime": 1790168400000
  },
  {
   "id": "ENAUSDT::ChoCh::1789893000000",
@@ -14459,9 +14462,12 @@
   "gainPct": 10.1,
   "rr": 1.39,
   "signalTime": 1790150400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790150441138,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790168400000
  },
  {
   "id": "SXTUSDT::ChoCh::1790151300000",
@@ -14494,9 +14500,13 @@
   "gainPct": 10.13,
   "rr": 3.68,
   "signalTime": 1790152200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790152237591,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790168400000
  },
  {
   "id": "ONEUSDT::ChoCh::1790154000000",
@@ -14510,8 +14520,11 @@
   "gainPct": 34.23,
   "rr": 7.05,
   "signalTime": 1790154000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790154041999,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790168400000
  }
 ]
