@@ -14712,8 +14712,12 @@
   "gainPct": 11.2,
   "rr": 5.45,
   "signalTime": 1790201700000,
-  "status": "pending",
-  "createdAt": 1790201729628
+  "status": "open",
+  "createdAt": 1790201729628,
+  "fillTime": 1790201700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "MINAUSDT::ChoCh::1790201700000",
@@ -14727,7 +14731,11 @@
   "gainPct": 11.17,
   "rr": 1.51,
   "signalTime": 1790201700000,
-  "status": "pending",
-  "createdAt": 1790201729628
+  "status": "open",
+  "createdAt": 1790201729628,
+  "fillTime": 1790201700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
