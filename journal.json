@@ -14321,12 +14321,15 @@
   "gainPct": 21.63,
   "rr": 3.06,
   "signalTime": 1790113500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790113530074,
   "fillTime": 1790113500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790127000000
  },
  {
   "id": "COOKIEUSDT::ChoCh::1790117100000",
