@@ -14466,7 +14466,26 @@
   "gainPct": 8.37,
   "rr": 1.29,
   "signalTime": 1790151300000,
+  "status": "open",
+  "createdAt": 1790151330349,
+  "fillTime": 1790151300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "COTIUSDT::BoS::1790152200000",
+  "symbol": "COTIUSDT",
+  "setup": "BoS",
+  "entry": 0.0158,
+  "sl": 0.015364999999999998,
+  "tp": 0.0174,
+  "tpSrc": "OB",
+  "slPct": 2.75,
+  "gainPct": 10.13,
+  "rr": 3.68,
+  "signalTime": 1790152200000,
   "status": "pending",
-  "createdAt": 1790151330349
+  "createdAt": 1790152237591
  }
 ]
