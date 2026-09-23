@@ -14693,7 +14693,41 @@
   "gainPct": 13.9,
   "rr": 1.82,
   "signalTime": 1790200800000,
+  "status": "open",
+  "createdAt": 1790200842224,
+  "fillTime": 1790200800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GIGGLEUSDT::ChoCh::1790201700000",
+  "symbol": "GIGGLEUSDT",
+  "setup": "ChoCh",
+  "entry": 38.67,
+  "sl": 37.875,
+  "tp": 43,
+  "tpSrc": "WH",
+  "slPct": 2.06,
+  "gainPct": 11.2,
+  "rr": 5.45,
+  "signalTime": 1790201700000,
   "status": "pending",
-  "createdAt": 1790200842224
+  "createdAt": 1790201729628
+ },
+ {
+  "id": "MINAUSDT::ChoCh::1790201700000",
+  "symbol": "MINAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1442,
+  "sl": 0.13355,
+  "tp": 0.1603,
+  "tpSrc": "WH",
+  "slPct": 7.39,
+  "gainPct": 11.17,
+  "rr": 1.51,
+  "signalTime": 1790201700000,
+  "status": "pending",
+  "createdAt": 1790201729628
  }
 ]
