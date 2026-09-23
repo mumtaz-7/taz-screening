@@ -14581,5 +14581,20 @@
   ],
   "R": -1,
   "resolvedTime": 1790172000000
+ },
+ {
+  "id": "CHRUSDT::ChoCh::1790181900000",
+  "symbol": "CHRUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01996,
+  "sl": 0.019135,
+  "tp": 0.02153,
+  "tpSrc": "EQ",
+  "slPct": 4.13,
+  "gainPct": 7.87,
+  "rr": 1.9,
+  "signalTime": 1790181900000,
+  "status": "pending",
+  "createdAt": 1790181933454
  }
 ]
