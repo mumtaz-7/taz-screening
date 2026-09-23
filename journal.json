@@ -14638,5 +14638,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NOMUSDT::ChoCh::1790195400000",
+  "symbol": "NOMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001793,
+  "sl": 0.001601,
+  "tp": 0.001995,
+  "tpSrc": "WH",
+  "slPct": 10.71,
+  "gainPct": 11.27,
+  "rr": 1.05,
+  "signalTime": 1790195400000,
+  "status": "pending",
+  "createdAt": 1790195435005
  }
 ]
