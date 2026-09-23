@@ -14437,5 +14437,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BBUSDT::BoS::1790150400000",
+  "symbol": "BBUSDT",
+  "setup": "BoS",
+  "entry": 0.0099,
+  "sl": 0.009179999999999999,
+  "tp": 0.0109,
+  "tpSrc": "WH",
+  "slPct": 7.27,
+  "gainPct": 10.1,
+  "rr": 1.39,
+  "signalTime": 1790150400000,
+  "status": "pending",
+  "createdAt": 1790150441138
  }
 ]
