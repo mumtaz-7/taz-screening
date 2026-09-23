@@ -14600,5 +14600,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FFUSDT::ChoCh::1790184600000",
+  "symbol": "FFUSDT",
+  "setup": "ChoCh",
+  "entry": 0.12678,
+  "sl": 0.11817,
+  "tp": 0.13632,
+  "tpSrc": "OB",
+  "slPct": 6.79,
+  "gainPct": 7.52,
+  "rr": 1.11,
+  "signalTime": 1790184600000,
+  "status": "pending",
+  "createdAt": 1790184637634
  }
 ]
