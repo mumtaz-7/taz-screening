@@ -14488,5 +14488,20 @@
   "status": "pending",
   "createdAt": 1790152237591,
   "notified": []
+ },
+ {
+  "id": "ONEUSDT::ChoCh::1790154000000",
+  "symbol": "ONEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.002997,
+  "sl": 0.0028515,
+  "tp": 0.0040230000000000005,
+  "tpSrc": "EQ",
+  "slPct": 4.85,
+  "gainPct": 34.23,
+  "rr": 7.05,
+  "signalTime": 1790154000000,
+  "status": "pending",
+  "createdAt": 1790154041999
  }
 ]
