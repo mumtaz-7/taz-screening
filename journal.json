@@ -14209,12 +14209,15 @@
   "gainPct": 28.08,
   "rr": 6.83,
   "signalTime": 1790102700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790102730765,
   "fillTime": 1790102700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790164800000
  },
  {
   "id": "NXPCUSDT::ChoCh::1790108100000",
