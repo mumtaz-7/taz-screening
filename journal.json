@@ -14451,6 +14451,22 @@
   "rr": 1.39,
   "signalTime": 1790150400000,
   "status": "pending",
-  "createdAt": 1790150441138
+  "createdAt": 1790150441138,
+  "notified": []
+ },
+ {
+  "id": "SXTUSDT::ChoCh::1790151300000",
+  "symbol": "SXTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01015,
+  "sl": 0.00949,
+  "tp": 0.011,
+  "tpSrc": "WH",
+  "slPct": 6.5,
+  "gainPct": 8.37,
+  "rr": 1.29,
+  "signalTime": 1790151300000,
+  "status": "pending",
+  "createdAt": 1790151330349
  }
 ]
