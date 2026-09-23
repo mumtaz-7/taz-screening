@@ -14261,12 +14261,15 @@
   "gainPct": 13.67,
   "rr": 2.88,
   "signalTime": 1790109000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790109037229,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790109900000
+  "fillTime": 1790109900000,
+  "R": 2.88,
+  "resolvedTime": 1790129700000
  },
  {
   "id": "GENIUSUSDT::BoS::1790111700000",
@@ -14362,12 +14365,15 @@
   "gainPct": 18.95,
   "rr": 2.59,
   "signalTime": 1790118000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790118040961,
   "fillTime": 1790118000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790129700000
  },
  {
   "id": "SAGAUSDT::ChoCh::1790118000000",
