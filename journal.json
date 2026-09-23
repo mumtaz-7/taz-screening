@@ -13908,12 +13908,15 @@
   "gainPct": 7.7,
   "rr": 2.12,
   "signalTime": 1790037900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790037931754,
   "fillTime": 1790037900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790173800000
  },
  {
   "id": "ONEUSDT::ChoCh::1790039700000",
