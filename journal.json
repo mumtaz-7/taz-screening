@@ -14553,12 +14553,15 @@
   "gainPct": 34.23,
   "rr": 7.05,
   "signalTime": 1790154000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790154041999,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790168400000
+  "fillTime": 1790168400000,
+  "R": -1,
+  "resolvedTime": 1790198100000
  },
  {
   "id": "BROCCOLI714USDT::ChoCh::1790170200000",
