@@ -15046,5 +15046,20 @@
   "status": "pending",
   "createdAt": 1790259332626,
   "notified": []
+ },
+ {
+  "id": "STEEMUSDT::ChoCh::1790267400000",
+  "symbol": "STEEMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.06236,
+  "sl": 0.060725,
+  "tp": 0.07025,
+  "tpSrc": "WH",
+  "slPct": 2.62,
+  "gainPct": 12.65,
+  "rr": 4.83,
+  "signalTime": 1790267400000,
+  "status": "pending",
+  "createdAt": 1790267438036
  }
 ]
