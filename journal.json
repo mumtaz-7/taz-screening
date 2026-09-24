@@ -14622,12 +14622,15 @@
   "gainPct": 7.52,
   "rr": 1.11,
   "signalTime": 1790184600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790184637634,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790187300000
+  "fillTime": 1790187300000,
+  "R": 1.11,
+  "resolvedTime": 1790228700000
  },
  {
   "id": "NILUSDT::ChoCh::1790190900000",
@@ -14906,8 +14909,26 @@
   "gainPct": 13.47,
   "rr": 2.45,
   "signalTime": 1790226900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790226930030,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790228700000
+ },
+ {
+  "id": "CHRUSDT::BoS::1790229600000",
+  "symbol": "CHRUSDT",
+  "setup": "BoS",
+  "entry": 0.02219,
+  "sl": 0.02093,
+  "tp": 0.0265,
+  "tpSrc": "WH",
+  "slPct": 5.68,
+  "gainPct": 19.42,
+  "rr": 3.42,
+  "signalTime": 1790229600000,
+  "status": "pending",
+  "createdAt": 1790229640586
  }
 ]
