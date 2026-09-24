@@ -14877,5 +14877,35 @@
   "status": "pending",
   "createdAt": 1790225129649,
   "notified": []
+ },
+ {
+  "id": "PENGUUSDT::BoS::1790226900000",
+  "symbol": "PENGUUSDT",
+  "setup": "BoS",
+  "entry": 0.009902,
+  "sl": 0.009336500000000001,
+  "tp": 0.011163,
+  "tpSrc": "WH",
+  "slPct": 5.71,
+  "gainPct": 12.73,
+  "rr": 2.23,
+  "signalTime": 1790226900000,
+  "status": "pending",
+  "createdAt": 1790226930030
+ },
+ {
+  "id": "TIAUSDT::BoS::1790226900000",
+  "symbol": "TIAUSDT",
+  "setup": "BoS",
+  "entry": 0.4743,
+  "sl": 0.44819999999999993,
+  "tp": 0.5382,
+  "tpSrc": "WH",
+  "slPct": 5.5,
+  "gainPct": 13.47,
+  "rr": 2.45,
+  "signalTime": 1790226900000,
+  "status": "pending",
+  "createdAt": 1790226930030
  }
 ]
