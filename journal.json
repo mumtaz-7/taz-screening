@@ -15157,7 +15157,26 @@
   "gainPct": 9.41,
   "rr": 1.58,
   "signalTime": 1790283600000,
+  "status": "open",
+  "createdAt": 1790283644352,
+  "fillTime": 1790283600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "PROMUSDT::BoS::1790284500000",
+  "symbol": "PROMUSDT",
+  "setup": "BoS",
+  "entry": 5.494,
+  "sl": 5.317,
+  "tp": 5.922,
+  "tpSrc": "WH",
+  "slPct": 3.22,
+  "gainPct": 7.79,
+  "rr": 2.42,
+  "signalTime": 1790284500000,
   "status": "pending",
-  "createdAt": 1790283644352
+  "createdAt": 1790284531123
  }
 ]
