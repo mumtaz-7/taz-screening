@@ -15144,5 +15144,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZROUSDT::ChoCh::1790283600000",
+  "symbol": "ZROUSDT",
+  "setup": "ChoCh",
+  "entry": 1.488,
+  "sl": 1.3995000000000002,
+  "tp": 1.628,
+  "tpSrc": "WH",
+  "slPct": 5.95,
+  "gainPct": 9.41,
+  "rr": 1.58,
+  "signalTime": 1790283600000,
+  "status": "pending",
+  "createdAt": 1790283644352
  }
 ]
