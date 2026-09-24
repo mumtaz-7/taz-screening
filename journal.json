@@ -14959,9 +14959,13 @@
   "gainPct": 18.09,
   "rr": 1.26,
   "signalTime": 1790249400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790249435188,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790252100000
  },
  {
   "id": "CVCUSDT::BoS::1790251200000",
