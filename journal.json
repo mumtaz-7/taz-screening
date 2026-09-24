@@ -14756,7 +14756,26 @@
   "gainPct": 12.88,
   "rr": 4.68,
   "signalTime": 1790210700000,
+  "status": "open",
+  "createdAt": 1790210730104,
+  "fillTime": 1790210700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "NOMUSDT::BoS::1790211600000",
+  "symbol": "NOMUSDT",
+  "setup": "BoS",
+  "entry": 0.002142,
+  "sl": 0.001752,
+  "tp": 0.002593,
+  "tpSrc": "WH",
+  "slPct": 18.21,
+  "gainPct": 21.06,
+  "rr": 1.16,
+  "signalTime": 1790211600000,
   "status": "pending",
-  "createdAt": 1790210730104
+  "createdAt": 1790211641723
  }
 ]
