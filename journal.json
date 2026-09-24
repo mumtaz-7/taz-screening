@@ -15021,6 +15021,22 @@
   "rr": 1.05,
   "signalTime": 1790258400000,
   "status": "pending",
-  "createdAt": 1790258443920
+  "createdAt": 1790258443920,
+  "notified": []
+ },
+ {
+  "id": "OPUSDT::ChoCh::1790259300000",
+  "symbol": "OPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1283,
+  "sl": 0.11615,
+  "tp": 0.1412,
+  "tpSrc": "WH",
+  "slPct": 9.47,
+  "gainPct": 10.05,
+  "rr": 1.06,
+  "signalTime": 1790259300000,
+  "status": "pending",
+  "createdAt": 1790259332626
  }
 ]
