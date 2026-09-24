@@ -14798,9 +14798,12 @@
   "gainPct": 15.09,
   "rr": 2.57,
   "signalTime": 1790214300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790214330086,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790219700000
  },
  {
   "id": "SENTUSDT::BoS::1790217000000",
@@ -14849,7 +14852,11 @@
   "gainPct": 10.93,
   "rr": 2,
   "signalTime": 1790219700000,
-  "status": "pending",
-  "createdAt": 1790219730790
+  "status": "open",
+  "createdAt": 1790219730790,
+  "fillTime": 1790219700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
