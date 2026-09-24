@@ -15007,5 +15007,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "BBUSDT::BoS::1790258400000",
+  "symbol": "BBUSDT",
+  "setup": "BoS",
+  "entry": 0.01016,
+  "sl": 0.00935,
+  "tp": 0.01101,
+  "tpSrc": "WH",
+  "slPct": 7.97,
+  "gainPct": 8.37,
+  "rr": 1.05,
+  "signalTime": 1790258400000,
+  "status": "pending",
+  "createdAt": 1790258443920
  }
 ]
