@@ -13044,12 +13044,15 @@
   "gainPct": 9.01,
   "rr": 1.7,
   "signalTime": 1789889400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789889433749,
   "fillTime": 1789889400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.7,
+  "resolvedTime": 1790260200000
  },
  {
   "id": "AVAXUSDT::ChoCh::1789892100000",
