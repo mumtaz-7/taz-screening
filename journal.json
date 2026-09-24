@@ -14946,5 +14946,20 @@
   ],
   "R": -1,
   "resolvedTime": 1790245800000
+ },
+ {
+  "id": "BROCCOLI714USDT::ChoCh::1790249400000",
+  "symbol": "BROCCOLI714USDT",
+  "setup": "ChoCh",
+  "entry": 0.02532,
+  "sl": 0.021675,
+  "tp": 0.0299,
+  "tpSrc": "WH",
+  "slPct": 14.4,
+  "gainPct": 18.09,
+  "rr": 1.26,
+  "signalTime": 1790249400000,
+  "status": "pending",
+  "createdAt": 1790249435188
  }
 ]
