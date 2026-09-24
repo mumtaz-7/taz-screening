@@ -14815,7 +14815,8 @@
   "rr": 2.59,
   "signalTime": 1790217000000,
   "status": "pending",
-  "createdAt": 1790217034651
+  "createdAt": 1790217034651,
+  "notified": []
  },
  {
   "id": "牛来USDT::BoS::1790217000000",
@@ -14830,6 +14831,7 @@
   "rr": 2.16,
   "signalTime": 1790217000000,
   "status": "pending",
-  "createdAt": 1790217034651
+  "createdAt": 1790217034651,
+  "notified": []
  }
 ]
