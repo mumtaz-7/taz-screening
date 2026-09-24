@@ -14877,9 +14877,12 @@
   "gainPct": 9.38,
   "rr": 1.9,
   "signalTime": 1790225100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790225129649,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790237700000
  },
  {
   "id": "PENGUUSDT::BoS::1790226900000",
