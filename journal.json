@@ -15116,9 +15116,12 @@
   "gainPct": 10.02,
   "rr": 2.67,
   "signalTime": 1790278200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790278234550,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790279100000
  },
  {
   "id": "CVCUSDT::ChoCh::1790278200000",
