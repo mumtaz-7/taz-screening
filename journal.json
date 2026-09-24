@@ -15020,9 +15020,13 @@
   "gainPct": 8.37,
   "rr": 1.05,
   "signalTime": 1790258400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790258443920,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790259300000
  },
  {
   "id": "OPUSDT::ChoCh::1790259300000",
@@ -15037,6 +15041,7 @@
   "rr": 1.06,
   "signalTime": 1790259300000,
   "status": "pending",
-  "createdAt": 1790259332626
+  "createdAt": 1790259332626,
+  "notified": []
  }
 ]
