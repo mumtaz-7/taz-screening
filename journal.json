@@ -14891,7 +14891,8 @@
   "rr": 2.23,
   "signalTime": 1790226900000,
   "status": "pending",
-  "createdAt": 1790226930030
+  "createdAt": 1790226930030,
+  "notified": []
  },
  {
   "id": "TIAUSDT::BoS::1790226900000",
@@ -14906,6 +14907,7 @@
   "rr": 2.45,
   "signalTime": 1790226900000,
   "status": "pending",
-  "createdAt": 1790226930030
+  "createdAt": 1790226930030,
+  "notified": []
  }
 ]
