@@ -14743,5 +14743,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SENTUSDT::ChoCh::1790210700000",
+  "symbol": "SENTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02127,
+  "sl": 0.020685,
+  "tp": 0.02401,
+  "tpSrc": "WH",
+  "slPct": 2.75,
+  "gainPct": 12.88,
+  "rr": 4.68,
+  "signalTime": 1790210700000,
+  "status": "pending",
+  "createdAt": 1790210730104
  }
 ]
