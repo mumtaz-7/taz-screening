@@ -15059,9 +15059,12 @@
   "gainPct": 12.65,
   "rr": 4.83,
   "signalTime": 1790267400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790267438036,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790268300000
  },
  {
   "id": "NILUSDT::ChoCh::1790268300000",
@@ -15075,7 +15078,11 @@
   "gainPct": 26.99,
   "rr": 3.17,
   "signalTime": 1790268300000,
-  "status": "pending",
-  "createdAt": 1790268330653
+  "status": "open",
+  "createdAt": 1790268330653,
+  "fillTime": 1790268300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
