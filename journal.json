@@ -14962,5 +14962,20 @@
   "status": "pending",
   "createdAt": 1790249435188,
   "notified": []
+ },
+ {
+  "id": "CVCUSDT::BoS::1790251200000",
+  "symbol": "CVCUSDT",
+  "setup": "BoS",
+  "entry": 0.03155,
+  "sl": 0.02951,
+  "tp": 0.0342,
+  "tpSrc": "WH",
+  "slPct": 6.47,
+  "gainPct": 8.4,
+  "rr": 1.3,
+  "signalTime": 1790251200000,
+  "status": "pending",
+  "createdAt": 1790251244053
  }
 ]
