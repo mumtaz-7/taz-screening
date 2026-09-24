@@ -14804,12 +14804,15 @@
   "gainPct": 15.09,
   "rr": 2.57,
   "signalTime": 1790214300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790214330086,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790219700000
+  "fillTime": 1790219700000,
+  "R": -1,
+  "resolvedTime": 1790285400000
  },
  {
   "id": "SENTUSDT::BoS::1790217000000",
@@ -15176,8 +15179,11 @@
   "gainPct": 7.79,
   "rr": 2.42,
   "signalTime": 1790284500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790284531123,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790285400000
  }
 ]
