@@ -14801,5 +14801,35 @@
   "status": "pending",
   "createdAt": 1790214330086,
   "notified": []
+ },
+ {
+  "id": "SENTUSDT::BoS::1790217000000",
+  "symbol": "SENTUSDT",
+  "setup": "BoS",
+  "entry": 0.02156,
+  "sl": 0.020615,
+  "tp": 0.02401,
+  "tpSrc": "WH",
+  "slPct": 4.38,
+  "gainPct": 11.36,
+  "rr": 2.59,
+  "signalTime": 1790217000000,
+  "status": "pending",
+  "createdAt": 1790217034651
+ },
+ {
+  "id": "牛来USDT::BoS::1790217000000",
+  "symbol": "牛来USDT",
+  "setup": "BoS",
+  "entry": 0.10979,
+  "sl": 0.102905,
+  "tp": 0.12464,
+  "tpSrc": "OB",
+  "slPct": 6.27,
+  "gainPct": 13.53,
+  "rr": 2.16,
+  "signalTime": 1790217000000,
+  "status": "pending",
+  "createdAt": 1790217034651
  }
 ]
