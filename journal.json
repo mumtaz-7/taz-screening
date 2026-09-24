@@ -14830,8 +14830,26 @@
   "gainPct": 13.53,
   "rr": 2.16,
   "signalTime": 1790217000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790217034651,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790218800000
+ },
+ {
+  "id": "EULUSDT::ChoCh::1790219700000",
+  "symbol": "EULUSDT",
+  "setup": "ChoCh",
+  "entry": 1.427,
+  "sl": 1.349,
+  "tp": 1.583,
+  "tpSrc": "WH",
+  "slPct": 5.47,
+  "gainPct": 10.93,
+  "rr": 2,
+  "signalTime": 1790219700000,
+  "status": "pending",
+  "createdAt": 1790219730790
  }
 ]
