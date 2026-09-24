@@ -1,6 +1,7 @@
 {
   "ready": [
-    "PROMUSDT::ChoCh"
+    "COTIUSDT::ChoCh",
+    "CVCUSDT::ChoCh"
   ],
-  "at": "2026-09-24T19:15:29.948Z"
+  "at": "2026-09-24T19:30:34.549Z"
 }
