@@ -14987,5 +14987,20 @@
   "notified": [
    "win"
   ]
+ },
+ {
+  "id": "ONDOUSDT::ChoCh::1790256600000",
+  "symbol": "ONDOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.4433,
+  "sl": 0.40505,
+  "tp": 0.4845,
+  "tpSrc": "WH",
+  "slPct": 8.63,
+  "gainPct": 9.29,
+  "rr": 1.08,
+  "signalTime": 1790256600000,
+  "status": "pending",
+  "createdAt": 1790256640523
  }
 ]
