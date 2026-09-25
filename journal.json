@@ -15217,9 +15217,12 @@
   "gainPct": 11.53,
   "rr": 8.8,
   "signalTime": 1790295300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790295334752,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790299800000
  },
  {
   "id": "ZECUSDT::ChoCh::1790298000000",
