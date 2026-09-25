@@ -15381,9 +15381,12 @@
   "gainPct": 11.26,
   "rr": 5.16,
   "signalTime": 1790323200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790323240675,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790330400000
  },
  {
   "id": "AVAXUSDT::ChoCh::1790328600000",
