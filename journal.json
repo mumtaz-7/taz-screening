@@ -15543,7 +15543,13 @@
   "gainPct": 8.4,
   "rr": 1.12,
   "signalTime": 1790349300000,
-  "status": "pending",
-  "createdAt": 1790349331120
+  "status": "win",
+  "createdAt": 1790349331120,
+  "R": 1.12,
+  "fillTime": 1790349300000,
+  "resolvedTime": 1790349300000,
+  "notified": [
+   "win"
+  ]
  }
 ]
