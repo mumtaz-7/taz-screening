@@ -15327,6 +15327,22 @@
   "rr": 1.48,
   "signalTime": 1790317800000,
   "status": "pending",
-  "createdAt": 1790317834578
+  "createdAt": 1790317834578,
+  "notified": []
+ },
+ {
+  "id": "NOMUSDT::ChoCh::1790318700000",
+  "symbol": "NOMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.002152,
+  "sl": 0.001918,
+  "tp": 0.002817,
+  "tpSrc": "WH",
+  "slPct": 10.87,
+  "gainPct": 30.9,
+  "rr": 2.84,
+  "signalTime": 1790318700000,
+  "status": "pending",
+  "createdAt": 1790318731794
  }
 ]
