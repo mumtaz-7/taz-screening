@@ -15384,5 +15384,50 @@
   "status": "pending",
   "createdAt": 1790323240675,
   "notified": []
+ },
+ {
+  "id": "AVAXUSDT::ChoCh::1790328600000",
+  "symbol": "AVAXUSDT",
+  "setup": "ChoCh",
+  "entry": 10.305,
+  "sl": 9.988499999999998,
+  "tp": 11.169,
+  "tpSrc": "OB",
+  "slPct": 3.07,
+  "gainPct": 8.38,
+  "rr": 2.73,
+  "signalTime": 1790328600000,
+  "status": "pending",
+  "createdAt": 1790328638786
+ },
+ {
+  "id": "ETCUSDT::BoS::1790328600000",
+  "symbol": "ETCUSDT",
+  "setup": "BoS",
+  "entry": 9.57,
+  "sl": 9.285,
+  "tp": 10.42,
+  "tpSrc": "WH",
+  "slPct": 2.98,
+  "gainPct": 8.88,
+  "rr": 2.98,
+  "signalTime": 1790328600000,
+  "status": "pending",
+  "createdAt": 1790328638786
+ },
+ {
+  "id": "NEARUSDT::ChoCh::1790328600000",
+  "symbol": "NEARUSDT",
+  "setup": "ChoCh",
+  "entry": 4.546,
+  "sl": 4.393,
+  "tp": 4.938,
+  "tpSrc": "WH",
+  "slPct": 3.37,
+  "gainPct": 8.62,
+  "rr": 2.56,
+  "signalTime": 1790328600000,
+  "status": "pending",
+  "createdAt": 1790328638786
  }
 ]
