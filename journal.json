@@ -15268,5 +15268,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1790307000000
+ },
+ {
+  "id": "QNTUSDT::ChoCh::1790311500000",
+  "symbol": "QNTUSDT",
+  "setup": "ChoCh",
+  "entry": 91.39,
+  "sl": 86.68,
+  "tp": 98.5,
+  "tpSrc": "WH",
+  "slPct": 5.15,
+  "gainPct": 7.78,
+  "rr": 1.51,
+  "signalTime": 1790311500000,
+  "status": "pending",
+  "createdAt": 1790311533235
  }
 ]
