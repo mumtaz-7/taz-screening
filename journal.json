@@ -15166,12 +15166,15 @@
   "gainPct": 9.41,
   "rr": 1.58,
   "signalTime": 1790283600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790283644352,
   "fillTime": 1790283600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.58,
+  "resolvedTime": 1790361900000
  },
  {
   "id": "PROMUSDT::BoS::1790284500000",
@@ -15631,5 +15634,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ETCUSDT::ChoCh::1790362800000",
+  "symbol": "ETCUSDT",
+  "setup": "ChoCh",
+  "entry": 9.42,
+  "sl": 9.224999999999998,
+  "tp": 10.42,
+  "tpSrc": "WH",
+  "slPct": 2.07,
+  "gainPct": 10.62,
+  "rr": 5.13,
+  "signalTime": 1790362800000,
+  "status": "pending",
+  "createdAt": 1790362844359
  }
 ]
