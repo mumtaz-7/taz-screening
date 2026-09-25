@@ -15326,9 +15326,13 @@
   "gainPct": 11.88,
   "rr": 1.48,
   "signalTime": 1790317800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790317834578,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790322300000
  },
  {
   "id": "NOMUSDT::ChoCh::1790318700000",
@@ -15364,5 +15368,20 @@
   "status": "pending",
   "createdAt": 1790320565870,
   "notified": []
+ },
+ {
+  "id": "BBUSDT::ChoCh::1790323200000",
+  "symbol": "BBUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0103,
+  "sl": 0.010074999999999999,
+  "tp": 0.01146,
+  "tpSrc": "WH",
+  "slPct": 2.18,
+  "gainPct": 11.26,
+  "rr": 5.16,
+  "signalTime": 1790323200000,
+  "status": "pending",
+  "createdAt": 1790323240675
  }
 ]
