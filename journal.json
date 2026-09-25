@@ -15596,5 +15596,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "METUSDT::BoS::1790358300000",
+  "symbol": "METUSDT",
+  "setup": "BoS",
+  "entry": 0.3469,
+  "sl": 0.32799999999999996,
+  "tp": 0.4001,
+  "tpSrc": "OB",
+  "slPct": 5.45,
+  "gainPct": 15.34,
+  "rr": 2.81,
+  "signalTime": 1790358300000,
+  "status": "pending",
+  "createdAt": 1790358330359
  }
 ]
