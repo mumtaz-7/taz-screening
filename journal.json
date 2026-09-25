@@ -15458,5 +15458,20 @@
   "status": "pending",
   "createdAt": 1790329531291,
   "notified": []
+ },
+ {
+  "id": "DYMUSDT::ChoCh::1790332200000",
+  "symbol": "DYMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02001,
+  "sl": 0.01947,
+  "tp": 0.02215,
+  "tpSrc": "WH",
+  "slPct": 2.7,
+  "gainPct": 10.69,
+  "rr": 3.96,
+  "signalTime": 1790332200000,
+  "status": "pending",
+  "createdAt": 1790332237445
  }
 ]
