@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ETCUSDT::ChoCh"
+    "FILUSDT::ChoCh",
+    "PENDLEUSDT::ChoCh"
   ],
-  "at": "2026-09-25T20:15:31.116Z"
+  "at": "2026-09-25T20:30:35.226Z"
 }

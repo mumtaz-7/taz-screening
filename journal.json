@@ -15656,5 +15656,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FILUSDT::ChoCh::1790368200000",
+  "symbol": "FILUSDT",
+  "setup": "ChoCh",
+  "entry": 1.0305,
+  "sl": 1.0048500000000002,
+  "tp": 1.1033,
+  "tpSrc": "OB",
+  "slPct": 2.49,
+  "gainPct": 7.06,
+  "rr": 2.84,
+  "signalTime": 1790368200000,
+  "status": "pending",
+  "createdAt": 1790368235227
+ },
+ {
+  "id": "PENDLEUSDT::ChoCh::1790368200000",
+  "symbol": "PENDLEUSDT",
+  "setup": "ChoCh",
+  "entry": 2.551,
+  "sl": 2.479,
+  "tp": 2.741,
+  "tpSrc": "OB",
+  "slPct": 2.82,
+  "gainPct": 7.45,
+  "rr": 2.64,
+  "signalTime": 1790368200000,
+  "status": "pending",
+  "createdAt": 1790368235227
  }
 ]
