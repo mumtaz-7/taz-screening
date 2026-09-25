@@ -15455,9 +15455,12 @@
   "gainPct": 9.51,
   "rr": 2.53,
   "signalTime": 1790329500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790329531291,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790338500000
  },
  {
   "id": "DYMUSDT::ChoCh::1790332200000",
@@ -15496,5 +15499,20 @@
    "open"
   ],
   "fillTime": 1790336700000
+ },
+ {
+  "id": "TRBUSDT::ChoCh::1790339400000",
+  "symbol": "TRBUSDT",
+  "setup": "ChoCh",
+  "entry": 20.23,
+  "sl": 19.869999999999997,
+  "tp": 21.65,
+  "tpSrc": "WH",
+  "slPct": 1.78,
+  "gainPct": 7.02,
+  "rr": 3.94,
+  "signalTime": 1790339400000,
+  "status": "pending",
+  "createdAt": 1790339437336
  }
 ]
