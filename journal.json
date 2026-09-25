@@ -15201,12 +15201,15 @@
   "gainPct": 13.43,
   "rr": 9.04,
   "signalTime": 1790289900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790289931989,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790294400000
+  "fillTime": 1790294400000,
+  "R": -1,
+  "resolvedTime": 1790316000000
  },
  {
   "id": "STEEMUSDT::BoS::1790295300000",
@@ -15301,11 +15304,14 @@
   "gainPct": 29.01,
   "rr": 2.7,
   "signalTime": 1790315100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790315128584,
   "fillTime": 1790315100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790316000000
  }
 ]
