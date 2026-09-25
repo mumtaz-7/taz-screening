@@ -14765,12 +14765,15 @@
   "gainPct": 12.88,
   "rr": 4.68,
   "signalTime": 1790210700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790210730104,
   "fillTime": 1790210700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.68,
+  "resolvedTime": 1790373600000
  },
  {
   "id": "NOMUSDT::BoS::1790211600000",
@@ -14826,12 +14829,15 @@
   "gainPct": 11.36,
   "rr": 2.59,
   "signalTime": 1790217000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790217034651,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790220600000
+  "fillTime": 1790220600000,
+  "R": 2.59,
+  "resolvedTime": 1790373600000
  },
  {
   "id": "牛来USDT::BoS::1790217000000",
