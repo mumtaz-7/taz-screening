@@ -15551,5 +15551,20 @@
   "notified": [
    "win"
   ]
+ },
+ {
+  "id": "DYMUSDT::BoS::1790352900000",
+  "symbol": "DYMUSDT",
+  "setup": "BoS",
+  "entry": 0.02034,
+  "sl": 0.019845,
+  "tp": 0.02215,
+  "tpSrc": "WH",
+  "slPct": 2.43,
+  "gainPct": 8.9,
+  "rr": 3.66,
+  "signalTime": 1790352900000,
+  "status": "pending",
+  "createdAt": 1790352931466
  }
 ]
