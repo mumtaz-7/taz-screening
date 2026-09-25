@@ -15248,5 +15248,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONEUSDT::BoS::1790306100000",
+  "symbol": "ONEUSDT",
+  "setup": "BoS",
+  "entry": 0.00257,
+  "sl": 0.002375,
+  "tp": 0.002977,
+  "tpSrc": "OB",
+  "slPct": 7.59,
+  "gainPct": 15.84,
+  "rr": 2.09,
+  "signalTime": 1790306100000,
+  "status": "pending",
+  "createdAt": 1790306129624
  }
 ]
