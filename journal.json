@@ -15398,7 +15398,8 @@
   "rr": 2.73,
   "signalTime": 1790328600000,
   "status": "pending",
-  "createdAt": 1790328638786
+  "createdAt": 1790328638786,
+  "notified": []
  },
  {
   "id": "ETCUSDT::BoS::1790328600000",
@@ -15412,8 +15413,12 @@
   "gainPct": 8.88,
   "rr": 2.98,
   "signalTime": 1790328600000,
-  "status": "pending",
-  "createdAt": 1790328638786
+  "status": "open",
+  "createdAt": 1790328638786,
+  "fillTime": 1790328600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "NEARUSDT::ChoCh::1790328600000",
@@ -15427,7 +15432,27 @@
   "gainPct": 8.62,
   "rr": 2.56,
   "signalTime": 1790328600000,
+  "status": "void",
+  "createdAt": 1790328638786,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790328600000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "ARBUSDT::BoS::1790329500000",
+  "symbol": "ARBUSDT",
+  "setup": "BoS",
+  "entry": 0.2197,
+  "sl": 0.21145,
+  "tp": 0.2406,
+  "tpSrc": "OB",
+  "slPct": 3.76,
+  "gainPct": 9.51,
+  "rr": 2.53,
+  "signalTime": 1790329500000,
   "status": "pending",
-  "createdAt": 1790328638786
+  "createdAt": 1790329531291
  }
 ]

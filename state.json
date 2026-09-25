@@ -1,8 +1,6 @@
 {
   "ready": [
-    "AVAXUSDT::ChoCh",
-    "ETCUSDT::BoS",
-    "NEARUSDT::ChoCh"
+    "ARBUSDT::BoS"
   ],
-  "at": "2026-09-25T09:30:38.785Z"
+  "at": "2026-09-25T09:45:31.290Z"
 }
