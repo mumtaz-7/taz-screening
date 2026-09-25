@@ -15365,9 +15365,12 @@
   "gainPct": 18.13,
   "rr": 1.65,
   "signalTime": 1790320500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790320565870,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "BBUSDT::ChoCh::1790323200000",
