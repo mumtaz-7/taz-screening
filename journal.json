@@ -15198,8 +15198,26 @@
   "gainPct": 13.43,
   "rr": 9.04,
   "signalTime": 1790289900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790289931989,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790294400000
+ },
+ {
+  "id": "STEEMUSDT::BoS::1790295300000",
+  "symbol": "STEEMUSDT",
+  "setup": "BoS",
+  "entry": 0.06299,
+  "sl": 0.062165,
+  "tp": 0.07025,
+  "tpSrc": "WH",
+  "slPct": 1.31,
+  "gainPct": 11.53,
+  "rr": 8.8,
+  "signalTime": 1790295300000,
+  "status": "pending",
+  "createdAt": 1790295334752
  }
 ]
