@@ -15565,6 +15565,22 @@
   "rr": 3.66,
   "signalTime": 1790352900000,
   "status": "pending",
-  "createdAt": 1790352931466
+  "createdAt": 1790352931466,
+  "notified": []
+ },
+ {
+  "id": "SPKUSDT::BoS::1790353800000",
+  "symbol": "SPKUSDT",
+  "setup": "BoS",
+  "entry": 0.02306,
+  "sl": 0.0215015,
+  "tp": 0.026281,
+  "tpSrc": "WH",
+  "slPct": 6.76,
+  "gainPct": 13.97,
+  "rr": 2.07,
+  "signalTime": 1790353800000,
+  "status": "pending",
+  "createdAt": 1790353837579
  }
 ]
