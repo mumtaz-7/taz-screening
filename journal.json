@@ -15471,8 +15471,26 @@
   "gainPct": 10.69,
   "rr": 3.96,
   "signalTime": 1790332200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790332237445,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790333100000
+ },
+ {
+  "id": "2ZUSDT::ChoCh::1790334000000",
+  "symbol": "2ZUSDT",
+  "setup": "ChoCh",
+  "entry": 0.05536,
+  "sl": 0.054474999999999996,
+  "tp": 0.06271,
+  "tpSrc": "WH",
+  "slPct": 1.6,
+  "gainPct": 13.28,
+  "rr": 8.31,
+  "signalTime": 1790334000000,
+  "status": "pending",
+  "createdAt": 1790334046037
  }
 ]
