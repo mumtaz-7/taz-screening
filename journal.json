@@ -15685,9 +15685,12 @@
   "gainPct": 7.45,
   "rr": 2.64,
   "signalTime": 1790368200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790368235227,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790369100000
  },
  {
   "id": "XAIUSDT::BoS::1790369100000",
@@ -15701,7 +15704,11 @@
   "gainPct": 30.61,
   "rr": 4.59,
   "signalTime": 1790369100000,
-  "status": "pending",
-  "createdAt": 1790369129684
+  "status": "open",
+  "createdAt": 1790369129684,
+  "fillTime": 1790369100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
