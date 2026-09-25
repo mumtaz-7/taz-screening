@@ -15106,12 +15106,15 @@
   "gainPct": 9.18,
   "rr": 2.1,
   "signalTime": 1790273700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790273729379,
   "fillTime": 1790273700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.1,
+  "resolvedTime": 1790356500000
  },
  {
   "id": "COTIUSDT::ChoCh::1790278200000",
@@ -15182,12 +15185,15 @@
   "gainPct": 7.79,
   "rr": 2.42,
   "signalTime": 1790284500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790284531123,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790285400000
+  "fillTime": 1790285400000,
+  "R": 2.42,
+  "resolvedTime": 1790356500000
  },
  {
   "id": "CVCUSDT::BoS::1790289900000",
