@@ -15564,9 +15564,12 @@
   "gainPct": 8.9,
   "rr": 3.66,
   "signalTime": 1790352900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790352931466,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790354700000
  },
  {
   "id": "SPKUSDT::BoS::1790353800000",
