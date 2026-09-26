@@ -15808,12 +15808,15 @@
   "gainPct": 37.81,
   "rr": 7.13,
   "signalTime": 1790397900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790397927483,
   "fillTime": 1790397900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790430300000
  },
  {
   "id": "SPKUSDT::ChoCh::1790403300000",
