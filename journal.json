@@ -15761,12 +15761,15 @@
   "gainPct": 13.15,
   "rr": 6.98,
   "signalTime": 1790384400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790384442271,
   "fillTime": 1790384400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790404200000
  },
  {
   "id": "SAGAUSDT::ChoCh::1790394300000",
@@ -15840,5 +15843,20 @@
   "status": "pending",
   "createdAt": 1790403331221,
   "notified": []
+ },
+ {
+  "id": "MOVRUSDT::ChoCh::1790405100000",
+  "symbol": "MOVRUSDT",
+  "setup": "ChoCh",
+  "entry": 0.994,
+  "sl": 0.9475,
+  "tp": 1.139,
+  "tpSrc": "WH",
+  "slPct": 4.68,
+  "gainPct": 14.59,
+  "rr": 3.12,
+  "signalTime": 1790405100000,
+  "status": "pending",
+  "createdAt": 1790405130418
  }
 ]
