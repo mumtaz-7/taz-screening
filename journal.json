@@ -16035,5 +16035,20 @@
   "status": "pending",
   "createdAt": 1790454635577,
   "notified": []
+ },
+ {
+  "id": "2ZUSDT::ChoCh::1790461800000",
+  "symbol": "2ZUSDT",
+  "setup": "ChoCh",
+  "entry": 0.07223,
+  "sl": 0.06752,
+  "tp": 0.08074,
+  "tpSrc": "WH",
+  "slPct": 6.52,
+  "gainPct": 11.78,
+  "rr": 1.81,
+  "signalTime": 1790461800000,
+  "status": "pending",
+  "createdAt": 1790461837464
  }
 ]
