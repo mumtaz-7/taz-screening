@@ -15906,5 +15906,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TIAUSDT::ChoCh::1790424000000",
+  "symbol": "TIAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.4923,
+  "sl": 0.48015,
+  "tp": 0.5304,
+  "tpSrc": "OB",
+  "slPct": 2.47,
+  "gainPct": 7.74,
+  "rr": 3.14,
+  "signalTime": 1790424000000,
+  "status": "pending",
+  "createdAt": 1790424041436
  }
 ]
