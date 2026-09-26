@@ -15618,9 +15618,12 @@
   "gainPct": 15.34,
   "rr": 2.81,
   "signalTime": 1790358300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790358330359,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "NILUSDT::ChoCh::1790361000000",
