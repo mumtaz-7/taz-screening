@@ -15944,5 +15944,20 @@
   "status": "pending",
   "createdAt": 1790424930699,
   "notified": []
+ },
+ {
+  "id": "METUSDT::BoS::1790433000000",
+  "symbol": "METUSDT",
+  "setup": "BoS",
+  "entry": 0.3635,
+  "sl": 0.33949999999999997,
+  "tp": 0.4001,
+  "tpSrc": "OB",
+  "slPct": 6.6,
+  "gainPct": 10.07,
+  "rr": 1.52,
+  "signalTime": 1790433000000,
+  "status": "pending",
+  "createdAt": 1790433038309
  }
 ]
