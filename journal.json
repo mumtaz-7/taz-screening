@@ -15269,12 +15269,15 @@
   "gainPct": 8.07,
   "rr": 2.7,
   "signalTime": 1790298000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790298079974,
   "fillTime": 1790298000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.7,
+  "resolvedTime": 1790457300000
  },
  {
   "id": "ONEUSDT::BoS::1790306100000",
