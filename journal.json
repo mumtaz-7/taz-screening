@@ -15681,9 +15681,12 @@
   "gainPct": 7.06,
   "rr": 2.84,
   "signalTime": 1790368200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790368235227,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PENDLEUSDT::ChoCh::1790368200000",
