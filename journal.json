@@ -15137,12 +15137,15 @@
   "gainPct": 10.02,
   "rr": 2.67,
   "signalTime": 1790278200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790278234550,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790279100000
+  "fillTime": 1790279100000,
+  "R": -1,
+  "resolvedTime": 1790428500000
  },
  {
   "id": "CVCUSDT::ChoCh::1790278200000",
