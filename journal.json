@@ -15520,12 +15520,15 @@
   "gainPct": 13.28,
   "rr": 8.31,
   "signalTime": 1790334000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790334046037,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790336700000
+  "fillTime": 1790336700000,
+  "R": 8.31,
+  "resolvedTime": 1790402400000
  },
  {
   "id": "TRBUSDT::ChoCh::1790339400000",
@@ -15802,5 +15805,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SPKUSDT::ChoCh::1790403300000",
+  "symbol": "SPKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02453,
+  "sl": 0.023288000000000003,
+  "tp": 0.026491,
+  "tpSrc": "WH",
+  "slPct": 5.06,
+  "gainPct": 7.99,
+  "rr": 1.58,
+  "signalTime": 1790403300000,
+  "status": "pending",
+  "createdAt": 1790403331221
+ },
+ {
+  "id": "UNIUSDT::ChoCh::1790403300000",
+  "symbol": "UNIUSDT",
+  "setup": "ChoCh",
+  "entry": 9.68,
+  "sl": 9.454999999999998,
+  "tp": 10.404,
+  "tpSrc": "OB",
+  "slPct": 2.32,
+  "gainPct": 7.48,
+  "rr": 3.22,
+  "signalTime": 1790403300000,
+  "status": "pending",
+  "createdAt": 1790403331221
  }
 ]
