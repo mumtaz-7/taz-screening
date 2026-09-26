@@ -14892,12 +14892,15 @@
   "gainPct": 9.38,
   "rr": 1.9,
   "signalTime": 1790225100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790225129649,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790237700000
+  "fillTime": 1790237700000,
+  "R": 1.9,
+  "resolvedTime": 1790433900000
  },
  {
   "id": "PENGUUSDT::BoS::1790226900000",
@@ -15963,5 +15966,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MARSCOINUSDT::ChoCh::1790434800000",
+  "symbol": "MARSCOINUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1164,
+  "sl": 0.11220000000000001,
+  "tp": 0.1282,
+  "tpSrc": "WH",
+  "slPct": 3.61,
+  "gainPct": 10.14,
+  "rr": 2.81,
+  "signalTime": 1790434800000,
+  "status": "pending",
+  "createdAt": 1790434841819
  }
 ]
