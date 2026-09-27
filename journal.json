@@ -12518,12 +12518,15 @@
   "gainPct": 19.7,
   "rr": 2.87,
   "signalTime": 1789797600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789797640337,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789798500000
+  "fillTime": 1789798500000,
+  "R": 2.87,
+  "resolvedTime": 1790496900000
  },
  {
   "id": "ESPUSDT::BoS::1789798500000",
@@ -12617,12 +12620,15 @@
   "gainPct": 17.57,
   "rr": 2.96,
   "signalTime": 1789807500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789807530940,
   "fillTime": 1789807500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.96,
+  "resolvedTime": 1790496900000
  },
  {
   "id": "STGUSDT::ChoCh::1789807500000",
