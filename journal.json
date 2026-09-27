@@ -16323,9 +16323,12 @@
   "gainPct": 10.68,
   "rr": 3.61,
   "signalTime": 1790532900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790532929346,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790544600000
  },
  {
   "id": "AMPUSDT::ChoCh::1790533800000",
@@ -16391,7 +16394,8 @@
   "rr": 3.09,
   "signalTime": 1790544600000,
   "status": "pending",
-  "createdAt": 1790544636291
+  "createdAt": 1790544636291,
+  "notified": []
  },
  {
   "id": "RAREUSDT::BoS::1790544600000",
@@ -16406,6 +16410,22 @@
   "rr": 2.8,
   "signalTime": 1790544600000,
   "status": "pending",
-  "createdAt": 1790544636291
+  "createdAt": 1790544636291,
+  "notified": []
+ },
+ {
+  "id": "AMPUSDT::BoS::1790545500000",
+  "symbol": "AMPUSDT",
+  "setup": "BoS",
+  "entry": 0.000669,
+  "sl": 0.000624,
+  "tp": 0.000867,
+  "tpSrc": "WH",
+  "slPct": 6.73,
+  "gainPct": 29.6,
+  "rr": 4.4,
+  "signalTime": 1790545500000,
+  "status": "pending",
+  "createdAt": 1790545532688
  }
 ]
