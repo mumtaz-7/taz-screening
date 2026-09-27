@@ -16047,12 +16047,15 @@
   "gainPct": 16.53,
   "rr": 1.49,
   "signalTime": 1790454600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790454635577,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790474400000
+  "fillTime": 1790474400000,
+  "R": -1,
+  "resolvedTime": 1790514000000
  },
  {
   "id": "2ZUSDT::ChoCh::1790461800000",
@@ -16267,12 +16270,15 @@
   "gainPct": 24.21,
   "rr": 5.12,
   "signalTime": 1790505900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790505929124,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790509500000
+  "fillTime": 1790509500000,
+  "R": -1,
+  "resolvedTime": 1790514000000
  },
  {
   "id": "RAREUSDT::BoS::1790510400000",
