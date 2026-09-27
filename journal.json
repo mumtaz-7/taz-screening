@@ -16057,12 +16057,15 @@
   "gainPct": 11.78,
   "rr": 1.81,
   "signalTime": 1790461800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790461837464,
   "fillTime": 1790461800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790481600000
  },
  {
   "id": "QNTUSDT::BoS::1790462700000",
@@ -16096,12 +16099,15 @@
   "gainPct": 12.02,
   "rr": 4.39,
   "signalTime": 1790469000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790469033615,
   "fillTime": 1790469000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790481600000
  },
  {
   "id": "COWUSDT::ChoCh::1790469900000",
@@ -16182,5 +16188,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HUMAUSDT::ChoCh::1790482500000",
+  "symbol": "HUMAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02906,
+  "sl": 0.028025,
+  "tp": 0.03224,
+  "tpSrc": "WH",
+  "slPct": 3.56,
+  "gainPct": 10.94,
+  "rr": 3.07,
+  "signalTime": 1790482500000,
+  "status": "pending",
+  "createdAt": 1790482531348
  }
 ]
