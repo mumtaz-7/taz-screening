@@ -16361,5 +16361,20 @@
   "status": "pending",
   "createdAt": 1790537436445,
   "notified": []
+ },
+ {
+  "id": "ONEUSDT::BoS::1790542800000",
+  "symbol": "ONEUSDT",
+  "setup": "BoS",
+  "entry": 0.00234,
+  "sl": 0.002136,
+  "tp": 0.002977,
+  "tpSrc": "OB",
+  "slPct": 8.72,
+  "gainPct": 27.22,
+  "rr": 3.12,
+  "signalTime": 1790542800000,
+  "status": "pending",
+  "createdAt": 1790542842097
  }
 ]
