@@ -16109,8 +16109,13 @@
   "gainPct": 14.58,
   "rr": 2.86,
   "signalTime": 1790469900000,
-  "status": "pending",
-  "createdAt": 1790469931108
+  "status": "void",
+  "createdAt": 1790469931108,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790469900000,
+  "notified": [
+   "void"
+  ]
  },
  {
   "id": "RAREUSDT::ChoCh::1790469900000",
@@ -16124,7 +16129,13 @@
   "gainPct": 13.38,
   "rr": 1.37,
   "signalTime": 1790469900000,
-  "status": "pending",
-  "createdAt": 1790469931108
+  "status": "loss",
+  "createdAt": 1790469931108,
+  "R": -1,
+  "fillTime": 1790469900000,
+  "resolvedTime": 1790469900000,
+  "notified": [
+   "loss"
+  ]
  }
 ]
