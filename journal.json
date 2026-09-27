@@ -16260,9 +16260,12 @@
   "gainPct": 29.57,
   "rr": 1.02,
   "signalTime": 1790495100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790495131187,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "AMPUSDT::ChoCh::1790505900000",
