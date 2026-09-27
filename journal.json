@@ -16160,5 +16160,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1790473500000
+ },
+ {
+  "id": "FILUSDT::BoS::1790476200000",
+  "symbol": "FILUSDT",
+  "setup": "BoS",
+  "entry": 1.1395,
+  "sl": 1.1042500000000002,
+  "tp": 1.2296,
+  "tpSrc": "WH",
+  "slPct": 3.09,
+  "gainPct": 7.91,
+  "rr": 2.56,
+  "signalTime": 1790476200000,
+  "status": "pending",
+  "createdAt": 1790476240729
  }
 ]
