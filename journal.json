@@ -16361,9 +16361,12 @@
   "gainPct": 20.44,
   "rr": 8.38,
   "signalTime": 1790537400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790537436445,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790546400000
  },
  {
   "id": "ONEUSDT::BoS::1790542800000",
