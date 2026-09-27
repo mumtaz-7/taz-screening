@@ -16207,5 +16207,20 @@
    "open"
   ],
   "fillTime": 1790483400000
+ },
+ {
+  "id": "RAREUSDT::ChoCh::1790487000000",
+  "symbol": "RAREUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02061,
+  "sl": 0.019155000000000002,
+  "tp": 0.0255,
+  "tpSrc": "WH",
+  "slPct": 7.06,
+  "gainPct": 23.73,
+  "rr": 3.36,
+  "signalTime": 1790487000000,
+  "status": "pending",
+  "createdAt": 1790487033371
  }
 ]
