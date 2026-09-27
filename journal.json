@@ -16254,5 +16254,20 @@
   "status": "pending",
   "createdAt": 1790495131187,
   "notified": []
+ },
+ {
+  "id": "AMPUSDT::ChoCh::1790505900000",
+  "symbol": "AMPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000698,
+  "sl": 0.0006649999999999999,
+  "tp": 0.000867,
+  "tpSrc": "WH",
+  "slPct": 4.73,
+  "gainPct": 24.21,
+  "rr": 5.12,
+  "signalTime": 1790505900000,
+  "status": "pending",
+  "createdAt": 1790505929124
  }
 ]
