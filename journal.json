@@ -16137,5 +16137,20 @@
   "notified": [
    "loss"
   ]
+ },
+ {
+  "id": "QNTUSDT::BoS::1790472600000",
+  "symbol": "QNTUSDT",
+  "setup": "BoS",
+  "entry": 161,
+  "sl": 136.41500000000002,
+  "tp": 190,
+  "tpSrc": "WH",
+  "slPct": 15.27,
+  "gainPct": 18.01,
+  "rr": 1.18,
+  "signalTime": 1790472600000,
+  "status": "pending",
+  "createdAt": 1790472635425
  }
 ]
