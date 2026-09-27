@@ -15433,12 +15433,15 @@
   "gainPct": 8.38,
   "rr": 2.73,
   "signalTime": 1790328600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790328638786,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790343900000
+  "fillTime": 1790343900000,
+  "R": 2.73,
+  "resolvedTime": 1790493300000
  },
  {
   "id": "ETCUSDT::BoS::1790328600000",
