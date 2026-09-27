@@ -16267,8 +16267,26 @@
   "gainPct": 24.21,
   "rr": 5.12,
   "signalTime": 1790505900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790505929124,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790509500000
+ },
+ {
+  "id": "RAREUSDT::BoS::1790510400000",
+  "symbol": "RAREUSDT",
+  "setup": "BoS",
+  "entry": 0.02017,
+  "sl": 0.01915,
+  "tp": 0.0255,
+  "tpSrc": "WH",
+  "slPct": 5.06,
+  "gainPct": 26.43,
+  "rr": 5.23,
+  "signalTime": 1790510400000,
+  "status": "pending",
+  "createdAt": 1790510440613
  }
 ]
