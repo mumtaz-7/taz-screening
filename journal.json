@@ -16204,12 +16204,15 @@
   "gainPct": 10.94,
   "rr": 3.07,
   "signalTime": 1790482500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790482531348,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790483400000
+  "fillTime": 1790483400000,
+  "R": -1,
+  "resolvedTime": 1790495100000
  },
  {
   "id": "RAREUSDT::ChoCh::1790487000000",
@@ -16243,6 +16246,7 @@
   "rr": 1.02,
   "signalTime": 1790495100000,
   "status": "pending",
-  "createdAt": 1790495131187
+  "createdAt": 1790495131187,
+  "notified": []
  }
 ]
