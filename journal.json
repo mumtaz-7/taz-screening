@@ -15918,12 +15918,15 @@
   "gainPct": 10.92,
   "rr": 2.39,
   "signalTime": 1790418600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790418636373,
   "fillTime": 1790418600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790478000000
  },
  {
   "id": "TIAUSDT::ChoCh::1790424000000",
