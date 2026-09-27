@@ -1,6 +1,8 @@
 {
   "ready": [
-    "ONEUSDT::BoS"
+    "ONEUSDT::BoS",
+    "QNTUSDT::BoS",
+    "RAREUSDT::BoS"
   ],
-  "at": "2026-09-27T21:15:30.410Z"
+  "at": "2026-09-27T21:30:36.290Z"
 }
