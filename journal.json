@@ -16396,9 +16396,13 @@
   "gainPct": 25.01,
   "rr": 3.09,
   "signalTime": 1790544600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790544636291,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790547300000
  },
  {
   "id": "RAREUSDT::BoS::1790544600000",
