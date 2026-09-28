@@ -16622,12 +16622,15 @@
   "gainPct": 12.13,
   "rr": 1.71,
   "signalTime": 1790598600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790598638768,
   "fillTime": 1790598600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790622000000
  },
  {
   "id": "ONEUSDT::ChoCh::1790599500000",
@@ -16720,5 +16723,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONEUSDT::BoS::1790622900000",
+  "symbol": "ONEUSDT",
+  "setup": "BoS",
+  "entry": 0.002584,
+  "sl": 0.0023829999999999997,
+  "tp": 0.002977,
+  "tpSrc": "OB",
+  "slPct": 7.78,
+  "gainPct": 15.21,
+  "rr": 1.96,
+  "signalTime": 1790622900000,
+  "status": "pending",
+  "createdAt": 1790622932180
  }
 ]
