@@ -16392,9 +16392,12 @@
   "gainPct": 27.22,
   "rr": 3.12,
   "signalTime": 1790542800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790542842097,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "QNTUSDT::BoS::1790544600000",
