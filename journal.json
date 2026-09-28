@@ -14739,12 +14739,15 @@
   "gainPct": 11.2,
   "rr": 5.45,
   "signalTime": 1790201700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790201729628,
   "fillTime": 1790201700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "MINAUSDT::ChoCh::1790201700000",
@@ -15174,12 +15177,15 @@
   "gainPct": 14.11,
   "rr": 5.06,
   "signalTime": 1790278200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790278234550,
   "fillTime": 1790278200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "ZROUSDT::ChoCh::1790283600000",
@@ -15423,12 +15429,15 @@
   "gainPct": 11.26,
   "rr": 5.16,
   "signalTime": 1790323200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790323240675,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790330400000
+  "fillTime": 1790330400000,
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "AVAXUSDT::ChoCh::1790328600000",
@@ -15689,12 +15698,15 @@
   "gainPct": 10.62,
   "rr": 5.13,
   "signalTime": 1790362800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790362844359,
   "fillTime": 1790362800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "FILUSDT::ChoCh::1790368200000",
@@ -16354,12 +16366,15 @@
   "gainPct": 32.37,
   "rr": 6.14,
   "signalTime": 1790533800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790533836689,
   "fillTime": 1790533800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "2ZUSDT::ChoCh::1790537400000",
@@ -16454,11 +16469,14 @@
   "gainPct": 29.6,
   "rr": 4.4,
   "signalTime": 1790545500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790545532688,
   "fillTime": 1790545500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790566200000
  }
 ]
