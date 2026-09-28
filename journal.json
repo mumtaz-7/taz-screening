@@ -16673,9 +16673,12 @@
   "gainPct": 8.83,
   "rr": 1.72,
   "signalTime": 1790611200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790611272864,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790613000000
  },
  {
   "id": "AEROUSDT::ChoCh::1790613000000",
@@ -16690,6 +16693,7 @@
   "rr": 2.56,
   "signalTime": 1790613000000,
   "status": "pending",
-  "createdAt": 1790613037290
+  "createdAt": 1790613037290,
+  "notified": []
  }
 ]
