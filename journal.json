@@ -16556,5 +16556,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SUPERUSDT::ChoCh::1790592300000",
+  "symbol": "SUPERUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1943,
+  "sl": 0.191,
+  "tp": 0.2193,
+  "tpSrc": "WH",
+  "slPct": 1.7,
+  "gainPct": 12.87,
+  "rr": 7.58,
+  "signalTime": 1790592300000,
+  "status": "pending",
+  "createdAt": 1790592331348
  }
 ]
