@@ -16676,5 +16676,20 @@
   "status": "pending",
   "createdAt": 1790611272864,
   "notified": []
+ },
+ {
+  "id": "AEROUSDT::ChoCh::1790613000000",
+  "symbol": "AEROUSDT",
+  "setup": "ChoCh",
+  "entry": 0.8016,
+  "sl": 0.75075,
+  "tp": 0.932,
+  "tpSrc": "WH",
+  "slPct": 6.34,
+  "gainPct": 16.27,
+  "rr": 2.56,
+  "signalTime": 1790613000000,
+  "status": "pending",
+  "createdAt": 1790613037290
  }
 ]
