@@ -16585,7 +16585,26 @@
   "gainPct": 8.04,
   "rr": 1.82,
   "signalTime": 1790597700000,
+  "status": "open",
+  "createdAt": 1790597731211,
+  "fillTime": 1790597700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GRTUSDT::ChoCh::1790598600000",
+  "symbol": "GRTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.03273,
+  "sl": 0.030404999999999998,
+  "tp": 0.0367,
+  "tpSrc": "WH",
+  "slPct": 7.1,
+  "gainPct": 12.13,
+  "rr": 1.71,
+  "signalTime": 1790598600000,
   "status": "pending",
-  "createdAt": 1790597731211
+  "createdAt": 1790598638768
  }
 ]
