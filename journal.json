@@ -14698,12 +14698,15 @@
   "gainPct": 13.34,
   "rr": 2.68,
   "signalTime": 1790199900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790199930495,
   "fillTime": 1790199900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790608500000
  },
  {
   "id": "SUPERUSDT::ChoCh::1790200800000",
@@ -14929,12 +14932,15 @@
   "gainPct": 12.73,
   "rr": 2.23,
   "signalTime": 1790226900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790226930030,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790233200000
+  "fillTime": 1790233200000,
+  "R": -1,
+  "resolvedTime": 1790608500000
  },
  {
   "id": "TIAUSDT::BoS::1790226900000",
