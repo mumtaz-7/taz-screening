@@ -15928,12 +15928,15 @@
   "gainPct": 14.59,
   "rr": 3.12,
   "signalTime": 1790405100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790405130418,
   "fillTime": 1790405100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790632800000
  },
  {
   "id": "XPLUSDT::ChoCh::1790410500000",
@@ -16777,7 +16780,12 @@
   "gainPct": 20.55,
   "rr": 1.59,
   "signalTime": 1790632800000,
-  "status": "pending",
-  "createdAt": 1790632845063
+  "status": "void",
+  "createdAt": 1790632845063,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790632800000,
+  "notified": [
+   "void"
+  ]
  }
 ]
