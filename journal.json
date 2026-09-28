@@ -16660,5 +16660,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "2ZUSDT::ChoCh::1790611200000",
+  "symbol": "2ZUSDT",
+  "setup": "ChoCh",
+  "entry": 0.06559,
+  "sl": 0.06223000000000001,
+  "tp": 0.07138,
+  "tpSrc": "EQ",
+  "slPct": 5.12,
+  "gainPct": 8.83,
+  "rr": 1.72,
+  "signalTime": 1790611200000,
+  "status": "pending",
+  "createdAt": 1790611272864
  }
 ]
