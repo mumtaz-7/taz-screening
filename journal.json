@@ -15515,12 +15515,15 @@
   "gainPct": 9.51,
   "rr": 2.53,
   "signalTime": 1790329500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790329531291,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790338500000
+  "fillTime": 1790338500000,
+  "R": -1,
+  "resolvedTime": 1790573400000
  },
  {
   "id": "DYMUSDT::ChoCh::1790332200000",
@@ -16012,12 +16015,15 @@
   "gainPct": 10.07,
   "rr": 1.52,
   "signalTime": 1790433000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790433038309,
   "fillTime": 1790433000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790573400000
  },
  {
   "id": "MARSCOINUSDT::ChoCh::1790434800000",
