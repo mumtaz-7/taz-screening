@@ -16197,12 +16197,15 @@
   "gainPct": 7.91,
   "rr": 2.56,
   "signalTime": 1790476200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790476240729,
   "fillTime": 1790476200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790560800000
  },
  {
   "id": "HUMAUSDT::ChoCh::1790482500000",
