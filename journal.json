@@ -16623,7 +16623,26 @@
   "gainPct": 18,
   "rr": 3.42,
   "signalTime": 1790599500000,
+  "status": "open",
+  "createdAt": 1790599540172,
+  "fillTime": 1790599500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "JTOUSDT::ChoCh::1790600400000",
+  "symbol": "JTOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.5732,
+  "sl": 0.5417000000000001,
+  "tp": 0.647,
+  "tpSrc": "WH",
+  "slPct": 5.5,
+  "gainPct": 12.88,
+  "rr": 2.34,
+  "signalTime": 1790600400000,
   "status": "pending",
-  "createdAt": 1790599540172
+  "createdAt": 1790600446346
  }
 ]
