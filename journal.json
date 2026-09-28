@@ -16559,12 +16559,15 @@
   "gainPct": 11.87,
   "rr": 1.58,
   "signalTime": 1790583300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790583332349,
   "fillTime": 1790583300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790614800000
  },
  {
   "id": "SUPERUSDT::ChoCh::1790592300000",
