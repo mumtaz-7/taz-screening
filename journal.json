@@ -16701,9 +16701,12 @@
   "gainPct": 16.27,
   "rr": 2.56,
   "signalTime": 1790613000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790613037290,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790631900000
  },
  {
   "id": "QNTUSDT::ChoCh::1790617500000",
@@ -16761,5 +16764,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NMRUSDT::BoS::1790632800000",
+  "symbol": "NMRUSDT",
+  "setup": "BoS",
+  "entry": 11.92,
+  "sl": 10.375,
+  "tp": 14.37,
+  "tpSrc": "WH",
+  "slPct": 12.96,
+  "gainPct": 20.55,
+  "rr": 1.59,
+  "signalTime": 1790632800000,
+  "status": "pending",
+  "createdAt": 1790632845063
  }
 ]
