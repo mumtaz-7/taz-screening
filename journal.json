@@ -15537,12 +15537,15 @@
   "gainPct": 10.69,
   "rr": 3.96,
   "signalTime": 1790332200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790332237445,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790333100000
+  "fillTime": 1790333100000,
+  "R": -1,
+  "resolvedTime": 1790584200000
  },
  {
   "id": "2ZUSDT::ChoCh::1790334000000",
