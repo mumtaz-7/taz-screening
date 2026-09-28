@@ -16323,12 +16323,15 @@
   "gainPct": 10.68,
   "rr": 3.61,
   "signalTime": 1790532900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790532929346,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790544600000
+  "fillTime": 1790544600000,
+  "R": -1,
+  "resolvedTime": 1790559900000
  },
  {
   "id": "AMPUSDT::ChoCh::1790533800000",
