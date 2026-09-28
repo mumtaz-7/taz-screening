@@ -15621,12 +15621,15 @@
   "gainPct": 8.9,
   "rr": 3.66,
   "signalTime": 1790352900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790352931466,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790354700000
+  "fillTime": 1790354700000,
+  "R": -1,
+  "resolvedTime": 1790578800000
  },
  {
   "id": "SPKUSDT::BoS::1790353800000",
@@ -16519,8 +16522,11 @@
   "gainPct": 34.14,
   "rr": 1.97,
   "signalTime": 1790577900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790577931267,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790578800000
  }
 ]
