@@ -15848,12 +15848,15 @@
   "gainPct": 7.99,
   "rr": 1.58,
   "signalTime": 1790403300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790403331221,
   "fillTime": 1790403300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790563500000
  },
  {
   "id": "UNIUSDT::ChoCh::1790403300000",
