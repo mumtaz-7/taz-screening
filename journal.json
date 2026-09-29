@@ -16894,12 +16894,15 @@
   "gainPct": 19.78,
   "rr": 3.1,
   "signalTime": 1790676900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790676931298,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790678700000
+  "fillTime": 1790678700000,
+  "R": -1,
+  "resolvedTime": 1790694900000
  },
  {
   "id": "SEIUSDT::BoS::1790682300000",
@@ -16913,12 +16916,15 @@
   "gainPct": 14.6,
   "rr": 4.81,
   "signalTime": 1790682300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790682334804,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790683200000
+  "fillTime": 1790683200000,
+  "R": -1,
+  "resolvedTime": 1790694900000
  },
  {
   "id": "GRTUSDT::BoS::1790683200000",
