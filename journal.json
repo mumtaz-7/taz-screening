@@ -16647,12 +16647,15 @@
   "gainPct": 18,
   "rr": 3.42,
   "signalTime": 1790599500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790599540172,
   "fillTime": 1790599500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790645400000
  },
  {
   "id": "JTOUSDT::ChoCh::1790600400000",
@@ -16742,12 +16745,15 @@
   "gainPct": 15.21,
   "rr": 1.96,
   "signalTime": 1790622900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790622932180,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790623800000
+  "fillTime": 1790623800000,
+  "R": -1,
+  "resolvedTime": 1790645400000
  },
  {
   "id": "PYTHUSDT::ChoCh::1790630100000",
