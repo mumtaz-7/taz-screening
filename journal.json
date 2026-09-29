@@ -13454,7 +13454,7 @@
   "gainPct": 12.24,
   "rr": 3,
   "signalTime": 1789947900000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1789947930023,
   "fillTime": 1789947900000,
   "notified": [
