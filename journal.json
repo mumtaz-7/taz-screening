@@ -17011,5 +17011,20 @@
   ],
   "R": -1,
   "resolvedTime": 1790701200000
+ },
+ {
+  "id": "COTIUSDT::BoS::1790703900000",
+  "symbol": "COTIUSDT",
+  "setup": "BoS",
+  "entry": 0.01337,
+  "sl": 0.01247,
+  "tp": 0.01487,
+  "tpSrc": "OB",
+  "slPct": 6.73,
+  "gainPct": 11.22,
+  "rr": 1.67,
+  "signalTime": 1790703900000,
+  "status": "pending",
+  "createdAt": 1790703931744
  }
 ]
