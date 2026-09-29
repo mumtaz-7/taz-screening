@@ -16878,5 +16878,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NMRUSDT::ChoCh::1790676900000",
+  "symbol": "NMRUSDT",
+  "setup": "ChoCh",
+  "entry": 12.94,
+  "sl": 12.115000000000002,
+  "tp": 15.5,
+  "tpSrc": "WH",
+  "slPct": 6.38,
+  "gainPct": 19.78,
+  "rr": 3.1,
+  "signalTime": 1790676900000,
+  "status": "pending",
+  "createdAt": 1790676931298
  }
 ]
