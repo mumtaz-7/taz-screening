@@ -16913,9 +16913,12 @@
   "gainPct": 14.6,
   "rr": 4.81,
   "signalTime": 1790682300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790682334804,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790683200000
  },
  {
   "id": "GRTUSDT::BoS::1790683200000",
@@ -16929,7 +16932,26 @@
   "gainPct": 18.96,
   "rr": 8.48,
   "signalTime": 1790683200000,
+  "status": "open",
+  "createdAt": 1790683246798,
+  "fillTime": 1790683200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "PUMPUSDT::BoS::1790684100000",
+  "symbol": "PUMPUSDT",
+  "setup": "BoS",
+  "entry": 0.005184,
+  "sl": 0.004843499999999999,
+  "tp": 0.005732,
+  "tpSrc": "WH",
+  "slPct": 6.57,
+  "gainPct": 10.57,
+  "rr": 1.61,
+  "signalTime": 1790684100000,
   "status": "pending",
-  "createdAt": 1790683246798
+  "createdAt": 1790684132805
  }
 ]

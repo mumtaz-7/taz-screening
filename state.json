@@ -1,8 +1,9 @@
 {
   "ready": [
     "GRTUSDT::BoS",
+    "PUMPUSDT::BoS",
     "SEIUSDT::BoS",
     "WUSDT::ChoCh"
   ],
-  "at": "2026-09-29T12:00:46.798Z"
+  "at": "2026-09-29T12:15:32.804Z"
 }
