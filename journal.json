@@ -13495,12 +13495,15 @@
   "gainPct": 13.48,
   "rr": 2.06,
   "signalTime": 1789949700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789949728946,
   "fillTime": 1789949700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790647200000
  },
  {
   "id": "FILUSDT::ChoCh::1789949700000",
