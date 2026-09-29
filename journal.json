@@ -16821,5 +16821,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "WUSDT::ChoCh::1790657100000",
+  "symbol": "WUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01402,
+  "sl": 0.012955000000000001,
+  "tp": 0.01622,
+  "tpSrc": "WH",
+  "slPct": 7.6,
+  "gainPct": 15.69,
+  "rr": 2.07,
+  "signalTime": 1790657100000,
+  "status": "pending",
+  "createdAt": 1790657128825
  }
 ]
