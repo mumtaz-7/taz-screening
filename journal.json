@@ -17154,5 +17154,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "INITUSDT::BoS::1790748900000",
+  "symbol": "INITUSDT",
+  "setup": "BoS",
+  "entry": 0.10457,
+  "sl": 0.10025,
+  "tp": 0.11659,
+  "tpSrc": "WH",
+  "slPct": 4.13,
+  "gainPct": 11.49,
+  "rr": 2.78,
+  "signalTime": 1790748900000,
+  "status": "pending",
+  "createdAt": 1790748932119
  }
 ]
