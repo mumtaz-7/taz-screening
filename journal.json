@@ -17217,12 +17217,15 @@
   "gainPct": 8.71,
   "rr": 3.58,
   "signalTime": 1790773200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790773243794,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790775000000
+  "fillTime": 1790775000000,
+  "R": -1,
+  "resolvedTime": 1790795700000
  },
  {
   "id": "ARUSDT::ChoCh::1790775000000",
@@ -17264,5 +17267,20 @@
    "open"
   ],
   "fillTime": 1790777700000
+ },
+ {
+  "id": "NMRUSDT::ChoCh::1790796600000",
+  "symbol": "NMRUSDT",
+  "setup": "ChoCh",
+  "entry": 11.43,
+  "sl": 10.934999999999999,
+  "tp": 12.445,
+  "tpSrc": "EQ",
+  "slPct": 4.33,
+  "gainPct": 8.88,
+  "rr": 2.05,
+  "signalTime": 1790796600000,
+  "status": "pending",
+  "createdAt": 1790796636431
  }
 ]
