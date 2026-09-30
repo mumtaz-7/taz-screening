@@ -17230,9 +17230,12 @@
   "gainPct": 8.95,
   "rr": 2.33,
   "signalTime": 1790775000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790775040709,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790777700000
  },
  {
   "id": "INITUSDT::ChoCh::1790776800000",
@@ -17246,8 +17249,11 @@
   "gainPct": 12.43,
   "rr": 2.63,
   "signalTime": 1790776800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790776846695,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790777700000
  }
 ]
