@@ -17198,5 +17198,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CELOUSDT::ChoCh::1790773200000",
+  "symbol": "CELOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.09998,
+  "sl": 0.09755,
+  "tp": 0.10869,
+  "tpSrc": "EQ",
+  "slPct": 2.43,
+  "gainPct": 8.71,
+  "rr": 3.58,
+  "signalTime": 1790773200000,
+  "status": "pending",
+  "createdAt": 1790773243794
  }
 ]
