@@ -17043,12 +17043,15 @@
   "gainPct": 7.2,
   "rr": 2.62,
   "signalTime": 1790713800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790713835944,
   "fillTime": 1790713800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790726400000
  },
  {
   "id": "PHAUSDT::BoS::1790720100000",
@@ -17078,8 +17081,11 @@
   "gainPct": 13.42,
   "rr": 4.19,
   "signalTime": 1790723700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790723730947,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790726400000
  }
 ]
