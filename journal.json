@@ -17214,5 +17214,20 @@
   "status": "pending",
   "createdAt": 1790773243794,
   "notified": []
+ },
+ {
+  "id": "ARUSDT::ChoCh::1790775000000",
+  "symbol": "ARUSDT",
+  "setup": "ChoCh",
+  "entry": 4.29,
+  "sl": 4.125,
+  "tp": 4.674,
+  "tpSrc": "OB",
+  "slPct": 3.85,
+  "gainPct": 8.95,
+  "rr": 2.33,
+  "signalTime": 1790775000000,
+  "status": "pending",
+  "createdAt": 1790775040709
  }
 ]
