@@ -17087,5 +17087,20 @@
    "open"
   ],
   "fillTime": 1790726400000
+ },
+ {
+  "id": "0GUSDT::ChoCh::1790729100000",
+  "symbol": "0GUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3323,
+  "sl": 0.32045,
+  "tp": 0.3595,
+  "tpSrc": "WH",
+  "slPct": 3.57,
+  "gainPct": 8.19,
+  "rr": 2.3,
+  "signalTime": 1790729100000,
+  "status": "pending",
+  "createdAt": 1790729129351
  }
 ]
