@@ -1,6 +1,8 @@
 {
   "ready": [
-    "ALICEUSDT::BoS"
+    "ALICEUSDT::BoS",
+    "MEGAUSDT::BoS",
+    "ZROUSDT::ChoCh"
   ],
-  "at": "2026-10-01T16:00:44.326Z"
+  "at": "2026-10-01T16:15:30.268Z"
 }
