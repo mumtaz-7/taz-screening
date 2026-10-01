@@ -17343,12 +17343,15 @@
   "gainPct": 11.91,
   "rr": 2.99,
   "signalTime": 1790816400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790816441550,
   "fillTime": 1790816400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.99,
+  "resolvedTime": 1790838000000
  },
  {
   "id": "RENDERUSDT::ChoCh::1790820000000",
@@ -17438,12 +17441,15 @@
   "gainPct": 13.56,
   "rr": 5.35,
   "signalTime": 1790829000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790829034498,
   "fillTime": 1790829000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790838000000
  },
  {
   "id": "NMRUSDT::ChoCh::1790837100000",
@@ -17477,6 +17483,7 @@
   "rr": 3.69,
   "signalTime": 1790838000000,
   "status": "pending",
-  "createdAt": 1790838044466
+  "createdAt": 1790838044466,
+  "notified": []
  }
 ]
