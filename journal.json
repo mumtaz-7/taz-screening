@@ -17336,12 +17336,15 @@
   "gainPct": 10.79,
   "rr": 2.91,
   "signalTime": 1790808300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790808329621,
   "fillTime": 1790808300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.91,
+  "resolvedTime": 1790868600000
  },
  {
   "id": "NOMUSDT::BoS::1790816400000",
