@@ -17676,9 +17676,12 @@
   "gainPct": 10.36,
   "rr": 1.74,
   "signalTime": 1790871300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790871330269,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "0GUSDT::ChoCh::1790875800000",
