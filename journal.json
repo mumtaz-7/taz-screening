@@ -16890,12 +16890,15 @@
   "gainPct": 10.91,
   "rr": 1.23,
   "signalTime": 1790670600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790670640875,
   "fillTime": 1790670600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790848800000
  },
  {
   "id": "NMRUSDT::ChoCh::1790676900000",
@@ -17510,12 +17513,15 @@
   "gainPct": 17.8,
   "rr": 4.17,
   "signalTime": 1790843400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790843437845,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790845200000
+  "fillTime": 1790845200000,
+  "R": -1,
+  "resolvedTime": 1790848800000
  },
  {
   "id": "JASMYUSDT::ChoCh::1790844300000",
