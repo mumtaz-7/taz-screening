@@ -17302,12 +17302,15 @@
   "gainPct": 15.5,
   "rr": 8.48,
   "signalTime": 1790807400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790807435581,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790808300000
+  "fillTime": 1790808300000,
+  "R": -1,
+  "resolvedTime": 1790820000000
  },
  {
   "id": "GTCUSDT::ChoCh::1790808300000",
@@ -17359,8 +17362,12 @@
   "gainPct": 7.96,
   "rr": 3.52,
   "signalTime": 1790820000000,
-  "status": "pending",
-  "createdAt": 1790820042548
+  "status": "open",
+  "createdAt": 1790820042548,
+  "fillTime": 1790820000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SUIUSDT::BoS::1790820000000",
@@ -17374,7 +17381,11 @@
   "gainPct": 7.66,
   "rr": 2.23,
   "signalTime": 1790820000000,
-  "status": "pending",
-  "createdAt": 1790820042548
+  "status": "open",
+  "createdAt": 1790820042548,
+  "fillTime": 1790820000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
