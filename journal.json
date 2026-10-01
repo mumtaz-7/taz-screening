@@ -17457,7 +17457,26 @@
   "gainPct": 8.88,
   "rr": 1.83,
   "signalTime": 1790837100000,
+  "status": "open",
+  "createdAt": 1790837130223,
+  "fillTime": 1790837100000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "CAKEUSDT::ChoCh::1790838000000",
+  "symbol": "CAKEUSDT",
+  "setup": "ChoCh",
+  "entry": 2.606,
+  "sl": 2.5475000000000003,
+  "tp": 2.822,
+  "tpSrc": "OB",
+  "slPct": 2.24,
+  "gainPct": 8.29,
+  "rr": 3.69,
+  "signalTime": 1790838000000,
   "status": "pending",
-  "createdAt": 1790837130223
+  "createdAt": 1790838044466
  }
 ]
