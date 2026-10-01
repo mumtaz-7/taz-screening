@@ -16612,12 +16612,15 @@
   "gainPct": 8.04,
   "rr": 1.82,
   "signalTime": 1790597700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790597731211,
   "fillTime": 1790597700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.82,
+  "resolvedTime": 1790840700000
  },
  {
   "id": "GRTUSDT::ChoCh::1790598600000",
