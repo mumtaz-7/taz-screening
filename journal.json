@@ -14894,12 +14894,15 @@
   "gainPct": 10.93,
   "rr": 2,
   "signalTime": 1790219700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790219730790,
   "fillTime": 1790219700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790860500000
  },
  {
   "id": "0GUSDT::ChoCh::1790225100000",
