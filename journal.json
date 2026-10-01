@@ -17387,5 +17387,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HBARUSDT::ChoCh::1790824500000",
+  "symbol": "HBARUSDT",
+  "setup": "ChoCh",
+  "entry": 0.10495,
+  "sl": 0.10280500000000001,
+  "tp": 0.11604,
+  "tpSrc": "EQ",
+  "slPct": 2.04,
+  "gainPct": 10.57,
+  "rr": 5.17,
+  "signalTime": 1790824500000,
+  "status": "pending",
+  "createdAt": 1790824529328
+ },
+ {
+  "id": "NILUSDT::ChoCh::1790824500000",
+  "symbol": "NILUSDT",
+  "setup": "ChoCh",
+  "entry": 0.08816,
+  "sl": 0.08345,
+  "tp": 0.09948,
+  "tpSrc": "WH",
+  "slPct": 5.34,
+  "gainPct": 12.84,
+  "rr": 2.4,
+  "signalTime": 1790824500000,
+  "status": "pending",
+  "createdAt": 1790824529328
  }
 ]
