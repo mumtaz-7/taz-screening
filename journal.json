@@ -17577,7 +17577,26 @@
   "gainPct": 14.43,
   "rr": 2.15,
   "signalTime": 1790858700000,
+  "status": "open",
+  "createdAt": 1790858730909,
+  "fillTime": 1790858700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "NILUSDT::BoS::1790859600000",
+  "symbol": "NILUSDT",
+  "setup": "BoS",
+  "entry": 0.08477,
+  "sl": 0.08261,
+  "tp": 0.10318,
+  "tpSrc": "OB",
+  "slPct": 2.55,
+  "gainPct": 21.72,
+  "rr": 8.52,
+  "signalTime": 1790859600000,
   "status": "pending",
-  "createdAt": 1790858730909
+  "createdAt": 1790859648337
  }
 ]
