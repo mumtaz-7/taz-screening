@@ -17425,5 +17425,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BLURUSDT::ChoCh::1790829000000",
+  "symbol": "BLURUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02131,
+  "sl": 0.02077,
+  "tp": 0.0242,
+  "tpSrc": "WH",
+  "slPct": 2.53,
+  "gainPct": 13.56,
+  "rr": 5.35,
+  "signalTime": 1790829000000,
+  "status": "pending",
+  "createdAt": 1790829034498
  }
 ]
