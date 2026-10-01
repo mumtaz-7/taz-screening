@@ -17511,6 +17511,22 @@
   "rr": 4.17,
   "signalTime": 1790843400000,
   "status": "pending",
-  "createdAt": 1790843437845
+  "createdAt": 1790843437845,
+  "notified": []
+ },
+ {
+  "id": "JASMYUSDT::ChoCh::1790844300000",
+  "symbol": "JASMYUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00546,
+  "sl": 0.004830000000000001,
+  "tp": 0.0061,
+  "tpSrc": "WH",
+  "slPct": 11.54,
+  "gainPct": 11.72,
+  "rr": 1.02,
+  "signalTime": 1790844300000,
+  "status": "pending",
+  "createdAt": 1790844332348
  }
 ]
