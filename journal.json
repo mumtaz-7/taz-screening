@@ -17346,5 +17346,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RENDERUSDT::ChoCh::1790820000000",
+  "symbol": "RENDERUSDT",
+  "setup": "ChoCh",
+  "entry": 1.922,
+  "sl": 1.8785,
+  "tp": 2.075,
+  "tpSrc": "OB",
+  "slPct": 2.26,
+  "gainPct": 7.96,
+  "rr": 3.52,
+  "signalTime": 1790820000000,
+  "status": "pending",
+  "createdAt": 1790820042548
+ },
+ {
+  "id": "SUIUSDT::BoS::1790820000000",
+  "symbol": "SUIUSDT",
+  "setup": "BoS",
+  "entry": 1.1768,
+  "sl": 1.1362999999999999,
+  "tp": 1.267,
+  "tpSrc": "OB",
+  "slPct": 3.44,
+  "gainPct": 7.66,
+  "rr": 2.23,
+  "signalTime": 1790820000000,
+  "status": "pending",
+  "createdAt": 1790820042548
  }
 ]
