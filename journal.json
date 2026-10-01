@@ -17396,12 +17396,15 @@
   "gainPct": 7.66,
   "rr": 2.23,
   "signalTime": 1790820000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790820042548,
   "fillTime": 1790820000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790865900000
  },
  {
   "id": "HBARUSDT::ChoCh::1790824500000",
@@ -17608,5 +17611,20 @@
   ],
   "R": -1,
   "resolvedTime": 1790862300000
+ },
+ {
+  "id": "ALICEUSDT::BoS::1790866800000",
+  "symbol": "ALICEUSDT",
+  "setup": "BoS",
+  "entry": 0.1719,
+  "sl": 0.16725,
+  "tp": 0.2034,
+  "tpSrc": "WH",
+  "slPct": 2.71,
+  "gainPct": 18.32,
+  "rr": 6.77,
+  "signalTime": 1790866800000,
+  "status": "pending",
+  "createdAt": 1790866846713
  }
 ]
