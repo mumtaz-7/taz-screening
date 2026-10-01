@@ -17510,9 +17510,12 @@
   "gainPct": 17.8,
   "rr": 4.17,
   "signalTime": 1790843400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790843437845,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790845200000
  },
  {
   "id": "JASMYUSDT::ChoCh::1790844300000",
@@ -17529,5 +17532,20 @@
   "status": "pending",
   "createdAt": 1790844332348,
   "notified": []
+ },
+ {
+  "id": "NILUSDT::ChoCh::1790846100000",
+  "symbol": "NILUSDT",
+  "setup": "ChoCh",
+  "entry": 0.08756,
+  "sl": 0.084935,
+  "tp": 0.09948,
+  "tpSrc": "WH",
+  "slPct": 3,
+  "gainPct": 13.61,
+  "rr": 4.54,
+  "signalTime": 1790846100000,
+  "status": "pending",
+  "createdAt": 1790846132971
  }
 ]
