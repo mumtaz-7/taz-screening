@@ -17529,9 +17529,13 @@
   "gainPct": 11.72,
   "rr": 1.02,
   "signalTime": 1790844300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790844332348,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790846100000
  },
  {
   "id": "NILUSDT::ChoCh::1790846100000",
@@ -17545,7 +17549,11 @@
   "gainPct": 13.61,
   "rr": 4.54,
   "signalTime": 1790846100000,
-  "status": "pending",
-  "createdAt": 1790846132971
+  "status": "open",
+  "createdAt": 1790846132971,
+  "fillTime": 1790846100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
