@@ -17654,7 +17654,8 @@
   "rr": 2.68,
   "signalTime": 1790871300000,
   "status": "pending",
-  "createdAt": 1790871330269
+  "createdAt": 1790871330269,
+  "notified": []
  },
  {
   "id": "ZROUSDT::ChoCh::1790871300000",
@@ -17669,6 +17670,7 @@
   "rr": 1.74,
   "signalTime": 1790871300000,
   "status": "pending",
-  "createdAt": 1790871330269
+  "createdAt": 1790871330269,
+  "notified": []
  }
 ]
