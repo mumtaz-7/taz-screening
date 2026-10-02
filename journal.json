@@ -17733,12 +17733,15 @@
   "gainPct": 8.71,
   "rr": 2.38,
   "signalTime": 1790900100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790900128918,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790901000000
+  "fillTime": 1790901000000,
+  "R": -1,
+  "resolvedTime": 1790913600000
  },
  {
   "id": "NOMUSDT::ChoCh::1790902800000",
