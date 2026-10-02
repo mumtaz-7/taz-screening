@@ -18020,12 +18020,15 @@
   "gainPct": 11.08,
   "rr": 2,
   "signalTime": 1790955000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790955038345,
   "fillTime": 1790955000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790959500000
  },
  {
   "id": "RESOLVUSDT::ChoCh::1790959500000",
@@ -18039,7 +18042,26 @@
   "gainPct": 12.04,
   "rr": 2.58,
   "signalTime": 1790959500000,
+  "status": "open",
+  "createdAt": 1790959601163,
+  "fillTime": 1790959500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GTCUSDT::ChoCh::1790960400000",
+  "symbol": "GTCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.14085,
+  "sl": 0.11109000000000001,
+  "tp": 0.184,
+  "tpSrc": "WH",
+  "slPct": 21.13,
+  "gainPct": 30.64,
+  "rr": 1.45,
+  "signalTime": 1790960400000,
   "status": "pending",
-  "createdAt": 1790959601163
+  "createdAt": 1790960446836
  }
 ]
