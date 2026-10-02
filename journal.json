@@ -18140,6 +18140,22 @@
   "rr": 1.78,
   "signalTime": 1790983800000,
   "status": "pending",
-  "createdAt": 1790983836550
+  "createdAt": 1790983836550,
+  "notified": []
+ },
+ {
+  "id": "SPKUSDT::ChoCh::1790984700000",
+  "symbol": "SPKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.025839,
+  "sl": 0.0248295,
+  "tp": 0.028469,
+  "tpSrc": "WH",
+  "slPct": 3.91,
+  "gainPct": 10.18,
+  "rr": 2.61,
+  "signalTime": 1790984700000,
+  "status": "pending",
+  "createdAt": 1790984729820
  }
 ]
