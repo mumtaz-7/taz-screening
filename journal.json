@@ -17850,9 +17850,12 @@
   "gainPct": 14.58,
   "rr": 4.42,
   "signalTime": 1790915400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790915436357,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790919000000
  },
  {
   "id": "NIGHTUSDT::BoS::1790918100000",
@@ -17866,8 +17869,11 @@
   "gainPct": 13.76,
   "rr": 1.87,
   "signalTime": 1790918100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790918130401,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790919000000
  }
 ]
