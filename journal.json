@@ -17915,12 +17915,15 @@
   "gainPct": 7.09,
   "rr": 1.26,
   "signalTime": 1790923500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790923534476,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790926200000
+  "fillTime": 1790926200000,
+  "R": -1,
+  "resolvedTime": 1790973900000
  },
  {
   "id": "MAGICUSDT::BoS::1790931600000",
