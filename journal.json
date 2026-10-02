@@ -18007,5 +18007,20 @@
    "open"
   ],
   "fillTime": 1790950500000
+ },
+ {
+  "id": "MAGICUSDT::ChoCh::1790955000000",
+  "symbol": "MAGICUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0623,
+  "sl": 0.05885,
+  "tp": 0.0692,
+  "tpSrc": "WH",
+  "slPct": 5.54,
+  "gainPct": 11.08,
+  "rr": 2,
+  "signalTime": 1790955000000,
+  "status": "pending",
+  "createdAt": 1790955038345
  }
 ]
