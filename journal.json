@@ -17853,5 +17853,20 @@
   "status": "pending",
   "createdAt": 1790915436357,
   "notified": []
+ },
+ {
+  "id": "NIGHTUSDT::BoS::1790918100000",
+  "symbol": "NIGHTUSDT",
+  "setup": "BoS",
+  "entry": 0.03982,
+  "sl": 0.036895,
+  "tp": 0.0453,
+  "tpSrc": "WH",
+  "slPct": 7.35,
+  "gainPct": 13.76,
+  "rr": 1.87,
+  "signalTime": 1790918100000,
+  "status": "pending",
+  "createdAt": 1790918130401
  }
 ]
