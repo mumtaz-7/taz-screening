@@ -18107,5 +18107,20 @@
    "open"
   ],
   "fillTime": 1790965800000
+ },
+ {
+  "id": "NMRUSDT::ChoCh::1790972100000",
+  "symbol": "NMRUSDT",
+  "setup": "ChoCh",
+  "entry": 11.54,
+  "sl": 10.97,
+  "tp": 13.05,
+  "tpSrc": "OB",
+  "slPct": 4.94,
+  "gainPct": 13.08,
+  "rr": 2.65,
+  "signalTime": 1790972100000,
+  "status": "pending",
+  "createdAt": 1790972132007
  }
 ]
