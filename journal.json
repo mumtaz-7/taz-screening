@@ -14767,12 +14767,15 @@
   "gainPct": 11.17,
   "rr": 1.51,
   "signalTime": 1790201700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790201729628,
   "fillTime": 1790201700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.51,
+  "resolvedTime": 1790923500000
  },
  {
   "id": "SENTUSDT::ChoCh::1790210700000",
@@ -17889,6 +17892,7 @@
   "rr": 1.26,
   "signalTime": 1790923500000,
   "status": "pending",
-  "createdAt": 1790923534476
+  "createdAt": 1790923534476,
+  "notified": []
  }
 ]
