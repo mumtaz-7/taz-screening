@@ -17383,12 +17383,15 @@
   "gainPct": 7.96,
   "rr": 3.52,
   "signalTime": 1790820000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790820042548,
   "fillTime": 1790820000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "SUIUSDT::BoS::1790820000000",
@@ -17846,12 +17849,15 @@
   "gainPct": 7.89,
   "rr": 1.34,
   "signalTime": 1790912700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790912729152,
   "fillTime": 1790912700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "PLUMEUSDT::BoS::1790915400000",
@@ -17988,12 +17994,15 @@
   "gainPct": 15.31,
   "rr": 3.01,
   "signalTime": 1790947800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790947838429,
   "fillTime": 1790947800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "MEGAUSDT::ChoCh::1790948700000",
@@ -18007,12 +18016,15 @@
   "gainPct": 15.11,
   "rr": 2.92,
   "signalTime": 1790948700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790948731884,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790950500000
+  "fillTime": 1790950500000,
+  "R": -1,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "MAGICUSDT::ChoCh::1790955000000",
@@ -18048,12 +18060,15 @@
   "gainPct": 12.04,
   "rr": 2.58,
   "signalTime": 1790959500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790959601163,
   "fillTime": 1790959500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "GTCUSDT::ChoCh::1790960400000",
@@ -18086,8 +18101,11 @@
   "gainPct": 30.54,
   "rr": 3.29,
   "signalTime": 1790963100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790963132189,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790965800000
  }
 ]
