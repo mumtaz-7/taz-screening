@@ -17777,5 +17777,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PENDLEUSDT::ChoCh::1790911800000",
+  "symbol": "PENDLEUSDT",
+  "setup": "ChoCh",
+  "entry": 2.392,
+  "sl": 2.329,
+  "tp": 2.627,
+  "tpSrc": "OB",
+  "slPct": 2.63,
+  "gainPct": 9.82,
+  "rr": 3.73,
+  "signalTime": 1790911800000,
+  "status": "pending",
+  "createdAt": 1790911836167
+ },
+ {
+  "id": "ZENUSDT::BoS::1790911800000",
+  "symbol": "ZENUSDT",
+  "setup": "BoS",
+  "entry": 7.13,
+  "sl": 7.0235,
+  "tp": 7.82,
+  "tpSrc": "OB",
+  "slPct": 1.49,
+  "gainPct": 9.68,
+  "rr": 6.48,
+  "signalTime": 1790911800000,
+  "status": "pending",
+  "createdAt": 1790911836167
  }
 ]

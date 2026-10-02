@@ -1,6 +1,7 @@
 {
   "ready": [
-    "NIGHTUSDT::ChoCh"
+    "PENDLEUSDT::ChoCh",
+    "ZENUSDT::BoS"
   ],
-  "at": "2026-10-02T03:15:28.804Z"
+  "at": "2026-10-02T03:30:36.157Z"
 }
