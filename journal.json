@@ -18026,5 +18026,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RESOLVUSDT::ChoCh::1790959500000",
+  "symbol": "RESOLVUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02026,
+  "sl": 0.019315000000000002,
+  "tp": 0.0227,
+  "tpSrc": "WH",
+  "slPct": 4.66,
+  "gainPct": 12.04,
+  "rr": 2.58,
+  "signalTime": 1790959500000,
+  "status": "pending",
+  "createdAt": 1790959601163
  }
 ]
