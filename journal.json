@@ -17720,5 +17720,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "JASMYUSDT::ChoCh::1790900100000",
+  "symbol": "JASMYUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00574,
+  "sl": 0.00553,
+  "tp": 0.00624,
+  "tpSrc": "WH",
+  "slPct": 3.66,
+  "gainPct": 8.71,
+  "rr": 2.38,
+  "signalTime": 1790900100000,
+  "status": "pending",
+  "createdAt": 1790900128918
  }
 ]
