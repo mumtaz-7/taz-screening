@@ -17739,5 +17739,20 @@
    "open"
   ],
   "fillTime": 1790901000000
+ },
+ {
+  "id": "NOMUSDT::ChoCh::1790902800000",
+  "symbol": "NOMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.002793,
+  "sl": 0.0026804999999999997,
+  "tp": 0.003266,
+  "tpSrc": "WH",
+  "slPct": 4.03,
+  "gainPct": 16.94,
+  "rr": 4.2,
+  "signalTime": 1790902800000,
+  "status": "pending",
+  "createdAt": 1790902841502
  }
 ]
