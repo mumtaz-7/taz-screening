@@ -17923,5 +17923,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "SKYUSDT::BoS::1790936100000",
+  "symbol": "SKYUSDT",
+  "setup": "BoS",
+  "entry": 0.08479,
+  "sl": 0.08348499999999999,
+  "tp": 0.09077,
+  "tpSrc": "WH",
+  "slPct": 1.54,
+  "gainPct": 7.05,
+  "rr": 4.58,
+  "signalTime": 1790936100000,
+  "status": "pending",
+  "createdAt": 1790936133108
  }
 ]
