@@ -17875,5 +17875,20 @@
    "open"
   ],
   "fillTime": 1790919000000
+ },
+ {
+  "id": "PENDLEUSDT::BoS::1790923500000",
+  "symbol": "PENDLEUSDT",
+  "setup": "BoS",
+  "entry": 2.453,
+  "sl": 2.3150000000000004,
+  "tp": 2.627,
+  "tpSrc": "OB",
+  "slPct": 5.63,
+  "gainPct": 7.09,
+  "rr": 1.26,
+  "signalTime": 1790923500000,
+  "status": "pending",
+  "createdAt": 1790923534476
  }
 ]
