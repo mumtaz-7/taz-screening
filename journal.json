@@ -17783,12 +17783,15 @@
   "gainPct": 14.6,
   "rr": 1.78,
   "signalTime": 1790906400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790906440506,
   "fillTime": 1790906400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.78,
+  "resolvedTime": 1790940600000
  },
  {
   "id": "PENDLEUSDT::ChoCh::1790911800000",
@@ -17878,12 +17881,15 @@
   "gainPct": 13.76,
   "rr": 1.87,
   "signalTime": 1790918100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790918130401,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790919000000
+  "fillTime": 1790919000000,
+  "R": 1.87,
+  "resolvedTime": 1790940600000
  },
  {
   "id": "PENDLEUSDT::BoS::1790923500000",
