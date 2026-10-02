@@ -17862,12 +17862,15 @@
   "gainPct": 14.58,
   "rr": 4.42,
   "signalTime": 1790915400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790915436357,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790919000000
+  "fillTime": 1790919000000,
+  "R": -1,
+  "resolvedTime": 1790962200000
  },
  {
   "id": "NIGHTUSDT::BoS::1790918100000",
@@ -18067,5 +18070,20 @@
    "open"
   ],
   "fillTime": 1790961300000
+ },
+ {
+  "id": "SCRUSDT::BoS::1790963100000",
+  "symbol": "SCRUSDT",
+  "setup": "BoS",
+  "entry": 0.02895,
+  "sl": 0.026265,
+  "tp": 0.03779,
+  "tpSrc": "WH",
+  "slPct": 9.27,
+  "gainPct": 30.54,
+  "rr": 3.29,
+  "signalTime": 1790963100000,
+  "status": "pending",
+  "createdAt": 1790963132189
  }
 ]
