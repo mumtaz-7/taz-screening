@@ -17802,9 +17802,12 @@
   "gainPct": 9.82,
   "rr": 3.73,
   "signalTime": 1790911800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790911836167,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ZENUSDT::BoS::1790911800000",
