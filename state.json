@@ -1,6 +1,7 @@
 {
   "ready": [
-    "APEUSDT::BoS"
+    "APEUSDT::BoS",
+    "MOVRUSDT::ChoCh"
   ],
-  "at": "2026-10-03T04:45:29.883Z"
+  "at": "2026-10-03T05:00:44.441Z"
 }
