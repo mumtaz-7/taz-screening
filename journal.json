@@ -18301,12 +18301,15 @@
   "gainPct": 31.93,
   "rr": 7.8,
   "signalTime": 1791010800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791010846438,
   "fillTime": 1791010800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791015300000
  },
  {
   "id": "ONEUSDT::BoS::1791014400000",
