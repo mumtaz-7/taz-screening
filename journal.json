@@ -18240,12 +18240,15 @@
   "gainPct": 12.95,
   "rr": 3.17,
   "signalTime": 1790999100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790999128688,
   "fillTime": 1790999100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791014400000
  },
  {
   "id": "SANDUSDT::BoS::1790999100000",
@@ -18318,6 +18321,7 @@
   "rr": 3.4,
   "signalTime": 1791014400000,
   "status": "pending",
-  "createdAt": 1791014441713
+  "createdAt": 1791014441713,
+  "notified": []
  }
 ]
