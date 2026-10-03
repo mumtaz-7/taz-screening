@@ -18088,12 +18088,15 @@
   "gainPct": 30.64,
   "rr": 1.45,
   "signalTime": 1790960400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790960446836,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790961300000
+  "fillTime": 1790961300000,
+  "R": -1,
+  "resolvedTime": 1791054000000
  },
  {
   "id": "SCRUSDT::BoS::1790963100000",
