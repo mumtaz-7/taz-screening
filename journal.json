@@ -18375,9 +18375,12 @@
   "gainPct": 12.39,
   "rr": 4.38,
   "signalTime": 1791020700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791020766210,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MEGAUSDT::ChoCh::1791026100000",
