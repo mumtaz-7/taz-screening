@@ -18350,6 +18350,22 @@
   "rr": 1.48,
   "signalTime": 1791019800000,
   "status": "pending",
-  "createdAt": 1791019834023
+  "createdAt": 1791019834023,
+  "notified": []
+ },
+ {
+  "id": "TIAUSDT::BoS::1791020700000",
+  "symbol": "TIAUSDT",
+  "setup": "BoS",
+  "entry": 0.4504,
+  "sl": 0.43765,
+  "tp": 0.5062,
+  "tpSrc": "OB",
+  "slPct": 2.83,
+  "gainPct": 12.39,
+  "rr": 4.38,
+  "signalTime": 1791020700000,
+  "status": "pending",
+  "createdAt": 1791020766210
  }
 ]
