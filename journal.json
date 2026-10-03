@@ -18336,5 +18336,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791018000000
+ },
+ {
+  "id": "ARUSDT::ChoCh::1791019800000",
+  "symbol": "ARUSDT",
+  "setup": "ChoCh",
+  "entry": 4.392,
+  "sl": 4.17,
+  "tp": 4.72,
+  "tpSrc": "WH",
+  "slPct": 5.05,
+  "gainPct": 7.47,
+  "rr": 1.48,
+  "signalTime": 1791019800000,
+  "status": "pending",
+  "createdAt": 1791019834023
  }
 ]
