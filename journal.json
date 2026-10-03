@@ -18349,9 +18349,13 @@
   "gainPct": 7.47,
   "rr": 1.48,
   "signalTime": 1791019800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791019834023,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791023400000
  },
  {
   "id": "TIAUSDT::BoS::1791020700000",
