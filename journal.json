@@ -18158,8 +18158,26 @@
   "gainPct": 10.18,
   "rr": 2.61,
   "signalTime": 1790984700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790984729820,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790987400000
+ },
+ {
+  "id": "MEGAUSDT::BoS::1790988300000",
+  "symbol": "MEGAUSDT",
+  "setup": "BoS",
+  "entry": 0.04662,
+  "sl": 0.04428,
+  "tp": 0.05616,
+  "tpSrc": "WH",
+  "slPct": 5.02,
+  "gainPct": 20.46,
+  "rr": 4.08,
+  "signalTime": 1790988300000,
+  "status": "pending",
+  "createdAt": 1790988329574
  }
 ]
