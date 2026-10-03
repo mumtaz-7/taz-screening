@@ -18221,5 +18221,35 @@
   "status": "pending",
   "createdAt": 1790997329919,
   "notified": []
+ },
+ {
+  "id": "APEUSDT::BoS::1790999100000",
+  "symbol": "APEUSDT",
+  "setup": "BoS",
+  "entry": 0.1691,
+  "sl": 0.1622,
+  "tp": 0.191,
+  "tpSrc": "WH",
+  "slPct": 4.08,
+  "gainPct": 12.95,
+  "rr": 3.17,
+  "signalTime": 1790999100000,
+  "status": "pending",
+  "createdAt": 1790999128688
+ },
+ {
+  "id": "SANDUSDT::BoS::1790999100000",
+  "symbol": "SANDUSDT",
+  "setup": "BoS",
+  "entry": 0.07225,
+  "sl": 0.06196000000000001,
+  "tp": 0.08271,
+  "tpSrc": "WH",
+  "slPct": 14.24,
+  "gainPct": 14.48,
+  "rr": 1.02,
+  "signalTime": 1790999100000,
+  "status": "pending",
+  "createdAt": 1790999128688
  }
 ]
