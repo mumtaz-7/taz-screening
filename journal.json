@@ -18475,5 +18475,20 @@
   "status": "pending",
   "createdAt": 1791048671019,
   "notified": []
+ },
+ {
+  "id": "MANAUSDT::ChoCh::1791050400000",
+  "symbol": "MANAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1052,
+  "sl": 0.09905,
+  "tp": 0.1162,
+  "tpSrc": "WH",
+  "slPct": 5.85,
+  "gainPct": 10.46,
+  "rr": 1.79,
+  "signalTime": 1791050400000,
+  "status": "pending",
+  "createdAt": 1791050443741
  }
 ]
