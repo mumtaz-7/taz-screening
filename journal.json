@@ -18104,12 +18104,15 @@
   "gainPct": 30.54,
   "rr": 3.29,
   "signalTime": 1790963100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790963132189,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790965800000
+  "fillTime": 1790965800000,
+  "R": -1,
+  "resolvedTime": 1791016200000
  },
  {
   "id": "NMRUSDT::ChoCh::1790972100000",

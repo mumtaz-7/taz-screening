@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-03T08:30:38.016Z",
+  "updatedAt": "2026-10-03T08:45:33.060Z",
   "all": {
-    "n": 629,
+    "n": 630,
     "wins": 149,
-    "losses": 480,
+    "losses": 481,
     "win": 23.7,
     "er": -0.16,
     "avgWin": 2.54
@@ -17,14 +17,14 @@
     "avgWin": 2.52
   },
   "BoS": {
-    "n": 206,
+    "n": 207,
     "wins": 48,
-    "losses": 158,
-    "win": 23.3,
+    "losses": 159,
+    "win": 23.2,
     "er": -0.17,
     "avgWin": 2.57
   },
-  "open": 15,
+  "open": 14,
   "pending": 2,
   "void": 200,
   "expired": 12,
