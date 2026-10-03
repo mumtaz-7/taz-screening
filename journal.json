@@ -18123,9 +18123,12 @@
   "gainPct": 13.08,
   "rr": 2.65,
   "signalTime": 1790972100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790972132007,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "SANDUSDT::BoS::1790983800000",
