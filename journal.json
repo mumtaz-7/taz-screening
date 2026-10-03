@@ -18218,9 +18218,12 @@
   "gainPct": 11.11,
   "rr": 3.78,
   "signalTime": 1790997300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790997329919,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791000000000
  },
  {
   "id": "APEUSDT::BoS::1790999100000",
