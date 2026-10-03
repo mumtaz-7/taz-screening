@@ -18437,5 +18437,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SUPERUSDT::BoS::1791040500000",
+  "symbol": "SUPERUSDT",
+  "setup": "BoS",
+  "entry": 0.2614,
+  "sl": 0.24415,
+  "tp": 0.2839,
+  "tpSrc": "WH",
+  "slPct": 6.6,
+  "gainPct": 8.61,
+  "rr": 1.3,
+  "signalTime": 1791040500000,
+  "status": "pending",
+  "createdAt": 1791040530767
  }
 ]
