@@ -18218,12 +18218,15 @@
   "gainPct": 11.11,
   "rr": 3.78,
   "signalTime": 1790997300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790997329919,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791000000000
+  "fillTime": 1791000000000,
+  "R": 3.78,
+  "resolvedTime": 1791004500000
  },
  {
   "id": "APEUSDT::BoS::1790999100000",
