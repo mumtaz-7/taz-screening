@@ -18203,6 +18203,22 @@
   "rr": 5.21,
   "signalTime": 1790996400000,
   "status": "pending",
-  "createdAt": 1790996442442
+  "createdAt": 1790996442442,
+  "notified": []
+ },
+ {
+  "id": "RESOLVUSDT::ChoCh::1790997300000",
+  "symbol": "RESOLVUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02043,
+  "sl": 0.01983,
+  "tp": 0.0227,
+  "tpSrc": "WH",
+  "slPct": 2.94,
+  "gainPct": 11.11,
+  "rr": 3.78,
+  "signalTime": 1790997300000,
+  "status": "pending",
+  "createdAt": 1790997329919
  }
 ]
