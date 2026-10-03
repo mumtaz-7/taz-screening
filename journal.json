@@ -18142,12 +18142,15 @@
   "gainPct": 11.4,
   "rr": 1.78,
   "signalTime": 1790983800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790983836550,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790986500000
+  "fillTime": 1790986500000,
+  "R": 1.78,
+  "resolvedTime": 1790995500000
  },
  {
   "id": "SPKUSDT::ChoCh::1790984700000",
@@ -18186,5 +18189,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ALICEUSDT::ChoCh::1790996400000",
+  "symbol": "ALICEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1753,
+  "sl": 0.1699,
+  "tp": 0.20345000000000002,
+  "tpSrc": "EQ",
+  "slPct": 3.08,
+  "gainPct": 16.06,
+  "rr": 5.21,
+  "signalTime": 1790996400000,
+  "status": "pending",
+  "createdAt": 1790996442442
  }
 ]
