@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ALICEUSDT::BoS"
+    "ALICEUSDT::BoS",
+    "ONEUSDT::BoS"
   ],
-  "at": "2026-10-03T07:45:30.167Z"
+  "at": "2026-10-03T08:00:41.712Z"
 }
