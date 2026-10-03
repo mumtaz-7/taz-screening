@@ -18170,12 +18170,15 @@
   "gainPct": 10.18,
   "rr": 2.61,
   "signalTime": 1790984700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790984729820,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790987400000
+  "fillTime": 1790987400000,
+  "R": -1,
+  "resolvedTime": 1791050400000
  },
  {
   "id": "MEGAUSDT::BoS::1790988300000",
@@ -18488,7 +18491,11 @@
   "gainPct": 10.46,
   "rr": 1.79,
   "signalTime": 1791050400000,
-  "status": "pending",
-  "createdAt": 1791050443741
+  "status": "open",
+  "createdAt": 1791050443741,
+  "fillTime": 1791050400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
