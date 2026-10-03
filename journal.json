@@ -18256,9 +18256,13 @@
   "gainPct": 14.48,
   "rr": 1.02,
   "signalTime": 1790999100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790999128688,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791003600000
  },
  {
   "id": "MOVRUSDT::ChoCh::1791003600000",
@@ -18272,7 +18276,11 @@
   "gainPct": 75.51,
   "rr": 7.31,
   "signalTime": 1791003600000,
-  "status": "pending",
-  "createdAt": 1791003644442
+  "status": "open",
+  "createdAt": 1791003644442,
+  "fillTime": 1791003600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
