@@ -18563,5 +18563,20 @@
    "open"
   ],
   "fillTime": 1791081000000
+ },
+ {
+  "id": "AXSUSDT::BoS::1791088200000",
+  "symbol": "AXSUSDT",
+  "setup": "BoS",
+  "entry": 1.293,
+  "sl": 1.1955,
+  "tp": 1.411,
+  "tpSrc": "WH",
+  "slPct": 7.54,
+  "gainPct": 9.13,
+  "rr": 1.21,
+  "signalTime": 1791088200000,
+  "status": "pending",
+  "createdAt": 1791088235961
  }
 ]
