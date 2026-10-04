@@ -18446,12 +18446,15 @@
   "gainPct": 7.42,
   "rr": 2.31,
   "signalTime": 1791030600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791030636479,
   "fillTime": 1791030600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791135000000
  },
  {
   "id": "SUPERUSDT::BoS::1791040500000",
