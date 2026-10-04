@@ -15791,7 +15791,7 @@
   "gainPct": 30.61,
   "rr": 4.59,
   "signalTime": 1790369100000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1790369129684,
   "fillTime": 1790369100000,
   "notified": [
@@ -18566,12 +18566,15 @@
   "gainPct": 10.39,
   "rr": 1.26,
   "signalTime": 1791078300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791078332342,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791081000000
+  "fillTime": 1791081000000,
+  "R": -1,
+  "resolvedTime": 1791145800000
  },
  {
   "id": "AXSUSDT::BoS::1791088200000",
