@@ -18640,12 +18640,15 @@
   "gainPct": 12.48,
   "rr": 4.29,
   "signalTime": 1791098100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791098130053,
   "fillTime": 1791098100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791117000000
  },
  {
   "id": "BEAMXUSDT::ChoCh::1791102600000",
