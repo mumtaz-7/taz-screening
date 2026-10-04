@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ALICEUSDT::BoS"
+    "ALICEUSDT::BoS",
+    "QNTUSDT::BoS"
   ],
-  "at": "2026-10-04T01:30:39.655Z"
+  "at": "2026-10-04T01:45:32.268Z"
 }
