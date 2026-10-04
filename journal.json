@@ -18697,5 +18697,20 @@
   ],
   "R": -1,
   "resolvedTime": 1791122400000
+ },
+ {
+  "id": "GALAUSDT::BoS::1791137700000",
+  "symbol": "GALAUSDT",
+  "setup": "BoS",
+  "entry": 0.00255,
+  "sl": 0.002511,
+  "tp": 0.002767,
+  "tpSrc": "WH",
+  "slPct": 1.53,
+  "gainPct": 8.51,
+  "rr": 5.56,
+  "signalTime": 1791137700000,
+  "status": "pending",
+  "createdAt": 1791137729007
  }
 ]
