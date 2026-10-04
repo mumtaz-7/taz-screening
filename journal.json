@@ -18579,5 +18579,20 @@
   "status": "pending",
   "createdAt": 1791088235961,
   "notified": []
+ },
+ {
+  "id": "GALAUSDT::BoS::1791090000000",
+  "symbol": "GALAUSDT",
+  "setup": "BoS",
+  "entry": 0.002548,
+  "sl": 0.0024879999999999998,
+  "tp": 0.002767,
+  "tpSrc": "WH",
+  "slPct": 2.35,
+  "gainPct": 8.59,
+  "rr": 3.65,
+  "signalTime": 1791090000000,
+  "status": "pending",
+  "createdAt": 1791090042208
  }
 ]
