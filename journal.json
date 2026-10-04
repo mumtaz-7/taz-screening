@@ -18713,12 +18713,15 @@
   "gainPct": 8.51,
   "rr": 5.56,
   "signalTime": 1791137700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791137729007,
   "fillTime": 1791137700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791149400000
  },
  {
   "id": "MEGAUSDT::ChoCh::1791139500000",
