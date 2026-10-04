@@ -18716,5 +18716,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MEGAUSDT::ChoCh::1791139500000",
+  "symbol": "MEGAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.04902,
+  "sl": 0.04733999999999999,
+  "tp": 0.05394,
+  "tpSrc": "OB",
+  "slPct": 3.43,
+  "gainPct": 10.04,
+  "rr": 2.93,
+  "signalTime": 1791139500000,
+  "status": "pending",
+  "createdAt": 1791139530217
  }
 ]
