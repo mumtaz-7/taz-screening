@@ -19034,6 +19034,22 @@
   "rr": 2.19,
   "signalTime": 1791232200000,
   "status": "pending",
-  "createdAt": 1791232272881
+  "createdAt": 1791232272881,
+  "notified": []
+ },
+ {
+  "id": "WLDUSDT::ChoCh::1791233100000",
+  "symbol": "WLDUSDT",
+  "setup": "ChoCh",
+  "entry": 0.5683,
+  "sl": 0.5478999999999999,
+  "tp": 0.6192,
+  "tpSrc": "WH",
+  "slPct": 3.59,
+  "gainPct": 8.96,
+  "rr": 2.5,
+  "signalTime": 1791233100000,
+  "status": "pending",
+  "createdAt": 1791233767964
  }
 ]
