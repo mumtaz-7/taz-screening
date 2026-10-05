@@ -19001,9 +19001,12 @@
   "gainPct": 7.14,
   "rr": 1.22,
   "signalTime": 1791218700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791218731083,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "NEARUSDT::BoS::1791223200000",
