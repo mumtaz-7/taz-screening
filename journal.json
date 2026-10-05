@@ -18906,5 +18906,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "QNTUSDT::BoS::1791205200000",
+  "symbol": "QNTUSDT",
+  "setup": "BoS",
+  "entry": 258.32,
+  "sl": 246.065,
+  "tp": 297.73,
+  "tpSrc": "OB",
+  "slPct": 4.74,
+  "gainPct": 15.26,
+  "rr": 3.22,
+  "signalTime": 1791205200000,
+  "status": "pending",
+  "createdAt": 1791205246762
  }
 ]
