@@ -18528,12 +18528,15 @@
   "gainPct": 11.41,
   "rr": 2.28,
   "signalTime": 1791062100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791062136311,
   "fillTime": 1791062100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791171000000
  },
  {
   "id": "ALICEUSDT::BoS::1791076500000",
@@ -18776,12 +18779,15 @@
   "gainPct": 7.81,
   "rr": 4.56,
   "signalTime": 1791148500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791148531245,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791166500000
+  "fillTime": 1791166500000,
+  "R": -1,
+  "resolvedTime": 1791171000000
  },
  {
   "id": "MAGICUSDT::ChoCh::1791160200000",
