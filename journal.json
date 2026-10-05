@@ -18957,12 +18957,15 @@
   "gainPct": 8.58,
   "rr": 3.56,
   "signalTime": 1791210600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791210639719,
   "fillTime": 1791210600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791212400000
  },
  {
   "id": "OGNUSDT::BoS::1791211500000",
