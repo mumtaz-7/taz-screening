@@ -18779,5 +18779,20 @@
   "status": "pending",
   "createdAt": 1791148531245,
   "notified": []
+ },
+ {
+  "id": "MAGICUSDT::ChoCh::1791160200000",
+  "symbol": "MAGICUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0614,
+  "sl": 0.06004999999999999,
+  "tp": 0.0692,
+  "tpSrc": "WH",
+  "slPct": 2.2,
+  "gainPct": 12.7,
+  "rr": 5.78,
+  "signalTime": 1791160200000,
+  "status": "pending",
+  "createdAt": 1791160237865
  }
 ]
