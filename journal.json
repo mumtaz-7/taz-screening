@@ -19001,5 +19001,20 @@
   "status": "pending",
   "createdAt": 1791218731083,
   "notified": []
+ },
+ {
+  "id": "NEARUSDT::BoS::1791223200000",
+  "symbol": "NEARUSDT",
+  "setup": "BoS",
+  "entry": 5.044,
+  "sl": 4.883500000000001,
+  "tp": 5.482,
+  "tpSrc": "OB",
+  "slPct": 3.18,
+  "gainPct": 8.68,
+  "rr": 2.73,
+  "signalTime": 1791223200000,
+  "status": "pending",
+  "createdAt": 1791223244485
  }
 ]
