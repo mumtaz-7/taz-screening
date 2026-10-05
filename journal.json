@@ -19050,6 +19050,22 @@
   "rr": 2.5,
   "signalTime": 1791233100000,
   "status": "pending",
-  "createdAt": 1791233767964
+  "createdAt": 1791233767964,
+  "notified": []
+ },
+ {
+  "id": "STRKUSDT::ChoCh::1791234000000",
+  "symbol": "STRKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.05307,
+  "sl": 0.051615,
+  "tp": 0.06086,
+  "tpSrc": "WH",
+  "slPct": 2.74,
+  "gainPct": 14.68,
+  "rr": 5.35,
+  "signalTime": 1791234000000,
+  "status": "pending",
+  "createdAt": 1791234389362
  }
 ]
