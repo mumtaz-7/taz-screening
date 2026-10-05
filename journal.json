@@ -18985,5 +18985,20 @@
    "open"
   ],
   "fillTime": 1791213300000
+ },
+ {
+  "id": "ZROUSDT::BoS::1791218700000",
+  "symbol": "ZROUSDT",
+  "setup": "BoS",
+  "entry": 2.003,
+  "sl": 1.8860000000000001,
+  "tp": 2.146,
+  "tpSrc": "WH",
+  "slPct": 5.84,
+  "gainPct": 7.14,
+  "rr": 1.22,
+  "signalTime": 1791218700000,
+  "status": "pending",
+  "createdAt": 1791218731083
  }
 ]
