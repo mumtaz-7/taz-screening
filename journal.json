@@ -19036,9 +19036,13 @@
   "gainPct": 8.79,
   "rr": 2.19,
   "signalTime": 1791232200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791232272881,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791243000000
  },
  {
   "id": "WLDUSDT::ChoCh::1791233100000",
