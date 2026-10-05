@@ -18944,5 +18944,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NEARUSDT::ChoCh::1791210600000",
+  "symbol": "NEARUSDT",
+  "setup": "ChoCh",
+  "entry": 5.049,
+  "sl": 4.9275,
+  "tp": 5.482,
+  "tpSrc": "OB",
+  "slPct": 2.41,
+  "gainPct": 8.58,
+  "rr": 3.56,
+  "signalTime": 1791210600000,
+  "status": "pending",
+  "createdAt": 1791210639719
  }
 ]
