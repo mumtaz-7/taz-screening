@@ -18776,9 +18776,12 @@
   "gainPct": 7.81,
   "rr": 4.56,
   "signalTime": 1791148500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791148531245,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791166500000
  },
  {
   "id": "MAGICUSDT::ChoCh::1791160200000",
@@ -18831,7 +18834,11 @@
   "gainPct": 13.5,
   "rr": 3.66,
   "signalTime": 1791166500000,
-  "status": "pending",
-  "createdAt": 1791166531275
+  "status": "open",
+  "createdAt": 1791166531275,
+  "fillTime": 1791166500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
