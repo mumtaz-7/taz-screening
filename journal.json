@@ -18957,7 +18957,26 @@
   "gainPct": 8.58,
   "rr": 3.56,
   "signalTime": 1791210600000,
+  "status": "open",
+  "createdAt": 1791210639719,
+  "fillTime": 1791210600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "OGNUSDT::BoS::1791211500000",
+  "symbol": "OGNUSDT",
+  "setup": "BoS",
+  "entry": 0.02296,
+  "sl": 0.020725,
+  "tp": 0.026,
+  "tpSrc": "WH",
+  "slPct": 9.73,
+  "gainPct": 13.24,
+  "rr": 1.36,
+  "signalTime": 1791211500000,
   "status": "pending",
-  "createdAt": 1791210639719
+  "createdAt": 1791211529860
  }
 ]
