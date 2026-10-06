@@ -19233,5 +19233,20 @@
   "status": "pending",
   "createdAt": 1791308731920,
   "notified": []
+ },
+ {
+  "id": "DIAUSDT::BoS::1791314100000",
+  "symbol": "DIAUSDT",
+  "setup": "BoS",
+  "entry": 0.1741,
+  "sl": 0.1693,
+  "tp": 0.1974,
+  "tpSrc": "WH",
+  "slPct": 2.76,
+  "gainPct": 13.38,
+  "rr": 4.85,
+  "signalTime": 1791314100000,
+  "status": "pending",
+  "createdAt": 1791314133045
  }
 ]
