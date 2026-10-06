@@ -19192,9 +19192,12 @@
   "gainPct": 7.85,
   "rr": 2.29,
   "signalTime": 1791292500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791292534448,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PENGUUSDT::BoS::1791294300000",
@@ -19246,7 +19249,11 @@
   "gainPct": 13.38,
   "rr": 4.85,
   "signalTime": 1791314100000,
-  "status": "pending",
-  "createdAt": 1791314133045
+  "status": "open",
+  "createdAt": 1791314133045,
+  "fillTime": 1791314100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
