@@ -19236,9 +19236,13 @@
   "gainPct": 17.56,
   "rr": 2.05,
   "signalTime": 1791308700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791308731920,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791324900000
  },
  {
   "id": "DIAUSDT::BoS::1791314100000",
@@ -19272,6 +19276,7 @@
   "rr": 1.39,
   "signalTime": 1791324900000,
   "status": "pending",
-  "createdAt": 1791324933649
+  "createdAt": 1791324933649,
+  "notified": []
  }
 ]
