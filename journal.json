@@ -19023,9 +19023,12 @@
   "gainPct": 8.68,
   "rr": 2.73,
   "signalTime": 1791223200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791223244485,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "NIGHTUSDT::BoS::1791232200000",
