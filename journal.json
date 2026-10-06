@@ -19065,12 +19065,15 @@
   "gainPct": 8.96,
   "rr": 2.5,
   "signalTime": 1791233100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791233767964,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791252000000
+  "fillTime": 1791252000000,
+  "R": -1,
+  "resolvedTime": 1791305100000
  },
  {
   "id": "STRKUSDT::ChoCh::1791234000000",
