@@ -19192,5 +19192,20 @@
   "status": "pending",
   "createdAt": 1791292534448,
   "notified": []
+ },
+ {
+  "id": "PENGUUSDT::BoS::1791294300000",
+  "symbol": "PENGUUSDT",
+  "setup": "BoS",
+  "entry": 0.009621,
+  "sl": 0.0094815,
+  "tp": 0.010375,
+  "tpSrc": "OB",
+  "slPct": 1.45,
+  "gainPct": 7.84,
+  "rr": 5.41,
+  "signalTime": 1791294300000,
+  "status": "pending",
+  "createdAt": 1791294335546
  }
 ]
