@@ -19217,5 +19217,20 @@
   ],
   "R": -1,
   "resolvedTime": 1791303300000
+ },
+ {
+  "id": "ORCAUSDT::ChoCh::1791308700000",
+  "symbol": "ORCAUSDT",
+  "setup": "ChoCh",
+  "entry": 2.75,
+  "sl": 2.5145,
+  "tp": 3.233,
+  "tpSrc": "WH",
+  "slPct": 8.56,
+  "gainPct": 17.56,
+  "rr": 2.05,
+  "signalTime": 1791308700000,
+  "status": "pending",
+  "createdAt": 1791308731920
  }
 ]
