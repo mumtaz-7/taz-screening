@@ -18738,12 +18738,15 @@
   "gainPct": 10.04,
   "rr": 2.93,
   "signalTime": 1791139500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791139530217,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791151200000
+  "fillTime": 1791151200000,
+  "R": -1,
+  "resolvedTime": 1791266400000
  },
  {
   "id": "ATUSDT::ChoCh::1791141300000",
@@ -19081,12 +19084,15 @@
   "gainPct": 14.68,
   "rr": 5.35,
   "signalTime": 1791234000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791234389362,
   "fillTime": 1791234000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791266400000
  },
  {
   "id": "ORCAUSDT::BoS::1791247500000",
