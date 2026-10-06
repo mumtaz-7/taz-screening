@@ -19113,7 +19113,26 @@
   "gainPct": 29.33,
   "rr": 3.86,
   "signalTime": 1791248400000,
+  "status": "open",
+  "createdAt": 1791248445304,
+  "fillTime": 1791248400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "MOVRUSDT::ChoCh::1791249300000",
+  "symbol": "MOVRUSDT",
+  "setup": "ChoCh",
+  "entry": 2.03,
+  "sl": 1.9685000000000001,
+  "tp": 2.39,
+  "tpSrc": "WH",
+  "slPct": 3.03,
+  "gainPct": 17.73,
+  "rr": 5.85,
+  "signalTime": 1791249300000,
   "status": "pending",
-  "createdAt": 1791248445304
+  "createdAt": 1791249348994
  }
 ]
