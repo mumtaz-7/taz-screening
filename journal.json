@@ -19062,9 +19062,12 @@
   "gainPct": 8.96,
   "rr": 2.5,
   "signalTime": 1791233100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791233767964,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791252000000
  },
  {
   "id": "STRKUSDT::ChoCh::1791234000000",
