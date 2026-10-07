@@ -19418,9 +19418,12 @@
   "gainPct": 17.76,
   "rr": 3.39,
   "signalTime": 1791369000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791369039965,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791378000000
  },
  {
   "id": "MOVRUSDT::BoS::1791369900000",
