@@ -19367,7 +19367,26 @@
   "gainPct": 19.84,
   "rr": 1.23,
   "signalTime": 1791363600000,
+  "status": "open",
+  "createdAt": 1791363646116,
+  "fillTime": 1791363600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GLMRUSDT::BoS::1791364500000",
+  "symbol": "GLMRUSDT",
+  "setup": "BoS",
+  "entry": 0.010975,
+  "sl": 0.0096625,
+  "tp": 0.01239,
+  "tpSrc": "WH",
+  "slPct": 11.96,
+  "gainPct": 12.89,
+  "rr": 1.08,
+  "signalTime": 1791364500000,
   "status": "pending",
-  "createdAt": 1791363646116
+  "createdAt": 1791364532049
  }
 ]
