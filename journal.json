@@ -17111,12 +17111,15 @@
   "gainPct": 13.42,
   "rr": 4.19,
   "signalTime": 1790723700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790723730947,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790726400000
+  "fillTime": 1790726400000,
+  "R": -1,
+  "resolvedTime": 1791338400000
  },
  {
   "id": "0GUSDT::ChoCh::1790729100000",
@@ -17216,12 +17219,15 @@
   "gainPct": 13.12,
   "rr": 6.39,
   "signalTime": 1790761500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790761531829,
   "fillTime": 1790761500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791338400000
  },
  {
   "id": "CELOUSDT::ChoCh::1790773200000",
@@ -18198,12 +18204,15 @@
   "gainPct": 20.46,
   "rr": 4.08,
   "signalTime": 1790988300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790988329574,
   "fillTime": 1790988300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791338400000
  },
  {
   "id": "ALICEUSDT::ChoCh::1790996400000",
@@ -18509,12 +18518,15 @@
   "gainPct": 10.46,
   "rr": 1.79,
   "signalTime": 1791050400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791050443741,
   "fillTime": 1791050400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791338400000
  },
  {
   "id": "SANDUSDT::BoS::1791062100000",
@@ -19256,12 +19268,15 @@
   "gainPct": 13.38,
   "rr": 4.85,
   "signalTime": 1791314100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791314133045,
   "fillTime": 1791314100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791338400000
  },
  {
   "id": "MAGICUSDT::ChoCh::1791324900000",
