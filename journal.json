@@ -19316,5 +19316,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GTCUSDT::ChoCh::1791342900000",
+  "symbol": "GTCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1559,
+  "sl": 0.14231,
+  "tp": 0.17974,
+  "tpSrc": "EQ",
+  "slPct": 8.72,
+  "gainPct": 15.29,
+  "rr": 1.75,
+  "signalTime": 1791342900000,
+  "status": "pending",
+  "createdAt": 1791342931409
  }
 ]
