@@ -19440,5 +19440,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "METUSDT::ChoCh::1791375300000",
+  "symbol": "METUSDT",
+  "setup": "ChoCh",
+  "entry": 0.319,
+  "sl": 0.30415,
+  "tp": 0.3469,
+  "tpSrc": "WH",
+  "slPct": 4.66,
+  "gainPct": 8.75,
+  "rr": 1.88,
+  "signalTime": 1791375300000,
+  "status": "pending",
+  "createdAt": 1791375332078
  }
 ]
