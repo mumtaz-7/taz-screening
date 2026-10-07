@@ -18943,12 +18943,15 @@
   "gainPct": 15.26,
   "rr": 3.22,
   "signalTime": 1791205200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791205246762,
   "fillTime": 1791205200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791365400000
  },
  {
   "id": "UMAUSDT::BoS::1791206100000",
@@ -19386,8 +19389,12 @@
   "gainPct": 12.89,
   "rr": 1.08,
   "signalTime": 1791364500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791364532049,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791365400000
  }
 ]
