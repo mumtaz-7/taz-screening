@@ -19316,12 +19316,15 @@
   "gainPct": 13.57,
   "rr": 1.09,
   "signalTime": 1791335700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791335852377,
   "fillTime": 1791335700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791372600000
  },
  {
   "id": "GTCUSDT::ChoCh::1791342900000",
