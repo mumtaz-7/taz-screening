@@ -19282,5 +19282,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791328500000
+ },
+ {
+  "id": "API3USDT::ChoCh::1791335700000",
+  "symbol": "API3USDT",
+  "setup": "ChoCh",
+  "entry": 0.359,
+  "sl": 0.31415000000000004,
+  "tp": 0.4077,
+  "tpSrc": "WH",
+  "slPct": 12.49,
+  "gainPct": 13.57,
+  "rr": 1.09,
+  "signalTime": 1791335700000,
+  "status": "pending",
+  "createdAt": 1791335852377
  }
 ]
