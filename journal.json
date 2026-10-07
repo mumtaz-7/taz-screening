@@ -16728,7 +16728,7 @@
   "gainPct": 16.27,
   "rr": 2.56,
   "signalTime": 1790613000000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1790613037290,
   "notified": [
    "open"
@@ -19385,12 +19385,15 @@
   "gainPct": 19.84,
   "rr": 1.23,
   "signalTime": 1791363600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791363646116,
   "fillTime": 1791363600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791389700000
  },
  {
   "id": "GLMRUSDT::BoS::1791364500000",
@@ -19462,12 +19465,15 @@
   "gainPct": 8.75,
   "rr": 1.88,
   "signalTime": 1791375300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791375332078,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791379800000
+  "fillTime": 1791379800000,
+  "R": 1.88,
+  "resolvedTime": 1791389700000
  },
  {
   "id": "PARTIUSDT::ChoCh::1791387000000",
