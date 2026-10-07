@@ -19430,12 +19430,15 @@
   "gainPct": 17.76,
   "rr": 3.39,
   "signalTime": 1791369000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791369039965,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791378000000
+  "fillTime": 1791378000000,
+  "R": -1,
+  "resolvedTime": 1791393300000
  },
  {
   "id": "MOVRUSDT::BoS::1791369900000",
@@ -19509,7 +19512,12 @@
   "gainPct": 11.27,
   "rr": 1.08,
   "signalTime": 1791393300000,
-  "status": "pending",
-  "createdAt": 1791393335621
+  "status": "void",
+  "createdAt": 1791393335621,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791393300000,
+  "notified": [
+   "void"
+  ]
  }
 ]
