@@ -17735,12 +17735,15 @@
   "gainPct": 7.49,
   "rr": 1.14,
   "signalTime": 1790881200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790881245587,
   "fillTime": 1790881200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791460800000
  },
  {
   "id": "JASMYUSDT::ChoCh::1790900100000",
