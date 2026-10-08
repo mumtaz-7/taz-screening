@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-10-08T19:15:33.117Z"
+  "ready": [
+    "CTSIUSDT::BoS",
+    "PYTHUSDT::ChoCh"
+  ],
+  "at": "2026-10-08T19:30:41.833Z"
 }
