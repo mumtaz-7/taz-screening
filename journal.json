@@ -19710,5 +19710,20 @@
    "open"
   ],
   "fillTime": 1791456300000
+ },
+ {
+  "id": "SKLUSDT::BoS::1791468000000",
+  "symbol": "SKLUSDT",
+  "setup": "BoS",
+  "entry": 0.00453,
+  "sl": 0.00435,
+  "tp": 0.00529,
+  "tpSrc": "WH",
+  "slPct": 3.97,
+  "gainPct": 16.78,
+  "rr": 4.22,
+  "signalTime": 1791468000000,
+  "status": "pending",
+  "createdAt": 1791468046323
  }
 ]
