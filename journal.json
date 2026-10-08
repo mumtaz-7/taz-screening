@@ -19657,5 +19657,20 @@
   "notified": [
    "loss"
   ]
+ },
+ {
+  "id": "PROMUSDT::BoS::1791431100000",
+  "symbol": "PROMUSDT",
+  "setup": "BoS",
+  "entry": 5.561,
+  "sl": 5.438000000000001,
+  "tp": 6.543,
+  "tpSrc": "OB",
+  "slPct": 2.21,
+  "gainPct": 17.66,
+  "rr": 7.98,
+  "signalTime": 1791431100000,
+  "status": "pending",
+  "createdAt": 1791431132021
  }
 ]
