@@ -17048,12 +17048,15 @@
   "gainPct": 11.22,
   "rr": 1.67,
   "signalTime": 1790703900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790703931744,
   "fillTime": 1790703900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791472500000
  },
  {
   "id": "CVXUSDT::ChoCh::1790713800000",
@@ -17716,12 +17719,15 @@
   "gainPct": 21.45,
   "rr": 4.05,
   "signalTime": 1790875800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790875838536,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790877600000
+  "fillTime": 1790877600000,
+  "R": -1,
+  "resolvedTime": 1791472500000
  },
  {
   "id": "SUIUSDT::ChoCh::1790881200000",
@@ -19458,12 +19464,15 @@
   "gainPct": 48.4,
   "rr": 4.65,
   "signalTime": 1791369900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791369933030,
   "fillTime": 1791369900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791472500000
  },
  {
   "id": "METUSDT::ChoCh::1791375300000",
@@ -19579,12 +19588,15 @@
   "gainPct": 12.78,
   "rr": 1.84,
   "signalTime": 1791409500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791409535458,
   "fillTime": 1791409500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791472500000
  },
  {
   "id": "GTCUSDT::ChoCh::1791413100000",
