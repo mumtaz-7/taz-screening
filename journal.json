@@ -19742,5 +19742,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791470700000
+ },
+ {
+  "id": "AUDIOUSDT::BoS::1791475200000",
+  "symbol": "AUDIOUSDT",
+  "setup": "BoS",
+  "entry": 0.01678,
+  "sl": 0.015399999999999999,
+  "tp": 0.01895,
+  "tpSrc": "WH",
+  "slPct": 8.22,
+  "gainPct": 12.93,
+  "rr": 1.57,
+  "signalTime": 1791475200000,
+  "status": "pending",
+  "createdAt": 1791475247079
  }
 ]
