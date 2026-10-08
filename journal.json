@@ -19630,9 +19630,12 @@
   "gainPct": 13.05,
   "rr": 1.16,
   "signalTime": 1791419400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791419438561,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791422100000
  },
  {
   "id": "SANDUSDT::ChoCh::1791421200000",
