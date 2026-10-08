@@ -19547,12 +19547,15 @@
   "gainPct": 11.91,
   "rr": 3.62,
   "signalTime": 1791399600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791399648467,
   "fillTime": 1791399600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791478800000
  },
  {
   "id": "PROMUSDT::ChoCh::1791405000000",
