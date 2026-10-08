@@ -19630,5 +19630,20 @@
   "status": "pending",
   "createdAt": 1791419438561,
   "notified": []
+ },
+ {
+  "id": "SANDUSDT::ChoCh::1791421200000",
+  "symbol": "SANDUSDT",
+  "setup": "ChoCh",
+  "entry": 0.07892,
+  "sl": 0.075665,
+  "tp": 0.08806,
+  "tpSrc": "WH",
+  "slPct": 4.12,
+  "gainPct": 11.58,
+  "rr": 2.81,
+  "signalTime": 1791421200000,
+  "status": "pending",
+  "createdAt": 1791421250119
  }
 ]
