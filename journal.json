@@ -19608,8 +19608,12 @@
   "gainPct": 12.43,
   "rr": 8.63,
   "signalTime": 1791419400000,
-  "status": "pending",
-  "createdAt": 1791419438561
+  "status": "open",
+  "createdAt": 1791419438561,
+  "fillTime": 1791419400000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ORCAUSDT::ChoCh::1791419400000",
@@ -19624,6 +19628,7 @@
   "rr": 1.16,
   "signalTime": 1791419400000,
   "status": "pending",
-  "createdAt": 1791419438561
+  "createdAt": 1791419438561,
+  "notified": []
  }
 ]
