@@ -19608,12 +19608,15 @@
   "gainPct": 12.43,
   "rr": 8.63,
   "signalTime": 1791419400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791419438561,
   "fillTime": 1791419400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791421200000
  },
  {
   "id": "ORCAUSDT::ChoCh::1791419400000",
@@ -19643,7 +19646,13 @@
   "gainPct": 11.58,
   "rr": 2.81,
   "signalTime": 1791421200000,
-  "status": "pending",
-  "createdAt": 1791421250119
+  "status": "loss",
+  "createdAt": 1791421250119,
+  "R": -1,
+  "fillTime": 1791421200000,
+  "resolvedTime": 1791421200000,
+  "notified": [
+   "loss"
+  ]
  }
 ]
