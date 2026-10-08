@@ -19777,8 +19777,12 @@
   "gainPct": 15.72,
   "rr": 1.04,
   "signalTime": 1791487800000,
-  "status": "pending",
-  "createdAt": 1791487841836
+  "status": "open",
+  "createdAt": 1791487841836,
+  "fillTime": 1791487800000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "PYTHUSDT::ChoCh::1791487800000",
@@ -19793,6 +19797,7 @@
   "rr": 1.27,
   "signalTime": 1791487800000,
   "status": "pending",
-  "createdAt": 1791487841836
+  "createdAt": 1791487841836,
+  "notified": []
  }
 ]
