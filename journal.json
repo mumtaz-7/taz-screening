@@ -19799,9 +19799,12 @@
   "gainPct": 11.04,
   "rr": 1.27,
   "signalTime": 1791487800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791487841836,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "STRKUSDT::ChoCh::1791507600000",
