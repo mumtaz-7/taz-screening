@@ -19874,7 +19874,8 @@
   "rr": 5.55,
   "signalTime": 1791514800000,
   "status": "pending",
-  "createdAt": 1791514844717
+  "createdAt": 1791514844717,
+  "notified": []
  },
  {
   "id": "RLCUSDT::ChoCh::1791514800000",
@@ -19888,7 +19889,11 @@
   "gainPct": 18.45,
   "rr": 1.59,
   "signalTime": 1791514800000,
-  "status": "pending",
-  "createdAt": 1791514844717
+  "status": "open",
+  "createdAt": 1791514844717,
+  "fillTime": 1791514800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
