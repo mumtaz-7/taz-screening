@@ -19912,6 +19912,22 @@
   "rr": 1.88,
   "signalTime": 1791519300000,
   "status": "pending",
-  "createdAt": 1791519332103
+  "createdAt": 1791519332103,
+  "notified": []
+ },
+ {
+  "id": "SKLUSDT::BoS::1791520200000",
+  "symbol": "SKLUSDT",
+  "setup": "BoS",
+  "entry": 0.00523,
+  "sl": 0.00481,
+  "tp": 0.00597,
+  "tpSrc": "WH",
+  "slPct": 8.03,
+  "gainPct": 14.15,
+  "rr": 1.76,
+  "signalTime": 1791520200000,
+  "status": "pending",
+  "createdAt": 1791520236065
  }
 ]
