@@ -20030,5 +20030,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "RADUSDT::BoS::1791555300000",
+  "symbol": "RADUSDT",
+  "setup": "BoS",
+  "entry": 0.318,
+  "sl": 0.294,
+  "tp": 0.409,
+  "tpSrc": "OB",
+  "slPct": 7.55,
+  "gainPct": 28.62,
+  "rr": 3.79,
+  "signalTime": 1791555300000,
+  "status": "pending",
+  "createdAt": 1791555334280
  }
 ]
