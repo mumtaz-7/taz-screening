@@ -20137,7 +20137,41 @@
   "gainPct": 12.05,
   "rr": 6.91,
   "signalTime": 1791576000000,
+  "status": "open",
+  "createdAt": 1791576045204,
+  "fillTime": 1791576000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "AMPUSDT::ChoCh::1791576900000",
+  "symbol": "AMPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00066,
+  "sl": 0.0006374999999999999,
+  "tp": 0.0007475,
+  "tpSrc": "EQ",
+  "slPct": 3.41,
+  "gainPct": 13.26,
+  "rr": 3.89,
+  "signalTime": 1791576900000,
   "status": "pending",
-  "createdAt": 1791576045204
+  "createdAt": 1791576931852
+ },
+ {
+  "id": "RADUSDT::ChoCh::1791576900000",
+  "symbol": "RADUSDT",
+  "setup": "ChoCh",
+  "entry": 0.351,
+  "sl": 0.3045,
+  "tp": 0.412,
+  "tpSrc": "WH",
+  "slPct": 13.25,
+  "gainPct": 17.38,
+  "rr": 1.31,
+  "signalTime": 1791576900000,
+  "status": "pending",
+  "createdAt": 1791576931852
  }
 ]
