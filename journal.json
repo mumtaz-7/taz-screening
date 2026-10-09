@@ -19802,5 +19802,20 @@
   "status": "pending",
   "createdAt": 1791487841836,
   "notified": []
+ },
+ {
+  "id": "STRKUSDT::ChoCh::1791507600000",
+  "symbol": "STRKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.05698,
+  "sl": 0.0535,
+  "tp": 0.0625,
+  "tpSrc": "WH",
+  "slPct": 6.11,
+  "gainPct": 9.69,
+  "rr": 1.59,
+  "signalTime": 1791507600000,
+  "status": "pending",
+  "createdAt": 1791507645781
  }
 ]
