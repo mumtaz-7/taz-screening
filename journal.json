@@ -19816,6 +19816,22 @@
   "rr": 1.59,
   "signalTime": 1791507600000,
   "status": "pending",
-  "createdAt": 1791507645781
+  "createdAt": 1791507645781,
+  "notified": []
+ },
+ {
+  "id": "HEMIUSDT::BoS::1791508500000",
+  "symbol": "HEMIUSDT",
+  "setup": "BoS",
+  "entry": 0.00584,
+  "sl": 0.005720000000000001,
+  "tp": 0.00703,
+  "tpSrc": "WH",
+  "slPct": 2.05,
+  "gainPct": 20.38,
+  "rr": 9.92,
+  "signalTime": 1791508500000,
+  "status": "pending",
+  "createdAt": 1791508532750
  }
 ]
