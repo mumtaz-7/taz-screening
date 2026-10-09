@@ -19911,9 +19911,12 @@
   "gainPct": 19.44,
   "rr": 1.88,
   "signalTime": 1791519300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791519332103,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791521100000
  },
  {
   "id": "SKLUSDT::BoS::1791520200000",
