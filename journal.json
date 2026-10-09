@@ -19898,5 +19898,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "OGNUSDT::ChoCh::1791519300000",
+  "symbol": "OGNUSDT",
+  "setup": "ChoCh",
+  "entry": 0.04475,
+  "sl": 0.040115000000000005,
+  "tp": 0.05345,
+  "tpSrc": "WH",
+  "slPct": 10.36,
+  "gainPct": 19.44,
+  "rr": 1.88,
+  "signalTime": 1791519300000,
+  "status": "pending",
+  "createdAt": 1791519332103
  }
 ]
