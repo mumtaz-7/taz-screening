@@ -19873,9 +19873,12 @@
   "gainPct": 15.49,
   "rr": 5.55,
   "signalTime": 1791514800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791514844717,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791516600000
  },
  {
   "id": "RLCUSDT::ChoCh::1791514800000",
