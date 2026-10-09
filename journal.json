@@ -20157,7 +20157,8 @@
   "rr": 3.89,
   "signalTime": 1791576900000,
   "status": "pending",
-  "createdAt": 1791576931852
+  "createdAt": 1791576931852,
+  "notified": []
  },
  {
   "id": "RADUSDT::ChoCh::1791576900000",
@@ -20171,7 +20172,11 @@
   "gainPct": 17.38,
   "rr": 1.31,
   "signalTime": 1791576900000,
-  "status": "pending",
-  "createdAt": 1791576931852
+  "status": "open",
+  "createdAt": 1791576931852,
+  "fillTime": 1791576900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
