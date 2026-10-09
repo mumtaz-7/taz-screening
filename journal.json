@@ -20102,9 +20102,12 @@
   "gainPct": 17.99,
   "rr": 3.76,
   "signalTime": 1791573300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791573332778,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791588600000
  },
  {
   "id": "OGNUSDT::ChoCh::1791574200000",
@@ -20214,6 +20217,7 @@
   "rr": 1.13,
   "signalTime": 1791588600000,
   "status": "pending",
-  "createdAt": 1791588636510
+  "createdAt": 1791588636510,
+  "notified": []
  }
 ]
