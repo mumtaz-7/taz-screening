@@ -19722,12 +19722,15 @@
   "gainPct": 13.42,
   "rr": 1.06,
   "signalTime": 1791445500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791445533799,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791456300000
+  "fillTime": 1791456300000,
+  "R": -1,
+  "resolvedTime": 1791532800000
  },
  {
   "id": "SKLUSDT::BoS::1791468000000",
@@ -19917,12 +19920,15 @@
   "gainPct": 19.44,
   "rr": 1.88,
   "signalTime": 1791519300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791519332103,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791521100000
+  "fillTime": 1791521100000,
+  "R": -1,
+  "resolvedTime": 1791532800000
  },
  {
   "id": "SKLUSDT::BoS::1791520200000",
