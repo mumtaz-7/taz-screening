@@ -20070,5 +20070,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791560700000
+ },
+ {
+  "id": "ERAUSDT::ChoCh::1791564300000",
+  "symbol": "ERAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0645,
+  "sl": 0.06180000000000001,
+  "tp": 0.0698,
+  "tpSrc": "EQ",
+  "slPct": 4.19,
+  "gainPct": 8.22,
+  "rr": 1.96,
+  "signalTime": 1791564300000,
+  "status": "pending",
+  "createdAt": 1791564332568
  }
 ]
