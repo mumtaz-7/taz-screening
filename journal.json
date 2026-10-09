@@ -19939,5 +19939,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RLCUSDT::BoS::1791526500000",
+  "symbol": "RLCUSDT",
+  "setup": "BoS",
+  "entry": 0.978,
+  "sl": 0.762,
+  "tp": 1.2469,
+  "tpSrc": "WH",
+  "slPct": 22.09,
+  "gainPct": 27.49,
+  "rr": 1.24,
+  "signalTime": 1791526500000,
+  "status": "pending",
+  "createdAt": 1791526532390
  }
 ]
