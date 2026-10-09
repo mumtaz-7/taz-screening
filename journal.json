@@ -19838,9 +19838,12 @@
   "gainPct": 20.38,
   "rr": 9.92,
   "signalTime": 1791508500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791508532750,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ACEUSDT::ChoCh::1791512100000",
@@ -19988,7 +19991,12 @@
   "gainPct": 14.52,
   "rr": 2.54,
   "signalTime": 1791530100000,
-  "status": "pending",
-  "createdAt": 1791530133248
+  "status": "void",
+  "createdAt": 1791530133248,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791530100000,
+  "notified": [
+   "void"
+  ]
  }
 ]

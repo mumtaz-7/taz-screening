@@ -2,8 +2,8 @@
   "ready": [
     "ACEUSDT::BoS",
     "MAGICUSDT::BoS",
-    "PROMUSDT::BoS",
-    "RLCUSDT::BoS"
+    "METUSDT::ChoCh",
+    "PROMUSDT::BoS"
   ],
-  "at": "2026-10-09T07:15:33.247Z"
+  "at": "2026-10-09T07:30:40.366Z"
 }
