@@ -19892,12 +19892,15 @@
   "gainPct": 18.45,
   "rr": 1.59,
   "signalTime": 1791514800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791514844717,
   "fillTime": 1791514800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.59,
+  "resolvedTime": 1791524700000
  },
  {
   "id": "OGNUSDT::ChoCh::1791519300000",
