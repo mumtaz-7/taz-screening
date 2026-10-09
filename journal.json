@@ -20103,6 +20103,22 @@
   "rr": 3.76,
   "signalTime": 1791573300000,
   "status": "pending",
-  "createdAt": 1791573332778
+  "createdAt": 1791573332778,
+  "notified": []
+ },
+ {
+  "id": "OGNUSDT::ChoCh::1791574200000",
+  "symbol": "OGNUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0391,
+  "sl": 0.033385,
+  "tp": 0.05345,
+  "tpSrc": "WH",
+  "slPct": 14.62,
+  "gainPct": 36.7,
+  "rr": 2.51,
+  "signalTime": 1791574200000,
+  "status": "pending",
+  "createdAt": 1791574239128
  }
 ]
