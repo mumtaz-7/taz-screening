@@ -20118,8 +20118,26 @@
   "gainPct": 36.7,
   "rr": 2.51,
   "signalTime": 1791574200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791574239128,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791575100000
+ },
+ {
+  "id": "ENSOUSDT::ChoCh::1791576000000",
+  "symbol": "ENSOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.946,
+  "sl": 0.9295000000000001,
+  "tp": 1.06,
+  "tpSrc": "WH",
+  "slPct": 1.74,
+  "gainPct": 12.05,
+  "rr": 6.91,
+  "signalTime": 1791576000000,
+  "status": "pending",
+  "createdAt": 1791576045204
  }
 ]
