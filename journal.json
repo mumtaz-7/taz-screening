@@ -19818,9 +19818,13 @@
   "gainPct": 9.69,
   "rr": 1.59,
   "signalTime": 1791507600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791507645781,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791513900000
  },
  {
   "id": "HEMIUSDT::BoS::1791508500000",
@@ -19856,5 +19860,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::BoS::1791514800000",
+  "symbol": "PROMUSDT",
+  "setup": "BoS",
+  "entry": 5.217,
+  "sl": 5.0715,
+  "tp": 6.025,
+  "tpSrc": "OB",
+  "slPct": 2.79,
+  "gainPct": 15.49,
+  "rr": 5.55,
+  "signalTime": 1791514800000,
+  "status": "pending",
+  "createdAt": 1791514844717
+ },
+ {
+  "id": "RLCUSDT::ChoCh::1791514800000",
+  "symbol": "RLCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.9156,
+  "sl": 0.8097,
+  "tp": 1.0845,
+  "tpSrc": "WH",
+  "slPct": 11.57,
+  "gainPct": 18.45,
+  "rr": 1.59,
+  "signalTime": 1791514800000,
+  "status": "pending",
+  "createdAt": 1791514844717
  }
 ]

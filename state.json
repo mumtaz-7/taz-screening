@@ -1,6 +1,8 @@
 {
   "ready": [
-    "ACEUSDT::ChoCh"
+    "ACEUSDT::ChoCh",
+    "PROMUSDT::BoS",
+    "RLCUSDT::ChoCh"
   ],
-  "at": "2026-10-09T02:45:31.135Z"
+  "at": "2026-10-09T03:00:44.716Z"
 }
