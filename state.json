@@ -1,8 +1,9 @@
 {
   "ready": [
     "ACEUSDT::BoS",
+    "MAGICUSDT::BoS",
     "PROMUSDT::BoS",
     "RLCUSDT::BoS"
   ],
-  "at": "2026-10-09T07:00:42.373Z"
+  "at": "2026-10-09T07:15:33.247Z"
 }
