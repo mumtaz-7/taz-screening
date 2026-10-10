@@ -20083,12 +20083,15 @@
   "gainPct": 8.22,
   "rr": 1.96,
   "signalTime": 1791564300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791564332568,
   "fillTime": 1791564300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.96,
+  "resolvedTime": 1791595800000
  },
  {
   "id": "GTCUSDT::ChoCh::1791573300000",
@@ -20248,7 +20251,11 @@
   "gainPct": 11.11,
   "rr": 6.42,
   "signalTime": 1791595800000,
-  "status": "pending",
-  "createdAt": 1791595841121
+  "status": "open",
+  "createdAt": 1791595841121,
+  "fillTime": 1791595800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
