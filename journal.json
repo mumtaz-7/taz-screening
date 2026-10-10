@@ -20200,12 +20200,15 @@
   "gainPct": 7.52,
   "rr": 2.26,
   "signalTime": 1791582300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791582333099,
   "fillTime": 1791582300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791617400000
  },
  {
   "id": "STRKUSDT::ChoCh::1791588600000",
@@ -20277,12 +20280,15 @@
   "gainPct": 15.5,
   "rr": 2.28,
   "signalTime": 1791601200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791601244856,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791602100000
+  "fillTime": 1791602100000,
+  "R": -1,
+  "resolvedTime": 1791617400000
  },
  {
   "id": "XAIUSDT::BoS::1791602100000",
