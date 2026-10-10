@@ -20275,6 +20275,22 @@
   "rr": 2.28,
   "signalTime": 1791601200000,
   "status": "pending",
-  "createdAt": 1791601244856
+  "createdAt": 1791601244856,
+  "notified": []
+ },
+ {
+  "id": "XAIUSDT::BoS::1791602100000",
+  "symbol": "XAIUSDT",
+  "setup": "BoS",
+  "entry": 0.01003,
+  "sl": 0.009535,
+  "tp": 0.01121,
+  "tpSrc": "WH",
+  "slPct": 4.94,
+  "gainPct": 11.76,
+  "rr": 2.38,
+  "signalTime": 1791602100000,
+  "status": "pending",
+  "createdAt": 1791602130761
  }
 ]
