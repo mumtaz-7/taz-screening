@@ -20372,12 +20372,15 @@
   "gainPct": 8.51,
   "rr": 2.02,
   "signalTime": 1791610200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791610237446,
   "fillTime": 1791610200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.02,
+  "resolvedTime": 1791656100000
  },
  {
   "id": "LPTUSDT::BoS::1791613800000",
