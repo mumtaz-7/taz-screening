@@ -1,6 +1,7 @@
 {
   "ready": [
-    "STRKUSDT::ChoCh"
+    "OPUSDT::BoS",
+    "TIAUSDT::ChoCh"
   ],
-  "at": "2026-10-10T15:15:30.910Z"
+  "at": "2026-10-10T15:30:40.406Z"
 }

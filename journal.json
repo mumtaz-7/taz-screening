@@ -20593,5 +20593,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791643500000
+ },
+ {
+  "id": "OPUSDT::BoS::1791646200000",
+  "symbol": "OPUSDT",
+  "setup": "BoS",
+  "entry": 0.1374,
+  "sl": 0.13395,
+  "tp": 0.1476,
+  "tpSrc": "WH",
+  "slPct": 2.51,
+  "gainPct": 7.42,
+  "rr": 2.96,
+  "signalTime": 1791646200000,
+  "status": "pending",
+  "createdAt": 1791646240406
  }
 ]
