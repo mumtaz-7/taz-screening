@@ -20371,7 +20371,8 @@
   "rr": 1.06,
   "signalTime": 1791613800000,
   "status": "pending",
-  "createdAt": 1791613836309
+  "createdAt": 1791613836309,
+  "notified": []
  },
  {
   "id": "METUSDT::ChoCh::1791613800000",
@@ -20385,7 +20386,11 @@
   "gainPct": 31.19,
   "rr": 5.42,
   "signalTime": 1791613800000,
-  "status": "pending",
-  "createdAt": 1791613836309
+  "status": "open",
+  "createdAt": 1791613836309,
+  "fillTime": 1791613800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
