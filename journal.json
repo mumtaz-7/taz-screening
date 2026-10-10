@@ -20449,5 +20449,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "RONINUSDT::ChoCh::1791622800000",
+  "symbol": "RONINUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0689,
+  "sl": 0.06575,
+  "tp": 0.0857,
+  "tpSrc": "WH",
+  "slPct": 4.57,
+  "gainPct": 24.38,
+  "rr": 5.33,
+  "signalTime": 1791622800000,
+  "status": "pending",
+  "createdAt": 1791622844426
  }
 ]
