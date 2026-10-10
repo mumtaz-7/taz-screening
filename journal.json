@@ -20547,9 +20547,13 @@
   "gainPct": 9.29,
   "rr": 2.21,
   "signalTime": 1791636300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791636330285,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791644400000
  },
  {
   "id": "LUMIAUSDT::BoS::1791639900000",
