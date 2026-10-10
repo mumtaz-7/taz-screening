@@ -20239,9 +20239,12 @@
   "gainPct": 19.91,
   "rr": 4.63,
   "signalTime": 1791594000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791594042557,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ENSOUSDT::BoS::1791595800000",
@@ -20370,9 +20373,12 @@
   "gainPct": 11.6,
   "rr": 1.06,
   "signalTime": 1791613800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791613836309,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791615600000
  },
  {
   "id": "METUSDT::ChoCh::1791613800000",
