@@ -20261,5 +20261,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SKLUSDT::ChoCh::1791601200000",
+  "symbol": "SKLUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00529,
+  "sl": 0.0049299999999999995,
+  "tp": 0.00611,
+  "tpSrc": "WH",
+  "slPct": 6.81,
+  "gainPct": 15.5,
+  "rr": 2.28,
+  "signalTime": 1791601200000,
+  "status": "pending",
+  "createdAt": 1791601244856
  }
 ]
