@@ -20612,5 +20612,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PYTHUSDT::ChoCh::1791648900000",
+  "symbol": "PYTHUSDT",
+  "setup": "ChoCh",
+  "entry": 0.07871,
+  "sl": 0.07771999999999998,
+  "tp": 0.08754,
+  "tpSrc": "WH",
+  "slPct": 1.26,
+  "gainPct": 11.22,
+  "rr": 8.92,
+  "signalTime": 1791648900000,
+  "status": "pending",
+  "createdAt": 1791648931959
  }
 ]
