@@ -20423,5 +20423,20 @@
   "status": "pending",
   "createdAt": 1791619242018,
   "notified": []
+ },
+ {
+  "id": "ERAUSDT::BoS::1791621000000",
+  "symbol": "ERAUSDT",
+  "setup": "BoS",
+  "entry": 0.0699,
+  "sl": 0.0654,
+  "tp": 0.0825,
+  "tpSrc": "WH",
+  "slPct": 6.44,
+  "gainPct": 18.03,
+  "rr": 2.8,
+  "signalTime": 1791621000000,
+  "status": "pending",
+  "createdAt": 1791621039484
  }
 ]
