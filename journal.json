@@ -20692,5 +20692,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TIAUSDT::BoS::1791660600000",
+  "symbol": "TIAUSDT",
+  "setup": "BoS",
+  "entry": 0.5195,
+  "sl": 0.4979,
+  "tp": 0.5654,
+  "tpSrc": "WH",
+  "slPct": 4.16,
+  "gainPct": 8.84,
+  "rr": 2.13,
+  "signalTime": 1791660600000,
+  "status": "pending",
+  "createdAt": 1791660637358
  }
 ]
