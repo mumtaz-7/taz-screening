@@ -20105,12 +20105,15 @@
   "gainPct": 17.99,
   "rr": 3.76,
   "signalTime": 1791573300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791573332778,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791588600000
+  "fillTime": 1791588600000,
+  "R": -1,
+  "resolvedTime": 1791671400000
  },
  {
   "id": "OGNUSDT::ChoCh::1791574200000",
@@ -20728,12 +20731,15 @@
   "gainPct": 22.31,
   "rr": 9.72,
   "signalTime": 1791665100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791665130226,
   "fillTime": 1791665100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791671400000
  },
  {
   "id": "MINAUSDT::ChoCh::1791668700000",
