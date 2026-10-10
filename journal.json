@@ -20426,9 +20426,13 @@
   "gainPct": 19.23,
   "rr": 6,
   "signalTime": 1791619200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791619242018,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791626400000
  },
  {
   "id": "ERAUSDT::BoS::1791621000000",
