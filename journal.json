@@ -20569,5 +20569,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STRKUSDT::ChoCh::1791642600000",
+  "symbol": "STRKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.07308,
+  "sl": 0.07056000000000001,
+  "tp": 0.08269,
+  "tpSrc": "WH",
+  "slPct": 3.45,
+  "gainPct": 13.15,
+  "rr": 3.81,
+  "signalTime": 1791642600000,
+  "status": "pending",
+  "createdAt": 1791642640015
  }
 ]
