@@ -20506,7 +20506,26 @@
   "gainPct": 8.19,
   "rr": 2.91,
   "signalTime": 1791629100000,
+  "status": "open",
+  "createdAt": 1791629131004,
+  "fillTime": 1791629100000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "WALUSDT::BoS::1791630000000",
+  "symbol": "WALUSDT",
+  "setup": "BoS",
+  "entry": 0.03818,
+  "sl": 0.03476,
+  "tp": 0.04476,
+  "tpSrc": "WH",
+  "slPct": 8.96,
+  "gainPct": 17.23,
+  "rr": 1.92,
+  "signalTime": 1791630000000,
   "status": "pending",
-  "createdAt": 1791629131004
+  "createdAt": 1791630044429
  }
 ]
