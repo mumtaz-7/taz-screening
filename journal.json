@@ -20319,5 +20319,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RADUSDT::BoS::1791604800000",
+  "symbol": "RADUSDT",
+  "setup": "BoS",
+  "entry": 0.336,
+  "sl": 0.3195,
+  "tp": 0.412,
+  "tpSrc": "WH",
+  "slPct": 4.91,
+  "gainPct": 22.62,
+  "rr": 4.61,
+  "signalTime": 1791604800000,
+  "status": "pending",
+  "createdAt": 1791604845081
  }
 ]
