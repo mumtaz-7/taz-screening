@@ -20124,12 +20124,15 @@
   "gainPct": 36.7,
   "rr": 2.51,
   "signalTime": 1791574200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791574239128,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791575100000
+  "fillTime": 1791575100000,
+  "R": -1,
+  "resolvedTime": 1791621000000
  },
  {
   "id": "ENSOUSDT::ChoCh::1791576000000",
@@ -20162,12 +20165,15 @@
   "gainPct": 13.26,
   "rr": 3.89,
   "signalTime": 1791576900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791576931852,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791577800000
+  "fillTime": 1791577800000,
+  "R": -1,
+  "resolvedTime": 1791621000000
  },
  {
   "id": "RADUSDT::ChoCh::1791576900000",
@@ -20436,7 +20442,12 @@
   "gainPct": 18.03,
   "rr": 2.8,
   "signalTime": 1791621000000,
-  "status": "pending",
-  "createdAt": 1791621039484
+  "status": "void",
+  "createdAt": 1791621039484,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791621000000,
+  "notified": [
+   "void"
+  ]
  }
 ]
