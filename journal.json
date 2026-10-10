@@ -20625,7 +20625,26 @@
   "gainPct": 11.22,
   "rr": 8.92,
   "signalTime": 1791648900000,
+  "status": "open",
+  "createdAt": 1791648931959,
+  "fillTime": 1791648900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "RLCUSDT::ChoCh::1791649800000",
+  "symbol": "RLCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.9918,
+  "sl": 0.8971499999999999,
+  "tp": 1.1985,
+  "tpSrc": "WH",
+  "slPct": 9.54,
+  "gainPct": 20.84,
+  "rr": 2.18,
+  "signalTime": 1791649800000,
   "status": "pending",
-  "createdAt": 1791648931959
+  "createdAt": 1791649837580
  }
 ]
