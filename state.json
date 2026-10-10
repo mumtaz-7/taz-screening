@@ -1,6 +1,7 @@
 {
   "ready": [
-    "TIAUSDT::ChoCh"
+    "LPTUSDT::BoS",
+    "METUSDT::ChoCh"
   ],
-  "at": "2026-10-10T06:15:28.587Z"
+  "at": "2026-10-10T06:30:36.308Z"
 }
