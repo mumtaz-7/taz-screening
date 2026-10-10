@@ -20462,7 +20462,28 @@
   "gainPct": 24.38,
   "rr": 5.33,
   "signalTime": 1791622800000,
+  "status": "loss",
+  "createdAt": 1791622844426,
+  "R": -1,
+  "fillTime": 1791622800000,
+  "resolvedTime": 1791622800000,
+  "notified": [
+   "loss"
+  ]
+ },
+ {
+  "id": "METUSDT::BoS::1791623700000",
+  "symbol": "METUSDT",
+  "setup": "BoS",
+  "entry": 0.4258,
+  "sl": 0.3883,
+  "tp": 0.5468,
+  "tpSrc": "WH",
+  "slPct": 8.81,
+  "gainPct": 28.42,
+  "rr": 3.23,
+  "signalTime": 1791623700000,
   "status": "pending",
-  "createdAt": 1791622844426
+  "createdAt": 1791623732266
  }
 ]
