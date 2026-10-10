@@ -20341,12 +20341,15 @@
   "gainPct": 22.62,
   "rr": 4.61,
   "signalTime": 1791604800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791604845081,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791605700000
+  "fillTime": 1791605700000,
+  "R": -1,
+  "resolvedTime": 1791618300000
  },
  {
   "id": "TIAUSDT::ChoCh::1791610200000",
@@ -20404,5 +20407,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ARPAUSDT::BoS::1791619200000",
+  "symbol": "ARPAUSDT",
+  "setup": "BoS",
+  "entry": 0.0117,
+  "sl": 0.011325,
+  "tp": 0.01395,
+  "tpSrc": "WH",
+  "slPct": 3.21,
+  "gainPct": 19.23,
+  "rr": 6,
+  "signalTime": 1791619200000,
+  "status": "pending",
+  "createdAt": 1791619242018
  }
 ]
