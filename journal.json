@@ -20814,7 +20814,57 @@
   "gainPct": 31.95,
   "rr": 4.15,
   "signalTime": 1791692100000,
+  "status": "void",
+  "createdAt": 1791692129650,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791692100000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "ARPAUSDT::ChoCh::1791693000000",
+  "symbol": "ARPAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01211,
+  "sl": 0.011420000000000001,
+  "tp": 0.01401,
+  "tpSrc": "WH",
+  "slPct": 5.7,
+  "gainPct": 15.69,
+  "rr": 2.75,
+  "signalTime": 1791693000000,
   "status": "pending",
-  "createdAt": 1791692129650
+  "createdAt": 1791693037060
+ },
+ {
+  "id": "ERAUSDT::ChoCh::1791693000000",
+  "symbol": "ERAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0786,
+  "sl": 0.07350000000000001,
+  "tp": 0.0869,
+  "tpSrc": "EQ",
+  "slPct": 6.49,
+  "gainPct": 10.56,
+  "rr": 1.63,
+  "signalTime": 1791693000000,
+  "status": "pending",
+  "createdAt": 1791693037060
+ },
+ {
+  "id": "MAGICUSDT::ChoCh::1791693000000",
+  "symbol": "MAGICUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1009,
+  "sl": 0.09475,
+  "tp": 0.1639,
+  "tpSrc": "WH",
+  "slPct": 6.1,
+  "gainPct": 62.44,
+  "rr": 10.24,
+  "signalTime": 1791693000000,
+  "status": "pending",
+  "createdAt": 1791693037060
  }
 ]
