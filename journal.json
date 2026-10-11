@@ -21057,5 +21057,35 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "NEARUSDT::BoS::1791737100000",
+  "symbol": "NEARUSDT",
+  "setup": "BoS",
+  "entry": 5.425,
+  "sl": 5.100999999999999,
+  "tp": 5.9,
+  "tpSrc": "WH",
+  "slPct": 5.97,
+  "gainPct": 8.76,
+  "rr": 1.47,
+  "signalTime": 1791737100000,
+  "status": "pending",
+  "createdAt": 1791737134510
+ },
+ {
+  "id": "ZROUSDT::BoS::1791737100000",
+  "symbol": "ZROUSDT",
+  "setup": "BoS",
+  "entry": 2.071,
+  "sl": 1.9959999999999998,
+  "tp": 2.237,
+  "tpSrc": "OB",
+  "slPct": 3.62,
+  "gainPct": 8.02,
+  "rr": 2.21,
+  "signalTime": 1791737100000,
+  "status": "pending",
+  "createdAt": 1791737134510
  }
 ]

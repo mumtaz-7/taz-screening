@@ -1,6 +1,7 @@
 {
   "ready": [
-    "BATUSDT::ChoCh"
+    "NEARUSDT::BoS",
+    "ZROUSDT::BoS"
   ],
-  "at": "2026-10-11T16:30:38.099Z"
+  "at": "2026-10-11T16:45:34.509Z"
 }
