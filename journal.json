@@ -20853,9 +20853,13 @@
   "gainPct": 10.56,
   "rr": 1.63,
   "signalTime": 1791693000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791693037060,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791697500000
  },
  {
   "id": "MAGICUSDT::ChoCh::1791693000000",
@@ -20875,5 +20879,20 @@
    "open"
   ],
   "fillTime": 1791693900000
+ },
+ {
+  "id": "WALUSDT::ChoCh::1791698400000",
+  "symbol": "WALUSDT",
+  "setup": "ChoCh",
+  "entry": 0.03783,
+  "sl": 0.036270000000000004,
+  "tp": 0.04476,
+  "tpSrc": "WH",
+  "slPct": 4.12,
+  "gainPct": 18.32,
+  "rr": 4.44,
+  "signalTime": 1791698400000,
+  "status": "pending",
+  "createdAt": 1791698442458
  }
 ]
