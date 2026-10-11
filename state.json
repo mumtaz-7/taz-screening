@@ -1,7 +1,8 @@
 {
   "ready": [
+    "MAVUSDT::BoS",
     "MINAUSDT::BoS",
     "RLCUSDT::ChoCh"
   ],
-  "at": "2026-10-11T01:30:35.604Z"
+  "at": "2026-10-11T01:45:31.182Z"
 }

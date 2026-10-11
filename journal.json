@@ -20775,8 +20775,27 @@
   "gainPct": 7.48,
   "rr": 6.53,
   "signalTime": 1791680400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791680443345,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791682200000
+ },
+ {
+  "id": "MAVUSDT::BoS::1791683100000",
+  "symbol": "MAVUSDT",
+  "setup": "BoS",
+  "entry": 0.01211,
+  "sl": 0.011779999999999999,
+  "tp": 0.01344,
+  "tpSrc": "WH",
+  "slPct": 2.73,
+  "gainPct": 10.98,
+  "rr": 4.03,
+  "signalTime": 1791683100000,
+  "status": "pending",
+  "createdAt": 1791683131183
  }
 ]
