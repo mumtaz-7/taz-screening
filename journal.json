@@ -20892,9 +20892,12 @@
   "gainPct": 18.32,
   "rr": 4.44,
   "signalTime": 1791698400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791698442458,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791708300000
  },
  {
   "id": "ICPUSDT::ChoCh::1791702000000",
