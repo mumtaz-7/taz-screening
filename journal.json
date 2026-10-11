@@ -20952,5 +20952,20 @@
   "status": "pending",
   "createdAt": 1791711931382,
   "notified": []
+ },
+ {
+  "id": "CHIPUSDT::ChoCh::1791716400000",
+  "symbol": "CHIPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0654,
+  "sl": 0.06247500000000001,
+  "tp": 0.07178,
+  "tpSrc": "WH",
+  "slPct": 4.47,
+  "gainPct": 9.76,
+  "rr": 2.18,
+  "signalTime": 1791716400000,
+  "status": "pending",
+  "createdAt": 1791716444503
  }
 ]
