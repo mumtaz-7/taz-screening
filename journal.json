@@ -20968,9 +20968,12 @@
   "gainPct": 9.76,
   "rr": 2.18,
   "signalTime": 1791716400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791716444503,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791725400000
  },
  {
   "id": "MBLUSDT::ChoCh::1791717300000",
@@ -20984,12 +20987,15 @@
   "gainPct": 29.07,
   "rr": 4.07,
   "signalTime": 1791717300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791717331187,
   "fillTime": 1791717300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791725400000
  },
  {
   "id": "LUMIAUSDT::ChoCh::1791723600000",
