@@ -20801,5 +20801,20 @@
    "open"
   ],
   "fillTime": 1791684000000
+ },
+ {
+  "id": "LUMIAUSDT::ChoCh::1791692100000",
+  "symbol": "LUMIAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1111,
+  "sl": 0.10254999999999999,
+  "tp": 0.1466,
+  "tpSrc": "WH",
+  "slPct": 7.7,
+  "gainPct": 31.95,
+  "rr": 4.15,
+  "signalTime": 1791692100000,
+  "status": "pending",
+  "createdAt": 1791692129650
  }
 ]
