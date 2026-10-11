@@ -20914,12 +20914,15 @@
   "gainPct": 10.16,
   "rr": 5.78,
   "signalTime": 1791702000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791702042304,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791702900000
+  "fillTime": 1791702900000,
+  "R": 5.78,
+  "resolvedTime": 1791751500000
  },
  {
   "id": "RLCUSDT::BoS::1791711000000",
