@@ -21037,12 +21037,15 @@
   "gainPct": 8.6,
   "rr": 4.91,
   "signalTime": 1791729000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791729037752,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791745200000
+  "fillTime": 1791745200000,
+  "R": -1,
+  "resolvedTime": 1791753300000
  },
  {
   "id": "BATUSDT::ChoCh::1791734400000",
