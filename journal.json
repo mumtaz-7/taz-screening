@@ -21079,9 +21079,12 @@
   "gainPct": 8.76,
   "rr": 1.47,
   "signalTime": 1791737100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791737134510,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ZROUSDT::BoS::1791737100000",
