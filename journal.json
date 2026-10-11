@@ -21071,7 +21071,8 @@
   "rr": 1.47,
   "signalTime": 1791737100000,
   "status": "pending",
-  "createdAt": 1791737134510
+  "createdAt": 1791737134510,
+  "notified": []
  },
  {
   "id": "ZROUSDT::BoS::1791737100000",
@@ -21085,7 +21086,11 @@
   "gainPct": 8.02,
   "rr": 2.21,
   "signalTime": 1791737100000,
-  "status": "pending",
-  "createdAt": 1791737134510
+  "status": "open",
+  "createdAt": 1791737134510,
+  "fillTime": 1791737100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
