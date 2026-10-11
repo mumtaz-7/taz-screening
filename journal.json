@@ -21037,5 +21037,20 @@
   "status": "pending",
   "createdAt": 1791729037752,
   "notified": []
+ },
+ {
+  "id": "BATUSDT::ChoCh::1791734400000",
+  "symbol": "BATUSDT",
+  "setup": "ChoCh",
+  "entry": 0.148,
+  "sl": 0.1396,
+  "tp": 0.1688,
+  "tpSrc": "WH",
+  "slPct": 5.68,
+  "gainPct": 14.05,
+  "rr": 2.48,
+  "signalTime": 1791734400000,
+  "status": "pending",
+  "createdAt": 1791734443287
  }
 ]
