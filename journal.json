@@ -21317,5 +21317,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "币安人生USDT::ChoCh::1791833400000",
+  "symbol": "币安人生USDT",
+  "setup": "ChoCh",
+  "entry": 0.5777,
+  "sl": 0.572,
+  "tp": 0.6403,
+  "tpSrc": "WH",
+  "slPct": 0.99,
+  "gainPct": 10.84,
+  "rr": 10.98,
+  "signalTime": 1791833400000,
+  "status": "pending",
+  "createdAt": 1791833440254
  }
 ]
