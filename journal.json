@@ -21292,5 +21292,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "REDUSDT::ChoCh::1791817200000",
+  "symbol": "REDUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1675,
+  "sl": 0.15205000000000002,
+  "tp": 0.1876,
+  "tpSrc": "WH",
+  "slPct": 9.22,
+  "gainPct": 12,
+  "rr": 1.3,
+  "signalTime": 1791817200000,
+  "status": "pending",
+  "createdAt": 1791817274932
  }
 ]
