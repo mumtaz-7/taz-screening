@@ -21336,5 +21336,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EIGENUSDT::ChoCh::1791836100000",
+  "symbol": "EIGENUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2565,
+  "sl": 0.252,
+  "tp": 0.2853,
+  "tpSrc": "WH",
+  "slPct": 1.75,
+  "gainPct": 11.23,
+  "rr": 6.4,
+  "signalTime": 1791836100000,
+  "status": "pending",
+  "createdAt": 1791836132013
+ },
+ {
+  "id": "PLUMEUSDT::ChoCh::1791836100000",
+  "symbol": "PLUMEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02158,
+  "sl": 0.02065,
+  "tp": 0.02419,
+  "tpSrc": "WH",
+  "slPct": 4.31,
+  "gainPct": 12.09,
+  "rr": 2.81,
+  "signalTime": 1791836100000,
+  "status": "pending",
+  "createdAt": 1791836132013
  }
 ]
