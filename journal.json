@@ -21368,9 +21368,12 @@
   "gainPct": 12.09,
   "rr": 2.81,
   "signalTime": 1791836100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791836132013,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791837900000
  },
  {
   "id": "LUMIAUSDT::ChoCh::1791837000000",
