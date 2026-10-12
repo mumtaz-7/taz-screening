@@ -20849,12 +20849,15 @@
   "gainPct": 15.69,
   "rr": 2.75,
   "signalTime": 1791693000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791693037060,
   "fillTime": 1791693000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791802800000
  },
  {
   "id": "ERAUSDT::ChoCh::1791693000000",
