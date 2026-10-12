@@ -20986,12 +20986,15 @@
   "gainPct": 9.76,
   "rr": 2.18,
   "signalTime": 1791716400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791716444503,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791725400000
+  "fillTime": 1791725400000,
+  "R": -1,
+  "resolvedTime": 1791784800000
  },
  {
   "id": "MBLUSDT::ChoCh::1791717300000",
