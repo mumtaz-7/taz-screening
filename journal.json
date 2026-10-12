@@ -21197,11 +21197,29 @@
   "gainPct": 10.66,
   "rr": 1.24,
   "signalTime": 1791787500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791787533502,
   "fillTime": 1791787500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791793800000
+ },
+ {
+  "id": "CTKUSDT::ChoCh::1791794700000",
+  "symbol": "CTKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.132,
+  "sl": 0.12945,
+  "tp": 0.1432,
+  "tpSrc": "WH",
+  "slPct": 1.93,
+  "gainPct": 8.48,
+  "rr": 4.39,
+  "signalTime": 1791794700000,
+  "status": "pending",
+  "createdAt": 1791794734571
  }
 ]
