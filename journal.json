@@ -21350,7 +21350,8 @@
   "rr": 6.4,
   "signalTime": 1791836100000,
   "status": "pending",
-  "createdAt": 1791836132013
+  "createdAt": 1791836132013,
+  "notified": []
  },
  {
   "id": "PLUMEUSDT::ChoCh::1791836100000",
@@ -21365,6 +21366,22 @@
   "rr": 2.81,
   "signalTime": 1791836100000,
   "status": "pending",
-  "createdAt": 1791836132013
+  "createdAt": 1791836132013,
+  "notified": []
+ },
+ {
+  "id": "LUMIAUSDT::ChoCh::1791837000000",
+  "symbol": "LUMIAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1083,
+  "sl": 0.10455,
+  "tp": 0.14205,
+  "tpSrc": "EQ",
+  "slPct": 3.46,
+  "gainPct": 31.16,
+  "rr": 9,
+  "signalTime": 1791837000000,
+  "status": "pending",
+  "createdAt": 1791837037508
  }
 ]
