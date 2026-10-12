@@ -21270,5 +21270,20 @@
   ],
   "R": -1,
   "resolvedTime": 1791799200000
+ },
+ {
+  "id": "RADUSDT::BoS::1791813600000",
+  "symbol": "RADUSDT",
+  "setup": "BoS",
+  "entry": 0.328,
+  "sl": 0.286,
+  "tp": 0.402,
+  "tpSrc": "OB",
+  "slPct": 12.8,
+  "gainPct": 22.56,
+  "rr": 1.76,
+  "signalTime": 1791813600000,
+  "status": "pending",
+  "createdAt": 1791813649201
  }
 ]
