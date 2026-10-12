@@ -21349,12 +21349,15 @@
   "gainPct": 11.23,
   "rr": 6.4,
   "signalTime": 1791836100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791836132013,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791837000000
+  "fillTime": 1791837000000,
+  "R": -1,
+  "resolvedTime": 1791840600000
  },
  {
   "id": "PLUMEUSDT::ChoCh::1791836100000",
@@ -21387,8 +21390,11 @@
   "gainPct": 31.16,
   "rr": 9,
   "signalTime": 1791837000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791837037508,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791840600000
  }
 ]
