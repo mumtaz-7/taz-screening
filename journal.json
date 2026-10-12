@@ -20406,12 +20406,15 @@
   "gainPct": 11.6,
   "rr": 1.06,
   "signalTime": 1791613800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791613836309,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791615600000
+  "fillTime": 1791615600000,
+  "R": -1,
+  "resolvedTime": 1791811800000
  },
  {
   "id": "METUSDT::ChoCh::1791613800000",
