@@ -20636,12 +20636,15 @@
   "gainPct": 7.42,
   "rr": 2.96,
   "signalTime": 1791646200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791646240406,
   "fillTime": 1791646200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791823500000
  },
  {
   "id": "PYTHUSDT::ChoCh::1791648900000",
