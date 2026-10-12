@@ -20801,12 +20801,15 @@
   "gainPct": 10.98,
   "rr": 4.03,
   "signalTime": 1791683100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791683131183,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791684000000
+  "fillTime": 1791684000000,
+  "R": -1,
+  "resolvedTime": 1791767700000
  },
  {
   "id": "LUMIAUSDT::ChoCh::1791692100000",
