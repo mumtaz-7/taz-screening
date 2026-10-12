@@ -21132,12 +21132,15 @@
   "gainPct": 24.07,
   "rr": 2.33,
   "signalTime": 1791740700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791740731669,
   "fillTime": 1791740700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791779400000
  },
  {
   "id": "WUSDT::BoS::1791774000000",
