@@ -20508,12 +20508,15 @@
   "gainPct": 28.42,
   "rr": 3.23,
   "signalTime": 1791623700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791623732266,
   "fillTime": 1791623700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791810900000
  },
  {
   "id": "RAYUSDT::ChoCh::1791629100000",
