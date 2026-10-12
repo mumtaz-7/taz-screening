@@ -20422,12 +20422,15 @@
   "gainPct": 31.19,
   "rr": 5.42,
   "signalTime": 1791613800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791613836309,
   "fillTime": 1791613800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791804600000
  },
  {
   "id": "ARPAUSDT::BoS::1791619200000",
