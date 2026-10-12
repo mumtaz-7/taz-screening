@@ -20964,12 +20964,15 @@
   "gainPct": 11.46,
   "rr": 5.11,
   "signalTime": 1791711900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791711931382,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791722700000
+  "fillTime": 1791722700000,
+  "R": 5.11,
+  "resolvedTime": 1791778500000
  },
  {
   "id": "CHIPUSDT::ChoCh::1791716400000",
@@ -21107,12 +21110,15 @@
   "gainPct": 8.02,
   "rr": 2.21,
   "signalTime": 1791737100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791737134510,
   "fillTime": 1791737100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.21,
+  "resolvedTime": 1791778500000
  },
  {
   "id": "MAGICUSDT::BoS::1791740700000",
