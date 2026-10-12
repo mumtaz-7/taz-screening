@@ -21330,12 +21330,15 @@
   "gainPct": 10.84,
   "rr": 10.98,
   "signalTime": 1791833400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791833440254,
   "fillTime": 1791833400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791845100000
  },
  {
   "id": "EIGENUSDT::ChoCh::1791836100000",
