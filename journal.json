@@ -20555,12 +20555,15 @@
   "gainPct": 17.23,
   "rr": 1.92,
   "signalTime": 1791630000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791630044429,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791632700000
+  "fillTime": 1791632700000,
+  "R": -1,
+  "resolvedTime": 1791846000000
  },
  {
   "id": "WUSDT::ChoCh::1791636300000",
@@ -21396,11 +21399,14 @@
   "gainPct": 31.16,
   "rr": 9,
   "signalTime": 1791837000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791837037508,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791840600000
+  "fillTime": 1791840600000,
+  "R": -1,
+  "resolvedTime": 1791846000000
  }
 ]
