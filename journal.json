@@ -20759,12 +20759,15 @@
   "gainPct": 12.6,
   "rr": 3,
   "signalTime": 1791668700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791668731112,
   "fillTime": 1791668700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791765900000
  },
  {
   "id": "LAUSDT::ChoCh::1791680400000",
