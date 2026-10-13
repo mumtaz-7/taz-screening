@@ -1,6 +1,7 @@
 {
   "ready": [
-    "RADUSDT::BoS"
+    "RADUSDT::BoS",
+    "WUSDT::ChoCh"
   ],
-  "at": "2026-10-13T10:00:47.312Z"
+  "at": "2026-10-13T10:15:31.818Z"
 }

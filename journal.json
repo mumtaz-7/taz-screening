@@ -21470,9 +21470,12 @@
   "gainPct": 15.13,
   "rr": 1.57,
   "signalTime": 1791864900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791864933443,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791885600000
  },
  {
   "id": "GTCUSDT::ChoCh::1791868500000",
@@ -21530,5 +21533,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "WUSDT::ChoCh::1791886500000",
+  "symbol": "WUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01987,
+  "sl": 0.01756,
+  "tp": 0.02435,
+  "tpSrc": "EQ",
+  "slPct": 11.63,
+  "gainPct": 22.55,
+  "rr": 1.94,
+  "signalTime": 1791886500000,
+  "status": "pending",
+  "createdAt": 1791886531819
  }
 ]
