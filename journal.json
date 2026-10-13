@@ -21408,5 +21408,20 @@
   "fillTime": 1791840600000,
   "R": -1,
   "resolvedTime": 1791846000000
+ },
+ {
+  "id": "DODOUSDT::BoS::1791849600000",
+  "symbol": "DODOUSDT",
+  "setup": "BoS",
+  "entry": 0.01962,
+  "sl": 0.019244999999999998,
+  "tp": 0.021,
+  "tpSrc": "WH",
+  "slPct": 1.91,
+  "gainPct": 7.03,
+  "rr": 3.68,
+  "signalTime": 1791849600000,
+  "status": "pending",
+  "createdAt": 1791849647905
  }
 ]
