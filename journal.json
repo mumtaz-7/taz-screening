@@ -21644,9 +21644,12 @@
   "gainPct": 15.91,
   "rr": 6.15,
   "signalTime": 1791921600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791921647970,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791928800000
  },
  {
   "id": "AVAUSDT::BoS::1791926100000",
