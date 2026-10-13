@@ -21578,5 +21578,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "GTCUSDT::BoS::1791902700000",
+  "symbol": "GTCUSDT",
+  "setup": "BoS",
+  "entry": 0.2488,
+  "sl": 0.22693000000000002,
+  "tp": 0.393,
+  "tpSrc": "WH",
+  "slPct": 8.79,
+  "gainPct": 57.96,
+  "rr": 6.59,
+  "signalTime": 1791902700000,
+  "status": "pending",
+  "createdAt": 1791902733291
  }
 ]
