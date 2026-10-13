@@ -21451,9 +21451,12 @@
   "gainPct": 7,
   "rr": 1.59,
   "signalTime": 1791863100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791863132081,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791864900000
  },
  {
   "id": "CKBUSDT::ChoCh::1791864900000",
@@ -21468,6 +21471,7 @@
   "rr": 1.57,
   "signalTime": 1791864900000,
   "status": "pending",
-  "createdAt": 1791864933443
+  "createdAt": 1791864933443,
+  "notified": []
  }
 ]
