@@ -21473,5 +21473,20 @@
   "status": "pending",
   "createdAt": 1791864933443,
   "notified": []
+ },
+ {
+  "id": "GTCUSDT::ChoCh::1791868500000",
+  "symbol": "GTCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.246,
+  "sl": 0.22500000000000003,
+  "tp": 0.27476500000000004,
+  "tpSrc": "EQ",
+  "slPct": 8.54,
+  "gainPct": 11.69,
+  "rr": 1.37,
+  "signalTime": 1791868500000,
+  "status": "pending",
+  "createdAt": 1791868533628
  }
 ]
