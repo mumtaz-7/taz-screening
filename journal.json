@@ -20689,12 +20689,15 @@
   "gainPct": 20.84,
   "rr": 2.18,
   "signalTime": 1791649800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791649837580,
   "fillTime": 1791649800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791914400000
  },
  {
   "id": "CHIPUSDT::ChoCh::1791654300000",
