@@ -21505,7 +21505,26 @@
   "gainPct": 13.14,
   "rr": 3.75,
   "signalTime": 1791873000000,
+  "status": "open",
+  "createdAt": 1791873039392,
+  "fillTime": 1791873000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "IOUSDT::BoS::1791873900000",
+  "symbol": "IOUSDT",
+  "setup": "BoS",
+  "entry": 0.169,
+  "sl": 0.15414999999999998,
+  "tp": 0.1983,
+  "tpSrc": "WH",
+  "slPct": 8.79,
+  "gainPct": 17.34,
+  "rr": 1.97,
+  "signalTime": 1791873900000,
   "status": "pending",
-  "createdAt": 1791873039392
+  "createdAt": 1791873932507
  }
 ]
