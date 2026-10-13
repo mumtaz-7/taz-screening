@@ -21558,5 +21558,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SUSDT::BoS::1791894600000",
+  "symbol": "SUSDT",
+  "setup": "BoS",
+  "entry": 0.06,
+  "sl": 0.05538,
+  "tp": 0.06584,
+  "tpSrc": "WH",
+  "slPct": 7.7,
+  "gainPct": 9.73,
+  "rr": 1.26,
+  "signalTime": 1791894600000,
+  "status": "pending",
+  "createdAt": 1791894639878
  }
 ]
