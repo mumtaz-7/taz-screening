@@ -21609,5 +21609,20 @@
   ],
   "R": -1,
   "resolvedTime": 1791911700000
+ },
+ {
+  "id": "ZROUSDT::ChoCh::1791919800000",
+  "symbol": "ZROUSDT",
+  "setup": "ChoCh",
+  "entry": 2.042,
+  "sl": 1.9475000000000002,
+  "tp": 2.2285,
+  "tpSrc": "EQ",
+  "slPct": 4.63,
+  "gainPct": 9.13,
+  "rr": 1.97,
+  "signalTime": 1791919800000,
+  "status": "pending",
+  "createdAt": 1791919838084
  }
 ]
