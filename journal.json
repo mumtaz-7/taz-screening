@@ -21647,5 +21647,20 @@
   "status": "pending",
   "createdAt": 1791921647970,
   "notified": []
+ },
+ {
+  "id": "AVAUSDT::BoS::1791926100000",
+  "symbol": "AVAUSDT",
+  "setup": "BoS",
+  "entry": 0.2363,
+  "sl": 0.2213,
+  "tp": 0.3043,
+  "tpSrc": "WH",
+  "slPct": 6.35,
+  "gainPct": 28.78,
+  "rr": 4.53,
+  "signalTime": 1791926100000,
+  "status": "pending",
+  "createdAt": 1791926131245
  }
 ]
