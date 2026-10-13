@@ -21454,5 +21454,20 @@
   "status": "pending",
   "createdAt": 1791863132081,
   "notified": []
+ },
+ {
+  "id": "CKBUSDT::ChoCh::1791864900000",
+  "symbol": "CKBUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001553,
+  "sl": 0.0014030000000000002,
+  "tp": 0.001788,
+  "tpSrc": "EQ",
+  "slPct": 9.66,
+  "gainPct": 15.13,
+  "rr": 1.57,
+  "signalTime": 1791864900000,
+  "status": "pending",
+  "createdAt": 1791864933443
  }
 ]
