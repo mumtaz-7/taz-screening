@@ -21508,12 +21508,15 @@
   "gainPct": 13.14,
   "rr": 3.75,
   "signalTime": 1791873000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791873039392,
   "fillTime": 1791873000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791889200000
  },
  {
   "id": "IOUSDT::BoS::1791873900000",
