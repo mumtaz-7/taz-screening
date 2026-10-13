@@ -21492,12 +21492,15 @@
   "gainPct": 11.69,
   "rr": 1.37,
   "signalTime": 1791868500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791868533628,
   "fillTime": 1791868500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791913500000
  },
  {
   "id": "PLUMEUSDT::ChoCh::1791873000000",
