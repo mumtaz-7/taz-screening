@@ -21451,12 +21451,15 @@
   "gainPct": 7,
   "rr": 1.59,
   "signalTime": 1791863100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791863132081,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791864900000
+  "fillTime": 1791864900000,
+  "R": -1,
+  "resolvedTime": 1791892800000
  },
  {
   "id": "CKBUSDT::ChoCh::1791864900000",
