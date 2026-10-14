@@ -21663,12 +21663,15 @@
   "gainPct": 28.78,
   "rr": 4.53,
   "signalTime": 1791926100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791926131245,
   "fillTime": 1791926100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.53,
+  "resolvedTime": 1791963900000
  },
  {
   "id": "SUSDT::ChoCh::1791937800000",
