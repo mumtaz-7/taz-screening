@@ -21772,5 +21772,20 @@
   ],
   "R": -1,
   "resolvedTime": 1791979200000
+ },
+ {
+  "id": "WALUSDT::BoS::1791996300000",
+  "symbol": "WALUSDT",
+  "setup": "BoS",
+  "entry": 0.054,
+  "sl": 0.048405000000000004,
+  "tp": 0.06171,
+  "tpSrc": "WH",
+  "slPct": 10.36,
+  "gainPct": 14.28,
+  "rr": 1.38,
+  "signalTime": 1791996300000,
+  "status": "pending",
+  "createdAt": 1791996330423
  }
 ]
