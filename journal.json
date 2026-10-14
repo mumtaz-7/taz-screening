@@ -21811,5 +21811,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GLMRUSDT::ChoCh::1792021500000",
+  "symbol": "GLMRUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01035,
+  "sl": 0.009426,
+  "tp": 0.0117,
+  "tpSrc": "WH",
+  "slPct": 8.93,
+  "gainPct": 13.04,
+  "rr": 1.46,
+  "signalTime": 1792021500000,
+  "status": "pending",
+  "createdAt": 1792021530414
  }
 ]
