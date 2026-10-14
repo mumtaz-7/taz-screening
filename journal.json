@@ -21701,7 +21701,26 @@
   "gainPct": 8.47,
   "rr": 3.01,
   "signalTime": 1791943200000,
+  "status": "open",
+  "createdAt": 1791943245962,
+  "fillTime": 1791943200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ZROUSDT::BoS::1791944100000",
+  "symbol": "ZROUSDT",
+  "setup": "BoS",
+  "entry": 2.029,
+  "sl": 1.9944999999999997,
+  "tp": 2.232,
+  "tpSrc": "OB",
+  "slPct": 1.7,
+  "gainPct": 10,
+  "rr": 5.88,
+  "signalTime": 1791944100000,
   "status": "pending",
-  "createdAt": 1791943245962
+  "createdAt": 1791944130879
  }
 ]
