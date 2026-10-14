@@ -21707,12 +21707,15 @@
   "gainPct": 8.47,
   "rr": 3.01,
   "signalTime": 1791943200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791943245962,
   "fillTime": 1791943200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791981000000
  },
  {
   "id": "ZROUSDT::BoS::1791944100000",
