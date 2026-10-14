@@ -21735,5 +21735,20 @@
   "fillTime": 1791954000000,
   "R": -1,
   "resolvedTime": 1791969300000
+ },
+ {
+  "id": "MARSCOINUSDT::ChoCh::1791978300000",
+  "symbol": "MARSCOINUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0837,
+  "sl": 0.08145,
+  "tp": 0.0901,
+  "tpSrc": "OB",
+  "slPct": 2.69,
+  "gainPct": 7.65,
+  "rr": 2.84,
+  "signalTime": 1791978300000,
+  "status": "pending",
+  "createdAt": 1791978332996
  }
 ]
