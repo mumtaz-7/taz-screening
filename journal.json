@@ -21628,12 +21628,15 @@
   "gainPct": 9.13,
   "rr": 1.97,
   "signalTime": 1791919800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791919838084,
   "fillTime": 1791919800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791982800000
  },
  {
   "id": "PLUMEUSDT::ChoCh::1791921600000",
@@ -21647,12 +21650,15 @@
   "gainPct": 15.91,
   "rr": 6.15,
   "signalTime": 1791921600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791921647970,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791928800000
+  "fillTime": 1791928800000,
+  "R": -1,
+  "resolvedTime": 1791982800000
  },
  {
   "id": "AVAUSDT::BoS::1791926100000",
