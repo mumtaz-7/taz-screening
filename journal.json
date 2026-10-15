@@ -19767,12 +19767,15 @@
   "gainPct": 12.93,
   "rr": 1.57,
   "signalTime": 1791475200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791475247079,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791477000000
+  "fillTime": 1791477000000,
+  "R": -1,
+  "resolvedTime": 1792035000000
  },
  {
   "id": "CTSIUSDT::BoS::1791487800000",
@@ -21896,5 +21899,20 @@
   "fillTime": 1792029600000,
   "R": -1,
   "resolvedTime": 1792033200000
+ },
+ {
+  "id": "ZKUSDT::ChoCh::1792035900000",
+  "symbol": "ZKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01589,
+  "sl": 0.014464999999999999,
+  "tp": 0.01757,
+  "tpSrc": "WH",
+  "slPct": 8.97,
+  "gainPct": 10.57,
+  "rr": 1.18,
+  "signalTime": 1792035900000,
+  "status": "pending",
+  "createdAt": 1792035931591
  }
 ]
