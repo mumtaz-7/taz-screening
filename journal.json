@@ -19511,12 +19511,15 @@
   "gainPct": 9.52,
   "rr": 1.33,
   "signalTime": 1791387000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791387039492,
   "fillTime": 1791387000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.33,
+  "resolvedTime": 1792079100000
  },
  {
   "id": "METUSDT::BoS::1791393300000",
@@ -22058,5 +22061,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "STRKUSDT::BoS::1792080000000",
+  "symbol": "STRKUSDT",
+  "setup": "BoS",
+  "entry": 0.08112,
+  "sl": 0.07251,
+  "tp": 0.09732,
+  "tpSrc": "OB",
+  "slPct": 10.61,
+  "gainPct": 19.97,
+  "rr": 1.88,
+  "signalTime": 1792080000000,
+  "status": "pending",
+  "createdAt": 1792080048647
  }
 ]
