@@ -21921,5 +21921,20 @@
   ],
   "R": 1.18,
   "resolvedTime": 1792037700000
+ },
+ {
+  "id": "AMPUSDT::ChoCh::1792047600000",
+  "symbol": "AMPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000664,
+  "sl": 0.0006385,
+  "tp": 0.0007295,
+  "tpSrc": "EQ",
+  "slPct": 3.84,
+  "gainPct": 9.86,
+  "rr": 2.57,
+  "signalTime": 1792047600000,
+  "status": "pending",
+  "createdAt": 1792047647027
  }
 ]
