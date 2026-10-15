@@ -1,6 +1,7 @@
 {
   "ready": [
-    "AVAUSDT::ChoCh"
+    "AVAUSDT::ChoCh",
+    "OSMOUSDT::ChoCh"
   ],
-  "at": "2026-10-15T19:45:32.404Z"
+  "at": "2026-10-15T20:00:45.156Z"
 }
