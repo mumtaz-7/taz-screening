@@ -21855,12 +21855,15 @@
   "gainPct": 19.76,
   "rr": 4.38,
   "signalTime": 1792023300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792023331214,
   "fillTime": 1792023300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.38,
+  "resolvedTime": 1792089900000
  },
  {
   "id": "OPUSDT::ChoCh::1792023300000",
@@ -21962,12 +21965,15 @@
   "gainPct": 16.85,
   "rr": 2.08,
   "signalTime": 1792054800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792054853400,
   "fillTime": 1792054800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.08,
+  "resolvedTime": 1792089900000
  },
  {
   "id": "OPUSDT::ChoCh::1792064700000",
