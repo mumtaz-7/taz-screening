@@ -21940,5 +21940,20 @@
    "open"
   ],
   "fillTime": 1792050300000
+ },
+ {
+  "id": "BATUSDT::BoS::1792054800000",
+  "symbol": "BATUSDT",
+  "setup": "BoS",
+  "entry": 0.1774,
+  "sl": 0.163,
+  "tp": 0.2073,
+  "tpSrc": "WH",
+  "slPct": 8.12,
+  "gainPct": 16.85,
+  "rr": 2.08,
+  "signalTime": 1792054800000,
+  "status": "pending",
+  "createdAt": 1792054853400
  }
 ]
