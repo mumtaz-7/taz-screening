@@ -22028,9 +22028,12 @@
   "gainPct": 17.65,
   "rr": 4.46,
   "signalTime": 1792073700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792073734999,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "RLCUSDT::BoS::1792074600000",
