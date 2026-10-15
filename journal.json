@@ -22038,5 +22038,20 @@
   "status": "pending",
   "createdAt": 1792074640798,
   "notified": []
+ },
+ {
+  "id": "PYTHUSDT::ChoCh::1792078200000",
+  "symbol": "PYTHUSDT",
+  "setup": "ChoCh",
+  "entry": 0.08804,
+  "sl": 0.076925,
+  "tp": 0.09992,
+  "tpSrc": "WH",
+  "slPct": 12.62,
+  "gainPct": 13.49,
+  "rr": 1.07,
+  "signalTime": 1792078200000,
+  "status": "pending",
+  "createdAt": 1792078241950
  }
 ]
