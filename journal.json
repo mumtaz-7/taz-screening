@@ -22131,5 +22131,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "IOUSDT::ChoCh::1792098000000",
+  "symbol": "IOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1678,
+  "sl": 0.16285,
+  "tp": 0.1911,
+  "tpSrc": "OB",
+  "slPct": 2.95,
+  "gainPct": 13.89,
+  "rr": 4.71,
+  "signalTime": 1792098000000,
+  "status": "pending",
+  "createdAt": 1792098046142
  }
 ]
