@@ -22081,5 +22081,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "GLMRUSDT::BoS::1792088100000",
+  "symbol": "GLMRUSDT",
+  "setup": "BoS",
+  "entry": 0.0105,
+  "sl": 0.0096045,
+  "tp": 0.0117,
+  "tpSrc": "WH",
+  "slPct": 8.53,
+  "gainPct": 11.43,
+  "rr": 1.34,
+  "signalTime": 1792088100000,
+  "status": "pending",
+  "createdAt": 1792088132720
  }
 ]
