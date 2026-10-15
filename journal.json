@@ -21843,8 +21843,12 @@
   "gainPct": 19.76,
   "rr": 4.38,
   "signalTime": 1792023300000,
-  "status": "pending",
-  "createdAt": 1792023331214
+  "status": "open",
+  "createdAt": 1792023331214,
+  "fillTime": 1792023300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "OPUSDT::ChoCh::1792023300000",
@@ -21858,7 +21862,11 @@
   "gainPct": 14.68,
   "rr": 3.96,
   "signalTime": 1792023300000,
-  "status": "pending",
-  "createdAt": 1792023331214
+  "status": "open",
+  "createdAt": 1792023331214,
+  "fillTime": 1792023300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
