@@ -21959,5 +21959,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "OPUSDT::ChoCh::1792064700000",
+  "symbol": "OPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.132,
+  "sl": 0.1281,
+  "tp": 0.1442,
+  "tpSrc": "EQ",
+  "slPct": 2.95,
+  "gainPct": 9.24,
+  "rr": 3.13,
+  "signalTime": 1792064700000,
+  "status": "pending",
+  "createdAt": 1792064733438
  }
 ]
