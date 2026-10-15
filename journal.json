@@ -21868,5 +21868,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AMPUSDT::ChoCh::1792028700000",
+  "symbol": "AMPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000673,
+  "sl": 0.0006594999999999999,
+  "tp": 0.0007295,
+  "tpSrc": "EQ",
+  "slPct": 2.01,
+  "gainPct": 8.4,
+  "rr": 4.19,
+  "signalTime": 1792028700000,
+  "status": "pending",
+  "createdAt": 1792028733042
  }
 ]
