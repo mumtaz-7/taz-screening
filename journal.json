@@ -21551,12 +21551,15 @@
   "gainPct": 17.34,
   "rr": 1.97,
   "signalTime": 1791873900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791873932507,
   "fillTime": 1791873900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792071900000
  },
  {
   "id": "WUSDT::ChoCh::1791886500000",
@@ -21934,12 +21937,15 @@
   "gainPct": 9.86,
   "rr": 2.57,
   "signalTime": 1792047600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792047647027,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792050300000
+  "fillTime": 1792050300000,
+  "R": -1,
+  "resolvedTime": 1792071900000
  },
  {
   "id": "BATUSDT::BoS::1792054800000",
@@ -21972,12 +21978,15 @@
   "gainPct": 9.24,
   "rr": 3.13,
   "signalTime": 1792064700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792064733438,
   "fillTime": 1792064700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792071900000
  },
  {
   "id": "OSMOUSDT::ChoCh::1792065600000",
