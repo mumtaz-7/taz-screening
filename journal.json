@@ -22270,5 +22270,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BATUSDT::ChoCh::1792160100000",
+  "symbol": "BATUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2015,
+  "sl": 0.19355,
+  "tp": 0.2236,
+  "tpSrc": "WH",
+  "slPct": 3.95,
+  "gainPct": 10.97,
+  "rr": 2.78,
+  "signalTime": 1792160100000,
+  "status": "pending",
+  "createdAt": 1792160134687
  }
 ]
