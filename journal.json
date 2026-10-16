@@ -22264,12 +22264,15 @@
   "gainPct": 8.88,
   "rr": 3.18,
   "signalTime": 1792147500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792147531674,
   "fillTime": 1792147500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792170000000
  },
  {
   "id": "BATUSDT::ChoCh::1792160100000",
@@ -22283,12 +22286,15 @@
   "gainPct": 10.97,
   "rr": 2.78,
   "signalTime": 1792160100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792160134687,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792163700000
+  "fillTime": 1792163700000,
+  "R": -1,
+  "resolvedTime": 1792170000000
  },
  {
   "id": "WALUSDT::BoS::1792162800000",
@@ -22324,8 +22330,12 @@
   "gainPct": 16.9,
   "rr": 1.95,
   "signalTime": 1792165500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792165534488,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792170000000
  }
 ]
