@@ -22283,9 +22283,12 @@
   "gainPct": 10.97,
   "rr": 2.78,
   "signalTime": 1792160100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792160134687,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792163700000
  },
  {
   "id": "WALUSDT::BoS::1792162800000",
@@ -22299,11 +22302,14 @@
   "gainPct": 46.31,
   "rr": 14.46,
   "signalTime": 1792162800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792162847302,
   "fillTime": 1792162800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792163700000
  }
 ]
