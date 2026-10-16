@@ -22166,12 +22166,15 @@
   "gainPct": 12.98,
   "rr": 4.07,
   "signalTime": 1792113300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792113397698,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792114200000
+  "fillTime": 1792114200000,
+  "R": -1,
+  "resolvedTime": 1792158300000
  },
  {
   "id": "AVAUSDT::BoS::1792116900000",
