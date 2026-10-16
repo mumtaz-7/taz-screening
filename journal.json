@@ -22375,5 +22375,20 @@
   "status": "pending",
   "createdAt": 1792187130014,
   "notified": []
+ },
+ {
+  "id": "NEARUSDT::ChoCh::1792191600000",
+  "symbol": "NEARUSDT",
+  "setup": "ChoCh",
+  "entry": 5.057,
+  "sl": 4.8995,
+  "tp": 5.44,
+  "tpSrc": "WH",
+  "slPct": 3.11,
+  "gainPct": 7.57,
+  "rr": 2.43,
+  "signalTime": 1792191600000,
+  "status": "pending",
+  "createdAt": 1792191642973
  }
 ]
