@@ -22286,5 +22286,20 @@
   "status": "pending",
   "createdAt": 1792160134687,
   "notified": []
+ },
+ {
+  "id": "WALUSDT::BoS::1792162800000",
+  "symbol": "WALUSDT",
+  "setup": "BoS",
+  "entry": 0.04638,
+  "sl": 0.044895000000000004,
+  "tp": 0.06786,
+  "tpSrc": "WH",
+  "slPct": 3.2,
+  "gainPct": 46.31,
+  "rr": 14.46,
+  "signalTime": 1792162800000,
+  "status": "pending",
+  "createdAt": 1792162847302
  }
 ]
