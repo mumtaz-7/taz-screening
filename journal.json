@@ -22144,12 +22144,15 @@
   "gainPct": 13.89,
   "rr": 4.71,
   "signalTime": 1792098000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792098046142,
   "fillTime": 1792098000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792115100000
  },
  {
   "id": "RLCUSDT::ChoCh::1792113300000",
