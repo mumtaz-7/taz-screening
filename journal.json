@@ -22226,5 +22226,20 @@
   "status": "pending",
   "createdAt": 1792134049714,
   "notified": []
+ },
+ {
+  "id": "NIGHTUSDT::ChoCh::1792140300000",
+  "symbol": "NIGHTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.04306,
+  "sl": 0.040659999999999995,
+  "tp": 0.05017,
+  "tpSrc": "OB",
+  "slPct": 5.57,
+  "gainPct": 16.51,
+  "rr": 2.96,
+  "signalTime": 1792140300000,
+  "status": "pending",
+  "createdAt": 1792140332792
  }
 ]
