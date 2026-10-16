@@ -22245,5 +22245,20 @@
    "open"
   ],
   "fillTime": 1792142100000
+ },
+ {
+  "id": "OPUSDT::BoS::1792147500000",
+  "symbol": "OPUSDT",
+  "setup": "BoS",
+  "entry": 0.1396,
+  "sl": 0.13570000000000002,
+  "tp": 0.152,
+  "tpSrc": "OB",
+  "slPct": 2.79,
+  "gainPct": 8.88,
+  "rr": 3.18,
+  "signalTime": 1792147500000,
+  "status": "pending",
+  "createdAt": 1792147531674
  }
 ]
