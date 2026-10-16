@@ -22204,9 +22204,12 @@
   "gainPct": 13.72,
   "rr": 3.28,
   "signalTime": 1792125900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792125930951,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792135800000
  },
  {
   "id": "RAYUSDT::ChoCh::1792134000000",
