@@ -22353,8 +22353,26 @@
   "gainPct": 11.05,
   "rr": 3.29,
   "signalTime": 1792181700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792181731158,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792186200000
+ },
+ {
+  "id": "VELODROMEUSDT::ChoCh::1792187100000",
+  "symbol": "VELODROMEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.03844,
+  "sl": 0.03739000000000001,
+  "tp": 0.042120000000000005,
+  "tpSrc": "EQ",
+  "slPct": 2.73,
+  "gainPct": 9.57,
+  "rr": 3.5,
+  "signalTime": 1792187100000,
+  "status": "pending",
+  "createdAt": 1792187130014
  }
 ]
