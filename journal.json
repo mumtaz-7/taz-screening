@@ -22150,5 +22150,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RLCUSDT::ChoCh::1792113300000",
+  "symbol": "RLCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.8789,
+  "sl": 0.8508499999999999,
+  "tp": 0.993,
+  "tpSrc": "WH",
+  "slPct": 3.19,
+  "gainPct": 12.98,
+  "rr": 4.07,
+  "signalTime": 1792113300000,
+  "status": "pending",
+  "createdAt": 1792113397698
  }
 ]
