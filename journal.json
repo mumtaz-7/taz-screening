@@ -22413,9 +22413,12 @@
   "gainPct": 13.69,
   "rr": 6.76,
   "signalTime": 1792197000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792197036333,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "TIAUSDT::ChoCh::1792207800000",
