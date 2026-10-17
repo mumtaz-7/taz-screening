@@ -22353,12 +22353,15 @@
   "gainPct": 11.05,
   "rr": 3.29,
   "signalTime": 1792181700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792181731158,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792186200000
+  "fillTime": 1792186200000,
+  "R": -1,
+  "resolvedTime": 1792196100000
  },
  {
   "id": "VELODROMEUSDT::ChoCh::1792187100000",
@@ -22372,9 +22375,12 @@
   "gainPct": 9.57,
   "rr": 3.5,
   "signalTime": 1792187100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792187130014,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792196100000
  },
  {
   "id": "NEARUSDT::ChoCh::1792191600000",
@@ -22394,5 +22400,20 @@
    "open"
   ],
   "fillTime": 1792195200000
+ },
+ {
+  "id": "KMNOUSDT::ChoCh::1792197000000",
+  "symbol": "KMNOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0385,
+  "sl": 0.037720000000000004,
+  "tp": 0.04377,
+  "tpSrc": "WH",
+  "slPct": 2.03,
+  "gainPct": 13.69,
+  "rr": 6.76,
+  "signalTime": 1792197000000,
+  "status": "pending",
+  "createdAt": 1792197036333
  }
 ]
