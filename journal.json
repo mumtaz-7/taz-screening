@@ -22109,12 +22109,15 @@
   "gainPct": 11.43,
   "rr": 1.34,
   "signalTime": 1792088100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792088132720,
   "fillTime": 1792088100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792256400000
  },
  {
   "id": "AVAUSDT::ChoCh::1792091700000",
@@ -22257,12 +22260,15 @@
   "gainPct": 16.51,
   "rr": 2.96,
   "signalTime": 1792140300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792140332792,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792142100000
+  "fillTime": 1792142100000,
+  "R": -1,
+  "resolvedTime": 1792256400000
  },
  {
   "id": "OPUSDT::BoS::1792147500000",
