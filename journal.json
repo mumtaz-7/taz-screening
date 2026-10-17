@@ -22623,5 +22623,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RSRUSDT::ChoCh::1792279800000",
+  "symbol": "RSRUSDT",
+  "setup": "ChoCh",
+  "entry": 0.002042,
+  "sl": 0.001886,
+  "tp": 0.002315,
+  "tpSrc": "OB",
+  "slPct": 7.64,
+  "gainPct": 13.37,
+  "rr": 1.75,
+  "signalTime": 1792279800000,
+  "status": "pending",
+  "createdAt": 1792279835268
  }
 ]
