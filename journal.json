@@ -22542,5 +22542,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "SANDUSDT::BoS::1792238400000",
+  "symbol": "SANDUSDT",
+  "setup": "BoS",
+  "entry": 0.06067,
+  "sl": 0.05700999999999999,
+  "tp": 0.06748,
+  "tpSrc": "OB",
+  "slPct": 6.03,
+  "gainPct": 11.22,
+  "rr": 1.86,
+  "signalTime": 1792238400000,
+  "status": "pending",
+  "createdAt": 1792238443336
  }
 ]
