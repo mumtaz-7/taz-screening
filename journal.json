@@ -22429,9 +22429,13 @@
   "gainPct": 9.54,
   "rr": 1.09,
   "signalTime": 1792207800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792207835980,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792211400000
  },
  {
   "id": "BATUSDT::BoS::1792209600000",
