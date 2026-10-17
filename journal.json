@@ -22432,5 +22432,20 @@
   "status": "pending",
   "createdAt": 1792207835980,
   "notified": []
+ },
+ {
+  "id": "BATUSDT::BoS::1792209600000",
+  "symbol": "BATUSDT",
+  "setup": "BoS",
+  "entry": 0.2016,
+  "sl": 0.192,
+  "tp": 0.2179,
+  "tpSrc": "OB",
+  "slPct": 4.76,
+  "gainPct": 8.09,
+  "rr": 1.7,
+  "signalTime": 1792209600000,
+  "status": "pending",
+  "createdAt": 1792209642708
  }
 ]
