@@ -22455,12 +22455,15 @@
   "gainPct": 8.09,
   "rr": 1.7,
   "signalTime": 1792209600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792209642708,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792210500000
+  "fillTime": 1792210500000,
+  "R": -1,
+  "resolvedTime": 1792236600000
  },
  {
   "id": "AUSDT::ChoCh::1792213200000",
