@@ -22128,12 +22128,15 @@
   "gainPct": 23.3,
   "rr": 5.14,
   "signalTime": 1792091700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792091734403,
   "fillTime": 1792091700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 5.14,
+  "resolvedTime": 1792249200000
  },
  {
   "id": "IOUSDT::ChoCh::1792098000000",
@@ -22191,12 +22194,15 @@
   "gainPct": 14.85,
   "rr": 1.91,
   "signalTime": 1792116900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792116931194,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792117800000
+  "fillTime": 1792117800000,
+  "R": 1.91,
+  "resolvedTime": 1792249200000
  },
  {
   "id": "WALUSDT::ChoCh::1792125900000",
@@ -22599,7 +22605,11 @@
   "gainPct": 7.18,
   "rr": 7.19,
   "signalTime": 1792249200000,
-  "status": "pending",
-  "createdAt": 1792249244825
+  "status": "open",
+  "createdAt": 1792249244825,
+  "fillTime": 1792249200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
