@@ -22469,6 +22469,22 @@
   "rr": 1.67,
   "signalTime": 1792213200000,
   "status": "pending",
-  "createdAt": 1792213242631
+  "createdAt": 1792213242631,
+  "notified": []
+ },
+ {
+  "id": "AEROUSDT::BoS::1792214100000",
+  "symbol": "AEROUSDT",
+  "setup": "BoS",
+  "entry": 0.8859,
+  "sl": 0.8598000000000001,
+  "tp": 0.9807,
+  "tpSrc": "WH",
+  "slPct": 2.95,
+  "gainPct": 10.7,
+  "rr": 3.63,
+  "signalTime": 1792214100000,
+  "status": "pending",
+  "createdAt": 1792214129227
  }
 ]
