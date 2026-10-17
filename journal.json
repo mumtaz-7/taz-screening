@@ -22384,12 +22384,15 @@
   "gainPct": 9.57,
   "rr": 3.5,
   "signalTime": 1792187100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792187130014,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792196100000
+  "fillTime": 1792196100000,
+  "R": -1,
+  "resolvedTime": 1792251900000
  },
  {
   "id": "NEARUSDT::ChoCh::1792191600000",
@@ -22403,12 +22406,15 @@
   "gainPct": 7.57,
   "rr": 2.43,
   "signalTime": 1792191600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792191642973,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792195200000
+  "fillTime": 1792195200000,
+  "R": -1,
+  "resolvedTime": 1792251900000
  },
  {
   "id": "KMNOUSDT::ChoCh::1792197000000",
