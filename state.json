@@ -1,6 +1,7 @@
 {
   "ready": [
-    "AEROUSDT::BoS"
+    "AEROUSDT::BoS",
+    "VELODROMEUSDT::BoS"
   ],
-  "at": "2026-10-17T06:00:43.437Z"
+  "at": "2026-10-17T06:15:29.736Z"
 }
