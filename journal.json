@@ -22416,5 +22416,20 @@
   "status": "pending",
   "createdAt": 1792197036333,
   "notified": []
+ },
+ {
+  "id": "TIAUSDT::ChoCh::1792207800000",
+  "symbol": "TIAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.6961,
+  "sl": 0.6352,
+  "tp": 0.7625,
+  "tpSrc": "WH",
+  "slPct": 8.75,
+  "gainPct": 9.54,
+  "rr": 1.09,
+  "signalTime": 1792207800000,
+  "status": "pending",
+  "createdAt": 1792207835980
  }
 ]
