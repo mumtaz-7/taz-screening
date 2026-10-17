@@ -22009,12 +22009,15 @@
   "gainPct": 23.63,
   "rr": 1.76,
   "signalTime": 1792065600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792065649798,
   "fillTime": 1792065600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792221300000
  },
  {
   "id": "TIAUSDT::BoS::1792073700000",
