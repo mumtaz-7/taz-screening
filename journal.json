@@ -22735,5 +22735,20 @@
   ],
   "R": -1,
   "resolvedTime": 1792329300000
+ },
+ {
+  "id": "AMPUSDT::BoS::1792347300000",
+  "symbol": "AMPUSDT",
+  "setup": "BoS",
+  "entry": 0.000779,
+  "sl": 0.000719,
+  "tp": 0.000849,
+  "tpSrc": "WH",
+  "slPct": 7.7,
+  "gainPct": 8.99,
+  "rr": 1.17,
+  "signalTime": 1792347300000,
+  "status": "pending",
+  "createdAt": 1792347328178
  }
 ]
