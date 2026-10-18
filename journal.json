@@ -22655,12 +22655,15 @@
   "gainPct": 18.63,
   "rr": 3.07,
   "signalTime": 1792280700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792280729162,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792281600000
+  "fillTime": 1792281600000,
+  "R": 3.07,
+  "resolvedTime": 1792296900000
  },
  {
   "id": "SANDUSDT::ChoCh::1792291500000",
