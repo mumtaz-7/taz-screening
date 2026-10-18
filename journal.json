@@ -22620,12 +22620,15 @@
   "gainPct": 7.18,
   "rr": 7.19,
   "signalTime": 1792249200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792249244825,
   "fillTime": 1792249200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792333800000
  },
  {
   "id": "RSRUSDT::ChoCh::1792279800000",
