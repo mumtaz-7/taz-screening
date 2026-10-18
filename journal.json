@@ -22661,5 +22661,20 @@
    "open"
   ],
   "fillTime": 1792281600000
+ },
+ {
+  "id": "SANDUSDT::ChoCh::1792291500000",
+  "symbol": "SANDUSDT",
+  "setup": "ChoCh",
+  "entry": 0.06072,
+  "sl": 0.05691,
+  "tp": 0.06686,
+  "tpSrc": "WH",
+  "slPct": 6.27,
+  "gainPct": 10.11,
+  "rr": 1.61,
+  "signalTime": 1792291500000,
+  "status": "pending",
+  "createdAt": 1792291531945
  }
 ]
