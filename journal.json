@@ -22754,5 +22754,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "QKCUSDT::BoS::1792368900000",
+  "symbol": "QKCUSDT",
+  "setup": "BoS",
+  "entry": 0.002561,
+  "sl": 0.0022445,
+  "tp": 0.00346,
+  "tpSrc": "WH",
+  "slPct": 12.36,
+  "gainPct": 35.1,
+  "rr": 2.84,
+  "signalTime": 1792368900000,
+  "status": "pending",
+  "createdAt": 1792368930654
  }
 ]
