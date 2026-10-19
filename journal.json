@@ -22887,7 +22887,26 @@
   "gainPct": 7.55,
   "rr": 4.57,
   "signalTime": 1792447200000,
+  "status": "open",
+  "createdAt": 1792447244481,
+  "fillTime": 1792447200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "TAOUSDT::ChoCh::1792448100000",
+  "symbol": "TAOUSDT",
+  "setup": "ChoCh",
+  "entry": 267,
+  "sl": 263.09999999999997,
+  "tp": 285.9,
+  "tpSrc": "OB",
+  "slPct": 1.46,
+  "gainPct": 7.08,
+  "rr": 4.85,
+  "signalTime": 1792448100000,
   "status": "pending",
-  "createdAt": 1792447244481
+  "createdAt": 1792448129996
  }
 ]
