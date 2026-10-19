@@ -22799,5 +22799,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1792402200000
+ },
+ {
+  "id": "GTCUSDT::ChoCh::1792431000000",
+  "symbol": "GTCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.329,
+  "sl": 0.287615,
+  "tp": 0.37303,
+  "tpSrc": "WH",
+  "slPct": 12.58,
+  "gainPct": 13.38,
+  "rr": 1.06,
+  "signalTime": 1792431000000,
+  "status": "pending",
+  "createdAt": 1792431039420
  }
 ]
