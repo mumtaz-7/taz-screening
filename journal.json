@@ -20933,12 +20933,15 @@
   "gainPct": 62.44,
   "rr": 10.24,
   "signalTime": 1791693000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791693037060,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791693900000
+  "fillTime": 1791693900000,
+  "R": -1,
+  "resolvedTime": 1792439100000
  },
  {
   "id": "WALUSDT::ChoCh::1791698400000",

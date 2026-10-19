@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-19T19:45:31.377Z",
+  "updatedAt": "2026-10-19T20:00:48.581Z",
   "all": {
-    "n": 788,
+    "n": 789,
     "wins": 178,
-    "losses": 610,
+    "losses": 611,
     "win": 22.6,
     "er": -0.2,
     "avgWin": 2.55
   },
   "ChoCh": {
-    "n": 530,
+    "n": 531,
     "wins": 124,
-    "losses": 406,
+    "losses": 407,
     "win": 23.4,
     "er": -0.17,
     "avgWin": 2.56
@@ -24,7 +24,7 @@
     "er": -0.26,
     "avgWin": 2.54
   },
-  "open": 4,
+  "open": 3,
   "pending": 0,
   "void": 261,
   "expired": 15,
