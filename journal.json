@@ -22842,5 +22842,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1792432800000
+ },
+ {
+  "id": "BATUSDT::BoS::1792440900000",
+  "symbol": "BATUSDT",
+  "setup": "BoS",
+  "entry": 0.1843,
+  "sl": 0.1759,
+  "tp": 0.2025,
+  "tpSrc": "OB",
+  "slPct": 4.56,
+  "gainPct": 9.88,
+  "rr": 2.17,
+  "signalTime": 1792440900000,
+  "status": "pending",
+  "createdAt": 1792440931824
  }
 ]
