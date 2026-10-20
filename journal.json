@@ -23019,8 +23019,27 @@
   "gainPct": 10.33,
   "rr": 2.92,
   "signalTime": 1792492200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792492239222,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792498500000
+ },
+ {
+  "id": "QNTUSDT::BoS::1792499400000",
+  "symbol": "QNTUSDT",
+  "setup": "BoS",
+  "entry": 194.18,
+  "sl": 187.52,
+  "tp": 210.2,
+  "tpSrc": "OB",
+  "slPct": 3.43,
+  "gainPct": 8.25,
+  "rr": 2.41,
+  "signalTime": 1792499400000,
+  "status": "pending",
+  "createdAt": 1792499437354
  }
 ]
