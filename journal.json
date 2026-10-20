@@ -22871,9 +22871,12 @@
   "gainPct": 8.64,
   "rr": 2.07,
   "signalTime": 1792442700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792442729529,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792458000000
  },
  {
   "id": "QNTUSDT::ChoCh::1792447200000",
@@ -22887,12 +22890,15 @@
   "gainPct": 7.55,
   "rr": 4.57,
   "signalTime": 1792447200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792447244481,
   "fillTime": 1792447200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792458000000
  },
  {
   "id": "TAOUSDT::ChoCh::1792448100000",
@@ -22906,12 +22912,15 @@
   "gainPct": 7.08,
   "rr": 4.85,
   "signalTime": 1792448100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792448129996,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792450800000
+  "fillTime": 1792450800000,
+  "R": -1,
+  "resolvedTime": 1792458000000
  },
  {
   "id": "OSMOUSDT::ChoCh::1792454400000",
