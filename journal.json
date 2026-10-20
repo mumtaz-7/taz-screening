@@ -23106,5 +23106,20 @@
    "open"
   ],
   "fillTime": 1792528200000
+ },
+ {
+  "id": "IOSTUSDT::ChoCh::1792530000000",
+  "symbol": "IOSTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000968,
+  "sl": 0.0008584999999999999,
+  "tp": 0.001095,
+  "tpSrc": "WH",
+  "slPct": 11.31,
+  "gainPct": 13.12,
+  "rr": 1.16,
+  "signalTime": 1792530000000,
+  "status": "pending",
+  "createdAt": 1792530043578
  }
 ]
