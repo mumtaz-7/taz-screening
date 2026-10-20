@@ -22937,12 +22937,15 @@
   "gainPct": 19.74,
   "rr": 1.98,
   "signalTime": 1792454400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792454443870,
   "fillTime": 1792454400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792484100000
  },
  {
   "id": "ALTUSDT::BoS::1792467900000",
