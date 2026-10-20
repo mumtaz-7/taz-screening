@@ -22959,9 +22959,12 @@
   "gainPct": 18.78,
   "rr": 3.76,
   "signalTime": 1792467900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792467930314,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "AVAUSDT::ChoCh::1792483200000",
