@@ -22959,5 +22959,20 @@
   "status": "pending",
   "createdAt": 1792467930314,
   "notified": []
+ },
+ {
+  "id": "AVAUSDT::ChoCh::1792483200000",
+  "symbol": "AVAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.4037,
+  "sl": 0.37250000000000005,
+  "tp": 0.4487,
+  "tpSrc": "WH",
+  "slPct": 7.73,
+  "gainPct": 11.15,
+  "rr": 1.44,
+  "signalTime": 1792483200000,
+  "status": "pending",
+  "createdAt": 1792483242472
  }
 ]
