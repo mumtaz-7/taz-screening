@@ -23244,6 +23244,7 @@
   "rr": 3.55,
   "signalTime": 1792583100000,
   "status": "pending",
-  "createdAt": 1792583133246
+  "createdAt": 1792583133246,
+  "notified": []
  }
 ]
