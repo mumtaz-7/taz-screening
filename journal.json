@@ -23042,12 +23042,15 @@
   "gainPct": 8.25,
   "rr": 2.41,
   "signalTime": 1792499400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792499437354,
   "fillTime": 1792499400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.41,
+  "resolvedTime": 1792606500000
  },
  {
   "id": "AEROUSDT::ChoCh::1792506600000",
@@ -23186,12 +23189,15 @@
   "gainPct": 9.41,
   "rr": 1.42,
   "signalTime": 1792561500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792561530801,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792563300000
+  "fillTime": 1792563300000,
+  "R": 1.42,
+  "resolvedTime": 1792606500000
  },
  {
   "id": "ZROUSDT::BoS::1792565100000",
