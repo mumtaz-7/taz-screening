@@ -23214,12 +23214,15 @@
   "gainPct": 9.32,
   "rr": 2.77,
   "signalTime": 1792565100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792565129562,
   "fillTime": 1792565100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792620000000
  },
  {
   "id": "GTCUSDT::ChoCh::1792570500000",
@@ -23293,12 +23296,15 @@
   "gainPct": 10.78,
   "rr": 3.93,
   "signalTime": 1792585800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792585840391,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792586700000
+  "fillTime": 1792586700000,
+  "R": -1,
+  "resolvedTime": 1792620000000
  },
  {
   "id": "WUSDT::BoS::1792589400000",
