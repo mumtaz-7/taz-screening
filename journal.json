@@ -23142,12 +23142,15 @@
   "gainPct": 10.7,
   "rr": 3.1,
   "signalTime": 1792540800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792540854122,
   "fillTime": 1792540800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792582200000
  },
  {
   "id": "BMTUSDT::ChoCh::1792551600000",
@@ -23227,5 +23230,20 @@
    "open"
   ],
   "fillTime": 1792571400000
+ },
+ {
+  "id": "PHAUSDT::ChoCh::1792583100000",
+  "symbol": "PHAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.058,
+  "sl": 0.0547,
+  "tp": 0.0697,
+  "tpSrc": "WH",
+  "slPct": 5.69,
+  "gainPct": 20.17,
+  "rr": 3.55,
+  "signalTime": 1792583100000,
+  "status": "pending",
+  "createdAt": 1792583133246
  }
 ]
