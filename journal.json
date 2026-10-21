@@ -23126,5 +23126,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ALTUSDT::ChoCh::1792540800000",
+  "symbol": "ALTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01,
+  "sl": 0.009654999999999999,
+  "tp": 0.01107,
+  "tpSrc": "WH",
+  "slPct": 3.45,
+  "gainPct": 10.7,
+  "rr": 3.1,
+  "signalTime": 1792540800000,
+  "status": "pending",
+  "createdAt": 1792540854122
  }
 ]
