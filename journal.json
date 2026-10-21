@@ -23084,12 +23084,15 @@
   "gainPct": 8.4,
   "rr": 1.12,
   "signalTime": 1792526400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792526442759,
   "fillTime": 1792526400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.12,
+  "resolvedTime": 1792608300000
  },
  {
   "id": "ERAUSDT::ChoCh::1792527300000",
@@ -23348,8 +23351,11 @@
   "gainPct": 16.56,
   "rr": 4.13,
   "signalTime": 1792603800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792603841218,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792608300000
  }
 ]
