@@ -23326,5 +23326,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "PHAUSDT::BoS::1792603800000",
+  "symbol": "PHAUSDT",
+  "setup": "BoS",
+  "entry": 0.0598,
+  "sl": 0.05740000000000001,
+  "tp": 0.0697,
+  "tpSrc": "WH",
+  "slPct": 4.01,
+  "gainPct": 16.56,
+  "rr": 4.13,
+  "signalTime": 1792603800000,
+  "status": "pending",
+  "createdAt": 1792603841218
  }
 ]
