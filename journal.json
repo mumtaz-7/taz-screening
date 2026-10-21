@@ -23100,12 +23100,15 @@
   "gainPct": 16.04,
   "rr": 4.18,
   "signalTime": 1792527300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792527331479,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792528200000
+  "fillTime": 1792528200000,
+  "R": -1,
+  "resolvedTime": 1792549800000
  },
  {
   "id": "IOSTUSDT::ChoCh::1792530000000",
