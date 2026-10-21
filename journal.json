@@ -23224,12 +23224,15 @@
   "gainPct": 25.08,
   "rr": 4.46,
   "signalTime": 1792570500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792570531859,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792571400000
+  "fillTime": 1792571400000,
+  "R": -1,
+  "resolvedTime": 1792586700000
  },
  {
   "id": "PHAUSDT::ChoCh::1792583100000",
@@ -23278,8 +23281,11 @@
   "gainPct": 10.78,
   "rr": 3.93,
   "signalTime": 1792585800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792585840391,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792586700000
  }
 ]
