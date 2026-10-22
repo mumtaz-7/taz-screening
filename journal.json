@@ -23468,12 +23468,15 @@
   "gainPct": 9.39,
   "rr": 2.96,
   "signalTime": 1792680300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792680332091,
   "fillTime": 1792680300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792706400000
  },
  {
   "id": "DASHUSDT::BoS::1792685700000",
