@@ -23429,5 +23429,20 @@
   "status": "pending",
   "createdAt": 1792671333307,
   "notified": []
+ },
+ {
+  "id": "GTCUSDT::BoS::1792674000000",
+  "symbol": "GTCUSDT",
+  "setup": "BoS",
+  "entry": 0.28311,
+  "sl": 0.27094500000000005,
+  "tp": 0.3838,
+  "tpSrc": "WH",
+  "slPct": 4.3,
+  "gainPct": 35.57,
+  "rr": 8.28,
+  "signalTime": 1792674000000,
+  "status": "pending",
+  "createdAt": 1792674049822
  }
 ]
