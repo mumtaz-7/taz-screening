@@ -23471,5 +23471,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "DASHUSDT::BoS::1792685700000",
+  "symbol": "DASHUSDT",
+  "setup": "BoS",
+  "entry": 50.4,
+  "sl": 48.885000000000005,
+  "tp": 53.96,
+  "tpSrc": "WH",
+  "slPct": 3.01,
+  "gainPct": 7.06,
+  "rr": 2.35,
+  "signalTime": 1792685700000,
+  "status": "pending",
+  "createdAt": 1792685731766
  }
 ]
