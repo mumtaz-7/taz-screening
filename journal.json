@@ -23493,5 +23493,20 @@
    "open"
   ],
   "fillTime": 1792686600000
+ },
+ {
+  "id": "AVAUSDT::ChoCh::1792700100000",
+  "symbol": "AVAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.365,
+  "sl": 0.33724999999999994,
+  "tp": 0.4,
+  "tpSrc": "WH",
+  "slPct": 7.6,
+  "gainPct": 9.59,
+  "rr": 1.26,
+  "signalTime": 1792700100000,
+  "status": "pending",
+  "createdAt": 1792700132918
  }
 ]
