@@ -23554,6 +23554,37 @@
   "rr": 1.67,
   "signalTime": 1792720800000,
   "status": "pending",
-  "createdAt": 1792720844329
+  "createdAt": 1792720844329,
+  "notified": []
+ },
+ {
+  "id": "AVAUSDT::BoS::1792721700000",
+  "symbol": "AVAUSDT",
+  "setup": "BoS",
+  "entry": 0.3647,
+  "sl": 0.35239999999999994,
+  "tp": 0.4007,
+  "tpSrc": "OB",
+  "slPct": 3.37,
+  "gainPct": 9.87,
+  "rr": 2.93,
+  "signalTime": 1792721700000,
+  "status": "pending",
+  "createdAt": 1792721730962
+ },
+ {
+  "id": "BMTUSDT::ChoCh::1792721700000",
+  "symbol": "BMTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.027,
+  "sl": 0.025305,
+  "tp": 0.02956,
+  "tpSrc": "WH",
+  "slPct": 6.28,
+  "gainPct": 9.48,
+  "rr": 1.51,
+  "signalTime": 1792721700000,
+  "status": "pending",
+  "createdAt": 1792721730962
  }
 ]
