@@ -23690,9 +23690,12 @@
   "gainPct": 60.63,
   "rr": 19.57,
   "signalTime": 1792736100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792736133226,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792745100000
  },
  {
   "id": "IOSTUSDT::BoS::1792741500000",
