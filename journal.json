@@ -23570,7 +23570,8 @@
   "rr": 2.93,
   "signalTime": 1792721700000,
   "status": "pending",
-  "createdAt": 1792721730962
+  "createdAt": 1792721730962,
+  "notified": []
  },
  {
   "id": "BMTUSDT::ChoCh::1792721700000",
@@ -23584,7 +23585,26 @@
   "gainPct": 9.48,
   "rr": 1.51,
   "signalTime": 1792721700000,
+  "status": "open",
+  "createdAt": 1792721730962,
+  "fillTime": 1792721700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "RUNEUSDT::BoS::1792722600000",
+  "symbol": "RUNEUSDT",
+  "setup": "BoS",
+  "entry": 0.644,
+  "sl": 0.635,
+  "tp": 0.712,
+  "tpSrc": "WH",
+  "slPct": 1.4,
+  "gainPct": 10.56,
+  "rr": 7.56,
+  "signalTime": 1792722600000,
   "status": "pending",
-  "createdAt": 1792721730962
+  "createdAt": 1792722636712
  }
 ]
