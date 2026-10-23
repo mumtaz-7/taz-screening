@@ -23733,5 +23733,20 @@
   ],
   "R": -1,
   "resolvedTime": 1792746900000
+ },
+ {
+  "id": "ERAUSDT::ChoCh::1792787400000",
+  "symbol": "ERAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0773,
+  "sl": 0.06995000000000001,
+  "tp": 0.0893,
+  "tpSrc": "WH",
+  "slPct": 9.51,
+  "gainPct": 15.52,
+  "rr": 1.63,
+  "signalTime": 1792787400000,
+  "status": "pending",
+  "createdAt": 1792787437524
  }
 ]
