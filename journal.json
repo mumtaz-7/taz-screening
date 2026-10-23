@@ -23540,5 +23540,20 @@
   ],
   "R": -1,
   "resolvedTime": 1792719000000
+ },
+ {
+  "id": "AIUSDT::ChoCh::1792720800000",
+  "symbol": "AIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0199,
+  "sl": 0.019000000000000003,
+  "tp": 0.0214,
+  "tpSrc": "WH",
+  "slPct": 4.52,
+  "gainPct": 7.54,
+  "rr": 1.67,
+  "signalTime": 1792720800000,
+  "status": "pending",
+  "createdAt": 1792720844329
  }
 ]
