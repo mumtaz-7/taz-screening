@@ -23512,12 +23512,15 @@
   "gainPct": 9.59,
   "rr": 1.26,
   "signalTime": 1792700100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792700132918,
   "fillTime": 1792700100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.26,
+  "resolvedTime": 1792765800000
  },
  {
   "id": "ARKMUSDT::ChoCh::1792704600000",
@@ -23572,12 +23575,15 @@
   "gainPct": 9.87,
   "rr": 2.93,
   "signalTime": 1792721700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792721730962,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792724400000
+  "fillTime": 1792724400000,
+  "R": 2.93,
+  "resolvedTime": 1792765800000
  },
  {
   "id": "BMTUSDT::ChoCh::1792721700000",
