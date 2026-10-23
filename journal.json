@@ -23531,11 +23531,14 @@
   "gainPct": 8.67,
   "rr": 2.56,
   "signalTime": 1792704600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792704641892,
   "fillTime": 1792704600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792719000000
  }
 ]
