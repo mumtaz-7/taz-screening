@@ -23816,5 +23816,20 @@
   "status": "pending",
   "createdAt": 1792808128306,
   "notified": []
+ },
+ {
+  "id": "CRVUSDT::ChoCh::1792811700000",
+  "symbol": "CRVUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3574,
+  "sl": 0.3508,
+  "tp": 0.4,
+  "tpSrc": "OB",
+  "slPct": 1.85,
+  "gainPct": 11.92,
+  "rr": 6.45,
+  "signalTime": 1792811700000,
+  "status": "pending",
+  "createdAt": 1792811728872
  }
 ]
