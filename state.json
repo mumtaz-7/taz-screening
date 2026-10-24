@@ -1,6 +1,7 @@
 {
   "ready": [
-    "IOSTUSDT::BoS"
+    "IOSTUSDT::BoS",
+    "LUMIAUSDT::BoS"
   ],
-  "at": "2026-10-24T07:15:30.237Z"
+  "at": "2026-10-24T07:30:38.764Z"
 }

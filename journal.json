@@ -23854,5 +23854,20 @@
   "status": "pending",
   "createdAt": 1792823436963,
   "notified": []
+ },
+ {
+  "id": "LUMIAUSDT::BoS::1792827000000",
+  "symbol": "LUMIAUSDT",
+  "setup": "BoS",
+  "entry": 0.0776,
+  "sl": 0.0716,
+  "tp": 0.0973,
+  "tpSrc": "OB",
+  "slPct": 7.73,
+  "gainPct": 25.39,
+  "rr": 3.28,
+  "signalTime": 1792827000000,
+  "status": "pending",
+  "createdAt": 1792827038765
  }
 ]
