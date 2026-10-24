@@ -23813,9 +23813,12 @@
   "gainPct": 74.9,
   "rr": 17.14,
   "signalTime": 1792808100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792808128306,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792811700000
  },
  {
   "id": "CRVUSDT::ChoCh::1792811700000",
@@ -23830,6 +23833,7 @@
   "rr": 6.45,
   "signalTime": 1792811700000,
   "status": "pending",
-  "createdAt": 1792811728872
+  "createdAt": 1792811728872,
+  "notified": []
  }
 ]
