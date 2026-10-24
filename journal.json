@@ -23939,12 +23939,15 @@
   "gainPct": 13.34,
   "rr": 5.1,
   "signalTime": 1792868400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792868447092,
   "fillTime": 1792868400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792880100000
  },
  {
   "id": "AVAUSDT::ChoCh::1792876500000",
@@ -23961,5 +23964,20 @@
   "status": "pending",
   "createdAt": 1792876529913,
   "notified": []
+ },
+ {
+  "id": "BMTUSDT::ChoCh::1792881000000",
+  "symbol": "BMTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.03972,
+  "sl": 0.036435,
+  "tp": 0.05144,
+  "tpSrc": "WH",
+  "slPct": 8.27,
+  "gainPct": 29.51,
+  "rr": 3.57,
+  "signalTime": 1792881000000,
+  "status": "pending",
+  "createdAt": 1792881035356
  }
 ]
