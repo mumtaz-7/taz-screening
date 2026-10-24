@@ -23945,5 +23945,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AVAUSDT::ChoCh::1792876500000",
+  "symbol": "AVAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.41,
+  "sl": 0.3962,
+  "tp": 0.4951,
+  "tpSrc": "WH",
+  "slPct": 3.37,
+  "gainPct": 20.76,
+  "rr": 6.17,
+  "signalTime": 1792876500000,
+  "status": "pending",
+  "createdAt": 1792876529913
  }
 ]
