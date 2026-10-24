@@ -23793,9 +23793,13 @@
   "gainPct": 31.03,
   "rr": 4.53,
   "signalTime": 1792806300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792806329212,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792809000000
  },
  {
   "id": "IOSTUSDT::ChoCh::1792808100000",
