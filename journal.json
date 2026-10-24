@@ -23835,12 +23835,15 @@
   "gainPct": 11.92,
   "rr": 6.45,
   "signalTime": 1792811700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792811728872,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792814400000
+  "fillTime": 1792814400000,
+  "R": -1,
+  "resolvedTime": 1792851300000
  },
  {
   "id": "IOSTUSDT::BoS::1792823400000",
@@ -23854,12 +23857,15 @@
   "gainPct": 153.05,
   "rr": 69.94,
   "signalTime": 1792823400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792823436963,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792835100000
+  "fillTime": 1792835100000,
+  "R": -1,
+  "resolvedTime": 1792851300000
  },
  {
   "id": "LUMIAUSDT::BoS::1792827000000",
