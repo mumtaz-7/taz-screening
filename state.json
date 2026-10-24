@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ARKUSDT::ChoCh"
+    "ARKUSDT::ChoCh",
+    "KATUSDT::ChoCh"
   ],
-  "at": "2026-10-24T20:00:41.643Z"
+  "at": "2026-10-24T20:15:29.013Z"
 }
