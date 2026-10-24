@@ -23796,5 +23796,20 @@
   "status": "pending",
   "createdAt": 1792806329212,
   "notified": []
+ },
+ {
+  "id": "IOSTUSDT::ChoCh::1792808100000",
+  "symbol": "IOSTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000755,
+  "sl": 0.000722,
+  "tp": 0.0013205,
+  "tpSrc": "EQ",
+  "slPct": 4.37,
+  "gainPct": 74.9,
+  "rr": 17.14,
+  "signalTime": 1792808100000,
+  "status": "pending",
+  "createdAt": 1792808128306
  }
 ]
