@@ -24022,9 +24022,12 @@
   "gainPct": 28.36,
   "rr": 9.56,
   "signalTime": 1792890000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792890042689,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "REZUSDT::ChoCh::1792900800000",
