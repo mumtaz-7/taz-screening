@@ -24047,12 +24047,15 @@
   "gainPct": 11.36,
   "rr": 2.99,
   "signalTime": 1792900800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792900841825,
   "fillTime": 1792900800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.99,
+  "resolvedTime": 1792943100000
  },
  {
   "id": "ANIMEUSDT::ChoCh::1792902600000",
@@ -24130,5 +24133,20 @@
   "status": "pending",
   "createdAt": 1792936841879,
   "notified": []
+ },
+ {
+  "id": "KATUSDT::ChoCh::1792944000000",
+  "symbol": "KATUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00403,
+  "sl": 0.003925,
+  "tp": 0.00512,
+  "tpSrc": "EQ",
+  "slPct": 2.61,
+  "gainPct": 27.05,
+  "rr": 10.38,
+  "signalTime": 1792944000000,
+  "status": "pending",
+  "createdAt": 1792944043333
  }
 ]
