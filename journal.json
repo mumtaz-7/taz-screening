@@ -23999,7 +23999,27 @@
   "gainPct": 12.48,
   "rr": 2.14,
   "signalTime": 1792889100000,
+  "status": "void",
+  "createdAt": 1792889129013,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792889100000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "LUMIAUSDT::ChoCh::1792890000000",
+  "symbol": "LUMIAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0758,
+  "sl": 0.07355,
+  "tp": 0.0973,
+  "tpSrc": "OB",
+  "slPct": 2.97,
+  "gainPct": 28.36,
+  "rr": 9.56,
+  "signalTime": 1792890000000,
   "status": "pending",
-  "createdAt": 1792889129013
+  "createdAt": 1792890042689
  }
 ]
