@@ -24063,5 +24063,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "IOSTUSDT::BoS::1792905300000",
+  "symbol": "IOSTUSDT",
+  "setup": "BoS",
+  "entry": 0.000791,
+  "sl": 0.0007235,
+  "tp": 0.000893,
+  "tpSrc": "WH",
+  "slPct": 8.53,
+  "gainPct": 12.9,
+  "rr": 1.51,
+  "signalTime": 1792905300000,
+  "status": "pending",
+  "createdAt": 1792905329598
  }
 ]

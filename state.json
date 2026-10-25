@@ -1,8 +1,9 @@
 {
   "ready": [
     "ANIMEUSDT::ChoCh",
+    "IOSTUSDT::BoS",
     "LUMIAUSDT::BoS",
     "REZUSDT::ChoCh"
   ],
-  "at": "2026-10-25T05:00:42.316Z"
+  "at": "2026-10-25T05:15:29.597Z"
 }
