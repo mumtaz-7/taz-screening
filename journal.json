@@ -24063,12 +24063,15 @@
   "gainPct": 12.74,
   "rr": 2.93,
   "signalTime": 1792902600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792902635481,
   "fillTime": 1792902600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792916100000
  },
  {
   "id": "IOSTUSDT::BoS::1792905300000",
