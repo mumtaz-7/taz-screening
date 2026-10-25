@@ -23961,9 +23961,12 @@
   "gainPct": 20.76,
   "rr": 6.17,
   "signalTime": 1792876500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792876529913,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "BMTUSDT::ChoCh::1792881000000",
