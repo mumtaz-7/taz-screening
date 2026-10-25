@@ -23986,5 +23986,20 @@
   ],
   "R": -1,
   "resolvedTime": 1792886400000
+ },
+ {
+  "id": "ARKUSDT::ChoCh::1792889100000",
+  "symbol": "ARKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1851,
+  "sl": 0.1743,
+  "tp": 0.2082,
+  "tpSrc": "EQ",
+  "slPct": 5.83,
+  "gainPct": 12.48,
+  "rr": 2.14,
+  "signalTime": 1792889100000,
+  "status": "pending",
+  "createdAt": 1792889129013
  }
 ]
