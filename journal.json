@@ -24025,5 +24025,20 @@
   "status": "pending",
   "createdAt": 1792890042689,
   "notified": []
+ },
+ {
+  "id": "REZUSDT::ChoCh::1792900800000",
+  "symbol": "REZUSDT",
+  "setup": "ChoCh",
+  "entry": 0.004261,
+  "sl": 0.004098999999999999,
+  "tp": 0.004745,
+  "tpSrc": "WH",
+  "slPct": 3.8,
+  "gainPct": 11.36,
+  "rr": 2.99,
+  "signalTime": 1792900800000,
+  "status": "pending",
+  "createdAt": 1792900841825
  }
 ]
