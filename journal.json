@@ -24279,5 +24279,20 @@
   "status": "pending",
   "createdAt": 1793007039166,
   "notified": []
+ },
+ {
+  "id": "ERAUSDT::ChoCh::1793027700000",
+  "symbol": "ERAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0869,
+  "sl": 0.08074999999999999,
+  "tp": 0.1031,
+  "tpSrc": "WH",
+  "slPct": 7.08,
+  "gainPct": 18.64,
+  "rr": 2.63,
+  "signalTime": 1793027700000,
+  "status": "pending",
+  "createdAt": 1793027734075
  }
 ]
