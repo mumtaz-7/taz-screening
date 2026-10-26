@@ -24171,12 +24171,15 @@
   "gainPct": 13.31,
   "rr": 1.75,
   "signalTime": 1792946700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792946728806,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792949400000
+  "fillTime": 1792949400000,
+  "R": 1.75,
+  "resolvedTime": 1792975500000
  },
  {
   "id": "STEEMUSDT::ChoCh::1792962900000",
