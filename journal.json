@@ -24315,6 +24315,22 @@
   "rr": 1.32,
   "signalTime": 1793035800000,
   "status": "pending",
-  "createdAt": 1793035837074
+  "createdAt": 1793035837074,
+  "notified": []
+ },
+ {
+  "id": "CHIPUSDT::BoS::1793036700000",
+  "symbol": "CHIPUSDT",
+  "setup": "BoS",
+  "entry": 0.05283,
+  "sl": 0.04932,
+  "tp": 0.05725,
+  "tpSrc": "WH",
+  "slPct": 6.64,
+  "gainPct": 8.37,
+  "rr": 1.26,
+  "signalTime": 1793036700000,
+  "status": "pending",
+  "createdAt": 1793036731427
  }
 ]
