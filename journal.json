@@ -24193,12 +24193,15 @@
   "gainPct": 17.69,
   "rr": 3.36,
   "signalTime": 1792962900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792962932190,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792973700000
+  "fillTime": 1792973700000,
+  "R": -1,
+  "resolvedTime": 1792983600000
  },
  {
   "id": "BABYUSDT::BoS::1792974600000",
