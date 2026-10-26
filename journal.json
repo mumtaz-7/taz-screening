@@ -24212,12 +24212,15 @@
   "gainPct": 13.14,
   "rr": 3.65,
   "signalTime": 1792974600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792974637313,
   "fillTime": 1792974600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792980900000
  },
  {
   "id": "ERAUSDT::BoS::1792974600000",
