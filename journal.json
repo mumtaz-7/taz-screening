@@ -24256,9 +24256,13 @@
   "gainPct": 7.63,
   "rr": 1.39,
   "signalTime": 1793003400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793003438499,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793008800000
  },
  {
   "id": "ZAMAUSDT::ChoCh::1793007000000",
