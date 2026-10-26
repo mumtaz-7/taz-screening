@@ -24209,8 +24209,12 @@
   "gainPct": 13.14,
   "rr": 3.65,
   "signalTime": 1792974600000,
-  "status": "pending",
-  "createdAt": 1792974637313
+  "status": "open",
+  "createdAt": 1792974637313,
+  "fillTime": 1792974600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ERAUSDT::BoS::1792974600000",
@@ -24224,7 +24228,11 @@
   "gainPct": 26.19,
   "rr": 4.32,
   "signalTime": 1792974600000,
-  "status": "pending",
-  "createdAt": 1792974637313
+  "status": "open",
+  "createdAt": 1792974637313,
+  "fillTime": 1792974600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
