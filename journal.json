@@ -24259,5 +24259,20 @@
   "status": "pending",
   "createdAt": 1793003438499,
   "notified": []
+ },
+ {
+  "id": "ZAMAUSDT::ChoCh::1793007000000",
+  "symbol": "ZAMAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.06977,
+  "sl": 0.06726499999999999,
+  "tp": 0.07654,
+  "tpSrc": "OB",
+  "slPct": 3.59,
+  "gainPct": 9.7,
+  "rr": 2.7,
+  "signalTime": 1793007000000,
+  "status": "pending",
+  "createdAt": 1793007039166
  }
 ]
