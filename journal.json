@@ -24339,5 +24339,20 @@
    "open"
   ],
   "fillTime": 1793043900000
+ },
+ {
+  "id": "DODOUSDT::BoS::1793052900000",
+  "symbol": "DODOUSDT",
+  "setup": "BoS",
+  "entry": 0.02429,
+  "sl": 0.023495000000000002,
+  "tp": 0.02988,
+  "tpSrc": "WH",
+  "slPct": 3.27,
+  "gainPct": 23.01,
+  "rr": 7.03,
+  "signalTime": 1793052900000,
+  "status": "pending",
+  "createdAt": 1793052930273
  }
 ]
