@@ -1,6 +1,7 @@
 {
   "ready": [
-    "BANKUSDT::ChoCh"
+    "BANKUSDT::ChoCh",
+    "KATUSDT::ChoCh"
   ],
-  "at": "2026-10-27T02:00:42.954Z"
+  "at": "2026-10-27T02:15:30.134Z"
 }
