@@ -24491,8 +24491,26 @@
   "gainPct": 21.26,
   "rr": 4.24,
   "signalTime": 1793124000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793124045444,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793128500000
+ },
+ {
+  "id": "TIAUSDT::ChoCh::1793129400000",
+  "symbol": "TIAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.542,
+  "sl": 0.5247499999999999,
+  "tp": 0.5817,
+  "tpSrc": "OB",
+  "slPct": 3.18,
+  "gainPct": 7.32,
+  "rr": 2.3,
+  "signalTime": 1793129400000,
+  "status": "pending",
+  "createdAt": 1793129438191
  }
 ]
