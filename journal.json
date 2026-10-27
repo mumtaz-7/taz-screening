@@ -24314,12 +24314,15 @@
   "gainPct": 7.92,
   "rr": 1.32,
   "signalTime": 1793035800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1793035837074,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1793037600000
+  "fillTime": 1793037600000,
+  "R": 1.32,
+  "resolvedTime": 1793085300000
  },
  {
   "id": "CHIPUSDT::BoS::1793036700000",
@@ -24410,8 +24413,12 @@
   "gainPct": 8.75,
   "rr": 2.97,
   "signalTime": 1793084400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793084442581,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793085300000
  }
 ]
