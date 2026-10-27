@@ -24368,9 +24368,13 @@
   "gainPct": 11.2,
   "rr": 3.87,
   "signalTime": 1793062800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793062844180,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793072700000
  },
  {
   "id": "KATUSDT::ChoCh::1793067300000",
@@ -24384,8 +24388,11 @@
   "gainPct": 13.45,
   "rr": 1.43,
   "signalTime": 1793067300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793067330135,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793072700000
  }
 ]
