@@ -1,7 +1,8 @@
 {
   "ready": [
     "ERAUSDT::BoS",
-    "NILUSDT::BoS"
+    "NILUSDT::BoS",
+    "REZUSDT::BoS"
   ],
-  "at": "2026-10-27T08:00:42.604Z"
+  "at": "2026-10-27T08:15:31.844Z"
 }
