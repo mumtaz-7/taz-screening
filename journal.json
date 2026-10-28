@@ -24295,12 +24295,15 @@
   "gainPct": 18.64,
   "rr": 2.63,
   "signalTime": 1793027700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793027734075,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793030400000
+  "fillTime": 1793030400000,
+  "R": -1,
+  "resolvedTime": 1793144700000
  },
  {
   "id": "NILUSDT::ChoCh::1793035800000",
