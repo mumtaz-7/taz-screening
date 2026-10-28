@@ -24643,5 +24643,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BMTUSDT::BoS::1793196900000",
+  "symbol": "BMTUSDT",
+  "setup": "BoS",
+  "entry": 0.02997,
+  "sl": 0.026699999999999998,
+  "tp": 0.03483,
+  "tpSrc": "OB",
+  "slPct": 10.91,
+  "gainPct": 16.22,
+  "rr": 1.49,
+  "signalTime": 1793196900000,
+  "status": "pending",
+  "createdAt": 1793196930386
  }
 ]
