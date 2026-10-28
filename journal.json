@@ -24547,12 +24547,15 @@
   "gainPct": 12.12,
   "rr": 8,
   "signalTime": 1793147400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793147435811,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793159100000
+  "fillTime": 1793159100000,
+  "R": -1,
+  "resolvedTime": 1793228400000
  },
  {
   "id": "IOSTUSDT::BoS::1793153700000",
@@ -24706,7 +24709,26 @@
   "gainPct": 7.86,
   "rr": 2.2,
   "signalTime": 1793228400000,
+  "status": "open",
+  "createdAt": 1793228443492,
+  "fillTime": 1793228400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "INITUSDT::BoS::1793229300000",
+  "symbol": "INITUSDT",
+  "setup": "BoS",
+  "entry": 0.21886,
+  "sl": 0.206245,
+  "tp": 0.25793,
+  "tpSrc": "WH",
+  "slPct": 5.76,
+  "gainPct": 17.85,
+  "rr": 3.1,
+  "signalTime": 1793229300000,
   "status": "pending",
-  "createdAt": 1793228443492
+  "createdAt": 1793229330277
  }
 ]
