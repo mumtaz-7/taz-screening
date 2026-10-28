@@ -24579,5 +24579,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "INITUSDT::ChoCh::1793178000000",
+  "symbol": "INITUSDT",
+  "setup": "ChoCh",
+  "entry": 0.18164,
+  "sl": 0.168035,
+  "tp": 0.1987,
+  "tpSrc": "WH",
+  "slPct": 7.49,
+  "gainPct": 9.39,
+  "rr": 1.25,
+  "signalTime": 1793178000000,
+  "status": "pending",
+  "createdAt": 1793178046878
  }
 ]
