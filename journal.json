@@ -24339,12 +24339,15 @@
   "gainPct": 8.37,
   "rr": 1.26,
   "signalTime": 1793036700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1793036731427,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1793043900000
+  "fillTime": 1793043900000,
+  "R": 1.26,
+  "resolvedTime": 1793185200000
  },
  {
   "id": "DODOUSDT::BoS::1793052900000",
@@ -24475,12 +24478,15 @@
   "gainPct": 9.21,
   "rr": 1.25,
   "signalTime": 1793099700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1793099732182,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1793106900000
+  "fillTime": 1793106900000,
+  "R": 1.25,
+  "resolvedTime": 1793185200000
  },
  {
   "id": "NILUSDT::ChoCh::1793124000000",
