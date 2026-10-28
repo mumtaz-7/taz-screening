@@ -24560,5 +24560,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ANIMEUSDT::BoS::1793169000000",
+  "symbol": "ANIMEUSDT",
+  "setup": "BoS",
+  "entry": 0.00304,
+  "sl": 0.002935,
+  "tp": 0.00389,
+  "tpSrc": "OB",
+  "slPct": 3.45,
+  "gainPct": 27.96,
+  "rr": 8.1,
+  "signalTime": 1793169000000,
+  "status": "pending",
+  "createdAt": 1793169037062
  }
 ]
