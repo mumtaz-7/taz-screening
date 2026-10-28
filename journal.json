@@ -24519,5 +24519,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ANIMEUSDT::ChoCh::1793147400000",
+  "symbol": "ANIMEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00297,
+  "sl": 0.0029249999999999996,
+  "tp": 0.00333,
+  "tpSrc": "WH",
+  "slPct": 1.52,
+  "gainPct": 12.12,
+  "rr": 8,
+  "signalTime": 1793147400000,
+  "status": "pending",
+  "createdAt": 1793147435811
  }
 ]
