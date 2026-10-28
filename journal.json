@@ -24538,5 +24538,20 @@
   "status": "pending",
   "createdAt": 1793147435811,
   "notified": []
+ },
+ {
+  "id": "IOSTUSDT::BoS::1793153700000",
+  "symbol": "IOSTUSDT",
+  "setup": "BoS",
+  "entry": 0.000818,
+  "sl": 0.0007819999999999999,
+  "tp": 0.000902,
+  "tpSrc": "OB",
+  "slPct": 4.4,
+  "gainPct": 10.27,
+  "rr": 2.33,
+  "signalTime": 1793153700000,
+  "status": "pending",
+  "createdAt": 1793153732221
  }
 ]
