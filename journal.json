@@ -24592,9 +24592,13 @@
   "gainPct": 9.39,
   "rr": 1.25,
   "signalTime": 1793178000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793178046878,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793184300000
  },
  {
   "id": "GTCUSDT::ChoCh::1793181600000",
