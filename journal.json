@@ -24809,5 +24809,20 @@
    "open"
   ],
   "fillTime": 1793277900000
+ },
+ {
+  "id": "LSKUSDT::BoS::1793285100000",
+  "symbol": "LSKUSDT",
+  "setup": "BoS",
+  "entry": 0.1753,
+  "sl": 0.16135,
+  "tp": 0.2059,
+  "tpSrc": "WH",
+  "slPct": 7.96,
+  "gainPct": 17.46,
+  "rr": 2.19,
+  "signalTime": 1793285100000,
+  "status": "pending",
+  "createdAt": 1793285131513
  }
 ]
