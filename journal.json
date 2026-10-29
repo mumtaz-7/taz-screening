@@ -24690,12 +24690,15 @@
   "gainPct": 8.75,
   "rr": 4.1,
   "signalTime": 1793218500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793218531427,
   "fillTime": 1793218500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793236500000
  },
  {
   "id": "牛来USDT::BoS::1793228400000",
@@ -24709,12 +24712,15 @@
   "gainPct": 7.86,
   "rr": 2.2,
   "signalTime": 1793228400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793228443492,
   "fillTime": 1793228400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793236500000
  },
  {
   "id": "INITUSDT::BoS::1793229300000",
