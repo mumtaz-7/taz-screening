@@ -24790,5 +24790,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZAMAUSDT::ChoCh::1793274300000",
+  "symbol": "ZAMAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.07409,
+  "sl": 0.071735,
+  "tp": 0.07948,
+  "tpSrc": "WH",
+  "slPct": 3.18,
+  "gainPct": 7.27,
+  "rr": 2.29,
+  "signalTime": 1793274300000,
+  "status": "pending",
+  "createdAt": 1793274329495
  }
 ]
