@@ -24674,12 +24674,15 @@
   "gainPct": 16.22,
   "rr": 1.49,
   "signalTime": 1793196900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793196930386,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793203200000
+  "fillTime": 1793203200000,
+  "R": -1,
+  "resolvedTime": 1793257200000
  },
  {
   "id": "牛来USDT::ChoCh::1793218500000",
