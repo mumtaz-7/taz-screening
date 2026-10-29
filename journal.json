@@ -24746,5 +24746,20 @@
   "fillTime": 1793232000000,
   "R": -1,
   "resolvedTime": 1793239200000
+ },
+ {
+  "id": "牛来USDT::ChoCh::1793250900000",
+  "symbol": "牛来USDT",
+  "setup": "ChoCh",
+  "entry": 0.05645,
+  "sl": 0.054755,
+  "tp": 0.06349,
+  "tpSrc": "WH",
+  "slPct": 3,
+  "gainPct": 12.47,
+  "rr": 4.15,
+  "signalTime": 1793250900000,
+  "status": "pending",
+  "createdAt": 1793250928769
  }
 ]
