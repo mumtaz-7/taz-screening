@@ -24796,12 +24796,15 @@
   "gainPct": 16.31,
   "rr": 1.37,
   "signalTime": 1793268900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793268931439,
   "fillTime": 1793268900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793370600000
  },
  {
   "id": "ZAMAUSDT::ChoCh::1793274300000",
@@ -24882,5 +24885,20 @@
    "open"
   ],
   "fillTime": 1793349000000
+ },
+ {
+  "id": "SOPHUSDT::ChoCh::1793371500000",
+  "symbol": "SOPHUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00176,
+  "sl": 0.0016550000000000002,
+  "tp": 0.002,
+  "tpSrc": "WH",
+  "slPct": 5.97,
+  "gainPct": 13.64,
+  "rr": 2.29,
+  "signalTime": 1793371500000,
+  "status": "pending",
+  "createdAt": 1793371530879
  }
 ]
