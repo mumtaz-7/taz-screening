@@ -24907,5 +24907,20 @@
   "fillTime": 1793374200000,
   "R": 2.29,
   "resolvedTime": 1793377800000
+ },
+ {
+  "id": "SOPHUSDT::BoS::1793383200000",
+  "symbol": "SOPHUSDT",
+  "setup": "BoS",
+  "entry": 0.002,
+  "sl": 0.0015350000000000001,
+  "tp": 0.0025,
+  "tpSrc": "WH",
+  "slPct": 23.25,
+  "gainPct": 25,
+  "rr": 1.08,
+  "signalTime": 1793383200000,
+  "status": "pending",
+  "createdAt": 1793383242825
  }
 ]
