@@ -24927,5 +24927,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1793384100000
+ },
+ {
+  "id": "BLURUSDT::BoS::1793385900000",
+  "symbol": "BLURUSDT",
+  "setup": "BoS",
+  "entry": 0.00882,
+  "sl": 0.007965,
+  "tp": 0.0109,
+  "tpSrc": "WH",
+  "slPct": 9.69,
+  "gainPct": 23.58,
+  "rr": 2.43,
+  "signalTime": 1793385900000,
+  "status": "pending",
+  "createdAt": 1793385928657
  }
 ]
