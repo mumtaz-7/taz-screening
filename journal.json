@@ -24863,5 +24863,20 @@
    "open"
   ],
   "fillTime": 1793332800000
+ },
+ {
+  "id": "SUSDT::BoS::1793341800000",
+  "symbol": "SUSDT",
+  "setup": "BoS",
+  "entry": 0.04188,
+  "sl": 0.04066500000000001,
+  "tp": 0.05272,
+  "tpSrc": "OB",
+  "slPct": 2.9,
+  "gainPct": 25.88,
+  "rr": 8.92,
+  "signalTime": 1793341800000,
+  "status": "pending",
+  "createdAt": 1793341839711
  }
 ]
