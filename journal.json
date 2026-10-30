@@ -24844,5 +24844,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "PYTHUSDT::ChoCh::1793331900000",
+  "symbol": "PYTHUSDT",
+  "setup": "ChoCh",
+  "entry": 0.06085,
+  "sl": 0.058255,
+  "tp": 0.067335,
+  "tpSrc": "EQ",
+  "slPct": 4.26,
+  "gainPct": 10.66,
+  "rr": 2.5,
+  "signalTime": 1793331900000,
+  "status": "pending",
+  "createdAt": 1793331929410
  }
 ]
