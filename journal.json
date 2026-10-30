@@ -23819,12 +23819,15 @@
   "gainPct": 74.9,
   "rr": 17.14,
   "signalTime": 1792808100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792808128306,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792811700000
+  "fillTime": 1792811700000,
+  "R": -1,
+  "resolvedTime": 1793319300000
  },
  {
   "id": "CRVUSDT::ChoCh::1792811700000",
