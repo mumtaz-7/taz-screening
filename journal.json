@@ -24879,12 +24879,15 @@
   "gainPct": 25.88,
   "rr": 8.92,
   "signalTime": 1793341800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793341839711,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793349000000
+  "fillTime": 1793349000000,
+  "R": -1,
+  "resolvedTime": 1793385900000
  },
  {
   "id": "SOPHUSDT::ChoCh::1793371500000",
@@ -24941,6 +24944,7 @@
   "rr": 2.43,
   "signalTime": 1793385900000,
   "status": "pending",
-  "createdAt": 1793385928657
+  "createdAt": 1793385928657,
+  "notified": []
  }
 ]
