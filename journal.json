@@ -24639,12 +24639,15 @@
   "gainPct": 18.93,
   "rr": 1.18,
   "signalTime": 1793181600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793181645414,
   "fillTime": 1793181600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793317500000
  },
  {
   "id": "HAEDALUSDT::ChoCh::1793187000000",
@@ -24768,12 +24771,15 @@
   "gainPct": 12.47,
   "rr": 4.15,
   "signalTime": 1793250900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793250928769,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793253600000
+  "fillTime": 1793253600000,
+  "R": -1,
+  "resolvedTime": 1793317500000
  },
  {
   "id": "INITUSDT::BoS::1793268900000",
