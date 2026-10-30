@@ -24946,5 +24946,20 @@
   "status": "pending",
   "createdAt": 1793385928657,
   "notified": []
+ },
+ {
+  "id": "CVXUSDT::BoS::1793391300000",
+  "symbol": "CVXUSDT",
+  "setup": "BoS",
+  "entry": 1.991,
+  "sl": 1.94,
+  "tp": 2.474,
+  "tpSrc": "OB",
+  "slPct": 2.56,
+  "gainPct": 24.26,
+  "rr": 9.47,
+  "signalTime": 1793391300000,
+  "status": "pending",
+  "createdAt": 1793391329757
  }
 ]
