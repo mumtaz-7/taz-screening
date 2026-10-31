@@ -25122,9 +25122,12 @@
   "gainPct": 22.59,
   "rr": 1.88,
   "signalTime": 1793458800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793458839568,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793477700000
  },
  {
   "id": "RSRUSDT::ChoCh::1793460600000",
@@ -25175,6 +25178,7 @@
   "rr": 2.44,
   "signalTime": 1793477700000,
   "status": "pending",
-  "createdAt": 1793477727741
+  "createdAt": 1793477727741,
+  "notified": []
  }
 ]
