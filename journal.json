@@ -25077,5 +25077,20 @@
   "status": "pending",
   "createdAt": 1793447129192,
   "notified": []
+ },
+ {
+  "id": "STXUSDT::BoS::1793452500000",
+  "symbol": "STXUSDT",
+  "setup": "BoS",
+  "entry": 0.318,
+  "sl": 0.3066,
+  "tp": 0.399,
+  "tpSrc": "WH",
+  "slPct": 3.58,
+  "gainPct": 25.47,
+  "rr": 7.11,
+  "signalTime": 1793452500000,
+  "status": "pending",
+  "createdAt": 1793452527655
  }
 ]
