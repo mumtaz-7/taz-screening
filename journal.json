@@ -25074,9 +25074,13 @@
   "gainPct": 20.41,
   "rr": 1.1,
   "signalTime": 1793447100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793447129192,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793452500000
  },
  {
   "id": "STXUSDT::BoS::1793452500000",
@@ -25091,6 +25095,7 @@
   "rr": 7.11,
   "signalTime": 1793452500000,
   "status": "pending",
-  "createdAt": 1793452527655
+  "createdAt": 1793452527655,
+  "notified": []
  }
 ]
