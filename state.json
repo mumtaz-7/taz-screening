@@ -1,7 +1,7 @@
 {
   "ready": [
-    "COWUSDT::BoS",
-    "PYTHUSDT::ChoCh"
+    "PYTHUSDT::ChoCh",
+    "RSRUSDT::ChoCh"
   ],
-  "at": "2026-10-31T15:15:28.127Z"
+  "at": "2026-10-31T15:30:36.117Z"
 }

@@ -25116,5 +25116,20 @@
   "status": "pending",
   "createdAt": 1793458839568,
   "notified": []
+ },
+ {
+  "id": "RSRUSDT::ChoCh::1793460600000",
+  "symbol": "RSRUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001526,
+  "sl": 0.0013685,
+  "tp": 0.00174,
+  "tpSrc": "WH",
+  "slPct": 10.32,
+  "gainPct": 14.02,
+  "rr": 1.36,
+  "signalTime": 1793460600000,
+  "status": "pending",
+  "createdAt": 1793460636118
  }
 ]
