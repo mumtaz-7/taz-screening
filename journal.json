@@ -25020,9 +25020,12 @@
   "gainPct": 7.23,
   "rr": 1.32,
   "signalTime": 1793439900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793439929529,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793442600000
  },
  {
   "id": "RADUSDT::BoS::1793442600000",
@@ -25037,6 +25040,7 @@
   "rr": 1.07,
   "signalTime": 1793442600000,
   "status": "pending",
-  "createdAt": 1793442634084
+  "createdAt": 1793442634084,
+  "notified": []
  }
 ]
