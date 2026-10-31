@@ -25042,5 +25042,20 @@
   "status": "pending",
   "createdAt": 1793442634084,
   "notified": []
+ },
+ {
+  "id": "CELOUSDT::ChoCh::1793446200000",
+  "symbol": "CELOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0744,
+  "sl": 0.0717,
+  "tp": 0.08245,
+  "tpSrc": "OB",
+  "slPct": 3.63,
+  "gainPct": 10.82,
+  "rr": 2.98,
+  "signalTime": 1793446200000,
+  "status": "pending",
+  "createdAt": 1793446234285
  }
 ]
