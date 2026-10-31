@@ -25056,6 +25056,22 @@
   "rr": 2.98,
   "signalTime": 1793446200000,
   "status": "pending",
-  "createdAt": 1793446234285
+  "createdAt": 1793446234285,
+  "notified": []
+ },
+ {
+  "id": "LSKUSDT::ChoCh::1793447100000",
+  "symbol": "LSKUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2464,
+  "sl": 0.20049999999999998,
+  "tp": 0.2967,
+  "tpSrc": "WH",
+  "slPct": 18.63,
+  "gainPct": 20.41,
+  "rr": 1.1,
+  "signalTime": 1793447100000,
+  "status": "pending",
+  "createdAt": 1793447129192
  }
 ]
