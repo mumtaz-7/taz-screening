@@ -24965,5 +24965,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "LSKUSDT::BoS::1793405700000",
+  "symbol": "LSKUSDT",
+  "setup": "BoS",
+  "entry": 0.2184,
+  "sl": 0.19515,
+  "tp": 0.245,
+  "tpSrc": "WH",
+  "slPct": 10.65,
+  "gainPct": 12.18,
+  "rr": 1.14,
+  "signalTime": 1793405700000,
+  "status": "pending",
+  "createdAt": 1793405733084
  }
 ]
