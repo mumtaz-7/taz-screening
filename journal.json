@@ -25100,5 +25100,20 @@
    "open"
   ],
   "fillTime": 1793454300000
+ },
+ {
+  "id": "COWUSDT::BoS::1793458800000",
+  "symbol": "COWUSDT",
+  "setup": "BoS",
+  "entry": 0.1275,
+  "sl": 0.1122,
+  "tp": 0.1563,
+  "tpSrc": "WH",
+  "slPct": 12,
+  "gainPct": 22.59,
+  "rr": 1.88,
+  "signalTime": 1793458800000,
+  "status": "pending",
+  "createdAt": 1793458839568
  }
 ]
