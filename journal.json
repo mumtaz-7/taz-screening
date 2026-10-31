@@ -25161,9 +25161,12 @@
   "gainPct": 9.77,
   "rr": 1.91,
   "signalTime": 1793465100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793465129301,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793478600000
  },
  {
   "id": "AMPUSDT::BoS::1793477700000",
@@ -25177,8 +25180,11 @@
   "gainPct": 17.73,
   "rr": 2.44,
   "signalTime": 1793477700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793477727741,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793478600000
  }
 ]
