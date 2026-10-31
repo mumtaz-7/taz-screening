@@ -24943,9 +24943,12 @@
   "gainPct": 23.58,
   "rr": 2.43,
   "signalTime": 1793385900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793385928657,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793405700000
  },
  {
   "id": "CVXUSDT::BoS::1793391300000",
@@ -24978,7 +24981,12 @@
   "gainPct": 12.18,
   "rr": 1.14,
   "signalTime": 1793405700000,
-  "status": "pending",
-  "createdAt": 1793405733084
+  "status": "void",
+  "createdAt": 1793405733084,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793405700000,
+  "notified": [
+   "void"
+  ]
  }
 ]
