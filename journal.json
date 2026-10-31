@@ -25039,9 +25039,12 @@
   "gainPct": 12.36,
   "rr": 1.07,
   "signalTime": 1793442600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793442634084,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793450700000
  },
  {
   "id": "CELOUSDT::ChoCh::1793446200000",
