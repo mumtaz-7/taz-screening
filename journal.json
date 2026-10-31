@@ -25142,5 +25142,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1793461500000
+ },
+ {
+  "id": "PUMPUSDT::ChoCh::1793465100000",
+  "symbol": "PUMPUSDT",
+  "setup": "ChoCh",
+  "entry": 0.004186,
+  "sl": 0.003971499999999999,
+  "tp": 0.004595,
+  "tpSrc": "OB",
+  "slPct": 5.12,
+  "gainPct": 9.77,
+  "rr": 1.91,
+  "signalTime": 1793465100000,
+  "status": "pending",
+  "createdAt": 1793465129301
  }
 ]
