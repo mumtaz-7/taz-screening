@@ -24988,5 +24988,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "RUNEUSDT::BoS::1793422800000",
+  "symbol": "RUNEUSDT",
+  "setup": "BoS",
+  "entry": 0.67,
+  "sl": 0.649,
+  "tp": 0.723,
+  "tpSrc": "WH",
+  "slPct": 3.13,
+  "gainPct": 7.91,
+  "rr": 2.52,
+  "signalTime": 1793422800000,
+  "status": "pending",
+  "createdAt": 1793422840411
  }
 ]
