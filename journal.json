@@ -24860,12 +24860,15 @@
   "gainPct": 10.66,
   "rr": 2.5,
   "signalTime": 1793331900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1793331929410,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1793332800000
+  "fillTime": 1793332800000,
+  "R": 2.5,
+  "resolvedTime": 1793463300000
  },
  {
   "id": "SUSDT::BoS::1793341800000",
