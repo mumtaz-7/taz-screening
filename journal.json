@@ -25161,5 +25161,20 @@
   "status": "pending",
   "createdAt": 1793465129301,
   "notified": []
+ },
+ {
+  "id": "AMPUSDT::BoS::1793477700000",
+  "symbol": "AMPUSDT",
+  "setup": "BoS",
+  "entry": 0.000722,
+  "sl": 0.0006695,
+  "tp": 0.00085,
+  "tpSrc": "WH",
+  "slPct": 7.27,
+  "gainPct": 17.73,
+  "rr": 2.44,
+  "signalTime": 1793477700000,
+  "status": "pending",
+  "createdAt": 1793477727741
  }
 ]
