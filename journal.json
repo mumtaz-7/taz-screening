@@ -25023,5 +25023,20 @@
   "status": "pending",
   "createdAt": 1793439929529,
   "notified": []
+ },
+ {
+  "id": "RADUSDT::BoS::1793442600000",
+  "symbol": "RADUSDT",
+  "setup": "BoS",
+  "entry": 0.259,
+  "sl": 0.22899999999999998,
+  "tp": 0.291,
+  "tpSrc": "WH",
+  "slPct": 11.58,
+  "gainPct": 12.36,
+  "rr": 1.07,
+  "signalTime": 1793442600000,
+  "status": "pending",
+  "createdAt": 1793442634084
  }
 ]
