@@ -25230,5 +25230,35 @@
    "open"
   ],
   "fillTime": 1793499300000
+ },
+ {
+  "id": "NILUSDT::ChoCh::1793502900000",
+  "symbol": "NILUSDT",
+  "setup": "ChoCh",
+  "entry": 0.07498,
+  "sl": 0.06969999999999998,
+  "tp": 0.08118,
+  "tpSrc": "OB",
+  "slPct": 7.04,
+  "gainPct": 8.27,
+  "rr": 1.17,
+  "signalTime": 1793502900000,
+  "status": "pending",
+  "createdAt": 1793502928769
+ },
+ {
+  "id": "STXUSDT::ChoCh::1793502900000",
+  "symbol": "STXUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3255,
+  "sl": 0.3144,
+  "tp": 0.35455000000000003,
+  "tpSrc": "EQ",
+  "slPct": 3.41,
+  "gainPct": 8.92,
+  "rr": 2.62,
+  "signalTime": 1793502900000,
+  "status": "pending",
+  "createdAt": 1793502928769
  }
 ]
