@@ -25365,5 +25365,20 @@
   "status": "pending",
   "createdAt": 1793518233987,
   "notified": []
+ },
+ {
+  "id": "INITUSDT::ChoCh::1793535300000",
+  "symbol": "INITUSDT",
+  "setup": "ChoCh",
+  "entry": 0.18558,
+  "sl": 0.17148000000000002,
+  "tp": 0.20521,
+  "tpSrc": "WH",
+  "slPct": 7.6,
+  "gainPct": 10.58,
+  "rr": 1.39,
+  "signalTime": 1793535300000,
+  "status": "pending",
+  "createdAt": 1793535328879
  }
 ]
