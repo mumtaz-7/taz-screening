@@ -25421,5 +25421,20 @@
    "open"
   ],
   "fillTime": 1793542500000
+ },
+ {
+  "id": "GTCUSDT::ChoCh::1793567700000",
+  "symbol": "GTCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2365,
+  "sl": 0.233005,
+  "tp": 0.25618,
+  "tpSrc": "WH",
+  "slPct": 1.48,
+  "gainPct": 8.32,
+  "rr": 5.63,
+  "signalTime": 1793567700000,
+  "status": "pending",
+  "createdAt": 1793567730198
  }
 ]
