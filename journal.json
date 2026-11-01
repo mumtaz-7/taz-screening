@@ -25262,9 +25262,12 @@
   "gainPct": 8.92,
   "rr": 2.62,
   "signalTime": 1793502900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793502928769,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793507400000
  },
  {
   "id": "RSRUSDT::BoS::1793504700000",
