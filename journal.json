@@ -25287,5 +25287,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "REZUSDT::ChoCh::1793509200000",
+  "symbol": "REZUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00424,
+  "sl": 0.004129000000000001,
+  "tp": 0.0049,
+  "tpSrc": "WH",
+  "slPct": 2.62,
+  "gainPct": 15.57,
+  "rr": 5.95,
+  "signalTime": 1793509200000,
+  "status": "pending",
+  "createdAt": 1793509240809
  }
 ]
