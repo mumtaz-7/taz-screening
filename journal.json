@@ -25265,5 +25265,20 @@
   "status": "pending",
   "createdAt": 1793502928769,
   "notified": []
+ },
+ {
+  "id": "RSRUSDT::BoS::1793504700000",
+  "symbol": "RSRUSDT",
+  "setup": "BoS",
+  "entry": 0.001563,
+  "sl": 0.0014775,
+  "tp": 0.001759,
+  "tpSrc": "WH",
+  "slPct": 5.47,
+  "gainPct": 12.54,
+  "rr": 2.29,
+  "signalTime": 1793504700000,
+  "status": "pending",
+  "createdAt": 1793504728238
  }
 ]
