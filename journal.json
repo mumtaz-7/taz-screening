@@ -25303,9 +25303,14 @@
   "gainPct": 15.57,
   "rr": 5.95,
   "signalTime": 1793509200000,
-  "status": "pending",
+  "status": "loss",
   "createdAt": 1793509240809,
-  "notified": []
+  "notified": [
+   "loss"
+  ],
+  "R": -1,
+  "fillTime": 1793530800000,
+  "resolvedTime": 1793530800000
  },
  {
   "id": "INJUSDT::BoS::1793512800000",
