@@ -25205,5 +25205,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MARSCOINUSDT::ChoCh::1793497500000",
+  "symbol": "MARSCOINUSDT",
+  "setup": "ChoCh",
+  "entry": 0.053,
+  "sl": 0.05165,
+  "tp": 0.0672,
+  "tpSrc": "OB",
+  "slPct": 2.55,
+  "gainPct": 26.79,
+  "rr": 10.52,
+  "signalTime": 1793497500000,
+  "status": "pending",
+  "createdAt": 1793497528886
  }
 ]
