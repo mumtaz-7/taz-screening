@@ -25303,5 +25303,20 @@
   "status": "pending",
   "createdAt": 1793509240809,
   "notified": []
+ },
+ {
+  "id": "INJUSDT::BoS::1793512800000",
+  "symbol": "INJUSDT",
+  "setup": "BoS",
+  "entry": 7.349,
+  "sl": 7.1690000000000005,
+  "tp": 7.964,
+  "tpSrc": "OB",
+  "slPct": 2.45,
+  "gainPct": 8.37,
+  "rr": 3.42,
+  "signalTime": 1793512800000,
+  "status": "pending",
+  "createdAt": 1793512840200
  }
 ]
