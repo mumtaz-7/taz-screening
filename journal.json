@@ -25384,9 +25384,12 @@
   "gainPct": 10.58,
   "rr": 1.39,
   "signalTime": 1793535300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793535328879,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793547000000
  },
  {
   "id": "SOPHUSDT::ChoCh::1793541600000",
