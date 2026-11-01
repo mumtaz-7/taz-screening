@@ -25246,12 +25246,15 @@
   "gainPct": 8.27,
   "rr": 1.17,
   "signalTime": 1793502900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793502928769,
   "fillTime": 1793502900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793557800000
  },
  {
   "id": "STXUSDT::ChoCh::1793502900000",
