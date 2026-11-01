@@ -24946,12 +24946,15 @@
   "gainPct": 23.58,
   "rr": 2.43,
   "signalTime": 1793385900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793385928657,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793405700000
+  "fillTime": 1793405700000,
+  "R": -1,
+  "resolvedTime": 1793497500000
  },
  {
   "id": "CVXUSDT::BoS::1793391300000",
@@ -25219,6 +25222,7 @@
   "rr": 10.52,
   "signalTime": 1793497500000,
   "status": "pending",
-  "createdAt": 1793497528886
+  "createdAt": 1793497528886,
+  "notified": []
  }
 ]
