@@ -1,6 +1,7 @@
 {
   "ready": [
-    "INJUSDT::BoS"
+    "INJUSDT::BoS",
+    "PUMPUSDT::BoS"
   ],
-  "at": "2026-11-01T06:00:40.199Z"
+  "at": "2026-11-01T06:15:28.020Z"
 }

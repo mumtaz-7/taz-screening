@@ -25317,6 +25317,22 @@
   "rr": 3.42,
   "signalTime": 1793512800000,
   "status": "pending",
-  "createdAt": 1793512840200
+  "createdAt": 1793512840200,
+  "notified": []
+ },
+ {
+  "id": "PUMPUSDT::BoS::1793513700000",
+  "symbol": "PUMPUSDT",
+  "setup": "BoS",
+  "entry": 0.004252,
+  "sl": 0.0041665,
+  "tp": 0.004595,
+  "tpSrc": "OB",
+  "slPct": 2.01,
+  "gainPct": 8.07,
+  "rr": 4.01,
+  "signalTime": 1793513700000,
+  "status": "pending",
+  "createdAt": 1793513728021
  }
 ]
