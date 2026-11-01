@@ -25465,5 +25465,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "POWRUSDT::ChoCh::1793575800000",
+  "symbol": "POWRUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0596,
+  "sl": 0.05689999999999999,
+  "tp": 0.073,
+  "tpSrc": "WH",
+  "slPct": 4.53,
+  "gainPct": 22.48,
+  "rr": 4.96,
+  "signalTime": 1793575800000,
+  "status": "pending",
+  "createdAt": 1793575836507
  }
 ]
