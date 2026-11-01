@@ -25243,8 +25243,12 @@
   "gainPct": 8.27,
   "rr": 1.17,
   "signalTime": 1793502900000,
-  "status": "pending",
-  "createdAt": 1793502928769
+  "status": "open",
+  "createdAt": 1793502928769,
+  "fillTime": 1793502900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "STXUSDT::ChoCh::1793502900000",
@@ -25259,6 +25263,7 @@
   "rr": 2.62,
   "signalTime": 1793502900000,
   "status": "pending",
-  "createdAt": 1793502928769
+  "createdAt": 1793502928769,
+  "notified": []
  }
 ]
