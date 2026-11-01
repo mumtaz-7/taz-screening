@@ -25387,5 +25387,20 @@
   "status": "pending",
   "createdAt": 1793535328879,
   "notified": []
+ },
+ {
+  "id": "SOPHUSDT::ChoCh::1793541600000",
+  "symbol": "SOPHUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00144,
+  "sl": 0.0013349999999999998,
+  "tp": 0.00189,
+  "tpSrc": "EQ",
+  "slPct": 7.29,
+  "gainPct": 31.25,
+  "rr": 4.29,
+  "signalTime": 1793541600000,
+  "status": "pending",
+  "createdAt": 1793541640724
  }
 ]
