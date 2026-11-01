@@ -25341,5 +25341,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GUSDT::BoS::1793518200000",
+  "symbol": "GUSDT",
+  "setup": "BoS",
+  "entry": 0.00383,
+  "sl": 0.00353,
+  "tp": 0.00441,
+  "tpSrc": "WH",
+  "slPct": 7.83,
+  "gainPct": 15.14,
+  "rr": 1.93,
+  "signalTime": 1793518200000,
+  "status": "pending",
+  "createdAt": 1793518233987
  }
 ]
