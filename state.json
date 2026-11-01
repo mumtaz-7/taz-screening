@@ -1,6 +1,7 @@
 {
   "ready": [
-    "PUMPUSDT::BoS"
+    "PUMPUSDT::BoS",
+    "STXUSDT::BoS"
   ],
-  "at": "2026-11-01T07:00:38.949Z"
+  "at": "2026-11-01T07:15:27.693Z"
 }
