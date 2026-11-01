@@ -25437,12 +25437,15 @@
   "gainPct": 8.32,
   "rr": 5.63,
   "signalTime": 1793567700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793567730198,
   "fillTime": 1793567700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793571300000
  },
  {
   "id": "CELOUSDT::ChoCh::1793571300000",
@@ -25456,7 +25459,11 @@
   "gainPct": 10.72,
   "rr": 4.55,
   "signalTime": 1793571300000,
-  "status": "pending",
-  "createdAt": 1793571327919
+  "status": "open",
+  "createdAt": 1793571327919,
+  "fillTime": 1793571300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
