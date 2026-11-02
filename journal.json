@@ -25173,12 +25173,15 @@
   "gainPct": 9.77,
   "rr": 1.91,
   "signalTime": 1793465100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793465129301,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793478600000
+  "fillTime": 1793478600000,
+  "R": -1,
+  "resolvedTime": 1793639700000
  },
  {
   "id": "AMPUSDT::BoS::1793477700000",
