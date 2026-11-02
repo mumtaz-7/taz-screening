@@ -25506,5 +25506,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HOTUSDT::ChoCh::1793589300000",
+  "symbol": "HOTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.000393,
+  "sl": 0.00035399999999999993,
+  "tp": 0.000457,
+  "tpSrc": "WH",
+  "slPct": 9.92,
+  "gainPct": 16.28,
+  "rr": 1.64,
+  "signalTime": 1793589300000,
+  "status": "pending",
+  "createdAt": 1793589332126
  }
 ]
