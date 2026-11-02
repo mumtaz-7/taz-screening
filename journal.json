@@ -25478,12 +25478,15 @@
   "gainPct": 22.48,
   "rr": 4.96,
   "signalTime": 1793575800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793575836507,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793577600000
+  "fillTime": 1793577600000,
+  "R": -1,
+  "resolvedTime": 1793579400000
  },
  {
   "id": "ZAMAUSDT::ChoCh::1793579400000",
@@ -25497,7 +25500,11 @@
   "gainPct": 9.07,
   "rr": 2.41,
   "signalTime": 1793579400000,
-  "status": "pending",
-  "createdAt": 1793579438667
+  "status": "open",
+  "createdAt": 1793579438667,
+  "fillTime": 1793579400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
