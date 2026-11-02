@@ -25554,5 +25554,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1793624400000
+ },
+ {
+  "id": "ZROUSDT::ChoCh::1793628000000",
+  "symbol": "ZROUSDT",
+  "setup": "ChoCh",
+  "entry": 1.784,
+  "sl": 1.7494999999999998,
+  "tp": 1.928,
+  "tpSrc": "WH",
+  "slPct": 1.93,
+  "gainPct": 8.07,
+  "rr": 4.17,
+  "signalTime": 1793628000000,
+  "status": "pending",
+  "createdAt": 1793628044352
  }
 ]
