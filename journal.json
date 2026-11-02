@@ -25540,12 +25540,15 @@
   "gainPct": 16.28,
   "rr": 1.64,
   "signalTime": 1793589300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1793589332126,
   "fillTime": 1793589300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.64,
+  "resolvedTime": 1793646900000
  },
  {
   "id": "MITOUSDT::BoS::1793622600000",
