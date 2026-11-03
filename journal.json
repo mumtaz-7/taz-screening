@@ -25636,5 +25636,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ZROUSDT::BoS::1793709900000",
+  "symbol": "ZROUSDT",
+  "setup": "BoS",
+  "entry": 1.773,
+  "sl": 1.6335,
+  "tp": 1.928,
+  "tpSrc": "WH",
+  "slPct": 7.87,
+  "gainPct": 8.74,
+  "rr": 1.11,
+  "signalTime": 1793709900000,
+  "status": "pending",
+  "createdAt": 1793709929061
  }
 ]
