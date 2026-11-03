@@ -25671,5 +25671,20 @@
   "status": "pending",
   "createdAt": 1793739643717,
   "notified": []
+ },
+ {
+  "id": "BMTUSDT::BoS::1793743200000",
+  "symbol": "BMTUSDT",
+  "setup": "BoS",
+  "entry": 0.02669,
+  "sl": 0.024980000000000002,
+  "tp": 0.0289,
+  "tpSrc": "WH",
+  "slPct": 6.41,
+  "gainPct": 8.28,
+  "rr": 1.29,
+  "signalTime": 1793743200000,
+  "status": "pending",
+  "createdAt": 1793743240384
  }
 ]
