@@ -25655,5 +25655,20 @@
    "void"
   ],
   "voidReason": "ga-retest"
+ },
+ {
+  "id": "1000CATUSDT::ChoCh::1793739600000",
+  "symbol": "1000CATUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001601,
+  "sl": 0.0015559999999999999,
+  "tp": 0.001893,
+  "tpSrc": "EQ",
+  "slPct": 2.81,
+  "gainPct": 18.24,
+  "rr": 6.49,
+  "signalTime": 1793739600000,
+  "status": "pending",
+  "createdAt": 1793739643717
  }
 ]
