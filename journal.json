@@ -25719,5 +25719,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1793754000000
+ },
+ {
+  "id": "BEAMXUSDT::BoS::1793789100000",
+  "symbol": "BEAMXUSDT",
+  "setup": "BoS",
+  "entry": 0.004083,
+  "sl": 0.0037394999999999998,
+  "tp": 0.004527,
+  "tpSrc": "OB",
+  "slPct": 8.41,
+  "gainPct": 10.87,
+  "rr": 1.29,
+  "signalTime": 1793789100000,
+  "status": "pending",
+  "createdAt": 1793789129866
  }
 ]
