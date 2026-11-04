@@ -25853,5 +25853,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "APTUSDT::ChoCh::1793835900000",
+  "symbol": "APTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.6454,
+  "sl": 0.6138999999999999,
+  "tp": 0.6997,
+  "tpSrc": "OB",
+  "slPct": 4.88,
+  "gainPct": 8.41,
+  "rr": 1.72,
+  "signalTime": 1793835900000,
+  "status": "pending",
+  "createdAt": 1793835928657
  }
 ]
