@@ -25832,7 +25832,8 @@
   "rr": 5.26,
   "signalTime": 1793830500000,
   "status": "pending",
-  "createdAt": 1793830527692
+  "createdAt": 1793830527692,
+  "notified": []
  },
  {
   "id": "ZAMAUSDT::ChoCh::1793830500000",
@@ -25846,7 +25847,11 @@
   "gainPct": 9.27,
   "rr": 3.96,
   "signalTime": 1793830500000,
-  "status": "pending",
-  "createdAt": 1793830527692
+  "status": "open",
+  "createdAt": 1793830527692,
+  "fillTime": 1793830500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
