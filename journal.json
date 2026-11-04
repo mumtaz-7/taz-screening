@@ -25799,5 +25799,20 @@
    "open"
   ],
   "fillTime": 1793817000000
+ },
+ {
+  "id": "1000CATUSDT::BoS::1793823300000",
+  "symbol": "1000CATUSDT",
+  "setup": "BoS",
+  "entry": 0.001696,
+  "sl": 0.0016089999999999998,
+  "tp": 0.00194,
+  "tpSrc": "OB",
+  "slPct": 5.13,
+  "gainPct": 14.39,
+  "rr": 2.8,
+  "signalTime": 1793823300000,
+  "status": "pending",
+  "createdAt": 1793823329808
  }
 ]
