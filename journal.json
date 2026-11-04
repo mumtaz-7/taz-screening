@@ -25774,9 +25774,12 @@
   "gainPct": 10.52,
   "rr": 3.24,
   "signalTime": 1793808900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793808930976,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793820600000
  },
  {
   "id": "BMTUSDT::ChoCh::1793816100000",
