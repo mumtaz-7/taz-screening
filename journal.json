@@ -25286,12 +25286,15 @@
   "gainPct": 8.92,
   "rr": 2.62,
   "signalTime": 1793502900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1793502928769,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1793507400000
+  "fillTime": 1793507400000,
+  "R": 2.62,
+  "resolvedTime": 1793803500000
  },
  {
   "id": "RSRUSDT::BoS::1793504700000",
@@ -25752,7 +25755,11 @@
   "gainPct": 9.13,
   "rr": 2.27,
   "signalTime": 1793803500000,
-  "status": "pending",
-  "createdAt": 1793803533625
+  "status": "open",
+  "createdAt": 1793803533625,
+  "fillTime": 1793803500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
