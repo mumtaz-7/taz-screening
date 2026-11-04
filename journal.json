@@ -25818,5 +25818,35 @@
    "open"
   ],
   "fillTime": 1793826900000
+ },
+ {
+  "id": "PENGUUSDT::BoS::1793830500000",
+  "symbol": "PENGUUSDT",
+  "setup": "BoS",
+  "entry": 0.0073,
+  "sl": 0.007165,
+  "tp": 0.00801,
+  "tpSrc": "OB",
+  "slPct": 1.85,
+  "gainPct": 9.73,
+  "rr": 5.26,
+  "signalTime": 1793830500000,
+  "status": "pending",
+  "createdAt": 1793830527692
+ },
+ {
+  "id": "ZAMAUSDT::ChoCh::1793830500000",
+  "symbol": "ZAMAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.07048,
+  "sl": 0.06883,
+  "tp": 0.07701,
+  "tpSrc": "OB",
+  "slPct": 2.34,
+  "gainPct": 9.27,
+  "rr": 3.96,
+  "signalTime": 1793830500000,
+  "status": "pending",
+  "createdAt": 1793830527692
  }
 ]
