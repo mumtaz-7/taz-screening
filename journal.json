@@ -25739,5 +25739,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1793798100000
+ },
+ {
+  "id": "PENGUUSDT::ChoCh::1793803500000",
+  "symbol": "PENGUUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00734,
+  "sl": 0.0070445,
+  "tp": 0.00801,
+  "tpSrc": "OB",
+  "slPct": 4.03,
+  "gainPct": 9.13,
+  "rr": 2.27,
+  "signalTime": 1793803500000,
+  "status": "pending",
+  "createdAt": 1793803533625
  }
 ]
