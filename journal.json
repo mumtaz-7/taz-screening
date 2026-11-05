@@ -25834,12 +25834,15 @@
   "gainPct": 9.73,
   "rr": 5.26,
   "signalTime": 1793830500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793830527692,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793835900000
+  "fillTime": 1793835900000,
+  "R": -1,
+  "resolvedTime": 1793880900000
  },
  {
   "id": "ZAMAUSDT::ChoCh::1793830500000",
