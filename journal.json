@@ -26011,6 +26011,22 @@
   "rr": 4.55,
   "signalTime": 1793867400000,
   "status": "pending",
-  "createdAt": 1793867434520
+  "createdAt": 1793867434520,
+  "notified": []
+ },
+ {
+  "id": "MARSCOINUSDT::ChoCh::1793868300000",
+  "symbol": "MARSCOINUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0515,
+  "sl": 0.05,
+  "tp": 0.0557,
+  "tpSrc": "OB",
+  "slPct": 2.91,
+  "gainPct": 8.16,
+  "rr": 2.8,
+  "signalTime": 1793868300000,
+  "status": "pending",
+  "createdAt": 1793868328772
  }
 ]
