@@ -25940,5 +25940,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SXTUSDT::BoS::1793847600000",
+  "symbol": "SXTUSDT",
+  "setup": "BoS",
+  "entry": 0.00888,
+  "sl": 0.008535,
+  "tp": 0.01075,
+  "tpSrc": "WH",
+  "slPct": 3.89,
+  "gainPct": 21.06,
+  "rr": 5.42,
+  "signalTime": 1793847600000,
+  "status": "pending",
+  "createdAt": 1793847641832
  }
 ]
