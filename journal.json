@@ -25780,12 +25780,15 @@
   "gainPct": 10.52,
   "rr": 3.24,
   "signalTime": 1793808900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793808930976,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793820600000
+  "fillTime": 1793820600000,
+  "R": -1,
+  "resolvedTime": 1793890800000
  },
  {
   "id": "BMTUSDT::ChoCh::1793816100000",
@@ -25862,12 +25865,15 @@
   "gainPct": 9.27,
   "rr": 3.96,
   "signalTime": 1793830500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793830527692,
   "fillTime": 1793830500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793890800000
  },
  {
   "id": "APTUSDT::ChoCh::1793835900000",
@@ -25946,12 +25952,15 @@
   "gainPct": 8.62,
   "rr": 2.68,
   "signalTime": 1793844900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793844928415,
   "fillTime": 1793844900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793890800000
  },
  {
   "id": "SXTUSDT::BoS::1793847600000",
@@ -26006,12 +26015,15 @@
   "gainPct": 7.06,
   "rr": 1.38,
   "signalTime": 1793862000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793862040678,
   "fillTime": 1793862000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793890800000
  },
  {
   "id": "APTUSDT::BoS::1793867400000",
@@ -26069,11 +26081,14 @@
   "gainPct": 16.65,
   "rr": 3.77,
   "signalTime": 1793880000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793880041661,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793888100000
+  "fillTime": 1793888100000,
+  "R": -1,
+  "resolvedTime": 1793890800000
  }
 ]
