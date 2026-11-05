@@ -25881,12 +25881,15 @@
   "gainPct": 8.41,
   "rr": 1.72,
   "signalTime": 1793835900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793835928657,
   "fillTime": 1793835900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793889900000
  },
  {
   "id": "HAEDALUSDT::ChoCh::1793839500000",
