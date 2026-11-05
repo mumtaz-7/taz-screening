@@ -26093,5 +26093,20 @@
   "fillTime": 1793888100000,
   "R": -1,
   "resolvedTime": 1793890800000
+ },
+ {
+  "id": "RENDERUSDT::ChoCh::1793907000000",
+  "symbol": "RENDERUSDT",
+  "setup": "ChoCh",
+  "entry": 1.532,
+  "sl": 1.475,
+  "tp": 1.641,
+  "tpSrc": "WH",
+  "slPct": 3.72,
+  "gainPct": 7.11,
+  "rr": 1.91,
+  "signalTime": 1793907000000,
+  "status": "pending",
+  "createdAt": 1793907035353
  }
 ]
