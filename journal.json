@@ -25439,12 +25439,15 @@
   "gainPct": 31.25,
   "rr": 4.29,
   "signalTime": 1793541600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793541640724,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793542500000
+  "fillTime": 1793542500000,
+  "R": -1,
+  "resolvedTime": 1793889000000
  },
  {
   "id": "GTCUSDT::ChoCh::1793567700000",
@@ -25755,12 +25758,15 @@
   "gainPct": 9.13,
   "rr": 2.27,
   "signalTime": 1793803500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793803533625,
   "fillTime": 1793803500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793889000000
  },
  {
   "id": "AEROUSDT::ChoCh::1793808900000",
