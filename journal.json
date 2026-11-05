@@ -25875,5 +25875,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HAEDALUSDT::ChoCh::1793839500000",
+  "symbol": "HAEDALUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02937,
+  "sl": 0.028425000000000002,
+  "tp": 0.03236,
+  "tpSrc": "WH",
+  "slPct": 3.22,
+  "gainPct": 10.18,
+  "rr": 3.16,
+  "signalTime": 1793839500000,
+  "status": "pending",
+  "createdAt": 1793839528287
  }
 ]
