@@ -25888,7 +25888,26 @@
   "gainPct": 10.18,
   "rr": 3.16,
   "signalTime": 1793839500000,
+  "status": "open",
+  "createdAt": 1793839528287,
+  "fillTime": 1793839500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "BMTUSDT::BoS::1793840400000",
+  "symbol": "BMTUSDT",
+  "setup": "BoS",
+  "entry": 0.02907,
+  "sl": 0.027960000000000002,
+  "tp": 0.03288,
+  "tpSrc": "WH",
+  "slPct": 3.82,
+  "gainPct": 13.11,
+  "rr": 3.43,
+  "signalTime": 1793840400000,
   "status": "pending",
-  "createdAt": 1793839528287
+  "createdAt": 1793840440036
  }
 ]
