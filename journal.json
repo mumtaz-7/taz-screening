@@ -25978,5 +25978,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XPLUSDT::BoS::1793862000000",
+  "symbol": "XPLUSDT",
+  "setup": "BoS",
+  "entry": 0.06558,
+  "sl": 0.06221999999999999,
+  "tp": 0.07021,
+  "tpSrc": "OB",
+  "slPct": 5.12,
+  "gainPct": 7.06,
+  "rr": 1.38,
+  "signalTime": 1793862000000,
+  "status": "pending",
+  "createdAt": 1793862040678
  }
 ]
