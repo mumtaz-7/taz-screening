@@ -25997,5 +25997,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "APTUSDT::BoS::1793867400000",
+  "symbol": "APTUSDT",
+  "setup": "BoS",
+  "entry": 0.6424,
+  "sl": 0.6298,
+  "tp": 0.6997,
+  "tpSrc": "OB",
+  "slPct": 1.96,
+  "gainPct": 8.92,
+  "rr": 4.55,
+  "signalTime": 1793867400000,
+  "status": "pending",
+  "createdAt": 1793867434520
  }
 ]
