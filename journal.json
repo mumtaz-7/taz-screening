@@ -25974,12 +25974,15 @@
   "gainPct": 21.06,
   "rr": 5.42,
   "signalTime": 1793847600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793847641832,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793849400000
+  "fillTime": 1793849400000,
+  "R": -1,
+  "resolvedTime": 1793891700000
  },
  {
   "id": "TAOUSDT::ChoCh::1793853000000",
