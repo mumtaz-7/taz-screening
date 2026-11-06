@@ -26150,5 +26150,20 @@
   "status": "pending",
   "createdAt": 1793924128802,
   "notified": []
+ },
+ {
+  "id": "FOGOUSDT::BoS::1793940300000",
+  "symbol": "FOGOUSDT",
+  "setup": "BoS",
+  "entry": 0.00243,
+  "sl": 0.002265,
+  "tp": 0.00293,
+  "tpSrc": "WH",
+  "slPct": 6.79,
+  "gainPct": 20.58,
+  "rr": 3.03,
+  "signalTime": 1793940300000,
+  "status": "pending",
+  "createdAt": 1793940329555
  }
 ]
