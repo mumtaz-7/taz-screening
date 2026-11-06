@@ -26125,12 +26125,15 @@
   "gainPct": 30.22,
   "rr": 6.97,
   "signalTime": 1793924100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793924128802,
   "fillTime": 1793924100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793925900000
  },
  {
   "id": "FOGOUSDT::ChoCh::1793924100000",
