@@ -26172,5 +26172,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BEAMXUSDT::BoS::1793965500000",
+  "symbol": "BEAMXUSDT",
+  "setup": "BoS",
+  "entry": 0.004206,
+  "sl": 0.004027500000000001,
+  "tp": 0.005356,
+  "tpSrc": "OB",
+  "slPct": 4.24,
+  "gainPct": 27.34,
+  "rr": 6.44,
+  "signalTime": 1793965500000,
+  "status": "pending",
+  "createdAt": 1793965531172
  }
 ]
