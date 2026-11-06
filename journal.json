@@ -26147,9 +26147,12 @@
   "gainPct": 10.82,
   "rr": 2.08,
   "signalTime": 1793924100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793924128802,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "FOGOUSDT::BoS::1793940300000",
