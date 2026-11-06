@@ -26191,5 +26191,20 @@
    "open"
   ],
   "fillTime": 1793979000000
+ },
+ {
+  "id": "XLMUSDT::ChoCh::1793984400000",
+  "symbol": "XLMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1561,
+  "sl": 0.15250000000000002,
+  "tp": 0.1672,
+  "tpSrc": "OB",
+  "slPct": 2.31,
+  "gainPct": 7.11,
+  "rr": 3.08,
+  "signalTime": 1793984400000,
+  "status": "pending",
+  "createdAt": 1793984444413
  }
 ]
