@@ -26125,8 +26125,12 @@
   "gainPct": 30.22,
   "rr": 6.97,
   "signalTime": 1793924100000,
-  "status": "pending",
-  "createdAt": 1793924128802
+  "status": "open",
+  "createdAt": 1793924128802,
+  "fillTime": 1793924100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "FOGOUSDT::ChoCh::1793924100000",
@@ -26141,6 +26145,7 @@
   "rr": 2.08,
   "signalTime": 1793924100000,
   "status": "pending",
-  "createdAt": 1793924128802
+  "createdAt": 1793924128802,
+  "notified": []
  }
 ]
