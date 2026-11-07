@@ -26270,9 +26270,12 @@
   "gainPct": 17.12,
   "rr": 1.99,
   "signalTime": 1794069900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1794069929591,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1794088800000
  },
  {
   "id": "CYBERUSDT::ChoCh::1794074400000",
