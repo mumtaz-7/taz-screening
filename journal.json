@@ -26273,5 +26273,20 @@
   "status": "pending",
   "createdAt": 1794069929591,
   "notified": []
+ },
+ {
+  "id": "CYBERUSDT::ChoCh::1794074400000",
+  "symbol": "CYBERUSDT",
+  "setup": "ChoCh",
+  "entry": 0.317,
+  "sl": 0.305,
+  "tp": 0.41,
+  "tpSrc": "WH",
+  "slPct": 3.79,
+  "gainPct": 29.34,
+  "rr": 7.75,
+  "signalTime": 1794074400000,
+  "status": "pending",
+  "createdAt": 1794074440967
  }
 ]
