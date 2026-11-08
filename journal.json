@@ -26380,7 +26380,26 @@
   "gainPct": 9.3,
   "rr": 2.98,
   "signalTime": 1794166200000,
+  "status": "open",
+  "createdAt": 1794166235626,
+  "fillTime": 1794166200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "UNIUSDT::ChoCh::1794167100000",
+  "symbol": "UNIUSDT",
+  "setup": "ChoCh",
+  "entry": 7.023,
+  "sl": 6.9015,
+  "tp": 7.633,
+  "tpSrc": "OB",
+  "slPct": 1.73,
+  "gainPct": 8.69,
+  "rr": 5.02,
+  "signalTime": 1794167100000,
   "status": "pending",
-  "createdAt": 1794166235626
+  "createdAt": 1794167128548
  }
 ]
