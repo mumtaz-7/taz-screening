@@ -26361,8 +26361,26 @@
   "gainPct": 11.89,
   "rr": 2.52,
   "signalTime": 1794160800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1794160843089,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1794165300000
+ },
+ {
+  "id": "METUSDT::ChoCh::1794166200000",
+  "symbol": "METUSDT",
+  "setup": "ChoCh",
+  "entry": 0.3076,
+  "sl": 0.29800000000000004,
+  "tp": 0.3362,
+  "tpSrc": "WH",
+  "slPct": 3.12,
+  "gainPct": 9.3,
+  "rr": 2.98,
+  "signalTime": 1794166200000,
+  "status": "pending",
+  "createdAt": 1794166235626
  }
 ]
