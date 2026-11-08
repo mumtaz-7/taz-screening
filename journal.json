@@ -25824,12 +25824,15 @@
   "gainPct": 14.39,
   "rr": 2.8,
   "signalTime": 1793823300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793823329808,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793826900000
+  "fillTime": 1793826900000,
+  "R": -1,
+  "resolvedTime": 1794174300000
  },
  {
   "id": "PENGUUSDT::BoS::1793830500000",
@@ -26106,12 +26109,15 @@
   "gainPct": 7.11,
   "rr": 1.91,
   "signalTime": 1793907000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793907035353,
   "fillTime": 1793907000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794174300000
  },
  {
   "id": "BMTUSDT::ChoCh::1793924100000",
@@ -26364,12 +26370,15 @@
   "gainPct": 11.89,
   "rr": 2.52,
   "signalTime": 1794160800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794160843089,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1794165300000
+  "fillTime": 1794165300000,
+  "R": -1,
+  "resolvedTime": 1794174300000
  },
  {
   "id": "METUSDT::ChoCh::1794166200000",
@@ -26383,12 +26392,15 @@
   "gainPct": 9.3,
   "rr": 2.98,
   "signalTime": 1794166200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794166235626,
   "fillTime": 1794166200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794174300000
  },
  {
   "id": "UNIUSDT::ChoCh::1794167100000",
@@ -26402,11 +26414,14 @@
   "gainPct": 8.69,
   "rr": 5.02,
   "signalTime": 1794167100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794167128548,
   "fillTime": 1794167100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794174300000
  }
 ]
