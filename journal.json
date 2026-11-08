@@ -26298,5 +26298,20 @@
   ],
   "R": -1,
   "resolvedTime": 1794085200000
+ },
+ {
+  "id": "CYBERUSDT::ChoCh::1794097800000",
+  "symbol": "CYBERUSDT",
+  "setup": "ChoCh",
+  "entry": 0.313,
+  "sl": 0.2965,
+  "tp": 0.41,
+  "tpSrc": "WH",
+  "slPct": 5.27,
+  "gainPct": 30.99,
+  "rr": 5.88,
+  "signalTime": 1794097800000,
+  "status": "pending",
+  "createdAt": 1794097835928
  }
 ]
