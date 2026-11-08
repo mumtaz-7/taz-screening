@@ -26348,5 +26348,20 @@
    "open"
   ],
   "fillTime": 1794132900000
+ },
+ {
+  "id": "CYBERUSDT::ChoCh::1794160800000",
+  "symbol": "CYBERUSDT",
+  "setup": "ChoCh",
+  "entry": 0.286,
+  "sl": 0.2725000000000001,
+  "tp": 0.32,
+  "tpSrc": "EQ",
+  "slPct": 4.72,
+  "gainPct": 11.89,
+  "rr": 2.52,
+  "signalTime": 1794160800000,
+  "status": "pending",
+  "createdAt": 1794160843089
  }
 ]
