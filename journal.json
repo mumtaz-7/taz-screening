@@ -26232,12 +26232,15 @@
   "gainPct": 11.66,
   "rr": 5.47,
   "signalTime": 1794015000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1794015035955,
   "fillTime": 1794015000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 5.47,
+  "resolvedTime": 1794114000000
  },
  {
   "id": "ERAUSDT::BoS::1794028500000",
@@ -26251,12 +26254,15 @@
   "gainPct": 8.43,
   "rr": 2.9,
   "signalTime": 1794028500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1794028530009,
   "fillTime": 1794028500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.9,
+  "resolvedTime": 1794114000000
  },
  {
   "id": "ONEUSDT::BoS::1794069900000",
