@@ -26342,12 +26342,15 @@
   "gainPct": 20.25,
   "rr": 1.1,
   "signalTime": 1794125700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794125728087,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1794132900000
+  "fillTime": 1794132900000,
+  "R": -1,
+  "resolvedTime": 1794170700000
  },
  {
   "id": "CYBERUSDT::ChoCh::1794160800000",
