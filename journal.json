@@ -26464,5 +26464,20 @@
    "open"
   ],
   "fillTime": 1794245400000
+ },
+ {
+  "id": "TSTUSDT::BoS::1794254400000",
+  "symbol": "TSTUSDT",
+  "setup": "BoS",
+  "entry": 0.0137,
+  "sl": 0.01253,
+  "tp": 0.01566,
+  "tpSrc": "WH",
+  "slPct": 8.54,
+  "gainPct": 14.31,
+  "rr": 1.68,
+  "signalTime": 1794254400000,
+  "status": "pending",
+  "createdAt": 1794254445642
  }
 ]
