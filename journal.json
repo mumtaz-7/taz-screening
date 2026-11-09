@@ -26445,5 +26445,20 @@
   ],
   "R": -1,
   "resolvedTime": 1794240900000
+ },
+ {
+  "id": "NXPCUSDT::ChoCh::1794244500000",
+  "symbol": "NXPCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1592,
+  "sl": 0.14300000000000002,
+  "tp": 0.1806,
+  "tpSrc": "WH",
+  "slPct": 10.18,
+  "gainPct": 13.44,
+  "rr": 1.32,
+  "signalTime": 1794244500000,
+  "status": "pending",
+  "createdAt": 1794244531073
  }
 ]
