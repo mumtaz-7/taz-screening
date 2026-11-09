@@ -26483,5 +26483,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONEUSDT::ChoCh::1794257100000",
+  "symbol": "ONEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001541,
+  "sl": 0.0013955,
+  "tp": 0.0017515,
+  "tpSrc": "EQ",
+  "slPct": 9.44,
+  "gainPct": 13.66,
+  "rr": 1.45,
+  "signalTime": 1794257100000,
+  "status": "pending",
+  "createdAt": 1794257131155
  }
 ]
