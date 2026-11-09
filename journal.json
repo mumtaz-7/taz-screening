@@ -26423,5 +26423,20 @@
   ],
   "R": -1,
   "resolvedTime": 1794174300000
+ },
+ {
+  "id": "ONEUSDT::ChoCh::1794234600000",
+  "symbol": "ONEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001524,
+  "sl": 0.001467,
+  "tp": 0.0017515,
+  "tpSrc": "EQ",
+  "slPct": 3.74,
+  "gainPct": 14.93,
+  "rr": 3.99,
+  "signalTime": 1794234600000,
+  "status": "pending",
+  "createdAt": 1794234639623
  }
 ]
