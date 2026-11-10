@@ -26521,12 +26521,15 @@
   "gainPct": 15.14,
   "rr": 4.3,
   "signalTime": 1794276000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794276042908,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1794280500000
+  "fillTime": 1794280500000,
+  "R": -1,
+  "resolvedTime": 1794296700000
  },
  {
   "id": "ONDOUSDT::ChoCh::1794281400000",
