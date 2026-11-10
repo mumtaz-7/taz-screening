@@ -26572,5 +26572,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ONEUSDT::BoS::1794348900000",
+  "symbol": "ONEUSDT",
+  "setup": "BoS",
+  "entry": 0.001825,
+  "sl": 0.001732,
+  "tp": 0.002476,
+  "tpSrc": "WH",
+  "slPct": 5.1,
+  "gainPct": 35.67,
+  "rr": 7,
+  "signalTime": 1794348900000,
+  "status": "pending",
+  "createdAt": 1794348930589
  }
 ]
