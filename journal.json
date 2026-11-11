@@ -26648,9 +26648,12 @@
   "gainPct": 7.3,
   "rr": 3.9,
   "signalTime": 1794397500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1794397529411,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1794399300000
  },
  {
   "id": "NEARUSDT::ChoCh::1794398400000",
