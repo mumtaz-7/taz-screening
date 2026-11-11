@@ -26458,12 +26458,15 @@
   "gainPct": 13.44,
   "rr": 1.32,
   "signalTime": 1794244500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794244531073,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1794245400000
+  "fillTime": 1794245400000,
+  "R": -1,
+  "resolvedTime": 1794357000000
  },
  {
   "id": "TSTUSDT::BoS::1794254400000",
@@ -26607,5 +26610,20 @@
   "status": "pending",
   "createdAt": 1794354330542,
   "notified": []
+ },
+ {
+  "id": "ONDOUSDT::BoS::1794357900000",
+  "symbol": "ONDOUSDT",
+  "setup": "BoS",
+  "entry": 0.3699,
+  "sl": 0.36014999999999997,
+  "tp": 0.4098,
+  "tpSrc": "OB",
+  "slPct": 2.64,
+  "gainPct": 10.79,
+  "rr": 4.09,
+  "signalTime": 1794357900000,
+  "status": "pending",
+  "createdAt": 1794357931944
  }
 ]
