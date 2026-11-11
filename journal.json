@@ -26648,12 +26648,15 @@
   "gainPct": 7.3,
   "rr": 3.9,
   "signalTime": 1794397500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794397529411,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1794399300000
+  "fillTime": 1794399300000,
+  "R": -1,
+  "resolvedTime": 1794432600000
  },
  {
   "id": "NEARUSDT::ChoCh::1794398400000",
