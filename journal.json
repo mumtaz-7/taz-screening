@@ -26588,12 +26588,15 @@
   "gainPct": 35.67,
   "rr": 7,
   "signalTime": 1794348900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794348930589,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1794351600000
+  "fillTime": 1794351600000,
+  "R": -1,
+  "resolvedTime": 1794368700000
  },
  {
   "id": "AVAXUSDT::BoS::1794354300000",
