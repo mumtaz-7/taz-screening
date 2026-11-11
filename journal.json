@@ -26667,8 +26667,11 @@
   "gainPct": 9.88,
   "rr": 2.37,
   "signalTime": 1794398400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1794398441917,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  }
 ]
