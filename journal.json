@@ -26629,12 +26629,15 @@
   "gainPct": 10.79,
   "rr": 4.09,
   "signalTime": 1794357900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794357931944,
   "fillTime": 1794357900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794436200000
  },
  {
   "id": "ARBUSDT::ChoCh::1794397500000",
