@@ -26692,7 +26692,11 @@
   "gainPct": 18.06,
   "rr": 2.57,
   "signalTime": 1794475800000,
-  "status": "pending",
-  "createdAt": 1794475840512
+  "status": "open",
+  "createdAt": 1794475840512,
+  "fillTime": 1794475800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
