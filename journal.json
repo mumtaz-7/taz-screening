@@ -26679,5 +26679,20 @@
    "void"
   ],
   "voidReason": "ga-retest"
+ },
+ {
+  "id": "OPGUSDT::BoS::1794475800000",
+  "symbol": "OPGUSDT",
+  "setup": "BoS",
+  "entry": 0.139,
+  "sl": 0.12925,
+  "tp": 0.1641,
+  "tpSrc": "WH",
+  "slPct": 7.01,
+  "gainPct": 18.06,
+  "rr": 2.57,
+  "signalTime": 1794475800000,
+  "status": "pending",
+  "createdAt": 1794475840512
  }
 ]
