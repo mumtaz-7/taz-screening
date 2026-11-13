@@ -26783,5 +26783,20 @@
   ],
   "R": 1.14,
   "resolvedTime": 1794562200000
+ },
+ {
+  "id": "STOUSDT::BoS::1794596400000",
+  "symbol": "STOUSDT",
+  "setup": "BoS",
+  "entry": 0.0274,
+  "sl": 0.024399999999999998,
+  "tp": 0.0319,
+  "tpSrc": "WH",
+  "slPct": 10.95,
+  "gainPct": 16.42,
+  "rr": 1.5,
+  "signalTime": 1794596400000,
+  "status": "pending",
+  "createdAt": 1794596444926
  }
 ]
