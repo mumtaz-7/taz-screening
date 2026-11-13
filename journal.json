@@ -26761,5 +26761,20 @@
   ],
   "R": -1,
   "resolvedTime": 1794539700000
+ },
+ {
+  "id": "DODOUSDT::ChoCh::1794560400000",
+  "symbol": "DODOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02742,
+  "sl": 0.02559,
+  "tp": 0.02951,
+  "tpSrc": "WH",
+  "slPct": 6.67,
+  "gainPct": 7.62,
+  "rr": 1.14,
+  "signalTime": 1794560400000,
+  "status": "pending",
+  "createdAt": 1794560443816
  }
 ]
