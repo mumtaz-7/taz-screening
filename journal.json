@@ -26859,12 +26859,15 @@
   "gainPct": 48.53,
   "rr": 3.42,
   "signalTime": 1794645000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794645037610,
   "fillTime": 1794645000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794652200000
  },
  {
   "id": "SOPHUSDT::ChoCh::1794650400000",
