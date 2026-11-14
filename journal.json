@@ -26846,5 +26846,20 @@
   ],
   "R": -1,
   "resolvedTime": 1794641400000
+ },
+ {
+  "id": "SHELLUSDT::ChoCh::1794645000000",
+  "symbol": "SHELLUSDT",
+  "setup": "ChoCh",
+  "entry": 0.03476,
+  "sl": 0.029824999999999997,
+  "tp": 0.05163,
+  "tpSrc": "WH",
+  "slPct": 14.2,
+  "gainPct": 48.53,
+  "rr": 3.42,
+  "signalTime": 1794645000000,
+  "status": "pending",
+  "createdAt": 1794645037610
  }
 ]
