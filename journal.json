@@ -26802,5 +26802,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BERAUSDT::BoS::1794614400000",
+  "symbol": "BERAUSDT",
+  "setup": "BoS",
+  "entry": 0.1139,
+  "sl": 0.10624999999999998,
+  "tp": 0.1236,
+  "tpSrc": "WH",
+  "slPct": 6.72,
+  "gainPct": 8.52,
+  "rr": 1.27,
+  "signalTime": 1794614400000,
+  "status": "pending",
+  "createdAt": 1794614443504
  }
 ]
