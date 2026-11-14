@@ -26824,5 +26824,20 @@
   ],
   "R": 1.27,
   "resolvedTime": 1794615300000
+ },
+ {
+  "id": "BMTUSDT::ChoCh::1794623400000",
+  "symbol": "BMTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02367,
+  "sl": 0.02166,
+  "tp": 0.02614,
+  "tpSrc": "WH",
+  "slPct": 8.49,
+  "gainPct": 10.44,
+  "rr": 1.23,
+  "signalTime": 1794623400000,
+  "status": "pending",
+  "createdAt": 1794623436999
  }
 ]
