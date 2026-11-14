@@ -26796,12 +26796,15 @@
   "gainPct": 16.42,
   "rr": 1.5,
   "signalTime": 1794596400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794596444926,
   "fillTime": 1794596400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794672000000
  },
  {
   "id": "BERAUSDT::BoS::1794614400000",
