@@ -26865,5 +26865,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SOPHUSDT::ChoCh::1794650400000",
+  "symbol": "SOPHUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00178,
+  "sl": 0.00148,
+  "tp": 0.00216,
+  "tpSrc": "WH",
+  "slPct": 16.85,
+  "gainPct": 21.35,
+  "rr": 1.27,
+  "signalTime": 1794650400000,
+  "status": "pending",
+  "createdAt": 1794650442200
  }
 ]
