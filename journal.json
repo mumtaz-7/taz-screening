@@ -26894,5 +26894,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "NIGHTUSDT::ChoCh::1794700800000",
+  "symbol": "NIGHTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.04704,
+  "sl": 0.04494,
+  "tp": 0.05126,
+  "tpSrc": "WH",
+  "slPct": 4.46,
+  "gainPct": 8.97,
+  "rr": 2.01,
+  "signalTime": 1794700800000,
+  "status": "pending",
+  "createdAt": 1794700849404
  }
 ]
