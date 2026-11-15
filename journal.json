@@ -26935,5 +26935,20 @@
   ],
   "R": -1,
   "resolvedTime": 1794705300000
+ },
+ {
+  "id": "BARDUSDT::ChoCh::1794719700000",
+  "symbol": "BARDUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1139,
+  "sl": 0.10880000000000001,
+  "tp": 0.13,
+  "tpSrc": "EQ",
+  "slPct": 4.48,
+  "gainPct": 14.14,
+  "rr": 3.16,
+  "signalTime": 1794719700000,
+  "status": "pending",
+  "createdAt": 1794719736332
  }
 ]
