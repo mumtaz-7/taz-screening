@@ -26907,12 +26907,15 @@
   "gainPct": 8.97,
   "rr": 2.01,
   "signalTime": 1794700800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794700849404,
   "fillTime": 1794700800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794812400000
  },
  {
   "id": "BARDUSDT::ChoCh::1794701700000",
