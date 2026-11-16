@@ -26992,12 +26992,15 @@
   "gainPct": 23.17,
   "rr": 1.09,
   "signalTime": 1794806100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1794806130100,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1794809700000
+  "fillTime": 1794809700000,
+  "R": 1.09,
+  "resolvedTime": 1794820500000
  },
  {
   "id": "GLMRUSDT::BoS::1794816000000",
