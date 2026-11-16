@@ -1,6 +1,7 @@
 {
   "ready": [
-    "INITUSDT::ChoCh"
+    "INITUSDT::ChoCh",
+    "NOMUSDT::BoS"
   ],
-  "at": "2026-11-16T18:45:42.562Z"
+  "at": "2026-11-16T19:00:47.546Z"
 }

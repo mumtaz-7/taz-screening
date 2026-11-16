@@ -27039,5 +27039,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NOMUSDT::BoS::1794855600000",
+  "symbol": "NOMUSDT",
+  "setup": "BoS",
+  "entry": 0.001246,
+  "sl": 0.001207,
+  "tp": 0.001398,
+  "tpSrc": "OB",
+  "slPct": 3.13,
+  "gainPct": 12.2,
+  "rr": 3.9,
+  "signalTime": 1794855600000,
+  "status": "pending",
+  "createdAt": 1794855647548
  }
 ]
