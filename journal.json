@@ -27058,5 +27058,20 @@
    "open"
   ],
   "fillTime": 1794861000000
+ },
+ {
+  "id": "GLMRUSDT::ChoCh::1794863700000",
+  "symbol": "GLMRUSDT",
+  "setup": "ChoCh",
+  "entry": 0.006765,
+  "sl": 0.006255,
+  "tp": 0.0073,
+  "tpSrc": "EQ",
+  "slPct": 7.54,
+  "gainPct": 7.91,
+  "rr": 1.05,
+  "signalTime": 1794863700000,
+  "status": "pending",
+  "createdAt": 1794863734032
  }
 ]
