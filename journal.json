@@ -26973,9 +26973,12 @@
   "gainPct": 15.52,
   "rr": 2.44,
   "signalTime": 1794795300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1794795332356,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "RAREUSDT::ChoCh::1794806100000",
