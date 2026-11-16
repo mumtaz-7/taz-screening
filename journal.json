@@ -26973,5 +26973,20 @@
   "status": "pending",
   "createdAt": 1794795332356,
   "notified": []
+ },
+ {
+  "id": "RAREUSDT::ChoCh::1794806100000",
+  "symbol": "RAREUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01325,
+  "sl": 0.010445,
+  "tp": 0.01632,
+  "tpSrc": "WH",
+  "slPct": 21.17,
+  "gainPct": 23.17,
+  "rr": 1.09,
+  "signalTime": 1794806100000,
+  "status": "pending",
+  "createdAt": 1794806130100
  }
 ]
