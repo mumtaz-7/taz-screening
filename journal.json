@@ -27099,5 +27099,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RAREUSDT::ChoCh::1794889800000",
+  "symbol": "RAREUSDT",
+  "setup": "ChoCh",
+  "entry": 0.01365,
+  "sl": 0.012705000000000001,
+  "tp": 0.014859999999999998,
+  "tpSrc": "EQ",
+  "slPct": 6.92,
+  "gainPct": 8.86,
+  "rr": 1.28,
+  "signalTime": 1794889800000,
+  "status": "pending",
+  "createdAt": 1794889840068
  }
 ]
