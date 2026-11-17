@@ -27033,12 +27033,15 @@
   "gainPct": 15.14,
   "rr": 3.56,
   "signalTime": 1794825000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794825039109,
   "fillTime": 1794825000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794896100000
  },
  {
   "id": "NOMUSDT::BoS::1794855600000",
@@ -27093,12 +27096,15 @@
   "gainPct": 18.65,
   "rr": 5.54,
   "signalTime": 1794883500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794883532133,
   "fillTime": 1794883500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794896100000
  },
  {
   "id": "RAREUSDT::ChoCh::1794889800000",
