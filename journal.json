@@ -27163,5 +27163,20 @@
    "open"
   ],
   "fillTime": 1794907800000
+ },
+ {
+  "id": "MMTUSDT::ChoCh::1794932100000",
+  "symbol": "MMTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1233,
+  "sl": 0.1116,
+  "tp": 0.1426,
+  "tpSrc": "WH",
+  "slPct": 9.49,
+  "gainPct": 15.65,
+  "rr": 1.65,
+  "signalTime": 1794932100000,
+  "status": "pending",
+  "createdAt": 1794932133709
  }
 ]
