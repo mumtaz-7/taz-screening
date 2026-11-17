@@ -27125,5 +27125,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "RAREUSDT::BoS::1794898800000",
+  "symbol": "RAREUSDT",
+  "setup": "BoS",
+  "entry": 0.015,
+  "sl": 0.012119999999999999,
+  "tp": 0.01834,
+  "tpSrc": "WH",
+  "slPct": 19.2,
+  "gainPct": 22.27,
+  "rr": 1.16,
+  "signalTime": 1794898800000,
+  "status": "pending",
+  "createdAt": 1794898846051
  }
 ]
