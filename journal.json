@@ -27077,5 +27077,20 @@
    "open"
   ],
   "fillTime": 1794866400000
+ },
+ {
+  "id": "INITUSDT::BoS::1794883500000",
+  "symbol": "INITUSDT",
+  "setup": "BoS",
+  "entry": 0.10424,
+  "sl": 0.10073000000000001,
+  "tp": 0.12368,
+  "tpSrc": "OB",
+  "slPct": 3.37,
+  "gainPct": 18.65,
+  "rr": 5.54,
+  "signalTime": 1794883500000,
+  "status": "pending",
+  "createdAt": 1794883532133
  }
 ]
