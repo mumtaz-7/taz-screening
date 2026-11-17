@@ -27071,12 +27071,15 @@
   "gainPct": 7.91,
   "rr": 1.05,
   "signalTime": 1794863700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1794863734032,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1794866400000
+  "fillTime": 1794866400000,
+  "R": 1.05,
+  "resolvedTime": 1794883500000
  },
  {
   "id": "INITUSDT::BoS::1794883500000",
@@ -27090,7 +27093,11 @@
   "gainPct": 18.65,
   "rr": 5.54,
   "signalTime": 1794883500000,
-  "status": "pending",
-  "createdAt": 1794883532133
+  "status": "open",
+  "createdAt": 1794883532133,
+  "fillTime": 1794883500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
