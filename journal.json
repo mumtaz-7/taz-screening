@@ -27144,5 +27144,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "LUNCUSDT::BoS::1794906000000",
+  "symbol": "LUNCUSDT",
+  "setup": "BoS",
+  "entry": 0.00003795,
+  "sl": 0.00003652499999999999,
+  "tp": 0.00004388,
+  "tpSrc": "WH",
+  "slPct": 3.75,
+  "gainPct": 15.63,
+  "rr": 4.16,
+  "signalTime": 1794906000000,
+  "status": "pending",
+  "createdAt": 1794906047575
  }
 ]
