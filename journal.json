@@ -27345,8 +27345,12 @@
   "gainPct": 24.12,
   "rr": 14.29,
   "signalTime": 1795005900000,
-  "status": "pending",
-  "createdAt": 1795005938095
+  "status": "open",
+  "createdAt": 1795005938095,
+  "fillTime": 1795005900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "HEIUSDT::BoS::1795005900000",
@@ -27361,6 +27365,7 @@
   "rr": 3.26,
   "signalTime": 1795005900000,
   "status": "pending",
-  "createdAt": 1795005938095
+  "createdAt": 1795005938095,
+  "notified": []
  }
 ]
