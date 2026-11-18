@@ -27223,5 +27223,35 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BREVUSDT::BoS::1794965400000",
+  "symbol": "BREVUSDT",
+  "setup": "BoS",
+  "entry": 0.117,
+  "sl": 0.102,
+  "tp": 0.135,
+  "tpSrc": "WH",
+  "slPct": 12.82,
+  "gainPct": 15.38,
+  "rr": 1.2,
+  "signalTime": 1794965400000,
+  "status": "pending",
+  "createdAt": 1794965439888
+ },
+ {
+  "id": "ICPUSDT::BoS::1794965400000",
+  "symbol": "ICPUSDT",
+  "setup": "BoS",
+  "entry": 2.295,
+  "sl": 2.235,
+  "tp": 2.578,
+  "tpSrc": "OB",
+  "slPct": 2.61,
+  "gainPct": 12.33,
+  "rr": 4.72,
+  "signalTime": 1794965400000,
+  "status": "pending",
+  "createdAt": 1794965439888
  }
 ]
