@@ -27138,12 +27138,15 @@
   "gainPct": 22.27,
   "rr": 1.16,
   "signalTime": 1794898800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794898846051,
   "fillTime": 1794898800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794978900000
  },
  {
   "id": "LUNCUSDT::BoS::1794906000000",
@@ -27262,5 +27265,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BREVUSDT::ChoCh::1794979800000",
+  "symbol": "BREVUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1192,
+  "sl": 0.10225,
+  "tp": 0.1383,
+  "tpSrc": "WH",
+  "slPct": 14.22,
+  "gainPct": 16.02,
+  "rr": 1.13,
+  "signalTime": 1794979800000,
+  "status": "pending",
+  "createdAt": 1794979842348
  }
 ]
