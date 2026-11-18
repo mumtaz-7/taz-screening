@@ -27262,12 +27262,15 @@
   "gainPct": 12.33,
   "rr": 4.72,
   "signalTime": 1794965400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794965439888,
   "fillTime": 1794965400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795004100000
  },
  {
   "id": "BREVUSDT::ChoCh::1794979800000",
