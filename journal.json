@@ -27370,5 +27370,20 @@
    "open"
   ],
   "fillTime": 1795013100000
+ },
+ {
+  "id": "MMTUSDT::BoS::1795021200000",
+  "symbol": "MMTUSDT",
+  "setup": "BoS",
+  "entry": 0.249,
+  "sl": 0.2229,
+  "tp": 0.2833,
+  "tpSrc": "WH",
+  "slPct": 10.48,
+  "gainPct": 13.78,
+  "rr": 1.31,
+  "signalTime": 1795021200000,
+  "status": "pending",
+  "createdAt": 1795021246832
  }
 ]
