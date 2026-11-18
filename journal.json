@@ -27236,8 +27236,13 @@
   "gainPct": 15.38,
   "rr": 1.2,
   "signalTime": 1794965400000,
-  "status": "pending",
-  "createdAt": 1794965439888
+  "status": "void",
+  "createdAt": 1794965439888,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1794965400000,
+  "notified": [
+   "void"
+  ]
  },
  {
   "id": "ICPUSDT::BoS::1794965400000",
@@ -27251,7 +27256,11 @@
   "gainPct": 12.33,
   "rr": 4.72,
   "signalTime": 1794965400000,
-  "status": "pending",
-  "createdAt": 1794965439888
+  "status": "open",
+  "createdAt": 1794965439888,
+  "fillTime": 1794965400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
