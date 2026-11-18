@@ -27332,5 +27332,35 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1794988800000
+ },
+ {
+  "id": "BLURUSDT::BoS::1795005900000",
+  "symbol": "BLURUSDT",
+  "setup": "BoS",
+  "entry": 0.00622,
+  "sl": 0.006115000000000001,
+  "tp": 0.00772,
+  "tpSrc": "WH",
+  "slPct": 1.69,
+  "gainPct": 24.12,
+  "rr": 14.29,
+  "signalTime": 1795005900000,
+  "status": "pending",
+  "createdAt": 1795005938095
+ },
+ {
+  "id": "HEIUSDT::BoS::1795005900000",
+  "symbol": "HEIUSDT",
+  "setup": "BoS",
+  "entry": 0.0853,
+  "sl": 0.08095,
+  "tp": 0.0995,
+  "tpSrc": "WH",
+  "slPct": 5.1,
+  "gainPct": 16.65,
+  "rr": 3.26,
+  "signalTime": 1795005900000,
+  "status": "pending",
+  "createdAt": 1795005938095
  }
 ]
