@@ -27220,12 +27220,15 @@
   "gainPct": 8.26,
   "rr": 1.43,
   "signalTime": 1794957300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794957331235,
   "fillTime": 1794957300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1794981600000
  },
  {
   "id": "BREVUSDT::BoS::1794965400000",
@@ -27284,5 +27287,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BLURUSDT::ChoCh::1794982500000",
+  "symbol": "BLURUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00623,
+  "sl": 0.006064999999999999,
+  "tp": 0.006835000000000001,
+  "tpSrc": "EQ",
+  "slPct": 2.65,
+  "gainPct": 9.71,
+  "rr": 3.67,
+  "signalTime": 1794982500000,
+  "status": "pending",
+  "createdAt": 1794982536127
  }
 ]
