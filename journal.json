@@ -27566,5 +27566,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BMTUSDT::ChoCh::1795108500000",
+  "symbol": "BMTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0207,
+  "sl": 0.019469999999999998,
+  "tp": 0.0236,
+  "tpSrc": "WH",
+  "slPct": 5.94,
+  "gainPct": 14.01,
+  "rr": 2.36,
+  "signalTime": 1795108500000,
+  "status": "pending",
+  "createdAt": 1795108532554
  }
 ]
