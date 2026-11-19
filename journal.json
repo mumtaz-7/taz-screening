@@ -27541,8 +27541,11 @@
   "gainPct": 25.6,
   "rr": 3.58,
   "signalTime": 1795094100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1795094134592,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1795102200000
  }
 ]
