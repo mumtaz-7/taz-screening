@@ -27484,5 +27484,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ONDOUSDT::BoS::1795088700000",
+  "symbol": "ONDOUSDT",
+  "setup": "BoS",
+  "entry": 0.3054,
+  "sl": 0.30165,
+  "tp": 0.3294,
+  "tpSrc": "OB",
+  "slPct": 1.23,
+  "gainPct": 7.86,
+  "rr": 6.4,
+  "signalTime": 1795088700000,
+  "status": "pending",
+  "createdAt": 1795088733701
  }
 ]
