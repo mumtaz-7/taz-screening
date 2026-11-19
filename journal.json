@@ -27461,5 +27461,20 @@
   ],
   "R": -1,
   "resolvedTime": 1795053600000
+ },
+ {
+  "id": "INITUSDT::BoS::1795075200000",
+  "symbol": "INITUSDT",
+  "setup": "BoS",
+  "entry": 0.10167,
+  "sl": 0.097965,
+  "tp": 0.124,
+  "tpSrc": "WH",
+  "slPct": 3.64,
+  "gainPct": 21.96,
+  "rr": 6.03,
+  "signalTime": 1795075200000,
+  "status": "pending",
+  "createdAt": 1795075246466
  }
 ]
