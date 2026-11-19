@@ -27522,5 +27522,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HUMAUSDT::ChoCh::1795094100000",
+  "symbol": "HUMAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0084,
+  "sl": 0.0078000000000000005,
+  "tp": 0.01055,
+  "tpSrc": "WH",
+  "slPct": 7.14,
+  "gainPct": 25.6,
+  "rr": 3.58,
+  "signalTime": 1795094100000,
+  "status": "pending",
+  "createdAt": 1795094134592
  }
 ]
