@@ -27411,5 +27411,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZKCUSDT::ChoCh::1795047300000",
+  "symbol": "ZKCUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0323,
+  "sl": 0.02855,
+  "tp": 0.0383,
+  "tpSrc": "WH",
+  "slPct": 11.61,
+  "gainPct": 18.58,
+  "rr": 1.6,
+  "signalTime": 1795047300000,
+  "status": "pending",
+  "createdAt": 1795047332581
  }
 ]
