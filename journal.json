@@ -27497,12 +27497,15 @@
   "gainPct": 7.86,
   "rr": 6.4,
   "signalTime": 1795088700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795088733701,
   "fillTime": 1795088700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795101300000
  },
  {
   "id": "MMTUSDT::ChoCh::1795090500000",
@@ -27516,12 +27519,15 @@
   "gainPct": 39.08,
   "rr": 4.96,
   "signalTime": 1795090500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795090537150,
   "fillTime": 1795090500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.96,
+  "resolvedTime": 1795101300000
  },
  {
   "id": "HUMAUSDT::ChoCh::1795094100000",
