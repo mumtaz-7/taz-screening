@@ -27503,5 +27503,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MMTUSDT::ChoCh::1795090500000",
+  "symbol": "MMTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2037,
+  "sl": 0.18765,
+  "tp": 0.2833,
+  "tpSrc": "WH",
+  "slPct": 7.88,
+  "gainPct": 39.08,
+  "rr": 4.96,
+  "signalTime": 1795090500000,
+  "status": "pending",
+  "createdAt": 1795090537150
  }
 ]
