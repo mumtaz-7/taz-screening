@@ -27055,12 +27055,15 @@
   "gainPct": 12.2,
   "rr": 3.9,
   "signalTime": 1794855600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794855647548,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1794861000000
+  "fillTime": 1794861000000,
+  "R": -1,
+  "resolvedTime": 1795187700000
  },
  {
   "id": "GLMRUSDT::ChoCh::1794863700000",
