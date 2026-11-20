@@ -27629,5 +27629,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HUMAUSDT::BoS::1795180500000",
+  "symbol": "HUMAUSDT",
+  "setup": "BoS",
+  "entry": 0.00947,
+  "sl": 0.00893,
+  "tp": 0.01055,
+  "tpSrc": "WH",
+  "slPct": 5.7,
+  "gainPct": 11.4,
+  "rr": 2,
+  "signalTime": 1795180500000,
+  "status": "pending",
+  "createdAt": 1795180532950
  }
 ]
