@@ -27544,12 +27544,15 @@
   "gainPct": 25.6,
   "rr": 3.58,
   "signalTime": 1795094100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795094134592,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1795102200000
+  "fillTime": 1795102200000,
+  "R": 3.58,
+  "resolvedTime": 1795184100000
  },
  {
   "id": "INITUSDT::ChoCh::1795104900000",
@@ -27642,11 +27645,14 @@
   "gainPct": 11.4,
   "rr": 2,
   "signalTime": 1795180500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795180532950,
   "fillTime": 1795180500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2,
+  "resolvedTime": 1795184100000
  }
 ]
