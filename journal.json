@@ -27610,5 +27610,20 @@
   "status": "pending",
   "createdAt": 1795169734223,
   "notified": []
+ },
+ {
+  "id": "MMTUSDT::ChoCh::1795172400000",
+  "symbol": "MMTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.259,
+  "sl": 0.2251,
+  "tp": 0.3177,
+  "tpSrc": "WH",
+  "slPct": 13.09,
+  "gainPct": 22.66,
+  "rr": 1.73,
+  "signalTime": 1795172400000,
+  "status": "pending",
+  "createdAt": 1795172444982
  }
 ]
