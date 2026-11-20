@@ -27376,12 +27376,15 @@
   "gainPct": 16.65,
   "rr": 3.26,
   "signalTime": 1795005900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795005938095,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1795013100000
+  "fillTime": 1795013100000,
+  "R": -1,
+  "resolvedTime": 1795188600000
  },
  {
   "id": "MMTUSDT::BoS::1795021200000",
