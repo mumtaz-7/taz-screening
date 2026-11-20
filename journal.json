@@ -27594,5 +27594,20 @@
   ],
   "R": 2.36,
   "resolvedTime": 1795162500000
+ },
+ {
+  "id": "SENTUSDT::ChoCh::1795169700000",
+  "symbol": "SENTUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0212,
+  "sl": 0.019385,
+  "tp": 0.02678,
+  "tpSrc": "WH",
+  "slPct": 8.56,
+  "gainPct": 26.32,
+  "rr": 3.07,
+  "signalTime": 1795169700000,
+  "status": "pending",
+  "createdAt": 1795169734223
  }
 ]
