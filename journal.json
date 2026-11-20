@@ -27666,5 +27666,20 @@
   ],
   "R": 2,
   "resolvedTime": 1795184100000
+ },
+ {
+  "id": "RAREUSDT::BoS::1795203000000",
+  "symbol": "RAREUSDT",
+  "setup": "BoS",
+  "entry": 0.01366,
+  "sl": 0.011649999999999999,
+  "tp": 0.01674,
+  "tpSrc": "OB",
+  "slPct": 14.71,
+  "gainPct": 22.55,
+  "rr": 1.53,
+  "signalTime": 1795203000000,
+  "status": "pending",
+  "createdAt": 1795203039066
  }
 ]
