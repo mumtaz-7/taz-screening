@@ -27708,5 +27708,20 @@
   ],
   "R": 2.6,
   "resolvedTime": 1795221900000
+ },
+ {
+  "id": "KERNELUSDT::BoS::1795223700000",
+  "symbol": "KERNELUSDT",
+  "setup": "BoS",
+  "entry": 0.0496,
+  "sl": 0.043,
+  "tp": 0.0638,
+  "tpSrc": "WH",
+  "slPct": 13.31,
+  "gainPct": 28.63,
+  "rr": 2.15,
+  "signalTime": 1795223700000,
+  "status": "pending",
+  "createdAt": 1795223731565
  }
 ]
