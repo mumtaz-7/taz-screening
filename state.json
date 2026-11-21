@@ -1,6 +1,7 @@
 {
   "ready": [
-    "KERNELUSDT::BoS"
+    "KERNELUSDT::BoS",
+    "YBUSDT::BoS"
   ],
-  "at": "2026-11-21T19:45:31.696Z"
+  "at": "2026-11-21T20:00:44.292Z"
 }

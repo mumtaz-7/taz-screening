@@ -27945,5 +27945,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "YBUSDT::BoS::1795291200000",
+  "symbol": "YBUSDT",
+  "setup": "BoS",
+  "entry": 0.0563,
+  "sl": 0.05195,
+  "tp": 0.074,
+  "tpSrc": "WH",
+  "slPct": 7.73,
+  "gainPct": 31.44,
+  "rr": 4.07,
+  "signalTime": 1795291200000,
+  "status": "pending",
+  "createdAt": 1795291244292
  }
 ]
