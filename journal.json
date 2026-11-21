@@ -27926,5 +27926,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "KERNELUSDT::BoS::1795289400000",
+  "symbol": "KERNELUSDT",
+  "setup": "BoS",
+  "entry": 0.0435,
+  "sl": 0.04245,
+  "tp": 0.0638,
+  "tpSrc": "WH",
+  "slPct": 2.41,
+  "gainPct": 46.67,
+  "rr": 19.33,
+  "signalTime": 1795289400000,
+  "status": "pending",
+  "createdAt": 1795289438317
  }
 ]
