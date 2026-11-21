@@ -27812,5 +27812,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BARDUSDT::BoS::1795264200000",
+  "symbol": "BARDUSDT",
+  "setup": "BoS",
+  "entry": 0.094,
+  "sl": 0.08755,
+  "tp": 0.1251,
+  "tpSrc": "OB",
+  "slPct": 6.86,
+  "gainPct": 33.09,
+  "rr": 4.82,
+  "signalTime": 1795264200000,
+  "status": "pending",
+  "createdAt": 1795264240588
  }
 ]
