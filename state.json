@@ -1,7 +1,8 @@
 {
   "ready": [
     "BARDUSDT::BoS",
-    "DODOUSDT::ChoCh"
+    "DODOUSDT::ChoCh",
+    "ENSOUSDT::ChoCh"
   ],
-  "at": "2026-11-21T17:15:31.036Z"
+  "at": "2026-11-21T17:30:39.367Z"
 }
