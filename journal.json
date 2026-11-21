@@ -27834,5 +27834,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "KERNELUSDT::ChoCh::1795266900000",
+  "symbol": "KERNELUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0441,
+  "sl": 0.041550000000000004,
+  "tp": 0.05109999999999999,
+  "tpSrc": "EQ",
+  "slPct": 5.78,
+  "gainPct": 15.87,
+  "rr": 2.75,
+  "signalTime": 1795266900000,
+  "status": "pending",
+  "createdAt": 1795266941010
  }
 ]
