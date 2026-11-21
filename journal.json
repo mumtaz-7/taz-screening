@@ -27942,12 +27942,15 @@
   "gainPct": 46.67,
   "rr": 19.33,
   "signalTime": 1795289400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795289438317,
   "fillTime": 1795289400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795298400000
  },
  {
   "id": "YBUSDT::BoS::1795291200000",
