@@ -27619,12 +27619,15 @@
   "gainPct": 26.32,
   "rr": 3.07,
   "signalTime": 1795169700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795169734223,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1795186800000
+  "fillTime": 1795186800000,
+  "R": -1,
+  "resolvedTime": 1795229100000
  },
  {
   "id": "MMTUSDT::ChoCh::1795172400000",
@@ -27740,7 +27743,11 @@
   "gainPct": 9.91,
   "rr": 1.9,
   "signalTime": 1795229100000,
-  "status": "pending",
-  "createdAt": 1795229132008
+  "status": "open",
+  "createdAt": 1795229132008,
+  "fillTime": 1795229100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
