@@ -1,6 +1,7 @@
 {
   "ready": [
-    "PROMUSDT::BoS"
+    "PROMUSDT::BoS",
+    "RAREUSDT::BoS"
   ],
-  "at": "2026-11-21T11:15:33.004Z"
+  "at": "2026-11-21T11:30:38.142Z"
 }
