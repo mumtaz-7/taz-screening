@@ -27686,5 +27686,20 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "BARDUSDT::ChoCh::1795220100000",
+  "symbol": "BARDUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0926,
+  "sl": 0.08945,
+  "tp": 0.1008,
+  "tpSrc": "EQ",
+  "slPct": 3.4,
+  "gainPct": 8.86,
+  "rr": 2.6,
+  "signalTime": 1795220100000,
+  "status": "pending",
+  "createdAt": 1795220133878
  }
 ]
