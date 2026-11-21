@@ -27850,5 +27850,35 @@
   "status": "pending",
   "createdAt": 1795266941010,
   "notified": []
+ },
+ {
+  "id": "BLURUSDT::ChoCh::1795269600000",
+  "symbol": "BLURUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0072,
+  "sl": 0.0066,
+  "tp": 0.00794,
+  "tpSrc": "WH",
+  "slPct": 8.33,
+  "gainPct": 10.28,
+  "rr": 1.23,
+  "signalTime": 1795269600000,
+  "status": "pending",
+  "createdAt": 1795269649205
+ },
+ {
+  "id": "牛来USDT::BoS::1795269600000",
+  "symbol": "牛来USDT",
+  "setup": "BoS",
+  "entry": 0.03625,
+  "sl": 0.033505,
+  "tp": 0.04,
+  "tpSrc": "WH",
+  "slPct": 7.57,
+  "gainPct": 10.34,
+  "rr": 1.37,
+  "signalTime": 1795269600000,
+  "status": "pending",
+  "createdAt": 1795269649205
  }
 ]

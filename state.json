@@ -1,7 +1,8 @@
 {
   "ready": [
-    "BARDUSDT::BoS",
-    "KERNELUSDT::ChoCh"
+    "BLURUSDT::ChoCh",
+    "KERNELUSDT::ChoCh",
+    "牛来USDT::BoS"
   ],
-  "at": "2026-11-21T13:45:31.067Z"
+  "at": "2026-11-21T14:00:49.204Z"
 }
