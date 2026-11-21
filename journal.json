@@ -27641,12 +27641,15 @@
   "gainPct": 22.66,
   "rr": 1.73,
   "signalTime": 1795172400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795172444982,
   "fillTime": 1795172400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795264200000
  },
  {
   "id": "HUMAUSDT::BoS::1795180500000",
@@ -27825,7 +27828,11 @@
   "gainPct": 33.09,
   "rr": 4.82,
   "signalTime": 1795264200000,
-  "status": "pending",
-  "createdAt": 1795264240588
+  "status": "open",
+  "createdAt": 1795264240588,
+  "fillTime": 1795264200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
