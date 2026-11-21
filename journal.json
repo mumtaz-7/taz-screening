@@ -27765,12 +27765,15 @@
   "gainPct": 19.2,
   "rr": 2.91,
   "signalTime": 1795231800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795231837643,
   "fillTime": 1795231800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.91,
+  "resolvedTime": 1795246200000
  },
  {
   "id": "RAREUSDT::BoS::1795238100000",
