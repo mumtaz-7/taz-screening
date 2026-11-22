@@ -27749,12 +27749,15 @@
   "gainPct": 9.91,
   "rr": 1.9,
   "signalTime": 1795229100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795229132008,
   "fillTime": 1795229100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.9,
+  "resolvedTime": 1795336200000
  },
  {
   "id": "YBUSDT::ChoCh::1795231800000",
