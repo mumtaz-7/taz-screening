@@ -27926,12 +27926,15 @@
   "gainPct": 12.24,
   "rr": 2.19,
   "signalTime": 1795282200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795282239368,
   "fillTime": 1795282200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.19,
+  "resolvedTime": 1795310100000
  },
  {
   "id": "KERNELUSDT::BoS::1795289400000",
