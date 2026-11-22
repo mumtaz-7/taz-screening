@@ -27970,12 +27970,15 @@
   "gainPct": 31.44,
   "rr": 4.07,
   "signalTime": 1795291200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795291244292,
   "fillTime": 1795291200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795318200000
  },
  {
   "id": "ORCAUSDT::ChoCh::1795297500000",
