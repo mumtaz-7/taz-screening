@@ -27847,12 +27847,15 @@
   "gainPct": 15.87,
   "rr": 2.75,
   "signalTime": 1795266900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795266941010,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1795271400000
+  "fillTime": 1795271400000,
+  "R": -1,
+  "resolvedTime": 1795308300000
  },
  {
   "id": "BLURUSDT::ChoCh::1795269600000",
