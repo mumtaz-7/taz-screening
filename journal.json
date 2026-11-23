@@ -27878,12 +27878,15 @@
   "gainPct": 10.28,
   "rr": 1.23,
   "signalTime": 1795269600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795269649205,
   "fillTime": 1795269600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.23,
+  "resolvedTime": 1795409100000
  },
  {
   "id": "牛来USDT::BoS::1795269600000",
