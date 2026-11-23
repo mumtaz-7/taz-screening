@@ -28086,5 +28086,20 @@
    "open"
   ],
   "fillTime": 1795413600000
+ },
+ {
+  "id": "XVGUSDT::ChoCh::1795423500000",
+  "symbol": "XVGUSDT",
+  "setup": "ChoCh",
+  "entry": 0.001516,
+  "sl": 0.0014784999999999998,
+  "tp": 0.0016719999999999999,
+  "tpSrc": "EQ",
+  "slPct": 2.47,
+  "gainPct": 10.29,
+  "rr": 4.16,
+  "signalTime": 1795423500000,
+  "status": "pending",
+  "createdAt": 1795423536854
  }
 ]
