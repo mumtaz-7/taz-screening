@@ -28029,5 +28029,20 @@
   "fillTime": 1795338000000,
   "R": -1,
   "resolvedTime": 1795353300000
+ },
+ {
+  "id": "ENAUSDT::ChoCh::1795404600000",
+  "symbol": "ENAUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1014,
+  "sl": 0.10019999999999998,
+  "tp": 0.1116,
+  "tpSrc": "OB",
+  "slPct": 1.18,
+  "gainPct": 10.06,
+  "rr": 8.5,
+  "signalTime": 1795404600000,
+  "status": "pending",
+  "createdAt": 1795404636103
  }
 ]
