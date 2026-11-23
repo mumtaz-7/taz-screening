@@ -28065,7 +28065,8 @@
   "rr": 1.94,
   "signalTime": 1795411800000,
   "status": "pending",
-  "createdAt": 1795411837018
+  "createdAt": 1795411837018,
+  "notified": []
  },
  {
   "id": "牛来USDT::ChoCh::1795411800000",
@@ -28080,6 +28081,7 @@
   "rr": 1.51,
   "signalTime": 1795411800000,
   "status": "pending",
-  "createdAt": 1795411837018
+  "createdAt": 1795411837018,
+  "notified": []
  }
 ]
