@@ -28051,5 +28051,35 @@
    "open"
   ],
   "fillTime": 1795405500000
+ },
+ {
+  "id": "MARSCOINUSDT::ChoCh::1795411800000",
+  "symbol": "MARSCOINUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0301,
+  "sl": 0.028450000000000003,
+  "tp": 0.0333,
+  "tpSrc": "WH",
+  "slPct": 5.48,
+  "gainPct": 10.63,
+  "rr": 1.94,
+  "signalTime": 1795411800000,
+  "status": "pending",
+  "createdAt": 1795411837018
+ },
+ {
+  "id": "牛来USDT::ChoCh::1795411800000",
+  "symbol": "牛来USDT",
+  "setup": "ChoCh",
+  "entry": 0.03951,
+  "sl": 0.036794999999999994,
+  "tp": 0.04362,
+  "tpSrc": "OB",
+  "slPct": 6.87,
+  "gainPct": 10.4,
+  "rr": 1.51,
+  "signalTime": 1795411800000,
+  "status": "pending",
+  "createdAt": 1795411837018
  }
 ]
