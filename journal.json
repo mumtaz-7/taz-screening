@@ -28105,5 +28105,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "牛来USDT::BoS::1795426200000",
+  "symbol": "牛来USDT",
+  "setup": "BoS",
+  "entry": 0.04041,
+  "sl": 0.039255,
+  "tp": 0.04362,
+  "tpSrc": "OB",
+  "slPct": 2.86,
+  "gainPct": 7.94,
+  "rr": 2.78,
+  "signalTime": 1795426200000,
+  "status": "pending",
+  "createdAt": 1795426239843
  }
 ]
