@@ -28133,5 +28133,20 @@
   ],
   "R": -1,
   "resolvedTime": 1795427100000
+ },
+ {
+  "id": "PENGUUSDT::BoS::1795442400000",
+  "symbol": "PENGUUSDT",
+  "setup": "BoS",
+  "entry": 0.004395,
+  "sl": 0.0042675,
+  "tp": 0.004827,
+  "tpSrc": "OB",
+  "slPct": 2.9,
+  "gainPct": 9.83,
+  "rr": 3.39,
+  "signalTime": 1795442400000,
+  "status": "pending",
+  "createdAt": 1795442451838
  }
 ]
