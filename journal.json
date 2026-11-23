@@ -28171,9 +28171,12 @@
   "gainPct": 9.58,
   "rr": 2.02,
   "signalTime": 1795443300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1795443339665,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "CHIPUSDT::ChoCh::1795446000000",
