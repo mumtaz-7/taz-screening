@@ -28045,12 +28045,15 @@
   "gainPct": 10.06,
   "rr": 8.5,
   "signalTime": 1795404600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795404636103,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1795405500000
+  "fillTime": 1795405500000,
+  "R": 8.5,
+  "resolvedTime": 1795442400000
  },
  {
   "id": "MARSCOINUSDT::ChoCh::1795411800000",
@@ -28083,12 +28086,15 @@
   "gainPct": 10.4,
   "rr": 1.51,
   "signalTime": 1795411800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795411837018,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1795413600000
+  "fillTime": 1795413600000,
+  "R": 1.51,
+  "resolvedTime": 1795442400000
  },
  {
   "id": "XVGUSDT::ChoCh::1795423500000",
@@ -28147,6 +28153,22 @@
   "rr": 3.39,
   "signalTime": 1795442400000,
   "status": "pending",
-  "createdAt": 1795442451838
+  "createdAt": 1795442451838,
+  "notified": []
+ },
+ {
+  "id": "ALLOUSDT::ChoCh::1795443300000",
+  "symbol": "ALLOUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1263,
+  "sl": 0.12030000000000002,
+  "tp": 0.1384,
+  "tpSrc": "WH",
+  "slPct": 4.75,
+  "gainPct": 9.58,
+  "rr": 2.02,
+  "signalTime": 1795443300000,
+  "status": "pending",
+  "createdAt": 1795443339665
  }
 ]
