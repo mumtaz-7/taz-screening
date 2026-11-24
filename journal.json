@@ -27922,12 +27922,15 @@
   "gainPct": 11.49,
   "rr": 1.18,
   "signalTime": 1795281300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795281331037,
   "fillTime": 1795281300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.18,
+  "resolvedTime": 1795524300000
  },
  {
   "id": "ENSOUSDT::ChoCh::1795282200000",
