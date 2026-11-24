@@ -28303,12 +28303,15 @@
   "gainPct": 10.21,
   "rr": 1.52,
   "signalTime": 1795499100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795499134539,
   "fillTime": 1795499100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795533300000
  },
  {
   "id": "FETUSDT::BoS::1795529700000",
