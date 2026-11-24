@@ -28334,5 +28334,20 @@
    "open"
   ],
   "fillTime": 1795530600000
+ },
+ {
+  "id": "ZECUSDT::ChoCh::1795554000000",
+  "symbol": "ZECUSDT",
+  "setup": "ChoCh",
+  "entry": 728.79,
+  "sl": 692.925,
+  "tp": 804.1800000000001,
+  "tpSrc": "EQ",
+  "slPct": 4.92,
+  "gainPct": 10.34,
+  "rr": 2.1,
+  "signalTime": 1795554000000,
+  "status": "pending",
+  "createdAt": 1795554042352
  }
 ]
