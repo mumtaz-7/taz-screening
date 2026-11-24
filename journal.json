@@ -28209,12 +28209,15 @@
   "gainPct": 10.27,
   "rr": 3.58,
   "signalTime": 1795478400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795478445155,
   "fillTime": 1795478400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795485600000
  },
  {
   "id": "CHIPUSDT::ChoCh::1795480200000",
@@ -28247,7 +28250,11 @@
   "gainPct": 9.22,
   "rr": 5.03,
   "signalTime": 1795485600000,
-  "status": "pending",
-  "createdAt": 1795485643118
+  "status": "open",
+  "createdAt": 1795485643118,
+  "fillTime": 1795485600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
