@@ -28196,5 +28196,20 @@
    "void"
   ],
   "voidReason": "ga-retest"
+ },
+ {
+  "id": "牛来USDT::ChoCh::1795478400000",
+  "symbol": "牛来USDT",
+  "setup": "ChoCh",
+  "entry": 0.04344,
+  "sl": 0.042195,
+  "tp": 0.0479,
+  "tpSrc": "WH",
+  "slPct": 2.87,
+  "gainPct": 10.27,
+  "rr": 3.58,
+  "signalTime": 1795478400000,
+  "status": "pending",
+  "createdAt": 1795478445155
  }
 ]
