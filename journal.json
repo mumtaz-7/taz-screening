@@ -27014,12 +27014,15 @@
   "gainPct": 26.75,
   "rr": 3.16,
   "signalTime": 1794816000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1794816043242,
   "fillTime": 1794816000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795534200000
  },
  {
   "id": "INITUSDT::ChoCh::1794825000000",
