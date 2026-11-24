@@ -28275,12 +28275,15 @@
   "gainPct": 12.79,
   "rr": 3.02,
   "signalTime": 1795494600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795494637621,
   "fillTime": 1795494600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795517100000
  },
  {
   "id": "PUMPUSDT::ChoCh::1795499100000",
