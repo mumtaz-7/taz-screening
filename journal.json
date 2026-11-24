@@ -28309,5 +28309,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FETUSDT::BoS::1795529700000",
+  "symbol": "FETUSDT",
+  "setup": "BoS",
+  "entry": 0.1071,
+  "sl": 0.1041,
+  "tp": 0.1232,
+  "tpSrc": "OB",
+  "slPct": 2.8,
+  "gainPct": 15.03,
+  "rr": 5.37,
+  "signalTime": 1795529700000,
+  "status": "pending",
+  "createdAt": 1795529732844
  }
 ]
