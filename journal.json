@@ -28401,5 +28401,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "OPGUSDT::ChoCh::1795621500000",
+  "symbol": "OPGUSDT",
+  "setup": "ChoCh",
+  "entry": 0.1641,
+  "sl": 0.15435,
+  "tp": 0.1844,
+  "tpSrc": "WH",
+  "slPct": 5.94,
+  "gainPct": 12.37,
+  "rr": 2.08,
+  "signalTime": 1795621500000,
+  "status": "pending",
+  "createdAt": 1795621542355
  }
 ]
