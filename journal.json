@@ -28382,5 +28382,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1795587300000
+ },
+ {
+  "id": "ATMUSDT::ChoCh::1795618800000",
+  "symbol": "ATMUSDT",
+  "setup": "ChoCh",
+  "entry": 0.856,
+  "sl": 0.8094999999999999,
+  "tp": 0.9245,
+  "tpSrc": "EQ",
+  "slPct": 5.43,
+  "gainPct": 8,
+  "rr": 1.47,
+  "signalTime": 1795618800000,
+  "status": "pending",
+  "createdAt": 1795618846103
  }
 ]
