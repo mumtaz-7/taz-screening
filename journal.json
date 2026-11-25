@@ -28356,5 +28356,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BIGTIMEUSDT::BoS::1795581000000",
+  "symbol": "BIGTIMEUSDT",
+  "setup": "BoS",
+  "entry": 0.0048,
+  "sl": 0.0036900000000000006,
+  "tp": 0.008,
+  "tpSrc": "WH",
+  "slPct": 23.12,
+  "gainPct": 66.67,
+  "rr": 2.88,
+  "signalTime": 1795581000000,
+  "status": "pending",
+  "createdAt": 1795581036808
  }
 ]
