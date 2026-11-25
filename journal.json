@@ -28420,5 +28420,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ATMUSDT::BoS::1795630500000",
+  "symbol": "ATMUSDT",
+  "setup": "BoS",
+  "entry": 0.854,
+  "sl": 0.8225,
+  "tp": 1.129,
+  "tpSrc": "WH",
+  "slPct": 3.69,
+  "gainPct": 32.2,
+  "rr": 8.73,
+  "signalTime": 1795630500000,
+  "status": "pending",
+  "createdAt": 1795630533291
  }
 ]
