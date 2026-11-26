@@ -28455,8 +28455,26 @@
   "gainPct": 12.98,
   "rr": 3.22,
   "signalTime": 1795640400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1795640443664,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1795651200000
+ },
+ {
+  "id": "AEROUSDT::BoS::1795652100000",
+  "symbol": "AEROUSDT",
+  "setup": "BoS",
+  "entry": 0.4039,
+  "sl": 0.3961,
+  "tp": 0.456,
+  "tpSrc": "WH",
+  "slPct": 1.93,
+  "gainPct": 12.9,
+  "rr": 6.68,
+  "signalTime": 1795652100000,
+  "status": "pending",
+  "createdAt": 1795652130590
  }
 ]
