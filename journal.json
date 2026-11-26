@@ -28609,5 +28609,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BIGTIMEUSDT::ChoCh::1795734000000",
+  "symbol": "BIGTIMEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00572,
+  "sl": 0.005509999999999999,
+  "tp": 0.008005,
+  "tpSrc": "EQ",
+  "slPct": 3.67,
+  "gainPct": 39.95,
+  "rr": 10.88,
+  "signalTime": 1795734000000,
+  "status": "pending",
+  "createdAt": 1795734045018
  }
 ]
