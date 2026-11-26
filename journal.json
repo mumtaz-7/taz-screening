@@ -28480,12 +28480,15 @@
   "gainPct": 12.9,
   "rr": 6.68,
   "signalTime": 1795652100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795652130590,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1795653000000
+  "fillTime": 1795653000000,
+  "R": -1,
+  "resolvedTime": 1795705200000
  },
  {
   "id": "ZROUSDT::ChoCh::1795668300000",
@@ -28556,8 +28559,11 @@
   "gainPct": 11,
   "rr": 1.44,
   "signalTime": 1795704300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1795704331543,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1795705200000
  }
 ]
