@@ -28455,12 +28455,15 @@
   "gainPct": 12.98,
   "rr": 3.22,
   "signalTime": 1795640400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795640443664,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1795651200000
+  "fillTime": 1795651200000,
+  "R": 3.22,
+  "resolvedTime": 1795653900000
  },
  {
   "id": "AEROUSDT::BoS::1795652100000",
