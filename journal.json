@@ -28559,12 +28559,15 @@
   "gainPct": 11,
   "rr": 1.44,
   "signalTime": 1795704300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795704331543,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1795705200000
+  "fillTime": 1795705200000,
+  "R": 1.44,
+  "resolvedTime": 1795725000000
  },
  {
   "id": "ZECUSDT::ChoCh::1795719600000",
