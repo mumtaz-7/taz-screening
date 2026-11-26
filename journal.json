@@ -28524,5 +28524,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "WLDUSDT::ChoCh::1795694400000",
+  "symbol": "WLDUSDT",
+  "setup": "ChoCh",
+  "entry": 0.2452,
+  "sl": 0.23664999999999997,
+  "tp": 0.2624,
+  "tpSrc": "OB",
+  "slPct": 3.49,
+  "gainPct": 7.01,
+  "rr": 2.01,
+  "signalTime": 1795694400000,
+  "status": "pending",
+  "createdAt": 1795694442195
  }
 ]
