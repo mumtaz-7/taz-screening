@@ -28584,12 +28584,15 @@
   "gainPct": 10.66,
   "rr": 2.35,
   "signalTime": 1795719600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795719644004,
   "fillTime": 1795719600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795734000000
  },
  {
   "id": "CFGUSDT::ChoCh::1795720500000",
@@ -28622,7 +28625,11 @@
   "gainPct": 39.95,
   "rr": 10.88,
   "signalTime": 1795734000000,
-  "status": "pending",
-  "createdAt": 1795734045018
+  "status": "open",
+  "createdAt": 1795734045018,
+  "fillTime": 1795734000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
