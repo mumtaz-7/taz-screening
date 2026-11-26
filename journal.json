@@ -28543,5 +28543,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SSVUSDT::BoS::1795704300000",
+  "symbol": "SSVUSDT",
+  "setup": "BoS",
+  "entry": 2.654,
+  "sl": 2.4515000000000002,
+  "tp": 2.946,
+  "tpSrc": "WH",
+  "slPct": 7.63,
+  "gainPct": 11,
+  "rr": 1.44,
+  "signalTime": 1795704300000,
+  "status": "pending",
+  "createdAt": 1795704331543
  }
 ]
