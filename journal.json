@@ -28502,12 +28502,15 @@
   "gainPct": 7.84,
   "rr": 3.69,
   "signalTime": 1795668300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795668330205,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1795671900000
+  "fillTime": 1795671900000,
+  "R": 3.69,
+  "resolvedTime": 1795729500000
  },
  {
   "id": "OPGUSDT::ChoCh::1795682700000",
