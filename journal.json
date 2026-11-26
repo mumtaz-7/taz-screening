@@ -28414,12 +28414,15 @@
   "gainPct": 12.37,
   "rr": 2.08,
   "signalTime": 1795621500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795621542355,
   "fillTime": 1795621500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795650300000
  },
  {
   "id": "ATMUSDT::BoS::1795630500000",
