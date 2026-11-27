@@ -28844,5 +28844,20 @@
   "status": "pending",
   "createdAt": 1795811440177,
   "notified": []
+ },
+ {
+  "id": "HAEDALUSDT::ChoCh::1795816800000",
+  "symbol": "HAEDALUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02337,
+  "sl": 0.021240000000000002,
+  "tp": 0.031,
+  "tpSrc": "WH",
+  "slPct": 9.11,
+  "gainPct": 32.65,
+  "rr": 3.58,
+  "signalTime": 1795816800000,
+  "status": "pending",
+  "createdAt": 1795816842413
  }
 ]
