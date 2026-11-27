@@ -28644,7 +28644,26 @@
   "gainPct": 29.46,
   "rr": 2.25,
   "signalTime": 1795737600000,
+  "status": "open",
+  "createdAt": 1795737646812,
+  "fillTime": 1795737600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "MEUSDT::ChoCh::1795738500000",
+  "symbol": "MEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.04337,
+  "sl": 0.040369999999999996,
+  "tp": 0.05414,
+  "tpSrc": "WH",
+  "slPct": 6.92,
+  "gainPct": 24.83,
+  "rr": 3.59,
+  "signalTime": 1795738500000,
   "status": "pending",
-  "createdAt": 1795737646812
+  "createdAt": 1795738529904
  }
 ]
