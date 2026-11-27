@@ -28395,12 +28395,15 @@
   "gainPct": 8,
   "rr": 1.47,
   "signalTime": 1795618800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795618846103,
   "fillTime": 1795618800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795791600000
  },
  {
   "id": "OPGUSDT::ChoCh::1795621500000",
@@ -28713,12 +28716,15 @@
   "gainPct": 7.5,
   "rr": 1.57,
   "signalTime": 1795746600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795746636068,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1795747500000
+  "fillTime": 1795747500000,
+  "R": -1,
+  "resolvedTime": 1795791600000
  },
  {
   "id": "BLURUSDT::BoS::1795750200000",
