@@ -28606,12 +28606,15 @@
   "gainPct": 19.05,
   "rr": 4.92,
   "signalTime": 1795720500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1795720530914,
   "fillTime": 1795720500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.92,
+  "resolvedTime": 1795770900000
  },
  {
   "id": "BIGTIMEUSDT::ChoCh::1795734000000",
