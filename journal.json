@@ -28735,5 +28735,20 @@
   "fillTime": 1795751100000,
   "R": -1,
   "resolvedTime": 1795752900000
+ },
+ {
+  "id": "牛来USDT::BoS::1795779000000",
+  "symbol": "牛来USDT",
+  "setup": "BoS",
+  "entry": 0.04789,
+  "sl": 0.04513,
+  "tp": 0.0517,
+  "tpSrc": "WH",
+  "slPct": 5.76,
+  "gainPct": 7.96,
+  "rr": 1.38,
+  "signalTime": 1795779000000,
+  "status": "pending",
+  "createdAt": 1795779042471
  }
 ]
