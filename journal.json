@@ -28789,5 +28789,20 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1795785300000
+ },
+ {
+  "id": "HEIUSDT::ChoCh::1795797000000",
+  "symbol": "HEIUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0836,
+  "sl": 0.07295,
+  "tp": 0.0974,
+  "tpSrc": "WH",
+  "slPct": 12.74,
+  "gainPct": 16.51,
+  "rr": 1.3,
+  "signalTime": 1795797000000,
+  "status": "pending",
+  "createdAt": 1795797044687
  }
 ]
