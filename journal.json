@@ -28707,5 +28707,20 @@
    "open"
   ],
   "fillTime": 1795747500000
+ },
+ {
+  "id": "BLURUSDT::BoS::1795750200000",
+  "symbol": "BLURUSDT",
+  "setup": "BoS",
+  "entry": 0.0101,
+  "sl": 0.00953,
+  "tp": 0.01153,
+  "tpSrc": "WH",
+  "slPct": 5.64,
+  "gainPct": 14.16,
+  "rr": 2.51,
+  "signalTime": 1795750200000,
+  "status": "pending",
+  "createdAt": 1795750236550
  }
 ]
