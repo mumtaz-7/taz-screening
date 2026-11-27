@@ -28748,7 +28748,26 @@
   "gainPct": 7.96,
   "rr": 1.38,
   "signalTime": 1795779000000,
+  "status": "open",
+  "createdAt": 1795779042471,
+  "fillTime": 1795779000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "KAVAUSDT::BoS::1795779900000",
+  "symbol": "KAVAUSDT",
+  "setup": "BoS",
+  "entry": 0.02536,
+  "sl": 0.02437,
+  "tp": 0.02802,
+  "tpSrc": "WH",
+  "slPct": 3.9,
+  "gainPct": 10.49,
+  "rr": 2.69,
+  "signalTime": 1795779900000,
   "status": "pending",
-  "createdAt": 1795779042471
+  "createdAt": 1795779930734
  }
 ]
