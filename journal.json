@@ -28688,12 +28688,15 @@
   "gainPct": 7.14,
   "rr": 1.82,
   "signalTime": 1795745700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795745731288,
   "fillTime": 1795745700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795784400000
  },
  {
   "id": "2ZUSDT::BoS::1795746600000",
