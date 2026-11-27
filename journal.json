@@ -28754,12 +28754,15 @@
   "gainPct": 7.96,
   "rr": 1.38,
   "signalTime": 1795779000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795779042471,
   "fillTime": 1795779000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795790700000
  },
  {
   "id": "KAVAUSDT::BoS::1795779900000",
