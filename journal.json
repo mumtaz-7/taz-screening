@@ -28863,5 +28863,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "YBUSDT::ChoCh::1795819500000",
+  "symbol": "YBUSDT",
+  "setup": "ChoCh",
+  "entry": 0.058,
+  "sl": 0.05635,
+  "tp": 0.0676,
+  "tpSrc": "WH",
+  "slPct": 2.84,
+  "gainPct": 16.55,
+  "rr": 5.82,
+  "signalTime": 1795819500000,
+  "status": "pending",
+  "createdAt": 1795819529923
  }
 ]
