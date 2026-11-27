@@ -28631,5 +28631,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MOVEUSDT::ChoCh::1795737600000",
+  "symbol": "MOVEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.006002,
+  "sl": 0.005216,
+  "tp": 0.00777,
+  "tpSrc": "WH",
+  "slPct": 13.1,
+  "gainPct": 29.46,
+  "rr": 2.25,
+  "signalTime": 1795737600000,
+  "status": "pending",
+  "createdAt": 1795737646812
  }
 ]
