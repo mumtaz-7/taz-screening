@@ -28802,7 +28802,26 @@
   "gainPct": 16.51,
   "rr": 1.3,
   "signalTime": 1795797000000,
+  "status": "open",
+  "createdAt": 1795797044687,
+  "fillTime": 1795797000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "PORTALUSDT::BoS::1795797900000",
+  "symbol": "PORTALUSDT",
+  "setup": "BoS",
+  "entry": 0.0269,
+  "sl": 0.018035000000000002,
+  "tp": 0.03579,
+  "tpSrc": "WH",
+  "slPct": 32.96,
+  "gainPct": 33.05,
+  "rr": 1,
+  "signalTime": 1795797900000,
   "status": "pending",
-  "createdAt": 1795797044687
+  "createdAt": 1795797932027
  }
 ]
