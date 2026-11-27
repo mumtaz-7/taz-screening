@@ -28682,7 +28682,26 @@
   "gainPct": 7.14,
   "rr": 1.82,
   "signalTime": 1795745700000,
+  "status": "open",
+  "createdAt": 1795745731288,
+  "fillTime": 1795745700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "2ZUSDT::BoS::1795746600000",
+  "symbol": "2ZUSDT",
+  "setup": "BoS",
+  "entry": 0.01786,
+  "sl": 0.017005,
+  "tp": 0.0192,
+  "tpSrc": "WH",
+  "slPct": 4.79,
+  "gainPct": 7.5,
+  "rr": 1.57,
+  "signalTime": 1795746600000,
   "status": "pending",
-  "createdAt": 1795745731288
+  "createdAt": 1795746636068
  }
 ]
