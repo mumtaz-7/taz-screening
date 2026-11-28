@@ -29029,5 +29029,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ACEUSDT::BoS::1795871700000",
+  "symbol": "ACEUSDT",
+  "setup": "BoS",
+  "entry": 0.1027,
+  "sl": 0.09040000000000001,
+  "tp": 0.115,
+  "tpSrc": "WH",
+  "slPct": 11.98,
+  "gainPct": 11.98,
+  "rr": 1,
+  "signalTime": 1795871700000,
+  "status": "pending",
+  "createdAt": 1795871730214
  }
 ]
