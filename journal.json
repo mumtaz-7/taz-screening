@@ -28975,5 +28975,20 @@
    "open"
   ],
   "fillTime": 1795858200000
+ },
+ {
+  "id": "ACEUSDT::ChoCh::1795860000000",
+  "symbol": "ACEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0914,
+  "sl": 0.07160000000000001,
+  "tp": 0.115,
+  "tpSrc": "WH",
+  "slPct": 21.66,
+  "gainPct": 25.82,
+  "rr": 1.19,
+  "signalTime": 1795860000000,
+  "status": "pending",
+  "createdAt": 1795860042655
  }
 ]
