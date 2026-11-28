@@ -28991,5 +28991,20 @@
   "status": "pending",
   "createdAt": 1795860042655,
   "notified": []
+ },
+ {
+  "id": "SKYUSDT::ChoCh::1795865400000",
+  "symbol": "SKYUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0506,
+  "sl": 0.04883,
+  "tp": 0.05471,
+  "tpSrc": "WH",
+  "slPct": 3.5,
+  "gainPct": 8.12,
+  "rr": 2.32,
+  "signalTime": 1795865400000,
+  "status": "pending",
+  "createdAt": 1795865440698
  }
 ]
