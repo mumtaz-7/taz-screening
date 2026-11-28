@@ -28656,12 +28656,15 @@
   "gainPct": 29.46,
   "rr": 2.25,
   "signalTime": 1795737600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795737646812,
   "fillTime": 1795737600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795843800000
  },
  {
   "id": "MEUSDT::ChoCh::1795738500000",
