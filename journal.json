@@ -28841,9 +28841,12 @@
   "gainPct": 10.49,
   "rr": 7.79,
   "signalTime": 1795811400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1795811440177,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "HAEDALUSDT::ChoCh::1795816800000",
