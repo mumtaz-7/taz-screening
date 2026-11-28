@@ -1,7 +1,8 @@
 {
   "ready": [
     "ACEUSDT::BoS",
-    "COOKIEUSDT::BoS"
+    "COOKIEUSDT::BoS",
+    "SSVUSDT::BoS"
   ],
-  "at": "2026-11-28T13:15:30.213Z"
+  "at": "2026-11-28T13:30:39.004Z"
 }
