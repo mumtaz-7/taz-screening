@@ -28882,5 +28882,20 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CFGUSDT::ChoCh::1795827600000",
+  "symbol": "CFGUSDT",
+  "setup": "ChoCh",
+  "entry": 0.0588,
+  "sl": 0.0543,
+  "tp": 0.0699,
+  "tpSrc": "WH",
+  "slPct": 7.65,
+  "gainPct": 18.88,
+  "rr": 2.47,
+  "signalTime": 1795827600000,
+  "status": "pending",
+  "createdAt": 1795827640712
  }
 ]
