@@ -28863,12 +28863,15 @@
   "gainPct": 32.65,
   "rr": 3.58,
   "signalTime": 1795816800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795816842413,
   "fillTime": 1795816800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795842900000
  },
  {
   "id": "YBUSDT::ChoCh::1795819500000",
@@ -28924,6 +28927,7 @@
   "rr": 5.45,
   "signalTime": 1795842900000,
   "status": "pending",
-  "createdAt": 1795842931042
+  "createdAt": 1795842931042,
+  "notified": []
  }
 ]
