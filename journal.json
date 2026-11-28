@@ -28634,12 +28634,15 @@
   "gainPct": 39.95,
   "rr": 10.88,
   "signalTime": 1795734000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795734045018,
   "fillTime": 1795734000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795837500000
  },
  {
   "id": "MOVEUSDT::ChoCh::1795737600000",
