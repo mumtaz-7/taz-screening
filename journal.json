@@ -29010,12 +29010,15 @@
   "gainPct": 8.12,
   "rr": 2.32,
   "signalTime": 1795865400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1795865440698,
   "fillTime": 1795865400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1795887000000
  },
  {
   "id": "COOKIEUSDT::BoS::1795869900000",
@@ -29076,5 +29079,20 @@
    "open"
   ],
   "fillTime": 1795873500000
+ },
+ {
+  "id": "HAEDALUSDT::ChoCh::1795887900000",
+  "symbol": "HAEDALUSDT",
+  "setup": "ChoCh",
+  "entry": 0.02032,
+  "sl": 0.019075,
+  "tp": 0.02445,
+  "tpSrc": "EQ",
+  "slPct": 6.13,
+  "gainPct": 20.32,
+  "rr": 3.32,
+  "signalTime": 1795887900000,
+  "status": "pending",
+  "createdAt": 1795887932336
  }
 ]
