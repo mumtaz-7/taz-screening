@@ -28956,5 +28956,20 @@
   "R": -1,
   "fillTime": 1795849200000,
   "resolvedTime": 1795849200000
+ },
+ {
+  "id": "COOKIEUSDT::ChoCh::1795857300000",
+  "symbol": "COOKIEUSDT",
+  "setup": "ChoCh",
+  "entry": 0.00758,
+  "sl": 0.007355,
+  "tp": 0.008995,
+  "tpSrc": "EQ",
+  "slPct": 2.97,
+  "gainPct": 18.67,
+  "rr": 6.29,
+  "signalTime": 1795857300000,
+  "status": "pending",
+  "createdAt": 1795857333822
  }
 ]
