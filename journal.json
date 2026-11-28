@@ -28910,5 +28910,20 @@
   ],
   "R": 2.47,
   "resolvedTime": 1795834800000
+ },
+ {
+  "id": "YBUSDT::BoS::1795842900000",
+  "symbol": "YBUSDT",
+  "setup": "BoS",
+  "entry": 0.0586,
+  "sl": 0.05695,
+  "tp": 0.0676,
+  "tpSrc": "WH",
+  "slPct": 2.82,
+  "gainPct": 15.36,
+  "rr": 5.45,
+  "signalTime": 1795842900000,
+  "status": "pending",
+  "createdAt": 1795842931042
  }
 ]
