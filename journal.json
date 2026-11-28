@@ -28935,5 +28935,20 @@
    "open"
   ],
   "fillTime": 1795844700000
+ },
+ {
+  "id": "KAVAUSDT::BoS::1795848300000",
+  "symbol": "KAVAUSDT",
+  "setup": "BoS",
+  "entry": 0.02736,
+  "sl": 0.026565,
+  "tp": 0.03162,
+  "tpSrc": "WH",
+  "slPct": 2.91,
+  "gainPct": 15.57,
+  "rr": 5.36,
+  "signalTime": 1795848300000,
+  "status": "pending",
+  "createdAt": 1795848335801
  }
 ]
